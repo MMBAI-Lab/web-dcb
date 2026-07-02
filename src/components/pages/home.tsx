@@ -19,8 +19,10 @@ const cardAccents = ["border-t-teal", "border-t-crimson", "border-t-gold"];
 const cardMotifs: IconName[] = ["celula-vegetal", "moleculas", "monitor", "hojas", "microscopio", "jeringa"];
 const cardRadii = ["rounded-2xl", "rounded-[1.75rem_1.75rem_1.75rem_0.5rem]", "rounded-[1.75rem_0.5rem_1.75rem_1.75rem]"];
 
-// Bigger icons drift slowly over a modest distance; smaller ones dart
-// around fast over a much larger distance (relative to their own size).
+// Bigger icons glide slowly over a shorter straight line; smaller ones
+// dart fast over a much longer one. `dir` is +1 (drifts right) or -1
+// (drifts left) so neighboring icons visibly cross paths instead of all
+// sliding the same way.
 function motif(
   icon: IconName,
   top: string,
@@ -28,39 +30,52 @@ function motif(
   size: number,
   rotate: number,
   delay: number,
-  opacity = 0.32,
+  dir: 1 | -1 = 1,
+  opacity = 0.26,
 ) {
   const duration = Math.max(4.5, Math.min(34, size / 11 + 3));
-  const drift = Math.max(18, Math.min(110, 3400 / size));
-  return { icon, top, left, size, rotate, opacity, duration, delay, driftX: drift, driftY: -drift * 0.8 };
+  const distance = Math.max(260, Math.min(820, 860 - size * 1.4));
+  return {
+    icon,
+    top,
+    left,
+    size,
+    rotate,
+    opacity,
+    duration,
+    delay,
+    driftX: distance * dir,
+    driftY: distance * 0.18 * (rotate < 0 ? -1 : 1),
+  };
 }
 
 // The user's own hand-drawn icon set, extracted from
 // data/old/images/IconosDCB_fondo.svg — full color, no copyright issue.
 // One continuous field spans the hero + welcome blocks (no seam between
-// them), sized very disparately: huge, slow icons down to tiny, fast ones.
+// them). Icons slide in a straight line — some left-to-right, some
+// right-to-left — fading in/out at each end instead of bouncing back.
 const topMotifs = [
-  motif("moleculas", "-2%", "66%", 380, -4, 0),
-  motif("neurona", "26%", "-8%", 340, 3, 1),
-  motif("monitor", "1%", "4%", 210, -3, 1.4),
-  motif("microscopio", "4%", "88%", 180, 4, 0.4),
-  motif("pez", "16%", "40%", 150, 4, 0.9),
-  motif("jeringa", "20%", "94%", 90, 12, 0.8),
-  motif("pastillas", "8%", "58%", 50, 20, 2.6),
-  motif("hojas", "2%", "38%", 42, 15, 1.9),
-  motif("moleculas", "34%", "24%", 30, -10, 3.2),
+  motif("moleculas", "-2%", "40%", 380, -4, 0, 1),
+  motif("neurona", "26%", "10%", 340, 3, 1, -1),
+  motif("monitor", "1%", "2%", 210, -3, 1.4, 1),
+  motif("microscopio", "4%", "70%", 180, 4, 0.4, -1),
+  motif("pez", "16%", "30%", 150, 4, 0.9, 1),
+  motif("jeringa", "20%", "80%", 90, 12, 0.8, -1),
+  motif("pastillas", "8%", "50%", 50, 20, 2.6, 1),
+  motif("hojas", "2%", "20%", 42, 15, 1.9, -1),
+  motif("moleculas", "34%", "6%", 30, -10, 3.2, 1),
 
-  motif("celula-vegetal", "40%", "58%", 260, 0, 2),
-  motif("hojas", "48%", "30%", 190, -6, 1.6),
-  motif("vaca", "56%", "80%", 160, 0, 2.1),
-  motif("pastillas", "44%", "10%", 120, -8, 0.2),
-  motif("neurona", "62%", "50%", 60, 30, 2.1),
-  motif("jeringa", "38%", "70%", 34, -18, 3.6),
+  motif("celula-vegetal", "40%", "40%", 260, 0, 2, -1),
+  motif("hojas", "48%", "14%", 190, -6, 1.6, 1),
+  motif("vaca", "56%", "60%", 160, 0, 2.1, -1),
+  motif("pastillas", "44%", "4%", 120, -8, 0.2, 1),
+  motif("neurona", "62%", "34%", 60, 30, 2.1, -1),
+  motif("jeringa", "38%", "50%", 34, -18, 3.6, 1),
 
-  motif("hojas", "74%", "2%", 130, -10, 1.4),
-  motif("moleculas", "70%", "48%", 280, 6, 0.3),
-  motif("pastillas", "82%", "6%", 55, 40, 4.1),
-  motif("microscopio", "86%", "84%", 44, -14, 3.8),
+  motif("hojas", "74%", "0%", 130, -10, 1.4, -1),
+  motif("moleculas", "70%", "30%", 280, 6, 0.3, 1),
+  motif("pastillas", "82%", "4%", 55, 40, 4.1, -1),
+  motif("microscopio", "86%", "56%", 44, -14, 3.8, 1),
 ];
 
 export function Home() {
@@ -161,7 +176,7 @@ export function Home() {
 
       <section className="relative overflow-hidden border-t border-border bg-surface">
         <IconMotifField
-          placements={[motif("moleculas", "40%", "-8%", 220, 0, 0, 0.18)]}
+          placements={[motif("moleculas", "40%", "-8%", 220, 0, 0, 1, 0.15)]}
         />
         <div className="relative mx-auto max-w-6xl px-5 py-12 sm:px-8">
           <Reveal>

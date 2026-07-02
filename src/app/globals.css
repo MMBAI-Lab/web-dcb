@@ -65,21 +65,33 @@ body {
   color: var(--foreground);
 }
 
+/*
+ * One-way slide instead of an out-and-back wobble: each icon fades in,
+ * glides in a straight line (direction/distance set per icon via
+ * --motif-drift-x/-y), then fades out right as the loop resets — so the
+ * reset itself is invisible instead of reading as a back-and-forth.
+ */
 @keyframes motif-float {
   0% {
     transform: translate(0, 0) rotate(var(--motif-rotate, 0deg));
+    opacity: 0;
   }
-  50% {
-    transform: translate(var(--motif-drift-x, 10px), var(--motif-drift-y, -16px))
-      rotate(calc(var(--motif-rotate, 0deg) + 6deg));
+  10% {
+    opacity: var(--motif-opacity, 0.3);
+  }
+  90% {
+    opacity: var(--motif-opacity, 0.3);
   }
   100% {
-    transform: translate(0, 0) rotate(var(--motif-rotate, 0deg));
+    transform: translate(var(--motif-drift-x, 400px), var(--motif-drift-y, 0px))
+      rotate(var(--motif-rotate, 0deg));
+    opacity: 0;
   }
 }
 
 .motif-floating {
-  animation: motif-float var(--motif-duration, 14s) ease-in-out infinite;
+  opacity: 0;
+  animation: motif-float var(--motif-duration, 14s) linear infinite;
   animation-delay: var(--motif-delay, 0s);
 }
 

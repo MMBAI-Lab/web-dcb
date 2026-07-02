@@ -50,7 +50,11 @@ export function IconMotifField({ placements }: { placements: Placement[] }) {
                 left,
                 width: size,
                 height: "auto",
+                // Static fallback for prefers-reduced-motion (animation
+                // disabled); while animating, the keyframe's opacity
+                // (driven by --motif-opacity) takes over.
                 opacity,
+                "--motif-opacity": opacity,
                 "--motif-rotate": `${rotate}deg`,
                 "--motif-duration": `${duration}s`,
                 "--motif-delay": `${delay}s`,
