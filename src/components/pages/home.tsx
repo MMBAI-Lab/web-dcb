@@ -107,14 +107,26 @@ export function Home() {
             <span className="h-1.5 w-1.5 rounded-full bg-crimson" />
             {t("eyebrow")}
           </motion.p>
-          <motion.h1
+          <motion.div
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="max-w-3xl font-serif text-4xl font-medium leading-tight sm:text-6xl"
+            className="flex items-center gap-5 sm:gap-7"
           >
-            {t("title")}
-          </motion.h1>
+            <span className="relative hidden h-20 w-20 shrink-0 sm:block sm:h-28 sm:w-28">
+              <Image
+                src={asset("/images/logos/dcb-icon.png")}
+                alt="DCB"
+                fill
+                sizes="112px"
+                className="object-contain"
+                priority
+              />
+            </span>
+            <h1 className="max-w-3xl font-serif text-4xl font-medium leading-tight sm:text-6xl">
+              {t("title")}
+            </h1>
+          </motion.div>
           <motion.p
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
