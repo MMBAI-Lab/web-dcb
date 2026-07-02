@@ -23,6 +23,8 @@ import {
   LeafMotif,
   PillMotif,
   BacteriaMotif,
+  GogglesMotif,
+  DotClusterMotif,
 } from "@/components/ui/science-motifs";
 
 type Fact = { value: string; label: string };
@@ -35,21 +37,37 @@ const cardAccents = ["border-t-teal", "border-t-crimson", "border-t-gold"];
 const cardMotifs = [CellMotif, MoleculeMotif, PhyloTreeMotif, DnaMotif, ChromosomeMotif, NetworkMotif];
 const cardRadii = ["rounded-2xl", "rounded-[1.75rem_1.75rem_1.75rem_0.5rem]", "rounded-[1.75rem_0.5rem_1.75rem_1.75rem]"];
 
+// Sizes are deliberately disparate — large motifs drift slowly, small
+// ones drift much faster, like the reference collage but as thin,
+// monochrome line-art instead of full-color illustration.
 const heroMotifs = [
-  { Icon: DnaMotif, top: "4%", left: "76%", size: 200, rotate: -8, color: "teal" as const, opacity: 0.1, duration: 16, delay: 0, driftX: 10, driftY: -18 },
-  { Icon: MoleculeMotif, top: "55%", left: "86%", size: 130, rotate: 10, color: "gold" as const, opacity: 0.11, duration: 13, delay: 1.2, driftX: -14, driftY: 12 },
-  { Icon: PhyloTreeMotif, top: "62%", left: "2%", size: 160, rotate: 4, color: "crimson" as const, opacity: 0.09, duration: 18, delay: 0.6, driftX: 12, driftY: 14 },
-  { Icon: NetworkMotif, top: "2%", left: "4%", size: 100, rotate: -6, color: "teal" as const, opacity: 0.08, duration: 15, delay: 2, driftX: -10, driftY: -12 },
-  { Icon: MicroscopeMotif, top: "12%", left: "92%", size: 90, rotate: 6, color: "crimson" as const, opacity: 0.12, duration: 12, delay: 0.4, driftX: 8, driftY: 16 },
-  { Icon: FlaskMotif, top: "72%", left: "70%", size: 110, rotate: -12, color: "teal" as const, opacity: 0.1, duration: 17, delay: 1.6, driftX: -12, driftY: -14 },
-  { Icon: TestTubeMotif, top: "40%", left: "94%", size: 70, rotate: 16, color: "gold" as const, opacity: 0.12, duration: 11, delay: 0.8, driftX: 10, driftY: -10 },
-  { Icon: AtomMotif, top: "82%", left: "30%", size: 120, rotate: 0, color: "gold" as const, opacity: 0.09, duration: 19, delay: 2.4, driftX: 14, driftY: -10 },
-  { Icon: MagnifyingGlassMotif, top: "20%", left: "56%", size: 60, rotate: -10, color: "crimson" as const, opacity: 0.08, duration: 10, delay: 1, driftX: -8, driftY: 10 },
-  { Icon: LeafMotif, top: "6%", left: "40%", size: 55, rotate: 20, color: "teal" as const, opacity: 0.1, duration: 13, delay: 2.8, driftX: 8, driftY: 12 },
-  { Icon: PillMotif, top: "88%", left: "8%", size: 65, rotate: 30, color: "crimson" as const, opacity: 0.1, duration: 14, delay: 0.2, driftX: -10, driftY: -8 },
-  { Icon: BacteriaMotif, top: "30%", left: "8%", size: 85, rotate: -4, color: "gold" as const, opacity: 0.09, duration: 16, delay: 1.8, driftX: 10, driftY: 10 },
-  { Icon: ChromosomeMotif, top: "78%", left: "48%", size: 75, rotate: 8, color: "teal" as const, opacity: 0.08, duration: 15, delay: 2.2, driftX: -8, driftY: 12 },
-  { Icon: CellMotif, top: "48%", left: "60%", size: 95, rotate: -6, color: "crimson" as const, opacity: 0.07, duration: 20, delay: 0.9, driftX: 12, driftY: -12 },
+  // Extra-large, slow
+  { Icon: DnaMotif, top: "0%", left: "70%", size: 300, rotate: -8, color: "teal" as const, opacity: 0.08, duration: 30, delay: 0, driftX: 14, driftY: -22 },
+  { Icon: PhyloTreeMotif, top: "55%", left: "-4%", size: 260, rotate: 4, color: "crimson" as const, opacity: 0.07, duration: 28, delay: 1, driftX: 16, driftY: 18 },
+  { Icon: AtomMotif, top: "68%", left: "62%", size: 240, rotate: 0, color: "gold" as const, opacity: 0.07, duration: 26, delay: 2, driftX: -14, driftY: -16 },
+  // Large
+  { Icon: MoleculeMotif, top: "50%", left: "88%", size: 170, rotate: 10, color: "gold" as const, opacity: 0.1, duration: 20, delay: 1.2, driftX: -14, driftY: 12 },
+  { Icon: NetworkMotif, top: "2%", left: "2%", size: 150, rotate: -6, color: "teal" as const, opacity: 0.09, duration: 22, delay: 2, driftX: -10, driftY: -12 },
+  { Icon: BacteriaMotif, top: "26%", left: "6%", size: 140, rotate: -4, color: "gold" as const, opacity: 0.09, duration: 19, delay: 1.8, driftX: 10, driftY: 10 },
+  // Medium
+  { Icon: MicroscopeMotif, top: "10%", left: "92%", size: 110, rotate: 6, color: "crimson" as const, opacity: 0.12, duration: 15, delay: 0.4, driftX: 8, driftY: 16 },
+  { Icon: FlaskMotif, top: "74%", left: "34%", size: 120, rotate: -12, color: "teal" as const, opacity: 0.1, duration: 16, delay: 1.6, driftX: -12, driftY: -14 },
+  { Icon: CellMotif, top: "44%", left: "58%", size: 100, rotate: -6, color: "crimson" as const, opacity: 0.08, duration: 17, delay: 0.9, driftX: 12, driftY: -12 },
+  { Icon: GogglesMotif, top: "18%", left: "44%", size: 95, rotate: -4, color: "teal" as const, opacity: 0.09, duration: 14, delay: 0.6, driftX: -10, driftY: 10 },
+  { Icon: ChromosomeMotif, top: "82%", left: "82%", size: 90, rotate: 8, color: "teal" as const, opacity: 0.08, duration: 18, delay: 2.2, driftX: -8, driftY: 12 },
+  // Small, faster
+  { Icon: TestTubeMotif, top: "38%", left: "96%", size: 60, rotate: 16, color: "gold" as const, opacity: 0.12, duration: 9, delay: 0.8, driftX: 10, driftY: -10 },
+  { Icon: MagnifyingGlassMotif, top: "24%", left: "60%", size: 55, rotate: -10, color: "crimson" as const, opacity: 0.1, duration: 8, delay: 1, driftX: -8, driftY: 10 },
+  { Icon: LeafMotif, top: "4%", left: "38%", size: 50, rotate: 20, color: "teal" as const, opacity: 0.1, duration: 8.5, delay: 2.8, driftX: 8, driftY: 12 },
+  { Icon: PillMotif, top: "88%", left: "6%", size: 60, rotate: 30, color: "crimson" as const, opacity: 0.11, duration: 7.5, delay: 0.2, driftX: -10, driftY: -8 },
+  { Icon: FlaskMotif, top: "6%", left: "16%", size: 45, rotate: 24, color: "gold" as const, opacity: 0.1, duration: 7, delay: 1.4, driftX: 8, driftY: -8 },
+  { Icon: TestTubeMotif, top: "60%", left: "44%", size: 40, rotate: -20, color: "teal" as const, opacity: 0.1, duration: 6.5, delay: 2.4, driftX: -8, driftY: 8 },
+  // Tiny, fastest
+  { Icon: DotClusterMotif, top: "14%", left: "26%", size: 30, rotate: 0, color: "gold" as const, opacity: 0.16, duration: 5, delay: 0.3, driftX: 6, driftY: -6 },
+  { Icon: DotClusterMotif, top: "66%", left: "18%", size: 26, rotate: 0, color: "crimson" as const, opacity: 0.14, duration: 4.5, delay: 1.1, driftX: -6, driftY: 6 },
+  { Icon: DotClusterMotif, top: "48%", left: "76%", size: 34, rotate: 0, color: "teal" as const, opacity: 0.14, duration: 5.5, delay: 1.9, driftX: 6, driftY: 6 },
+  { Icon: PillMotif, top: "32%", left: "50%", size: 30, rotate: 45, color: "gold" as const, opacity: 0.13, duration: 5, delay: 2.6, driftX: -6, driftY: -6 },
+  { Icon: LeafMotif, top: "92%", left: "58%", size: 32, rotate: -10, color: "crimson" as const, opacity: 0.12, duration: 6, delay: 0.5, driftX: 6, driftY: -6 },
 ];
 
 export function Home() {
@@ -113,9 +131,11 @@ export function Home() {
       <section className="relative overflow-hidden">
         <MotifField
           placements={[
-            { Icon: DnaMotif, top: "4%", left: "58%", size: 130, rotate: 8, color: "gold", opacity: 0.1, duration: 15, delay: 0.3 },
-            { Icon: LeafMotif, top: "80%", left: "3%", size: 60, rotate: -14, color: "teal", opacity: 0.1, duration: 12, delay: 1.4, driftX: 8, driftY: 10 },
-            { Icon: AtomMotif, top: "6%", left: "2%", size: 70, rotate: 0, color: "crimson", opacity: 0.08, duration: 17, delay: 0.8, driftX: -8, driftY: 10 },
+            { Icon: DnaMotif, top: "0%", left: "54%", size: 220, rotate: 8, color: "gold", opacity: 0.08, duration: 24, delay: 0.3, driftX: 12, driftY: -16 },
+            { Icon: LeafMotif, top: "80%", left: "3%", size: 60, rotate: -14, color: "teal", opacity: 0.1, duration: 9, delay: 1.4, driftX: 8, driftY: 10 },
+            { Icon: AtomMotif, top: "4%", left: "0%", size: 100, rotate: 0, color: "crimson", opacity: 0.08, duration: 18, delay: 0.8, driftX: -8, driftY: 10 },
+            { Icon: DotClusterMotif, top: "60%", left: "48%", size: 26, rotate: 0, color: "gold", opacity: 0.15, duration: 5, delay: 1.6, driftX: 6, driftY: -6 },
+            { Icon: PillMotif, top: "40%", left: "8%", size: 34, rotate: 40, color: "crimson", opacity: 0.12, duration: 6, delay: 2.1, driftX: -6, driftY: 6 },
           ]}
         />
         <div className="relative mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 md:grid-cols-[1fr_0.9fr] md:items-center">

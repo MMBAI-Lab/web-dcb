@@ -109,12 +109,40 @@ export function MicroscopeMotif(props: SVGProps<SVGSVGElement>) {
 export function FlaskMotif(props: SVGProps<SVGSVGElement>) {
   return (
     <Base {...props}>
+      <path d="M63 4c5 4 7 8 3 12" />
       <path d="M48 12h24M52 12v28L28 92a8 8 0 0 0 7 12h50a8 8 0 0 0 7-12L68 40V12" />
       <path d="M38 76c8 6 36 6 44 0" />
       <circle cx="58" cy="60" r="2.5" fill="currentColor" stroke="none" />
       <circle cx="66" cy="68" r="2" fill="currentColor" stroke="none" />
       <circle cx="50" cy="68" r="1.8" fill="currentColor" stroke="none" />
     </Base>
+  );
+}
+
+export function GogglesMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <circle cx="38" cy="60" r="24" />
+      <circle cx="82" cy="60" r="24" />
+      <path d="M60 54h0" />
+      <path d="M58 58h4" />
+      <path d="M14 44 4 30M106 44l10-14" />
+    </Base>
+  );
+}
+
+export function DotClusterMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 120 120" fill="currentColor" stroke="none" {...props}>
+      <circle cx="20" cy="30" r="5" />
+      <circle cx="55" cy="12" r="3.5" />
+      <circle cx="90" cy="26" r="6" />
+      <circle cx="30" cy="70" r="4" />
+      <circle cx="70" cy="60" r="5.5" />
+      <circle cx="100" cy="82" r="4" />
+      <circle cx="18" cy="100" r="3.5" />
+      <circle cx="60" cy="100" r="5" />
+    </svg>
   );
 }
 
@@ -194,4 +222,6 @@ export const scienceMotifs = [
   LeafMotif,
   PillMotif,
   BacteriaMotif,
+  GogglesMotif,
+  DotClusterMotif,
 ];
