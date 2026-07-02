@@ -43,3 +43,6 @@ next-env.d.ts
 # raw mirror of the old Wix site (~170MB, reference material only —
 # see README.md "Migración de contenido" for how it's used)
 /data/old/
+
+# local Claude Code session state
+/.claude/
