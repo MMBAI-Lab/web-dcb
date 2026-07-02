@@ -6,11 +6,13 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
 import { asset } from "@/lib/asset";
+import { CalendarIcon, FlaskIcon, UsersIcon, ShieldIcon } from "@/components/ui/fact-icons";
 
 type Fact = { value: string; label: string };
 type SectionCard = { key: string; href: string; title: string; description: string };
 
 const factAccents = ["text-teal", "text-crimson", "text-gold", "text-teal"];
+const factIcons = [CalendarIcon, FlaskIcon, UsersIcon, ShieldIcon];
 const cardAccents = ["border-t-teal", "border-t-crimson", "border-t-gold"];
 
 export function Home() {
@@ -95,16 +97,21 @@ export function Home() {
         <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
           <Reveal>
             <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
-              {facts.map((fact, i) => (
-                <div key={fact.label} className="text-center sm:text-left">
-                  <p className={`font-serif text-4xl font-semibold ${factAccents[i % factAccents.length]}`}>
-                    {fact.value}
-                  </p>
-                  <p className="mt-1 text-xs uppercase tracking-wide text-foreground/60">
-                    {fact.label}
-                  </p>
-                </div>
-              ))}
+              {facts.map((fact, i) => {
+                const Icon = factIcons[i % factIcons.length];
+                const accent = factAccents[i % factAccents.length];
+                return (
+                  <div key={fact.label} className="flex items-start gap-3 sm:flex-col sm:items-start sm:gap-2">
+                    <Icon className={`h-7 w-7 shrink-0 ${accent}`} />
+                    <div>
+                      <p className={`font-serif text-4xl font-semibold ${accent}`}>{fact.value}</p>
+                      <p className="mt-1 text-xs uppercase tracking-wide text-foreground/60">
+                        {fact.label}
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </Reveal>
         </div>
