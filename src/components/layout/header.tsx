@@ -24,7 +24,10 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50">
+    // "dark" is applied here on purpose: the header always uses the dark
+    // theme's teal/crimson/gold values, regardless of the site's active
+    // light/dark theme, so it doesn't shift color when the user toggles it.
+    <header className="dark sticky top-0 z-50">
       <div className="bg-teal text-teal-foreground">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
           <Link href="/" className="flex items-center gap-2.5">
