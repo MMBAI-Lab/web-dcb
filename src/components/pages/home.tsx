@@ -19,31 +19,48 @@ const cardAccents = ["border-t-teal", "border-t-crimson", "border-t-gold"];
 const cardMotifs: IconName[] = ["celula-vegetal", "moleculas", "monitor", "hojas", "microscopio", "jeringa"];
 const cardRadii = ["rounded-2xl", "rounded-[1.75rem_1.75rem_1.75rem_0.5rem]", "rounded-[1.75rem_0.5rem_1.75rem_1.75rem]"];
 
+// Bigger icons drift slowly over a modest distance; smaller ones dart
+// around fast over a much larger distance (relative to their own size).
+function motif(
+  icon: IconName,
+  top: string,
+  left: string,
+  size: number,
+  rotate: number,
+  delay: number,
+  opacity = 0.32,
+) {
+  const duration = Math.max(4.5, Math.min(34, size / 11 + 3));
+  const drift = Math.max(18, Math.min(110, 3400 / size));
+  return { icon, top, left, size, rotate, opacity, duration, delay, driftX: drift, driftY: -drift * 0.8 };
+}
+
 // The user's own hand-drawn icon set, extracted from
 // data/old/images/IconosDCB_fondo.svg — full color, no copyright issue.
-// Sizes are deliberately disparate: large icons drift slowly, small ones
-// drift fast, and they're bright enough to actually read as a pattern
-// rather than a faint watermark.
-const heroMotifs = [
-  { icon: "moleculas" as const, top: "-4%", left: "66%", size: 340, rotate: -4, opacity: 0.5, duration: 30, delay: 0, driftX: 14, driftY: -20 },
-  { icon: "neurona" as const, top: "46%", left: "-8%", size: 320, rotate: 3, opacity: 0.45, duration: 28, delay: 1, driftX: 16, driftY: 16 },
-  { icon: "celula-vegetal" as const, top: "62%", left: "58%", size: 240, rotate: 0, opacity: 0.5, duration: 26, delay: 2, driftX: -14, driftY: -14 },
-  { icon: "monitor" as const, top: "2%", left: "4%", size: 200, rotate: -3, opacity: 0.5, duration: 22, delay: 1.4, driftX: -10, driftY: 12 },
-  { icon: "microscopio" as const, top: "6%", left: "88%", size: 170, rotate: 4, opacity: 0.6, duration: 15, delay: 0.4, driftX: 8, driftY: 14 },
-  { icon: "hojas" as const, top: "72%", left: "30%", size: 170, rotate: -6, opacity: 0.55, duration: 16, delay: 1.6, driftX: -12, driftY: -12 },
-  { icon: "pez" as const, top: "26%", left: "40%", size: 140, rotate: 4, opacity: 0.5, duration: 17, delay: 0.9, driftX: 12, driftY: -10 },
-  { icon: "vaca" as const, top: "80%", left: "80%", size: 150, rotate: 0, opacity: 0.55, duration: 19, delay: 2.1, driftX: -8, driftY: 10 },
-  { icon: "jeringa" as const, top: "34%", left: "94%", size: 100, rotate: 12, opacity: 0.6, duration: 9, delay: 0.8, driftX: 10, driftY: -10 },
-  { icon: "pastillas" as const, top: "88%", left: "10%", size: 110, rotate: -8, opacity: 0.6, duration: 8, delay: 0.2, driftX: -10, driftY: -8 },
-  { icon: "pastillas" as const, top: "16%", left: "58%", size: 60, rotate: 20, opacity: 0.6, duration: 6, delay: 2.6, driftX: -6, driftY: -6 },
-  { icon: "hojas" as const, top: "4%", left: "38%", size: 55, rotate: 15, opacity: 0.6, duration: 6.5, delay: 1.9, driftX: 8, driftY: 8 },
-];
+// One continuous field spans the hero + welcome blocks (no seam between
+// them), sized very disparately: huge, slow icons down to tiny, fast ones.
+const topMotifs = [
+  motif("moleculas", "-2%", "66%", 380, -4, 0),
+  motif("neurona", "26%", "-8%", 340, 3, 1),
+  motif("monitor", "1%", "4%", 210, -3, 1.4),
+  motif("microscopio", "4%", "88%", 180, 4, 0.4),
+  motif("pez", "16%", "40%", 150, 4, 0.9),
+  motif("jeringa", "20%", "94%", 90, 12, 0.8),
+  motif("pastillas", "8%", "58%", 50, 20, 2.6),
+  motif("hojas", "2%", "38%", 42, 15, 1.9),
+  motif("moleculas", "34%", "24%", 30, -10, 3.2),
 
-const welcomeMotifs = [
-  { icon: "moleculas" as const, top: "-6%", left: "50%", size: 260, rotate: 6, opacity: 0.45, duration: 24, delay: 0.3, driftX: 12, driftY: -14 },
-  { icon: "hojas" as const, top: "76%", left: "0%", size: 110, rotate: -10, opacity: 0.5, duration: 9, delay: 1.4, driftX: 8, driftY: 10 },
-  { icon: "neurona" as const, top: "0%", left: "-6%", size: 170, rotate: 0, opacity: 0.4, duration: 18, delay: 0.8, driftX: -8, driftY: 10 },
-  { icon: "pastillas" as const, top: "42%", left: "4%", size: 60, rotate: 30, opacity: 0.55, duration: 6, delay: 2.1, driftX: -6, driftY: 6 },
+  motif("celula-vegetal", "40%", "58%", 260, 0, 2),
+  motif("hojas", "48%", "30%", 190, -6, 1.6),
+  motif("vaca", "56%", "80%", 160, 0, 2.1),
+  motif("pastillas", "44%", "10%", 120, -8, 0.2),
+  motif("neurona", "62%", "50%", 60, 30, 2.1),
+  motif("jeringa", "38%", "70%", 34, -18, 3.6),
+
+  motif("hojas", "74%", "2%", 130, -10, 1.4),
+  motif("moleculas", "70%", "48%", 280, 6, 0.3),
+  motif("pastillas", "82%", "6%", 55, 40, 4.1),
+  motif("microscopio", "86%", "84%", 44, -14, 3.8),
 ];
 
 export function Home() {
@@ -55,8 +72,9 @@ export function Home() {
     <>
       <section className="relative overflow-hidden">
         <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_15%_20%,color-mix(in_oklab,var(--teal)_14%,transparent),transparent_55%),radial-gradient(circle_at_85%_75%,color-mix(in_oklab,var(--gold)_12%,transparent),transparent_55%)]" />
-        <IconMotifField placements={heroMotifs} />
-        <div className="relative mx-auto flex max-w-6xl flex-col gap-6 px-5 py-20 sm:px-8 sm:py-28">
+        <IconMotifField placements={topMotifs} />
+
+        <div className="relative mx-auto flex max-w-6xl flex-col gap-6 px-5 pb-16 pt-20 sm:px-8 sm:pt-28">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -114,11 +132,8 @@ export function Home() {
             </Link>
           </motion.div>
         </div>
-      </section>
 
-      <section className="relative overflow-hidden">
-        <IconMotifField placements={welcomeMotifs} />
-        <div className="relative mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 md:grid-cols-[1fr_0.9fr] md:items-center">
+        <div className="relative mx-auto grid max-w-6xl gap-10 px-5 pb-20 pt-6 sm:px-8 sm:pb-28 md:grid-cols-[1fr_0.9fr] md:items-center">
           <Reveal>
             <h2 className="font-serif text-2xl font-medium">{t("welcomeTitle")}</h2>
             <p className="mt-4 text-base leading-relaxed text-foreground/75">
@@ -144,9 +159,9 @@ export function Home() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-surface">
+      <section className="relative overflow-hidden border-t border-border bg-surface">
         <IconMotifField
-          placements={[{ icon: "moleculas", top: "50%", left: "-8%", size: 220, rotate: 0, opacity: 0.25, duration: 20, delay: 0 }]}
+          placements={[motif("moleculas", "40%", "-8%", 220, 0, 0, 0.18)]}
         />
         <div className="relative mx-auto max-w-6xl px-5 py-12 sm:px-8">
           <Reveal>
@@ -193,7 +208,7 @@ export function Home() {
                       src={asset(`/images/motifs/${cardIcon}.png`)}
                       alt=""
                       aria-hidden="true"
-                      className="pointer-events-none absolute -bottom-6 -right-6 h-28 w-28 object-contain opacity-30 transition-transform duration-300 group-hover:scale-110"
+                      className="pointer-events-none absolute -bottom-6 -right-6 h-28 w-28 object-contain opacity-20 transition-transform duration-300 group-hover:scale-110"
                     />
                     <h3 className="relative font-serif text-lg font-medium group-hover:text-teal">
                       {section.title}
