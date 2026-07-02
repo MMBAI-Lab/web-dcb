@@ -12,7 +12,7 @@ export function Footer() {
         <div className="flex flex-wrap items-center gap-6 opacity-80">
           <span className="relative h-8 w-28">
             <Image
-              src={asset("/images/logos/udelar-logo.jpg")}
+              src={asset("/images/logos/udelar-logo.png")}
               alt="Universidad de la República"
               fill
               sizes="112px"
@@ -21,7 +21,7 @@ export function Footer() {
           </span>
           <span className="relative h-8 w-28">
             <Image
-              src={asset("/images/logos/cenur-logo.jpg")}
+              src={asset("/images/logos/cenur-logo.png")}
               alt="CENUR Litoral Norte"
               fill
               sizes="112px"

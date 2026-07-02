@@ -28,12 +28,12 @@ export function Header() {
       <div className="bg-teal text-teal-foreground">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
           <Link href="/" className="flex items-center gap-2.5">
-            <span className="relative h-9 w-24 shrink-0 overflow-hidden rounded-sm bg-white p-1">
+            <span className="relative h-10 w-10 shrink-0">
               <Image
-                src={asset("/images/logos/dcb-logo.jpg")}
+                src={asset("/images/logos/dcb-icon.png")}
                 alt="DCB"
                 fill
-                sizes="96px"
+                sizes="40px"
                 className="object-contain"
                 priority
               />
