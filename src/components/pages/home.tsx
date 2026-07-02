@@ -82,7 +82,7 @@ export function Home() {
           <Reveal delay={0.1}>
             <span className="relative block aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
-                src={asset("/images/places/edificio-salto.jpg")}
+                src={asset("/images/places/plataforma-home.jpg")}
                 alt={t("imageAlt")}
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"
