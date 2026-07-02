@@ -1,4 +1,4 @@
-import type { ComponentType, SVGProps } from "react";
+import type { ComponentType, CSSProperties, SVGProps } from "react";
 
 type Placement = {
   Icon: ComponentType<SVGProps<SVGSVGElement>>;
@@ -8,6 +8,10 @@ type Placement = {
   rotate: number;
   color: "teal" | "crimson" | "gold";
   opacity?: number;
+  duration?: number;
+  delay?: number;
+  driftX?: number;
+  driftY?: number;
 };
 
 const colorClass: Record<Placement["color"], string> = {
@@ -17,25 +21,50 @@ const colorClass: Record<Placement["color"], string> = {
 };
 
 // Fixed (not random) layouts — static export bakes these into the HTML,
-// so randomizing at render time would mismatch on hydration.
+// so randomizing at render time would mismatch on hydration. Items are
+// free to overlap as they drift; that's intentional, like notes floating
+// behind sheet music.
 export function MotifField({ placements }: { placements: Placement[] }) {
   return (
     <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
-      {placements.map(({ Icon, top, left, size, rotate, color, opacity = 0.09 }, i) => (
-        <Icon
-          key={i}
-          className={colorClass[color]}
-          style={{
-            position: "absolute",
+      {placements.map(
+        (
+          {
+            Icon,
             top,
             left,
-            width: size,
-            height: size,
-            opacity,
-            transform: `rotate(${rotate}deg)`,
-          }}
-        />
-      ))}
+            size,
+            rotate,
+            color,
+            opacity = 0.09,
+            duration = 14,
+            delay = 0,
+            driftX = 10,
+            driftY = -16,
+          },
+          i,
+        ) => (
+          <Icon
+            key={i}
+            className={`motif-floating ${colorClass[color]}`}
+            style={
+              {
+                position: "absolute",
+                top,
+                left,
+                width: size,
+                height: size,
+                opacity,
+                "--motif-rotate": `${rotate}deg`,
+                "--motif-duration": `${duration}s`,
+                "--motif-delay": `${delay}s`,
+                "--motif-drift-x": `${driftX}px`,
+                "--motif-drift-y": `${driftY}px`,
+              } as CSSProperties
+            }
+          />
+        ),
+      )}
     </div>
   );
 }

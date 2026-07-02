@@ -93,6 +93,92 @@ export function NetworkMotif(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+export function MicroscopeMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <path d="M40 108h40M60 108V94" />
+      <rect x="30" y="94" width="60" height="10" rx="3" />
+      <path d="M62 94V50a10 10 0 0 1 10-10h6" />
+      <circle cx="62" cy="38" r="12" />
+      <path d="M53 30 44 21M46 46l-11 4" />
+      <path d="M44 60h-8a6 6 0 0 0-6 6v6a6 6 0 0 0 6 6h8" />
+    </Base>
+  );
+}
+
+export function FlaskMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <path d="M48 12h24M52 12v28L28 92a8 8 0 0 0 7 12h50a8 8 0 0 0 7-12L68 40V12" />
+      <path d="M38 76c8 6 36 6 44 0" />
+      <circle cx="58" cy="60" r="2.5" fill="currentColor" stroke="none" />
+      <circle cx="66" cy="68" r="2" fill="currentColor" stroke="none" />
+      <circle cx="50" cy="68" r="1.8" fill="currentColor" stroke="none" />
+    </Base>
+  );
+}
+
+export function TestTubeMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <path d="M46 12h28" />
+      <path d="M50 12v70a10 10 0 0 0 20 0V12" />
+      <path d="M50 62a10 10 0 0 0 20 0" />
+      <circle cx="60" cy="45" r="2.5" fill="currentColor" stroke="none" />
+      <circle cx="65" cy="52" r="1.8" fill="currentColor" stroke="none" />
+    </Base>
+  );
+}
+
+export function AtomMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <ellipse cx="60" cy="60" rx="46" ry="18" />
+      <ellipse cx="60" cy="60" rx="46" ry="18" transform="rotate(60 60 60)" />
+      <ellipse cx="60" cy="60" rx="46" ry="18" transform="rotate(120 60 60)" />
+      <circle cx="60" cy="60" r="7" fill="currentColor" stroke="none" />
+    </Base>
+  );
+}
+
+export function MagnifyingGlassMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <circle cx="50" cy="48" r="30" />
+      <path d="M72 70 98 96" />
+    </Base>
+  );
+}
+
+export function LeafMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <path d="M25 100C10 60 40 15 95 12c4 55-30 88-70 88Z" />
+      <path d="M30 95C55 70 70 50 92 18" />
+    </Base>
+  );
+}
+
+export function PillMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <rect x="14" y="42" width="92" height="36" rx="18" transform="rotate(-30 60 60)" />
+      <path d="M55 33 40 58" transform="rotate(-30 60 60)" />
+    </Base>
+  );
+}
+
+export function BacteriaMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <path d="M60 10c18 0 20 14 14 22-8 10 10 12 14 26 4 16-8 28-24 26-8-1-10 10-22 8-18-3-28-18-24-34 3-12-10-16-8-30C12 16 40 10 60 10Z" />
+      <circle cx="52" cy="46" r="3" fill="currentColor" stroke="none" />
+      <circle cx="70" cy="60" r="2.4" fill="currentColor" stroke="none" />
+      <circle cx="48" cy="72" r="2.6" fill="currentColor" stroke="none" />
+    </Base>
+  );
+}
+
 export const scienceMotifs = [
   DnaMotif,
   MoleculeMotif,
@@ -100,4 +186,12 @@ export const scienceMotifs = [
   CellMotif,
   ChromosomeMotif,
   NetworkMotif,
+  MicroscopeMotif,
+  FlaskMotif,
+  TestTubeMotif,
+  AtomMotif,
+  MagnifyingGlassMotif,
+  LeafMotif,
+  PillMotif,
+  BacteriaMotif,
 ];

@@ -62,3 +62,27 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+
+@keyframes motif-float {
+  0% {
+    transform: translate(0, 0) rotate(var(--motif-rotate, 0deg));
+  }
+  50% {
+    transform: translate(var(--motif-drift-x, 10px), var(--motif-drift-y, -16px))
+      rotate(calc(var(--motif-rotate, 0deg) + 6deg));
+  }
+  100% {
+    transform: translate(0, 0) rotate(var(--motif-rotate, 0deg));
+  }
+}
+
+.motif-floating {
+  animation: motif-float var(--motif-duration, 14s) ease-in-out infinite;
+  animation-delay: var(--motif-delay, 0s);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motif-floating {
+    animation: none;
+  }
+}

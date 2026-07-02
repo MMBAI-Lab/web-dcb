@@ -15,6 +15,14 @@ import {
   CellMotif,
   ChromosomeMotif,
   NetworkMotif,
+  MicroscopeMotif,
+  FlaskMotif,
+  TestTubeMotif,
+  AtomMotif,
+  MagnifyingGlassMotif,
+  LeafMotif,
+  PillMotif,
+  BacteriaMotif,
 } from "@/components/ui/science-motifs";
 
 type Fact = { value: string; label: string };
@@ -28,10 +36,20 @@ const cardMotifs = [CellMotif, MoleculeMotif, PhyloTreeMotif, DnaMotif, Chromoso
 const cardRadii = ["rounded-2xl", "rounded-[1.75rem_1.75rem_1.75rem_0.5rem]", "rounded-[1.75rem_0.5rem_1.75rem_1.75rem]"];
 
 const heroMotifs = [
-  { Icon: DnaMotif, top: "8%", left: "78%", size: 190, rotate: -8, color: "teal" as const },
-  { Icon: MoleculeMotif, top: "58%", left: "88%", size: 140, rotate: 10, color: "gold" as const },
-  { Icon: PhyloTreeMotif, top: "68%", left: "4%", size: 150, rotate: 4, color: "crimson" as const },
-  { Icon: NetworkMotif, top: "4%", left: "6%", size: 110, rotate: -6, color: "teal" as const, opacity: 0.07 },
+  { Icon: DnaMotif, top: "4%", left: "76%", size: 200, rotate: -8, color: "teal" as const, opacity: 0.1, duration: 16, delay: 0, driftX: 10, driftY: -18 },
+  { Icon: MoleculeMotif, top: "55%", left: "86%", size: 130, rotate: 10, color: "gold" as const, opacity: 0.11, duration: 13, delay: 1.2, driftX: -14, driftY: 12 },
+  { Icon: PhyloTreeMotif, top: "62%", left: "2%", size: 160, rotate: 4, color: "crimson" as const, opacity: 0.09, duration: 18, delay: 0.6, driftX: 12, driftY: 14 },
+  { Icon: NetworkMotif, top: "2%", left: "4%", size: 100, rotate: -6, color: "teal" as const, opacity: 0.08, duration: 15, delay: 2, driftX: -10, driftY: -12 },
+  { Icon: MicroscopeMotif, top: "12%", left: "92%", size: 90, rotate: 6, color: "crimson" as const, opacity: 0.12, duration: 12, delay: 0.4, driftX: 8, driftY: 16 },
+  { Icon: FlaskMotif, top: "72%", left: "70%", size: 110, rotate: -12, color: "teal" as const, opacity: 0.1, duration: 17, delay: 1.6, driftX: -12, driftY: -14 },
+  { Icon: TestTubeMotif, top: "40%", left: "94%", size: 70, rotate: 16, color: "gold" as const, opacity: 0.12, duration: 11, delay: 0.8, driftX: 10, driftY: -10 },
+  { Icon: AtomMotif, top: "82%", left: "30%", size: 120, rotate: 0, color: "gold" as const, opacity: 0.09, duration: 19, delay: 2.4, driftX: 14, driftY: -10 },
+  { Icon: MagnifyingGlassMotif, top: "20%", left: "56%", size: 60, rotate: -10, color: "crimson" as const, opacity: 0.08, duration: 10, delay: 1, driftX: -8, driftY: 10 },
+  { Icon: LeafMotif, top: "6%", left: "40%", size: 55, rotate: 20, color: "teal" as const, opacity: 0.1, duration: 13, delay: 2.8, driftX: 8, driftY: 12 },
+  { Icon: PillMotif, top: "88%", left: "8%", size: 65, rotate: 30, color: "crimson" as const, opacity: 0.1, duration: 14, delay: 0.2, driftX: -10, driftY: -8 },
+  { Icon: BacteriaMotif, top: "30%", left: "8%", size: 85, rotate: -4, color: "gold" as const, opacity: 0.09, duration: 16, delay: 1.8, driftX: 10, driftY: 10 },
+  { Icon: ChromosomeMotif, top: "78%", left: "48%", size: 75, rotate: 8, color: "teal" as const, opacity: 0.08, duration: 15, delay: 2.2, driftX: -8, driftY: 12 },
+  { Icon: CellMotif, top: "48%", left: "60%", size: 95, rotate: -6, color: "crimson" as const, opacity: 0.07, duration: 20, delay: 0.9, driftX: 12, driftY: -12 },
 ];
 
 export function Home() {
@@ -93,7 +111,14 @@ export function Home() {
       </section>
 
       <section className="relative overflow-hidden">
-        <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 md:grid-cols-[1fr_0.9fr] md:items-center">
+        <MotifField
+          placements={[
+            { Icon: DnaMotif, top: "4%", left: "58%", size: 130, rotate: 8, color: "gold", opacity: 0.1, duration: 15, delay: 0.3 },
+            { Icon: LeafMotif, top: "80%", left: "3%", size: 60, rotate: -14, color: "teal", opacity: 0.1, duration: 12, delay: 1.4, driftX: 8, driftY: 10 },
+            { Icon: AtomMotif, top: "6%", left: "2%", size: 70, rotate: 0, color: "crimson", opacity: 0.08, duration: 17, delay: 0.8, driftX: -8, driftY: 10 },
+          ]}
+        />
+        <div className="relative mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 md:grid-cols-[1fr_0.9fr] md:items-center">
           <Reveal>
             <h2 className="font-serif text-2xl font-medium">{t("welcomeTitle")}</h2>
             <p className="mt-4 text-base leading-relaxed text-foreground/75">
@@ -102,7 +127,6 @@ export function Home() {
           </Reveal>
           <Reveal delay={0.1}>
             <div className="relative">
-              <DnaMotif className="pointer-events-none absolute -right-8 -top-10 h-40 w-40 text-gold opacity-[0.1]" aria-hidden="true" />
               <span
                 className="relative block aspect-[4/3] overflow-hidden shadow-sm"
                 style={{ borderRadius: "62% 38% 41% 59% / 55% 45% 55% 45%" }}
