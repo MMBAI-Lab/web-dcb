@@ -10,7 +10,7 @@ function Base(props: SVGProps<SVGSVGElement>) {
       viewBox="0 0 120 120"
       fill="none"
       stroke="currentColor"
-      strokeWidth={1.4}
+      strokeWidth={1.9}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}
@@ -109,12 +109,12 @@ export function MicroscopeMotif(props: SVGProps<SVGSVGElement>) {
 export function FlaskMotif(props: SVGProps<SVGSVGElement>) {
   return (
     <Base {...props}>
-      <path d="M63 4c5 4 7 8 3 12" />
-      <path d="M48 12h24M52 12v28L28 92a8 8 0 0 0 7 12h50a8 8 0 0 0 7-12L68 40V12" />
-      <path d="M38 76c8 6 36 6 44 0" />
-      <circle cx="58" cy="60" r="2.5" fill="currentColor" stroke="none" />
-      <circle cx="66" cy="68" r="2" fill="currentColor" stroke="none" />
-      <circle cx="50" cy="68" r="1.8" fill="currentColor" stroke="none" />
+      <path d="M48 8h24M52 8v30L28 90a8 8 0 0 0 7 12h50a8 8 0 0 0 7-12L68 38V8" />
+      <path d="M38 74c8 6 36 6 44 0" />
+      <circle cx="58" cy="58" r="2.5" fill="currentColor" stroke="none" />
+      <circle cx="66" cy="66" r="2" fill="currentColor" stroke="none" />
+      <circle cx="50" cy="66" r="1.8" fill="currentColor" stroke="none" />
+      <path d="M20 116h80M28 116l6-14h52l6 14" />
     </Base>
   );
 }
@@ -149,11 +149,13 @@ export function DotClusterMotif(props: SVGProps<SVGSVGElement>) {
 export function TestTubeMotif(props: SVGProps<SVGSVGElement>) {
   return (
     <Base {...props}>
-      <path d="M46 12h28" />
-      <path d="M50 12v70a10 10 0 0 0 20 0V12" />
-      <path d="M50 62a10 10 0 0 0 20 0" />
-      <circle cx="60" cy="45" r="2.5" fill="currentColor" stroke="none" />
-      <circle cx="65" cy="52" r="1.8" fill="currentColor" stroke="none" />
+      <path d="M46 10h28" />
+      <path d="M50 10v58a10 10 0 0 0 20 0V10" />
+      <path d="M50 50a10 10 0 0 0 20 0" />
+      <circle cx="60" cy="34" r="2.5" fill="currentColor" stroke="none" />
+      <circle cx="65" cy="40" r="1.8" fill="currentColor" stroke="none" />
+      <path d="M20 100h30M35 76v24" />
+      <path d="M55 108c0-8 6-8 6-14s-6-6-6-12" />
     </Base>
   );
 }
@@ -181,8 +183,80 @@ export function MagnifyingGlassMotif(props: SVGProps<SVGSVGElement>) {
 export function LeafMotif(props: SVGProps<SVGSVGElement>) {
   return (
     <Base {...props}>
-      <path d="M25 100C10 60 40 15 95 12c4 55-30 88-70 88Z" />
-      <path d="M30 95C55 70 70 50 92 18" />
+      <path d="M22 100C8 58 38 12 96 10c6 56-32 90-74 90Z" />
+      <path d="M26 96C52 68 68 46 92 16M40 74l-10 6M56 54l-10 4M70 36l-9 4" />
+    </Base>
+  );
+}
+
+export function FlowerMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <circle cx="60" cy="34" r="10" />
+      <path d="M60 24c-4-8-2-16 4-18 6 4 6 12 0 18M70 30c8-4 16-2 18 4-4 6-12 6-18 0M70 40c8 4 12 12 8 18-6-2-10-10-10-16M50 40c-8 4-12 12-8 18 6-2 10-10 10-16M50 30c-8-4-16-2-18 4 4 6 12 6 18 0" />
+      <path d="M60 44v50" />
+      <path d="M60 70c-10-4-16 2-20 10 10 4 18-2 20-10ZM60 82c10-4 16 2 20 10-10 4-18-2-20-10Z" />
+    </Base>
+  );
+}
+
+export function NeuronMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <circle cx="60" cy="60" r="10" />
+      <path d="M52 54 30 36M30 36 16 40M30 36l-6-14M50 52 24 28M50 66 20 74M20 74 8 68M20 74l-6 14M68 54l24-16M92 38l14 2M92 38l4-14M70 66l30 10M100 76l14-4M100 76l6 14M56 70 44 96M44 96l-14 4M44 96l4 14M66 70l10 28M76 98l14 2M76 98l-2 14" />
+    </Base>
+  );
+}
+
+export function VirusMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <circle cx="60" cy="60" r="26" />
+      <circle cx="46" cy="52" r="3" fill="currentColor" stroke="none" />
+      <circle cx="70" cy="48" r="3" fill="currentColor" stroke="none" />
+      <circle cx="60" cy="66" r="3" fill="currentColor" stroke="none" />
+      <circle cx="72" cy="70" r="3" fill="currentColor" stroke="none" />
+      <path d="M60 34V16M76 40 88 26M84 60h18M76 80l12 14M60 86v18M44 80 32 94M36 60H18M44 40 32 26" />
+      <circle cx="60" cy="14" r="4" />
+      <circle cx="90" cy="24" r="4" />
+      <circle cx="104" cy="60" r="4" />
+      <circle cx="90" cy="96" r="4" />
+      <circle cx="60" cy="106" r="4" />
+      <circle cx="30" cy="96" r="4" />
+      <circle cx="16" cy="60" r="4" />
+      <circle cx="30" cy="24" r="4" />
+    </Base>
+  );
+}
+
+export function WaterDropMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <path d="M60 10c16 22 30 40 30 58a30 30 0 0 1-60 0c0-18 14-36 30-58Z" />
+      <path d="M46 76a14 14 0 0 0 10 12" />
+    </Base>
+  );
+}
+
+export function SproutPotMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <path d="M60 70V44" />
+      <path d="M60 60c0-14-16-16-20-8 8 10 20 8 20 8ZM60 50c0-14 16-16 20-8-8 10-20 8-20 8Z" />
+      <path d="M34 72h52l-6 34a6 6 0 0 1-6 5H46a6 6 0 0 1-6-5Z" />
+      <path d="M34 72h52" />
+    </Base>
+  );
+}
+
+export function MonitorChartMotif(props: SVGProps<SVGSVGElement>) {
+  return (
+    <Base {...props}>
+      <rect x="12" y="18" width="80" height="56" rx="4" />
+      <path d="M44 74v14M60 74v18M76 74v10M36 96h56" />
+      <path d="M24 62 38 44l12 10 20-24" />
+      <path d="M100 30h10M100 42h10M100 54h6" />
     </Base>
   );
 }
@@ -224,4 +298,10 @@ export const scienceMotifs = [
   BacteriaMotif,
   GogglesMotif,
   DotClusterMotif,
+  FlowerMotif,
+  NeuronMotif,
+  VirusMotif,
+  WaterDropMotif,
+  SproutPotMotif,
+  MonitorChartMotif,
 ];

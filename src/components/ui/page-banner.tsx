@@ -16,7 +16,7 @@ export function PageBanner({
       {Motif && (
         <Motif
           aria-hidden="true"
-          className="pointer-events-none absolute -right-10 -top-10 h-64 w-64 text-teal opacity-[0.07] sm:h-80 sm:w-80"
+          className="pointer-events-none absolute -right-10 -top-10 h-64 w-64 text-foreground opacity-[0.14] sm:h-80 sm:w-80"
         />
       )}
       <div className="relative mx-auto max-w-6xl px-5 py-14 sm:px-8">

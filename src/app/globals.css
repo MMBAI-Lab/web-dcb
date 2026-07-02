@@ -25,9 +25,11 @@
 }
 
 .dark {
-  --background: #000000;
+  /* A soft charcoal instead of pure black — reads as dark mode without
+     feeling like a void, especially with faint motifs on top of it. */
+  --background: #0c0e0d;
   --foreground: #ffffff;
-  --surface: #000000;
+  --surface: #0c0e0d;
   --border: rgb(255 255 255 / 16%);
 
   --teal: #3fc9bb;

@@ -6,7 +6,7 @@ type Placement = {
   left: string;
   size: number;
   rotate: number;
-  color: "teal" | "crimson" | "gold";
+  color: "teal" | "crimson" | "gold" | "gray";
   opacity?: number;
   duration?: number;
   delay?: number;
@@ -18,6 +18,10 @@ const colorClass: Record<Placement["color"], string> = {
   teal: "text-teal",
   crimson: "text-crimson",
   gold: "text-gold",
+  // "Gray" isn't a new hue — it's the page's own foreground (black in
+  // light mode, white in dark) at partial opacity, per the strict
+  // teal/crimson/gold + black/white palette.
+  gray: "text-foreground",
 };
 
 // Fixed (not random) layouts — static export bakes these into the HTML,
@@ -36,7 +40,7 @@ export function MotifField({ placements }: { placements: Placement[] }) {
             size,
             rotate,
             color,
-            opacity = 0.09,
+            opacity = 0.16,
             duration = 14,
             delay = 0,
             driftX = 10,
