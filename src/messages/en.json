@@ -20,6 +20,9 @@
     "subtitle": "Established in 2014 to bring together teaching, research, and outreach in the biological sciences at the Salto and Paysandú campuses of CENUR Litoral Norte.",
     "ctaPrimary": "About the Department",
     "ctaSecondary": "View research groups",
+    "welcomeTitle": "Welcome",
+    "welcome": "Welcome to the website of the Department of Biological Sciences (DCB). Part of the Centro Universitario Regional (CENUR) Litoral Norte, the DCB is a space where students and faculty based in Paysandú and Salto work together on problems of biomedical, biological, agro-industrial, and environmental interest from a multidisciplinary perspective. While DCB faculty in Paysandú carry out their teaching and research at the Dr. Mario A. Cassinoni Experimental Station and the Complejo Educativo, those in Salto have a recently opened research platform that includes laboratories, offices, classrooms, and a biosafety level 3 area (P3 laboratory) unique in the country.",
+    "imageAlt": "Research Platform, Salto campus",
     "factsTitle": "The DCB at a glance",
     "facts": [
       { "value": "2014", "label": "Founded" },

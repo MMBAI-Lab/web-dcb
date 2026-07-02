@@ -1,9 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
+import { asset } from "@/lib/asset";
 
 type Fact = { value: string; label: string };
 type SectionCard = { key: string; href: string; title: string; description: string };
@@ -64,6 +66,28 @@ export function Home() {
               {t("ctaSecondary")}
             </Link>
           </motion.div>
+        </div>
+      </section>
+
+      <section className="border-b border-border">
+        <div className="mx-auto grid max-w-6xl gap-8 px-5 py-16 sm:px-8 md:grid-cols-2 md:items-center">
+          <Reveal>
+            <h2 className="font-serif text-2xl font-medium">{t("welcomeTitle")}</h2>
+            <p className="mt-4 text-base leading-relaxed text-foreground/75">
+              {t("welcome")}
+            </p>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <span className="relative block aspect-[4/3] overflow-hidden rounded-2xl">
+              <Image
+                src={asset("/images/places/edificio-salto.jpg")}
+                alt={t("imageAlt")}
+                fill
+                sizes="(min-width: 768px) 50vw, 100vw"
+                className="object-cover"
+              />
+            </span>
+          </Reveal>
         </div>
       </section>
 

@@ -20,6 +20,9 @@
     "subtitle": "Creado en 2014 para nuclear la docencia, investigación y extensión en ciencias biológicas de las sedes Salto y Paysandú del CENUR Litoral Norte.",
     "ctaPrimary": "Conocer el Departamento",
     "ctaSecondary": "Ver grupos de investigación",
+    "welcomeTitle": "Bienvenida/os",
+    "welcome": "Bienvenida/os al sitio web del Departamento de Ciencias Biológicas (DCB). El DCB, perteneciente al Centro Universitario Regional (CENUR) Litoral Norte, es un espacio donde estudiantes y docentes radicados en Paysandú y Salto interactúan para abordar problemas de interés biomédico, biológico, agroindustrial y ambiental, desde una perspectiva multidisciplinaria. Mientras que los docentes del DCB radicados en Paysandú desarrollan sus actividades de docencia e investigación en la Estación Experimental Dr. Mario A. Cassinoni y el Complejo Educativo, los radicados en Salto cuentan con una plataforma de investigación recientemente inaugurada, que incluye laboratorios, oficinas, salones y un área de bioseguridad nivel 3 (laboratorio P3) única en el país.",
+    "imageAlt": "Plataforma de Investigación, sede Salto",
     "factsTitle": "El DCB en números",
     "facts": [
       { "value": "2014", "label": "Año de creación" },
