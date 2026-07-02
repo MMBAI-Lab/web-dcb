@@ -4,46 +4,88 @@
     "siteDescription": "Departamento de Ciencias Biológicas, CENUR Litoral Norte, Universidad de la República, Uruguay."
   },
   "nav": {
-    "home": "Inicio",
-    "about": "El Departamento",
+    "home": "Principal",
+    "about": "Institucional",
     "research": "Investigación",
-    "teaching": "Docencia",
-    "staff": "Personal",
+    "teaching": "Enseñanza",
+    "outreach": "Extensión",
+    "awards": "Reconocimientos",
     "contact": "Contacto",
     "toggleTheme": "Cambiar tema",
     "toggleLanguage": "Cambiar idioma"
   },
-  "hero": {
+  "home": {
     "eyebrow": "CENUR Litoral Norte · Universidad de la República",
     "title": "Departamento de Ciencias Biológicas",
-    "subtitle": "Generamos y difundimos conocimiento en biología a través de la investigación, la docencia y la extensión, con base en las sedes de Salto y Paysandú del Litoral Norte del Uruguay.",
+    "subtitle": "Creado en 2014 para nuclear la docencia, investigación y extensión en ciencias biológicas de las sedes Salto y Paysandú del CENUR Litoral Norte.",
     "ctaPrimary": "Conocer el Departamento",
-    "ctaSecondary": "Ver grupos de investigación"
-  },
-  "about": {
-    "title": "El Departamento",
-    "intro": "El Departamento de Ciencias Biológicas (DCB) fue creado en junio de 2014 para nuclear a los docentes e investigadores de las ciencias biológicas radicados en las sedes de Salto y Paysandú del CENUR Litoral Norte, Universidad de la República. Actualmente reúne alrededor de 55 integrantes distribuidos en 10 grupos de investigación, además del equipo de coordinación del Ciclo Biología-Bioquímica (CBB) y la Unidad de Apoyo a los Laboratorios de la sede Salto.",
-    "missionTitle": "Misión",
-    "mission": "Trabajar en forma conjunta en torno a la Biología como área vasta del conocimiento, desarrollando actividades mancomunadas de investigación, docencia y extensión en el CENUR Litoral Norte, en articulación con otros servicios universitarios de la región y del país.",
-    "infrastructureTitle": "Infraestructura",
-    "infrastructure": "Junto al edificio principal de la sede Salto funciona una plataforma de investigación de 1800 m², donde trabajan 8 de los 11 laboratorios del Departamento. Incluye un sector de bioseguridad de nivel 3 (P3), el único de estas características en Uruguay.",
-    "valuesTitle": "Líneas de trabajo",
-    "values": [
-      "Investigación en biofisicoquímica, biología molecular, ecología y biología aplicada",
-      "Docencia del Ciclo Biología-Bioquímica (CBB) y participación en otras carreras del CENUR Litoral Norte",
-      "Extensión universitaria y vínculo con el medio productivo y social del Litoral",
-      "Cooperación con otros servicios de la Universidad de la República, en particular CEINBIO y Facultad de Ciencias"
+    "ctaSecondary": "Ver grupos de investigación",
+    "factsTitle": "El DCB en números",
+    "facts": [
+      { "value": "2014", "label": "Año de creación" },
+      { "value": "10", "label": "Grupos de investigación" },
+      { "value": "55", "label": "Integrantes" },
+      { "value": "1", "label": "Laboratorio P3, único en Uruguay" }
+    ],
+    "sectionsTitle": "Recorrer el sitio",
+    "sections": [
+      { "key": "about", "href": "/institucional", "title": "Institucional", "description": "Historia, infraestructura y comisiones del Departamento." },
+      { "key": "research", "href": "/investigacion", "title": "Investigación", "description": "Los 12 grupos de investigación del DCB y sus responsables." },
+      { "key": "teaching", "href": "/ensenanza", "title": "Enseñanza", "description": "Ciclo Biología-Bioquímica (CBB) y Licenciatura en Biología Humana." },
+      { "key": "outreach", "href": "/extension", "title": "Extensión", "description": "Actividades de divulgación, seminarios y vínculo con la comunidad." },
+      { "key": "awards", "href": "/reconocimientos", "title": "Reconocimientos", "description": "Premios y distinciones recientes a integrantes del DCB." },
+      { "key": "contact", "href": "/contacto", "title": "Contacto", "description": "Direcciones y teléfonos de las sedes Salto y Paysandú." }
     ]
   },
-  "research": {
+  "institucional": {
+    "title": "Institucional",
+    "subtitle": "El Departamento de Ciencias Biológicas fue creado en 2014 para nuclear un conjunto de grupos de docencia e investigación en diversas áreas de las ciencias biológicas ubicados en las sedes de Salto y Paysandú del CENUR Litoral Norte de la Universidad de la República.",
+    "historyTitle": "Breve historia del DCB",
+    "historyByline": "Relato del ex-Director Prof. Daniel Peluffo — mayo 2021",
+    "history": [
+      "En el mes de junio del 2014 fue creado el Departamento de Biología (más tarde llamado “de Ciencias Biológicas”, nombre validado por el CDC de la UdelaR) en base a la agrupación académica de docentes e investigadores radicados en el CENUR Litoral Norte, pertenecientes a varios Polos de Desarrollo Universitario (PDU) y Servicios. Nuestro Departamento nació con el objetivo central de trabajar en forma conjunta en torno a un área vasta del conocimiento como es la Biología, realizando actividades mancomunadas de investigación, docencia y extensión en nuestro CENUR, y de trabajar con servicios como Agronomía, Veterinaria, Enfermería y Medicina para optimizar los recursos docentes radicados en la región.",
+      "El Departamento de Ciencias Biológicas se compone actualmente de 10 grupos, completado por docentes de la Licenciatura en Biología Humana, el staff de coordinación del CBB, dos docentes G1 adscriptos directamente al Departamento, dos funcionarios R12 por concurso, la Unidad de Apoyo a los Laboratorios de la sede Salto, y docentes de los Servicios radicados en esta y otras regiones del país, dando un total actual de 55 integrantes.",
+      "En 2018 la UdelaR aprobó la Ordenanza de los Departamentos de los CENURes. En noviembre de ese año se convocó a una reunión presencial de Departamento en la sede Salto, donde se constituyó la Sala Docente y se creó una comisión electoral para elegir autoridades. De la votación electrónica surgió la primera Comisión Directiva cogobernada, con Daniel Peluffo como Director.",
+      "A comienzos de 2019 el Departamento se reunió con la Decana de la Facultad de Ciencias, Mónica Marín, para presentar su nueva estructura y solicitar que ese Servicio continuara siendo su Referencia Académica, lo cual fue refrendado por el Consejo de dicha institución. En la misma instancia se sentaron las bases de sendos Convenios de Colaboración con el Instituto de Biología y el Instituto de Química Biológica de Facultad de Ciencias, vigentes en la actualidad.",
+      "La oferta de enseñanza insignia del Departamento es el Ciclo Biología-Bioquímica (CBB), aprobado por el CDC en 2012 y de forma definitiva en diciembre de 2017, con inicio de actividades en marzo de 2018. A futuro se contempla que sea la base para una Licenciatura en Biotecnología en el Litoral y a nivel nacional.",
+      "Desde 2015, el Departamento pertenece al Centro Interdisciplinario CEINBIO (Centro de Investigaciones Biomédicas), integrado por investigadores de las Facultades de Medicina, Ciencias, Química y el CENUR Litoral Norte, el Instituto Clemente Estable y el Institut Pasteur de Montevideo."
+    ],
+    "infrastructureTitle": "Infraestructura",
+    "infrastructure": "Junto al edificio principal de la sede Salto funciona una plataforma de investigación de 1800 m², en la que trabajan 8 de los 11 laboratorios del Departamento. 1500 m² están destinados a laboratorios, salas de extracción, detección y limpieza de materiales, oficinas, salas de reuniones y aulas. Un sector de 300 m² incluye un área de bioseguridad de nivel 3 (P3), única en Uruguay, que permite trabajar con patógenos como el virus de la aftosa.",
+    "governanceTitle": "Comisiones y unidades de apoyo",
+    "directorLabel": "Dirección del Departamento",
+    "director": "Dr. Julio da Luz (Laboratorio de Genética Molecular Humana)",
+    "boardTitle": "Comisión Directiva",
+    "boardTitulares": ["Dra. Ana María Soler (Genética Molecular Humana)", "Dr. Matías Victoria (Virología Molecular)"],
+    "boardSuplentes": [
+      "Dra. Ileana Corvo (I+D de Moléculas Bioactivas)",
+      "Dr. Diego Queirolo (ECoFauna)",
+      "Dr. Iván González (Ecología Fluvial)",
+      "Dra. María José Zuluaga (Biofisicoquímica)"
+    ],
+    "budgetTitle": "Subcomisión de Presupuesto",
+    "budget": ["Mag. Ana Gabriela Sánchez (Biofisicoquímica)", "Mag. Ana María Soler (Genética Molecular Humana)"],
+    "commsTitle": "Subcomisión de Comunicación Académica",
+    "comms": [
+      "Mag. Gabriela Burgueño (Genética Molecular Humana)",
+      "Mag. Ivana Silva (Ecología Fluvial)",
+      "Dr. Pablo D. Dans (Biofísica Computacional)",
+      "Lic. Ana Clara Segovia (I+D de Moléculas Bioactivas)"
+    ],
+    "supportTitle": "Unidad de Apoyo a los Laboratorios",
+    "support": ["Pablo Gómez", "Eugenia Moreira"],
+    "partnersTitle": "Socios académicos",
+    "partners": "El DCB pertenece desde 2015 al Centro Interdisciplinario CEINBIO (Espacio Interdisciplinario), dirigido por el Dr. Rafael Radi, integrado por investigadores de las Facultades de Medicina, Ciencias, Química y el CENUR Litoral Norte de la Universidad de la República, el Instituto Clemente Estable y el Institut Pasteur de Montevideo."
+  },
+  "investigacion": {
     "title": "Investigación",
-    "subtitle": "12 grupos de investigación y docencia, radicados en las sedes de Salto y Paysandú.",
-    "note": "Sección en construcción: próximamente se sumarán líneas de investigación, proyectos y publicaciones de cada grupo.",
+    "subtitle": "Grupos de Investigación del DCB.",
+    "note": "Próximamente: líneas de investigación, proyectos y publicaciones de cada grupo.",
     "groups": [
-      { "name": "Biofisicoquímica", "lead": "Prof. Dr. R. Daniel Peluffo" },
+      { "name": "Biofisicoquímica", "lead": "Responsable: Prof. Dr. R. Daniel Peluffo" },
       { "name": "Biofísica Computacional", "lead": "Prof. Dr. Pablo D. Dans" },
       { "name": "Biomecánica y Análisis del Movimiento", "lead": "Prof. Dr. Carlo Biancardi" },
-      { "name": "Ecología Fluvial", "lead": "Prof. Dra. Christine Lucas · Prof. Dr. Iván González" },
+      { "name": "Ecología Fluvial", "lead": "Responsables: Prof. Dra. Christine Lucas · Prof. Dr. Iván González" },
       { "name": "Ecología y Comportamiento de Fauna Silvestre (ECoFauna)", "lead": "Prof. Dr. Diego Queirolo" },
       { "name": "Genética Molecular Humana", "lead": "Prof. Dr. Julio da Luz" },
       { "name": "Genómica y Bioinformática", "lead": "Prof. Dra. Nélida Rodriguez" },
@@ -54,40 +96,80 @@
       { "name": "Vectores y Enfermedades Transmitidas", "lead": "Prof. Dr. José Manuel Venzal" }
     ]
   },
-  "teaching": {
-    "title": "Docencia",
-    "subtitle": "Ciclo Biología-Bioquímica (CBB) y Licenciatura en Biología Humana.",
-    "intro": "El Departamento es responsable del Ciclo Biología-Bioquímica (CBB), aprobado por el CDC en 2012 y con inicio de actividades en 2018, y participa además en la Licenciatura en Biología Humana y en cursos de grado, posgrado y educación permanente de otros servicios de la UdelaR.",
+  "ensenanza": {
+    "title": "Enseñanza",
+    "subtitle": "El Departamento de Ciencias Biológicas es responsable del Ciclo Biología-Bioquímica y participa de una gran diversidad de cursos de grado, posgrado y de educación permanente para varias instituciones de la UdelaR.",
     "cbbTitle": "Ciclo Biología-Bioquímica (CBB)",
-    "cbbDescription": "Ofrece formación básica de calidad en ciencias biológicas y bioquímica en las sedes Salto y Paysandú, dictada por docentes de los grupos de investigación del Departamento. Equivale a 90 créditos de primer año universitario, reconocidos por la Facultad de Ciencias para continuar en las Licenciaturas en Ciencias Biológicas y en Bioquímica, y a nivel regional en la Licenciatura en Biología Humana.",
-    "cbbAreas": [
+    "cbbDescription": "El Ciclo Biología Bioquímica se propone como una oferta académica que brinda formación básica de calidad en el área de las ciencias biológicas y bioquímica en las sedes Paysandú y Salto del CENUR Litoral Norte, dictada por un equipo de docentes de excelencia integrantes de los grupos de investigación del Departamento. Posee 90 créditos equivalentes a un primer año de formación terciaria universitaria, reconocidos por la Facultad de Ciencias para continuar los estudios en la Licenciatura en Ciencias Biológicas y en Bioquímica en Montevideo. A nivel regional (Salto y Paysandú), se puede continuar en la Licenciatura en Biología Humana.",
+    "areasTitle": "Plan de estudios — tres áreas de formación",
+    "areas": [
       "Biología Celular y Molecular (mínimo 25 créditos)",
       "Diversidad Biológica (mínimo 15 créditos)",
       "Formación Metodológica y General (entre 5 y 20 créditos)"
     ],
+    "curriculumTitle": "Currícula",
+    "semester1Title": "Primer semestre",
+    "semester1": ["Introducción a las Ciencias Biológicas I", "Fundamentos de Bioquímica y Bases Biomoleculares", "Biología Celular", "Introducción a la Metodología Científica"],
+    "semester2Title": "Segundo semestre",
+    "semester2": ["Introducción a las Ciencias Biológicas II", "Biofísica", "Genética General", "Introducción a la Biología Animal"],
+    "coordTitle": "Equipo de coordinación",
+    "coord": ["Prof. Dr. R. Daniel Peluffo — Coordinador", "Lic. Ana Egaña — Asistente de coordinación", "Lic. Andrea Texo — Ayudante de coordinación", "Bach. Zoraima Artía"],
     "cbbContactLabel": "Contacto del CBB",
     "cbbContact": "ciclobiologiabioquimica@gmail.com",
-    "note": "Sección en construcción: próximamente se sumará el detalle curricular completo y la oferta de posgrado."
+    "lbhTitle": "Licenciatura en Biología Humana",
+    "lbh": "La Licenciatura en Biología Humana (LBH) está presente en el CENUR Litoral Norte desde antes de su conformación en 2014, acompañando activamente las etapas de su creación. Es parte del Departamento de Ciencias Biológicas, cuyo Servicio de Referencia Académica es la Facultad de Ciencias. En Paysandú, la LBH trabaja en estrecha relación con los equipos docentes y de investigación del área de la Salud, y se integró al grupo de trabajo que elaboró la propuesta del CIO-Salud del Centro Universitario de Paysandú.",
+    "lbhContactLabel": "Contacto de la LBH",
+    "lbhContact": "lbh.interior@gmail.com"
   },
-  "staff": {
-    "title": "Personal",
-    "subtitle": "Dirección, Comisión Directiva y unidades de apoyo del Departamento.",
-    "directorLabel": "Dirección del Departamento",
-    "director": "Dr. Julio da Luz (Laboratorio de Genética Molecular Humana)",
-    "boardTitle": "Comisión Directiva",
-    "board": [
-      "Dra. Ana María Soler (Genética Molecular Humana) — titular",
-      "Dr. Matías Victoria (Virología Molecular) — titular",
-      "Dra. Ileana Corvo (I+D de Moléculas Bioactivas) — suplente",
-      "Dr. Diego Queirolo (ECoFauna) — suplente",
-      "Dr. Iván González (Ecología Fluvial) — suplente",
-      "Dra. María José Zuluaga (Biofisicoquímica) — suplente"
-    ],
-    "supportTitle": "Unidad de Apoyo a los Laboratorios",
-    "support": ["Pablo Gómez", "Eugenia Moreira"],
-    "note": "Los equipos completos de cada grupo de investigación, con nómina de integrantes y fotos, se irán publicando por grupo en próximas actualizaciones."
+  "extension": {
+    "title": "Extensión",
+    "subtitle": "El Departamento de Ciencias Biológicas participa de diversas acciones de extensión a lo largo y ancho del país, así como de actividades de extensión de carácter internacional: charlas de divulgación, artículos en prensa, radio, entre otras.",
+    "covidTitle": "COVID-19",
+    "covid": "Durante la pandemia de COVID-19, el DCB se involucró profunda y activamente con las comunidades de los departamentos del norte del país, poniendo a punto la técnica de PCR para diagnóstico del virus, llevando a cabo el análisis de las muestras, participando en los grupos de científicos que asesoraron al gobierno, y publicando investigaciones originales realizadas a nivel de las comunidades locales. Varios investigadores del DCB dirigieron sus conocimientos al diagnóstico, la secuenciación y el análisis de genomas virales, y al estudio de la duración de la respuesta inmune provocada por la infección.",
+    "scienceWeekTitle": "\"Todo tiene su ciencia\" — Semana de la Ciencia y la Tecnología",
+    "scienceWeek": "Desde 2022, la Subcomisión de Comunicación Académica del DCB organiza \"Todo tiene su ciencia\", jornadas de actividades en el marco de la Semana de la Ciencia y la Tecnología, con el fin de difundir y visibilizar al Departamento, sus integrantes y las investigaciones que se llevan a cabo en la región que comprende Salto, Paysandú, Artigas y Bella Unión.",
+    "seminarsTitle": "Ciclo de Seminarios \"En qué andamos\"",
+    "seminars": "El objetivo del ciclo es promover el intercambio y la colaboración entre el DCB y sus investigadores, invitando también a colaboradores externos. Los seminarios se desarrollan en modalidad híbrida (presencial en la sede Salto / Zoom) los miércoles de 10 a 12 hs, con la participación de los distintos grupos de investigación del Departamento."
   },
-  "contact": {
+  "reconocimientos": {
+    "title": "Reconocimientos",
+    "subtitle": "Algunos de los reconocimientos más recientes otorgados a docentes, investigadores y funcionarios del DCB.",
+    "items": [
+      {
+        "title": "Mejor presentación oral y póster — Jornadas de Jóvenes Investigadores AUGM",
+        "description": "Daniela Mejías (Biofisicoquímica) y Agustina Añasco (Genómica y Bioinformática) fueron seleccionadas por la UdelaR para presentar sus trabajos de investigación en la Universidad Nacional de Asunción, Paraguay. Daniela obtuvo la distinción a mejor presentación oral y póster en el eje de Ciencias Exactas, y Agustina a mejor presentación oral en el eje de Ciencias de la Vida."
+      },
+      {
+        "title": "Mejor trabajo — Primer Congreso Iberoamericano de Genética Médica y Medicina Genómica",
+        "description": "El trabajo de la Mag. Gabriela Burgueño, orientado por el Dr. Julio da Luz y la Dra. Ana María Soler (Laboratorio de Genética Molecular Humana), fue seleccionado como mejor trabajo en la categoría de semilleros de investigación, en Cartagena, Colombia."
+      },
+      {
+        "title": "Premio \"Fausto\" 2022 — Asociación de Profesionales de la Comunicación de Salto",
+        "description": "El Dr. Rodney Colina y su equipo del Laboratorio de Virología Molecular recibieron este reconocimiento a personalidades e instituciones destacadas de Salto."
+      },
+      {
+        "title": "Premio Luz y Verdad 2022 — B'nai B'rith Uruguay",
+        "description": "Distinción a los Dres. Matías Castells y Andrés Lizasoain, investigadores del Laboratorio de Virología Molecular, por su trayectoria como jóvenes profesionales destacados."
+      },
+      {
+        "title": "Premio Nacional L'Oréal-UNESCO \"Por las Mujeres en la Ciencia\" 2022",
+        "description": "La Dra. Daiana Mir, de la Unidad de Genómica y Bioinformática, recibió este premio que subsidia con USD 20.000 su proyecto de investigación en colaboración con el DLSP-MSP."
+      },
+      {
+        "title": "Dr. Mauricio Cabrera, electo Director del CENUR Litoral Norte (2022–2026)",
+        "description": "El Dr. Mauricio Cabrera, responsable del grupo de Investigación y Desarrollo de Moléculas Bioactivas, fue elegido por el Claustro del CENUR Litoral Norte como director regional."
+      },
+      {
+        "title": "Dr. Daniel Peluffo, representante de América Latina y el Caribe en el ISC",
+        "description": "El Consejo Internacional de Ciencias (ISC) nombró al Dr. Daniel Peluffo, ex-Director del DCB, como miembro del Comité de Enlace del Punto Focal Regional para América Latina y el Caribe."
+      },
+      {
+        "title": "Reconocimiento de INMUJERES-MIDES Salto en el Día Internacional de la Mujer",
+        "description": "Ana Moller, María José Benítez, Leticia Maya y Viviana Bortagaray, del Laboratorio de Virología Molecular, fueron homenajeadas por su trabajo como científicas ante la pandemia."
+      }
+    ]
+  },
+  "contacto": {
     "title": "Contacto",
     "subtitle": "Cómo comunicarse con el Departamento de Ciencias Biológicas.",
     "locations": [
@@ -107,7 +189,6 @@
         "phone": "Tel. / Fax 4722 7950"
       }
     ],
-    "emailLabel": "Correo electrónico",
     "note": "El formulario de contacto del sitio anterior se está migrando; mientras tanto, escribir directamente a la sede correspondiente."
   },
   "footer": {

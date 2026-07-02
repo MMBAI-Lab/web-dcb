@@ -8,42 +8,84 @@
     "about": "About",
     "research": "Research",
     "teaching": "Teaching",
-    "staff": "Staff",
+    "outreach": "Outreach",
+    "awards": "Awards",
     "contact": "Contact",
     "toggleTheme": "Toggle theme",
     "toggleLanguage": "Switch language"
   },
-  "hero": {
+  "home": {
     "eyebrow": "CENUR Litoral Norte · Universidad de la República",
     "title": "Department of Biological Sciences",
-    "subtitle": "We generate and share knowledge in biology through research, teaching, and outreach, based at the Salto and Paysandú campuses of Uruguay's Litoral Norte region.",
+    "subtitle": "Established in 2014 to bring together teaching, research, and outreach in the biological sciences at the Salto and Paysandú campuses of CENUR Litoral Norte.",
     "ctaPrimary": "About the Department",
-    "ctaSecondary": "View research groups"
-  },
-  "about": {
-    "title": "About the Department",
-    "intro": "The Department of Biological Sciences (DCB) was established in June 2014 to bring together faculty and researchers in the biological sciences based at the Salto and Paysandú campuses of CENUR Litoral Norte, Universidad de la República. It now comprises roughly 55 members across 10 research groups, together with the coordination team of the Biology-Biochemistry Cycle (CBB) and the Salto campus Laboratory Support Unit.",
-    "missionTitle": "Mission",
-    "mission": "To work jointly across the broad field of Biology, carrying out coordinated research, teaching, and outreach activities at CENUR Litoral Norte, in cooperation with other university units across the region and the country.",
-    "infrastructureTitle": "Facilities",
-    "infrastructure": "Next to the main building of the Salto campus, an 1,800 m² research platform houses 8 of the Department's 11 laboratories, including a biosafety level 3 (P3) facility — the only one of its kind in Uruguay.",
-    "valuesTitle": "Areas of work",
-    "values": [
-      "Research in biophysical chemistry, molecular biology, ecology, and applied biology",
-      "Teaching of the Biology-Biochemistry Cycle (CBB) and participation in other CENUR Litoral Norte programs",
-      "University outreach and engagement with the region's productive and social communities",
-      "Cooperation with other units of Universidad de la República, in particular CEINBIO and Facultad de Ciencias"
+    "ctaSecondary": "View research groups",
+    "factsTitle": "The DCB at a glance",
+    "facts": [
+      { "value": "2014", "label": "Founded" },
+      { "value": "10", "label": "Research groups" },
+      { "value": "55", "label": "Members" },
+      { "value": "1", "label": "P3 biosafety lab, unique in Uruguay" }
+    ],
+    "sectionsTitle": "Explore the site",
+    "sections": [
+      { "key": "about", "href": "/institucional", "title": "About", "description": "History, facilities, and governing committees of the Department." },
+      { "key": "research", "href": "/investigacion", "title": "Research", "description": "The DCB's 12 research groups and their principal investigators." },
+      { "key": "teaching", "href": "/ensenanza", "title": "Teaching", "description": "The Biology-Biochemistry Cycle (CBB) and the Bachelor's in Human Biology." },
+      { "key": "outreach", "href": "/extension", "title": "Outreach", "description": "Public engagement, seminars, and community outreach activities." },
+      { "key": "awards", "href": "/reconocimientos", "title": "Awards", "description": "Recent awards and distinctions earned by DCB members." },
+      { "key": "contact", "href": "/contacto", "title": "Contact", "description": "Addresses and phone numbers for the Salto and Paysandú campuses." }
     ]
   },
-  "research": {
+  "institucional": {
+    "title": "About the Department",
+    "subtitle": "The Department of Biological Sciences was established in 2014 to bring together teaching and research groups across the biological sciences based at the Salto and Paysandú campuses of CENUR Litoral Norte, Universidad de la República.",
+    "historyTitle": "A brief history of the DCB",
+    "historyByline": "Account by former Department Head Prof. Daniel Peluffo — May 2021",
+    "history": [
+      "In June 2014, the Department of Biology (later renamed \"of Biological Sciences,\" a name validated by UdelaR's University Council) was created out of the academic grouping of faculty and researchers based at CENUR Litoral Norte, belonging to several University Development Hubs and academic units. The Department was founded with the central goal of working jointly across the broad field of Biology, carrying out coordinated research, teaching, and outreach activities at CENUR Litoral Norte, and of working with units such as Agronomy, Veterinary Science, Nursing, and Medicine to make the best use of the faculty based in the region.",
+      "The Department of Biological Sciences now comprises 10 groups, together with faculty from the Bachelor's in Human Biology, the CBB coordination staff, two G1 faculty positions attached directly to the Department, two competitively-appointed technical staff, the Salto campus Laboratory Support Unit, and faculty from other university units based in the region and the rest of the country — a total of 55 members.",
+      "In 2018, UdelaR approved the Regulation governing CENUR Departments. In November of that year, a Department meeting was called at the Salto campus, where the Faculty Assembly was constituted and an electoral committee was formed to choose leadership. The resulting electronic vote produced the first co-governed Governing Board, with Daniel Peluffo as Department Head.",
+      "In early 2019, the Department met with the Dean of Facultad de Ciencias, Mónica Marín, to present its new structure and request that Facultad de Ciencias remain its Academic Reference unit, which was endorsed by that institution's Council shortly after. In the same meeting, the groundwork was laid for Cooperation Agreements with the Institute of Biology and the Institute of Biological Chemistry at Facultad de Ciencias, both still in force today.",
+      "The Department's flagship teaching program is the Biology-Biochemistry Cycle (CBB), approved by the University Council in 2012 and definitively in December 2017, beginning activities in March 2018. It is envisioned as the future basis for a full Bachelor's degree in Biotechnology in the Litoral region and nationally.",
+      "Since 2015, the Department has belonged to the interdisciplinary center CEINBIO (Center for Biomedical Research), which brings together researchers from the Faculties of Medicine, Sciences, and Chemistry, CENUR Litoral Norte, the Clemente Estable Institute, and the Pasteur Institute of Montevideo."
+    ],
+    "infrastructureTitle": "Facilities",
+    "infrastructure": "Next to the main building of the Salto campus, an 1,800 m² research platform houses 8 of the Department's 11 laboratories. 1,500 m² are devoted to labs, extraction and detection rooms, cleaning facilities, offices, meeting rooms, and classrooms. A 300 m² sector includes a biosafety level 3 (P3) facility — the only one of its kind in Uruguay — able to work with pathogens such as foot-and-mouth disease virus.",
+    "governanceTitle": "Committees and support units",
+    "directorLabel": "Department Head",
+    "director": "Dr. Julio da Luz (Human Molecular Genetics Lab)",
+    "boardTitle": "Governing Board",
+    "boardTitulares": ["Dr. Ana María Soler (Human Molecular Genetics) — full member", "Dr. Matías Victoria (Molecular Virology) — full member"],
+    "boardSuplentes": [
+      "Dr. Ileana Corvo (R&D of Bioactive Molecules) — alternate",
+      "Dr. Diego Queirolo (ECoFauna) — alternate",
+      "Dr. Iván González (Fluvial Ecology) — alternate",
+      "Dr. María José Zuluaga (Biophysical Chemistry) — alternate"
+    ],
+    "budgetTitle": "Budget Subcommittee",
+    "budget": ["Mag. Ana Gabriela Sánchez (Biophysical Chemistry)", "Mag. Ana María Soler (Human Molecular Genetics)"],
+    "commsTitle": "Academic Communications Subcommittee",
+    "comms": [
+      "Mag. Gabriela Burgueño (Human Molecular Genetics)",
+      "Mag. Ivana Silva (Fluvial Ecology)",
+      "Dr. Pablo D. Dans (Computational Biophysics)",
+      "Lic. Ana Clara Segovia (R&D of Bioactive Molecules)"
+    ],
+    "supportTitle": "Laboratory Support Unit",
+    "support": ["Pablo Gómez", "Eugenia Moreira"],
+    "partnersTitle": "Academic partners",
+    "partners": "Since 2015, the DCB has belonged to the interdisciplinary center CEINBIO (Espacio Interdisciplinario), directed by Dr. Rafael Radi, bringing together researchers from the Faculties of Medicine, Sciences, and Chemistry, and CENUR Litoral Norte at Universidad de la República, the Clemente Estable Institute, and the Pasteur Institute of Montevideo."
+  },
+  "investigacion": {
     "title": "Research",
-    "subtitle": "12 research and teaching groups, based at the Salto and Paysandú campuses.",
-    "note": "This section is under construction: research lines, projects, and publications for each group will be added soon.",
+    "subtitle": "The DCB's research groups.",
+    "note": "Coming soon: research lines, projects, and publications for each group.",
     "groups": [
-      { "name": "Biophysical Chemistry", "lead": "Prof. Dr. R. Daniel Peluffo" },
+      { "name": "Biophysical Chemistry", "lead": "Lead: Prof. Dr. R. Daniel Peluffo" },
       { "name": "Computational Biophysics", "lead": "Prof. Dr. Pablo D. Dans" },
       { "name": "Biomechanics and Movement Analysis", "lead": "Prof. Dr. Carlo Biancardi" },
-      { "name": "Fluvial Ecology", "lead": "Prof. Dr. Christine Lucas · Prof. Dr. Iván González" },
+      { "name": "Fluvial Ecology", "lead": "Leads: Prof. Dr. Christine Lucas · Prof. Dr. Iván González" },
       { "name": "Wildlife Ecology and Behavior (ECoFauna)", "lead": "Prof. Dr. Diego Queirolo" },
       { "name": "Human Molecular Genetics", "lead": "Prof. Dr. Julio da Luz" },
       { "name": "Genomics and Bioinformatics", "lead": "Prof. Dr. Nélida Rodriguez" },
@@ -54,40 +96,80 @@
       { "name": "Vectors and Vector-Borne Diseases", "lead": "Prof. Dr. José Manuel Venzal" }
     ]
   },
-  "teaching": {
+  "ensenanza": {
     "title": "Teaching",
-    "subtitle": "Biology-Biochemistry Cycle (CBB) and the Bachelor's in Human Biology.",
-    "intro": "The Department runs the Biology-Biochemistry Cycle (CBB), approved by UdelaR's CDC in 2012 and launched in 2018, and also contributes to the Bachelor's in Human Biology and to undergraduate, graduate, and continuing-education courses across the university.",
+    "subtitle": "The Department of Biological Sciences runs the Biology-Biochemistry Cycle and contributes to a wide range of undergraduate, graduate, and continuing-education courses across Universidad de la República.",
     "cbbTitle": "Biology-Biochemistry Cycle (CBB)",
-    "cbbDescription": "Provides foundational training in biological sciences and biochemistry at the Salto and Paysandú campuses, taught by faculty from the Department's research groups. It is equivalent to 90 credits of first-year university study, recognized by Facultad de Ciencias toward the Bachelor's degrees in Biological Sciences and in Biochemistry, and regionally toward the Bachelor's in Human Biology.",
-    "cbbAreas": [
+    "cbbDescription": "The Biology-Biochemistry Cycle offers foundational training in the biological sciences and biochemistry at the Paysandú and Salto campuses of CENUR Litoral Norte, taught by an outstanding faculty drawn from the Department's research groups. It is equivalent to 90 credits of first-year university study, recognized by Facultad de Ciencias toward the Bachelor's degrees in Biological Sciences and in Biochemistry in Montevideo, and regionally (Salto and Paysandú) toward the Bachelor's in Human Biology.",
+    "areasTitle": "Curriculum — three training areas",
+    "areas": [
       "Cell and Molecular Biology (minimum 25 credits)",
       "Biological Diversity (minimum 15 credits)",
       "Methodological and General Training (5 to 20 credits)"
     ],
+    "curriculumTitle": "Course sequence",
+    "semester1Title": "First semester",
+    "semester1": ["Introduction to Biological Sciences I", "Fundamentals of Biochemistry and Biomolecular Basics", "Cell Biology", "Introduction to Scientific Methodology"],
+    "semester2Title": "Second semester",
+    "semester2": ["Introduction to Biological Sciences II", "Biophysics", "General Genetics", "Introduction to Animal Biology"],
+    "coordTitle": "Coordination team",
+    "coord": ["Prof. Dr. R. Daniel Peluffo — Coordinator", "Lic. Ana Egaña — Coordination assistant", "Lic. Andrea Texo — Coordination aide", "Bach. Zoraima Artía"],
     "cbbContactLabel": "CBB contact",
     "cbbContact": "ciclobiologiabioquimica@gmail.com",
-    "note": "This section is under construction: the full curriculum and graduate offerings will be added soon."
+    "lbhTitle": "Bachelor's in Human Biology",
+    "lbh": "The Bachelor's in Human Biology (LBH) has been present at CENUR Litoral Norte since before its formal establishment in 2014, actively accompanying each stage of its creation. It is part of the Department of Biological Sciences, whose Academic Reference unit is Facultad de Ciencias. In Paysandú, the LBH works closely with teaching and research teams in the health field, and joined the working group that drafted the CIO-Salud proposal at the Paysandú University Center.",
+    "lbhContactLabel": "LBH contact",
+    "lbhContact": "lbh.interior@gmail.com"
   },
-  "staff": {
-    "title": "Staff",
-    "subtitle": "Department leadership, Governing Board, and support units.",
-    "directorLabel": "Department Head",
-    "director": "Dr. Julio da Luz (Human Molecular Genetics Lab)",
-    "boardTitle": "Governing Board",
-    "board": [
-      "Dr. Ana María Soler (Human Molecular Genetics) — full member",
-      "Dr. Matías Victoria (Molecular Virology) — full member",
-      "Dr. Ileana Corvo (R&D of Bioactive Molecules) — alternate",
-      "Dr. Diego Queirolo (ECoFauna) — alternate",
-      "Dr. Iván González (Fluvial Ecology) — alternate",
-      "Dr. María José Zuluaga (Biophysical Chemistry) — alternate"
-    ],
-    "supportTitle": "Laboratory Support Unit",
-    "support": ["Pablo Gómez", "Eugenia Moreira"],
-    "note": "Full team listings for each research group, with members and photos, will be published group by group in upcoming updates."
+  "extension": {
+    "title": "Outreach",
+    "subtitle": "The Department of Biological Sciences takes part in outreach activities across the country, as well as international engagement such as public talks, press articles, and radio appearances.",
+    "covidTitle": "COVID-19",
+    "covid": "During the COVID-19 pandemic, the DCB engaged deeply with communities across Uruguay's northern departments — developing PCR diagnostic testing for the virus, running sample analysis, taking part in the scientific advisory groups that informed government policy, and publishing original research carried out at the local community level. Several DCB researchers directed their work toward diagnostics, viral genome sequencing and analysis, and the study of how long immune responses to infection lasted.",
+    "scienceWeekTitle": "\"Todo tiene su ciencia\" — Science and Technology Week",
+    "scienceWeek": "Since 2022, the DCB's Academic Communications Subcommittee has organized \"Todo tiene su ciencia\" (\"Everything has its science\"), a program of activities during Science and Technology Week aimed at raising the profile of the Department, its members, and the research carried out across the Salto, Paysandú, Artigas, and Bella Unión region.",
+    "seminarsTitle": "\"En qué andamos\" Seminar Series",
+    "seminars": "The series promotes exchange and collaboration between the DCB and its researchers, also inviting external collaborators. Seminars run in hybrid format (in person at the Salto campus / Zoom) on Wednesdays from 10 a.m. to noon, featuring the Department's various research groups."
   },
-  "contact": {
+  "reconocimientos": {
+    "title": "Awards",
+    "subtitle": "Some of the most recent awards and distinctions earned by DCB faculty, researchers, and staff.",
+    "items": [
+      {
+        "title": "Best oral presentation and poster — AUGM Young Researchers Meeting",
+        "description": "Daniela Mejías (Biophysical Chemistry) and Agustina Añasco (Genomics and Bioinformatics) were selected by UdelaR to present their research at the Universidad Nacional de Asunción, Paraguay. Daniela won best oral presentation and poster in the Exact Sciences track, and Agustina won best oral presentation in the Life Sciences track."
+      },
+      {
+        "title": "Best paper — First Ibero-American Congress of Medical Genetics and Genomic Medicine",
+        "description": "Work by Mag. Gabriela Burgueño, supervised by Dr. Julio da Luz and Dr. Ana María Soler (Human Molecular Genetics Lab), was selected as the best paper in the early-career research category, in Cartagena, Colombia."
+      },
+      {
+        "title": "\"Fausto\" 2022 Award — Salto Association of Communication Professionals",
+        "description": "Dr. Rodney Colina and his team from the Molecular Virology Lab received this recognition for outstanding individuals and institutions in Salto."
+      },
+      {
+        "title": "Luz y Verdad 2022 Award — B'nai B'rith Uruguay",
+        "description": "Awarded to Dr. Matías Castells and Dr. Andrés Lizasoain, researchers at the Molecular Virology Lab, recognizing outstanding early-career professionals."
+      },
+      {
+        "title": "L'Oréal-UNESCO \"For Women in Science\" National Award 2022",
+        "description": "Dr. Daiana Mir, of the Genomics and Bioinformatics Unit, received this award, which grants USD 20,000 to her research project in collaboration with the Ministry of Public Health's DLSP."
+      },
+      {
+        "title": "Dr. Mauricio Cabrera elected Director of CENUR Litoral Norte (2022–2026)",
+        "description": "Dr. Mauricio Cabrera, lead of the R&D of Bioactive Molecules group, was elected regional director by the CENUR Litoral Norte Assembly."
+      },
+      {
+        "title": "Dr. Daniel Peluffo, Latin American and Caribbean representative at the ISC",
+        "description": "The International Science Council (ISC) appointed Dr. Daniel Peluffo, former DCB Department Head, to its Liaison Committee for the Latin America and Caribbean Regional Focal Point."
+      },
+      {
+        "title": "INMUJERES-MIDES Salto recognition on International Women's Day",
+        "description": "Ana Moller, María José Benítez, Leticia Maya, and Viviana Bortagaray, of the Molecular Virology Lab, were honored for their work as women scientists during the pandemic."
+      }
+    ]
+  },
+  "contacto": {
     "title": "Contact",
     "subtitle": "How to reach the Department of Biological Sciences.",
     "locations": [
@@ -107,7 +189,6 @@
         "phone": "Phone / Fax 4722 7950"
       }
     ],
-    "emailLabel": "Email",
     "note": "The previous site's contact form is being migrated; in the meantime, please write directly to the relevant campus."
   },
   "footer": {

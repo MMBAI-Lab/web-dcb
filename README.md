@@ -34,25 +34,30 @@ Pages o cualquier hosting estático.
 src/
   app/
     layout.tsx            # Root layout: <html>/<body>, fuentes, ThemeProvider
-    page.tsx               # Redirect "/" -> "/es/" o "/en/" según idioma del navegador
+    page.tsx               # Redirect "/" -> "/es/" (idioma por defecto; EN se elige a mano en el nav)
     [locale]/
       layout.tsx            # Layout localizado: NextIntlClientProvider, Header, Footer
-      page.tsx              # Home: ensambla las secciones
-    globals.css             # Tailwind + variables de tema (paleta académica)
+      page.tsx              # Home (hero + cifras + tarjetas de navegación)
+      institucional/page.tsx
+      investigacion/page.tsx
+      ensenanza/page.tsx
+      extension/page.tsx
+      reconocimientos/page.tsx
+      contacto/page.tsx      # Una página real por solapa, no un scroll único con todo mezclado
+    globals.css             # Tailwind + paleta de marca (teal/crimson/gold del logo del DCB)
   components/
-    layout/                 # Header, Footer
-    sections/                # Hero, About, Research, Teaching, Staff, Contact
-    ui/                      # Primitivas visuales (p. ej. Reveal, animación al hacer scroll)
+    layout/                 # Header (nav real + banda tricolor), Footer
+    pages/                   # Cuerpo de cada página: Home, Institucional, Investigacion, Ensenanza, Extension, Reconocimientos, Contacto
+    ui/                      # Primitivas visuales: PageBanner, Reveal (animación al hacer scroll)
     theme-provider.tsx, theme-toggle.tsx, language-switcher.tsx, html-lang-sync.tsx
   i18n/
     routing.ts               # Locales soportados, locale por defecto
     navigation.ts             # Link/usePathname/useRouter conscientes del locale
     request.ts                # Config de next-intl (carga de mensajes)
   messages/
-    es.json, en.json          # Todo el copy del sitio, por idioma
-  content/
-    es/, en/                  # (reservado) contenido estructurado más extenso: investigación, personal, etc.
-  lib/                        # Utilidades compartidas
+    es.json, en.json          # Todo el copy del sitio, por idioma y por página
+  lib/
+    asset.ts                  # Helper para anteponer NEXT_PUBLIC_BASE_PATH a imágenes estáticas
 
 data/
   old/                       # Volcado del sitio Wix anterior (HTML, imágenes, texto extraído)
@@ -76,18 +81,18 @@ public/
 - Español (`es`) es el idioma por defecto; inglés (`en`, inglés académico
   americano) es el segundo idioma.
 - Las rutas siempre llevan prefijo de idioma: `/es/...` y `/en/...`.
-- `/` no renderiza contenido: detecta el idioma del navegador en el cliente
-  y redirige a `/es/` o `/en/` (el export estático no soporta middleware,
-  así que la detección de idioma en la raíz ocurre en el navegador).
+- `/` no renderiza contenido: redirige siempre a `/es/` en el cliente (el
+  export estático no soporta middleware). El cambio a inglés es una acción
+  explícita del usuario, con el botón EN/ES del header.
 - Todo el copy vive en `src/messages/es.json` y `src/messages/en.json`. Al
   agregar una sección nueva, agregar la clave en **ambos** archivos.
 
 ## Tema claro / oscuro
 
 Se usa `next-themes` con `attribute="class"` y una variante personalizada de
-Tailwind (`@custom-variant dark`) en `globals.css`. La paleta (verde
-institucional + acento cálido) está definida como variables CSS en
-`:root` / `.dark` y expuesta a Tailwind vía `@theme inline`.
+Tailwind (`@custom-variant dark`) en `globals.css`. La paleta usa los tres
+colores del logo del DCB (teal, crimson, gold) como variables CSS en
+`:root` / `.dark`, expuestas a Tailwind vía `@theme inline`.
 
 ## Migración de contenido desde el sitio anterior (Wix)
 

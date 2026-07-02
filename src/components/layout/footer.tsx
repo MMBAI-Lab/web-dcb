@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { asset } from "@/lib/asset";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -11,7 +12,7 @@ export function Footer() {
         <div className="flex flex-wrap items-center gap-6 opacity-80">
           <span className="relative h-8 w-28">
             <Image
-              src="/images/logos/udelar-logo.jpg"
+              src={asset("/images/logos/udelar-logo.jpg")}
               alt="Universidad de la República"
               fill
               sizes="112px"
@@ -20,7 +21,7 @@ export function Footer() {
           </span>
           <span className="relative h-8 w-28">
             <Image
-              src="/images/logos/cenur-logo.jpg"
+              src={asset("/images/logos/cenur-logo.jpg")}
               alt="CENUR Litoral Norte"
               fill
               sizes="112px"
