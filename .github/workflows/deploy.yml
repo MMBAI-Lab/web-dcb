@@ -22,8 +22,12 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
+
+      # Pin npm to the version that generated package-lock.json, since a
+      # mismatched npm can reject an otherwise-valid lockfile under `ci`.
+      - run: npm install -g npm@11.12.1
 
       - run: npm ci
 
