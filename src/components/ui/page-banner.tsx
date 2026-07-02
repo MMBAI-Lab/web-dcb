@@ -1,19 +1,28 @@
-import type { ReactNode } from "react";
+import type { ComponentType, ReactNode, SVGProps } from "react";
 
 export function PageBanner({
   eyebrow,
   title,
   subtitle,
+  motif: Motif,
 }: {
   eyebrow?: string;
   title: ReactNode;
   subtitle?: ReactNode;
+  motif?: ComponentType<SVGProps<SVGSVGElement>>;
 }) {
   return (
-    <section className="border-b border-border bg-surface">
-      <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
+    <section className="relative overflow-hidden border-b border-border bg-surface">
+      {Motif && (
+        <Motif
+          aria-hidden="true"
+          className="pointer-events-none absolute -right-10 -top-10 h-64 w-64 text-teal opacity-[0.07] sm:h-80 sm:w-80"
+        />
+      )}
+      <div className="relative mx-auto max-w-6xl px-5 py-14 sm:px-8">
         {eyebrow && (
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-crimson">
+          <p className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-crimson">
+            <span className="h-1.5 w-1.5 rounded-full bg-crimson" />
             {eyebrow}
           </p>
         )}

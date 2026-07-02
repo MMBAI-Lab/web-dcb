@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { PageBanner } from "@/components/ui/page-banner";
+import { ChromosomeMotif } from "@/components/ui/science-motifs";
 import { Reconocimientos } from "@/components/pages/reconocimientos";
 
 export default async function ReconocimientosPage({
@@ -14,7 +15,7 @@ export default async function ReconocimientosPage({
 
   return (
     <>
-      <PageBanner title={t("title")} subtitle={t("subtitle")} />
+      <PageBanner title={t("title")} subtitle={t("subtitle")} motif={ChromosomeMotif} />
       <Reconocimientos />
     </>
   );

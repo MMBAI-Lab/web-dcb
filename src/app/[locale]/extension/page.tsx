@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { PageBanner } from "@/components/ui/page-banner";
+import { DnaMotif } from "@/components/ui/science-motifs";
 import { Extension } from "@/components/pages/extension";
 
 export default async function ExtensionPage({
@@ -14,7 +15,7 @@ export default async function ExtensionPage({
 
   return (
     <>
-      <PageBanner title={t("title")} />
+      <PageBanner title={t("title")} motif={DnaMotif} />
       <Extension />
     </>
   );

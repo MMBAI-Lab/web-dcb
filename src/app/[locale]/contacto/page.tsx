@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { PageBanner } from "@/components/ui/page-banner";
+import { NetworkMotif } from "@/components/ui/science-motifs";
 import { Contacto } from "@/components/pages/contacto";
 
 export default async function ContactoPage({
@@ -14,7 +15,7 @@ export default async function ContactoPage({
 
   return (
     <>
-      <PageBanner title={t("title")} subtitle={t("subtitle")} />
+      <PageBanner title={t("title")} subtitle={t("subtitle")} motif={NetworkMotif} />
       <Contacto />
     </>
   );

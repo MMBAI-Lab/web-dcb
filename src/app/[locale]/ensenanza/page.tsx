@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { PageBanner } from "@/components/ui/page-banner";
+import { PhyloTreeMotif } from "@/components/ui/science-motifs";
 import { Ensenanza } from "@/components/pages/ensenanza";
 
 export default async function EnsenanzaPage({
@@ -14,7 +15,7 @@ export default async function EnsenanzaPage({
 
   return (
     <>
-      <PageBanner title={t("title")} subtitle={t("subtitle")} />
+      <PageBanner title={t("title")} subtitle={t("subtitle")} motif={PhyloTreeMotif} />
       <Ensenanza />
     </>
   );

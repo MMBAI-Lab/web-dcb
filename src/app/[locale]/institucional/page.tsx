@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { PageBanner } from "@/components/ui/page-banner";
+import { CellMotif } from "@/components/ui/science-motifs";
 import { Institucional } from "@/components/pages/institucional";
 
 export default async function InstitucionalPage({
@@ -14,7 +15,7 @@ export default async function InstitucionalPage({
 
   return (
     <>
-      <PageBanner title={t("title")} subtitle={t("subtitle")} />
+      <PageBanner title={t("title")} subtitle={t("subtitle")} motif={CellMotif} />
       <Institucional />
     </>
   );
