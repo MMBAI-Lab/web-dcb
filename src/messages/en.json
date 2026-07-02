@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "siteTitle": "DCB · Department of Biological Sciences",
+    "siteDescription": "Department of Biological Sciences, CENUR Litoral Norte, Universidad de la República, Uruguay."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "research": "Research",
+    "teaching": "Teaching",
+    "staff": "Staff",
+    "contact": "Contact",
+    "toggleTheme": "Toggle theme",
+    "toggleLanguage": "Switch language"
+  },
+  "hero": {
+    "eyebrow": "CENUR Litoral Norte · Universidad de la República",
+    "title": "Department of Biological Sciences",
+    "subtitle": "We generate and share knowledge in biology through research, teaching, and outreach, based at the Salto and Paysandú campuses of Uruguay's Litoral Norte region.",
+    "ctaPrimary": "About the Department",
+    "ctaSecondary": "View research groups"
+  },
+  "about": {
+    "title": "About the Department",
+    "intro": "The Department of Biological Sciences (DCB) was established in June 2014 to bring together faculty and researchers in the biological sciences based at the Salto and Paysandú campuses of CENUR Litoral Norte, Universidad de la República. It now comprises roughly 55 members across 10 research groups, together with the coordination team of the Biology-Biochemistry Cycle (CBB) and the Salto campus Laboratory Support Unit.",
+    "missionTitle": "Mission",
+    "mission": "To work jointly across the broad field of Biology, carrying out coordinated research, teaching, and outreach activities at CENUR Litoral Norte, in cooperation with other university units across the region and the country.",
+    "infrastructureTitle": "Facilities",
+    "infrastructure": "Next to the main building of the Salto campus, an 1,800 m² research platform houses 8 of the Department's 11 laboratories, including a biosafety level 3 (P3) facility — the only one of its kind in Uruguay.",
+    "valuesTitle": "Areas of work",
+    "values": [
+      "Research in biophysical chemistry, molecular biology, ecology, and applied biology",
+      "Teaching of the Biology-Biochemistry Cycle (CBB) and participation in other CENUR Litoral Norte programs",
+      "University outreach and engagement with the region's productive and social communities",
+      "Cooperation with other units of Universidad de la República, in particular CEINBIO and Facultad de Ciencias"
+    ]
+  },
+  "research": {
+    "title": "Research",
+    "subtitle": "12 research and teaching groups, based at the Salto and Paysandú campuses.",
+    "note": "This section is under construction: research lines, projects, and publications for each group will be added soon.",
+    "groups": [
+      { "name": "Biophysical Chemistry", "lead": "Prof. Dr. R. Daniel Peluffo" },
+      { "name": "Computational Biophysics", "lead": "Prof. Dr. Pablo D. Dans" },
+      { "name": "Biomechanics and Movement Analysis", "lead": "Prof. Dr. Carlo Biancardi" },
+      { "name": "Fluvial Ecology", "lead": "Prof. Dr. Christine Lucas · Prof. Dr. Iván González" },
+      { "name": "Wildlife Ecology and Behavior (ECoFauna)", "lead": "Prof. Dr. Diego Queirolo" },
+      { "name": "Human Molecular Genetics", "lead": "Prof. Dr. Julio da Luz" },
+      { "name": "Genomics and Bioinformatics", "lead": "Prof. Dr. Nélida Rodriguez" },
+      { "name": "Immunology and Biotechnology", "lead": "Prof. Dr. Natalia Ruétalo" },
+      { "name": "R&D of Bioactive Molecules", "lead": "Prof. Dr. Mauricio Cabrera · Prof. Dr. Guzmán Alvarez" },
+      { "name": "Ruminant Production and Reproduction", "lead": "Position open" },
+      { "name": "Molecular Virology", "lead": "Prof. Dr. Rodney Colina" },
+      { "name": "Vectors and Vector-Borne Diseases", "lead": "Prof. Dr. José Manuel Venzal" }
+    ]
+  },
+  "teaching": {
+    "title": "Teaching",
+    "subtitle": "Biology-Biochemistry Cycle (CBB) and the Bachelor's in Human Biology.",
+    "intro": "The Department runs the Biology-Biochemistry Cycle (CBB), approved by UdelaR's CDC in 2012 and launched in 2018, and also contributes to the Bachelor's in Human Biology and to undergraduate, graduate, and continuing-education courses across the university.",
+    "cbbTitle": "Biology-Biochemistry Cycle (CBB)",
+    "cbbDescription": "Provides foundational training in biological sciences and biochemistry at the Salto and Paysandú campuses, taught by faculty from the Department's research groups. It is equivalent to 90 credits of first-year university study, recognized by Facultad de Ciencias toward the Bachelor's degrees in Biological Sciences and in Biochemistry, and regionally toward the Bachelor's in Human Biology.",
+    "cbbAreas": [
+      "Cell and Molecular Biology (minimum 25 credits)",
+      "Biological Diversity (minimum 15 credits)",
+      "Methodological and General Training (5 to 20 credits)"
+    ],
+    "cbbContactLabel": "CBB contact",
+    "cbbContact": "ciclobiologiabioquimica@gmail.com",
+    "note": "This section is under construction: the full curriculum and graduate offerings will be added soon."
+  },
+  "staff": {
+    "title": "Staff",
+    "subtitle": "Department leadership, Governing Board, and support units.",
+    "directorLabel": "Department Head",
+    "director": "Dr. Julio da Luz (Human Molecular Genetics Lab)",
+    "boardTitle": "Governing Board",
+    "board": [
+      "Dr. Ana María Soler (Human Molecular Genetics) — full member",
+      "Dr. Matías Victoria (Molecular Virology) — full member",
+      "Dr. Ileana Corvo (R&D of Bioactive Molecules) — alternate",
+      "Dr. Diego Queirolo (ECoFauna) — alternate",
+      "Dr. Iván González (Fluvial Ecology) — alternate",
+      "Dr. María José Zuluaga (Biophysical Chemistry) — alternate"
+    ],
+    "supportTitle": "Laboratory Support Unit",
+    "support": ["Pablo Gómez", "Eugenia Moreira"],
+    "note": "Full team listings for each research group, with members and photos, will be published group by group in upcoming updates."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "How to reach the Department of Biological Sciences.",
+    "locations": [
+      {
+        "label": "Salto campus",
+        "address": "Gral. Rivera 1350, 50000 Salto, Uruguay",
+        "phone": "Phone 4733 4816 / 4732 9149 · Fax 4732 2154"
+      },
+      {
+        "label": "Paysandú campus — Centro Educativo Paysandú",
+        "address": "Zorrilla de San Martín y Gral. Artigas, 60000 Paysandú, Uruguay",
+        "phone": ""
+      },
+      {
+        "label": "Paysandú campus — \"Dr. Mario A. Cassinoni\" Experimental Station",
+        "address": "Ruta 3 km 363, 60000 Paysandú, Uruguay",
+        "phone": "Phone / Fax 4722 7950"
+      }
+    ],
+    "emailLabel": "Email",
+    "note": "The previous site's contact form is being migrated; in the meantime, please write directly to the relevant campus."
+  },
+  "footer": {
+    "institution": "Universidad de la República · CENUR Litoral Norte",
+    "rights": "All rights reserved.",
+    "builtWith": "Site built by DansLab / MMBAI-Lab"
+  }
+}
