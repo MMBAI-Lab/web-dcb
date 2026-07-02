@@ -1,0 +1,24 @@
+{
+  "slug": "danslab",
+  "name": { "es": "Biofísica Computacional", "en": "Computational Biophysics" },
+  "campus": "Salto",
+  "email": null,
+  "summary": {
+    "es": "Desarrolla métodos de química y biofísica computacional para el modelado y simulación de sistemas biológicos de interés biomédico, con foco en la estructura 3D/4D de cromosomas, genes y ácidos nucleicos.",
+    "en": "Develops computational chemistry and biophysics methods to model and simulate biological systems of biomedical interest, focusing on the 3D/4D structure of chromosomes, genes, and nucleic acids."
+  },
+  "lead": {
+    "name": "Prof. Dr. Pablo D. Dans",
+    "title": "Responsable del grupo (Gdo 4, 40 hs/sem, DT)",
+    "photo": "/images/people/pablo-dans.jpg"
+  },
+  "members": [
+    { "name": "Lic. Gonzalo Lopez", "title": "Estudiante de Doctorado en Biotecnología, Fac. Ciencias - UdelaR" },
+    { "name": "Dr. Leandro Grille", "title": "Estudiante de posdoctorado" },
+    { "name": "Lic. Mage Teliz", "title": "Estudiante de Maestría en Química, Fac. Química - UdelaR" },
+    { "name": "MSc. Gabriela da Rosa", "title": "Beca CAP (Gdo 2, 6 hs/sem)" },
+    { "name": "MSc. Rafael Sauto", "title": "Miembro del equipo de investigación, Fac. Agronomía - UdelaR" },
+    { "name": "Dr. Germán Traglia", "title": "Asistente (Gdo 2, 40 hs/sem, DT)" },
+    { "name": "Bach. Santiago Pintos", "title": "Miembro del equipo de investigación, Fac. Ciencias - UdelaR" }
+  ]
+}

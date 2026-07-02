@@ -1,0 +1,20 @@
+{
+  "slug": "inmunologia-biotecnologia",
+  "name": { "es": "Inmunología y Biotecnología (LIB)", "en": "Immunology and Biotechnology (LIB)" },
+  "campus": "Salto",
+  "email": null,
+  "summary": {
+    "es": "Laboratorio de Inmunología-Biotecnología: búsqueda, diseño y caracterización de antivirales, desarrollo de biológicos para terapia y diagnóstico, y uso de irradiación UV para protocolos de inactivación viral.",
+    "en": "Immunology-Biotechnology Lab: discovery, design, and characterization of antivirals, development of biologics for therapy and diagnosis, and use of UV irradiation for viral inactivation protocols."
+  },
+  "lead": {
+    "name": "Dra. Natalia Ruétalo",
+    "title": "Profesora Agregada (Gdo 4, 40 hs/sem)",
+    "photo": null
+  },
+  "members": [
+    { "name": "Lic. MSc. Oscar Irabuena", "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)" },
+    { "name": "Dra. María Hilda Avellanal", "title": "Asistente (Gdo 2, 30 hs/sem)" },
+    { "name": "Dra. Sabina Victoria", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, contratada)" }
+  ]
+}

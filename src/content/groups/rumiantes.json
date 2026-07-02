@@ -1,0 +1,27 @@
+{
+  "slug": "rumiantes",
+  "name": { "es": "Producción y Reproducción de Rumiantes", "en": "Ruminant Production and Reproduction" },
+  "campus": "Salto",
+  "email": null,
+  "summary": {
+    "es": "Investigación en aspectos reproductivos de ovinos y bovinos, crecimiento de la lana y estructura de la piel ovina, orientada a resolver problemas productivos de la región en colaboración con productores e instituciones del sector.",
+    "en": "Research on reproductive aspects of sheep and cattle, wool growth, and ovine skin structure, aimed at solving regional production problems in collaboration with producers and sector institutions."
+  },
+  "note": {
+    "es": "La página de investigación general del DCB indicaba este cargo como \"llamado en proceso\"; la página propia del grupo lista al Dr. Daniel Fernández Abella como responsable. Verificar cuál es el estado vigente.",
+    "en": "The DCB's general research listing marked this lead position as a pending search; the group's own page lists Dr. Daniel Fernández Abella as lead. Worth confirming which is current."
+  },
+  "lead": {
+    "name": "Prof. Dr. Daniel Fernández Abella",
+    "title": "Responsable del grupo (Gdo 5, 10 hs/sem)",
+    "photo": null
+  },
+  "members": [
+    { "name": "Prof. Dra. Carolina Realini", "title": "Profesora agregada (Gdo 4, 40 hs/sem, DT)" },
+    { "name": "Dr. Jorge Gil Laureiro", "title": "Profesor adjunto (Gdo 3, 40 hs/sem, DT)" },
+    { "name": "MSc. Oscar Irabuena", "title": "Estudiante de doctorado (Gdo 3, 40 hs/sem)" },
+    { "name": "Quim. Far. Silvia Sterla", "title": "Cursos de perfeccionamiento (Gdo 3, 30 hs/sem)" },
+    { "name": "Ing. Agr. Alfredo Minutti", "title": "Contratado (Gdo 2, 30 hs/sem)" },
+    { "name": "MSc. Zully Hernández Russo", "title": "Profesora adjunta de Fac. de Veterinaria (Gdo 3, 40 hs/sem)" }
+  ]
+}

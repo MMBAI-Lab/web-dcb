@@ -80,21 +80,7 @@
   "investigacion": {
     "title": "Investigación",
     "subtitle": "Grupos de Investigación del DCB.",
-    "note": "Próximamente: líneas de investigación, proyectos y publicaciones de cada grupo.",
-    "groups": [
-      { "name": "Biofisicoquímica", "lead": "Responsable: Prof. Dr. R. Daniel Peluffo" },
-      { "name": "Biofísica Computacional", "lead": "Prof. Dr. Pablo D. Dans" },
-      { "name": "Biomecánica y Análisis del Movimiento", "lead": "Prof. Dr. Carlo Biancardi" },
-      { "name": "Ecología Fluvial", "lead": "Responsables: Prof. Dra. Christine Lucas · Prof. Dr. Iván González" },
-      { "name": "Ecología y Comportamiento de Fauna Silvestre (ECoFauna)", "lead": "Prof. Dr. Diego Queirolo" },
-      { "name": "Genética Molecular Humana", "lead": "Prof. Dr. Julio da Luz" },
-      { "name": "Genómica y Bioinformática", "lead": "Prof. Dra. Nélida Rodriguez" },
-      { "name": "Inmunología y Biotecnología", "lead": "Prof. Dra. Natalia Ruétalo" },
-      { "name": "Investigación y Desarrollo de Moléculas Bioactivas", "lead": "Prof. Dr. Mauricio Cabrera · Prof. Dr. Guzmán Alvarez" },
-      { "name": "Producción y Reproducción de Rumiantes", "lead": "Llamado en proceso" },
-      { "name": "Virología Molecular", "lead": "Prof. Dr. Rodney Colina" },
-      { "name": "Vectores y Enfermedades Transmitidas", "lead": "Prof. Dr. José Manuel Venzal" }
-    ]
+    "note": "Próximamente: proyectos y publicaciones de cada grupo. La ficha completa de integrantes vive en src/content/groups/*.json."
   },
   "ensenanza": {
     "title": "Enseñanza",

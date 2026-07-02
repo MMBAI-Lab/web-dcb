@@ -1,0 +1,22 @@
+{
+  "slug": "ecologia-vertebrados",
+  "name": { "es": "Ecología y Comportamiento de Fauna Silvestre (ECoFauna)", "en": "Wildlife Ecology and Behavior (ECoFauna)" },
+  "campus": "Salto",
+  "email": "dqueirolo@cur.edu.uy",
+  "summary": {
+    "es": "Estudia la distribución de especies, conservación y ecología de poblaciones y comunidades de mamíferos silvestres nativos y exóticos, con foco en predadores nativos y el manejo de especies exóticas invasoras como el jabalí.",
+    "en": "Studies species distribution, conservation, and the ecology of native and exotic wild mammal populations and communities, focusing on native predators and the management of invasive exotic species such as wild boar."
+  },
+  "lead": {
+    "name": "Dr. Diego Queirolo",
+    "title": "Profesor Agregado, Responsable del grupo (Gdo 4, 40 hs/sem, DT)",
+    "photo": null
+  },
+  "members": [],
+  "collaborators": [
+    "Dras. Maria João Ramos Pereira y Flávia P. Tirelli (Universidade Federal do Rio Grande do Sul, Brasil)",
+    "Dr. Javier A. Pereira (Museo Argentino de Ciencias Naturales / CONICET, Argentina)",
+    "Dr. José Carlos Guerrero (Facultad de Ciencias, UdelaR)",
+    "Dr. Pelayo Acevedo (Universidad Castilla-La Mancha, España)"
+  ]
+}

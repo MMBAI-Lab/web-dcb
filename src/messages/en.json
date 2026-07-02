@@ -80,21 +80,7 @@
   "investigacion": {
     "title": "Research",
     "subtitle": "The DCB's research groups.",
-    "note": "Coming soon: research lines, projects, and publications for each group.",
-    "groups": [
-      { "name": "Biophysical Chemistry", "lead": "Lead: Prof. Dr. R. Daniel Peluffo" },
-      { "name": "Computational Biophysics", "lead": "Prof. Dr. Pablo D. Dans" },
-      { "name": "Biomechanics and Movement Analysis", "lead": "Prof. Dr. Carlo Biancardi" },
-      { "name": "Fluvial Ecology", "lead": "Leads: Prof. Dr. Christine Lucas · Prof. Dr. Iván González" },
-      { "name": "Wildlife Ecology and Behavior (ECoFauna)", "lead": "Prof. Dr. Diego Queirolo" },
-      { "name": "Human Molecular Genetics", "lead": "Prof. Dr. Julio da Luz" },
-      { "name": "Genomics and Bioinformatics", "lead": "Prof. Dr. Nélida Rodriguez" },
-      { "name": "Immunology and Biotechnology", "lead": "Prof. Dr. Natalia Ruétalo" },
-      { "name": "R&D of Bioactive Molecules", "lead": "Prof. Dr. Mauricio Cabrera · Prof. Dr. Guzmán Alvarez" },
-      { "name": "Ruminant Production and Reproduction", "lead": "Position open" },
-      { "name": "Molecular Virology", "lead": "Prof. Dr. Rodney Colina" },
-      { "name": "Vectors and Vector-Borne Diseases", "lead": "Prof. Dr. José Manuel Venzal" }
-    ]
+    "note": "Coming soon: projects and publications for each group. The full member roster lives in src/content/groups/*.json."
   },
   "ensenanza": {
     "title": "Teaching",

@@ -1,0 +1,27 @@
+{
+  "slug": "bfq",
+  "name": { "es": "Biofisicoquímica", "en": "Biophysical Chemistry" },
+  "campus": "Salto",
+  "email": "polo.biofisicoquimica@gmail.com",
+  "summary": {
+    "es": "Integrado por el Laboratorio de Biomembranas y el Laboratorio de Radiobiología Médica y Ambiental. Estudia el transporte de sustancias a través de membranas biológicas y las respuestas biológicas al daño genómico inducido por agentes físicos y químicos.",
+    "en": "Comprises the Biomembranes Lab and the Medical and Environmental Radiobiology Lab. Studies the transport of substances across biological membranes and biological responses to genomic damage induced by physical and chemical agents."
+  },
+  "lead": {
+    "name": "Dr. R. Daniel Peluffo",
+    "title": "Profesor, Responsable del Grupo de Biofisicoquímica (Gdo 5, 40 hs/sem, DT)",
+    "photo": "/images/people/daniel-peluffo.png"
+  },
+  "members": [
+    { "name": "Dra. Laura Lafon-Hughes", "title": "Profesora Agregada (Gdo 4, 40 hs/sem)" },
+    { "name": "Dra. María José Zuluaga", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)" },
+    { "name": "MSc. Ana G. Sánchez", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem)" },
+    { "name": "Dra. Deborah Keszenman", "title": "Responsable del Lab. de Radiobiología Médica y Ambiental (Investigadora Honoraria)" },
+    { "name": "Q.F. Adriana Gabrielli", "title": "Asistente (Gdo 2, 40 hs/sem)" },
+    { "name": "Prof. Pablo Alcoba", "title": "Estudiante de la Lic. en Biología Humana" },
+    { "name": "Dra. Valentina Seballos", "title": "Ayudante (Gdo 1, 25 hs/sem)" },
+    { "name": "Lic. Macarena Menoni", "title": "Asistente (Gdo 2, 30 hs/sem)" },
+    { "name": "Lic. Natalia Ibargoyen", "title": "Técnica en instrumental de laboratorio (R12, 30 hs/sem)" },
+    { "name": "Dra. Daniela Mejías", "title": "Estudiante de Posgrado (Maestría en Ciencias Biológicas, Gdo 1, 20 hs/sem)" }
+  ]
+}

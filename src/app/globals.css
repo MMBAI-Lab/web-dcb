@@ -3,21 +3,21 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /*
- * Palette sampled from the DCB logo's three puzzle-piece colors:
- * teal, crimson, and gold. Used as the site's identity instead of a
- * generic academic green, so it reads as "the DCB site" at a glance.
+ * Strict palette: the three DCB logo colors (teal, crimson, gold) plus
+ * pure white and black. No other hues — grays/borders are black or white
+ * at low opacity, not a separate gray scale.
  */
 :root {
-  --background: #faf6ec;
-  --foreground: #21211f;
+  --background: #ffffff;
+  --foreground: #000000;
   --surface: #ffffff;
-  --border: #e6ddc9;
+  --border: rgb(0 0 0 / 12%);
 
   --teal: #12897f;
-  --teal-foreground: #f2fbf9;
+  --teal-foreground: #ffffff;
   --crimson: #c23a56;
   --gold: #e2932e;
-  --gold-foreground: #2a1d05;
+  --gold-foreground: #000000;
 
   --brand: var(--teal);
   --brand-foreground: var(--teal-foreground);
@@ -25,16 +25,16 @@
 }
 
 .dark {
-  --background: #10201d;
-  --foreground: #edf3f1;
-  --surface: #16302b;
-  --border: #234b43;
+  --background: #000000;
+  --foreground: #ffffff;
+  --surface: #000000;
+  --border: rgb(255 255 255 / 16%);
 
   --teal: #3fc9bb;
-  --teal-foreground: #08201c;
+  --teal-foreground: #000000;
   --crimson: #e8687f;
   --gold: #f2b45a;
-  --gold-foreground: #1c1204;
+  --gold-foreground: #000000;
 
   --brand: var(--teal);
   --brand-foreground: var(--teal-foreground);

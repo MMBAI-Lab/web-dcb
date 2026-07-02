@@ -1,0 +1,39 @@
+{
+  "slug": "ecologiafluvial",
+  "name": { "es": "Ecología Fluvial", "en": "Fluvial Ecology" },
+  "campus": "Paysandú",
+  "email": null,
+  "summary": {
+    "es": "Programa integral de estudios ecológicos con foco en comunidades y ecosistemas acuáticos y acuático-terrestres, con investigación de campo en interacciones tierra-agua, tramas tróficas, ecología reproductiva y variabilidad hidroclimática.",
+    "en": "An integrated ecological research program focused on aquatic and aquatic-terrestrial communities and ecosystems, with field research on land-water interactions, food webs, reproductive ecology, and hydroclimatic variability."
+  },
+  "lead": {
+    "name": "Dra. Christine Lucas",
+    "title": "Profesora Adjunta, Responsable del grupo (Gdo 3, 40 hs/sem, DT)",
+    "photo": "/images/people/christine-lucas.jpg"
+  },
+  "coLead": { "name": "Dr. Iván González", "title": "" },
+  "members": [
+    { "name": "Lic. Ana Lucía Mary", "title": "Asistente (Gdo 2, 20 hs/sem)" },
+    { "name": "Bach. Anna Lucía Feris", "title": "Ayudante (Gdo 1, 20 hs/sem)" },
+    { "name": "MSc. Ivana Silva", "title": "Asistente (Gdo 2, 30 hs/sem), Estudiante de Doctorado PEDECIBA Biología" },
+    { "name": "Tec. Wiston Albieni", "title": "" },
+    { "name": "MSc. Noelia Gobel", "title": "Gdo 2, 20 hs/sem" }
+  ],
+  "students": [
+    "MSc. Serrana Ambite (Estudiante de Doctorado, PEDECIBA-Biología, Beca ANII 2023-2026)",
+    "MSc. Andrea Somma (Estudiante de Doctorado en Ciencias Ambientales, Beca ANII 2023-2026)",
+    "MSc. Nadia Kacevas (Estudiante de Doctorado, PEDECIBA-Biología, Beca ANII 2024-2027)",
+    "MSc. Pilar Ojeda (Estudiante de Doctorado, PEDECIBA-Biología)",
+    "Lic. Joaquín Pais (Estudiante de Posgrado, PEDECIBA-Biología)",
+    "Lic. Laura Lima (Estudiante de Maestría, PEDECIBA-Biología)",
+    "Bach. Hiroyuki Kinoshita (Tesista de Grado, Licenciatura en Ciencias Biológicas)",
+    "Bach. Sebastián Lucciano (Tesista de Grado, Licenciatura en Ciencias Biológicas)"
+  ],
+  "collaborators": [
+    "Dra. Anahí López",
+    "MSc. Sofia Acosta",
+    "MSc. Patricia Sandes",
+    "Lic. Edgardo Bevilaqva"
+  ]
+}

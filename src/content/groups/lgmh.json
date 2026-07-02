@@ -1,0 +1,21 @@
+{
+  "slug": "lgmh",
+  "name": { "es": "Genética Molecular Humana", "en": "Human Molecular Genetics" },
+  "campus": "Salto",
+  "email": null,
+  "summary": {
+    "es": "Aborda, desde una perspectiva de genética poblacional, problemas de salud relevantes para la región: farmacogenética de la leucemia linfoblástica aguda pediátrica, hemoglobinopatías, ancestralidad, y el sistema sanguíneo Rhesus, entre otras líneas.",
+    "en": "Addresses region-relevant health problems from a population genetics perspective: pharmacogenetics of pediatric acute lymphoblastic leukemia, hemoglobinopathies, ancestry, and the Rhesus blood group system, among other lines."
+  },
+  "lead": {
+    "name": "Dr. Julio da Luz",
+    "title": "Profesor Agregado, Responsable del Grupo de Genética Molecular Humana (Gdo 4, 40 hs/sem, DT)",
+    "photo": null
+  },
+  "members": [
+    { "name": "Dra. Ana Soler", "title": "Asistente (Gdo 2, 40 hs/sem, DT)" },
+    { "name": "MSc. Gabriela Burgueño Rodríguez", "title": "Asistente (Gdo 2, 40 hs/sem)" },
+    { "name": "Bach. Ignacio Rodríguez de Ávila", "title": "Ayudante (Gdo 1, 15 hs/sem)" }
+  ],
+  "image": "/images/logos/lgmh-logo.png"
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "vyet",
+  "name": { "es": "Vectores y Enfermedades Transmitidas", "en": "Vectors and Vector-Borne Diseases" },
+  "campus": "Salto",
+  "email": "labvyet@gmail.com",
+  "summary": {
+    "es": "Estudia enfermedades transmitidas por garrapatas a animales domésticos, silvestres y humanos, su sistemática y ecología, así como caracoles hospederos intermediarios de trematodes y helmintos de importancia médica y veterinaria.",
+    "en": "Studies tick-borne diseases affecting domestic and wild animals and humans, tick systematics and ecology, as well as snail intermediate hosts of trematodes and helminths of medical and veterinary importance."
+  },
+  "lead": {
+    "name": "Dr. José Manuel Venzal",
+    "title": "Profesor Agregado, Responsable del grupo (Gdo 4, 40 hs/sem, DT)",
+    "photo": "/images/people/jose-manuel-venzal.jpg"
+  },
+  "members": [
+    { "name": "Sergio Bermúdez", "title": "Estudiante de Doctorado (PEDECIBA)" },
+    { "name": "DMTV. María Laura Félix", "title": "Asistente (Gdo 2, 40 hs/sem)" },
+    { "name": "Valentín Bazzano", "title": "Estudiante de Maestría, Facultad de Veterinaria" },
+    { "name": "DCV Rodrigo Alvez", "title": "Asistente (Gdo 2, 40 hs/sem)" }
+  ]
+}

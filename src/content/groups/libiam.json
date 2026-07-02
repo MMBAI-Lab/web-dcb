@@ -1,0 +1,34 @@
+{
+  "slug": "libiam",
+  "name": { "es": "Biomecánica y Análisis del Movimiento (LIBiAM)", "en": "Biomechanics and Movement Analysis (LIBiAM)" },
+  "campus": "Paysandú",
+  "email": null,
+  "summary": {
+    "es": "Laboratorio de Investigación en Biomecánica y Análisis del Movimiento. Estudia la mecánica y energética de la locomoción, la biomecánica del movimiento humano aplicada al deporte y la rehabilitación, y la coordinación muscular.",
+    "en": "Biomechanics and Movement Analysis research lab. Studies the mechanics and energetics of locomotion, human movement biomechanics applied to sport and rehabilitation, and muscular coordination."
+  },
+  "lead": {
+    "name": "Dr. Carlo Biancardi",
+    "title": "Profesor Agregado, Responsable del LIBiAM (Gdo 4, 40 hs/sem, DT)",
+    "photo": null
+  },
+  "members": [
+    { "name": "Dra. Renata Bona", "title": "Profesor Adjunto (Gdo 3, 40 hs/sem, DT)" },
+    { "name": "Dr. Artur Bonezi", "title": "" },
+    { "name": "MSc. Patricia Polero", "title": "Asistente (Gdo 2, 40 hs/sem)" },
+    { "name": "Dr. Germán Pequera", "title": "Profesor Adjunto (Gdo 3, Ingeniería Biológica)" },
+    { "name": "MSc. Valentina Silva", "title": "Asistente (Gdo 2, 30 hs/sem, DT)" },
+    { "name": "Josefa González", "title": "Estudiante de Posgrado, PEDECIBA" },
+    { "name": "Paula Radesca", "title": "Estudiante de Maestría Pro.In.Bio" },
+    { "name": "Christian Schneider", "title": "" },
+    { "name": "Mateo Rodrigues Zabala", "title": "Gdo 1, ISEF" },
+    { "name": "Vanessa Yelós", "title": "" },
+    { "name": "Luis Parada", "title": "Estudiante de Doctorado" },
+    { "name": "MSc. Angelina Rancedo", "title": "Ex Estudiante de Maestría Pro.In.Bio" },
+    { "name": "Dr. Matías De Pablo", "title": "Ex Estudiante de Doctorado Pro.In.Bio" },
+    { "name": "MSc. Ramiro Chumino", "title": "Ex Estudiante de Maestría ProMEF (Gdo 2, ISEF)" },
+    { "name": "Dr. Gabriel Fábrica", "title": "G4, Unidad de Biofísica, Facultad de Medicina" }
+  ],
+  "collaborators": ["Dr. Leonardo Lagos (Universidad de Concepción)", "Carol Torres"],
+  "image": "/images/places/libiam-lab.jpg"
+}

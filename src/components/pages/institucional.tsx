@@ -1,7 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/ui/reveal";
+import { asset } from "@/lib/asset";
 
 function List({ items }: { items: string[] }) {
   return (
@@ -43,6 +45,26 @@ export function Institucional() {
           <p className="mt-4 text-sm leading-relaxed text-foreground/75">
             {t("infrastructure")}
           </p>
+          <div className="mt-4 grid grid-cols-2 gap-3">
+            <span className="relative aspect-[4/3] overflow-hidden rounded-lg">
+              <Image
+                src={asset("/images/places/plataforma-1.jpg")}
+                alt="Plataforma de investigación, sede Salto"
+                fill
+                sizes="(min-width: 1024px) 25vw, 50vw"
+                className="object-cover"
+              />
+            </span>
+            <span className="relative aspect-[4/3] overflow-hidden rounded-lg">
+              <Image
+                src={asset("/images/places/plataforma-2.jpg")}
+                alt="Laboratorio de bioseguridad nivel 3 (P3)"
+                fill
+                sizes="(min-width: 1024px) 25vw, 50vw"
+                className="object-cover"
+              />
+            </span>
+          </div>
         </Reveal>
 
         <Reveal delay={0.1}>

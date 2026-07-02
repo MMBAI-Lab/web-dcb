@@ -1,0 +1,24 @@
+{
+  "slug": "virologiamolec",
+  "name": { "es": "Virología Molecular", "en": "Molecular Virology" },
+  "campus": "Salto",
+  "email": null,
+  "summary": {
+    "es": "Estudia virus de salud humana (VPH, virus entéricos, SARS-CoV-2), animal (BVDV, BoHV, rotavirus) y ambiental, incluyendo el primer Laboratorio de Bioseguridad Nivel 3 de Uruguay para el aislamiento de variantes virales.",
+    "en": "Studies viruses relevant to human health (HPV, enteric viruses, SARS-CoV-2), animal health (BVDV, BoHV, rotavirus), and the environment, including operating Uruguay's first biosafety level 3 laboratory for isolating viral variants."
+  },
+  "lead": {
+    "name": "Dr. Rodney Colina",
+    "title": "Responsable del grupo (Gdo 5, 40 hs/sem, DT)",
+    "photo": "/images/people/rodney-colina.jpg"
+  },
+  "members": [
+    { "name": "Dr. Matías Victoria", "title": "Profesor Agregado (Gdo 4, 40 hs/sem, DT)" },
+    { "name": "Dr. Fernando López", "title": "Profesor Adjunto (Gdo 3, 40 hs/sem, DT)" },
+    { "name": "Dra. Leticia Maya", "title": "Asistente (Gdo 2, 40 hs/sem, DT)" },
+    { "name": "Dr. Matías Castells", "title": "Asistente (Gdo 2, 40 hs/sem)" },
+    { "name": "Dr. Andrés Lizasoain", "title": "Ayudante (Gdo 1, 30 hs/sem)" },
+    { "name": "MSc. Viviana Bortagaray", "title": "Estudiante de doctorado PEDECIBA" },
+    { "name": "Ing. Elec. Marcos Grilli", "title": "Ingeniero en electrónica (R12, 40 hs/sem)" }
+  ]
+}

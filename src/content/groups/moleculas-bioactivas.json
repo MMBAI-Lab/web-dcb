@@ -1,0 +1,23 @@
+{
+  "slug": "moleculas-bioactivas",
+  "name": { "es": "Investigación y Desarrollo de Moléculas Bioactivas", "en": "R&D of Bioactive Molecules" },
+  "campus": "Paysandú",
+  "email": null,
+  "summary": {
+    "es": "Grupo interdisciplinario dedicado a la identificación de nuevos blancos terapéuticos y al diseño, síntesis y desarrollo preclínico de nuevos compuestos, con líneas en enfermedades parasitarias, antivirales, y cáncer y patologías neurodegenerativas.",
+    "en": "An interdisciplinary group focused on identifying new therapeutic targets and on the design, synthesis, and preclinical development of new compounds, with lines in parasitic diseases, antivirals, and cancer and neurodegenerative disorders."
+  },
+  "lead": {
+    "name": "Dr. Mauricio Cabrera",
+    "title": "Profesor Agregado, Responsable del grupo (Gdo 4, 40 hs/sem, DT)",
+    "photo": "/images/people/mauricio-cabrera.jpg"
+  },
+  "coLead": { "name": "Dr. Guzmán Alvarez", "title": "" },
+  "members": [
+    { "name": "Dra. Ileana Corvo", "title": "Profesora adjunta (Gdo 3, 40 hs/sem, DT)" },
+    { "name": "Dra. Lia Randall", "title": "Asistente (Gdo 2, 40 hs/sem, DT)" },
+    { "name": "MSc. Cintya Perdomo", "title": "Ayudante (Gdo 1, 30 hs/sem)" },
+    { "name": "MSc. Tatiana Sapotiti", "title": "Asistente por proyecto, Estudiante de Doctorado" },
+    { "name": "Lic. Zoraima Artía", "title": "Ayudante (Gdo 1, 35 hs/sem CIO Salud/CBB)" }
+  ]
+}
