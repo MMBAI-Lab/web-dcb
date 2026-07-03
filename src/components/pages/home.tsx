@@ -19,6 +19,11 @@ const cardAccents = ["border-t-teal", "border-t-crimson", "border-t-gold"];
 const cardMotifs: IconName[] = ["celula-vegetal", "moleculas", "monitor", "hojas", "microscopio", "jeringa"];
 const cardRadii = ["rounded-2xl", "rounded-[1.75rem_1.75rem_1.75rem_0.5rem]", "rounded-[1.75rem_0.5rem_1.75rem_1.75rem]"];
 
+// Global slowdown: 1 = original speed, 5 = a fifth of the speed (i.e.
+// everything takes 5x as long). Keeps the relative big-vs-small pacing
+// intact while scaling the whole field uniformly.
+const SLOWDOWN = 5;
+
 // Bigger icons glide slowly over a shorter straight line; smaller ones
 // dart fast over a much longer one. `dir` is +1 (drifts right) or -1
 // (drifts left) so neighboring icons visibly cross paths instead of all
@@ -33,7 +38,7 @@ function motif(
   dir: 1 | -1 = 1,
   opacity = 0.26,
 ) {
-  const duration = Math.max(4.5, Math.min(34, size / 11 + 3));
+  const duration = Math.max(4.5, Math.min(34, size / 11 + 3)) * SLOWDOWN;
   const distance = Math.max(260, Math.min(820, 860 - size * 1.4));
   return {
     icon,
@@ -43,7 +48,7 @@ function motif(
     rotate,
     opacity,
     duration,
-    delay,
+    delay: delay * SLOWDOWN,
     driftX: distance * dir,
     driftY: distance * 0.18 * (rotate < 0 ? -1 : 1),
   };
