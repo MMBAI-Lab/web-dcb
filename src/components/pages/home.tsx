@@ -64,25 +64,25 @@ function motif(
 // sweeping across the middle of the page.
 const topMotifs = [
   motif("moleculas", "-2%", "4%", 380, -4, 0, -1),
-  motif("neurona", "26%", "92%", 340, 3, 1, 1),
+  motif("neurona", "26%", "74%", 340, 3, 1, 1),
   motif("monitor", "1%", "2%", 210, -3, 1.4, -1),
-  motif("microscopio", "4%", "90%", 180, 4, 0.4, 1),
+  motif("microscopio", "4%", "72%", 180, 4, 0.4, 1),
   motif("pez", "16%", "8%", 150, 4, 0.9, -1),
-  motif("jeringa", "20%", "94%", 90, 12, 0.8, 1),
+  motif("jeringa", "20%", "76%", 90, 12, 0.8, 1),
   motif("pastillas", "8%", "12%", 50, 20, 2.6, -1),
-  motif("hojas", "2%", "86%", 42, 15, 1.9, 1),
+  motif("hojas", "2%", "68%", 42, 15, 1.9, 1),
   motif("moleculas", "34%", "6%", 30, -10, 3.2, -1),
 
-  motif("celula-vegetal", "40%", "90%", 260, 0, 2, 1),
+  motif("celula-vegetal", "40%", "72%", 260, 0, 2, 1),
   motif("hojas", "48%", "10%", 190, -6, 1.6, -1),
-  motif("vaca", "56%", "84%", 160, 0, 2.1, 1),
+  motif("vaca", "56%", "66%", 160, 0, 2.1, 1),
   motif("pastillas", "44%", "4%", 120, -8, 0.2, -1),
-  motif("neurona", "62%", "92%", 60, 30, 2.1, 1),
+  motif("neurona", "62%", "74%", 60, 30, 2.1, 1),
   motif("jeringa", "38%", "8%", 34, -18, 3.6, -1),
 
-  motif("hojas", "74%", "88%", 130, -10, 1.4, 1),
+  motif("hojas", "74%", "70%", 130, -10, 1.4, 1),
   motif("moleculas", "70%", "6%", 280, 6, 0.3, -1),
-  motif("pastillas", "82%", "90%", 55, 40, 4.1, 1),
+  motif("pastillas", "82%", "72%", 55, 40, 4.1, 1),
   motif("microscopio", "86%", "10%", 44, -14, 3.8, -1),
 ];
 
