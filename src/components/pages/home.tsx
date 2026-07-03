@@ -59,28 +59,31 @@ function motif(
 // One continuous field spans the hero + welcome blocks (no seam between
 // them). Icons slide in a straight line — some left-to-right, some
 // right-to-left — fading in/out at each end instead of bouncing back.
+// Starting positions and travel are biased toward the left/right edges
+// (leaving the center, where the text sits, clearer) rather than
+// sweeping across the middle of the page.
 const topMotifs = [
-  motif("moleculas", "-2%", "40%", 380, -4, 0, 1),
-  motif("neurona", "26%", "10%", 340, 3, 1, -1),
-  motif("monitor", "1%", "2%", 210, -3, 1.4, 1),
-  motif("microscopio", "4%", "70%", 180, 4, 0.4, -1),
-  motif("pez", "16%", "30%", 150, 4, 0.9, 1),
-  motif("jeringa", "20%", "80%", 90, 12, 0.8, -1),
-  motif("pastillas", "8%", "50%", 50, 20, 2.6, 1),
-  motif("hojas", "2%", "20%", 42, 15, 1.9, -1),
-  motif("moleculas", "34%", "6%", 30, -10, 3.2, 1),
+  motif("moleculas", "-2%", "4%", 380, -4, 0, -1),
+  motif("neurona", "26%", "92%", 340, 3, 1, 1),
+  motif("monitor", "1%", "2%", 210, -3, 1.4, -1),
+  motif("microscopio", "4%", "90%", 180, 4, 0.4, 1),
+  motif("pez", "16%", "8%", 150, 4, 0.9, -1),
+  motif("jeringa", "20%", "94%", 90, 12, 0.8, 1),
+  motif("pastillas", "8%", "12%", 50, 20, 2.6, -1),
+  motif("hojas", "2%", "86%", 42, 15, 1.9, 1),
+  motif("moleculas", "34%", "6%", 30, -10, 3.2, -1),
 
-  motif("celula-vegetal", "40%", "40%", 260, 0, 2, -1),
-  motif("hojas", "48%", "14%", 190, -6, 1.6, 1),
-  motif("vaca", "56%", "60%", 160, 0, 2.1, -1),
-  motif("pastillas", "44%", "4%", 120, -8, 0.2, 1),
-  motif("neurona", "62%", "34%", 60, 30, 2.1, -1),
-  motif("jeringa", "38%", "50%", 34, -18, 3.6, 1),
+  motif("celula-vegetal", "40%", "90%", 260, 0, 2, 1),
+  motif("hojas", "48%", "10%", 190, -6, 1.6, -1),
+  motif("vaca", "56%", "84%", 160, 0, 2.1, 1),
+  motif("pastillas", "44%", "4%", 120, -8, 0.2, -1),
+  motif("neurona", "62%", "92%", 60, 30, 2.1, 1),
+  motif("jeringa", "38%", "8%", 34, -18, 3.6, -1),
 
-  motif("hojas", "74%", "0%", 130, -10, 1.4, -1),
-  motif("moleculas", "70%", "30%", 280, 6, 0.3, 1),
-  motif("pastillas", "82%", "4%", 55, 40, 4.1, -1),
-  motif("microscopio", "86%", "56%", 44, -14, 3.8, 1),
+  motif("hojas", "74%", "88%", 130, -10, 1.4, 1),
+  motif("moleculas", "70%", "6%", 280, 6, 0.3, -1),
+  motif("pastillas", "82%", "90%", 55, 40, 4.1, 1),
+  motif("microscopio", "86%", "10%", 44, -14, 3.8, -1),
 ];
 
 export function Home() {

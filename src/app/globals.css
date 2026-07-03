@@ -93,6 +93,12 @@ body {
   opacity: 0;
   animation: motif-float var(--motif-duration, 14s) linear infinite;
   animation-delay: var(--motif-delay, 0s);
+  /* Without this, the element shows its (visible) inline opacity during
+     the animation-delay, then snaps to the keyframe's opacity:0 the
+     instant the animation starts — a visible flash. "backwards" makes
+     the first keyframe apply during the delay too, so it just stays
+     invisible until it's time to fade in. */
+  animation-fill-mode: backwards;
 }
 
 @media (prefers-reduced-motion: reduce) {
