@@ -14,9 +14,9 @@ export default async function EnsenanzaPage({
   const t = await getTranslations("ensenanza");
 
   return (
-    <>
+    <div className="subpage-bg bg-background min-h-full">
       <PageBanner title={t("title")} subtitle={t("subtitle")} motif={PhyloTreeMotif} />
       <Ensenanza />
-    </>
+    </div>
   );
 }

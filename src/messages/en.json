@@ -9,7 +9,6 @@
     "research": "Research",
     "teaching": "Teaching",
     "outreach": "Outreach",
-    "awards": "Awards",
     "contact": "Contact",
     "toggleTheme": "Toggle theme",
     "toggleLanguage": "Switch language"
@@ -36,7 +35,6 @@
       { "key": "research", "href": "/investigacion", "title": "Research", "description": "The DCB's 12 research groups and their principal investigators." },
       { "key": "teaching", "href": "/ensenanza", "title": "Teaching", "description": "The Biology-Biochemistry Cycle (CBB) and the Bachelor's in Human Biology." },
       { "key": "outreach", "href": "/extension", "title": "Outreach", "description": "Public engagement, seminars, and community outreach activities." },
-      { "key": "awards", "href": "/reconocimientos", "title": "Awards", "description": "Recent awards and distinctions earned by DCB members." },
       { "key": "contact", "href": "/contacto", "title": "Contact", "description": "Addresses and phone numbers for the Salto and Paysandú campuses." }
     ]
   },
@@ -119,44 +117,6 @@
     "scienceWeek": "Since 2022, the DCB's Academic Communications Subcommittee has organized \"Todo tiene su ciencia\" (\"Everything has its science\"), a program of activities during Science and Technology Week aimed at raising the profile of the Department, its members, and the research carried out across the Salto, Paysandú, Artigas, and Bella Unión region.",
     "seminarsTitle": "\"En qué andamos\" Seminar Series",
     "seminars": "The series promotes exchange and collaboration between the DCB and its researchers, also inviting external collaborators. Seminars run in hybrid format (in person at the Salto campus / Zoom) on Wednesdays from 10 a.m. to noon, featuring the Department's various research groups."
-  },
-  "reconocimientos": {
-    "title": "Awards",
-    "subtitle": "Some of the most recent awards and distinctions earned by DCB faculty, researchers, and staff.",
-    "items": [
-      {
-        "title": "Best oral presentation and poster — AUGM Young Researchers Meeting",
-        "description": "Daniela Mejías (Biophysical Chemistry) and Agustina Añasco (Genomics and Bioinformatics) were selected by UdelaR to present their research at the Universidad Nacional de Asunción, Paraguay. Daniela won best oral presentation and poster in the Exact Sciences track, and Agustina won best oral presentation in the Life Sciences track."
-      },
-      {
-        "title": "Best paper — First Ibero-American Congress of Medical Genetics and Genomic Medicine",
-        "description": "Work by Mag. Gabriela Burgueño, supervised by Dr. Julio da Luz and Dr. Ana María Soler (Human Molecular Genetics Lab), was selected as the best paper in the early-career research category, in Cartagena, Colombia."
-      },
-      {
-        "title": "\"Fausto\" 2022 Award — Salto Association of Communication Professionals",
-        "description": "Dr. Rodney Colina and his team from the Molecular Virology Lab received this recognition for outstanding individuals and institutions in Salto."
-      },
-      {
-        "title": "Luz y Verdad 2022 Award — B'nai B'rith Uruguay",
-        "description": "Awarded to Dr. Matías Castells and Dr. Andrés Lizasoain, researchers at the Molecular Virology Lab, recognizing outstanding early-career professionals."
-      },
-      {
-        "title": "L'Oréal-UNESCO \"For Women in Science\" National Award 2022",
-        "description": "Dr. Daiana Mir, of the Genomics and Bioinformatics Unit, received this award, which grants USD 20,000 to her research project in collaboration with the Ministry of Public Health's DLSP."
-      },
-      {
-        "title": "Dr. Mauricio Cabrera elected Director of CENUR Litoral Norte (2022–2026)",
-        "description": "Dr. Mauricio Cabrera, lead of the R&D of Bioactive Molecules group, was elected regional director by the CENUR Litoral Norte Assembly."
-      },
-      {
-        "title": "Dr. Daniel Peluffo, Latin American and Caribbean representative at the ISC",
-        "description": "The International Science Council (ISC) appointed Dr. Daniel Peluffo, former DCB Department Head, to its Liaison Committee for the Latin America and Caribbean Regional Focal Point."
-      },
-      {
-        "title": "INMUJERES-MIDES Salto recognition on International Women's Day",
-        "description": "Ana Moller, María José Benítez, Leticia Maya, and Viviana Bortagaray, of the Molecular Virology Lab, were honored for their work as women scientists during the pandemic."
-      }
-    ]
   },
   "contacto": {
     "title": "Contact",

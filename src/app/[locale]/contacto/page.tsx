@@ -14,9 +14,9 @@ export default async function ContactoPage({
   const t = await getTranslations("contacto");
 
   return (
-    <>
+    <div className="subpage-bg bg-background min-h-full">
       <PageBanner title={t("title")} subtitle={t("subtitle")} motif={NetworkMotif} />
       <Contacto />
-    </>
+    </div>
   );
 }

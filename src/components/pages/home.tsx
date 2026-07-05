@@ -16,7 +16,7 @@ const factAccents = ["text-teal", "text-crimson", "text-gold", "text-teal"];
 const factBadgeBg = ["bg-teal/10", "bg-crimson/10", "bg-gold/10", "bg-teal/10"];
 const factIcons = [CalendarIcon, FlaskIcon, UsersIcon, ShieldIcon];
 const cardAccents = ["border-t-teal", "border-t-crimson", "border-t-gold"];
-const cardMotifs: IconName[] = ["celula-vegetal", "moleculas", "monitor", "hojas", "microscopio", "jeringa"];
+const cardMotifs: IconName[] = ["celula-vegetal", "moleculas", "monitor", "hojas", "jeringa"];
 const cardRadii = ["rounded-2xl", "rounded-[1.75rem_1.75rem_1.75rem_0.5rem]", "rounded-[1.75rem_0.5rem_1.75rem_1.75rem]"];
 
 // Global slowdown: 1 = original speed, 5 = a fifth of the speed (i.e.

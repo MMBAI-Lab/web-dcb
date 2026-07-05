@@ -9,7 +9,6 @@
     "research": "Investigación",
     "teaching": "Enseñanza",
     "outreach": "Extensión",
-    "awards": "Reconocimientos",
     "contact": "Contacto",
     "toggleTheme": "Cambiar tema",
     "toggleLanguage": "Cambiar idioma"
@@ -36,7 +35,6 @@
       { "key": "research", "href": "/investigacion", "title": "Investigación", "description": "Los 12 grupos de investigación del DCB y sus responsables." },
       { "key": "teaching", "href": "/ensenanza", "title": "Enseñanza", "description": "Ciclo Biología-Bioquímica (CBB) y Licenciatura en Biología Humana." },
       { "key": "outreach", "href": "/extension", "title": "Extensión", "description": "Actividades de divulgación, seminarios y vínculo con la comunidad." },
-      { "key": "awards", "href": "/reconocimientos", "title": "Reconocimientos", "description": "Premios y distinciones recientes a integrantes del DCB." },
       { "key": "contact", "href": "/contacto", "title": "Contacto", "description": "Direcciones y teléfonos de las sedes Salto y Paysandú." }
     ]
   },
@@ -119,44 +117,6 @@
     "scienceWeek": "Desde 2022, la Subcomisión de Comunicación Académica del DCB organiza \"Todo tiene su ciencia\", jornadas de actividades en el marco de la Semana de la Ciencia y la Tecnología, con el fin de difundir y visibilizar al Departamento, sus integrantes y las investigaciones que se llevan a cabo en la región que comprende Salto, Paysandú, Artigas y Bella Unión.",
     "seminarsTitle": "Ciclo de Seminarios \"En qué andamos\"",
     "seminars": "El objetivo del ciclo es promover el intercambio y la colaboración entre el DCB y sus investigadores, invitando también a colaboradores externos. Los seminarios se desarrollan en modalidad híbrida (presencial en la sede Salto / Zoom) los miércoles de 10 a 12 hs, con la participación de los distintos grupos de investigación del Departamento."
-  },
-  "reconocimientos": {
-    "title": "Reconocimientos",
-    "subtitle": "Algunos de los reconocimientos más recientes otorgados a docentes, investigadores y funcionarios del DCB.",
-    "items": [
-      {
-        "title": "Mejor presentación oral y póster — Jornadas de Jóvenes Investigadores AUGM",
-        "description": "Daniela Mejías (Biofisicoquímica) y Agustina Añasco (Genómica y Bioinformática) fueron seleccionadas por la UdelaR para presentar sus trabajos de investigación en la Universidad Nacional de Asunción, Paraguay. Daniela obtuvo la distinción a mejor presentación oral y póster en el eje de Ciencias Exactas, y Agustina a mejor presentación oral en el eje de Ciencias de la Vida."
-      },
-      {
-        "title": "Mejor trabajo — Primer Congreso Iberoamericano de Genética Médica y Medicina Genómica",
-        "description": "El trabajo de la Mag. Gabriela Burgueño, orientado por el Dr. Julio da Luz y la Dra. Ana María Soler (Laboratorio de Genética Molecular Humana), fue seleccionado como mejor trabajo en la categoría de semilleros de investigación, en Cartagena, Colombia."
-      },
-      {
-        "title": "Premio \"Fausto\" 2022 — Asociación de Profesionales de la Comunicación de Salto",
-        "description": "El Dr. Rodney Colina y su equipo del Laboratorio de Virología Molecular recibieron este reconocimiento a personalidades e instituciones destacadas de Salto."
-      },
-      {
-        "title": "Premio Luz y Verdad 2022 — B'nai B'rith Uruguay",
-        "description": "Distinción a los Dres. Matías Castells y Andrés Lizasoain, investigadores del Laboratorio de Virología Molecular, por su trayectoria como jóvenes profesionales destacados."
-      },
-      {
-        "title": "Premio Nacional L'Oréal-UNESCO \"Por las Mujeres en la Ciencia\" 2022",
-        "description": "La Dra. Daiana Mir, de la Unidad de Genómica y Bioinformática, recibió este premio que subsidia con USD 20.000 su proyecto de investigación en colaboración con el DLSP-MSP."
-      },
-      {
-        "title": "Dr. Mauricio Cabrera, electo Director del CENUR Litoral Norte (2022–2026)",
-        "description": "El Dr. Mauricio Cabrera, responsable del grupo de Investigación y Desarrollo de Moléculas Bioactivas, fue elegido por el Claustro del CENUR Litoral Norte como director regional."
-      },
-      {
-        "title": "Dr. Daniel Peluffo, representante de América Latina y el Caribe en el ISC",
-        "description": "El Consejo Internacional de Ciencias (ISC) nombró al Dr. Daniel Peluffo, ex-Director del DCB, como miembro del Comité de Enlace del Punto Focal Regional para América Latina y el Caribe."
-      },
-      {
-        "title": "Reconocimiento de INMUJERES-MIDES Salto en el Día Internacional de la Mujer",
-        "description": "Ana Moller, María José Benítez, Leticia Maya y Viviana Bortagaray, del Laboratorio de Virología Molecular, fueron homenajeadas por su trabajo como científicas ante la pandemia."
-      }
-    ]
   },
   "contacto": {
     "title": "Contacto",

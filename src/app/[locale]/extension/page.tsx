@@ -14,9 +14,9 @@ export default async function ExtensionPage({
   const t = await getTranslations("extension");
 
   return (
-    <>
+    <div className="subpage-bg bg-background min-h-full">
       <PageBanner title={t("title")} motif={DnaMotif} />
       <Extension />
-    </>
+    </div>
   );
 }

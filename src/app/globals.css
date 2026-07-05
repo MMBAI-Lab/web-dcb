@@ -22,6 +22,11 @@
   --brand: var(--teal);
   --brand-foreground: var(--teal-foreground);
   --accent: var(--gold);
+
+  /* The background motifs were tuned against the dark theme; on white
+     they read as barely-there, so boost their opacity in light mode
+     only (dark mode keeps its original, already-good value). */
+  --motif-opacity-scale: 1.8;
 }
 
 .dark {
@@ -41,6 +46,8 @@
   --brand: var(--teal);
   --brand-foreground: var(--teal-foreground);
   --accent: var(--gold);
+
+  --motif-opacity-scale: 1;
 }
 
 @theme inline {
@@ -65,6 +72,15 @@ body {
   color: var(--foreground);
 }
 
+/* Dark-mode background for every page except the homepage: a dark
+   petrol green instead of the near-black charcoal used on "/". Scoped
+   to a wrapper class (applied per-subpage) rather than globally, since
+   the homepage's own hero/gradient treatment should keep its charcoal. */
+.dark .subpage-bg {
+  --background: #002b2b;
+  --surface: #002b2b;
+}
+
 /*
  * One-way slide instead of an out-and-back wobble: each icon fades in,
  * glides in a straight line (direction/distance set per icon via
@@ -77,10 +93,10 @@ body {
     opacity: 0;
   }
   10% {
-    opacity: var(--motif-opacity, 0.3);
+    opacity: calc(var(--motif-opacity, 0.3) * var(--motif-opacity-scale, 1));
   }
   90% {
-    opacity: var(--motif-opacity, 0.3);
+    opacity: calc(var(--motif-opacity, 0.3) * var(--motif-opacity-scale, 1));
   }
   100% {
     transform: translate(var(--motif-drift-x, 400px), var(--motif-drift-y, 0px))

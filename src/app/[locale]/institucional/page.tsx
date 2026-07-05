@@ -14,9 +14,9 @@ export default async function InstitucionalPage({
   const t = await getTranslations("institucional");
 
   return (
-    <>
+    <div className="subpage-bg bg-background min-h-full">
       <PageBanner title={t("title")} subtitle={t("subtitle")} motif={CellMotif} />
       <Institucional />
-    </>
+    </div>
   );
 }

@@ -14,9 +14,9 @@ export default async function InvestigacionPage({
   const t = await getTranslations("investigacion");
 
   return (
-    <>
+    <div className="subpage-bg bg-background min-h-full">
       <PageBanner title={t("title")} subtitle={t("subtitle")} motif={MoleculeMotif} />
       <Investigacion />
-    </>
+    </div>
   );
 }

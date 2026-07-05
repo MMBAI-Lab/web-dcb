@@ -14,7 +14,6 @@ const pages = [
   { key: "research", href: "/investigacion" },
   { key: "teaching", href: "/ensenanza" },
   { key: "outreach", href: "/extension" },
-  { key: "awards", href: "/reconocimientos" },
   { key: "contact", href: "/contacto" },
 ] as const;
 
