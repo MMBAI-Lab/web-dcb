@@ -77,8 +77,8 @@ body {
    to a wrapper class (applied per-subpage) rather than globally, since
    the homepage's own hero/gradient treatment should keep its charcoal. */
 .dark .subpage-bg {
-  --background: #002b2b;
-  --surface: #002b2b;
+  --background: #001717;
+  --surface: #001717;
 }
 
 /*
