@@ -66,18 +66,52 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
           {t("back")}
         </Link>
 
-        <p className="mt-4 text-sm font-semibold uppercase tracking-wide text-crimson">
-          {group.campus}
-          {group.email && (
-            <>
-              {" · "}
-              <a href={`mailto:${group.email}`} className="normal-case tracking-normal hover:underline">
-                {group.email}
-              </a>
-            </>
+        <div className="mt-4 flex flex-wrap items-center gap-3">
+          {group.logo && (
+            <span className="relative h-10 w-10 shrink-0">
+              <Image src={asset(group.logo)} alt="" fill sizes="40px" className="object-contain" />
+            </span>
           )}
-        </p>
+          <p className="text-sm font-semibold uppercase tracking-wide text-crimson">
+            {group.campus}
+            {group.email && (
+              <>
+                {" · "}
+                <a href={`mailto:${group.email}`} className="normal-case tracking-normal hover:underline">
+                  {group.email}
+                </a>
+              </>
+            )}
+          </p>
+          {group.website && (
+            <a
+              href={group.website}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1 text-sm font-medium text-teal hover:underline"
+            >
+              {t("website")}
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-3.5 w-3.5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M7 17L17 7M17 7H9M17 7v8" />
+              </svg>
+            </a>
+          )}
+        </div>
       </Reveal>
+
+      {group.image && (
+        <Reveal>
+          <div className="relative mt-6 aspect-video w-full max-w-2xl overflow-hidden rounded-xl">
+            <Image
+              src={asset(group.image)}
+              alt=""
+              fill
+              sizes="(max-width: 640px) 100vw, 640px"
+              className="object-cover"
+            />
+          </div>
+        </Reveal>
+      )}
 
       <Section title={t("lead")}>
         <div className="grid gap-3 sm:grid-cols-2">

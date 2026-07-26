@@ -33,6 +33,10 @@ export type ResearchGroup = {
   teaching?: { es: string[]; en: string[] };
   outreach?: { es: string[]; en: string[] };
   image?: string;
+  /** The group's own logo, if it has one distinct from the DCB branding. */
+  logo?: string;
+  /** URL of the group's own external website, if it has one. */
+  website?: string;
   note?: { es: string; en: string };
 };
 
