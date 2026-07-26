@@ -81,7 +81,21 @@
   "investigacion": {
     "title": "Investigación",
     "subtitle": "Grupos de Investigación del DCB.",
-    "note": "Próximamente: proyectos y publicaciones de cada grupo. La ficha completa de integrantes vive en src/content/groups/*.json."
+    "note": "Hacé clic en la ficha central del carrusel para abrir la página del grupo. Vamos incorporando una a una."
+  },
+  "grupoDetalle": {
+    "back": "Volver a Investigación",
+    "lead": "Responsable",
+    "coLead": "Co-responsable",
+    "members": "Integrantes",
+    "students": "Estudiantes",
+    "collaborators": "Colaboradores",
+    "researchLines": "Líneas de investigación",
+    "projects": "Proyectos en curso",
+    "publications": "Publicaciones recientes",
+    "teaching": "Enseñanza",
+    "outreach": "Extensión",
+    "contact": "Contacto"
   },
   "ensenanza": {
     "title": "Enseñanza",

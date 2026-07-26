@@ -81,7 +81,21 @@
   "investigacion": {
     "title": "Research",
     "subtitle": "The DCB's research groups.",
-    "note": "Coming soon: projects and publications for each group. The full member roster lives in src/content/groups/*.json."
+    "note": "Click the centered cover in the carousel to open the group's page. We're adding them one at a time."
+  },
+  "grupoDetalle": {
+    "back": "Back to Research",
+    "lead": "Group leader",
+    "coLead": "Co-leader",
+    "members": "Members",
+    "students": "Students",
+    "collaborators": "Collaborators",
+    "researchLines": "Research lines",
+    "projects": "Current projects",
+    "publications": "Recent publications",
+    "teaching": "Teaching",
+    "outreach": "Outreach",
+    "contact": "Contact"
   },
   "ensenanza": {
     "title": "Teaching",

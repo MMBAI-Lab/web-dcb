@@ -1,9 +1,11 @@
 "use client";
 
 import Image from "next/image";
+import type { CSSProperties } from "react";
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
 import { asset } from "@/lib/asset";
 import { researchGroups } from "@/content/groups";
@@ -86,25 +88,21 @@ export function Investigacion() {
             const scale = isActive ? 1 : Math.max(0.62, 0.86 - abs * 0.08);
             const opacity = abs > 5 ? 0 : 1 - Math.min(abs, 4) * 0.18;
             const photo = covers[group.slug];
+            const hasDetailPage = Boolean(group.researchLines);
 
-            return (
-              <button
-                key={group.slug}
-                type="button"
-                aria-label={group.name[locale]}
-                aria-current={isActive}
-                onClick={() => setActive(i)}
-                className="absolute left-1/2 top-1/2 aspect-square w-44 cursor-pointer overflow-hidden rounded-2xl shadow-2xl outline-none sm:w-56 md:w-64"
-                style={{
-                  transform: `translate(-50%, -50%) translateX(${translateX}%) translateZ(${translateZ}px) rotateY(${rotate}deg) scale(${scale})`,
-                  zIndex: 100 - abs,
-                  opacity,
-                  transition: "transform 0.5s cubic-bezier(0.22,0.61,0.36,1), opacity 0.5s",
-                  pointerEvents: abs > 5 ? "none" : "auto",
-                  WebkitBoxReflect:
-                    "below 6px linear-gradient(transparent, transparent 55%, rgba(0,0,0,0.18))" as never,
-                }}
-              >
+            const cardStyle: CSSProperties = {
+              transform: `translate(-50%, -50%) translateX(${translateX}%) translateZ(${translateZ}px) rotateY(${rotate}deg) scale(${scale})`,
+              zIndex: 100 - abs,
+              opacity,
+              transition: "transform 0.5s cubic-bezier(0.22,0.61,0.36,1), opacity 0.5s",
+              pointerEvents: abs > 5 ? "none" : "auto",
+              WebkitBoxReflect:
+                "below 6px linear-gradient(transparent, transparent 55%, rgba(0,0,0,0.18))" as never,
+            };
+            const cardClassName =
+              "absolute left-1/2 top-1/2 aspect-square w-44 cursor-pointer overflow-hidden rounded-2xl shadow-2xl outline-none sm:w-56 md:w-64";
+            const cardContent = (
+              <>
                 {photo && (
                   <Image
                     src={asset(photo)}
@@ -118,6 +116,37 @@ export function Investigacion() {
                 {isActive && (
                   <span className={`absolute inset-0 ring-4 ${accentRing[activeAccent]} ring-inset rounded-2xl`} />
                 )}
+              </>
+            );
+
+            // The centered cover, once its detail page exists, becomes a
+            // link instead of a no-op click; off-center covers always just
+            // bring themselves to the center first.
+            if (isActive && hasDetailPage) {
+              return (
+                <Link
+                  key={group.slug}
+                  href={`/investigacion/${group.slug}`}
+                  aria-label={group.name[locale]}
+                  className={cardClassName}
+                  style={cardStyle}
+                >
+                  {cardContent}
+                </Link>
+              );
+            }
+
+            return (
+              <button
+                key={group.slug}
+                type="button"
+                aria-label={group.name[locale]}
+                aria-current={isActive}
+                onClick={() => setActive(i)}
+                className={cardClassName}
+                style={cardStyle}
+              >
+                {cardContent}
               </button>
             );
           })}

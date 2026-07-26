@@ -7,6 +7,16 @@
     "es": "Integrado por el Laboratorio de Biomembranas y el Laboratorio de Radiobiología Médica y Ambiental. Estudia el transporte de sustancias a través de membranas biológicas y las respuestas biológicas al daño genómico inducido por agentes físicos y químicos.",
     "en": "Comprises the Biomembranes Lab and the Medical and Environmental Radiobiology Lab. Studies the transport of substances across biological membranes and biological responses to genomic damage induced by physical and chemical agents."
   },
+  "researchLines": {
+    "es": "El grupo de Biofisicoquímica, a cargo del Prof. Dr. R. Daniel Peluffo, está integrado por el Laboratorio de Biomembranas y el Laboratorio de Radiobiología Médica y Ambiental. En el Laboratorio de Biomembranas se estudian la cinética, termodinámica y modulación de los fenómenos de transporte (activo primario, activo secundario y pasivo) y permeación de sustancias a través de membranas biológicas, en particular: los mecanismos moleculares de los transportadores de aminoácidos catiónicos (CATs); el transporte de L-arginina y su regulación por especies reactivas de oxígeno y nitrógeno; el impacto de dicho transporte sobre el daño genómico; y el estudio cinético-termodinámico de ácidos nucleicos con especies reactivas del nitrógeno.\n\nEn el Laboratorio de Radiobiología Médica y Ambiental se estudian las respuestas biológicas al daño genómico endógeno e inducido por agentes físicos y químicos, incluyendo las respuestas producidas por productos naturales y el impacto de plaguicidas en la salud humana al norte del Río Negro.\n\nCon la incorporación de la Dra. Laura Lafon-Hughes se está desarrollando una nueva línea que combina su experticia en poli-ADP-ribosilación con la experiencia del grupo en transporte de arginina, especies reactivas de oxígeno y nitrógeno, estrés oxidativo y daño genómico.",
+    "en": "The Biophysical Chemistry group, led by Prof. Dr. R. Daniel Peluffo, comprises the Biomembranes Lab and the Medical and Environmental Radiobiology Lab. The Biomembranes Lab studies the kinetics, thermodynamics, and modulation of transport phenomena (primary active, secondary active, and passive) and the permeation of substances across biological membranes — in particular: the molecular mechanisms of cationic amino acid transporters (CATs); L-arginine transport and its regulation by reactive oxygen and nitrogen species; the impact of that transport on genomic damage; and the kinetic-thermodynamic study of nucleic acids with reactive nitrogen species.\n\nThe Medical and Environmental Radiobiology Lab studies biological responses to genomic damage, both endogenous and induced by physical and chemical agents, including responses to natural products and the impact of pesticides on human health north of the Río Negro.\n\nWith the incorporation of Dr. Laura Lafon-Hughes, the group is developing a new research line combining her expertise in poly-ADP-ribosylation with its own experience in arginine transport, reactive oxygen and nitrogen species, oxidative stress, and genomic damage."
+  },
+  "currentProjects": [
+    "Proyecto I+D CSIC: \"Sintasas de óxido nítrico, caveolinas y nitración vs. poli(ADP-ribosilación) de vinculina en cáncer de colon de pacientes del Hospital de Salto y en la línea celular Caco-2: posible rol en la transición de epitelio a mesénquima\" (Responsables: Dr. Peluffo y Dra. Lafon-Hughes)",
+    "Proyecto de Doctorado PEDECIBA: \"Nitración de purinas del ADN en distintos niveles de organización nucleotídica y su procesamiento por mecanismos no enzimáticos y/o enzimáticos\" (Responsable: Mag. Sánchez. Orientadores: Dr. Peluffo y Dra. Keszenman)",
+    "Proyecto de Maestría PEDECIBA: \"Estudio de las respuestas celulares a la exposición combinada de radiación ultravioleta, glifosato y arsénico\" (Responsable: Q.F. Gabrielli. Orientadores: Dr. Peluffo y Dra. Keszenman)",
+    "Proyecto PAIE CSIC: \"Modulación de la sinaptogénesis in vitro por la actividad de Poli-ADP-ribosil-polimerasas (PARPs)\" (Estudiante referente: Emanuel Arce. Tutoras académicas: Dra. Lafon-Hughes y Dra. Zuluaga)"
+  ],
   "lead": {
     "name": "Dr. R. Daniel Peluffo",
     "title": "Profesor, Responsable del Grupo de Biofisicoquímica (Gdo 5, 40 hs/sem, DT)",
@@ -14,14 +24,89 @@
   },
   "members": [
     { "name": "Dra. Laura Lafon-Hughes", "title": "Profesora Agregada (Gdo 4, 40 hs/sem)" },
-    { "name": "Dra. María José Zuluaga", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)" },
-    { "name": "MSc. Ana G. Sánchez", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem)" },
-    { "name": "Dra. Deborah Keszenman", "title": "Responsable del Lab. de Radiobiología Médica y Ambiental (Investigadora Honoraria)" },
-    { "name": "Q.F. Adriana Gabrielli", "title": "Asistente (Gdo 2, 40 hs/sem)" },
-    { "name": "Prof. Pablo Alcoba", "title": "Estudiante de la Lic. en Biología Humana" },
-    { "name": "Dra. Valentina Seballos", "title": "Ayudante (Gdo 1, 25 hs/sem)" },
-    { "name": "Lic. Macarena Menoni", "title": "Asistente (Gdo 2, 30 hs/sem)" },
+    { "name": "Dra. María José Zuluaga", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)", "photo": "/images/people/maria-jose-zuluaga.jpg" },
+    { "name": "MSc. Ana G. Sánchez", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem)", "photo": "/images/people/ana-sanchez.jpg" },
+    { "name": "Dra. Deborah Keszenman", "title": "Responsable del Lab. de Radiobiología Médica y Ambiental (Investigadora Honoraria)", "photo": "/images/people/deborah-keszenman.jpg" },
+    { "name": "Q.F. Adriana Gabrielli", "title": "Asistente (Gdo 2, 40 hs/sem)", "photo": "/images/people/adriana-gabrielli.jpg" },
+    { "name": "Prof. Pablo Alcoba", "title": "Estudiante de la Lic. en Biología Humana", "photo": "/images/people/pablo-alcoba.jpg" },
+    { "name": "Dra. Valentina Seballos", "title": "Ayudante (Gdo 1, 25 hs/sem)", "photo": "/images/people/valentina-seballos.jpg" },
+    { "name": "Lic. Macarena Menoni", "title": "Asistente (Gdo 2, 30 hs/sem)", "photo": "/images/people/macarena-menoni.jpg" },
     { "name": "Lic. Natalia Ibargoyen", "title": "Técnica en instrumental de laboratorio (R12, 30 hs/sem)" },
-    { "name": "Dra. Daniela Mejías", "title": "Estudiante de Posgrado (Maestría en Ciencias Biológicas, Gdo 1, 20 hs/sem)" }
-  ]
+    { "name": "Dra. Daniela Mejías", "title": "Estudiante de Posgrado (Maestría en Ciencias Biológicas, Gdo 1, 20 hs/sem)", "photo": "/images/people/daniela-mejias.jpg" }
+  ],
+  "publications": [
+    "Sánchez A.G., Keszenman D.J., Peluffo R.D. (2024). Purine, nucleoside, and DNA nitration by peroxynitrite: Mechanistic considerations. Redox Biochemistry and Chemistry, 8, 100028. https://doi.org/10.1016/j.rbc.2024.100028",
+    "Lafon-Hughes L. (2023). Towards Understanding Long COVID: SARS-CoV-2 Strikes the Host Cell Nucleus. Pathogens, 12(6), 806. https://doi.org/10.3390/pathogens12060806",
+    "Lafon-Hughes L. (2022). Poly(ADP-ribose), adherens junctions, vinculin and the actin cytoskeleton: Current evidence, future perspectives and implications. BIOCELL, 46(12), 2531–2535. https://doi.org/10.32604/biocell.2022.022713",
+    "Sánchez A.G., Ibargoyen M.N., Mastrogiovanni M., Radi R., Keszenman D.J., Peluffo R.D. (2022). Fast and biphasic 8-nitroguanine production from guanine and peroxynitrite. Free Radical Biology & Medicine, 193(Pt 1), 474–484. https://doi.org/10.1016/j.freeradbiomed.2022.10.317",
+    "Bennett P.V., Johnson A.M., Ackerman S.E., Chaudhary P., Keszenman D.J., Wilson P.F. (2022). Dose-Rate Effects of Protons and Light Ions for DNA Damage Induction, Survival and Transformation in Apparently Normal Primary Human Fibroblasts. Radiation Research, 197(3), 298–313. https://doi.org/10.1667/RADE-21-00138.1",
+    "Peluffo R.D. (2021). Cationic amino acid transporters and their modulation by nitric oxide in cardiac muscle cells. Biophysical Reviews, 13, 1071–1079. https://doi.org/10.1007/s12551-021-00870-1",
+    "Vilchez Larrea S., Valsecchi W.M., Fernández Villamil S.H., Lafon-Hughes L.I. (2021). First body of evidence suggesting a role of a tankyrase binding motif (TBM) of vinculin (VCL) in epithelial cells. PeerJ, 9, e11442. https://doi.org/10.7717/peerj.11442",
+    "Johnson A.M., Bennett P.V., Sanidad K.Z., Hoang A., Jardine J.H., Keszenman D.J., Wilson P.F. (2021). Evaluation of Histone Deacetylase Inhibitors as Radiosensitizers for Proton and Light Ion Radiotherapy. Frontiers in Oncology, 11, 735940. https://doi.org/10.3389/fonc.2021.735940",
+    "Lafon-Hughes L., Fernández Villamil S., Vilchez Larrea S. (2021). Tankyrase inhibitors hinder Trypanosoma cruzi infection by altering host-cell signalling pathways. Parasitology, 148(13), 1680–1690. https://doi.org/10.1017/S0031182021001402",
+    "Zheng R., da Rosa G., Dans P.D., Peluffo R.D. (2020). Molecular determinants for nitric oxide regulation of the murine cationic amino acid transporter CAT-2A. Biochemistry, 59(44), 4225–4237. https://doi.org/10.1021/acs.biochem.0c00729",
+    "Perini V., Schacke M., Liddle P., Vilchez-Larrea S., Keszenman D.J., Lafon-Hughes L. (2020). PARP inhibitor Olaparib causes no potentiation of the bleomycin effect in VERO cells, even in the presence of pooled ATM, DNA-PK, and LigIV inhibitors. International Journal of Molecular Sciences, 21(21), 8288. https://doi.org/10.3390/ijms21218288",
+    "Ferragut G., Sánchez A.G., Lombardo P., Cedano J., Vignale B., Vázquez A., Dellacassa E., Keszenman D.J. (2018). Essential oil of Eugenia uniflora as a potential immunomodulatory in tumoral response. In Frontiers in Immunology Mexico 2018 (pp. 264–267). Frontiers Media SA.",
+    "Ferragut G., Huerta M., Severi M.A., Keszenman D.J., Cedano J. (2018). Is the classic signaling pathway of IL-6 associated with the coordination of structure- and tissue-dependent regeneration in the intestine? In Frontiers in Immunology Mexico 2018 (pp. 332–334). Frontiers Media SA.",
+    "Ferragut G., Keszenman D.J., Cedano J. (2018). Delimitation of colon cancer using modified Nidogen-1: development of an immuno-tool for tumor therapy. In Frontiers in Immunology Mexico 2018 (pp. 1088–1089). Frontiers Media SA.",
+    "Ramachandran J., Peluffo R.D. (2017). Threshold levels of extracellular L-arginine that trigger NOS-mediated ROS/RNS production in cardiac ventricular myocytes. American Journal of Physiology - Cell Physiology, 312(2), C144–C154. https://doi.org/10.1152/ajpcell.00150.2016",
+    "Keszenman D.J., Kolodiuk L., Baulch J. (2015). DNA damage in cells exhibiting radiation-induced genomic instability. Mutagenesis, 30, 451–458. https://doi.org/10.1093/mutage/gev006",
+    "Keszenman D.J., Germán P. (2018). Uruguay: Traditional medicine usage of pitanga's leaves for medicinally valuable infusions is directing the search for potential chemotherapeutic agents against colon cancer. In ABS is Genetic Resources for Sustainable Development (pp. 212–218). UNDP Global Environmental Finance Sustainable Development Cluster."
+  ],
+  "teaching": {
+    "es": [
+      "Biofísica. Ciclo Biología-Bioquímica",
+      "Bases Biomoleculares II. CIO Salud",
+      "Unidad Curricular 8: Biofísica del músculo y la locomoción. Carrera de Doctor en Medicina, CENUR Litoral Norte",
+      "Unidad Curricular 11: Cardiovascular y respiratorio. Carrera de Doctor en Medicina, CENUR Litoral Norte",
+      "Unidad Curricular 12: Digestivo, renal, endócrino, metabolismo, reproductor y desarrollo. Carrera de Doctor en Medicina, CENUR Litoral Norte",
+      "Biofísica de ADN (posgrado)",
+      "Biofísica de la radiación ultravioleta (UV) ambiental y de importancia biomédica: efectos fisicoquímicos y biológicos a nivel celular (posgrado)",
+      "Curso PEDECIBA: Daño genómico por agentes físicos. Aplicaciones y herramientas para su estudio (posgrado)",
+      "VIII Curso del Postgrado Latinoamericano en Biofísica (POSLATAM)",
+      "La transición de epitelio a mesénquima y su rol en la carcinogénesis (posgrado)",
+      "Pasantías de 4to año, Profesorado de Biología, CeRP Salto"
+    ],
+    "en": [
+      "Biophysics. Biology-Biochemistry track",
+      "Biomolecular Foundations II. CIO Salud",
+      "Curricular Unit 8: Muscle and Locomotion Biophysics. Doctor of Medicine program, CENUR Litoral Norte",
+      "Curricular Unit 11: Cardiovascular and Respiratory Systems. Doctor of Medicine program, CENUR Litoral Norte",
+      "Curricular Unit 12: Digestive, Renal, Endocrine, Metabolic, Reproductive and Developmental Systems. Doctor of Medicine program, CENUR Litoral Norte",
+      "DNA Biophysics (graduate)",
+      "Biophysics of Environmental and Biomedical Ultraviolet (UV) Radiation: physicochemical and cellular effects (graduate)",
+      "PEDECIBA course: Genomic Damage by Physical Agents — tools and applications for its study (graduate)",
+      "8th Latin American Postgraduate Course in Biophysics (POSLATAM)",
+      "Epithelial-to-mesenchymal transition and its role in carcinogenesis (graduate)",
+      "4th-year internships, Biology Teacher Training Program, CeRP Salto"
+    ]
+  },
+  "outreach": {
+    "es": [
+      "\"En qué nos metimos\": ciclo de entrevistas a investigadores del DCB en Radio La Regional",
+      "Divulgación en el diario El Pueblo",
+      "\"Dosis de Ciencia\": ciclo de entrevistas a investigadores en Uniradio",
+      "Ciclo de divulgación de las Ciencias Biológicas en Radio Uruguay (Salto)",
+      "Charlas con mujeres rurales, en el marco de un proyecto sobre cáncer y exposición ambiental a agroquímicos",
+      "Seminario en el Centro de Microbiología y Biología Celular (CMBC) del Instituto Venezolano de Investigaciones Científicas (IVIC)",
+      "Comité organizador del II, IV y VI Congreso Internacional de Educación en Ciencias Básicas, CENUR Litoral Norte",
+      "Ciclo de Seminarios sobre COVID-19 y métodos de profilaxis",
+      "Conectate a Neurociencias",
+      "Científicos en el aula",
+      "Día del Patrimonio en Facultad de Medicina: presentación del Laboratorio de Biofisicoquímica mediante circuito QR"
+    ],
+    "en": [
+      "\"What We Got Ourselves Into\": interview series with DCB researchers on Radio La Regional",
+      "Science outreach coverage in the newspaper El Pueblo",
+      "\"A Dose of Science\": interview series with researchers on Uniradio",
+      "Biological Sciences outreach series on Radio Uruguay (Salto)",
+      "Talks with rural women, as part of a research project on cancer and environmental exposure to agrochemicals",
+      "Seminar at the Center for Microbiology and Cell Biology (CMBC), Venezuelan Institute for Scientific Research (IVIC)",
+      "Organizing committee for the 2nd, 4th, and 6th International Congress on Basic Sciences Education, CENUR Litoral Norte",
+      "COVID-19 and prophylaxis methods seminar series",
+      "\"Connect to Neuroscience\" outreach program",
+      "\"Scientists in the Classroom\" outreach program",
+      "Heritage Day at the Faculty of Medicine: Biophysical Chemistry Lab presentation via QR-code exhibit"
+    ]
+  }
 }
