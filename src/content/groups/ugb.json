@@ -7,15 +7,48 @@
     "es": "Unidad que trabaja en embriogenómica (transcriptómica y epigenómica del desarrollo embrionario en mamíferos), agrogenómica, y virómica aplicada al análisis filodinámico de procesos epidémicos.",
     "en": "A unit working on embryogenomics (transcriptomics and epigenomics of mammalian embryonic development), agrigenomics, and viromics applied to the phylodynamic analysis of epidemic processes."
   },
+  "researchLines": {
+    "es": "a) Embriogenómica: Transcriptómica y epigenómica de la gametogénesis y el desarrollo embrionario en mamíferos.\n\nb) Agrogenómica: Aplicaciones de la genómica en especies de interés agropecuario.\n\nc) Virómica: Filodinámica viral para el análisis de procesos epidémicos.",
+    "en": "a) Embryogenomics: Transcriptomics and epigenomics of gametogenesis and embryonic development in mammals.\n\nb) Agrigenomics: Applications of genomics in species of agricultural interest.\n\nc) Viromics: Viral phylodynamics for the analysis of epidemic processes."
+  },
   "lead": {
     "name": "Dra. Nélida Rodríguez Osorio",
     "title": "Profesora Agregada, Responsable de la Unidad de Genómica y Bioinformática (Gdo 4, 40 hs/sem, DT)",
     "photo": "/images/people/nelida-rodriguez.jpg"
   },
   "members": [
-    { "name": "Dra. Daiana Mir", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)" },
-    { "name": "Dr. M.V. Diego Almansa-Villa", "title": "Estudiante de Posgrado, Maestría en Bioinformática (Gdo 1, 30 hs/sem)" },
-    { "name": "Dra. María José Benítez-Galeano", "title": "Ayudante (Gdo 1, 40 hs/sem)" },
-    { "name": "Lic. Agustina Añasco", "title": "Maestría en Bioinformática, Becaria ANII" }
+    { "name": "Dra. Daiana Mir", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)", "photo": "/images/people/daiana-mir.jpg" },
+    { "name": "Dr. M.V. Diego Almansa-Villa", "title": "Estudiante de Posgrado, Maestría en Bioinformática (Gdo 1, 30 hs/sem)", "photo": "/images/people/diego-almansa-villa.jpg" },
+    { "name": "Dra. María José Benítez-Galeano", "title": "Ayudante (Gdo 1, 40 hs/sem)", "photo": "/images/people/maria-jose-benitez-galeano.jpg" },
+    { "name": "Lic. Agustina Añasco", "title": "Maestría en Bioinformática, Becaria ANII", "photo": "/images/people/agustina-anasco.jpg" }
+  ],
+  "collaborators": [
+    "Laboratorio de Virología Molecular, DCB",
+    "Laboratorio de Genética Molecular Humana, DCB",
+    "Laboratorio de Vectores y Enfermedades transmitidas, DCB",
+    "Laboratorio de Producción in vitro de embriones, Tacuarembó - CENUR Litoral Noreste",
+    "Facultad de Veterinaria, UdelaR, Uruguay",
+    "Instituto de Higiene, UdelaR, Uruguay",
+    "Instituto Nacional de Investigación Agropecuaria (INIA), Uruguay",
+    "Institut Pasteur, Montevideo, Uruguay",
+    "Universidad de Buenos Aires, Argentina",
+    "INTA Cerro Azul, Argentina",
+    "Instituto Oswaldo Cruz (Fiocruz), Rio de Janeiro, Brasil",
+    "Universidad Nacional sedes Medellín y Bogotá, Colombia",
+    "Universidad de Antioquia, Medellín, Colombia",
+    "Universidad CES, Medellín, Colombia",
+    "Universidad Estatal de Mississippi, Starkville, Estados Unidos",
+    "Universidad Estatal de California, Fullerton, Estados Unidos",
+    "Key Lab of Marine Genomics, Shenzhen, China"
+  ],
+  "publications": [
+    "Yepes-Blandón JA, Bian C, Benítez-Galeano MJ, Aristizabal-Regino JL, Estrada-Posada AL, Mir D, Vásquez-Machado G, Atencio-García VJ, Shi Q & Rodríguez-Osorio N. (2022) Draft genome assembly for the Colombian freshwater bocachico fish, Prochilodus magdalenae. Frontiers in Genetics. DOI 10.3389/fgene.2022.989788",
+    "Giannitti F, da Silva Silveira C, Bullock H, Berón M, Fernández-Ciganda S, Benítez-Galeano MJ, Rodríguez-Osorio N, Silva-Flannery L, Perdomo Y, Cabrera A, et al. (2022) Bovine Polyomavirus-1 (Epsilonpolyomavirus bovis): An Emerging Fetal Pathogen of Cattle That Causes Renal Lesions Resembling Polyomavirus-Associated Nephropathy of Humans. Viruses. https://doi.org/10.3390/v14092042",
+    "Báez F, López Darriulat R, Rodríguez-Osorio N & Viñoles C. (2022) Effect of season on germinal vesicle stage, quality, and subsequent in vitro developmental competence in bovine cumulus-oocyte complexes. J Thermal Biology. doi: 10.1016/j.jtherbio.2021.103171",
+    "Ramirez-Nieto G, Mir D, Almansa-Villa D, Córdoba-Argotti G, Beltran-Leon M, Rodriguez-Osorio N, Garai J, Zabaleta J & Gómez AP. (2022) New Insights into Avian Infectious Bronchitis Virus in Colombia from Whole-Genome Analysis. Viruses. doi: 10.3390/v14112562",
+    "Parodi P, Armúa-Fernández MT, Schanzembach M, Mir D, Benítez-Galeano MJ, Rodríguez-Osorio N, Rivero R & Venzal JM. (2022) Characterization of strains of Anaplasma marginale from clinical cases in bovine using major surface protein 1a in Uruguay. Front. Vet. Sci. doi: 10.3389/fvets.2022.990228",
+    "Mir D, N. Rego, P. C. Resende, and F. López-tort et al., (2021). Recurrent dissemination of SARS-CoV-2 through the Uruguayan-Brazilian border. Front. Microbiol. 28;12:653986.",
+    "Mir D, Gräf T, Esteves de Matos Almeida S, Pinto AR, Delatorre E, Bello G. Inferring population dynamics of HIV-1 subtype C epidemics in Eastern Africa and Southern Brazil applying different Bayesian phylodynamics approaches. (2018) Sci Rep. 8;8(1):8778.",
+    "Urrego R, Bernal-Ulloa SM, Chavarria NA, Herrera-Puerta E, Lucas-Hahn A, Herrman D, Winklers S, Pache D, Niemann H, Rodríguez-Osorio N. (2017). Satellite DNA methylation status and expression of selected genes in Bos indicus blastocysts produced in vivo and in vitro. Zygote 25(2):131-140."
   ]
 }

@@ -7,15 +7,76 @@
     "es": "Aborda, desde una perspectiva de genética poblacional, problemas de salud relevantes para la región: farmacogenética de la leucemia linfoblástica aguda pediátrica, hemoglobinopatías, ancestralidad, y el sistema sanguíneo Rhesus, entre otras líneas.",
     "en": "Addresses region-relevant health problems from a population genetics perspective: pharmacogenetics of pediatric acute lymphoblastic leukemia, hemoglobinopathies, ancestry, and the Rhesus blood group system, among other lines."
   },
-  "lead": {
-    "name": "Dr. Julio da Luz",
-    "title": "Profesor Agregado, Responsable del Grupo de Genética Molecular Humana (Gdo 4, 40 hs/sem, DT)",
-    "photo": null
+  "researchLines": {
+    "es": "El Laboratorio de Genética Molecular Humana, dirigido por el Prof. Agregado Dr. Julio da Luz, está ubicado en la sede Salto. Aborda, desde una perspectiva de genética poblacional, problemas de salud relevantes para la región y el país.\n\nActualmente, sus principales líneas de investigación son: farmacogenética de la Leucemia Linfoblástica Aguda pediátrica; genética de hemoglobinopatías; ancestralidad al norte de Uruguay; caracterización molecular del sistema sanguíneo Rhesus (Rh); farmacogenética de los inhibidores de la recaptación de serotonina (ISRS); bases genéticas de la anemia por déficit de hierro; y detección de mutaciones de interés terapéutico en cáncer colorrectal a partir de biopsias líquidas.",
+    "en": "The Laboratory of Human Molecular Genetics, led by Prof. Agregado Dr. Julio da Luz, is based at the Salto campus. It addresses region- and country-relevant health problems from a population genetics perspective.\n\nIts main current research lines are: pharmacogenetics of pediatric Acute Lymphoblastic Leukemia; genetics of hemoglobinopathies; ancestry in northern Uruguay; molecular characterization of the Rhesus (Rh) blood group system; pharmacogenetics of selective serotonin reuptake inhibitors (SSRIs); genetic bases of iron-deficiency anemia; and detection of therapeutically relevant mutations in colorectal cancer from liquid biopsies."
   },
+  "lead": { "name": "Dr. Julio da Luz", "title": "Profesor Agregado, Responsable del Grupo de Genética Molecular Humana (Gdo 4, 40 hs/sem, DT)", "photo": "/images/people/julio-da-luz.jpg" },
   "members": [
-    { "name": "Dra. Ana Soler", "title": "Asistente (Gdo 2, 40 hs/sem, DT)" },
-    { "name": "MSc. Gabriela Burgueño Rodríguez", "title": "Asistente (Gdo 2, 40 hs/sem)" },
+    { "name": "Dra. Ana Soler", "title": "Asistente (Gdo 2, 40 hs/sem, DT)", "photo": "/images/people/ana-soler.jpg" },
+    { "name": "MSc. Gabriela Burgueño Rodríguez", "title": "Asistente (Gdo 2, 40 hs/sem)", "photo": "/images/people/gabriela-burgueno-rodriguez.jpg" },
     { "name": "Bach. Ignacio Rodríguez de Ávila", "title": "Ayudante (Gdo 1, 15 hs/sem)" }
   ],
+  "collaborators": [
+    "Departamento de Antropología Biológica, Facultad de Humanidades y Ciencias de la Educación, Universidad de la República",
+    "Polo de Desarrollo Universitario \"Diversidad Genética Humana\", CENUR Noroeste, sede Tacuarembó",
+    "Departamento de Genética, Facultad de Medicina, Universidad de la República",
+    "Fundación Pérez Scremini",
+    "Unidad Académica de Medicina Transfusional y Hemoterapia, Hospital de Clínicas Dr. Manuel Quintela, Montevideo",
+    "Hospital Regional de Salto, Administración de los Servicios de Salud del Estado (ASSE)",
+    "Banco de Sangre Salto (ERITROM), Salto",
+    "Hospital Escuela del Litoral, Dr. Galán y Rocha, Paysandú",
+    "Centro de Asistencia Médica de la Sociedad Médico Quirúrgica de Salto",
+    "Red de Atención Primaria (RAP), Administración de los Servicios de Salud del Estado (ASSE)",
+    "Laboratório de Identificação e Caracterização das Hemoglobinopatias, Universidade Estadual de Campinas, São Paulo, Brasil",
+    "Hemoglobinopathies Center of Expertise, Department of Clinical Genetics (LDGA), Leiden University Medical Center (LUMC), The Netherlands"
+  ],
+  "publications": [
+    "Burgueño-Rodríguez G, Méndez Y, Olano N, Schelotto M, Castillo L, Soler AM and da Luz J (2023), Pharmacogenetics of pediatric acute lymphoblastic leukemia in Uruguay: adverse events related to induction phase drugs. Front. Pharmacol. 14:1278769. doi: 10.3389/fphar.2023.1278769",
+    "Salas-Hernández, A., Galleguillos, M., Carrasco, M., López-Cortés, A., Redal, M. A., Fonseca-Mendoza, D., ... & Quiñones, L. A. (2023). An updated examination of the perception of barriers for pharmacogenomics implementation and the usefulness of drug/gene pairs in Latin America and the Caribbean. Frontiers in Pharmacology, 14, 1196.",
+    "Soler, A. M., Piellusch, B. F., Silveira, L. D., Pedroso, G. A., López, P., Savio, E., ... & Luz, J. D. (2021). Alpha thalassemia and alpha-MRE haplotypes in Uruguayan patients with microcytosis and hypochromia without anemia. Genetics and molecular biology, 44. doi: 10.1590/1678-4685-GMB-2020-0399",
+    "Burgueño-Rodríguez, G., Méndez, Y., Olano, N., Dabezies, A., Bertoni, B., Souto, J., ... & Soler, A. M. (2020). Ancestry and TPMT-VNTR polymorphism: relationship with hematological toxicity in Uruguayan patients with Acute Lymphoblastic Leukemia. Frontiers in pharmacology, 11. doi: 10.3389/fphar.2020.594262",
+    "Soler, A. M., Olano, N., Méndez, Y., Lopes, A., Silveira, A., Dabezies, A., ... & da Luz, J. A. (2018). TPMT and NUDT 15 genes are both related to mercaptopurine intolerance in acute lymphoblastic leukaemia patients from Uruguay. British journal of haematology, 181(2), 252-255. doi: 10.1111/bjh.14532",
+    "Soler, A. M., Schelotto, M., de Oliveira Mota, N., Dorta Ferreira, R., Sonati, M. D. F., & da Luz, J. A. (2016). The–(α) 5.2 Deletion Detected in a Uruguayan Family: First Case Report in the Americas. Hemoglobin, 40(4), 289-292. doi: 10.1080/03630269.2016.1200072",
+    "Luz, J. D., Ávila, A., Icasuriaga, S., Gongóra, M., Castillo, L., Serrón, A., ... & Sonati, M. D. F. (2013). Frequency and spectrum of hemoglobinopathy mutations in a Uruguayan pediatric population. Genetics and molecular biology, 36(3), 316-322. doi: 10.1590/S1415-47572013005000027"
+  ],
+  "teaching": {
+    "es": [
+      "Genética General (2015-actualidad). Dictado de clases teóricas y seminarios teórico-prácticos de investigación. Coordinación desde 2015 a la fecha (Dr. Julio da Luz y Dra. Ana María Soler)",
+      "Introducción a las Ciencias Biológicas I (2015-actualidad). Dictado de clases teóricas y moderación de grupos de discusión. Coordinación desde 2016 (Dra. Ana María Soler)",
+      "Ciclo Básico Clínico Comunitario, Unidad Curricular 12: Digestivo, Renal, Endócrino, Metabolismo, Reproducción y Desarrollo (DREM) (2021-actualidad). Dictado de discusiones grupales",
+      "Ciclo de Metodología Científica II, Unidad Curricular 24 (2021-actualidad). Dictado de Proyecto de Investigación",
+      "Bases Biomoleculares I (2020-actualidad) y Bases Biomoleculares II (2019). Dictado de clases teóricas, discusiones grupales y prácticos de laboratorio",
+      "Introducción a las Ciencias Biológicas II (2014-2015). Dictado de seminarios",
+      "Bases Genéticas del Cáncer. PEDECIBA-Facultad de Ciencias y PROINBIO-Facultad de Medicina (2014-actualidad, posgrado)",
+      "Curso de Aplicación Diagnóstica de la Biología Molecular. Hospital de Clínicas - Facultad de Medicina (2017, 2023, posgrado)",
+      "Programa internacional en farmacogenómica y sus aplicaciones clínicas. Universidad de Costa Rica (2022, posgrado)"
+    ],
+    "en": [
+      "General Genetics (2015-present). Lectures and theoretical-practical research seminars. Coordinated from 2015 to date (Dr. Julio da Luz and Dra. Ana María Soler)",
+      "Introduction to Biological Sciences I (2015-present). Lectures and moderation of discussion groups. Coordinated since 2016 (Dra. Ana María Soler)",
+      "Basic Community Clinical Cycle, Curricular Unit 12: Digestive, Renal, Endocrine, Metabolism, Reproduction and Development (DREM) (2021-present). Group discussions",
+      "Scientific Methodology Cycle II, Curricular Unit 24 (2021-present). Research Project instruction",
+      "Biomolecular Foundations I (2020-present) and Biomolecular Foundations II (2019). Lectures, group discussions and laboratory practicals",
+      "Introduction to Biological Sciences II (2014-2015). Seminars",
+      "Genetic Bases of Cancer. PEDECIBA-Facultad de Ciencias and PROINBIO-Facultad de Medicina (2014-present, graduate)",
+      "Molecular Biology Diagnostic Applications Course. Hospital de Clínicas - Facultad de Medicina (2017, 2023, graduate)",
+      "International program in pharmacogenomics and its clinical applications. Universidad de Costa Rica (2022, graduate)"
+    ]
+  },
+  "outreach": {
+    "es": [
+      "Tutorías de pasantía de investigación de estudiantes de cuarto año de profesorado del CERP, especialidad Ciencias Biológicas",
+      "Charlas a diferentes públicos en el marco de las actividades de la Semana de la Ciencia y Tecnología",
+      "Charlas y talleres en centros educativos sobre temas relacionados con la genética",
+      "Participación en entrevistas y ciclos de divulgación en medios de prensa locales"
+    ],
+    "en": [
+      "Research internship mentoring for fourth-year CERP teacher-training students, Biological Sciences specialty",
+      "Talks to varied audiences as part of Science and Technology Week activities",
+      "Talks and workshops at schools on genetics-related topics",
+      "Participation in interviews and outreach series in local press media"
+    ]
+  },
   "image": "/images/logos/lgmh-logo.png"
 }

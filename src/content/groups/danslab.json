@@ -7,6 +7,10 @@
     "es": "Desarrolla métodos de química y biofísica computacional para el modelado y simulación de sistemas biológicos de interés biomédico, con foco en la estructura 3D/4D de cromosomas, genes y ácidos nucleicos.",
     "en": "Develops computational chemistry and biophysics methods to model and simulate biological systems of biomedical interest, focusing on the 3D/4D structure of chromosomes, genes, and nucleic acids."
   },
+  "researchLines": {
+    "es": "El grupo de Biofísica Computacional, dirigido por el Prof. Dr. Pablo D. Dans, se dedica al desarrollo de métodos de la química y biofísica computacional para el modelado y simulación de sistemas biológicos de interés biomédico. En particular, el grupo trabaja en las siguientes líneas de investigación: desarrollo de métodos de la Biología Integrativa para el estudio 3D/4D de cromosomas y genes; impacto de la 5-metil-citosina (y otras modificaciones epigenéticas) en la organización del genoma de levadura bajo diferentes condiciones; desarrollo de parámetros de campos de fuerza atomísticos para bases modificadas epigenéticamente; desarrollo de modelos de grano-grueso de ADN y cromatina; estudio del espacio conformacional de las moléculas de ARN, con una aproximación desde la bioinformática estructural; estructura, estabilidad y dinámica de mitades de ARN de transferencia; interacciones ADN-solvente (cationes, solvente y pequeños ligandos); y predicción de la estructura 3D de péptidos y proteínas.",
+    "en": "The Computational Biophysics group, led by Prof. Dr. Pablo D. Dans, develops methods from computational chemistry and biophysics to model and simulate biological systems of biomedical interest. In particular, the group works on the following research lines: development of Integrative Biology methods for the 3D/4D study of chromosomes and genes; impact of 5-methyl-cytosine (and other epigenetic modifications) on yeast genome organization under different conditions; development of atomistic force-field parameters for epigenetically modified bases; development of coarse-grained models of DNA and chromatin; study of the conformational space of RNA molecules, approached from structural bioinformatics; structure, stability, and dynamics of transfer RNA halves; DNA-solvent interactions (cations, solvent, and small ligands); and prediction of the 3D structure of peptides and proteins."
+  },
   "lead": {
     "name": "Prof. Dr. Pablo D. Dans",
     "title": "Responsable del grupo (Gdo 4, 40 hs/sem, DT)",
@@ -14,11 +18,64 @@
   },
   "members": [
     { "name": "Lic. Gonzalo Lopez", "title": "Estudiante de Doctorado en Biotecnología, Fac. Ciencias - UdelaR" },
-    { "name": "Dr. Leandro Grille", "title": "Estudiante de posdoctorado" },
+    { "name": "Dr. Leandro Grille", "title": "Estudiante de posdoctorado", "photo": "/images/people/leandro-grille.jpg" },
     { "name": "Lic. Mage Teliz", "title": "Estudiante de Maestría en Química, Fac. Química - UdelaR" },
-    { "name": "MSc. Gabriela da Rosa", "title": "Beca CAP (Gdo 2, 6 hs/sem)" },
+    { "name": "MSc. Gabriela da Rosa", "title": "Beca CAP (Gdo 2, 6 hs/sem)", "photo": "/images/people/gabriela-da-rosa.jpg" },
     { "name": "MSc. Rafael Sauto", "title": "Miembro del equipo de investigación, Fac. Agronomía - UdelaR" },
-    { "name": "Dr. Germán Traglia", "title": "Asistente (Gdo 2, 40 hs/sem, DT)" },
+    { "name": "Dr. Germán Traglia", "title": "Asistente (Gdo 2, 40 hs/sem, DT)", "photo": "/images/people/german-traglia.jpg" },
     { "name": "Bach. Santiago Pintos", "title": "Miembro del equipo de investigación, Fac. Ciencias - UdelaR" }
-  ]
+  ],
+  "publications": [
+    "Grille L., Gallego D., Darré L., da Rosa G., Battistini F., Orozco M., Dans P.D. (2022/2023). The Pseudo-Torsional Space of RNA. bioRxiv, DOI: 10.1101/2022.06.24.497007. Accepted in RNA Journal (2023). Corresponding author.",
+    "Llauger G., Melero R., Monti D., Sycz G., Huck-Iriart C., Cerutti M.L., Klinke S., Mikkelsen E., Tijman A., Arranz R., Alfonso V., Arellano S.M., Goldbaum F.A., Sterckx Y.G.J., Carazo J.M., Kaufman S.B., Dans P.D., del Vas M., Otero L.H. (2023). A fijivirus major viroplasm protein shows RNA-stimulated ATPase activity by adopting pentameric and hexameric assemblies of dimers. mBio, e00023-23.",
+    "Neguembor M.V., Buitrago D., Lema R., Arcon J.P., Walther J., Garate X., Martin L., Romero P., Gut M., Blanc J., AlHaj Abed J., Lakadamyali M., Wu C., Brun Heath I., Orozco M., Dans P.D., Cosma M.P. (2022). MiOS, an integrated imaging and modeling strategy to resolve gene folding at basepair resolution. Nature Structural & Molecular Biology, 29(10), 1011-1023. Corresponding author.",
+    "Martin B., Dans P.D., Wieczor M., Villegas N., Brun-Heath I., Battistini F., Terrazas M., Orozco M. (2022). Molecular basis of Arginine and Lysine DNA sequence-dependent thermo-stability modulation. PLOS Computational Biology. DOI: 10.1371/journal.pcbi.1009749. Corresponding author.",
+    "da Rosa G., Grille L., Calzada V., ABC Consortium, Dans P.D. (2021). Sequence-Dependent Structural Properties of B-DNA: What Have We Learned in 40 Years? Biophysical Reviews. DOI: 10.1007/s12551-021-00893-8. Corresponding author.",
+    "Battistini F., Dans P.D., Terrazas M., Castellazzi C.L., Portella G., Labrador M., Villegas N., Brun-Heath I., Gómez-Pinto I., González C., Orozco M. (2021). The physical origins of the 5-methyl-cytosine epigenetic signature. PLOS Computational Biology, 17, e1009547. DOI: 10.1371/journal.pcbi.1009547.",
+    "Buitrago D., Labrador M., Arcon J.P., Lema R., Flores O., Esteve-Codina A., Blanc J., Villegas N., Bellido D., Gut M., Dans P.D., Heath S.C., Gut I., Brun Heath I., Orozco M. (2021). Impact of DNA methylation on 3D genome structure. Nature Communications, 12, 3243. DOI: 10.1038/s41467-021-23142-8.",
+    "Rodríguez-Decuadro S., da Rosa G., Radío S., Barraco-Vega M., Benko-Iseppon A.M., Dans P.D., Smircich P., Cecchetto G. (2021). Antimicrobial peptides in the seedling transcriptome of the tree legume Peltophorum dubium. Biochimie. DOI: 10.1016/j.biochi.2020.11.005.",
+    "Zheng R., da Rosa G., Dans P.D., Peluffo R.D. (2020). Molecular Determinants for Nitric Oxide Regulation of the Murine Cationic Amino Acid Transporter CAT-2A. Biochemistry. DOI: 10.1021/acs.biochem.0c00729.",
+    "Walther J., Dans P.D., Balaceanu A., Hospital A., Bayarri G., Orozco M. (2020). A Multi-Modal Coarse-Grain Model of DNA Flexibility Mappable to the Atomistic Level. Nucleic Acids Research. DOI: 10.1093/nar/gkaa015. Corresponding author. Article of the month, Spanish Biophysical Society.",
+    "Dans P.D., Balaceanu A., Pasi M., Patelli A.S.P., Petkevičiūtė D., Walther J., Hospital A., Lavery R., Maddocks J., Orozco M. (2019). The Static and Dynamic Structural Heterogeneities of B-DNA: Extending Calladine-Dickerson rules. Nucleic Acids Research. DOI: 10.1093/nar/gkz905. Corresponding author.",
+    "Janin M., Ortiz-Barahona V., Castro de Moura M., et al., Dans P.D., Orozco M., et al., Esteller M. (2019). Epigenetic Loss of RNA Methyltransferase NSUN5 in Glioma Targets Ribosomes to Drive a Stress Adaptive Translational Program Associated with Long-Term Survival. Acta Neuropathologica. DOI: 10.1007/s00401-019-02062-4.",
+    "Rodriguez S., Dans P.D., Borba M.A., Benko-Iseppon A.M., Cecchetto G. (2019). Gene Isolation of a New Legume Defensin with a Broad Spectrum of Antimicrobial Activity. Planta. DOI: 10.1007/s00425-019-03260-w.",
+    "Battistini F., Hospital A., Buitrago D., Dans P.D., Gelpi J.L., Orozco M. (2019). How B-DNA Dynamics Decipher Sequence-selective Protein Recognition. Journal of Molecular Biology. DOI: 10.1016/j.jmb.2019.07.021.",
+    "Gallego D., Darré L., Dans P.D., Orozco M. (2019). VeriNA3d: An R Package for the Data Mining of Nucleic Acids. Bioinformatics – Application Notes. DOI: 10.1093/bioinformatics/btz553. Corresponding author.",
+    "Balaceanu A., Buitrago D., Walther J., Dans P.D., Orozco M. (2019). Modulation of the Helical Properties of DNA: Next-To-Nearest Neighbour Effects and Beyond. Nucleic Acids Research. DOI: 10.1093/nar/gkz255.",
+    "Kuzmanic A., Dans P.D., Orozco M. (2019). An in-depth look at DNA crystals through the prism of molecular dynamics simulations. Chem. DOI: 10.1016/j.chempr.2018.12.007."
+  ],
+  "teaching": {
+    "es": [
+      "Coordinación y dictado del Módulo 3 (Aspectos estructurales y fisicoquímicos del ADN), curso de posgrado PEDECIBA Biología: Biofísica del ADN (1ª edición, abril-junio 2021)",
+      "Organización y docencia en la Escuela de Modelado de Biomoléculas, curso de posgrado reconocido por PEDECIBA, Facultad de Ciencias Exactas y Naturales (Universidad de Buenos Aires) — ediciones 2021, 2022 y 2023",
+      "Curso de Introducción a la Biología y Biofísica, Ciclo de Biología y Bioquímica, CENUR Litoral Norte"
+    ],
+    "en": [
+      "Coordination and teaching of Module 3 (Structural and physicochemical aspects of DNA), PEDECIBA Biología graduate course: DNA Biophysics (1st edition, April-June 2021)",
+      "Organization and teaching at the Biomolecule Modeling School, a PEDECIBA-recognized graduate course at the Facultad de Ciencias Exactas y Naturales (University of Buenos Aires) — 2021, 2022, and 2023 editions",
+      "Introduction to Biology and Biophysics course, Biology-Biochemistry track, CENUR Litoral Norte"
+    ]
+  },
+  "outreach": {
+    "es": [
+      "Entrevista en \"La mesa de los científicos\" (En Perspectiva, Radio Mundo): \"Los profesionales repatriados\", junto a la Dra. Luisa Berná y el Dr. Martín Reiris (setiembre 2020)",
+      "Charla de divulgación sobre ADN, epigenética y nutrición para el colectivo La Nutrición y sus Demonios (marzo 2021)",
+      "Gira de divulgación \"Luz, Cámara, Epigenética y Nutrición\" sobre epigenética y nutrición, junto a la Lic. María Gabriela Acosta, con charlas en la Universidad de Buenos Aires, el Instituto Clemente Estable, el CENUR Litoral Norte y la Universidad Autónoma de Asunción (2022)",
+      "Entrevista en el programa de radio Efecto Mariposa sobre epigenética y nutrición (mayo 2022)",
+      "Entrevistas en el programa de radio \"En qué nos metimos\": sobre el Grupo de Biofísica Computacional (octubre 2021) y sobre el trabajo publicado en Nature Structural and Molecular Biology (noviembre 2022)",
+      "Nota en el Portal de la Udelar sobre el modelado 3D/4D del genoma humano a resolución sin precedentes (octubre 2022)",
+      "Entrevista en el programa de TV Ciudad SobreCiencia sobre modelado teórico-experimental de genes, cromosomas y núcleos enteros (julio 2022)",
+      "Entrevista y nota en El Observador sobre el trabajo publicado en Nature Structural and Molecular Biology (octubre 2022)"
+    ],
+    "en": [
+      "Interview on \"La mesa de los científicos\" (En Perspectiva, Radio Mundo): \"Repatriated professionals,\" with Dr. Luisa Berná and Dr. Martín Reiris (September 2020)",
+      "Outreach talk on DNA, epigenetics, and nutrition for the collective La Nutrición y sus Demonios (March 2021)",
+      "\"Light, Camera, Epigenetics and Nutrition\" outreach tour on epigenetics and nutrition, with Lic. María Gabriela Acosta, with talks at the University of Buenos Aires, the Clemente Estable Institute, CENUR Litoral Norte, and the Universidad Autónoma de Asunción (2022)",
+      "Interview on the Efecto Mariposa radio program about epigenetics and nutrition (May 2022)",
+      "Interviews on the radio program \"En qué nos metimos\": about the Computational Biophysics Group (October 2021) and about the paper published in Nature Structural and Molecular Biology (November 2022)",
+      "Feature on the Udelar Portal about the 3D/4D modeling of the human genome at unprecedented resolution (October 2022)",
+      "Interview on the TV program Ciudad SobreCiencia about theoretical-experimental modeling of genes, chromosomes, and whole nuclei (July 2022)",
+      "Interview and feature in El Observador about the paper published in Nature Structural and Molecular Biology (October 2022)"
+    ]
+  }
 }

@@ -7,9 +7,13 @@
     "es": "Investigación en aspectos reproductivos de ovinos y bovinos, crecimiento de la lana y estructura de la piel ovina, orientada a resolver problemas productivos de la región en colaboración con productores e instituciones del sector.",
     "en": "Research on reproductive aspects of sheep and cattle, wool growth, and ovine skin structure, aimed at solving regional production problems in collaboration with producers and sector institutions."
   },
+  "researchLines": {
+    "es": "Mi trabajo se ha basado en la docencia universitaria en la Facultad de Agronomía, específicamente en los cursos de Ovinos y Lanas, Técnicas Reproductivas en Bovinos y Ovinos y en el curso de Anatomía y Fisiología Animal. De este modo la investigación que he desarrollado ha estado en relación a dichas asignaturas en aspectos reproductivos, especialmente en la especie ovina, y crecimiento de la lana y estructura de la piel ovina. Igualmente, desde 2002 al 2015 en el Secretariado Uruguayo de la Lana, fui responsable de la investigación en el área Reproductiva.\n\nGran parte de la producción científica se ha desarrollado para solucionar problemas productivos de índole nacional, apoyada en trabajos de tesis de grado y con la colaboración de productores u otros (Sociedades de Productores, Cooperativas, Sociedades de Fomento Rural).\n\nDesde el año 2013, en el CENUR LN, en forma conjunta con las sedes de Salto y Paysandú, fui designado director del Polo (PDU) en Producción y Reproducción de Rumiantes. El objetivo general de la creación del PDU de Rumiantes en la Región Litoral Noroeste del país es la generación de conocimiento científico que contribuya al desarrollo académico de una masa crítica regional, y a la optimización de la enseñanza.",
+    "en": "My work has been grounded in university teaching at the Faculty of Agronomy, specifically in the courses on Sheep and Wool, Reproductive Techniques in Cattle and Sheep, and Animal Anatomy and Physiology. Accordingly, the research I have developed has related to those subjects in reproductive aspects — especially in sheep — and in wool growth and ovine skin structure. Likewise, from 2002 to 2015, at the Uruguayan Wool Secretariat (Secretariado Uruguayo de la Lana), I was responsible for research in the Reproductive area.\n\nMuch of this scientific output has been developed to solve production problems of national relevance, supported by undergraduate thesis work and in collaboration with producers and other stakeholders (producer associations, cooperatives, rural development societies).\n\nSince 2013, at CENUR Litoral Norte, jointly with the Salto and Paysandú campuses, I was appointed director of the University Development Pole (PDU) in Ruminant Production and Reproduction. The general objective in creating the Ruminant PDU in the country's Northwest Littoral Region is to generate scientific knowledge that contributes to the regional academic development of a critical mass, and to the optimization of teaching."
+  },
   "note": {
-    "es": "La página de investigación general del DCB indicaba este cargo como \"llamado en proceso\"; la página propia del grupo lista al Dr. Daniel Fernández Abella como responsable. Verificar cuál es el estado vigente.",
-    "en": "The DCB's general research listing marked this lead position as a pending search; the group's own page lists Dr. Daniel Fernández Abella as lead. Worth confirming which is current."
+    "es": "La página de investigación general del DCB (investigacion.md) indicaba este cargo como \"llamado en proceso\", pero se localizó la página propia y detallada del grupo (archivada erróneamente en el scraping del sitio Wix bajo el nombre de otro grupo, \"copy-of-moléculas-bioactivas\"), que incluye una reseña en primera persona del Dr. Daniel Fernández Abella junto con sus publicaciones representativas, confirmando que él es el responsable activo del grupo. Es probable que la mención de \"llamado en proceso\" en la página general esté desactualizada.",
+    "en": "The DCB's general research listing (investigacion.md) marked this lead position as a pending search (\"llamado en proceso\"), but a dedicated, detailed page for the group was located (misfiled during the Wix site scrape under a different group's name, \"copy-of-moléculas-bioactivas\"), including a first-person account by Dr. Daniel Fernández Abella together with his representative publications, confirming he is the group's active lead. The \"pending search\" note on the general listing is likely outdated."
   },
   "lead": {
     "name": "Prof. Dr. Daniel Fernández Abella",
@@ -19,9 +23,16 @@
   "members": [
     { "name": "Prof. Dra. Carolina Realini", "title": "Profesora agregada (Gdo 4, 40 hs/sem, DT)" },
     { "name": "Dr. Jorge Gil Laureiro", "title": "Profesor adjunto (Gdo 3, 40 hs/sem, DT)" },
-    { "name": "MSc. Oscar Irabuena", "title": "Estudiante de doctorado (Gdo 3, 40 hs/sem)" },
-    { "name": "Quim. Far. Silvia Sterla", "title": "Cursos de perfeccionamiento (Gdo 3, 30 hs/sem)" },
+    { "name": "MSc. Oscar Irabuena", "title": "Estudiante de doctorado (Gdo 3, 40 hs/sem)", "photo": "/images/people/oscar-irabuena.jpg" },
+    { "name": "Quim. Far. Silvia Sterla", "title": "Cursos de perfeccionamiento (Gdo 3, 30 hs/sem)", "photo": "/images/people/silvia-sterla.jpg" },
     { "name": "Ing. Agr. Alfredo Minutti", "title": "Contratado (Gdo 2, 30 hs/sem)" },
-    { "name": "MSc. Zully Hernández Russo", "title": "Profesora adjunta de Fac. de Veterinaria (Gdo 3, 40 hs/sem)" }
+    { "name": "MSc. Zully Hernández Russo", "title": "Profesora adjunta de Fac. de Veterinaria (Gdo 3, 40 hs/sem)", "photo": "/images/people/zully-hernandez-russo.jpg" }
+  ],
+  "publications": [
+    "Daniel Fernández Abella, Lago, I., Rodríguez, M., Irabuena, O., Sterla, S. (2017). Effect of the administration of one FSH single dose in multiovulation treatment in Corriedale Booroola ewe's embryos. Journal of Veterinary Science & Medical Diagnosis, v.: 6 5, 2017.",
+    "Daniel Fernández Abella, Da Costa, M., Guerin, Y., Dacheux, J.L. (2015). Fertility of undiluted ram epididymal spermatozoa stored for several days at 4°C. Animal, v.: 9 2, p.:313-319.",
+    "Biotecnologías reproductivas bovinas y ovinas (Libro publicado, Texto integral, 2015).",
+    "Daniel Fernández Abella, Preve, M.O., Villegas, N. (2003). Insemination time and dilution rate of cooled and chilled ram semen affects fertility. Theriogenology, v.: 60 p.:21–26.",
+    "Romano, J., Fernández Abella, D., Villegas, N. (2001). Continuous presence of rams on estrus onset, estrus duration and ovulation time in ewe's estrus synchronized. Applied Animal Behaviour Science, v.: 73 p.:193–198."
   ]
 }

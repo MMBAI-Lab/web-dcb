@@ -7,14 +7,50 @@
     "es": "Laboratorio de Inmunología-Biotecnología: búsqueda, diseño y caracterización de antivirales, desarrollo de biológicos para terapia y diagnóstico, y uso de irradiación UV para protocolos de inactivación viral.",
     "en": "Immunology-Biotechnology Lab: discovery, design, and characterization of antivirals, development of biologics for therapy and diagnosis, and use of UV irradiation for viral inactivation protocols."
   },
+  "researchLines": {
+    "es": "El Laboratorio de Inmunología-Biotecnología (LIB) está ubicado en la sede Salto y es liderado por la Dra. Natalia Ruétalo. Sus principales líneas de investigación son la búsqueda, diseño y caracterización de antivirales; el desarrollo de biológicos para uso en terapia y diagnóstico; y el uso de irradiación UV para la determinación de protocolos de inactivación viral.\n\nEn colaboración con el Laboratorio de Producción y Reproducción de Rumiantes del DCB, el grupo también participa en la caracterización y conservación del Bovino Criollo Uruguayo (incluyendo la creación de un banco nacional de germoplasma de la raza), el estudio de la mastitis ovina en explotación extensiva en Uruguay, el estudio de las posibles causas del amarillamiento de la lana, y la resincronización rápida de celo en hembras bovinas.",
+    "en": "The Immunology-Biotechnology Lab (LIB) is based at the Salto campus and is led by Dra. Natalia Ruétalo. Its main research lines are the discovery, design, and characterization of antivirals; the development of biologics for use in therapy and diagnosis; and the use of UV irradiation to determine viral inactivation protocols.\n\nIn collaboration with the DCB's Ruminant Production and Reproduction Lab, the group also takes part in the characterization and conservation of the Uruguayan Creole cattle breed (including the creation of a national germplasm bank for the breed), the study of ovine mastitis in extensive farming systems in Uruguay, research into the possible causes of wool yellowing, and rapid estrus resynchronization in cattle."
+  },
   "lead": {
     "name": "Dra. Natalia Ruétalo",
     "title": "Profesora Agregada (Gdo 4, 40 hs/sem)",
-    "photo": null
+    "photo": "/images/people/natalia-ruetalo.jpg"
   },
   "members": [
-    { "name": "Lic. MSc. Oscar Irabuena", "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)" },
-    { "name": "Dra. María Hilda Avellanal", "title": "Asistente (Gdo 2, 30 hs/sem)" },
-    { "name": "Dra. Sabina Victoria", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, contratada)" }
-  ]
+    { "name": "Lic. MSc. Oscar Irabuena", "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)", "photo": "/images/people/oscar-irabuena.jpg" },
+    { "name": "Dra. María Hilda Avellanal", "title": "Asistente (Gdo 2, 30 hs/sem)", "photo": "/images/people/maria-hilda-avellanal.jpg" },
+    { "name": "Dra. Sabina Victoria", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, contratada)", "photo": "/images/people/sabina-victoria.jpg" }
+  ],
+  "teaching": {
+    "es": [
+      "Hemato-Inmunología, para Facultad de Medicina, CENUR Litoral Norte.",
+      "Inmunología, para Facultad de Veterinaria, CENUR Litoral Norte.",
+      "Biología Molecular, para Ciclo Biología Bioquímica y Licenciatura en Biotecnología, CENUR Litoral Norte.",
+      "Seminario en Introducción a la Biología II, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
+      "Introducción a la Microbiología, Ciclo Biología Bioquímica, Licenciatura en Biotecnología y Licenciatura en Biología Humana, CENUR Litoral Norte.",
+      "Introducción a la Biología Animal, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
+      "Metodología Científica, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
+      "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3) (posgrado, dic. 2025), CENUR Litoral Norte."
+    ],
+    "en": [
+      "Hemato-Immunology, for the Faculty of Medicine, CENUR Litoral Norte.",
+      "Immunology, for the Faculty of Veterinary Medicine, CENUR Litoral Norte.",
+      "Molecular Biology, for the Biology-Biochemistry track and the Biotechnology degree program, CENUR Litoral Norte.",
+      "Seminar in Introduction to Biology II, Biology-Biochemistry track, CENUR Litoral Norte.",
+      "Introduction to Microbiology, Biology-Biochemistry track, Biotechnology degree program, and Human Biology degree program, CENUR Litoral Norte.",
+      "Introduction to Animal Biology, Biology-Biochemistry track, CENUR Litoral Norte.",
+      "Scientific Methodology, Biology-Biochemistry track, CENUR Litoral Norte.",
+      "Virology: epidemiological aspects and the importance of the biosafety level 3 (BSL-3) laboratory (graduate course, Dec. 2025), CENUR Litoral Norte."
+    ]
+  },
+  "outreach": {
+    "es": [
+      "Proyecto \"Tacuabé\", en conjunto con la Unidad de Extensión sede Salto, la Facultad de Veterinaria y la dirección de la Unidad Carcelaria N.º 20 de Salto: programa de producción animal dirigido a personas privadas de libertad en la Unidad Carcelaria de Villa Constitución, Salto (2022 a la fecha).",
+      "Promoción del enfoque de Una Salud aplicado a las zoonosis parasitarias, en coordinación con la Casa Universitaria de Artigas, la Escuela Rural N.º 29 de Pintado Grande y el agrupamiento \"Nuevos Rumbos\" del departamento de Artigas (Oscar Irabuena, junto con la Dra. Zully Hernández; desde julio de 2025)."
+    ],
+    "en": [
+      "\"Tacuabé\" project, together with the Extension Unit (Salto campus), the Faculty of Veterinary Medicine, and the management of Salto's Villa Constitución Prison Unit No. 20: an animal production program for incarcerated people at that facility (2022–present).",
+      "Promotion of the One Health approach applied to parasitic zoonoses, coordinated with the Casa Universitaria de Artigas, Rural School No. 29 of Pintado Grande, and the \"Nuevos Rumbos\" group in the Artigas department (Oscar Irabuena, together with Dra. Zully Hernández; since July 2025)."
+    ]
+  }
 }
