@@ -15,6 +15,8 @@ const people = [
   { src: "Valentina Seballos.jpeg", out: "valentina-seballos.jpg" },
   { src: "Lucrecia Macarena Menoni.jpeg", out: "macarena-menoni.jpg" },
   { src: "DanielaMejias.jpeg", out: "daniela-mejias.jpg" },
+  { src: "WhatsApp Image 2021-11-19 at 09_16_edited.jpg", out: "laura-lafon-hughes.jpg" },
+  { src: "Nati_edited.jpg", out: "natalia-ibargoyen.jpg" },
 ];
 
 async function main() {

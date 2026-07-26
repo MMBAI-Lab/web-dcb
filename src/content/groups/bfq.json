@@ -23,7 +23,7 @@
     "photo": "/images/people/daniel-peluffo.png"
   },
   "members": [
-    { "name": "Dra. Laura Lafon-Hughes", "title": "Profesora Agregada (Gdo 4, 40 hs/sem)" },
+    { "name": "Dra. Laura Lafon-Hughes", "title": "Profesora Agregada (Gdo 4, 40 hs/sem)", "photo": "/images/people/laura-lafon-hughes.jpg" },
     { "name": "Dra. María José Zuluaga", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)", "photo": "/images/people/maria-jose-zuluaga.jpg" },
     { "name": "MSc. Ana G. Sánchez", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem)", "photo": "/images/people/ana-sanchez.jpg" },
     { "name": "Dra. Deborah Keszenman", "title": "Responsable del Lab. de Radiobiología Médica y Ambiental (Investigadora Honoraria)", "photo": "/images/people/deborah-keszenman.jpg" },
@@ -31,7 +31,7 @@
     { "name": "Prof. Pablo Alcoba", "title": "Estudiante de la Lic. en Biología Humana", "photo": "/images/people/pablo-alcoba.jpg" },
     { "name": "Dra. Valentina Seballos", "title": "Ayudante (Gdo 1, 25 hs/sem)", "photo": "/images/people/valentina-seballos.jpg" },
     { "name": "Lic. Macarena Menoni", "title": "Asistente (Gdo 2, 30 hs/sem)", "photo": "/images/people/macarena-menoni.jpg" },
-    { "name": "Lic. Natalia Ibargoyen", "title": "Técnica en instrumental de laboratorio (R12, 30 hs/sem)" },
+    { "name": "Lic. Natalia Ibargoyen", "title": "Técnica en instrumental de laboratorio (R12, 30 hs/sem)", "photo": "/images/people/natalia-ibargoyen.jpg" },
     { "name": "Dra. Daniela Mejías", "title": "Estudiante de Posgrado (Maestría en Ciencias Biológicas, Gdo 1, 20 hs/sem)", "photo": "/images/people/daniela-mejias.jpg" }
   ],
   "publications": [
