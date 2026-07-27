@@ -237,38 +237,27 @@ function crearFormularioGrupo() {
   }
 
   /**
-   * Pregunta de subida de archivo, restringida a imágenes.
+   * Anota una pregunta de subida de imagen para agregar A MANO al final.
    *
-   * LIMITACIONES IMPORTANTES DE LAS PREGUNTAS DE ARCHIVO:
-   *  - El formulario tiene que estar guardado en Google Drive (lo está: lo
-   *    crea FormApp.create() en "Mi unidad") y quien responde TIENE que estar
-   *    con sesión iniciada en una cuenta de Google. Forms lo exige solo; no es
-   *    algo que se pueda desactivar.
-   *  - Los archivos subidos se guardan en una carpeta del Drive de la cuenta
-   *    DUEÑA del formulario y ocupan su cuota de almacenamiento.
-   *  - Si la cuenta dueña es de Google Workspace, puede que, por configuración
-   *    de la organización, las personas de afuera de esa organización no
-   *    puedan subir archivos. Se ajusta en la configuración del formulario.
-   *  - Por eso todo esto va dentro de un try/catch: si Google rechaza la
-   *    pregunta de archivo, se registra el aviso y el resto del formulario se
-   *    crea igual (los grupos pueden mandar el logo por correo).
+   * Apps Script NO puede crear preguntas de subida de archivo: el método
+   * `Form.addFileUploadItem()` no existe, y la documentación de
+   * `FormApp.ItemType.FILE_UPLOAD` lo dice expresamente ("This item cannot be
+   * created by scripts"). Así que en lugar de intentarlo, guardamos el título
+   * y la ayuda, y al terminar el script imprime las instrucciones para
+   * agregarlas con unos clics desde la interfaz de Google Forms.
+   *
+   * Sobre esas preguntas, una vez agregadas:
+   *  - Quien responde TIENE que estar con sesión iniciada en una cuenta de
+   *    Google. Forms lo exige solo; no se puede desactivar.
+   *  - Los archivos se guardan en una carpeta del Drive de la cuenta DUEÑA del
+   *    formulario y ocupan su cuota de almacenamiento.
+   *  - Si la cuenta dueña es de Google Workspace, la configuración de la
+   *    organización puede impedir que respondan personas de afuera.
+   *  - Alternativa si molesta: pedirle el logo y la foto al grupo por correo.
    */
+  var subidasPendientes = [];
   function subidaDeImagen(titulo, ayuda) {
-    try {
-      var item = form.addFileUploadItem()
-        .setTitle(titulo)
-        .setHelpText(ayuda)
-        .setAllowedFileTypes([FormApp.FileType.IMAGE])
-        .setMaxFiles(1)                      // valores admitidos: 1, 5 o 10
-        .setMaxFileSize(MAX_ARCHIVO_BYTES);  // ver comentario de la constante
-      preguntas++;
-      return item;
-    } catch (e) {
-      Logger.log('AVISO: no se pudo crear la pregunta de archivo "' + titulo +
-                 '": ' + e + '. Revisá esa pregunta a mano en el formulario ' +
-                 'o pedile el archivo al grupo por correo.');
-      return null;
-    }
+    subidasPendientes.push({ titulo: titulo, ayuda: ayuda });
   }
 
   /** Bloque de una línea de investigación (3 preguntas). */
@@ -587,6 +576,24 @@ function crearFormularioGrupo() {
     Logger.log('URL CORTA: ' + form.shortenFormUrl(form.getPublishedUrl()));
   } catch (e) {
     Logger.log('(No se pudo generar la URL corta: ' + e + '. Usá la URL para responder.)');
+  }
+
+  if (subidasPendientes.length) {
+    Logger.log('-----------------------------------------------------');
+    Logger.log('FALTAN ' + subidasPendientes.length + ' PREGUNTAS PARA AGREGAR A MANO');
+    Logger.log('Apps Script no puede crear preguntas de subida de archivo, así');
+    Logger.log('que hay que agregarlas desde la interfaz. Para cada una:');
+    Logger.log('  · Abrir la URL de edición · "Añadir pregunta" al final del');
+    Logger.log('    formulario · tipo "Subida de archivos" · aceptar el aviso');
+    Logger.log('  · Solo imágenes · máximo 1 archivo · 10 MB · NO obligatoria');
+    subidasPendientes.forEach(function (s, i) {
+      Logger.log('');
+      Logger.log('  (' + (i + 1) + ') Título: ' + s.titulo);
+      Logger.log('      Ayuda : ' + s.ayuda);
+    });
+    Logger.log('');
+    Logger.log('Si preferís evitarlas, pedile el logo y la foto a cada grupo');
+    Logger.log('por correo: son datos opcionales.');
   }
   Logger.log('=====================================================');
 }

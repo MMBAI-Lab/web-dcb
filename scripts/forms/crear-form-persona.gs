@@ -44,19 +44,30 @@
  *      recibir respuestas, editar el formulario existente desde su URL de
  *      edición, no volver a correr el script.
  *
- * NOTA SOBRE LA PREGUNTA DE FOTO (addFileUploadItem)
- * --------------------------------------------------
- *   - Una pregunta de subida de archivo OBLIGA a quien responde a iniciar
- *     sesión con una cuenta de Google. Quien no tenga cuenta no va a poder
- *     enviar el formulario: para esos casos, pedirle la foto por correo y
- *     cargar el resto de los datos a mano.
- *   - Los archivos subidos NO quedan en el Drive de quien responde: se copian
- *     al Drive del dueño del formulario, dentro de una carpeta que Google crea
- *     automáticamente con el nombre del formulario.
- *   - Esta pregunta se agrega al final a propósito: si la cuenta no admitiera
- *     preguntas de tipo archivo y la llamada fallara, el formulario ya queda
- *     creado con las otras seis preguntas y solo restaría agregar la de la
- *     foto a mano desde la interfaz de Google Forms.
+ * LA PREGUNTA DE LA FOTO HAY QUE AGREGARLA A MANO
+ * -----------------------------------------------
+ *   El servicio Forms de Apps Script NO permite crear preguntas de subida de
+ *   archivo: `Form.addFileUploadItem()` no existe, y la documentación de
+ *   `FormApp.ItemType.FILE_UPLOAD` lo dice expresamente ("This item cannot be
+ *   created by scripts"). Por eso el script crea las seis preguntas de texto
+ *   y deja la de la foto para agregar con dos clics en la interfaz:
+ *
+ *     1. Abrir el formulario con la URL de edición que queda en el registro.
+ *     2. "Añadir pregunta" al final → cambiar el tipo a "Subida de archivos"
+ *        → aceptar el aviso de Google.
+ *     3. Título: Foto
+ *        Texto de ayuda: el que imprime este script al terminar (copiarlo del
+ *        registro de ejecución).
+ *        Tipos de archivo permitidos: solo imágenes.
+ *        Número máximo de archivos: 1. Tamaño máximo: 10 MB.
+ *        Dejarla como NO obligatoria.
+ *
+ *   Dos cosas a tener en cuenta sobre esa pregunta, una vez agregada:
+ *   - Obliga a quien responde a iniciar sesión con una cuenta de Google. Quien
+ *     no tenga cuenta no va a poder enviar el formulario: para esos casos,
+ *     pedir la foto por correo y cargar los datos a mano.
+ *   - Los archivos no quedan en el Drive de quien responde: se copian al Drive
+ *     del dueño del formulario, en una carpeta que Google crea sola.
  */
 
 // Opciones EXACTAS del desplegable de grupo. El orden es el mismo que usa la
@@ -213,30 +224,16 @@ function crearFormularioPersona() {
     .setRequired(false);
 
   // --- 7. Foto ------------------------------------------------------------
-  // Se agrega última a propósito (ver la nota del encabezado): si la cuenta no
-  // admitiera preguntas de archivo, el resto del formulario ya está creado.
-  const foto = form.addFileUploadItem();
-  foto
-    .setTitle("Foto")
-    .setHelpText(
-      "Retrato frontal, con fondo liso y buena luz, de al menos 400 × 400 " +
-        "píxeles (cuanto más grande, mejor: se recorta en cuadrado). Sirve " +
-        "una foto tomada con el celular contra una pared clara. La foto se " +
-        "publica en la página de tu grupo en el sitio del DCB, junto a tu " +
-        "nombre y tu cargo. Para subirla vas a tener que iniciar sesión con " +
-        "una cuenta de Google."
-    )
-    // Solo imágenes: nada de PDF ni documentos.
-    .setAllowedFileTypes([FormApp.FileType.IMAGE])
-    // Una sola foto por persona (los valores admitidos son 1, 5 y 10).
-    .setMaxFiles(1)
-    // 10 MB por archivo (los valores admitidos son 1 MB, 10 MB, 100 MB, 1 GB
-    // y 10 GB, expresados en bytes).
-    .setMaxFileSize(10 * 1024 * 1024)
-    // No obligatoria: es preferible una respuesta sin foto a que la persona
-    // abandone el formulario por no tener una a mano. Las fotos faltantes se
-    // reclaman después, con la lista de respuestas ya en la mano.
-    .setRequired(false);
+  // NO se crea acá: Apps Script no puede crear preguntas de subida de archivo
+  // (ver la nota del encabezado). Se agrega a mano; el texto de ayuda queda
+  // impreso al final para copiar y pegar.
+  const AYUDA_FOTO =
+    "Retrato frontal, con fondo liso y buena luz, de al menos 400 × 400 " +
+    "píxeles (cuanto más grande, mejor: se recorta en cuadrado). Sirve una " +
+    "foto tomada con el celular contra una pared clara. La foto se publica " +
+    "en la página de tu grupo en el sitio del DCB, junto a tu nombre y tu " +
+    "cargo. Para subirla vas a tener que iniciar sesión con una cuenta de " +
+    "Google.";
 
   form.setConfirmationMessage(
     "¡Gracias! Ya registramos tus datos. Si integrás otro grupo del DCB, " +
@@ -244,10 +241,21 @@ function crearFormularioPersona() {
   );
 
   // URLs de trabajo. Quedan en el "Registro de ejecución" del editor.
-  Logger.log("Formulario creado correctamente.");
+  Logger.log("Formulario creado con sus 6 preguntas de texto.");
   Logger.log("URL de edición (para el DCB): " + form.getEditUrl());
   Logger.log("URL para responder (para enviar a las personas): " + form.getPublishedUrl());
   Logger.log("URL corta para responder: " + form.shortenFormUrl(form.getPublishedUrl()));
+
+  Logger.log("");
+  Logger.log("FALTA UN PASO A MANO — la pregunta de la foto");
+  Logger.log("Apps Script no puede crear preguntas de subida de archivo, así que");
+  Logger.log("hay que agregarla desde la interfaz (dos minutos):");
+  Logger.log("  1. Abrir la URL de edición de arriba.");
+  Logger.log('  2. "Añadir pregunta" al final y elegir el tipo "Subida de archivos".');
+  Logger.log('  3. Título: Foto');
+  Logger.log("  4. Texto de ayuda (copiar la línea siguiente completa):");
+  Logger.log("     " + AYUDA_FOTO);
+  Logger.log("  5. Solo imágenes · máximo 1 archivo · 10 MB · NO obligatoria.");
 }
 
 /**
