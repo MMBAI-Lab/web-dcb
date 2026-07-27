@@ -145,7 +145,7 @@ Pasos para habilitar Pages en el repo (una sola vez, en GitHub):
       contacto, formato de las páginas por grupo).
 - [ ] Publicar, por grupo de investigación, la nómina completa de
       integrantes con fotos (material ya disponible en `data/old/`).
-      Faltan 7 fotos: Fernández Abella (responsable), Realini, Gil Laureiro
+      Faltan 9 fotos: Fernández Abella (responsable), Realini, Gil Laureiro
       y Minutti (Rumiantes); Bermúdez y Bazzano (VyET); Chumino (LIBiAM);
       Rodríguez de Ávila (LGMH); Grilli (Virología Molecular).
 - [ ] Reemplazar el email de contacto de ejemplo (`dcb@cenur.edu.uy`) por
