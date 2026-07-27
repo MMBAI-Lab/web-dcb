@@ -155,26 +155,62 @@
       ]
     }
   ],
-  "outreach": {
-    "es": [
-      "Participación en el programa Zambullite en la Ciencia, Facultad de Ciencias UdelaR, con la actividad \"Explorando las sustancias medicinales\", donde 10 estudiantes de secundaria trabajaron en el laboratorio por 4 días en proyectos de investigación del grupo, 2020",
-      "Intercambio de saberes acerca de una problemática actual en el Uruguay: el control de Rhipicephalus (Boophilus) microplus (garrapata del bovino). Proyecto financiado Actividades en el medio, CSEAM, 2019",
-      "Proyecto Cooperación SUR-SUR Latinoamérica unida contra las enfermedades olvidadas: acción conjunta entre Paraguay y Uruguay para avanzar en una resolución de la enfermedad de Chagas y la leishmaniasis, 2017-2019",
-      "Café Científico Sanducero: Investigación y desarrollo de nuevos medicamentos. Proyecto financiado Actividades en el medio, CSEAM, 2018",
-      "Generación de nuevos medicamentos: aspectos científicos y socio-económicos. Proyecto financiado Actividades en el medio, CSEAM, 2016",
-      "Participación en Jornadas de Puertas Abiertas del Departamento de Química del Litoral, en el marco de la Semana de la Ciencia y la Tecnología: demostraciones experimentales, muestra de los laboratorios y charlas de divulgación. CENUR Litoral Norte, EEMAC, Paysandú, 2017-2019",
-      "Participación en la Feria Interactiva SanduEduca: demostraciones experimentales y difusión de carreras universitarias dictadas en CENUR Litoral Norte, Paysandú, 2016",
-      "Divulgación: \"¿Qué es la Química Medicinal?\", para estudiantes del Profesorado en Ciencias Biológicas, Centro Regional de Profesores del Litoral, Salto, 2016"
-    ],
-    "en": [
-      "Participation in the \"Zambullite en la Ciencia\" program (Facultad de Ciencias, UdelaR), with the activity \"Exploring Medicinal Substances\", in which 10 secondary-school students worked in the lab for 4 days on the group's research projects, 2020",
-      "Knowledge exchange on a current issue in Uruguay: control of Rhipicephalus (Boophilus) microplus (cattle tick). Project funded by Actividades en el medio, CSEAM, 2019",
-      "SOUTH-SOUTH Cooperation Project \"Latin America United Against Neglected Diseases\": joint action between Paraguay and Uruguay to advance treatment of Chagas disease and leishmaniasis, 2017-2019",
-      "Café Científico Sanducero: Research and development of new medicines. Project funded by Actividades en el medio, CSEAM, 2018",
-      "Generating new medicines: scientific and socio-economic aspects. Project funded by Actividades en el medio, CSEAM, 2016",
-      "Participation in Open Days at the Dpto. de Química del Litoral, as part of Science and Technology Week: experimental demonstrations, lab tours, and outreach talks. CENUR Litoral Norte, EEMAC, Paysandú, 2017-2019",
-      "Participation in the SanduEduca Interactive Fair: experimental demonstrations and outreach on university programs offered at CENUR Litoral Norte, Paysandú, 2016",
-      "Outreach talk: \"What is Medicinal Chemistry?\", for students of the Biological Sciences Teacher Training Program, Centro Regional de Profesores del Litoral, Salto, 2016"
-    ]
-  }
+  "outreach": [
+    {
+      "es": "Participación en el programa Zambullite en la Ciencia, Facultad de Ciencias UdelaR, con la actividad \"Explorando las sustancias medicinales\", donde 10 estudiantes de secundaria trabajaron en el laboratorio por 4 días en proyectos de investigación del grupo, 2020",
+      "en": "Participation in the \"Zambullite en la Ciencia\" program (Facultad de Ciencias, UdelaR), with the activity \"Exploring Medicinal Substances\", in which 10 secondary-school students worked in the lab for 4 days on the group's research projects, 2020",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Intercambio de saberes acerca de una problemática actual en el Uruguay: el control de Rhipicephalus (Boophilus) microplus (garrapata del bovino). Proyecto financiado Actividades en el medio, CSEAM, 2019",
+      "en": "Knowledge exchange on a current issue in Uruguay: control of Rhipicephalus (Boophilus) microplus (cattle tick). Project funded by Actividades en el medio, CSEAM, 2019",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Proyecto Cooperación SUR-SUR Latinoamérica unida contra las enfermedades olvidadas: acción conjunta entre Paraguay y Uruguay para avanzar en una resolución de la enfermedad de Chagas y la leishmaniasis, 2017-2019",
+      "en": "SOUTH-SOUTH Cooperation Project \"Latin America United Against Neglected Diseases\": joint action between Paraguay and Uruguay to advance treatment of Chagas disease and leishmaniasis, 2017-2019",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Café Científico Sanducero: Investigación y desarrollo de nuevos medicamentos. Proyecto financiado Actividades en el medio, CSEAM, 2018",
+      "en": "Café Científico Sanducero: Research and development of new medicines. Project funded by Actividades en el medio, CSEAM, 2018",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Generación de nuevos medicamentos: aspectos científicos y socio-económicos. Proyecto financiado Actividades en el medio, CSEAM, 2016",
+      "en": "Generating new medicines: scientific and socio-economic aspects. Project funded by Actividades en el medio, CSEAM, 2016",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Participación en Jornadas de Puertas Abiertas del Departamento de Química del Litoral, en el marco de la Semana de la Ciencia y la Tecnología: demostraciones experimentales, muestra de los laboratorios y charlas de divulgación. CENUR Litoral Norte, EEMAC, Paysandú, 2017-2019",
+      "en": "Participation in Open Days at the Dpto. de Química del Litoral, as part of Science and Technology Week: experimental demonstrations, lab tours, and outreach talks. CENUR Litoral Norte, EEMAC, Paysandú, 2017-2019",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Participación en la Feria Interactiva SanduEduca: demostraciones experimentales y difusión de carreras universitarias dictadas en CENUR Litoral Norte, Paysandú, 2016",
+      "en": "Participation in the SanduEduca Interactive Fair: experimental demonstrations and outreach on university programs offered at CENUR Litoral Norte, Paysandú, 2016",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Divulgación: \"¿Qué es la Química Medicinal?\", para estudiantes del Profesorado en Ciencias Biológicas, Centro Regional de Profesores del Litoral, Salto, 2016",
+      "en": "Outreach talk: \"What is Medicinal Chemistry?\", for students of the Biological Sciences Teacher Training Program, Centro Regional de Profesores del Litoral, Salto, 2016",
+      "kinds": [
+        "educativo"
+      ]
+    }
+  ]
 }

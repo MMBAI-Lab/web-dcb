@@ -192,20 +192,41 @@
       ]
     }
   ],
-  "outreach": {
-    "es": [
-      "Todo Tiene Su Ciencia, DCB (Paysandú-Salto) 2022-2025 – Semana de la Ciencia y la Tecnología",
-      "Conversatorio: Dos visiones del Patrimonio Sanducero, El Río Queguay y el Osario del Monumento a Perpetuidad (2024)",
-      "Jornada por los 10 años del Área Protegida Montes del Queguay, SNAP. Guichón (2024)",
-      "Jornada de Puertas Abiertas EEMAC Agronomía (2024)",
-      "Jornada 60 años EEMAC Agronomía (2023)"
-    ],
-    "en": [
-      "Todo Tiene Su Ciencia, DCB (Paysandú-Salto) 2022-2025 – Science and Technology Week",
-      "Panel discussion: Two Views of Sanducero Heritage — the Queguay River and the Ossuary of the Monumento a Perpetuidad (2024)",
-      "Event marking 10 years of the Montes del Queguay Protected Area, SNAP. Guichón (2024)",
-      "EEMAC Agronomía Open House (2024)",
-      "EEMAC Agronomía 60th anniversary event (2023)"
-    ]
-  }
+  "outreach": [
+    {
+      "es": "Todo Tiene Su Ciencia, DCB (Paysandú-Salto) 2022-2025 – Semana de la Ciencia y la Tecnología",
+      "en": "Todo Tiene Su Ciencia, DCB (Paysandú-Salto) 2022-2025 – Science and Technology Week",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Conversatorio: Dos visiones del Patrimonio Sanducero, El Río Queguay y el Osario del Monumento a Perpetuidad (2024)",
+      "en": "Panel discussion: Two Views of Sanducero Heritage — the Queguay River and the Ossuary of the Monumento a Perpetuidad (2024)",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Jornada por los 10 años del Área Protegida Montes del Queguay, SNAP. Guichón (2024)",
+      "en": "Event marking 10 years of the Montes del Queguay Protected Area, SNAP. Guichón (2024)",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Jornada de Puertas Abiertas EEMAC Agronomía (2024)",
+      "en": "EEMAC Agronomía Open House (2024)",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Jornada 60 años EEMAC Agronomía (2023)",
+      "en": "EEMAC Agronomía 60th anniversary event (2023)",
+      "kinds": [
+        "eventos"
+      ]
+    }
+  ]
 }

@@ -145,7 +145,12 @@
     "contact": "Contact",
     "level_grado": "Undergraduate",
     "level_posgrado": "Graduate",
-    "level_otras": "Other"
+    "level_otras": "Other",
+    "kind_medios": "Media and science communication",
+    "kind_educativo": "Work with schools",
+    "kind_comunidad": "Community and territory",
+    "kind_eventos": "Fairs, congresses and open days",
+    "kind_arte": "Art and science"
   },
   "ensenanza": {
     "title": "Teaching",
@@ -208,13 +213,20 @@
   },
   "extension": {
     "title": "Outreach",
-    "subtitle": "The Department of Biological Sciences takes part in outreach activities across the country, as well as international engagement such as public talks, press articles, and radio appearances.",
-    "covidTitle": "COVID-19",
-    "covid": "During the COVID-19 pandemic, the DCB engaged deeply with communities across Uruguay's northern departments — developing PCR diagnostic testing for the virus, running sample analysis, taking part in the scientific advisory groups that informed government policy, and publishing original research carried out at the local community level. Several DCB researchers directed their work toward diagnostics, viral genome sequencing and analysis, and the study of how long immune responses to infection lasted.",
-    "scienceWeekTitle": "\"Todo tiene su ciencia\" — Science and Technology Week",
-    "scienceWeek": "Since 2022, the DCB's Academic Communications Subcommittee has organized \"Todo tiene su ciencia\" (\"Everything has its science\"), a program of activities during Science and Technology Week aimed at raising the profile of the Department, its members, and the research carried out across the Salto, Paysandú, Artigas, and Bella Unión region.",
-    "seminarsTitle": "\"En qué andamos\" Seminar Series",
-    "seminars": "The series promotes exchange and collaboration between the DCB and its researchers, also inviting external collaborators. Seminars run in hybrid format (in person at the Salto campus / Zoom) on Wednesdays from 10 a.m. to noon, featuring the Department's various research groups."
+    "subtitle": "Outreach runs through the whole DCB: its 12 groups take science into secondary and technical schools and teacher-training centres, to farmers, rural communities, and people in prison, and onto the press, radio, and television — with forays into art and music along the way. Added to that are the programmes the Department runs as a whole: “Everything Has Its Science” during Uruguay's Science and Technology Week, the “What Are We Up To?” seminar series, and the International Congress on Basic Sciences Education (CIECIBA), reaching Salto, Paysandú, Artigas, and Bella Unión.",
+    "statActions": "Outreach actions",
+    "statGroups": "Participating groups",
+    "statPrograms": "Department programmes",
+    "statEditions": "Documented editions",
+    "programsTitle": "Department programmes",
+    "programsIntro": "The programmes the DCB runs as a Department, with a log of their editions.",
+    "actionsTitle": "Actions by group",
+    "actionsIntro": "Outreach activities carried out by each group, arranged by kind of action. Each one names the group responsible and links to its page.",
+    "kind_medios": "Media and science communication",
+    "kind_educativo": "Work with schools",
+    "kind_comunidad": "Community and territory",
+    "kind_eventos": "Fairs, congresses and open days",
+    "kind_arte": "Art and science"
   },
   "contacto": {
     "title": "Contact",

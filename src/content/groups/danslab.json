@@ -233,34 +233,85 @@
       ]
     }
   ],
-  "outreach": {
-    "es": [
-      "Entrevista en \"La mesa de los científicos\" (En Perspectiva, Radio Mundo): \"Los profesionales repatriados\", junto a la Dra. Luisa Berná y el Dr. Martín Reiris (setiembre 2020)",
-      "Charla de divulgación sobre ADN, epigenética y nutrición para el colectivo La Nutrición y sus Demonios (marzo 2021)",
-      "Gira de divulgación \"Luz, Cámara, Epigenética y Nutrición\" sobre epigenética y nutrición, junto a la Lic. María Gabriela Acosta, con charlas en la Universidad de Buenos Aires, el Instituto Clemente Estable, el CENUR Litoral Norte y la Universidad Autónoma de Asunción (2022)",
-      "Entrevista en el programa de radio Efecto Mariposa sobre epigenética y nutrición (mayo 2022)",
-      "Entrevistas en el programa de radio \"En qué nos metimos\": sobre el grupo (octubre 2021) y sobre el trabajo publicado en Nature Structural and Molecular Biology (noviembre 2022)",
-      "Nota en el Portal de la Udelar sobre el modelado 3D/4D del genoma humano a resolución sin precedentes (octubre 2022)",
-      "Entrevista en el programa de TV Ciudad SobreCiencia sobre modelado teórico-experimental de genes, cromosomas y núcleos enteros (julio 2022)",
-      "Entrevista y nota en El Observador sobre el trabajo publicado en Nature Structural and Molecular Biology (octubre 2022)",
-      "ABC 2023 — Workshop internacional del Ascona B-DNA Consortium sobre propiedades físicas del ADN dependientes de secuencia, métodos multiescala, campos de fuerzas e interacciones proteína–ADN (más información en danslab.xyz/outreach/abc-2023)",
-      "ARN for Export — Instalación interdisciplinaria de arte y ciencia que visualiza el ARN extracelular, en colaboración con escultores, artistas audiovisuales y biólogos de varias instituciones uruguayas (más información en danslab.xyz/outreach/arn-for-export)",
-      "Sonificación molecular — Traducción de la dinámica molecular del ADN en música, mapeando interacciones ADN–iones a notas de piano y violín, en colaboración con el compositor Nicolás Molla (más información en danslab.xyz/outreach/sonification)"
-    ],
-    "en": [
-      "Interview on \"La mesa de los científicos\" (En Perspectiva, Radio Mundo): \"Repatriated professionals,\" with Dr. Luisa Berná and Dr. Martín Reiris (September 2020)",
-      "Outreach talk on DNA, epigenetics, and nutrition for the collective La Nutrición y sus Demonios (March 2021)",
-      "\"Light, Camera, Epigenetics and Nutrition\" outreach tour on epigenetics and nutrition, with Lic. María Gabriela Acosta, with talks at the University of Buenos Aires, the Clemente Estable Institute, CENUR Litoral Norte, and the Universidad Autónoma de Asunción (2022)",
-      "Interview on the Efecto Mariposa radio program about epigenetics and nutrition (May 2022)",
-      "Interviews on the radio program \"En qué nos metimos\": about the group (October 2021) and about the paper published in Nature Structural and Molecular Biology (November 2022)",
-      "Feature on the Udelar Portal about the 3D/4D modeling of the human genome at unprecedented resolution (October 2022)",
-      "Interview on the TV program Ciudad SobreCiencia about theoretical-experimental modeling of genes, chromosomes, and whole nuclei (July 2022)",
-      "Interview and feature in El Observador about the paper published in Nature Structural and Molecular Biology (October 2022)",
-      "ABC 2023 — International workshop of the Ascona B-DNA Consortium on sequence-dependent physical properties of DNA, multiscale methods, force fields and protein–DNA interactions (more at danslab.xyz/outreach/abc-2023)",
-      "ARN for Export — Interdisciplinary art-and-science installation visualizing extracellular RNA, a collaboration with sculptors, audiovisual artists and biologists across Uruguayan institutions (more at danslab.xyz/outreach/arn-for-export)",
-      "Sonification — Translating the molecular dynamics of DNA into music, mapping DNA–ion interactions to piano and violin notes, in collaboration with composer Nicolás Molla (more at danslab.xyz/outreach/sonification)"
-    ]
-  },
+  "outreach": [
+    {
+      "es": "Entrevista en \"La mesa de los científicos\" (En Perspectiva, Radio Mundo): \"Los profesionales repatriados\", junto a la Dra. Luisa Berná y el Dr. Martín Reiris (setiembre 2020)",
+      "en": "Interview on \"La mesa de los científicos\" (En Perspectiva, Radio Mundo): \"Repatriated professionals,\" with Dr. Luisa Berná and Dr. Martín Reiris (September 2020)",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Charla de divulgación sobre ADN, epigenética y nutrición para el colectivo La Nutrición y sus Demonios (marzo 2021)",
+      "en": "Outreach talk on DNA, epigenetics, and nutrition for the collective La Nutrición y sus Demonios (March 2021)",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Gira de divulgación \"Luz, Cámara, Epigenética y Nutrición\" sobre epigenética y nutrición, junto a la Lic. María Gabriela Acosta, con charlas en la Universidad de Buenos Aires, el Instituto Clemente Estable, el CENUR Litoral Norte y la Universidad Autónoma de Asunción (2022)",
+      "en": "\"Light, Camera, Epigenetics and Nutrition\" outreach tour on epigenetics and nutrition, with Lic. María Gabriela Acosta, with talks at the University of Buenos Aires, the Clemente Estable Institute, CENUR Litoral Norte, and the Universidad Autónoma de Asunción (2022)",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Entrevista en el programa de radio Efecto Mariposa sobre epigenética y nutrición (mayo 2022)",
+      "en": "Interview on the Efecto Mariposa radio program about epigenetics and nutrition (May 2022)",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Entrevistas en el programa de radio \"En qué nos metimos\": sobre el grupo (octubre 2021) y sobre el trabajo publicado en Nature Structural and Molecular Biology (noviembre 2022)",
+      "en": "Interviews on the radio program \"En qué nos metimos\": about the group (October 2021) and about the paper published in Nature Structural and Molecular Biology (November 2022)",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Nota en el Portal de la Udelar sobre el modelado 3D/4D del genoma humano a resolución sin precedentes (octubre 2022)",
+      "en": "Feature on the Udelar Portal about the 3D/4D modeling of the human genome at unprecedented resolution (October 2022)",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Entrevista en el programa de TV Ciudad SobreCiencia sobre modelado teórico-experimental de genes, cromosomas y núcleos enteros (julio 2022)",
+      "en": "Interview on the TV program Ciudad SobreCiencia about theoretical-experimental modeling of genes, chromosomes, and whole nuclei (July 2022)",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Entrevista y nota en El Observador sobre el trabajo publicado en Nature Structural and Molecular Biology (octubre 2022)",
+      "en": "Interview and feature in El Observador about the paper published in Nature Structural and Molecular Biology (October 2022)",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "ABC 2023 — Workshop internacional del Ascona B-DNA Consortium sobre propiedades físicas del ADN dependientes de secuencia, métodos multiescala, campos de fuerzas e interacciones proteína–ADN (más información en danslab.xyz/outreach/abc-2023)",
+      "en": "ABC 2023 — International workshop of the Ascona B-DNA Consortium on sequence-dependent physical properties of DNA, multiscale methods, force fields and protein–DNA interactions (more at danslab.xyz/outreach/abc-2023)",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "ARN for Export — Instalación interdisciplinaria de arte y ciencia que visualiza el ARN extracelular, en colaboración con escultores, artistas audiovisuales y biólogos de varias instituciones uruguayas (más información en danslab.xyz/outreach/arn-for-export)",
+      "en": "ARN for Export — Interdisciplinary art-and-science installation visualizing extracellular RNA, a collaboration with sculptors, audiovisual artists and biologists across Uruguayan institutions (more at danslab.xyz/outreach/arn-for-export)",
+      "kinds": [
+        "arte"
+      ]
+    },
+    {
+      "es": "Sonificación molecular — Traducción de la dinámica molecular del ADN en música, mapeando interacciones ADN–iones a notas de piano y violín, en colaboración con el compositor Nicolás Molla (más información en danslab.xyz/outreach/sonification)",
+      "en": "Sonification — Translating the molecular dynamics of DNA into music, mapping DNA–ion interactions to piano and violin notes, in collaboration with composer Nicolás Molla (more at danslab.xyz/outreach/sonification)",
+      "kinds": [
+        "arte"
+      ]
+    }
+  ],
   "note": {
     "es": "Contenido actualizado a partir del sitio propio del grupo, danslab.xyz (repositorio github.com/MMBAI-Lab/web-danslab). Las publicaciones mostradas corresponden a los últimos 3 años (2024–2026); el historial completo desde 2008 está disponible en el sitio propio.",
     "en": "Content updated from the group's own site, danslab.xyz (repository github.com/MMBAI-Lab/web-danslab). Publications shown cover the last 3 years (2024–2026); the full history since 2008 is available on the group's own site."

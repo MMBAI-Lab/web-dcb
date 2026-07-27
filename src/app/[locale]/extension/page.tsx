@@ -15,7 +15,7 @@ export default async function ExtensionPage({
 
   return (
     <div className="subpage-bg bg-background min-h-full">
-      <PageBanner title={t("title")} motif={DnaMotif} />
+      <PageBanner title={t("title")} subtitle={t("subtitle")} motif={DnaMotif} />
       <Extension />
     </div>
   );

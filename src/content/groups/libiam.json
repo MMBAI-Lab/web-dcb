@@ -263,25 +263,56 @@
       ]
     }
   ],
-  "outreach": {
-    "es": [
-      "¿Cómo puedo prevenir dolores durante el embarazo? (2022)",
-      "Educación física, prevención y salud: aportes científicos de investigadores del LIBiAM en el Liceo \"Aníbal Sampayo\" (2022/23)",
-      "Columna, Yoga y ejercicios para embarazada y postparto (2023)",
-      "Café Científico Sanducero",
-      "Aula Científica",
-      "Actividad Física para Calidad de Vida",
-      "Liberación miofascial en adultos mayores"
-    ],
-    "en": [
-      "\"How can I prevent aches and pains during pregnancy?\" (2022)",
-      "Physical education, prevention and health: scientific contributions from LIBiAM researchers at Liceo \"Aníbal Sampayo\" (2022/23)",
-      "Spine, yoga and exercises for pregnancy and postpartum (2023)",
-      "Sanducero Science Café",
-      "Science Classroom outreach program",
-      "Physical Activity for Quality of Life",
-      "Myofascial release for older adults"
-    ]
-  },
+  "outreach": [
+    {
+      "es": "¿Cómo puedo prevenir dolores durante el embarazo? (2022)",
+      "en": "\"How can I prevent aches and pains during pregnancy?\" (2022)",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Educación física, prevención y salud: aportes científicos de investigadores del LIBiAM en el Liceo \"Aníbal Sampayo\" (2022/23)",
+      "en": "Physical education, prevention and health: scientific contributions from LIBiAM researchers at Liceo \"Aníbal Sampayo\" (2022/23)",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Columna, Yoga y ejercicios para embarazada y postparto (2023)",
+      "en": "Spine, yoga and exercises for pregnancy and postpartum (2023)",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Café Científico Sanducero",
+      "en": "Sanducero Science Café",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Aula Científica",
+      "en": "Science Classroom outreach program",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Actividad Física para Calidad de Vida",
+      "en": "Physical Activity for Quality of Life",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Liberación miofascial en adultos mayores",
+      "en": "Myofascial release for older adults",
+      "kinds": [
+        "comunidad"
+      ]
+    }
+  ],
   "image": "/images/places/libiam-lab.jpg"
 }

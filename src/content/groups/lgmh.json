@@ -123,19 +123,35 @@
       ]
     }
   ],
-  "outreach": {
-    "es": [
-      "Tutorías de pasantía de investigación de estudiantes de cuarto año de profesorado del CERP, especialidad Ciencias Biológicas",
-      "Charlas a diferentes públicos en el marco de las actividades de la Semana de la Ciencia y Tecnología",
-      "Charlas y talleres en centros educativos sobre temas relacionados con la genética",
-      "Participación en entrevistas y ciclos de divulgación en medios de prensa locales"
-    ],
-    "en": [
-      "Research internship mentoring for fourth-year CERP teacher-training students, Biological Sciences specialty",
-      "Talks to varied audiences as part of Science and Technology Week activities",
-      "Talks and workshops at schools on genetics-related topics",
-      "Participation in interviews and outreach series in local press media"
-    ]
-  },
+  "outreach": [
+    {
+      "es": "Tutorías de pasantía de investigación de estudiantes de cuarto año de profesorado del CERP, especialidad Ciencias Biológicas",
+      "en": "Research internship mentoring for fourth-year CERP teacher-training students, Biological Sciences specialty",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Charlas a diferentes públicos en el marco de las actividades de la Semana de la Ciencia y Tecnología",
+      "en": "Talks to varied audiences as part of Science and Technology Week activities",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Charlas y talleres en centros educativos sobre temas relacionados con la genética",
+      "en": "Talks and workshops at schools on genetics-related topics",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Participación en entrevistas y ciclos de divulgación en medios de prensa locales",
+      "en": "Participation in interviews and outreach series in local press media",
+      "kinds": [
+        "medios"
+      ]
+    }
+  ],
   "logo": "/images/logos/lgmh-logo.png"
 }

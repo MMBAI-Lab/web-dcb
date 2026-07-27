@@ -94,14 +94,20 @@
       ]
     }
   ],
-  "outreach": {
-    "es": [
-      "Proyecto \"Tacuabé\", en conjunto con la Unidad de Extensión sede Salto, la Facultad de Veterinaria y la dirección de la Unidad Carcelaria N.º 20 de Salto: programa de producción animal dirigido a personas privadas de libertad en la Unidad Carcelaria de Villa Constitución, Salto (2022 a la fecha).",
-      "Promoción del enfoque de Una Salud aplicado a las zoonosis parasitarias, en coordinación con la Casa Universitaria de Artigas, la Escuela Rural N.º 29 de Pintado Grande y el agrupamiento \"Nuevos Rumbos\" del departamento de Artigas (Oscar Irabuena, junto con la Dra. Zully Hernández; desde julio de 2025)."
-    ],
-    "en": [
-      "\"Tacuabé\" project, together with the Extension Unit (Salto campus), the Faculty of Veterinary Medicine, and the management of Salto's Villa Constitución Prison Unit No. 20: an animal production program for incarcerated people at that facility (2022–present).",
-      "Promotion of the One Health approach applied to parasitic zoonoses, coordinated with the Casa Universitaria de Artigas, Rural School No. 29 of Pintado Grande, and the \"Nuevos Rumbos\" group in the Artigas department (Oscar Irabuena, together with Dra. Zully Hernández; since July 2025)."
-    ]
-  }
+  "outreach": [
+    {
+      "es": "Proyecto \"Tacuabé\", en conjunto con la Unidad de Extensión sede Salto, la Facultad de Veterinaria y la dirección de la Unidad Carcelaria N.º 20 de Salto: programa de producción animal dirigido a personas privadas de libertad en la Unidad Carcelaria de Villa Constitución, Salto (2022 a la fecha).",
+      "en": "\"Tacuabé\" project, together with the Extension Unit (Salto campus), the Faculty of Veterinary Medicine, and the management of Salto's Villa Constitución Prison Unit No. 20: an animal production program for incarcerated people at that facility (2022–present).",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Promoción del enfoque de Una Salud aplicado a las zoonosis parasitarias, en coordinación con la Casa Universitaria de Artigas, la Escuela Rural N.º 29 de Pintado Grande y el agrupamiento \"Nuevos Rumbos\" del departamento de Artigas (Oscar Irabuena, junto con la Dra. Zully Hernández; desde julio de 2025).",
+      "en": "Promotion of the One Health approach applied to parasitic zoonoses, coordinated with the Casa Universitaria de Artigas, Rural School No. 29 of Pintado Grande, and the \"Nuevos Rumbos\" group in the Artigas department (Oscar Irabuena, together with Dra. Zully Hernández; since July 2025).",
+      "kinds": [
+        "comunidad"
+      ]
+    }
+  ]
 }

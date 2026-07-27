@@ -175,32 +175,83 @@
       ]
     }
   ],
-  "outreach": {
-    "es": [
-      "\"En qué nos metimos\": ciclo de entrevistas a investigadores del DCB en Radio La Regional",
-      "Divulgación en el diario El Pueblo",
-      "\"Dosis de Ciencia\": ciclo de entrevistas a investigadores en Uniradio",
-      "Ciclo de divulgación de las Ciencias Biológicas en Radio Uruguay (Salto)",
-      "Charlas con mujeres rurales, en el marco de un proyecto sobre cáncer y exposición ambiental a agroquímicos",
-      "Seminario en el Centro de Microbiología y Biología Celular (CMBC) del Instituto Venezolano de Investigaciones Científicas (IVIC)",
-      "Comité organizador del II, IV y VI Congreso Internacional de Educación en Ciencias Básicas, CENUR Litoral Norte",
-      "Ciclo de Seminarios sobre COVID-19 y métodos de profilaxis",
-      "Conectate a Neurociencias",
-      "Científicos en el aula",
-      "Día del Patrimonio en Facultad de Medicina: presentación del Laboratorio de Biofisicoquímica mediante circuito QR"
-    ],
-    "en": [
-      "\"What We Got Ourselves Into\": interview series with DCB researchers on Radio La Regional",
-      "Science outreach coverage in the newspaper El Pueblo",
-      "\"A Dose of Science\": interview series with researchers on Uniradio",
-      "Biological Sciences outreach series on Radio Uruguay (Salto)",
-      "Talks with rural women, as part of a research project on cancer and environmental exposure to agrochemicals",
-      "Seminar at the Center for Microbiology and Cell Biology (CMBC), Venezuelan Institute for Scientific Research (IVIC)",
-      "Organizing committee for the 2nd, 4th, and 6th International Congress on Basic Sciences Education, CENUR Litoral Norte",
-      "COVID-19 and prophylaxis methods seminar series",
-      "\"Connect to Neuroscience\" outreach program",
-      "\"Scientists in the Classroom\" outreach program",
-      "Heritage Day at the Faculty of Medicine: Biophysical Chemistry Lab presentation via QR-code exhibit"
-    ]
-  }
+  "outreach": [
+    {
+      "es": "\"En qué nos metimos\": ciclo de entrevistas a investigadores del DCB en Radio La Regional",
+      "en": "\"What We Got Ourselves Into\": interview series with DCB researchers on Radio La Regional",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Divulgación en el diario El Pueblo",
+      "en": "Science outreach coverage in the newspaper El Pueblo",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "\"Dosis de Ciencia\": ciclo de entrevistas a investigadores en Uniradio",
+      "en": "\"A Dose of Science\": interview series with researchers on Uniradio",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Ciclo de divulgación de las Ciencias Biológicas en Radio Uruguay (Salto)",
+      "en": "Biological Sciences outreach series on Radio Uruguay (Salto)",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Charlas con mujeres rurales, en el marco de un proyecto sobre cáncer y exposición ambiental a agroquímicos",
+      "en": "Talks with rural women, as part of a research project on cancer and environmental exposure to agrochemicals",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Seminario en el Centro de Microbiología y Biología Celular (CMBC) del Instituto Venezolano de Investigaciones Científicas (IVIC)",
+      "en": "Seminar at the Center for Microbiology and Cell Biology (CMBC), Venezuelan Institute for Scientific Research (IVIC)",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Comité organizador del II, IV y VI Congreso Internacional de Educación en Ciencias Básicas, CENUR Litoral Norte",
+      "en": "Organizing committee for the 2nd, 4th, and 6th International Congress on Basic Sciences Education, CENUR Litoral Norte",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Ciclo de Seminarios sobre COVID-19 y métodos de profilaxis",
+      "en": "COVID-19 and prophylaxis methods seminar series",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Conectate a Neurociencias",
+      "en": "\"Connect to Neuroscience\" outreach program",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Científicos en el aula",
+      "en": "\"Scientists in the Classroom\" outreach program",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Día del Patrimonio en Facultad de Medicina: presentación del Laboratorio de Biofisicoquímica mediante circuito QR",
+      "en": "Heritage Day at the Faculty of Medicine: Biophysical Chemistry Lab presentation via QR-code exhibit",
+      "kinds": [
+        "comunidad"
+      ]
+    }
+  ]
 }

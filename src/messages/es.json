@@ -145,7 +145,12 @@
     "contact": "Contacto",
     "level_grado": "Grado",
     "level_posgrado": "Posgrado",
-    "level_otras": "Otras"
+    "level_otras": "Otras",
+    "kind_medios": "Medios y divulgación",
+    "kind_educativo": "Trabajo con centros educativos",
+    "kind_comunidad": "Comunidad y territorio",
+    "kind_eventos": "Ferias, congresos y jornadas",
+    "kind_arte": "Arte y ciencia"
   },
   "ensenanza": {
     "title": "Enseñanza",
@@ -208,13 +213,20 @@
   },
   "extension": {
     "title": "Extensión",
-    "subtitle": "El Departamento de Ciencias Biológicas participa de diversas acciones de extensión a lo largo y ancho del país, así como de actividades de extensión de carácter internacional: charlas de divulgación, artículos en prensa, radio, entre otras.",
-    "covidTitle": "COVID-19",
-    "covid": "Durante la pandemia de COVID-19, el DCB se involucró profunda y activamente con las comunidades de los departamentos del norte del país, poniendo a punto la técnica de PCR para diagnóstico del virus, llevando a cabo el análisis de las muestras, participando en los grupos de científicos que asesoraron al gobierno, y publicando investigaciones originales realizadas a nivel de las comunidades locales. Varios investigadores del DCB dirigieron sus conocimientos al diagnóstico, la secuenciación y el análisis de genomas virales, y al estudio de la duración de la respuesta inmune provocada por la infección.",
-    "scienceWeekTitle": "\"Todo tiene su ciencia\" — Semana de la Ciencia y la Tecnología",
-    "scienceWeek": "Desde 2022, la Subcomisión de Comunicación Académica del DCB organiza \"Todo tiene su ciencia\", jornadas de actividades en el marco de la Semana de la Ciencia y la Tecnología, con el fin de difundir y visibilizar al Departamento, sus integrantes y las investigaciones que se llevan a cabo en la región que comprende Salto, Paysandú, Artigas y Bella Unión.",
-    "seminarsTitle": "Ciclo de Seminarios \"En qué andamos\"",
-    "seminars": "El objetivo del ciclo es promover el intercambio y la colaboración entre el DCB y sus investigadores, invitando también a colaboradores externos. Los seminarios se desarrollan en modalidad híbrida (presencial en la sede Salto / Zoom) los miércoles de 10 a 12 hs, con la participación de los distintos grupos de investigación del Departamento."
+    "subtitle": "La extensión atraviesa al DCB de punta a punta: sus 12 grupos llevan la ciencia a liceos, UTU y centros de formación docente, a productores, comunidades rurales y personas privadas de libertad, y a la prensa, la radio y la televisión — con incursiones en el arte y la música. A eso se suman los ciclos que el Departamento organiza como tal: «Todo tiene su ciencia» en el marco de la Semana de la Ciencia y la Tecnología, el ciclo de seminarios «¿En qué andamos?» y el Congreso Internacional de Enseñanza de las Ciencias Básicas (CIECIBA), que llegan a Salto, Paysandú, Artigas y Bella Unión.",
+    "statActions": "Acciones de extensión",
+    "statGroups": "Grupos participantes",
+    "statPrograms": "Ciclos del Departamento",
+    "statEditions": "Ediciones registradas",
+    "programsTitle": "Ciclos del Departamento",
+    "programsIntro": "Los ciclos que el DCB organiza como Departamento, con la bitácora de sus ediciones.",
+    "actionsTitle": "Acciones por grupo",
+    "actionsIntro": "Las actividades de extensión que lleva adelante cada grupo, agrupadas por tipo de acción. Cada una indica el grupo responsable y enlaza a su página.",
+    "kind_medios": "Medios y divulgación",
+    "kind_educativo": "Trabajo con centros educativos",
+    "kind_comunidad": "Comunidad y territorio",
+    "kind_eventos": "Ferias, congresos y jornadas",
+    "kind_arte": "Arte y ciencia"
   },
   "contacto": {
     "title": "Contacto",

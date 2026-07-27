@@ -17,6 +17,10 @@ export type Member = { name: string; title: string; photo?: string | null };
 export type TeachingLevel = "grado" | "posgrado" | "otras";
 export type TeachingEntry = { es: string; en: string; levels: TeachingLevel[] };
 
+/** What kind of outreach action an entry is — see Extensión. */
+export type OutreachKind = "medios" | "educativo" | "comunidad" | "eventos" | "arte";
+export type OutreachEntry = { es: string; en: string; kinds: OutreachKind[] };
+
 export type ResearchGroup = {
   slug: string;
   name: { es: string; en: string };
@@ -36,7 +40,8 @@ export type ResearchGroup = {
   publications?: string[];
   /** Each entry tagged with the academic level(s) it counts toward — see Enseñanza. */
   teaching?: TeachingEntry[];
-  outreach?: { es: string[]; en: string[] };
+  /** Each entry tagged with the kind(s) of action it is — see Extensión. */
+  outreach?: OutreachEntry[];
   image?: string;
   /** The group's own logo, if it has one distinct from the DCB branding. */
   logo?: string;

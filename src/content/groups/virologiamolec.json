@@ -205,36 +205,97 @@
       ]
     }
   ],
-  "outreach": {
-    "es": [
-      "Tutorías de pasantía de investigación de estudiantes de cuarto año de profesorado del CERP, especialidad Ciencias Biológicas",
-      "Programa Acortando Distancias: becas de PEDECIBA para que docentes de enseñanza media realicen pasantías en centros de investigación científica y tecnológica; el laboratorio recibió alumnos durante 2014-2015",
-      "Charlas a diferentes públicos en el marco de la Semana de la Ciencia y Tecnología",
-      "Charlas y talleres en centros educativos sobre temas de virología",
-      "Exposiciones en seminarios y jornadas técnicas dirigidas a público especializado en temas productivos y de salud animal",
-      "Evaluación de trabajos en Ferias de Clubes de Ciencia del Ministerio de Educación y Cultura y la Administración Nacional de Educación Pública",
-      "Participación en entrevistas y ciclos de divulgación en medios de prensa locales y nacionales sobre virología",
-      "Programa Sobre Ciencia (TV Ciudad): el Dr. Rodney Colina, responsable del primer Laboratorio de Bioseguridad Nivel 3 de Uruguay, explica la importancia de contar con un laboratorio de estas características en el interior del país",
-      "Programa Sobre Ciencia (TV Ciudad): el Dr. Matías Victoria comenta la investigación sobre la circulación de genotipos del virus del papiloma humano relacionados a un alto riesgo de cáncer",
-      "Programa Sobre Ciencia (TV Ciudad): la Dra. Leticia Maya y el Dr. Matías Castells relatan qué virus que afectan la reproducción del ganado bovino y ovino se estudian en el laboratorio para mejorar la productividad",
-      "Programa Sobre Ciencia (TV Ciudad): el Dr. Andrés Lizasoain explica la importancia de estudiar los enterovirus en muestras ambientales y clínicas en el país",
-      "Semanario La Diaria: artículo sobre un proyecto liderado por el Dr. Matías Victoria que demostró contaminación fecal de origen humano y de ganado vacuno en las aguas del Río Uruguay y del Río Santa Lucía, pionero en el país por su abordaje virológico de Microbial Source Tracking",
-      "Teledoce (teledoce.com): cobertura de la divulgación de las primeras fotografías de un SARS-CoV-2 en Uruguay, obtenidas con un microscopio electrónico de la sede Rocha del CURE (Álvaro Olivera) en colaboración con la investigadora Viviana Bortagaray del laboratorio"
-    ],
-    "en": [
-      "Research internship mentoring for fourth-year Biological Sciences teacher-training students from CERP",
-      "\"Acortando Distancias\" program: PEDECIBA scholarships for secondary-school teachers to intern at scientific and technological research centers; the laboratory hosted students during 2014-2015",
-      "Talks for varied audiences as part of Science and Technology Week",
-      "Talks and workshops on virology topics at schools",
-      "Presentations at seminars and technical conferences for audiences specialized in production and animal-health topics",
-      "Judging of student projects at Science Club fairs organized by the Ministry of Education and Culture and the National Public Education Administration",
-      "Interviews and outreach coverage in local and national press on virology topics",
-      "\"Sobre Ciencia\" (TV Ciudad): Dr. Rodney Colina, in charge of Uruguay's first biosafety level 3 laboratory, explains why it matters to have such a facility outside the capital",
-      "\"Sobre Ciencia\" (TV Ciudad): Dr. Matías Victoria discusses research on the circulation of high-risk Human Papillomavirus genotypes linked to cancer",
-      "\"Sobre Ciencia\" (TV Ciudad): Dr. Leticia Maya and Dr. Matías Castells describe the viruses affecting cattle and sheep reproduction studied at the laboratory to improve productivity",
-      "\"Sobre Ciencia\" (TV Ciudad): Dr. Andrés Lizasoain explains the importance of studying enteroviruses in environmental and clinical samples in Uruguay",
-      "La Diaria: article on a project led by Dr. Matías Victoria showing fecal contamination from both human and cattle sources in the Río Uruguay and Río Santa Lucía, a pioneering virological approach to microbial source tracking in Uruguay",
-      "Teledoce (teledoce.com): coverage of the first published photographs of SARS-CoV-2 in Uruguay, obtained with an electron microscope at CURE's Rocha campus (Álvaro Olivera) in collaboration with laboratory researcher Viviana Bortagaray"
-    ]
-  }
+  "outreach": [
+    {
+      "es": "Tutorías de pasantía de investigación de estudiantes de cuarto año de profesorado del CERP, especialidad Ciencias Biológicas",
+      "en": "Research internship mentoring for fourth-year Biological Sciences teacher-training students from CERP",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Programa Acortando Distancias: becas de PEDECIBA para que docentes de enseñanza media realicen pasantías en centros de investigación científica y tecnológica; el laboratorio recibió alumnos durante 2014-2015",
+      "en": "\"Acortando Distancias\" program: PEDECIBA scholarships for secondary-school teachers to intern at scientific and technological research centers; the laboratory hosted students during 2014-2015",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Charlas a diferentes públicos en el marco de la Semana de la Ciencia y Tecnología",
+      "en": "Talks for varied audiences as part of Science and Technology Week",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Charlas y talleres en centros educativos sobre temas de virología",
+      "en": "Talks and workshops on virology topics at schools",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Exposiciones en seminarios y jornadas técnicas dirigidas a público especializado en temas productivos y de salud animal",
+      "en": "Presentations at seminars and technical conferences for audiences specialized in production and animal-health topics",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Evaluación de trabajos en Ferias de Clubes de Ciencia del Ministerio de Educación y Cultura y la Administración Nacional de Educación Pública",
+      "en": "Judging of student projects at Science Club fairs organized by the Ministry of Education and Culture and the National Public Education Administration",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Participación en entrevistas y ciclos de divulgación en medios de prensa locales y nacionales sobre virología",
+      "en": "Interviews and outreach coverage in local and national press on virology topics",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Programa Sobre Ciencia (TV Ciudad): el Dr. Rodney Colina, responsable del primer Laboratorio de Bioseguridad Nivel 3 de Uruguay, explica la importancia de contar con un laboratorio de estas características en el interior del país",
+      "en": "\"Sobre Ciencia\" (TV Ciudad): Dr. Rodney Colina, in charge of Uruguay's first biosafety level 3 laboratory, explains why it matters to have such a facility outside the capital",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Programa Sobre Ciencia (TV Ciudad): el Dr. Matías Victoria comenta la investigación sobre la circulación de genotipos del virus del papiloma humano relacionados a un alto riesgo de cáncer",
+      "en": "\"Sobre Ciencia\" (TV Ciudad): Dr. Matías Victoria discusses research on the circulation of high-risk Human Papillomavirus genotypes linked to cancer",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Programa Sobre Ciencia (TV Ciudad): la Dra. Leticia Maya y el Dr. Matías Castells relatan qué virus que afectan la reproducción del ganado bovino y ovino se estudian en el laboratorio para mejorar la productividad",
+      "en": "\"Sobre Ciencia\" (TV Ciudad): Dr. Leticia Maya and Dr. Matías Castells describe the viruses affecting cattle and sheep reproduction studied at the laboratory to improve productivity",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Programa Sobre Ciencia (TV Ciudad): el Dr. Andrés Lizasoain explica la importancia de estudiar los enterovirus en muestras ambientales y clínicas en el país",
+      "en": "\"Sobre Ciencia\" (TV Ciudad): Dr. Andrés Lizasoain explains the importance of studying enteroviruses in environmental and clinical samples in Uruguay",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Semanario La Diaria: artículo sobre un proyecto liderado por el Dr. Matías Victoria que demostró contaminación fecal de origen humano y de ganado vacuno en las aguas del Río Uruguay y del Río Santa Lucía, pionero en el país por su abordaje virológico de Microbial Source Tracking",
+      "en": "La Diaria: article on a project led by Dr. Matías Victoria showing fecal contamination from both human and cattle sources in the Río Uruguay and Río Santa Lucía, a pioneering virological approach to microbial source tracking in Uruguay",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Teledoce (teledoce.com): cobertura de la divulgación de las primeras fotografías de un SARS-CoV-2 en Uruguay, obtenidas con un microscopio electrónico de la sede Rocha del CURE (Álvaro Olivera) en colaboración con la investigadora Viviana Bortagaray del laboratorio",
+      "en": "Teledoce (teledoce.com): coverage of the first published photographs of SARS-CoV-2 in Uruguay, obtained with an electron microscope at CURE's Rocha campus (Álvaro Olivera) in collaboration with laboratory researcher Viviana Bortagaray",
+      "kinds": [
+        "medios"
+      ]
+    }
+  ]
 }

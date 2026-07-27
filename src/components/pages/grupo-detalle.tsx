@@ -5,9 +5,10 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
 import { asset } from "@/lib/asset";
-import type { ResearchGroup, TeachingLevel } from "@/content/groups";
+import type { OutreachKind, ResearchGroup, TeachingLevel } from "@/content/groups";
 
 const teachingLevels: TeachingLevel[] = ["grado", "posgrado", "otras"];
+const outreachKinds: OutreachKind[] = ["medios", "educativo", "comunidad", "eventos", "arte"];
 const levelAccent: Record<TeachingLevel, string> = {
   grado: "text-teal",
   posgrado: "text-gold",
@@ -211,16 +212,29 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
         </Section>
       )}
 
-      {group.outreach && (
+      {group.outreach && group.outreach.length > 0 && (
         <Section title={t("outreach")}>
-          <ul className="max-w-2xl space-y-2 text-sm leading-relaxed text-foreground/75">
-            {group.outreach[locale].map((item, i) => (
-              <li key={i} className="flex gap-2">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-crimson" />
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
+          <div className="max-w-2xl space-y-5">
+            {outreachKinds.map((kind) => {
+              const entries = group.outreach!.filter((e) => e.kinds.includes(kind));
+              if (entries.length === 0) return null;
+              return (
+                <div key={kind}>
+                  <h3 className="text-xs font-semibold uppercase tracking-wide text-crimson">
+                    {t(`kind_${kind}`)}
+                  </h3>
+                  <ul className="mt-2 space-y-2 text-sm leading-relaxed text-foreground/75">
+                    {entries.map((entry, i) => (
+                      <li key={i} className="flex gap-2">
+                        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-crimson" />
+                        <span>{entry[locale]}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
         </Section>
       )}
 
