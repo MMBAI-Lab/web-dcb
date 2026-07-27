@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
+import { pick } from "@/lib/i18n-content";
 import { asset } from "@/lib/asset";
 import { researchGroups, type OutreachKind } from "@/content/groups";
 import { covidResponse, extensionPrograms } from "@/content/extension-programs";
@@ -250,12 +251,12 @@ export function Extension() {
                       key={`${group.slug}-${j}`}
                       className={`rounded-xl border border-border ${accent.border} border-l-4 bg-surface p-3`}
                     >
-                      <p className="text-sm leading-relaxed text-foreground/80">{entry[locale]}</p>
+                      <p className="text-sm leading-relaxed text-foreground/80">{pick(entry, locale)}</p>
                       <Link
                         href={`/investigacion/${group.slug}`}
                         className={`mt-2 inline-block text-xs font-medium ${accent.text} hover:underline`}
                       >
-                        {group.name[locale]}
+                        {pick(group.name, locale)}
                       </Link>
                     </li>
                   ))}

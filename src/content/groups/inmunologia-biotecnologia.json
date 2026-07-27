@@ -11,8 +11,32 @@
     "en": "Immunology-Biotechnology Lab: discovery, design, and characterization of antivirals, development of biologics for therapy and diagnosis, and use of UV irradiation for viral inactivation protocols."
   },
   "researchLines": {
-    "es": "El Laboratorio de Inmunología-Biotecnología (LIB) está ubicado en la sede Salto y es liderado por la Dra. Natalia Ruétalo. Sus principales líneas de investigación son la búsqueda, diseño y caracterización de antivirales; el desarrollo de biológicos para uso en terapia y diagnóstico; y el uso de irradiación UV para la determinación de protocolos de inactivación viral.\n\nEn colaboración con el Laboratorio de Producción y Reproducción de Rumiantes del DCB, el grupo también participa en la caracterización y conservación del Bovino Criollo Uruguayo (incluyendo la creación de un banco nacional de germoplasma de la raza), el estudio de la mastitis ovina en explotación extensiva en Uruguay, el estudio de las posibles causas del amarillamiento de la lana, y la resincronización rápida de celo en hembras bovinas.",
-    "en": "The Immunology-Biotechnology Lab (LIB) is based at the Salto campus and is led by Dra. Natalia Ruétalo. Its main research lines are the discovery, design, and characterization of antivirals; the development of biologics for use in therapy and diagnosis; and the use of UV irradiation to determine viral inactivation protocols.\n\nIn collaboration with the DCB's Ruminant Production and Reproduction Lab, the group also takes part in the characterization and conservation of the Uruguayan Creole cattle breed (including the creation of a national germplasm bank for the breed), the study of ovine mastitis in extensive farming systems in Uruguay, research into the possible causes of wool yellowing, and rapid estrus resynchronization in cattle."
+    "intro": {
+      "es": "El Laboratorio de Inmunología-Biotecnología (LIB) está ubicado en la sede Salto y es liderado por la Dra. Natalia Ruétalo.",
+      "en": "The Immunology-Biotechnology Lab (LIB) is based at the Salto campus and is led by Dra. Natalia Ruétalo."
+    },
+    "lines": [
+      {
+        "title": {
+          "es": "Antivirales y biológicos",
+          "en": "Antivirals and biologics"
+        },
+        "body": {
+          "es": "Sus principales líneas de investigación son la búsqueda, diseño y caracterización de antivirales; el desarrollo de biológicos para uso en terapia y diagnóstico; y el uso de irradiación UV para la determinación de protocolos de inactivación viral.",
+          "en": "Its main research lines are the discovery, design, and characterization of antivirals; the development of biologics for use in therapy and diagnosis; and the use of UV irradiation to determine viral inactivation protocols."
+        }
+      },
+      {
+        "title": {
+          "es": "Producción y sanidad animal (con Rumiantes)",
+          "en": "Animal production and health (with Rumiantes)"
+        },
+        "body": {
+          "es": "En colaboración con el Laboratorio de Producción y Reproducción de Rumiantes del DCB, el grupo también participa en la caracterización y conservación del Bovino Criollo Uruguayo (incluyendo la creación de un banco nacional de germoplasma de la raza), el estudio de la mastitis ovina en explotación extensiva en Uruguay, el estudio de las posibles causas del amarillamiento de la lana, y la resincronización rápida de celo en hembras bovinas.",
+          "en": "In collaboration with the DCB's Ruminant Production and Reproduction Lab, the group also takes part in the characterization and conservation of the Uruguayan Creole cattle breed (including the creation of a national germplasm bank for the breed), the study of ovine mastitis in extensive farming systems in Uruguay, research into the possible causes of wool yellowing, and rapid estrus resynchronization in cattle."
+        }
+      }
+    ]
   },
   "lead": {
     "name": "Dra. Natalia Ruétalo",

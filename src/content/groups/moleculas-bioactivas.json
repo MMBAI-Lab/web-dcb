@@ -11,8 +11,42 @@
     "en": "An interdisciplinary group focused on identifying new therapeutic targets and on the design, synthesis, and preclinical development of new compounds, with lines in parasitic diseases, antivirals, and cancer and neurodegenerative disorders."
   },
   "researchLines": {
-    "es": "El laboratorio I+D de Moléculas Bioactivas es un grupo de trabajo interdisciplinario que centra sus estudios en la identificación de nuevos blancos terapéuticos, su estudio molecular y fisicoquímico y el diseño, síntesis y desarrollo preclínico de nuevos compuestos como potenciales fármacos para distintas patologías. El Laboratorio cuenta con dos áreas de trabajo: un área química que trabaja en el diseño y síntesis de nuevas moléculas y un área biológica que lleva adelante el estudio de blancos moleculares plausibles de ser inhibidos o bloqueados para ejercer un efecto terapéutico, así como profundizar en los aspectos fisicoquímicos básicos de su estructura y mecanismo de acción. En este sentido se llevan adelante tres grandes líneas de trabajo que abarcan la investigación y el desarrollo de compuestos activos frente a I) Enfermedades parasitarias humanas y veterinarias, II) I+D de antivirales y III) Cáncer y Patologías neurodegenerativas.\n\nEl laboratorio cuenta con un área de química orgánica con equipamiento para la síntesis de moléculas así como su extracción a partir de plantas medicinales u otras fuentes. También dispone de un área de biología molecular y bioquímica con el equipamiento necesario para la transformación, expresión y purificación de proteínas recombinantes, incluyendo una zona estéril para el trabajo con bacterias, incubador orbital termostatizado con control de temperatura y refrigeración, centrífuga refrigerada, cromatógrafo automatizado FPLC (GE AKTA Pure) con varias columnas y resinas, así como el material necesario para realizar electroforesis de ácidos nucleicos y proteínas y Western blot. Se cuenta con un espectrofotómetro Cary UV-vis con modo cinético y con un lector de placas con modo cinético (Varioskan) y detector UV-vis y de fluorescencia. En un ambiente separado, se cuenta con una zona de autolavado de material y con un cuarto de cultivo celular con cámara de flujo laminar, lupas, microscopios y estufas tanto para líneas celulares de mamíferos como para trabajo con parásitos. Se cuenta además con una estufa para el cultivo de garrapata del ganado R. microplus. Recientemente se inauguró un laboratorio para manipulación y cultivo de garrapata R. microplus en la ciudad de Artigas. Además, en el edificio se cuenta con acceso a las plataformas de RMN y espectrometría de masas del Dpto. de Química del Litoral con equipos de RMN de 400 y 500 mHz, varios espectrómetros de masa, HPLC y espectrometría IR.",
-    "en": "The R&D of Bioactive Molecules lab is an interdisciplinary working group focused on identifying new therapeutic targets, studying them at the molecular and physicochemical level, and designing, synthesizing, and preclinically developing new compounds as potential drugs for various pathologies. The lab has two working areas: a chemistry area that designs and synthesizes new molecules, and a biology area that studies molecular targets that could plausibly be inhibited or blocked to produce a therapeutic effect, as well as the basic physicochemical aspects of their structure and mechanism of action. Along these lines, three major research lines are pursued, covering the research and development of active compounds against I) human and veterinary parasitic diseases, II) antivirals, and III) cancer and neurodegenerative disorders.\n\nThe lab has an organic chemistry area equipped for molecule synthesis and for extraction from medicinal plants or other sources. It also has a molecular biology and biochemistry area with the equipment needed for the transformation, expression, and purification of recombinant proteins, including a sterile area for work with bacteria, a thermostatted orbital incubator with temperature control and refrigeration, a refrigerated centrifuge, an automated FPLC chromatography system (GE AKTA Pure) with several columns and resins, and the material needed for nucleic acid and protein electrophoresis and Western blot. There is a Cary UV-vis spectrophotometer with kinetic mode and a plate reader with kinetic mode (Varioskan) and UV-vis and fluorescence detection. In a separate area, there is a glassware washing station and a cell culture room with a laminar flow hood, magnifiers, microscopes, and incubators for both mammalian cell lines and parasite work, plus an incubator for rearing the cattle tick R. microplus. A laboratory for handling and rearing R. microplus ticks recently opened in the city of Artigas. The building also provides access to the NMR and mass spectrometry platforms of the Dpto. de Química del Litoral, with 400 and 500 MHz NMR equipment, several mass spectrometers, HPLC, and IR spectrometry."
+    "intro": {
+      "es": "El laboratorio I+D de Moléculas Bioactivas es un grupo de trabajo interdisciplinario que centra sus estudios en la identificación de nuevos blancos terapéuticos, su estudio molecular y fisicoquímico y el diseño, síntesis y desarrollo preclínico de nuevos compuestos como potenciales fármacos para distintas patologías. El Laboratorio cuenta con dos áreas de trabajo: un área química que trabaja en el diseño y síntesis de nuevas moléculas y un área biológica que lleva adelante el estudio de blancos moleculares plausibles de ser inhibidos o bloqueados para ejercer un efecto terapéutico, así como profundizar en los aspectos fisicoquímicos básicos de su estructura y mecanismo de acción. En este sentido se llevan adelante tres grandes líneas de trabajo que abarcan la investigación y el desarrollo de compuestos activos frente a I) Enfermedades parasitarias humanas y veterinarias, II) I+D de antivirales y III) Cáncer y Patologías neurodegenerativas. El laboratorio cuenta con un área de química orgánica con equipamiento para la síntesis de moléculas así como su extracción a partir de plantas medicinales u otras fuentes. También dispone de un área de biología molecular y bioquímica con el equipamiento necesario para la transformación, expresión y purificación de proteínas recombinantes, incluyendo una zona estéril para el trabajo con bacterias, incubador orbital termostatizado con control de temperatura y refrigeración, centrífuga refrigerada, cromatógrafo automatizado FPLC (GE AKTA Pure) con varias columnas y resinas, así como el material necesario para realizar electroforesis de ácidos nucleicos y proteínas y Western blot. Se cuenta con un espectrofotómetro Cary UV-vis con modo cinético y con un lector de placas con modo cinético (Varioskan) y detector UV-vis y de fluorescencia. En un ambiente separado, se cuenta con una zona de autolavado de material y con un cuarto de cultivo celular con cámara de flujo laminar, lupas, microscopios y estufas tanto para líneas celulares de mamíferos como para trabajo con parásitos. Se cuenta además con una estufa para el cultivo de garrapata del ganado R. microplus. Recientemente se inauguró un laboratorio para manipulación y cultivo de garrapata R. microplus en la ciudad de Artigas. Además, en el edificio se cuenta con acceso a las plataformas de RMN y espectrometría de masas del Dpto. de Química del Litoral con equipos de RMN de 400 y 500 mHz, varios espectrómetros de masa, HPLC y espectrometría IR.",
+      "en": "The R&D of Bioactive Molecules lab is an interdisciplinary working group focused on identifying new therapeutic targets, studying them at the molecular and physicochemical level, and designing, synthesizing, and preclinically developing new compounds as potential drugs for various pathologies. The lab has two working areas: a chemistry area that designs and synthesizes new molecules, and a biology area that studies molecular targets that could plausibly be inhibited or blocked to produce a therapeutic effect, as well as the basic physicochemical aspects of their structure and mechanism of action. Along these lines, three major research lines are pursued, covering the research and development of active compounds against I) human and veterinary parasitic diseases, II) antivirals, and III) cancer and neurodegenerative disorders. The lab has an organic chemistry area equipped for molecule synthesis and for extraction from medicinal plants or other sources. It also has a molecular biology and biochemistry area with the equipment needed for the transformation, expression, and purification of recombinant proteins, including a sterile area for work with bacteria, a thermostatted orbital incubator with temperature control and refrigeration, a refrigerated centrifuge, an automated FPLC chromatography system (GE AKTA Pure) with several columns and resins, and the material needed for nucleic acid and protein electrophoresis and Western blot. There is a Cary UV-vis spectrophotometer with kinetic mode and a plate reader with kinetic mode (Varioskan) and UV-vis and fluorescence detection. In a separate area, there is a glassware washing station and a cell culture room with a laminar flow hood, magnifiers, microscopes, and incubators for both mammalian cell lines and parasite work, plus an incubator for rearing the cattle tick R. microplus. A laboratory for handling and rearing R. microplus ticks recently opened in the city of Artigas. The building also provides access to the NMR and mass spectrometry platforms of the Dpto. de Química del Litoral, with 400 and 500 MHz NMR equipment, several mass spectrometers, HPLC, and IR spectrometry."
+    },
+    "lines": [
+      {
+        "title": {
+          "es": "Enfermedades parasitarias humanas y veterinarias",
+          "en": "Human and veterinary parasitic diseases"
+        },
+        "body": {
+          "es": "Investigación y desarrollo de compuestos activos frente a enfermedades parasitarias de interés médico y veterinario.",
+          "en": "Research and development of compounds active against parasitic diseases of medical and veterinary interest."
+        }
+      },
+      {
+        "title": {
+          "es": "I+D de antivirales",
+          "en": "Antiviral R&D"
+        },
+        "body": {
+          "es": "Diseño, síntesis y desarrollo preclínico de nuevos compuestos con actividad antiviral.",
+          "en": "Design, synthesis and preclinical development of new compounds with antiviral activity."
+        }
+      },
+      {
+        "title": {
+          "es": "Cáncer y patologías neurodegenerativas",
+          "en": "Cancer and neurodegenerative disorders"
+        },
+        "body": {
+          "es": "Identificación de blancos terapéuticos y desarrollo de compuestos para cáncer y enfermedades neurodegenerativas.",
+          "en": "Identification of therapeutic targets and development of compounds for cancer and neurodegenerative diseases."
+        }
+      }
+    ]
   },
   "lead": {
     "name": "Dr. Mauricio Cabrera",
@@ -52,43 +86,140 @@
     }
   ],
   "collaborators": [
-    "University of Dundee, School of Life Sciences, Mark C. Field Lab (Reino Unido) — Elucidación del mecanismo de acción de compuestos con actividad tripanosomicida",
-    "Université Lyon – Molecular Microbiology and Structural Biochemistry, CNRS, Lyon (Francia), Guillon Lab — Desarrollo de fármacos antivirales",
-    "Queen Mary University of London, Queen Mary Pre-Clinical Drug Discovery Group, School of Biological and Chemical Sciences, Londres (Reino Unido), Wilkinson Lab",
-    "Departamento de Bioquímica Clínica, Facultad de Ciencias Químicas, Universidad Nacional de Córdoba (Argentina), Dra. Laura Cervi — Rol de las catepsinas de Fasciola hepatica en la respuesta inmune contra el parásito",
-    "University of Amsterdam, Department of Experimental Immunology, Amsterdam UMC, Amsterdam Infection & Immunity Institute (Países Bajos), Kootstra Lab",
-    "National Center for Scientific Research 'Demokritos', Institute of Biosciences & Applications, Atenas (Grecia), Sagnou Lab",
-    "Atomwise, Deep learning for structure-based Drug Discovery, Silicon Valley, CA (Estados Unidos)",
-    "Universidad Nacional Autónoma de México, Departamento de Bioquímica y Biología Estructural, Instituto de Fisiología Celular, Ciudad de México (México), Pérez-Montfort Lab",
-    "Universidad de Buenos Aires, Facultad de Farmacia y Bioquímica, Cátedra de Farmacognosia, Buenos Aires (Argentina), Sulsen Lab",
-    "Universidade Federal do Rio Grande do Sul, Faculdade de Veterinária, Porto Alegre, RS (Brasil), da Silva Vaz Jr. Lab",
-    "Universidad Nacional de Asunción, Departamento de Medicina Tropical, Instituto de Investigaciones en Ciencias de la Salud, San Lorenzo (Paraguay), Yaluff Lab — Ensayos preclínicos in vivo de compuestos activos",
-    "Universidad de Santander, Bucaramanga (Colombia), Leal Lab",
-    "Instituto Pedro Kourí, Departamento de Parasitología (Cuba), Monzote Lab"
+    {
+      "name": "University of Dundee, School of Life Sciences, Mark C. Field Lab (Reino Unido)",
+      "institution": "University of Dundee, School of Life Sciences, Mark C. Field Lab (Reino Unido)",
+      "topic": "Elucidación del mecanismo de acción de compuestos con actividad tripanosomicida"
+    },
+    {
+      "name": "Université Lyon – Molecular Microbiology and Structural Biochemistry, CNRS, Lyon (Francia), Guillon Lab",
+      "institution": "Université Lyon – Molecular Microbiology and Structural Biochemistry, CNRS, Lyon (Francia), Guillon Lab",
+      "topic": "Desarrollo de fármacos antivirales"
+    },
+    {
+      "name": "Queen Mary University of London, Queen Mary Pre-Clinical Drug Discovery Group, School of Biological and Chemical Sciences, Londres (Reino Unido), Wilkinson Lab",
+      "institution": ""
+    },
+    {
+      "name": "Departamento de Bioquímica Clínica, Facultad de Ciencias Químicas, Universidad Nacional de Córdoba (Argentina), Dra. Laura Cervi",
+      "institution": "Departamento de Bioquímica Clínica, Facultad de Ciencias Químicas, Universidad Nacional de Córdoba (Argentina), Dra. Laura Cervi",
+      "topic": "Rol de las catepsinas de Fasciola hepatica en la respuesta inmune contra el parásito"
+    },
+    {
+      "name": "University of Amsterdam, Department of Experimental Immunology, Amsterdam UMC, Amsterdam Infection & Immunity Institute (Países Bajos), Kootstra Lab",
+      "institution": ""
+    },
+    {
+      "name": "National Center for Scientific Research 'Demokritos', Institute of Biosciences & Applications, Atenas (Grecia), Sagnou Lab",
+      "institution": ""
+    },
+    {
+      "name": "Atomwise, Deep learning for structure-based Drug Discovery, Silicon Valley, CA",
+      "institution": "Estados Unidos"
+    },
+    {
+      "name": "Universidad Nacional Autónoma de México, Departamento de Bioquímica y Biología Estructural, Instituto de Fisiología Celular, Ciudad de México (México), Pérez-Montfort Lab",
+      "institution": ""
+    },
+    {
+      "name": "Universidad de Buenos Aires, Facultad de Farmacia y Bioquímica, Cátedra de Farmacognosia, Buenos Aires (Argentina), Sulsen Lab",
+      "institution": ""
+    },
+    {
+      "name": "Universidade Federal do Rio Grande do Sul, Faculdade de Veterinária, Porto Alegre, RS (Brasil), da Silva Vaz Jr. Lab",
+      "institution": ""
+    },
+    {
+      "name": "Universidad Nacional de Asunción, Departamento de Medicina Tropical, Instituto de Investigaciones en Ciencias de la Salud, San Lorenzo (Paraguay), Yaluff Lab",
+      "institution": "Universidad Nacional de Asunción, Departamento de Medicina Tropical, Instituto de Investigaciones en Ciencias de la Salud, San Lorenzo (Paraguay), Yaluff Lab",
+      "topic": "Ensayos preclínicos in vivo de compuestos activos"
+    },
+    {
+      "name": "Universidad de Santander, Bucaramanga (Colombia), Leal Lab",
+      "institution": ""
+    },
+    {
+      "name": "Instituto Pedro Kourí, Departamento de Parasitología (Cuba), Monzote Lab",
+      "institution": ""
+    }
   ],
   "publications": [
-    "Elso OG, Clavin M, Catalan CAN, Aguilera E, Alvarez G, Sülsen VP. Antiprotozoal compounds from Urolepis hecatantha (Asteraceae). Evidence-Based Complementary and Alternative Medicine. 2021.",
-    "Matiadis D, Saporiti T, Aguilera E, Robert X, Guillon C, Cabrera N, et al. Pyrazol(in)e derivatives of curcumin analogues as a new class of anti-Trypanosoma cruzi agents. Future Medicinal Chemistry. 2021.",
-    "Long M, Cantrelle FX, Robert X, Boll E, Sierra N, Gouet P, et al. NMR characterization of the binding site of a new Feline Immunodeficiency Virus capsid assembly inhibitor. Biochemistry. 2021. [Corresponding authors: Alvarez G, Guillon C]",
-    "Ferraro F, Corvo I, Bergalli L, Ilarraz A, Cabrera M, Gil J, et al. Novel and selective inhibitors of triosephosphate isomerase with anti-trematode activity. Sci Rep. 2020;10:2587. https://doi.org/10.1038/s41598-020-59460-y",
-    "Aguilera E, Perdomo C, Espindola A, Corvo I, Faral-Tello P, Robello C, et al. A nature-inspired design yields a new class of steroids against tripanosomatids. Molecules. 2019;24(20):E3800. https://doi.org/10.3390/molecules24203800",
-    "Ferraro F, Merlino A, Gil J, Cerecetto H, Corvo I, Cabrera M. Cathepsin L inhibitors with activity against the liver fluke identified from a focus library of quinoxaline 1,4-di-N-oxide derivatives. Molecules. 2019;24:2348.",
-    "Celias DP, Corvo I, Silvane L, Tort JF, Chiapello LS, Fresno M, et al. Cathepsin L3 from Fasciola hepatica induces NLRP3 inflammasome alternative activation in murine dendritic cells. Frontiers in Immunology. 2019;10:552.",
-    "Randall LM, Dalla Rizza J, Parsonage D, Santos J, Mehl RA, Lowther WT, et al. Unraveling the effects of peroxiredoxin 2 nitration; role of C-terminal tyrosine 193. Free Radical Biology and Medicine. 2019;141:492-501.",
-    "Dalla Rizza J, Randall LM, Santos J, Ferrer-Sueta G, Denicola A. Differential parameters between cytosolic 2-Cys peroxiredoxins, PRDX1 and PRDX2. Protein Science. 2019;28:191-201.",
-    "Risi G, Aguilera E, Lados E, Suarez G, Carrera I, Alvarez G, et al. Caenorhabditis elegans infrared-based motility assay identified new hits for nematicide drug development. Vet Sci. 2019;6(1):E29. [Corresponding authors: Alvarez G, Salinas G] https://doi.org/10.3390/vetsci6010029",
-    "Fort RS, Trinidad Barnech JM, Dourron J, Colazzo M, Aguirre-Crespo FJ, Duhagon MA, et al. Isolation and structural characterization of bioactive molecules on prostate cancer from Mayan traditional medicinal plants. Pharmaceuticals (Basel). 2018;11(3):E78. [Corresponding authors: Duhagon MA, Álvarez G] https://doi.org/10.3390/ph11030078",
-    "Corvo I, Ferraro F, Merlino A, Zuberbühler K, O'Donoghue AJ, Pastro L, et al. Substrate specificity of cysteine proteases beyond the S2 pocket: mutagenesis and molecular dynamics investigation of Fasciola hepatica cathepsins L. Frontiers in Molecular Biosciences. 2018;5:40.",
-    "Sierra N, Folio C, Guillon C, Álvarez G. Looking for novel capsid protein multimerization inhibitors of Feline Immunodeficiency Virus. Pharmaceuticals (Basel). 2018;11(3):E67. [Corresponding authors: Guillon C, Álvarez G] https://doi.org/10.3390/ph11030067",
-    "Portillo-Ledesma S, Randall LM, Parsonage D, Dalla Rizza J, Karplus PA, Poole LB, et al. Differential kinetics of two-cysteine peroxiredoxin disulfide formation reveal a novel model for peroxide sensing. Biochemistry. 2018;57:3416-24. [Corresponding authors: Portillo-Ledesma S, Randall LM]",
-    "Saramago L, Gomes H, Aguilera E, Cerecetto H, González M, Cabrera M, et al. Novel and selective Rhipicephalus microplus triosephosphate isomerase inhibitors with acaricidal activity. Vet. Sci. 2018;5(3):74. [Corresponding authors: Moraes J, Alvarez G] https://doi.org/10.3390/vetsci5030074",
-    "Aguilera E, Alvarez G, Cerecetto H, González M. Polypharmacology in the treatment of Chagas disease. Current Topics in Medicinal Chemistry. 2018. https://doi.org/10.2174/0929867325666180410101728",
-    "Aguilera E, Varela J, Serna E, Torres S, Yaluff G, Vera de Bilbao N, et al. Looking for combination of benznidazole and T. cruzi-triosephosphate isomerase inhibitors for Chagas disease treatment. Mem. Inst. Oswaldo Cruz, Rio de Janeiro. 2018:1-8.",
-    "Folio C, Sierra N, Dujardin M, Alvarez G, Guillon C. Crystal structure of the full-length Feline Immunodeficiency Virus capsid protein shows an N-terminal β-hairpin in the absence of N-terminal proline. Viruses. 2017;9(11):335. https://doi.org/10.3390/v9110335",
-    "Álvarez G, Perdomo C, Coronel C, Aguilera E, Varela J, Aparicio G, et al. Multi-anti-parasitic activity of arylideneketones and thiazolidenehydrazines against Trypanosoma cruzi and Leishmania spp. Molecules. 2017;22:709. [Corresponding author: Álvarez G]",
-    "Rodríguez G, Nargoli J, López A, Moyna G, Álvarez G, Fernández M, et al. Synthesis and in vivo proof of concept of a BODIPY-based fluorescent probe as a tracer for biodistribution studies of a new anti-Chagas agent. RSC Adv. 2017;7:7983-9.",
-    "Ferraro F, Cabrera M, Alvarez G, Corvo I. Chapter 17: Drug targets: screening for small molecules that inhibit Fasciola hepatica enzymes. In: Fasciola hepatica Methods and Protocols. Methods Mol Biol. 2020;2137:221-31. https://doi.org/10.1007/978-1-0716-0475-5_17",
-    "Alvarez G. Bioguided design of trypanosomicidal compounds: a successful strategy in drug discovery. In: Mavromoustakos T, Kellici TF, editors. Rational Drug Design: Methods and Protocols. Humana Press, Springer; 2018. https://doi.org/10.1007/978-1-4939-8630-9"
+    {
+      "citation": "Elso OG, Clavin M, Catalan CAN, Aguilera E, Alvarez G, Sülsen VP. Antiprotozoal compounds from Urolepis hecatantha (Asteraceae). Evidence-Based Complementary and Alternative Medicine. 2021."
+    },
+    {
+      "citation": "Matiadis D, Saporiti T, Aguilera E, Robert X, Guillon C, Cabrera N, et al. Pyrazol(in)e derivatives of curcumin analogues as a new class of anti-Trypanosoma cruzi agents. Future Medicinal Chemistry. 2021."
+    },
+    {
+      "citation": "Long M, Cantrelle FX, Robert X, Boll E, Sierra N, Gouet P, et al. NMR characterization of the binding site of a new Feline Immunodeficiency Virus capsid assembly inhibitor. Biochemistry. 2021. [Corresponding authors: Alvarez G, Guillon C]"
+    },
+    {
+      "doi": "10.1038/s41598-020-59460-y",
+      "citation": "Ferraro F, Corvo I, Bergalli L, Ilarraz A, Cabrera M, Gil J, et al. Novel and selective inhibitors of triosephosphate isomerase with anti-trematode activity. Sci Rep. 2020;10:2587. https://doi.org/10.1038/s41598-020-59460-y"
+    },
+    {
+      "doi": "10.3390/molecules24203800",
+      "citation": "Aguilera E, Perdomo C, Espindola A, Corvo I, Faral-Tello P, Robello C, et al. A nature-inspired design yields a new class of steroids against tripanosomatids. Molecules. 2019;24(20):E3800. https://doi.org/10.3390/molecules24203800"
+    },
+    {
+      "citation": "Ferraro F, Merlino A, Gil J, Cerecetto H, Corvo I, Cabrera M. Cathepsin L inhibitors with activity against the liver fluke identified from a focus library of quinoxaline 1,4-di-N-oxide derivatives. Molecules. 2019;24:2348."
+    },
+    {
+      "citation": "Celias DP, Corvo I, Silvane L, Tort JF, Chiapello LS, Fresno M, et al. Cathepsin L3 from Fasciola hepatica induces NLRP3 inflammasome alternative activation in murine dendritic cells. Frontiers in Immunology. 2019;10:552."
+    },
+    {
+      "citation": "Randall LM, Dalla Rizza J, Parsonage D, Santos J, Mehl RA, Lowther WT, et al. Unraveling the effects of peroxiredoxin 2 nitration; role of C-terminal tyrosine 193. Free Radical Biology and Medicine. 2019;141:492-501."
+    },
+    {
+      "citation": "Dalla Rizza J, Randall LM, Santos J, Ferrer-Sueta G, Denicola A. Differential parameters between cytosolic 2-Cys peroxiredoxins, PRDX1 and PRDX2. Protein Science. 2019;28:191-201."
+    },
+    {
+      "doi": "10.3390/vetsci6010029",
+      "citation": "Risi G, Aguilera E, Lados E, Suarez G, Carrera I, Alvarez G, et al. Caenorhabditis elegans infrared-based motility assay identified new hits for nematicide drug development. Vet Sci. 2019;6(1):E29. [Corresponding authors: Alvarez G, Salinas G] https://doi.org/10.3390/vetsci6010029"
+    },
+    {
+      "doi": "10.3390/ph11030078",
+      "citation": "Fort RS, Trinidad Barnech JM, Dourron J, Colazzo M, Aguirre-Crespo FJ, Duhagon MA, et al. Isolation and structural characterization of bioactive molecules on prostate cancer from Mayan traditional medicinal plants. Pharmaceuticals (Basel). 2018;11(3):E78. [Corresponding authors: Duhagon MA, Álvarez G] https://doi.org/10.3390/ph11030078"
+    },
+    {
+      "citation": "Corvo I, Ferraro F, Merlino A, Zuberbühler K, O'Donoghue AJ, Pastro L, et al. Substrate specificity of cysteine proteases beyond the S2 pocket: mutagenesis and molecular dynamics investigation of Fasciola hepatica cathepsins L. Frontiers in Molecular Biosciences. 2018;5:40."
+    },
+    {
+      "doi": "10.3390/ph11030067",
+      "citation": "Sierra N, Folio C, Guillon C, Álvarez G. Looking for novel capsid protein multimerization inhibitors of Feline Immunodeficiency Virus. Pharmaceuticals (Basel). 2018;11(3):E67. [Corresponding authors: Guillon C, Álvarez G] https://doi.org/10.3390/ph11030067"
+    },
+    {
+      "citation": "Portillo-Ledesma S, Randall LM, Parsonage D, Dalla Rizza J, Karplus PA, Poole LB, et al. Differential kinetics of two-cysteine peroxiredoxin disulfide formation reveal a novel model for peroxide sensing. Biochemistry. 2018;57:3416-24. [Corresponding authors: Portillo-Ledesma S, Randall LM]"
+    },
+    {
+      "doi": "10.3390/vetsci5030074",
+      "citation": "Saramago L, Gomes H, Aguilera E, Cerecetto H, González M, Cabrera M, et al. Novel and selective Rhipicephalus microplus triosephosphate isomerase inhibitors with acaricidal activity. Vet. Sci. 2018;5(3):74. [Corresponding authors: Moraes J, Alvarez G] https://doi.org/10.3390/vetsci5030074"
+    },
+    {
+      "doi": "10.2174/0929867325666180410101728",
+      "citation": "Aguilera E, Alvarez G, Cerecetto H, González M. Polypharmacology in the treatment of Chagas disease. Current Topics in Medicinal Chemistry. 2018. https://doi.org/10.2174/0929867325666180410101728"
+    },
+    {
+      "citation": "Aguilera E, Varela J, Serna E, Torres S, Yaluff G, Vera de Bilbao N, et al. Looking for combination of benznidazole and T. cruzi-triosephosphate isomerase inhibitors for Chagas disease treatment. Mem. Inst. Oswaldo Cruz, Rio de Janeiro. 2018:1-8."
+    },
+    {
+      "doi": "10.3390/v9110335",
+      "citation": "Folio C, Sierra N, Dujardin M, Alvarez G, Guillon C. Crystal structure of the full-length Feline Immunodeficiency Virus capsid protein shows an N-terminal β-hairpin in the absence of N-terminal proline. Viruses. 2017;9(11):335. https://doi.org/10.3390/v9110335"
+    },
+    {
+      "citation": "Álvarez G, Perdomo C, Coronel C, Aguilera E, Varela J, Aparicio G, et al. Multi-anti-parasitic activity of arylideneketones and thiazolidenehydrazines against Trypanosoma cruzi and Leishmania spp. Molecules. 2017;22:709. [Corresponding author: Álvarez G]"
+    },
+    {
+      "citation": "Rodríguez G, Nargoli J, López A, Moyna G, Álvarez G, Fernández M, et al. Synthesis and in vivo proof of concept of a BODIPY-based fluorescent probe as a tracer for biodistribution studies of a new anti-Chagas agent. RSC Adv. 2017;7:7983-9."
+    },
+    {
+      "doi": "10.1007/978-1-0716-0475-5_17",
+      "citation": "Ferraro F, Cabrera M, Alvarez G, Corvo I. Chapter 17: Drug targets: screening for small molecules that inhibit Fasciola hepatica enzymes. In: Fasciola hepatica Methods and Protocols. Methods Mol Biol. 2020;2137:221-31. https://doi.org/10.1007/978-1-0716-0475-5_17"
+    },
+    {
+      "doi": "10.1007/978-1-4939-8630-9",
+      "citation": "Alvarez G. Bioguided design of trypanosomicidal compounds: a successful strategy in drug discovery. In: Mavromoustakos T, Kellici TF, editors. Rational Drug Design: Methods and Protocols. Humana Press, Springer; 2018. https://doi.org/10.1007/978-1-4939-8630-9"
+    }
   ],
   "teaching": [
     {

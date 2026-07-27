@@ -1,6 +1,9 @@
 {
   "slug": "ecologia-vertebrados",
-  "name": { "es": "Ecología y Comportamiento de Fauna Silvestre (ECoFauna)", "en": "Wildlife Ecology and Behavior (ECoFauna)" },
+  "name": {
+    "es": "Ecología y Comportamiento de Fauna Silvestre (ECoFauna)",
+    "en": "Wildlife Ecology and Behavior (ECoFauna)"
+  },
   "campus": "Salto",
   "email": "dqueirolo@cur.edu.uy",
   "summary": {
@@ -8,8 +11,22 @@
     "en": "Studies species distribution, conservation, and the ecology of native and exotic wild mammal populations and communities, focusing on native predators and the management of invasive exotic species such as wild boar."
   },
   "researchLines": {
-    "es": "El trabajo del grupo, liderado por el Dr. Diego Queirolo, se centra principalmente en el estudio de la distribución de especies, la conservación y la ecología de poblaciones y comunidades de mamíferos silvestres nativos y exóticos. Concretamente, tiene dos líneas de investigación: 1) ecología de mamíferos silvestres predadores, específicamente zorros y gatos, y 2) obtención de parámetros poblacionales de mamíferos exóticos, jabalí y ciervo axis.\n\nLas líneas de investigación en ejecución tienen un carácter regional y multidisciplinar, llevadas adelante con la participación de instituciones y docentes de la región, tanto uruguayos como brasileños y también argentinos. Los problemas nacionales con especies exóticas invasoras, como el jabalí, son tratados en conjunto con otras instituciones públicas, como el MGAP y el Ministerio de Ambiente, además de otros servicios universitarios, como la Facultad de Veterinaria, la Facultad de Ciencias, el Centro Universitario de Tacuarembó y el CENUR Litoral Norte.\n\nEn definitiva, lo fundamental es generar información con base científica que aporte conocimiento, para que éste colabore a la formulación de planes de manejo y/o conservación específicos o en la elaboración de políticas públicas que ayuden a hacer sustentable en el tiempo la relación hombre-naturaleza o la relación desarrollo-conservación.",
-    "en": "The group's work, led by Dr. Diego Queirolo, focuses mainly on the study of species distribution, conservation, and the ecology of populations and communities of native and exotic wild mammals. Specifically, it pursues two research lines: 1) the ecology of native predator mammals, particularly foxes and cats, and 2) obtaining population parameters for exotic mammals, wild boar and axis deer.\n\nThe research lines underway are regional and multidisciplinary in scope, carried out with the participation of institutions and researchers from the region — Uruguayan, Brazilian, and also Argentine. National issues involving invasive exotic species, such as wild boar, are addressed jointly with other public institutions, such as the Ministry of Livestock, Agriculture and Fisheries (MGAP) and the Ministry of Environment, as well as other university units, such as the Faculty of Veterinary Medicine, the Faculty of Sciences, the Centro Universitario de Tacuarembó, and CENUR Litoral Norte.\n\nUltimately, the goal is to generate scientifically grounded information that contributes to knowledge, so that it can help shape specific management and/or conservation plans, or inform public policies that help make the relationship between people and nature — or between development and conservation — sustainable over time."
+    "intro": {
+      "es": "El trabajo del grupo, liderado por el Dr. Diego Queirolo, se centra principalmente en el estudio de la distribución de especies, la conservación y la ecología de poblaciones y comunidades de mamíferos silvestres nativos y exóticos. Las líneas de investigación en ejecución tienen un carácter regional y multidisciplinar, llevadas adelante con la participación de instituciones y docentes de la región, tanto uruguayos como brasileños y también argentinos. Los problemas nacionales con especies exóticas invasoras, como el jabalí, son tratados en conjunto con otras instituciones públicas, como el MGAP y el Ministerio de Ambiente, además de otros servicios universitarios, como la Facultad de Veterinaria, la Facultad de Ciencias, el Centro Universitario de Tacuarembó y el CENUR Litoral Norte. En definitiva, lo fundamental es generar información con base científica que aporte conocimiento, para que éste colabore a la formulación de planes de manejo y/o conservación específicos o en la elaboración de políticas públicas que ayuden a hacer sustentable en el tiempo la relación hombre-naturaleza o la relación desarrollo-conservación.",
+      "en": "The group's work, led by Dr. Diego Queirolo, focuses mainly on the study of species distribution, conservation, and the ecology of populations and communities of native and exotic wild mammals. The research lines underway are regional and multidisciplinary in scope, carried out with the participation of institutions and researchers from the region — Uruguayan, Brazilian, and also Argentine. National issues involving invasive exotic species, such as wild boar, are addressed jointly with other public institutions, such as the Ministry of Livestock, Agriculture and Fisheries (MGAP) and the Ministry of Environment, as well as other university units, such as the Faculty of Veterinary Medicine, the Faculty of Sciences, the Centro Universitario de Tacuarembó, and CENUR Litoral Norte. Ultimately, the goal is to generate scientifically grounded information that contributes to knowledge, so that it can help shape specific management and/or conservation plans, or inform public policies that help make the relationship between people and nature — or between development and conservation — sustainable over time."
+    },
+    "lines": [
+      {
+        "title": {
+          "es": "Ecología de mamíferos predadores y de exóticos invasores",
+          "en": "Ecology of predator mammals and invasive exotics"
+        },
+        "body": {
+          "es": "Concretamente, tiene dos líneas de investigación: 1) ecología de mamíferos silvestres predadores, específicamente zorros y gatos, y 2) obtención de parámetros poblacionales de mamíferos exóticos, jabalí y ciervo axis.",
+          "en": "Specifically, it pursues two research lines: 1) the ecology of native predator mammals, particularly foxes and cats, and 2) obtaining population parameters for exotic mammals, wild boar and axis deer."
+        }
+      }
+    ]
   },
   "lead": {
     "name": "Dr. Diego Queirolo",
@@ -18,9 +35,21 @@
   },
   "members": [],
   "collaborators": [
-    "Dras. Maria João Ramos Pereira y Flávia P. Tirelli (Universidade Federal do Rio Grande do Sul, Brasil)",
-    "Dr. Javier A. Pereira (Museo Argentino de Ciencias Naturales / CONICET, Argentina)",
-    "Dr. José Carlos Guerrero (Facultad de Ciencias, UdelaR)",
-    "Dr. Pelayo Acevedo (Universidad Castilla-La Mancha, España)"
+    {
+      "name": "Dras. Maria João Ramos Pereira y Flávia P. Tirelli",
+      "institution": "Universidade Federal do Rio Grande do Sul, Brasil"
+    },
+    {
+      "name": "Dr. Javier A. Pereira",
+      "institution": "Museo Argentino de Ciencias Naturales / CONICET, Argentina"
+    },
+    {
+      "name": "Dr. José Carlos Guerrero",
+      "institution": "Facultad de Ciencias, UdelaR"
+    },
+    {
+      "name": "Dr. Pelayo Acevedo",
+      "institution": "Universidad Castilla-La Mancha, España"
+    }
   ]
 }

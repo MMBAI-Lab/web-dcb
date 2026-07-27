@@ -11,19 +11,112 @@
     "en": "An integrated ecological research program focused on aquatic and aquatic-terrestrial communities and ecosystems, with field research on land-water interactions, food webs, reproductive ecology, and hydroclimatic variability."
   },
   "researchLines": {
-    "es": "El grupo está dirigido por los Prof. Adjuntos Dra. Christine Lucas y Dr. Iván González Bergonzoni, con sede de trabajo en la Estación Experimental Mario A. Cassinoni (EEMAC-Fagro), Ruta 3, Km 363, Paysandú.\n\nEl Programa de Investigación del Grupo Ecología Fluvial del Litoral corresponde a un programa integral de estudios ecológicos con un fuerte enfoque en comunidades y ecosistemas acuáticos y acuático-terrestres, realizando investigaciones de campo para poner a prueba teorías ecológicas en diversas áreas. Las líneas temáticas generales abarcadas por el grupo se nuclean en cuatro grandes ejes temáticos, con varios proyectos de investigación financiados:\n\n1) Interacciones entre ecosistemas terrestres y acuáticos: estudio de concentraciones de nutrientes en ecosistemas acuáticos y su asociación con los usos del suelo de cuencas hidrográficas en el Litoral Norte, en varias regiones de Uruguay y del bioma Pampa.\n\n2) Tramas tróficas y estructura comunitaria de ecosistemas acuáticos: se resalta la formación académica de docentes y estudiantes en investigaciones sobre la estructura y funcionamiento de las tramas tróficas en ecosistemas fluviales.\n\n3) Ecología reproductiva de comunidades fluviales: evaluación de los principales factores ambientales determinantes de la reproducción, dividida en dos líneas: ecología reproductiva de peces y regeneración de bosques en zonas ribereñas.\n\n4) Análisis de la variabilidad hidrológica y climática y su efecto sobre los ecosistemas fluviales: eje transversal a todas las líneas de investigación, abordado desde distintas disciplinas y en diferentes escalas temporales, incluyendo estudios de dendrocronología, dinámica térmica de las aguas y reconstrucción de caudales de los ríos, que aporta conocimiento sobre la variabilidad interanual del clima y sus impactos en bosques y otros sistemas de producción.\n\nMuchas de estas líneas de investigación se nuclean en el Proyecto CSIC Grupos ID883452 2023-2027 \"Ecología de Ríos y Bosques en el Litoral Norte: La cuenca del Queguay como Modelo\" (Christine Lucas e Iván González, Responsables).\n\nEl Dr. Iván González Bergonzoni (Profesor Adjunto, Gdo 3, 40 hs/sem) desarrolla además líneas propias en Ecología de Ecosistemas Dulceacuícolas, Ecología Trófica, Ecología de Peces y Calidad de Agua, en colaboración con el Departamento de Ecología y Biología Evolutiva del IIBCE (donde es investigador asociado), el Departamento de Ecología y Gestión Ambiental del CURE Maldonado y el Departamento de Ecología y Evolución de la Facultad de Ciencias.",
-    "en": "The group is led by Prof. Adjunta Dra. Christine Lucas and Prof. Adjunto Dr. Iván González Bergonzoni, based at the Estación Experimental Mario A. Cassinoni (EEMAC-Fagro), Ruta 3, Km 363, Paysandú.\n\nThe Fluvial Ecology of the Litoral research program is an integrated program of ecological studies with a strong focus on aquatic and aquatic-terrestrial communities and ecosystems, carrying out field research to test ecological theories across several areas. The group's general thematic lines are organized into four major axes, with several funded research projects:\n\n1) Interactions between terrestrial and aquatic ecosystems: studies nutrient concentrations in aquatic ecosystems and their association with land use in river basins of the Litoral Norte, in several regions of Uruguay and of the Pampa biome.\n\n2) Food webs and community structure of aquatic ecosystems: highlights the academic training of faculty and students in research on the structure and functioning of food webs in fluvial ecosystems.\n\n3) Reproductive ecology of fluvial communities: assesses the main environmental factors driving reproduction, split into two lines: fish reproductive ecology and forest regeneration in riparian zones.\n\n4) Analysis of hydrological and climatic variability and its effect on fluvial ecosystems: a cross-cutting axis addressed from different disciplines and at different time scales, including dendrochronology studies, thermal dynamics of water bodies, and river-flow reconstruction, contributing knowledge on interannual climate variability and its impacts on forests and other production systems.\n\nMany of these research lines converge in the CSIC Grupos Project ID883452 2023-2027 \"River and Forest Ecology in the Litoral Norte: The Queguay Basin as a Model\" (Christine Lucas and Iván González, Principal Investigators).\n\nDr. Iván González Bergonzoni (Profesor Adjunto, Gdo 3, 40 hs/week) also pursues his own research lines in Freshwater Ecosystem Ecology, Trophic Ecology, Fish Ecology, and Water Quality, in collaboration with the Department of Ecology and Evolutionary Biology at IIBCE (where he is an associate researcher), the Department of Ecology and Environmental Management at CURE Maldonado, and the Department of Ecology and Evolution at the Facultad de Ciencias."
+    "intro": {
+      "es": "El grupo está dirigido por los Prof. Adjuntos Dra. Christine Lucas y Dr. Iván González Bergonzoni, con sede de trabajo en la Estación Experimental Mario A. Cassinoni (EEMAC-Fagro), Ruta 3, Km 363, Paysandú. El Programa de Investigación del Grupo Ecología Fluvial del Litoral corresponde a un programa integral de estudios ecológicos con un fuerte enfoque en comunidades y ecosistemas acuáticos y acuático-terrestres, realizando investigaciones de campo para poner a prueba teorías ecológicas en diversas áreas. Las líneas temáticas generales abarcadas por el grupo se nuclean en cuatro grandes ejes temáticos, con varios proyectos de investigación financiados:",
+      "en": "The group is led by Prof. Adjunta Dra. Christine Lucas and Prof. Adjunto Dr. Iván González Bergonzoni, based at the Estación Experimental Mario A. Cassinoni (EEMAC-Fagro), Ruta 3, Km 363, Paysandú. The Fluvial Ecology of the Litoral research program is an integrated program of ecological studies with a strong focus on aquatic and aquatic-terrestrial communities and ecosystems, carrying out field research to test ecological theories across several areas. The group's general thematic lines are organized into four major axes, with several funded research projects:"
+    },
+    "lines": [
+      {
+        "title": {
+          "es": "Interacciones entre ecosistemas terrestres y acuáticos",
+          "en": "Land–water ecosystem interactions"
+        },
+        "body": {
+          "es": "Interacciones entre ecosistemas terrestres y acuáticos: estudio de concentraciones de nutrientes en ecosistemas acuáticos y su asociación con los usos del suelo de cuencas hidrográficas en el Litoral Norte, en varias regiones de Uruguay y del bioma Pampa.",
+          "en": "Interactions between terrestrial and aquatic ecosystems: studies nutrient concentrations in aquatic ecosystems and their association with land use in river basins of the Litoral Norte, in several regions of Uruguay and of the Pampa biome."
+        }
+      },
+      {
+        "title": {
+          "es": "Tramas tróficas y estructura comunitaria",
+          "en": "Food webs and community structure"
+        },
+        "body": {
+          "es": "Tramas tróficas y estructura comunitaria de ecosistemas acuáticos: se resalta la formación académica de docentes y estudiantes en investigaciones sobre la estructura y funcionamiento de las tramas tróficas en ecosistemas fluviales.",
+          "en": "Food webs and community structure of aquatic ecosystems: highlights the academic training of faculty and students in research on the structure and functioning of food webs in fluvial ecosystems."
+        }
+      },
+      {
+        "title": {
+          "es": "Ecología reproductiva de comunidades fluviales",
+          "en": "Reproductive ecology of river communities"
+        },
+        "body": {
+          "es": "Ecología reproductiva de comunidades fluviales: evaluación de los principales factores ambientales determinantes de la reproducción, dividida en dos líneas: ecología reproductiva de peces y regeneración de bosques en zonas ribereñas.",
+          "en": "Reproductive ecology of fluvial communities: assesses the main environmental factors driving reproduction, split into two lines: fish reproductive ecology and forest regeneration in riparian zones."
+        }
+      },
+      {
+        "title": {
+          "es": "Variabilidad hidrológica y climática",
+          "en": "Hydrological and climatic variability"
+        },
+        "body": {
+          "es": "Análisis de la variabilidad hidrológica y climática y su efecto sobre los ecosistemas fluviales: eje transversal a todas las líneas de investigación, abordado desde distintas disciplinas y en diferentes escalas temporales, incluyendo estudios de dendrocronología, dinámica térmica de las aguas y reconstrucción de caudales de los ríos, que aporta conocimiento sobre la variabilidad interanual del clima y sus impactos en bosques y otros sistemas de producción.",
+          "en": "Analysis of hydrological and climatic variability and its effect on fluvial ecosystems: a cross-cutting axis addressed from different disciplines and at different time scales, including dendrochronology studies, thermal dynamics of water bodies, and river-flow reconstruction, contributing knowledge on interannual climate variability and its impacts on forests and other production systems."
+        }
+      },
+      {
+        "title": {
+          "es": "Ecosistemas dulceacuícolas, ecología trófica y calidad de agua",
+          "en": "Freshwater ecosystems, trophic ecology and water quality"
+        },
+        "body": {
+          "es": "El Dr. Iván González Bergonzoni (Profesor Adjunto, Gdo 3, 40 hs/sem) desarrolla además líneas propias en Ecología de Ecosistemas Dulceacuícolas, Ecología Trófica, Ecología de Peces y Calidad de Agua, en colaboración con el Departamento de Ecología y Biología Evolutiva del IIBCE (donde es investigador asociado), el Departamento de Ecología y Gestión Ambiental del CURE Maldonado y el Departamento de Ecología y Evolución de la Facultad de Ciencias.",
+          "en": "Dr. Iván González Bergonzoni (Profesor Adjunto, Gdo 3, 40 hs/week) also pursues his own research lines in Freshwater Ecosystem Ecology, Trophic Ecology, Fish Ecology, and Water Quality, in collaboration with the Department of Ecology and Evolutionary Biology at IIBCE (where he is an associate researcher), the Department of Ecology and Environmental Management at CURE Maldonado, and the Department of Ecology and Evolution at the Facultad de Ciencias."
+        }
+      }
+    ]
   },
   "currentProjects": [
-    "Eje 1 – Interacciones entre ecosistemas terrestres y acuáticos: ANII FCE_3_2020_1_162152 (Responsable: Noelia Gobel)",
-    "Eje 2 – Tramas tróficas y estructura comunitaria de ecosistemas acuáticos: ANII FCE_1_2024_180888 (Responsable: Ivana Silva)",
-    "Eje 2 – Tramas tróficas y estructura comunitaria de ecosistemas acuáticos: ANII FCE_1_2019_1_155715 (Responsable: Iván González)",
-    "Eje 2 – Tramas tróficas y estructura comunitaria de ecosistemas acuáticos: Proyecto CSIC Iniciación 2019 (Responsables: Anahí López e Ivana Silva)",
-    "Eje 2 – Tramas tróficas y estructura comunitaria de ecosistemas acuáticos: CSIC I+D 2016 (Responsable: Iván González)",
-    "Eje 3 – Ecología reproductiva de comunidades fluviales: Proyecto CSIC Iniciación 2021-2023 (Responsable: Joaquín Pais)",
-    "Eje 4 – Análisis de la variabilidad hidrológica y climática: Proyecto CSIC Iniciación 2024-2025 (Responsable: Ana Lucía Mary)",
-    "Eje 4 – Análisis de la variabilidad hidrológica y climática: ANII FCE-1-2019-1-155715 (Responsable: Christine Lucas)",
-    "Proyecto CSIC Grupos ID883452 2023-2027: \"Ecología de Ríos y Bosques en el Litoral Norte: La cuenca del Queguay como Modelo\" (Responsables: Christine Lucas e Iván González)"
+    {
+      "title": "Eje 1 – Interacciones entre ecosistemas terrestres y acuáticos: ANII FCE_3_2020_1_162152 (Responsable: Noelia Gobel)",
+      "role": "Responsable: Noelia Gobel"
+    },
+    {
+      "title": "Eje 2 – Tramas tróficas y estructura comunitaria de ecosistemas acuáticos: ANII FCE_1_2024_180888 (Responsable: Ivana Silva)",
+      "role": "Responsable: Ivana Silva"
+    },
+    {
+      "title": "Eje 2 – Tramas tróficas y estructura comunitaria de ecosistemas acuáticos: ANII FCE_1_2019_1_155715 (Responsable: Iván González)",
+      "role": "Responsable: Iván González"
+    },
+    {
+      "title": "Eje 2 – Tramas tróficas y estructura comunitaria de ecosistemas acuáticos: Proyecto CSIC Iniciación 2019 (Responsables: Anahí López e Ivana Silva)",
+      "period": "2019",
+      "role": "Responsable: Anahí López e Ivana Silva"
+    },
+    {
+      "title": "Eje 2 – Tramas tróficas y estructura comunitaria de ecosistemas acuáticos: CSIC I+D 2016 (Responsable: Iván González)",
+      "period": "2016",
+      "role": "Responsable: Iván González"
+    },
+    {
+      "title": "Eje 3 – Ecología reproductiva de comunidades fluviales: Proyecto CSIC Iniciación 2021-2023 (Responsable: Joaquín Pais)",
+      "period": "2021–2023",
+      "role": "Responsable: Joaquín Pais"
+    },
+    {
+      "title": "Eje 4 – Análisis de la variabilidad hidrológica y climática: Proyecto CSIC Iniciación 2024-2025 (Responsable: Ana Lucía Mary)",
+      "period": "2024–2025",
+      "role": "Responsable: Ana Lucía Mary"
+    },
+    {
+      "title": "Eje 4 – Análisis de la variabilidad hidrológica y climática: ANII FCE-1-2019-1-155715 (Responsable: Christine Lucas)",
+      "period": "2019",
+      "role": "Responsable: Christine Lucas"
+    },
+    {
+      "title": "Proyecto CSIC Grupos ID883452 2023-2027: \"Ecología de Ríos y Bosques en el Litoral Norte: La cuenca del Queguay como Modelo\" (Responsables: Christine Lucas e Iván González)",
+      "period": "2023–2027",
+      "role": "Responsable: Christine Lucas e Iván González"
+    },
+    {
+      "title": "Ecología de Ríos y Bosques en el Litoral Norte: la cuenca del Queguay como modelo",
+      "funder": "CSIC Grupos ID883452",
+      "period": "2023–2027",
+      "role": "Responsables: Christine Lucas e Iván González"
+    }
   ],
   "lead": {
     "name": "Dra. Christine Lucas",
@@ -60,56 +153,166 @@
       "name": "MSc. Noelia Gobel",
       "title": "Gdo 2, 20 hs/sem",
       "photo": "/images/people/noelia-gobel.jpg"
+    },
+    {
+      "name": "MSc. Serrana Ambite (Estudiante de Doctorado, PEDECIBA-Biología, Beca ANII 2023-2026)",
+      "title": ""
+    },
+    {
+      "name": "MSc. Andrea Somma (Estudiante de Doctorado en Ciencias Ambientales, Beca ANII 2023-2026)",
+      "title": ""
+    },
+    {
+      "name": "MSc. Nadia Kacevas (Estudiante de Doctorado, PEDECIBA-Biología, Beca ANII 2024-2027)",
+      "title": ""
+    },
+    {
+      "name": "MSc. Pilar Ojeda (Estudiante de Doctorado, PEDECIBA-Biología)",
+      "title": ""
+    },
+    {
+      "name": "Lic. Joaquín Pais (Estudiante de Posgrado, PEDECIBA-Biología)",
+      "title": ""
+    },
+    {
+      "name": "Lic. Laura Lima (Estudiante de Maestría, PEDECIBA-Biología)",
+      "title": ""
+    },
+    {
+      "name": "Bach. Hiroyuki Kinoshita (Tesista de Grado, Licenciatura en Ciencias Biológicas)",
+      "title": ""
+    },
+    {
+      "name": "Bach. Sebastián Lucciano (Tesista de Grado, Licenciatura en Ciencias Biológicas)",
+      "title": ""
     }
   ],
-  "students": [
-    "MSc. Serrana Ambite (Estudiante de Doctorado, PEDECIBA-Biología, Beca ANII 2023-2026)",
-    "MSc. Andrea Somma (Estudiante de Doctorado en Ciencias Ambientales, Beca ANII 2023-2026)",
-    "MSc. Nadia Kacevas (Estudiante de Doctorado, PEDECIBA-Biología, Beca ANII 2024-2027)",
-    "MSc. Pilar Ojeda (Estudiante de Doctorado, PEDECIBA-Biología)",
-    "Lic. Joaquín Pais (Estudiante de Posgrado, PEDECIBA-Biología)",
-    "Lic. Laura Lima (Estudiante de Maestría, PEDECIBA-Biología)",
-    "Bach. Hiroyuki Kinoshita (Tesista de Grado, Licenciatura en Ciencias Biológicas)",
-    "Bach. Sebastián Lucciano (Tesista de Grado, Licenciatura en Ciencias Biológicas)"
-  ],
   "collaborators": [
-    "Dra. Anahí López",
-    "MSc. Sofia Acosta",
-    "MSc. Patricia Sandes",
-    "Lic. Edgardo Bevilaqva"
+    {
+      "name": "Dra. Anahí López",
+      "institution": ""
+    },
+    {
+      "name": "MSc. Sofia Acosta",
+      "institution": ""
+    },
+    {
+      "name": "MSc. Patricia Sandes",
+      "institution": ""
+    },
+    {
+      "name": "Lic. Edgardo Bevilaqva",
+      "institution": ""
+    }
   ],
   "publications": [
-    "Silva I, Brugnoli E, Mary-Lauyé AL, Cortondo Schuler FM, Feris AL, González-Bergonzoni I. Reproductive seasonality differs between contrasting morphotypes of Megaleporinus obtusidens (Teleostei: Characiformes) in lower Uruguay River. Boletín de la Sociedad Zoológica del Uruguay. 2025;34(1.3):1-13.",
-    "Lucas C, Gamazo P, de los Santos L, Badagian J, Crossa M, Brum E, et al. Water thermal regime of river-floodplain systems in the Uruguay River Basin and influence of hydroclimatic factors. River Research and Applications. 2025. https://doi.org/10.1002/RRA.4440",
-    "Gobel N, Laufer G, Kacevas N, Cortizas S, Pais J, Arim M, et al. Fish modulate how connectivity and local factors shape food webs of permanent ponds. Oikos. 2025;e11062. https://doi.org/10.1111/oik.11062",
-    "Teixeira-de Mello F, Lucas C, Inda H, Ríos M, González-Bergonzoni I. Uruguay. In: Graça MAS, Callisto M, Teixeira-de Mello F, Rodríguez-Olarte D, editors. Rivers of South America. Elsevier; 2025. p. 539-79. https://doi.org/10.1016/B978-0-12-823429-7.00021-5",
-    "Maresca Urioste F, Borthagaray AI, González-Bergonzoni I, Arim M. Over- and under-representations of predatory fish body sizes are shaped by habitat architecture and nutrient loads in a subtropical river basin. Austral Ecology. 2025;50(2):e70037.",
-    "Silva I, Naya DE, Brugnoli E, D'Anatro A, Teixeira de Mello F, Vidal N, et al. Isotopic trophic discrimination factors (delta13C, delta15N) and their determinants in a subtropical macroinvertebrate food chain. Limnetica. 2024. https://doi.org/10.23818/limn.44.14",
-    "Teixeira de Mello F, Sierra P, Moi DA, Alonso J, Lucas C, Suárez B, et al. Effects of urbanization and accessibility to sanitation services on water quality in urban streams in Uruguay. Environmental Monitoring & Assessment. 2024;196:185.",
-    "Moi D, D'Anatro A, González-Bergonzoni I, Vidal N, Silva I, Gauzens B, et al. Long-term changes in multi-trophic diversity alter the functioning of river food webs. Functional Ecology. 2024. https://doi.org/10.1111/1365-2435.14593",
-    "López-Rodríguez A, Meerhoff M, D'Anatro A, de Ávila-Simas S, Silva I, Pais J, et al. Longitudinal changes on ecological diversity of Neotropical fish along a 1700 km river gradient show declines induced by dams. Perspectives in Ecology and Conservation. 2024.",
-    "Mary-Lauyé AL, González-Bergonzoni I, Gobel N, Somma A, Silva I, Lucas C. Baseline assessment of the hydrological network and land use in riparian buffers of Pampean streams of Uruguay. Environmental Monitoring and Assessment. 2023;195(80):1-23.",
-    "González-Bergonzoni I, Vidal N, D'Anatro A, Teixeira de Mello F, Silva I, Naya DE. Golden mussel invasion modified the trophic niche and digestive physiology of native fish the Uruguay river. Biological Invasions. 2023.",
-    "Gobel N, Laufer G, González-Bergonzoni I, Soutullo A, Arim M. Invariant and vulnerable food web components after bullfrog invasion. Biological Invasions. 2023;25:901-16. https://doi.org/10.1007/s10530-022-02956-7",
-    "Jauri PV, Silva C, Trasante T, Acosta S, Tió A, Lucas C, et al. Exploration of seed culturable microbiota for the conservation of South American riparian forests. Environmental Sustainability. 2023;1-13.",
-    "Loureiro M, González-Bergonzoni I, Teixeira de Mello F. Peces de agua dulce de Uruguay. Segunda edición. Laboratorio Zoología de Vertebrados, Facultad de Ciencias, Udelar; 2023. 191 p.",
-    "Loureiro M, González-Bergonzoni I, Liotta J, Bessonart J, Juarez R, Menvielle E, et al. Registro de Hypostomus ternetzi (Teleostei: Siluriformes) para el río Uruguay bajo. Boletín de la Sociedad Zoológica del Uruguay. 2023;32(1):e32.1.2. https://doi.org/10.26462/32.1.2",
-    "Figueroa-Muñoz G, Olivos JA, Arismendi I, Fabiano G, Laporta M, Silvera S, et al. Contemporary distribution of non-native Chinook salmon (Oncorhynchus tshawytscha) in South America. Biological Invasions. 2023;25:2727-35.",
-    "Jeppesen E, Davidson TA, Meerhoff M, De Meester L, González-Bergonzoni I, Vidal N, et al. Differences in food web structure and composition between new and nearby older lakes in West Greenland suggest succession trajectories driven by glacier retreat. Hydrobiologia. 2023. https://doi.org/10.1007/s10750-023-05189-4",
-    "Ambite S, Lucas C, Ferrero E, Peraino S, Badagian J, Muñoz AA, et al. Prosopis L. woody growth in relation to hydrology in South America: A review. Dendrochronologia. 2022;76:126017.",
-    "Lucas C, Aguilera-Betti I, Muñoz AA, Puchi P, Sapriza G, Profumo L, et al. Cross-continental hydroclimate proxies: Tree-rings in Central Chile reconstruct historical streamflow in Southeastern South American Rivers. Progress in Physical Geography: Earth and Environment. 2022;818:03091333211067466.",
-    "Lucas C, Chalar G, Ibarguren E, Baeza S, De Giacomi S, Alvareda E, et al. An assessment of nutrient levels, trophic status and land-use influences on streams and marginal lagoons in a nationally protected floodplain of Uruguay. Limnologica. 2022;125966.",
-    "Díaz-Angeriz DA, Loureiro M, González-Bergonzoni I. Diet and trophic niche of common carp Cyprinus carpio in the Lower Santa Lucía River, Uruguay. Pan-American Journal of Aquatic Sciences. 2022;17(2):152-60. https://doi.org/10.54451/PanamJAS.17.2.152",
-    "Vidal N, D'Anatro A, González-Bergonzoni I, Teixeira de Mello F, Naya D. Morphological variation of the digestive tract: a feeding behaviour response in a freshwater fish species. Environmental Biology of Fishes. 2022;105:717-27. https://doi.org/10.1007/s10641-022-01283-z",
-    "Alcántara I, Somma A, Chalar G, Fabre A, Segura A, Achkar M, et al. A reply to \"Relevant factors in the eutrophication of the Uruguay River and the Río Negro.\" Science of the Total Environment. 2022;818:151854. https://doi.org/10.1016/j.scitotenv.2021.151854",
-    "González-Bergonzoni I, Silva I, Teixeira de Mello F, D'Anatro A, Boccardi L, Stebniki S, et al. Evaluating the role of predatory fish controlling the invasion of the Asian golden mussel (Limnoperna fortunei) in a subtropical river. Journal of Applied Ecology. 2020;57(4):717-28.",
-    "Silva I, Brugnoli E, Clavijo C, D'Anatro A, Naya D, Teixeira de Mello F, et al. Interacciones ecológicas entre el mejillón dorado y macroinvertebrados bentónicos nativos en el Río Uruguay. INNOTEC-LATU. 2021;22:e573.",
-    "País J, Silva I, López-Rodríguez A, Acuña V, Bevilaqua E, Brum E, et al. Primer registro de la corvina de agua dulce Plagioscion ternetzi Boulenger 1895 (Perciformes) en el río Queguay y la cuenca del río Uruguay. Boletín de la Sociedad Zoológica del Uruguay. 2021;30(2):e30.2.12. https://doi.org/10.26462/30.2.12",
-    "Lenzi J, González-Bergonzoni I, Flaherty E, Hernández D, Machín E, Pijanowski B. The relationship between urban refuse with fecundity and nestlings' success of a generalist seabird in the Río de la Plata Estuary - Uruguay. Marine Pollution Bulletin. 2021;173(Part A). https://doi.org/10.1016/j.marpolbul.2021.113000",
-    "Silva I, Naya D, Teixeira de Mello F, D'Anatro A, Tesitore G, Clavijo C, et al. Fish vs. Aliens: Predatory fish regulate the populations of Limnoperna fortunei mitigating its impacts over macroinvertebrates communities. Hydrobiologia. 2020;1-21.",
-    "Aguilera-Betti I, Lucas C, Ferrero ME, Muñoz AA. A network for advancing dendrochronology, dendrochemistry and dendrohydrology in South America. Tree-Ring Research. 2020;76(2):94-101. https://doi.org/10.3959/TRR2019-12",
-    "González-Bergonzoni I, D'Anatro A, Vidal N, Stebniki S, Tesitore G, Silva I, et al. Origin of fish biomass in a diverse subtropical river: An allochthonic-supported biomass increase following flood pulses. Ecosystems. 2019;22(8):1736-53.",
-    "López-Rodríguez A, Silva I, de Ávila-Simas S, Stebniki S, Bastian R, Massaro MV, et al. Diets and trophic structure of fish assemblages in a large and unexplored subtropical river: The Uruguay River. Water. 2019;11(7):1374."
+    {
+      "citation": "Silva I, Brugnoli E, Mary-Lauyé AL, Cortondo Schuler FM, Feris AL, González-Bergonzoni I. Reproductive seasonality differs between contrasting morphotypes of Megaleporinus obtusidens (Teleostei: Characiformes) in lower Uruguay River. Boletín de la Sociedad Zoológica del Uruguay. 2025;34(1.3):1-13."
+    },
+    {
+      "doi": "10.1002/RRA.4440",
+      "citation": "Lucas C, Gamazo P, de los Santos L, Badagian J, Crossa M, Brum E, et al. Water thermal regime of river-floodplain systems in the Uruguay River Basin and influence of hydroclimatic factors. River Research and Applications. 2025. https://doi.org/10.1002/RRA.4440"
+    },
+    {
+      "doi": "10.1111/oik.11062",
+      "citation": "Gobel N, Laufer G, Kacevas N, Cortizas S, Pais J, Arim M, et al. Fish modulate how connectivity and local factors shape food webs of permanent ponds. Oikos. 2025;e11062. https://doi.org/10.1111/oik.11062"
+    },
+    {
+      "doi": "10.1016/B978-0-12-823429-7.00021-5",
+      "citation": "Teixeira-de Mello F, Lucas C, Inda H, Ríos M, González-Bergonzoni I. Uruguay. In: Graça MAS, Callisto M, Teixeira-de Mello F, Rodríguez-Olarte D, editors. Rivers of South America. Elsevier; 2025. p. 539-79. https://doi.org/10.1016/B978-0-12-823429-7.00021-5"
+    },
+    {
+      "citation": "Maresca Urioste F, Borthagaray AI, González-Bergonzoni I, Arim M. Over- and under-representations of predatory fish body sizes are shaped by habitat architecture and nutrient loads in a subtropical river basin. Austral Ecology. 2025;50(2):e70037."
+    },
+    {
+      "doi": "10.23818/limn.44.14",
+      "citation": "Silva I, Naya DE, Brugnoli E, D'Anatro A, Teixeira de Mello F, Vidal N, et al. Isotopic trophic discrimination factors (delta13C, delta15N) and their determinants in a subtropical macroinvertebrate food chain. Limnetica. 2024. https://doi.org/10.23818/limn.44.14"
+    },
+    {
+      "citation": "Teixeira de Mello F, Sierra P, Moi DA, Alonso J, Lucas C, Suárez B, et al. Effects of urbanization and accessibility to sanitation services on water quality in urban streams in Uruguay. Environmental Monitoring & Assessment. 2024;196:185."
+    },
+    {
+      "doi": "10.1111/1365-2435.14593",
+      "citation": "Moi D, D'Anatro A, González-Bergonzoni I, Vidal N, Silva I, Gauzens B, et al. Long-term changes in multi-trophic diversity alter the functioning of river food webs. Functional Ecology. 2024. https://doi.org/10.1111/1365-2435.14593"
+    },
+    {
+      "citation": "López-Rodríguez A, Meerhoff M, D'Anatro A, de Ávila-Simas S, Silva I, Pais J, et al. Longitudinal changes on ecological diversity of Neotropical fish along a 1700 km river gradient show declines induced by dams. Perspectives in Ecology and Conservation. 2024."
+    },
+    {
+      "citation": "Mary-Lauyé AL, González-Bergonzoni I, Gobel N, Somma A, Silva I, Lucas C. Baseline assessment of the hydrological network and land use in riparian buffers of Pampean streams of Uruguay. Environmental Monitoring and Assessment. 2023;195(80):1-23."
+    },
+    {
+      "citation": "González-Bergonzoni I, Vidal N, D'Anatro A, Teixeira de Mello F, Silva I, Naya DE. Golden mussel invasion modified the trophic niche and digestive physiology of native fish the Uruguay river. Biological Invasions. 2023."
+    },
+    {
+      "doi": "10.1007/s10530-022-02956-7",
+      "citation": "Gobel N, Laufer G, González-Bergonzoni I, Soutullo A, Arim M. Invariant and vulnerable food web components after bullfrog invasion. Biological Invasions. 2023;25:901-16. https://doi.org/10.1007/s10530-022-02956-7"
+    },
+    {
+      "citation": "Jauri PV, Silva C, Trasante T, Acosta S, Tió A, Lucas C, et al. Exploration of seed culturable microbiota for the conservation of South American riparian forests. Environmental Sustainability. 2023;1-13."
+    },
+    {
+      "citation": "Loureiro M, González-Bergonzoni I, Teixeira de Mello F. Peces de agua dulce de Uruguay. Segunda edición. Laboratorio Zoología de Vertebrados, Facultad de Ciencias, Udelar; 2023. 191 p."
+    },
+    {
+      "doi": "10.26462/32.1.2",
+      "citation": "Loureiro M, González-Bergonzoni I, Liotta J, Bessonart J, Juarez R, Menvielle E, et al. Registro de Hypostomus ternetzi (Teleostei: Siluriformes) para el río Uruguay bajo. Boletín de la Sociedad Zoológica del Uruguay. 2023;32(1):e32.1.2. https://doi.org/10.26462/32.1.2"
+    },
+    {
+      "citation": "Figueroa-Muñoz G, Olivos JA, Arismendi I, Fabiano G, Laporta M, Silvera S, et al. Contemporary distribution of non-native Chinook salmon (Oncorhynchus tshawytscha) in South America. Biological Invasions. 2023;25:2727-35."
+    },
+    {
+      "doi": "10.1007/s10750-023-05189-4",
+      "citation": "Jeppesen E, Davidson TA, Meerhoff M, De Meester L, González-Bergonzoni I, Vidal N, et al. Differences in food web structure and composition between new and nearby older lakes in West Greenland suggest succession trajectories driven by glacier retreat. Hydrobiologia. 2023. https://doi.org/10.1007/s10750-023-05189-4"
+    },
+    {
+      "citation": "Ambite S, Lucas C, Ferrero E, Peraino S, Badagian J, Muñoz AA, et al. Prosopis L. woody growth in relation to hydrology in South America: A review. Dendrochronologia. 2022;76:126017."
+    },
+    {
+      "citation": "Lucas C, Aguilera-Betti I, Muñoz AA, Puchi P, Sapriza G, Profumo L, et al. Cross-continental hydroclimate proxies: Tree-rings in Central Chile reconstruct historical streamflow in Southeastern South American Rivers. Progress in Physical Geography: Earth and Environment. 2022;818:03091333211067466."
+    },
+    {
+      "citation": "Lucas C, Chalar G, Ibarguren E, Baeza S, De Giacomi S, Alvareda E, et al. An assessment of nutrient levels, trophic status and land-use influences on streams and marginal lagoons in a nationally protected floodplain of Uruguay. Limnologica. 2022;125966."
+    },
+    {
+      "doi": "10.54451/PanamJAS.17.2.152",
+      "citation": "Díaz-Angeriz DA, Loureiro M, González-Bergonzoni I. Diet and trophic niche of common carp Cyprinus carpio in the Lower Santa Lucía River, Uruguay. Pan-American Journal of Aquatic Sciences. 2022;17(2):152-60. https://doi.org/10.54451/PanamJAS.17.2.152"
+    },
+    {
+      "doi": "10.1007/s10641-022-01283-z",
+      "citation": "Vidal N, D'Anatro A, González-Bergonzoni I, Teixeira de Mello F, Naya D. Morphological variation of the digestive tract: a feeding behaviour response in a freshwater fish species. Environmental Biology of Fishes. 2022;105:717-27. https://doi.org/10.1007/s10641-022-01283-z"
+    },
+    {
+      "doi": "10.1016/j.scitotenv.2021.151854",
+      "citation": "Alcántara I, Somma A, Chalar G, Fabre A, Segura A, Achkar M, et al. A reply to \"Relevant factors in the eutrophication of the Uruguay River and the Río Negro.\" Science of the Total Environment. 2022;818:151854. https://doi.org/10.1016/j.scitotenv.2021.151854"
+    },
+    {
+      "citation": "González-Bergonzoni I, Silva I, Teixeira de Mello F, D'Anatro A, Boccardi L, Stebniki S, et al. Evaluating the role of predatory fish controlling the invasion of the Asian golden mussel (Limnoperna fortunei) in a subtropical river. Journal of Applied Ecology. 2020;57(4):717-28."
+    },
+    {
+      "citation": "Silva I, Brugnoli E, Clavijo C, D'Anatro A, Naya D, Teixeira de Mello F, et al. Interacciones ecológicas entre el mejillón dorado y macroinvertebrados bentónicos nativos en el Río Uruguay. INNOTEC-LATU. 2021;22:e573."
+    },
+    {
+      "doi": "10.26462/30.2.12",
+      "citation": "País J, Silva I, López-Rodríguez A, Acuña V, Bevilaqua E, Brum E, et al. Primer registro de la corvina de agua dulce Plagioscion ternetzi Boulenger 1895 (Perciformes) en el río Queguay y la cuenca del río Uruguay. Boletín de la Sociedad Zoológica del Uruguay. 2021;30(2):e30.2.12. https://doi.org/10.26462/30.2.12"
+    },
+    {
+      "doi": "10.1016/j.marpolbul.2021.113000",
+      "citation": "Lenzi J, González-Bergonzoni I, Flaherty E, Hernández D, Machín E, Pijanowski B. The relationship between urban refuse with fecundity and nestlings' success of a generalist seabird in the Río de la Plata Estuary - Uruguay. Marine Pollution Bulletin. 2021;173(Part A). https://doi.org/10.1016/j.marpolbul.2021.113000"
+    },
+    {
+      "citation": "Silva I, Naya D, Teixeira de Mello F, D'Anatro A, Tesitore G, Clavijo C, et al. Fish vs. Aliens: Predatory fish regulate the populations of Limnoperna fortunei mitigating its impacts over macroinvertebrates communities. Hydrobiologia. 2020;1-21."
+    },
+    {
+      "doi": "10.3959/TRR2019-12",
+      "citation": "Aguilera-Betti I, Lucas C, Ferrero ME, Muñoz AA. A network for advancing dendrochronology, dendrochemistry and dendrohydrology in South America. Tree-Ring Research. 2020;76(2):94-101. https://doi.org/10.3959/TRR2019-12"
+    },
+    {
+      "citation": "González-Bergonzoni I, D'Anatro A, Vidal N, Stebniki S, Tesitore G, Silva I, et al. Origin of fish biomass in a diverse subtropical river: An allochthonic-supported biomass increase following flood pulses. Ecosystems. 2019;22(8):1736-53."
+    },
+    {
+      "citation": "López-Rodríguez A, Silva I, de Ávila-Simas S, Stebniki S, Bastian R, Massaro MV, et al. Diets and trophic structure of fish assemblages in a large and unexplored subtropical river: The Uruguay River. Water. 2019;11(7):1374."
+    }
   ],
   "teaching": [
     {

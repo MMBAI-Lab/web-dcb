@@ -11,14 +11,59 @@
     "en": "Comprises the Biomembranes Lab and the Medical and Environmental Radiobiology Lab. Studies the transport of substances across biological membranes and biological responses to genomic damage induced by physical and chemical agents."
   },
   "researchLines": {
-    "es": "El grupo de Biofisicoquímica, a cargo del Prof. Dr. R. Daniel Peluffo, está integrado por el Laboratorio de Biomembranas y el Laboratorio de Radiobiología Médica y Ambiental. En el Laboratorio de Biomembranas se estudian la cinética, termodinámica y modulación de los fenómenos de transporte (activo primario, activo secundario y pasivo) y permeación de sustancias a través de membranas biológicas, en particular: los mecanismos moleculares de los transportadores de aminoácidos catiónicos (CATs); el transporte de L-arginina y su regulación por especies reactivas de oxígeno y nitrógeno; el impacto de dicho transporte sobre el daño genómico; y el estudio cinético-termodinámico de ácidos nucleicos con especies reactivas del nitrógeno.\n\nEn el Laboratorio de Radiobiología Médica y Ambiental se estudian las respuestas biológicas al daño genómico endógeno e inducido por agentes físicos y químicos, incluyendo las respuestas producidas por productos naturales y el impacto de plaguicidas en la salud humana al norte del Río Negro.\n\nCon la incorporación de la Dra. Laura Lafon-Hughes se está desarrollando una nueva línea que combina su experticia en poli-ADP-ribosilación con la experiencia del grupo en transporte de arginina, especies reactivas de oxígeno y nitrógeno, estrés oxidativo y daño genómico.",
-    "en": "The Biophysical Chemistry group, led by Prof. Dr. R. Daniel Peluffo, comprises the Biomembranes Lab and the Medical and Environmental Radiobiology Lab. The Biomembranes Lab studies the kinetics, thermodynamics, and modulation of transport phenomena (primary active, secondary active, and passive) and the permeation of substances across biological membranes — in particular: the molecular mechanisms of cationic amino acid transporters (CATs); L-arginine transport and its regulation by reactive oxygen and nitrogen species; the impact of that transport on genomic damage; and the kinetic-thermodynamic study of nucleic acids with reactive nitrogen species.\n\nThe Medical and Environmental Radiobiology Lab studies biological responses to genomic damage, both endogenous and induced by physical and chemical agents, including responses to natural products and the impact of pesticides on human health north of the Río Negro.\n\nWith the incorporation of Dr. Laura Lafon-Hughes, the group is developing a new research line combining her expertise in poly-ADP-ribosylation with its own experience in arginine transport, reactive oxygen and nitrogen species, oxidative stress, and genomic damage."
+    "intro": {
+      "es": "El grupo de Biofisicoquímica, a cargo del Prof. Dr. R. Daniel Peluffo, está integrado por el Laboratorio de Biomembranas y el Laboratorio de Radiobiología Médica y Ambiental.",
+      "en": "The Biophysical Chemistry group, led by Prof. Dr. R. Daniel Peluffo, comprises the Biomembranes Lab and the Medical and Environmental Radiobiology Lab."
+    },
+    "lines": [
+      {
+        "title": {
+          "es": "Transporte a través de biomembranas",
+          "en": "Transport across biomembranes"
+        },
+        "body": {
+          "es": "En el Laboratorio de Biomembranas se estudian la cinética, termodinámica y modulación de los fenómenos de transporte (activo primario, activo secundario y pasivo) y permeación de sustancias a través de membranas biológicas, en particular: los mecanismos moleculares de los transportadores de aminoácidos catiónicos (CATs); el transporte de L-arginina y su regulación por especies reactivas de oxígeno y nitrógeno; el impacto de dicho transporte sobre el daño genómico; y el estudio cinético-termodinámico de ácidos nucleicos con especies reactivas del nitrógeno.",
+          "en": "The Biomembranes Lab studies the kinetics, thermodynamics, and modulation of transport phenomena (primary active, secondary active, and passive) and the permeation of substances across biological membranes — in particular: the molecular mechanisms of cationic amino acid transporters (CATs); L-arginine transport and its regulation by reactive oxygen and nitrogen species; the impact of that transport on genomic damage; and the kinetic-thermodynamic study of nucleic acids with reactive nitrogen species."
+        }
+      },
+      {
+        "title": {
+          "es": "Radiobiología médica y ambiental",
+          "en": "Medical and environmental radiobiology"
+        },
+        "body": {
+          "es": "En el Laboratorio de Radiobiología Médica y Ambiental se estudian las respuestas biológicas al daño genómico endógeno e inducido por agentes físicos y químicos, incluyendo las respuestas producidas por productos naturales y el impacto de plaguicidas en la salud humana al norte del Río Negro.",
+          "en": "The Medical and Environmental Radiobiology Lab studies biological responses to genomic damage, both endogenous and induced by physical and chemical agents, including responses to natural products and the impact of pesticides on human health north of the Río Negro."
+        }
+      },
+      {
+        "title": {
+          "es": "Poli-ADP-ribosilación y daño genómico",
+          "en": "Poly-ADP-ribosylation and genomic damage"
+        },
+        "body": {
+          "es": "Con la incorporación de la Dra. Laura Lafon-Hughes se está desarrollando una nueva línea que combina su experticia en poli-ADP-ribosilación con la experiencia del grupo en transporte de arginina, especies reactivas de oxígeno y nitrógeno, estrés oxidativo y daño genómico.",
+          "en": "With the incorporation of Dr. Laura Lafon-Hughes, the group is developing a new research line combining her expertise in poly-ADP-ribosylation with its own experience in arginine transport, reactive oxygen and nitrogen species, oxidative stress, and genomic damage."
+        }
+      }
+    ]
   },
   "currentProjects": [
-    "Proyecto I+D CSIC: \"Sintasas de óxido nítrico, caveolinas y nitración vs. poli(ADP-ribosilación) de vinculina en cáncer de colon de pacientes del Hospital de Salto y en la línea celular Caco-2: posible rol en la transición de epitelio a mesénquima\" (Responsables: Dr. Peluffo y Dra. Lafon-Hughes)",
-    "Proyecto de Doctorado PEDECIBA: \"Nitración de purinas del ADN en distintos niveles de organización nucleotídica y su procesamiento por mecanismos no enzimáticos y/o enzimáticos\" (Responsable: Mag. Sánchez. Orientadores: Dr. Peluffo y Dra. Keszenman)",
-    "Proyecto de Maestría PEDECIBA: \"Estudio de las respuestas celulares a la exposición combinada de radiación ultravioleta, glifosato y arsénico\" (Responsable: Q.F. Gabrielli. Orientadores: Dr. Peluffo y Dra. Keszenman)",
-    "Proyecto PAIE CSIC: \"Modulación de la sinaptogénesis in vitro por la actividad de Poli-ADP-ribosil-polimerasas (PARPs)\" (Estudiante referente: Emanuel Arce. Tutoras académicas: Dra. Lafon-Hughes y Dra. Zuluaga)"
+    {
+      "title": "Proyecto I+D CSIC: \"Sintasas de óxido nítrico, caveolinas y nitración vs. poli(ADP-ribosilación) de vinculina en cáncer de colon de pacientes del Hospital de Salto y en la línea celular Caco-2: posible rol en la transición de epitelio a mesénquima\" (Responsables: Dr. Peluffo y Dra. Lafon-Hughes)",
+      "role": "Responsable: Dr"
+    },
+    {
+      "title": "Proyecto de Doctorado PEDECIBA: \"Nitración de purinas del ADN en distintos niveles de organización nucleotídica y su procesamiento por mecanismos no enzimáticos y/o enzimáticos\" (Responsable: Mag. Sánchez. Orientadores: Dr. Peluffo y Dra. Keszenman)",
+      "role": "Responsable: Mag"
+    },
+    {
+      "title": "Proyecto de Maestría PEDECIBA: \"Estudio de las respuestas celulares a la exposición combinada de radiación ultravioleta, glifosato y arsénico\" (Responsable: Q.F. Gabrielli. Orientadores: Dr. Peluffo y Dra. Keszenman)",
+      "role": "Responsable: Q"
+    },
+    {
+      "title": "Proyecto PAIE CSIC: \"Modulación de la sinaptogénesis in vitro por la actividad de Poli-ADP-ribosil-polimerasas (PARPs)\" (Estudiante referente: Emanuel Arce. Tutoras académicas: Dra. Lafon-Hughes y Dra. Zuluaga)"
+    }
   ],
   "lead": {
     "name": "Dr. R. Daniel Peluffo",
@@ -78,23 +123,70 @@
     }
   ],
   "publications": [
-    "Sánchez AG, Keszenman DJ, Peluffo RD. Purine, nucleoside, and DNA nitration by peroxynitrite: mechanistic considerations. Redox Biochemistry and Chemistry. 2024;8:100028. https://doi.org/10.1016/j.rbc.2024.100028",
-    "Lafon-Hughes L. Towards understanding long COVID: SARS-CoV-2 strikes the host cell nucleus. Pathogens. 2023;12(6):806. https://doi.org/10.3390/pathogens12060806",
-    "Lafon-Hughes L. Poly(ADP-ribose), adherens junctions, vinculin and the actin cytoskeleton: current evidence, future perspectives and implications. BIOCELL. 2022;46(12):2531-5. https://doi.org/10.32604/biocell.2022.022713",
-    "Sánchez AG, Ibargoyen MN, Mastrogiovanni M, Radi R, Keszenman DJ, Peluffo RD. Fast and biphasic 8-nitroguanine production from guanine and peroxynitrite. Free Radical Biology & Medicine. 2022;193(Pt 1):474-84. https://doi.org/10.1016/j.freeradbiomed.2022.10.317",
-    "Bennett PV, Johnson AM, Ackerman SE, Chaudhary P, Keszenman DJ, Wilson PF. Dose-rate effects of protons and light ions for DNA damage induction, survival and transformation in apparently normal primary human fibroblasts. Radiation Research. 2022;197(3):298-313. https://doi.org/10.1667/RADE-21-00138.1",
-    "Peluffo RD. Cationic amino acid transporters and their modulation by nitric oxide in cardiac muscle cells. Biophysical Reviews. 2021;13:1071-9. https://doi.org/10.1007/s12551-021-00870-1",
-    "Vilchez Larrea S, Valsecchi WM, Fernández Villamil SH, Lafon-Hughes LI. First body of evidence suggesting a role of a tankyrase binding motif (TBM) of vinculin (VCL) in epithelial cells. PeerJ. 2021;9:e11442. https://doi.org/10.7717/peerj.11442",
-    "Johnson AM, Bennett PV, Sanidad KZ, Hoang A, Jardine JH, Keszenman DJ, et al. Evaluation of histone deacetylase inhibitors as radiosensitizers for proton and light ion radiotherapy. Frontiers in Oncology. 2021;11:735940. https://doi.org/10.3389/fonc.2021.735940",
-    "Lafon-Hughes L, Fernández Villamil S, Vilchez Larrea S. Tankyrase inhibitors hinder Trypanosoma cruzi infection by altering host-cell signalling pathways. Parasitology. 2021;148(13):1680-90. https://doi.org/10.1017/S0031182021001402",
-    "Zheng R, da Rosa G, Dans PD, Peluffo RD. Molecular determinants for nitric oxide regulation of the murine cationic amino acid transporter CAT-2A. Biochemistry. 2020;59(44):4225-37. https://doi.org/10.1021/acs.biochem.0c00729",
-    "Perini V, Schacke M, Liddle P, Vilchez-Larrea S, Keszenman DJ, Lafon-Hughes L. PARP inhibitor olaparib causes no potentiation of the bleomycin effect in VERO cells, even in the presence of pooled ATM, DNA-PK, and LigIV inhibitors. International Journal of Molecular Sciences. 2020;21(21):8288. https://doi.org/10.3390/ijms21218288",
-    "Ferragut G, Sánchez AG, Lombardo P, Cedano J, Vignale B, Vázquez A, et al. Essential oil of Eugenia uniflora as a potential immunomodulatory in tumoral response. In: Frontiers in Immunology Mexico 2018. Frontiers Media SA; 2018. p. 264-7.",
-    "Ferragut G, Huerta M, Severi MA, Keszenman DJ, Cedano J. Is the classic signaling pathway of IL-6 associated with the coordination of structure- and tissue-dependent regeneration in the intestine? In: Frontiers in Immunology Mexico 2018. Frontiers Media SA; 2018. p. 332-4.",
-    "Ferragut G, Keszenman DJ, Cedano J. Delimitation of colon cancer using modified Nidogen-1: development of an immuno-tool for tumor therapy. In: Frontiers in Immunology Mexico 2018. Frontiers Media SA; 2018. p. 1088-9.",
-    "Ramachandran J, Peluffo RD. Threshold levels of extracellular L-arginine that trigger NOS-mediated ROS/RNS production in cardiac ventricular myocytes. American Journal of Physiology - Cell Physiology. 2017;312(2):C144-54. https://doi.org/10.1152/ajpcell.00150.2016",
-    "Keszenman DJ, Kolodiuk L, Baulch J. DNA damage in cells exhibiting radiation-induced genomic instability. Mutagenesis. 2015;30:451-8. https://doi.org/10.1093/mutage/gev006",
-    "Keszenman DJ, Germán P. Uruguay: traditional medicine usage of pitanga's leaves for medicinally valuable infusions is directing the search for potential chemotherapeutic agents against colon cancer. In: ABS is Genetic Resources for Sustainable Development. UNDP Global Environmental Finance Sustainable Development Cluster; 2018. p. 212-8."
+    {
+      "doi": "10.1016/j.rbc.2024.100028",
+      "citation": "Sánchez AG, Keszenman DJ, Peluffo RD. Purine, nucleoside, and DNA nitration by peroxynitrite: mechanistic considerations. Redox Biochemistry and Chemistry. 2024;8:100028. https://doi.org/10.1016/j.rbc.2024.100028"
+    },
+    {
+      "doi": "10.3390/pathogens12060806",
+      "citation": "Lafon-Hughes L. Towards understanding long COVID: SARS-CoV-2 strikes the host cell nucleus. Pathogens. 2023;12(6):806. https://doi.org/10.3390/pathogens12060806"
+    },
+    {
+      "doi": "10.32604/biocell.2022.022713",
+      "citation": "Lafon-Hughes L. Poly(ADP-ribose), adherens junctions, vinculin and the actin cytoskeleton: current evidence, future perspectives and implications. BIOCELL. 2022;46(12):2531-5. https://doi.org/10.32604/biocell.2022.022713"
+    },
+    {
+      "doi": "10.1016/j.freeradbiomed.2022.10.317",
+      "citation": "Sánchez AG, Ibargoyen MN, Mastrogiovanni M, Radi R, Keszenman DJ, Peluffo RD. Fast and biphasic 8-nitroguanine production from guanine and peroxynitrite. Free Radical Biology & Medicine. 2022;193(Pt 1):474-84. https://doi.org/10.1016/j.freeradbiomed.2022.10.317"
+    },
+    {
+      "doi": "10.1667/RADE-21-00138.1",
+      "citation": "Bennett PV, Johnson AM, Ackerman SE, Chaudhary P, Keszenman DJ, Wilson PF. Dose-rate effects of protons and light ions for DNA damage induction, survival and transformation in apparently normal primary human fibroblasts. Radiation Research. 2022;197(3):298-313. https://doi.org/10.1667/RADE-21-00138.1"
+    },
+    {
+      "doi": "10.1007/s12551-021-00870-1",
+      "citation": "Peluffo RD. Cationic amino acid transporters and their modulation by nitric oxide in cardiac muscle cells. Biophysical Reviews. 2021;13:1071-9. https://doi.org/10.1007/s12551-021-00870-1"
+    },
+    {
+      "doi": "10.7717/peerj.11442",
+      "citation": "Vilchez Larrea S, Valsecchi WM, Fernández Villamil SH, Lafon-Hughes LI. First body of evidence suggesting a role of a tankyrase binding motif (TBM) of vinculin (VCL) in epithelial cells. PeerJ. 2021;9:e11442. https://doi.org/10.7717/peerj.11442"
+    },
+    {
+      "doi": "10.3389/fonc.2021.735940",
+      "citation": "Johnson AM, Bennett PV, Sanidad KZ, Hoang A, Jardine JH, Keszenman DJ, et al. Evaluation of histone deacetylase inhibitors as radiosensitizers for proton and light ion radiotherapy. Frontiers in Oncology. 2021;11:735940. https://doi.org/10.3389/fonc.2021.735940"
+    },
+    {
+      "doi": "10.1017/S0031182021001402",
+      "citation": "Lafon-Hughes L, Fernández Villamil S, Vilchez Larrea S. Tankyrase inhibitors hinder Trypanosoma cruzi infection by altering host-cell signalling pathways. Parasitology. 2021;148(13):1680-90. https://doi.org/10.1017/S0031182021001402"
+    },
+    {
+      "doi": "10.1021/acs.biochem.0c00729",
+      "citation": "Zheng R, da Rosa G, Dans PD, Peluffo RD. Molecular determinants for nitric oxide regulation of the murine cationic amino acid transporter CAT-2A. Biochemistry. 2020;59(44):4225-37. https://doi.org/10.1021/acs.biochem.0c00729"
+    },
+    {
+      "doi": "10.3390/ijms21218288",
+      "citation": "Perini V, Schacke M, Liddle P, Vilchez-Larrea S, Keszenman DJ, Lafon-Hughes L. PARP inhibitor olaparib causes no potentiation of the bleomycin effect in VERO cells, even in the presence of pooled ATM, DNA-PK, and LigIV inhibitors. International Journal of Molecular Sciences. 2020;21(21):8288. https://doi.org/10.3390/ijms21218288"
+    },
+    {
+      "citation": "Ferragut G, Sánchez AG, Lombardo P, Cedano J, Vignale B, Vázquez A, et al. Essential oil of Eugenia uniflora as a potential immunomodulatory in tumoral response. In: Frontiers in Immunology Mexico 2018. Frontiers Media SA; 2018. p. 264-7."
+    },
+    {
+      "citation": "Ferragut G, Huerta M, Severi MA, Keszenman DJ, Cedano J. Is the classic signaling pathway of IL-6 associated with the coordination of structure- and tissue-dependent regeneration in the intestine? In: Frontiers in Immunology Mexico 2018. Frontiers Media SA; 2018. p. 332-4."
+    },
+    {
+      "citation": "Ferragut G, Keszenman DJ, Cedano J. Delimitation of colon cancer using modified Nidogen-1: development of an immuno-tool for tumor therapy. In: Frontiers in Immunology Mexico 2018. Frontiers Media SA; 2018. p. 1088-9."
+    },
+    {
+      "doi": "10.1152/ajpcell.00150.2016",
+      "citation": "Ramachandran J, Peluffo RD. Threshold levels of extracellular L-arginine that trigger NOS-mediated ROS/RNS production in cardiac ventricular myocytes. American Journal of Physiology - Cell Physiology. 2017;312(2):C144-54. https://doi.org/10.1152/ajpcell.00150.2016"
+    },
+    {
+      "doi": "10.1093/mutage/gev006",
+      "citation": "Keszenman DJ, Kolodiuk L, Baulch J. DNA damage in cells exhibiting radiation-induced genomic instability. Mutagenesis. 2015;30:451-8. https://doi.org/10.1093/mutage/gev006"
+    },
+    {
+      "citation": "Keszenman DJ, Germán P. Uruguay: traditional medicine usage of pitanga's leaves for medicinally valuable infusions is directing the search for potential chemotherapeutic agents against colon cancer. In: ABS is Genetic Resources for Sustainable Development. UNDP Global Environmental Finance Sustainable Development Cluster; 2018. p. 212-8."
+    }
   ],
   "teaching": [
     {

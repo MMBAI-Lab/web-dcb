@@ -1,6 +1,9 @@
 {
   "slug": "ugb",
-  "name": { "es": "Genómica y Bioinformática", "en": "Genomics and Bioinformatics" },
+  "name": {
+    "es": "Genómica y Bioinformática",
+    "en": "Genomics and Bioinformatics"
+  },
   "campus": "Salto",
   "email": null,
   "summary": {
@@ -8,8 +11,42 @@
     "en": "A unit working on embryogenomics (transcriptomics and epigenomics of mammalian embryonic development), agrigenomics, and viromics applied to the phylodynamic analysis of epidemic processes."
   },
   "researchLines": {
-    "es": "a) Embriogenómica: Transcriptómica y epigenómica de la gametogénesis y el desarrollo embrionario en mamíferos.\n\nb) Agrogenómica: Aplicaciones de la genómica en especies de interés agropecuario.\n\nc) Virómica: Filodinámica viral para el análisis de procesos epidémicos.",
-    "en": "a) Embryogenomics: Transcriptomics and epigenomics of gametogenesis and embryonic development in mammals.\n\nb) Agrigenomics: Applications of genomics in species of agricultural interest.\n\nc) Viromics: Viral phylodynamics for the analysis of epidemic processes."
+    "intro": {
+      "es": "",
+      "en": ""
+    },
+    "lines": [
+      {
+        "title": {
+          "es": "Embriogenómica",
+          "en": "Embryogenomics"
+        },
+        "body": {
+          "es": "Transcriptómica y epigenómica de la gametogénesis y el desarrollo embrionario en mamíferos.",
+          "en": "Transcriptomics and epigenomics of gametogenesis and embryonic development in mammals."
+        }
+      },
+      {
+        "title": {
+          "es": "Agrogenómica",
+          "en": "Agrigenomics"
+        },
+        "body": {
+          "es": "Aplicaciones de la genómica en especies de interés agropecuario.",
+          "en": "Applications of genomics in species of agricultural interest."
+        }
+      },
+      {
+        "title": {
+          "es": "Virómica",
+          "en": "Viromics"
+        },
+        "body": {
+          "es": "Filodinámica viral para el análisis de procesos epidémicos.",
+          "en": "Viral phylodynamics for the analysis of epidemic processes."
+        }
+      }
+    ]
   },
   "lead": {
     "name": "Dra. Nélida Rodríguez Osorio",
@@ -17,38 +54,126 @@
     "photo": "/images/people/nelida-rodriguez.jpg"
   },
   "members": [
-    { "name": "Dra. Daiana Mir", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)", "photo": "/images/people/daiana-mir.jpg" },
-    { "name": "Dr. M.V. Diego Almansa-Villa", "title": "Estudiante de Posgrado, Maestría en Bioinformática (Gdo 1, 30 hs/sem)", "photo": "/images/people/diego-almansa-villa.jpg" },
-    { "name": "Dra. María José Benítez-Galeano", "title": "Ayudante (Gdo 1, 40 hs/sem)", "photo": "/images/people/maria-jose-benitez-galeano.jpg" },
-    { "name": "Lic. Agustina Añasco", "title": "Maestría en Bioinformática, Becaria ANII", "photo": "/images/people/agustina-anasco.jpg" }
+    {
+      "name": "Dra. Daiana Mir",
+      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)",
+      "photo": "/images/people/daiana-mir.jpg"
+    },
+    {
+      "name": "Dr. M.V. Diego Almansa-Villa",
+      "title": "Estudiante de Posgrado, Maestría en Bioinformática (Gdo 1, 30 hs/sem)",
+      "photo": "/images/people/diego-almansa-villa.jpg"
+    },
+    {
+      "name": "Dra. María José Benítez-Galeano",
+      "title": "Ayudante (Gdo 1, 40 hs/sem)",
+      "photo": "/images/people/maria-jose-benitez-galeano.jpg"
+    },
+    {
+      "name": "Lic. Agustina Añasco",
+      "title": "Maestría en Bioinformática, Becaria ANII",
+      "photo": "/images/people/agustina-anasco.jpg"
+    }
   ],
   "collaborators": [
-    "Laboratorio de Virología Molecular, DCB",
-    "Laboratorio de Genética Molecular Humana, DCB",
-    "Laboratorio de Vectores y Enfermedades transmitidas, DCB",
-    "Laboratorio de Producción in vitro de embriones, Tacuarembó - CENUR Litoral Noreste",
-    "Facultad de Veterinaria, UdelaR, Uruguay",
-    "Instituto de Higiene, UdelaR, Uruguay",
-    "Instituto Nacional de Investigación Agropecuaria (INIA), Uruguay",
-    "Institut Pasteur, Montevideo, Uruguay",
-    "Universidad de Buenos Aires, Argentina",
-    "INTA Cerro Azul, Argentina",
-    "Instituto Oswaldo Cruz (Fiocruz), Rio de Janeiro, Brasil",
-    "Universidad Nacional sedes Medellín y Bogotá, Colombia",
-    "Universidad de Antioquia, Medellín, Colombia",
-    "Universidad CES, Medellín, Colombia",
-    "Universidad Estatal de Mississippi, Starkville, Estados Unidos",
-    "Universidad Estatal de California, Fullerton, Estados Unidos",
-    "Key Lab of Marine Genomics, Shenzhen, China"
+    {
+      "name": "Laboratorio de Virología Molecular, DCB",
+      "institution": ""
+    },
+    {
+      "name": "Laboratorio de Genética Molecular Humana, DCB",
+      "institution": ""
+    },
+    {
+      "name": "Laboratorio de Vectores y Enfermedades transmitidas, DCB",
+      "institution": ""
+    },
+    {
+      "name": "Laboratorio de Producción in vitro de embriones, Tacuarembó - CENUR Litoral Noreste",
+      "institution": ""
+    },
+    {
+      "name": "Facultad de Veterinaria, UdelaR, Uruguay",
+      "institution": ""
+    },
+    {
+      "name": "Instituto de Higiene, UdelaR, Uruguay",
+      "institution": ""
+    },
+    {
+      "name": "Instituto Nacional de Investigación Agropecuaria (INIA), Uruguay",
+      "institution": ""
+    },
+    {
+      "name": "Institut Pasteur, Montevideo, Uruguay",
+      "institution": ""
+    },
+    {
+      "name": "Universidad de Buenos Aires, Argentina",
+      "institution": ""
+    },
+    {
+      "name": "INTA Cerro Azul, Argentina",
+      "institution": ""
+    },
+    {
+      "name": "Instituto Oswaldo Cruz (Fiocruz), Rio de Janeiro, Brasil",
+      "institution": ""
+    },
+    {
+      "name": "Universidad Nacional sedes Medellín y Bogotá, Colombia",
+      "institution": ""
+    },
+    {
+      "name": "Universidad de Antioquia, Medellín, Colombia",
+      "institution": ""
+    },
+    {
+      "name": "Universidad CES, Medellín, Colombia",
+      "institution": ""
+    },
+    {
+      "name": "Universidad Estatal de Mississippi, Starkville, Estados Unidos",
+      "institution": ""
+    },
+    {
+      "name": "Universidad Estatal de California, Fullerton, Estados Unidos",
+      "institution": ""
+    },
+    {
+      "name": "Key Lab of Marine Genomics, Shenzhen, China",
+      "institution": ""
+    }
   ],
   "publications": [
-    "Yepes-Blandón JA, Bian C, Benítez-Galeano MJ, Aristizabal-Regino JL, Estrada-Posada AL, Mir D, et al. Draft genome assembly for the Colombian freshwater bocachico fish, Prochilodus magdalenae. Frontiers in Genetics. 2022. https://doi.org/10.3389/fgene.2022.989788",
-    "Giannitti F, da Silva Silveira C, Bullock H, Berón M, Fernández-Ciganda S, Benítez-Galeano MJ, et al. Bovine polyomavirus-1 (Epsilonpolyomavirus bovis): an emerging fetal pathogen of cattle that causes renal lesions resembling polyomavirus-associated nephropathy of humans. Viruses. 2022. https://doi.org/10.3390/v14092042",
-    "Báez F, López Darriulat R, Rodríguez-Osorio N, Viñoles C. Effect of season on germinal vesicle stage, quality, and subsequent in vitro developmental competence in bovine cumulus-oocyte complexes. J Thermal Biology. 2022. https://doi.org/10.1016/j.jtherbio.2021.103171",
-    "Ramirez-Nieto G, Mir D, Almansa-Villa D, Córdoba-Argotti G, Beltran-Leon M, Rodriguez-Osorio N, et al. New insights into avian infectious bronchitis virus in Colombia from whole-genome analysis. Viruses. 2022. https://doi.org/10.3390/v14112562",
-    "Parodi P, Armúa-Fernández MT, Schanzembach M, Mir D, Benítez-Galeano MJ, Rodríguez-Osorio N, et al. Characterization of strains of Anaplasma marginale from clinical cases in bovine using major surface protein 1a in Uruguay. Front. Vet. Sci. 2022. https://doi.org/10.3389/fvets.2022.990228",
-    "Mir D, Rego N, Resende PC, López-tort F, et al. Recurrent dissemination of SARS-CoV-2 through the Uruguayan-Brazilian border. Front. Microbiol. 2021;12:653986.",
-    "Mir D, Gräf T, Esteves de Matos Almeida S, Pinto AR, Delatorre E, Bello G. Inferring population dynamics of HIV-1 subtype C epidemics in Eastern Africa and Southern Brazil applying different Bayesian phylodynamics approaches. Sci Rep. 2018;8(1):8778.",
-    "Urrego R, Bernal-Ulloa SM, Chavarria NA, Herrera-Puerta E, Lucas-Hahn A, Herrman D, et al. Satellite DNA methylation status and expression of selected genes in Bos indicus blastocysts produced in vivo and in vitro. Zygote. 2017;25(2):131-140."
+    {
+      "doi": "10.3389/fgene.2022.989788",
+      "citation": "Yepes-Blandón JA, Bian C, Benítez-Galeano MJ, Aristizabal-Regino JL, Estrada-Posada AL, Mir D, et al. Draft genome assembly for the Colombian freshwater bocachico fish, Prochilodus magdalenae. Frontiers in Genetics. 2022. https://doi.org/10.3389/fgene.2022.989788"
+    },
+    {
+      "doi": "10.3390/v14092042",
+      "citation": "Giannitti F, da Silva Silveira C, Bullock H, Berón M, Fernández-Ciganda S, Benítez-Galeano MJ, et al. Bovine polyomavirus-1 (Epsilonpolyomavirus bovis): an emerging fetal pathogen of cattle that causes renal lesions resembling polyomavirus-associated nephropathy of humans. Viruses. 2022. https://doi.org/10.3390/v14092042"
+    },
+    {
+      "doi": "10.1016/j.jtherbio.2021.103171",
+      "citation": "Báez F, López Darriulat R, Rodríguez-Osorio N, Viñoles C. Effect of season on germinal vesicle stage, quality, and subsequent in vitro developmental competence in bovine cumulus-oocyte complexes. J Thermal Biology. 2022. https://doi.org/10.1016/j.jtherbio.2021.103171"
+    },
+    {
+      "doi": "10.3390/v14112562",
+      "citation": "Ramirez-Nieto G, Mir D, Almansa-Villa D, Córdoba-Argotti G, Beltran-Leon M, Rodriguez-Osorio N, et al. New insights into avian infectious bronchitis virus in Colombia from whole-genome analysis. Viruses. 2022. https://doi.org/10.3390/v14112562"
+    },
+    {
+      "doi": "10.3389/fvets.2022.990228",
+      "citation": "Parodi P, Armúa-Fernández MT, Schanzembach M, Mir D, Benítez-Galeano MJ, Rodríguez-Osorio N, et al. Characterization of strains of Anaplasma marginale from clinical cases in bovine using major surface protein 1a in Uruguay. Front. Vet. Sci. 2022. https://doi.org/10.3389/fvets.2022.990228"
+    },
+    {
+      "citation": "Mir D, Rego N, Resende PC, López-tort F, et al. Recurrent dissemination of SARS-CoV-2 through the Uruguayan-Brazilian border. Front. Microbiol. 2021;12:653986."
+    },
+    {
+      "citation": "Mir D, Gräf T, Esteves de Matos Almeida S, Pinto AR, Delatorre E, Bello G. Inferring population dynamics of HIV-1 subtype C epidemics in Eastern Africa and Southern Brazil applying different Bayesian phylodynamics approaches. Sci Rep. 2018;8(1):8778."
+    },
+    {
+      "citation": "Urrego R, Bernal-Ulloa SM, Chavarria NA, Herrera-Puerta E, Lucas-Hahn A, Herrman D, et al. Satellite DNA methylation status and expression of selected genes in Bos indicus blastocysts produced in vivo and in vitro. Zygote. 2017;25(2):131-140."
+    }
   ]
 }

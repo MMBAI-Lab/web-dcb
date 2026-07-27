@@ -11,8 +11,62 @@
     "en": "Addresses region-relevant health problems from a population genetics perspective: pharmacogenetics of pediatric acute lymphoblastic leukemia, hemoglobinopathies, ancestry, and the Rhesus blood group system, among other lines."
   },
   "researchLines": {
-    "es": "El Laboratorio de Genética Molecular Humana, dirigido por el Prof. Agregado Dr. Julio da Luz, está ubicado en la sede Salto. Aborda, desde una perspectiva de genética poblacional, problemas de salud relevantes para la región y el país.\n\nActualmente, sus principales líneas de investigación son: farmacogenética de la Leucemia Linfoblástica Aguda pediátrica; genética de hemoglobinopatías; ancestralidad al norte de Uruguay; caracterización molecular del sistema sanguíneo Rhesus (Rh); farmacogenética de los inhibidores de la recaptación de serotonina (ISRS); bases genéticas de la anemia por déficit de hierro; y detección de mutaciones de interés terapéutico en cáncer colorrectal a partir de biopsias líquidas.",
-    "en": "The Laboratory of Human Molecular Genetics, led by Prof. Agregado Dr. Julio da Luz, is based at the Salto campus. It addresses region- and country-relevant health problems from a population genetics perspective.\n\nIts main current research lines are: pharmacogenetics of pediatric Acute Lymphoblastic Leukemia; genetics of hemoglobinopathies; ancestry in northern Uruguay; molecular characterization of the Rhesus (Rh) blood group system; pharmacogenetics of selective serotonin reuptake inhibitors (SSRIs); genetic bases of iron-deficiency anemia; and detection of therapeutically relevant mutations in colorectal cancer from liquid biopsies."
+    "intro": {
+      "es": "El Laboratorio de Genética Molecular Humana, dirigido por el Prof. Agregado Dr. Julio da Luz, está ubicado en la sede Salto. Aborda, desde una perspectiva de genética poblacional, problemas de salud relevantes para la región y el país.",
+      "en": "The Laboratory of Human Molecular Genetics, led by Prof. Agregado Dr. Julio da Luz, is based at the Salto campus. It addresses region- and country-relevant health problems from a population genetics perspective."
+    },
+    "lines": [
+      {
+        "title": {
+          "es": "Farmacogenética",
+          "en": "Pharmacogenetics"
+        },
+        "body": {
+          "es": "Farmacogenética de la Leucemia Linfoblástica Aguda pediátrica y de los inhibidores de la recaptación de serotonina (ISRS).",
+          "en": "Pharmacogenetics of pediatric Acute Lymphoblastic Leukemia and of selective serotonin reuptake inhibitors (SSRIs)."
+        }
+      },
+      {
+        "title": {
+          "es": "Hemoglobinopatías y anemias",
+          "en": "Haemoglobinopathies and anaemias"
+        },
+        "body": {
+          "es": "Genética de hemoglobinopatías y bases genéticas de la anemia por déficit de hierro.",
+          "en": "Genetics of haemoglobinopathies and the genetic bases of iron-deficiency anaemia."
+        }
+      },
+      {
+        "title": {
+          "es": "Ancestralidad al norte de Uruguay",
+          "en": "Ancestry in northern Uruguay"
+        },
+        "body": {
+          "es": "Estudio de la ancestralidad genética de la población del norte del país.",
+          "en": "Study of the genetic ancestry of the population of northern Uruguay."
+        }
+      },
+      {
+        "title": {
+          "es": "Sistema sanguíneo Rhesus",
+          "en": "Rhesus blood group system"
+        },
+        "body": {
+          "es": "Caracterización molecular del sistema sanguíneo Rhesus (Rh).",
+          "en": "Molecular characterisation of the Rhesus (Rh) blood group system."
+        }
+      },
+      {
+        "title": {
+          "es": "Cáncer colorrectal y biopsias líquidas",
+          "en": "Colorectal cancer and liquid biopsies"
+        },
+        "body": {
+          "es": "Detección de mutaciones de interés terapéutico en cáncer colorrectal a partir de biopsias líquidas.",
+          "en": "Detection of therapeutically relevant mutations in colorectal cancer from liquid biopsies."
+        }
+      }
+    ]
   },
   "lead": {
     "name": "Dr. Julio da Luz",
@@ -36,27 +90,83 @@
     }
   ],
   "collaborators": [
-    "Departamento de Antropología Biológica, Facultad de Humanidades y Ciencias de la Educación, Universidad de la República",
-    "Polo de Desarrollo Universitario \"Diversidad Genética Humana\", CENUR Noroeste, sede Tacuarembó",
-    "Departamento de Genética, Facultad de Medicina, Universidad de la República",
-    "Fundación Pérez Scremini",
-    "Unidad Académica de Medicina Transfusional y Hemoterapia, Hospital de Clínicas Dr. Manuel Quintela, Montevideo",
-    "Hospital Regional de Salto, Administración de los Servicios de Salud del Estado (ASSE)",
-    "Banco de Sangre Salto (ERITROM), Salto",
-    "Hospital Escuela del Litoral, Dr. Galán y Rocha, Paysandú",
-    "Centro de Asistencia Médica de la Sociedad Médico Quirúrgica de Salto",
-    "Red de Atención Primaria (RAP), Administración de los Servicios de Salud del Estado (ASSE)",
-    "Laboratório de Identificação e Caracterização das Hemoglobinopatias, Universidade Estadual de Campinas, São Paulo, Brasil",
-    "Hemoglobinopathies Center of Expertise, Department of Clinical Genetics (LDGA), Leiden University Medical Center (LUMC), The Netherlands"
+    {
+      "name": "Departamento de Antropología Biológica, Facultad de Humanidades y Ciencias de la Educación, Universidad de la República",
+      "institution": ""
+    },
+    {
+      "name": "Polo de Desarrollo Universitario \"Diversidad Genética Humana\", CENUR Noroeste, sede Tacuarembó",
+      "institution": ""
+    },
+    {
+      "name": "Departamento de Genética, Facultad de Medicina, Universidad de la República",
+      "institution": ""
+    },
+    {
+      "name": "Fundación Pérez Scremini",
+      "institution": ""
+    },
+    {
+      "name": "Unidad Académica de Medicina Transfusional y Hemoterapia, Hospital de Clínicas Dr. Manuel Quintela, Montevideo",
+      "institution": ""
+    },
+    {
+      "name": "Hospital Regional de Salto, Administración de los Servicios de Salud del Estado",
+      "institution": "ASSE"
+    },
+    {
+      "name": "Banco de Sangre Salto (ERITROM), Salto",
+      "institution": ""
+    },
+    {
+      "name": "Hospital Escuela del Litoral, Dr. Galán y Rocha, Paysandú",
+      "institution": ""
+    },
+    {
+      "name": "Centro de Asistencia Médica de la Sociedad Médico Quirúrgica de Salto",
+      "institution": ""
+    },
+    {
+      "name": "Red de Atención Primaria (RAP), Administración de los Servicios de Salud del Estado",
+      "institution": "ASSE"
+    },
+    {
+      "name": "Laboratório de Identificação e Caracterização das Hemoglobinopatias, Universidade Estadual de Campinas, São Paulo, Brasil",
+      "institution": ""
+    },
+    {
+      "name": "Hemoglobinopathies Center of Expertise, Department of Clinical Genetics (LDGA), Leiden University Medical Center (LUMC), The Netherlands",
+      "institution": ""
+    }
   ],
   "publications": [
-    "Burgueño-Rodríguez G, Méndez Y, Olano N, Schelotto M, Castillo L, Soler AM, et al. Pharmacogenetics of pediatric acute lymphoblastic leukemia in Uruguay: adverse events related to induction phase drugs. Front. Pharmacol. 2023;14:1278769. https://doi.org/10.3389/fphar.2023.1278769",
-    "Salas-Hernández A, Galleguillos M, Carrasco M, López-Cortés A, Redal MA, Fonseca-Mendoza D, et al. An updated examination of the perception of barriers for pharmacogenomics implementation and the usefulness of drug/gene pairs in Latin America and the Caribbean. Frontiers in Pharmacology. 2023;14:1196.",
-    "Soler AM, Piellusch BF, Silveira LD, Pedroso GA, López P, Savio E, et al. Alpha thalassemia and alpha-MRE haplotypes in Uruguayan patients with microcytosis and hypochromia without anemia. Genetics and molecular biology. 2021;44. https://doi.org/10.1590/1678-4685-GMB-2020-0399",
-    "Burgueño-Rodríguez G, Méndez Y, Olano N, Dabezies A, Bertoni B, Souto J, et al. Ancestry and TPMT-VNTR polymorphism: relationship with hematological toxicity in Uruguayan patients with acute lymphoblastic leukemia. Frontiers in pharmacology. 2020;11. https://doi.org/10.3389/fphar.2020.594262",
-    "Soler AM, Olano N, Méndez Y, Lopes A, Silveira A, Dabezies A, et al. TPMT and NUDT 15 genes are both related to mercaptopurine intolerance in acute lymphoblastic leukaemia patients from Uruguay. British journal of haematology. 2018;181(2):252-5. https://doi.org/10.1111/bjh.14532",
-    "Soler AM, Schelotto M, de Oliveira Mota N, Dorta Ferreira R, Sonati MDF, da Luz JA. The–(α) 5.2 deletion detected in a Uruguayan family: first case report in the Americas. Hemoglobin. 2016;40(4):289-92. https://doi.org/10.1080/03630269.2016.1200072",
-    "da Luz JA, Ávila A, Icasuriaga S, Gongóra M, Castillo L, Serrón A, et al. Frequency and spectrum of hemoglobinopathy mutations in a Uruguayan pediatric population. Genetics and molecular biology. 2013;36(3):316-22. https://doi.org/10.1590/S1415-47572013005000027"
+    {
+      "doi": "10.3389/fphar.2023.1278769",
+      "citation": "Burgueño-Rodríguez G, Méndez Y, Olano N, Schelotto M, Castillo L, Soler AM, et al. Pharmacogenetics of pediatric acute lymphoblastic leukemia in Uruguay: adverse events related to induction phase drugs. Front. Pharmacol. 2023;14:1278769. https://doi.org/10.3389/fphar.2023.1278769"
+    },
+    {
+      "citation": "Salas-Hernández A, Galleguillos M, Carrasco M, López-Cortés A, Redal MA, Fonseca-Mendoza D, et al. An updated examination of the perception of barriers for pharmacogenomics implementation and the usefulness of drug/gene pairs in Latin America and the Caribbean. Frontiers in Pharmacology. 2023;14:1196."
+    },
+    {
+      "doi": "10.1590/1678-4685-GMB-2020-0399",
+      "citation": "Soler AM, Piellusch BF, Silveira LD, Pedroso GA, López P, Savio E, et al. Alpha thalassemia and alpha-MRE haplotypes in Uruguayan patients with microcytosis and hypochromia without anemia. Genetics and molecular biology. 2021;44. https://doi.org/10.1590/1678-4685-GMB-2020-0399"
+    },
+    {
+      "doi": "10.3389/fphar.2020.594262",
+      "citation": "Burgueño-Rodríguez G, Méndez Y, Olano N, Dabezies A, Bertoni B, Souto J, et al. Ancestry and TPMT-VNTR polymorphism: relationship with hematological toxicity in Uruguayan patients with acute lymphoblastic leukemia. Frontiers in pharmacology. 2020;11. https://doi.org/10.3389/fphar.2020.594262"
+    },
+    {
+      "doi": "10.1111/bjh.14532",
+      "citation": "Soler AM, Olano N, Méndez Y, Lopes A, Silveira A, Dabezies A, et al. TPMT and NUDT 15 genes are both related to mercaptopurine intolerance in acute lymphoblastic leukaemia patients from Uruguay. British journal of haematology. 2018;181(2):252-5. https://doi.org/10.1111/bjh.14532"
+    },
+    {
+      "doi": "10.1080/03630269.2016.1200072",
+      "citation": "Soler AM, Schelotto M, de Oliveira Mota N, Dorta Ferreira R, Sonati MDF, da Luz JA. The–(α) 5.2 deletion detected in a Uruguayan family: first case report in the Americas. Hemoglobin. 2016;40(4):289-92. https://doi.org/10.1080/03630269.2016.1200072"
+    },
+    {
+      "doi": "10.1590/S1415-47572013005000027",
+      "citation": "da Luz JA, Ávila A, Icasuriaga S, Gongóra M, Castillo L, Serrón A, et al. Frequency and spectrum of hemoglobinopathy mutations in a Uruguayan pediatric population. Genetics and molecular biology. 2013;36(3):316-22. https://doi.org/10.1590/S1415-47572013005000027"
+    }
   ],
   "teaching": [
     {

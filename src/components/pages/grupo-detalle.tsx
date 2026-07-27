@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
 import { asset } from "@/lib/asset";
+import { pick } from "@/lib/i18n-content";
 import type { OutreachKind, ResearchGroup, TeachingLevel } from "@/content/groups";
 
 const teachingLevels: TeachingLevel[] = ["grado", "posgrado", "otras"];
@@ -137,21 +138,48 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
 
       {group.researchLines && (
         <Section title={t("researchLines")}>
-          <div className="max-w-2xl space-y-4 text-sm leading-relaxed text-foreground/75">
-            {group.researchLines[locale].split("\n\n").map((paragraph, i) => (
-              <p key={i}>{paragraph}</p>
-            ))}
+          <div className="max-w-2xl space-y-5">
+            {pick(group.researchLines.intro, locale) && (
+              <p className="text-sm leading-relaxed text-foreground/75">
+                {pick(group.researchLines.intro, locale)}
+              </p>
+            )}
+            {group.researchLines.lines.length > 0 && (
+              <ol className="space-y-4 border-l border-border pl-5">
+                {group.researchLines.lines.map((line, i) => (
+                  <li key={i} className="relative">
+                    <span className="absolute -left-[1.6rem] top-1.5 h-2.5 w-2.5 rounded-full bg-teal" />
+                    <h3 className="text-sm font-semibold">{pick(line.title, locale)}</h3>
+                    <p className="mt-1 text-sm leading-relaxed text-foreground/75">
+                      {pick(line.body, locale)}
+                    </p>
+                    {line.institutions && line.institutions.length > 0 && (
+                      <p className="mt-1 text-xs text-foreground/55">
+                        {line.institutions.join(" · ")}
+                      </p>
+                    )}
+                  </li>
+                ))}
+              </ol>
+            )}
           </div>
         </Section>
       )}
 
       {group.currentProjects && group.currentProjects.length > 0 && (
         <Section title={t("projects")}>
-          <ul className="max-w-2xl space-y-2 text-sm leading-relaxed text-foreground/75">
+          <ul className="max-w-2xl space-y-3 text-sm leading-relaxed text-foreground/75">
             {group.currentProjects.map((project, i) => (
               <li key={i} className="flex gap-2">
                 <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                <span>{project}</span>
+                <span>
+                  {project.title}
+                  {(project.funder || project.period || project.role) && (
+                    <span className="mt-0.5 block text-xs text-foreground/55">
+                      {[project.funder, project.period, project.role].filter(Boolean).join(" · ")}
+                    </span>
+                  )}
+                </span>
               </li>
             ))}
           </ul>
@@ -166,21 +194,22 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
         </div>
       </Section>
 
-      {group.students && group.students.length > 0 && (
-        <Section title={t("students")}>
-          <ul className="max-w-2xl space-y-1.5 text-sm text-foreground/75">
-            {group.students.map((student) => (
-              <li key={student}>{student}</li>
-            ))}
-          </ul>
-        </Section>
-      )}
-
       {group.collaborators && group.collaborators.length > 0 && (
         <Section title={t("collaborators")}>
-          <ul className="max-w-2xl space-y-1.5 text-sm text-foreground/75">
-            {group.collaborators.map((collaborator) => (
-              <li key={collaborator}>{collaborator}</li>
+          <ul className="max-w-2xl space-y-2 text-sm text-foreground/75">
+            {group.collaborators.map((collaborator, i) => (
+              <li key={i}>
+                <span className="font-medium">{collaborator.name}</span>
+                {collaborator.institution && (
+                  <span className="text-foreground/60"> · {collaborator.institution}</span>
+                )}
+                {collaborator.country && (
+                  <span className="text-foreground/50"> ({collaborator.country})</span>
+                )}
+                {collaborator.topic && (
+                  <span className="block text-xs text-foreground/55">{collaborator.topic}</span>
+                )}
+              </li>
             ))}
           </ul>
         </Section>
@@ -201,7 +230,7 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
                     {entries.map((entry, i) => (
                       <li key={i} className="flex gap-2">
                         <span className={`mt-2 h-1.5 w-1.5 shrink-0 rounded-full ${levelDot[level]}`} />
-                        <span>{entry[locale]}</span>
+                        <span>{pick(entry, locale)}</span>
                       </li>
                     ))}
                   </ul>
@@ -227,7 +256,7 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
                     {entries.map((entry, i) => (
                       <li key={i} className="flex gap-2">
                         <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-crimson" />
-                        <span>{entry[locale]}</span>
+                        <span>{pick(entry, locale)}</span>
                       </li>
                     ))}
                   </ul>
@@ -243,7 +272,21 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
           <ol className="max-w-2xl space-y-3 text-sm leading-relaxed text-foreground/70">
             {group.publications.map((pub, i) => (
               <li key={i} className="border-l-2 border-border pl-3">
-                {pub}
+                {pub.doi ? (
+                  <>
+                    {pub.citation.replace(/\s*https:\/\/doi\.org\/\S+$/, "")}{" "}
+                    <a
+                      href={`https://doi.org/${pub.doi}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-teal hover:underline"
+                    >
+                      doi:{pub.doi}
+                    </a>
+                  </>
+                ) : (
+                  pub.citation
+                )}
               </li>
             ))}
           </ol>

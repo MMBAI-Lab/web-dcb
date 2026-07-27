@@ -13,6 +13,14 @@ import vyet from "./vyet.json";
 
 export type Member = { name: string; title: string; photo?: string | null };
 
+/**
+ * Bilingual text. `en` may be empty while the DCB's own translation pass is
+ * pending — read these through `pick()` in src/lib/i18n-content.ts, never
+ * directly by locale key, so the English site falls back to Spanish instead
+ * of rendering `undefined`.
+ */
+export type Bilingual = { es: string; en: string };
+
 /** Which academic level(s) a course/teaching entry counts toward. */
 export type TeachingLevel = "grado" | "posgrado" | "otras";
 export type TeachingEntry = { es: string; en: string; levels: TeachingLevel[] };
@@ -21,23 +29,55 @@ export type TeachingEntry = { es: string; en: string; levels: TeachingLevel[] };
 export type OutreachKind = "medios" | "educativo" | "comunidad" | "eventos" | "arte";
 export type OutreachEntry = { es: string; en: string; kinds: OutreachKind[] };
 
+/** One of the group's (at most 5) specific research lines. */
+export type ResearchLine = {
+  title: Bilingual;
+  body: Bilingual;
+  institutions?: string[];
+};
+
+/**
+ * A publication the group chose to feature (at most 10). Groups supply the
+ * DOI; `citation` is generated from it by scripts/resolve-dois.js. Items with
+ * no DOI (books, in press) carry a hand-written citation instead.
+ */
+export type PublicationRef = {
+  doi?: string;
+  citation: string;
+};
+
+export type Project = {
+  title: string;
+  funder?: string;
+  period?: string;
+  role?: string;
+};
+
+export type Collaborator = {
+  name: string;
+  institution: string;
+  country?: string;
+  topic?: string;
+};
+
 export type ResearchGroup = {
   slug: string;
   name: { es: string; en: string };
   campus: string;
   email: string | null;
-  summary: { es: string; en: string };
-  /** Longer prose description of the group's research lines, for the detail page. */
-  researchLines?: { es: string; en: string };
-  /** Titles of active grant-funded projects, as named on the old site (kept in Spanish). */
-  currentProjects?: string[];
+  /** ≤ 50 words. */
+  summary: Bilingual;
+  /** A ≤100-word overview plus up to 5 specific lines. */
+  researchLines?: { intro: Bilingual; lines: ResearchLine[] };
+  /** Up to 5 active projects. */
+  currentProjects?: Project[];
   lead: { name: string; title: string; photo: string | null };
   coLead?: { name: string; title: string; photo?: string | null };
   members: Member[];
-  students?: string[];
-  collaborators?: string[];
-  /** Recent publication citations, kept as-is (not translated). */
-  publications?: string[];
+  /** Up to 8 collaborators. */
+  collaborators?: Collaborator[];
+  /** Up to 10 publications chosen by the group. */
+  publications?: PublicationRef[];
   /** Each entry tagged with the academic level(s) it counts toward — see Enseñanza. */
   teaching?: TeachingEntry[];
   /** Each entry tagged with the kind(s) of action it is — see Extensión. */
@@ -47,7 +87,7 @@ export type ResearchGroup = {
   logo?: string;
   /** URL of the group's own external website, if it has one. */
   website?: string;
-  note?: { es: string; en: string };
+  note?: Bilingual;
 };
 
 // Display order matches the original site's Investigación page.
