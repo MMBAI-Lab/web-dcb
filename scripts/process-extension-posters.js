@@ -14,6 +14,10 @@ const posters = [
   { src: "f66cd6_857729ca9a704b8e90b35bebe5221b7e.png", out: "tts-2024-salto.jpg" },
   { src: "f66cd6_d94811051a1d472c8078c659805bbc25.png", out: "tts-2024-paysandu.jpg" },
   { src: "sem1DCB2025.jpg", out: "seminario-2025-03.jpg" },
+  {
+    src: "Entrega-de-Premios-11_proyectoFRONTERAS_.jpg",
+    out: "covid-frontera-premios.jpg",
+  },
 ];
 
 async function main() {

@@ -226,7 +226,10 @@
     "kind_educativo": "Work with schools",
     "kind_comunidad": "Community and territory",
     "kind_eventos": "Fairs, congresses and open days",
-    "kind_arte": "Art and science"
+    "kind_arte": "Art and science",
+    "covidTitle": "COVID-19",
+    "covidIntro": "The work the Department carried out during the SARS-CoV-2 pandemic.",
+    "covidCoverage": "Publication and media coverage"
   },
   "contacto": {
     "title": "Contact",

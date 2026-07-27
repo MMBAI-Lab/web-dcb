@@ -226,7 +226,10 @@
     "kind_educativo": "Trabajo con centros educativos",
     "kind_comunidad": "Comunidad y territorio",
     "kind_eventos": "Ferias, congresos y jornadas",
-    "kind_arte": "Arte y ciencia"
+    "kind_arte": "Arte y ciencia",
+    "covidTitle": "COVID-19",
+    "covidIntro": "El trabajo que el Departamento llevó adelante durante la pandemia de SARS-CoV-2.",
+    "covidCoverage": "Publicación y cobertura en medios"
   },
   "contacto": {
     "title": "Contacto",

@@ -6,7 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
 import { asset } from "@/lib/asset";
 import { researchGroups, type OutreachKind } from "@/content/groups";
-import { extensionPrograms } from "@/content/extension-programs";
+import { covidResponse, extensionPrograms } from "@/content/extension-programs";
 
 const outreachKinds: OutreachKind[] = ["medios", "educativo", "comunidad", "eventos", "arte"];
 
@@ -168,6 +168,63 @@ export function Extension() {
           );
         })}
       </div>
+
+      <SectionHeading title={t("covidTitle")} intro={t("covidIntro")} />
+
+      <Reveal>
+        <div className="mt-8 rounded-2xl border-2 border-teal/40 bg-surface p-6">
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <h3 className="font-serif text-xl font-medium">{covidResponse.name[locale]}</h3>
+            <span className="text-xs font-semibold uppercase tracking-wide text-teal">
+              {covidResponse.span}
+            </span>
+          </div>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-foreground/75">
+            {covidResponse.intro[locale]}
+          </p>
+
+          <div className="mt-6 flex flex-col gap-6 lg:flex-row">
+            <figure className="shrink-0 lg:w-64">
+              <span className="relative block aspect-[4/3] overflow-hidden rounded-xl border border-border">
+                <Image
+                  src={asset(covidResponse.image)}
+                  alt=""
+                  fill
+                  sizes="(min-width: 1024px) 256px, 100vw"
+                  className="object-cover"
+                />
+              </span>
+              <figcaption className="mt-2 text-xs leading-relaxed text-foreground/55">
+                {covidResponse.imageCaption[locale]}
+              </figcaption>
+            </figure>
+
+            <ol className="flex-1 space-y-4 border-l border-border pl-5">
+              {covidResponse.contributions.map((contribution, i) => (
+                <li key={i} className="relative">
+                  <span className="absolute -left-[1.6rem] top-1.5 h-2.5 w-2.5 rounded-full bg-teal" />
+                  <h4 className="text-sm font-semibold">{contribution.title[locale]}</h4>
+                  <p className="mt-1 text-sm leading-relaxed text-foreground/75">
+                    {contribution.body[locale]}
+                  </p>
+                </li>
+              ))}
+            </ol>
+          </div>
+
+          <h4 className="mt-6 text-xs font-semibold uppercase tracking-wide text-teal">
+            {t("covidCoverage")}
+          </h4>
+          <ul className="mt-2 max-w-3xl space-y-1.5 text-sm leading-relaxed text-foreground/70">
+            {covidResponse.coverage.map((item, i) => (
+              <li key={i} className="flex gap-2">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Reveal>
 
       <SectionHeading title={t("actionsTitle")} intro={t("actionsIntro")} />
 

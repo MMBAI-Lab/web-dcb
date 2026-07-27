@@ -31,6 +31,83 @@ export type Program = {
   editions: Edition[];
 };
 
+export type Contribution = {
+  title: { es: string; en: string };
+  body: { es: string; en: string };
+};
+
+/**
+ * The Department's response to the COVID-19 pandemic — a one-off episode
+ * rather than a recurring cycle, kept as its own record of what was done.
+ * Recovered from the previous site's dedicated COVID-19 page.
+ */
+export const covidResponse: {
+  name: { es: string; en: string };
+  span: string;
+  intro: { es: string; en: string };
+  image: string;
+  imageCaption: { es: string; en: string };
+  contributions: Contribution[];
+  coverage: string[];
+} = {
+  name: { es: "La respuesta del DCB a la pandemia", en: "The DCB's pandemic response" },
+  span: "2020 – 2022",
+  intro: {
+    es: "Durante la pandemia de SARS-CoV-2, el DCB se involucró profunda y activamente con las comunidades del norte del país. Sus investigadores pusieron a punto el diagnóstico por PCR, secuenciaron y analizaron genomas virales, estudiaron la duración de la respuesta inmune e integraron los grupos científicos que asesoraron al gobierno, publicando además investigación original hecha sobre las comunidades locales.",
+    en: "During the SARS-CoV-2 pandemic, the DCB engaged deeply with the communities of northern Uruguay. Its researchers set up PCR diagnostics, sequenced and analysed viral genomes, studied how long the immune response lasts, and sat on the scientific panels advising the government, while publishing original research carried out on local communities.",
+  },
+  image: "/images/extension/covid-frontera-premios.jpg",
+  imageCaption: {
+    es: "Entrega de premios de la Fundación Manuel Pérez, que financió el proyecto Frontera.",
+    en: "Award ceremony of the Fundación Manuel Pérez, which funded the Frontera project.",
+  },
+  contributions: [
+    {
+      title: { es: "Diagnóstico por PCR en el litoral norte", en: "PCR diagnostics in the northern littoral" },
+      body: {
+        es: "A partir del 31 de marzo de 2020, el Laboratorio de Virología Molecular de la sede Salto, dirigido por el Dr. Rodney Colina, reorientó su trabajo al diagnóstico de SARS-CoV-2, poniendo a punto la técnica y procesando muestras de la región.",
+        en: "From 31 March 2020, the Molecular Virology Laboratory at the Salto campus, led by Dr. Rodney Colina, redirected its work to SARS-CoV-2 diagnosis, setting up the technique and processing samples from the region.",
+      },
+    },
+    {
+      title: { es: "Proyecto Frontera", en: "The Frontera project" },
+      body: {
+        es: "Aprobado el 9 de julio de 2020 para su financiación por la Fundación Manuel Pérez, «Vigilancia epidemiológica del COVID-19 en las fronteras uruguayas y análisis de su transmisión en el interior del país» reunió a la Unidad de Genómica y Bioinformática y al Laboratorio de Virología Molecular del DCB con el CENUR Este (sede Rocha), el Campus de Tacuarembó (INIA–UdelaR–MGAP), el Institut Pasteur de Montevideo, el Instituto Clemente Estable, el Instituto Oswaldo Cruz (Fiocruz, Brasil) y el Sanatorio Americano. Buscó secuenciar los genomas virales de muestras positivas del interior, inferir el probable origen de las variantes y caracterizar las redes de transmisión local y su dinámica evolutiva. Cinco informes del proyecto fueron elevados al Ministerio de Salud Pública y al GACH.",
+        en: "Approved for funding by the Fundación Manuel Pérez on 9 July 2020, “Epidemiological surveillance of COVID-19 on Uruguay's borders and analysis of its transmission in the country's interior” brought together the DCB's Genomics and Bioinformatics Unit and Molecular Virology Laboratory with CENUR Este (Rocha), the Tacuarembó Campus (INIA–UdelaR–MGAP), the Institut Pasteur de Montevideo, the Clemente Estable Institute, the Oswaldo Cruz Institute (Fiocruz, Brazil), and Sanatorio Americano. It set out to sequence viral genomes from positive samples in the country's interior, infer the likely origin of variants, and characterise local transmission networks and their evolutionary dynamics. Five project reports were submitted to the Ministry of Public Health and the GACH.",
+      },
+    },
+    {
+      title: { es: "Asesoramiento al gobierno (GACH)", en: "Advising the government (GACH)" },
+      body: {
+        es: "El Dr. Rodney Colina integró el equipo «Aspectos biomédicos básicos» del Grupo Asesor Científico Honorario (GACH), el cuerpo de científicos que asesoró al gobierno nacional durante la emergencia sanitaria.",
+        en: "Dr. Rodney Colina was part of the “Basic biomedical aspects” team of the Honorary Scientific Advisory Group (GACH), the body of scientists advising the national government throughout the health emergency.",
+      },
+    },
+    {
+      title: { es: "Vigilancia genómica de variantes (GTI)", en: "Genomic surveillance of variants (GTI)" },
+      body: {
+        es: "El Laboratorio de Virología Molecular del DCB integra el Grupo de Trabajo Interinstitucional (GTI) en Vigilancia de SARS-CoV-2, cuyo objetivo es el seguimiento en tiempo real de la información genómica de las variantes del virus que circulan en Uruguay.",
+        en: "The DCB's Molecular Virology Laboratory is part of the Inter-institutional Working Group (GTI) on SARS-CoV-2 Surveillance, which tracks in real time the genomic data of the virus variants circulating in Uruguay.",
+      },
+    },
+    {
+      title: { es: "Casos no reportados y duración de la inmunidad", en: "Unreported cases and how long immunity lasts" },
+      body: {
+        es: "En colaboración con docentes de Sociología y Matemática del CENUR Litoral Norte, el laboratorio trabajó en identificar los casos sintomáticos y asintomáticos no reportados y en establecer cuánto duran los anticuerpos que genera el organismo frente a la infección.",
+        en: "Working with Sociology and Mathematics faculty at CENUR Litoral Norte, the laboratory set out to identify unreported symptomatic and asymptomatic cases and to establish how long the antibodies produced against infection persist.",
+      },
+    },
+  ],
+  coverage: [
+    "Mir D, Rego N, Resende PC, López-tort F, et al. Recurrent dissemination of SARS-CoV-2 through the Uruguayan-Brazilian border. Front. Microbiol. 2021;12:653986.",
+    "Entrevista a Rodney Colina — El País (21/12/2020) y Desayunos Informales (25/03/2021).",
+    "Entrevista a Leticia Maya — La Diaria (02/01/2021).",
+    "Entrevista a Daiana Mir — LARED21 (22/07/2020).",
+    "Integración del GTI y su trabajo — El País (15/03/2021); presentación de resultados (22/03/2021).",
+    "Entrevista a Matías Victoria sobre nuevas variantes — Diario Cambio (18/04/2021).",
+  ],
+};
+
 export const extensionPrograms: Program[] = [
   {
     slug: "todo-tiene-su-ciencia",
