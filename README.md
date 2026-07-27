@@ -145,10 +145,28 @@ Pasos para habilitar Pages en el repo (una sola vez, en GitHub):
       contacto, formato de las páginas por grupo).
 - [ ] Publicar, por grupo de investigación, la nómina completa de
       integrantes con fotos (material ya disponible en `data/old/`).
+      Faltan 7 fotos: Fernández Abella (responsable), Realini, Gil Laureiro
+      y Minutti (Rumiantes); Bermúdez y Bazzano (VyET); Chumino (LIBiAM);
+      Rodríguez de Ávila (LGMH); Grilli (Virología Molecular).
 - [ ] Reemplazar el email de contacto de ejemplo (`dcb@cenur.edu.uy`) por
       uno real, y decidir cómo reemplazar el formulario de contacto de Wix
       (mailto, Formspree, u otro).
 - [ ] Optimizar/recortar las imágenes grandes de `data/old/images/` antes
       de promoverlas a `public/images/` (el logo del DCB pesa ~430 KB).
-- [ ] Crear el repositorio `MMBAI-Lab/web-dcb` en GitHub y hacer el primer
+- [x] Crear el repositorio `MMBAI-Lab/web-dcb` en GitHub y hacer el primer
       push (el remote `origin` ya está configurado localmente).
+
+### Pendiente en la solapa Enseñanza
+
+La solapa se genera a partir de los JSON de cada grupo
+(`src/content/groups/*.json`): `teaching[]` alimenta **Docencia** y los
+títulos de `members[]` alimentan **Formación** vía `src/lib/formacion.ts`.
+Editar un grupo alcanza para actualizar la solapa. Queda pendiente:
+
+- [ ] **Josefa González (LIBiAM)**: su título dice solo "Estudiante de
+      Posgrado, PEDECIBA", sin precisar si es maestría o doctorado, por lo
+      que no aparece en Formación. Precisar el nivel en `libiam.json`.
+- [ ] **Licenciatura en Biotecnología**: su tarjeta es más liviana que la
+      del CBB porque falta su currícula, créditos y equipo de coordinación.
+      Sumarlos a `ensenanza.biotec*` en `src/messages/{es,en}.json` para
+      equipararla al CBB.
