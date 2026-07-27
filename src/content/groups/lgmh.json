@@ -1,6 +1,9 @@
 {
   "slug": "lgmh",
-  "name": { "es": "Genética Molecular Humana", "en": "Human Molecular Genetics" },
+  "name": {
+    "es": "Genética Molecular Humana",
+    "en": "Human Molecular Genetics"
+  },
   "campus": "Salto",
   "email": null,
   "summary": {
@@ -11,11 +14,26 @@
     "es": "El Laboratorio de Genética Molecular Humana, dirigido por el Prof. Agregado Dr. Julio da Luz, está ubicado en la sede Salto. Aborda, desde una perspectiva de genética poblacional, problemas de salud relevantes para la región y el país.\n\nActualmente, sus principales líneas de investigación son: farmacogenética de la Leucemia Linfoblástica Aguda pediátrica; genética de hemoglobinopatías; ancestralidad al norte de Uruguay; caracterización molecular del sistema sanguíneo Rhesus (Rh); farmacogenética de los inhibidores de la recaptación de serotonina (ISRS); bases genéticas de la anemia por déficit de hierro; y detección de mutaciones de interés terapéutico en cáncer colorrectal a partir de biopsias líquidas.",
     "en": "The Laboratory of Human Molecular Genetics, led by Prof. Agregado Dr. Julio da Luz, is based at the Salto campus. It addresses region- and country-relevant health problems from a population genetics perspective.\n\nIts main current research lines are: pharmacogenetics of pediatric Acute Lymphoblastic Leukemia; genetics of hemoglobinopathies; ancestry in northern Uruguay; molecular characterization of the Rhesus (Rh) blood group system; pharmacogenetics of selective serotonin reuptake inhibitors (SSRIs); genetic bases of iron-deficiency anemia; and detection of therapeutically relevant mutations in colorectal cancer from liquid biopsies."
   },
-  "lead": { "name": "Dr. Julio da Luz", "title": "Profesor Agregado, Responsable del Grupo de Genética Molecular Humana (Gdo 4, 40 hs/sem, DT)", "photo": "/images/people/julio-da-luz.jpg" },
+  "lead": {
+    "name": "Dr. Julio da Luz",
+    "title": "Profesor Agregado, Responsable del Grupo de Genética Molecular Humana (Gdo 4, 40 hs/sem, DT)",
+    "photo": "/images/people/julio-da-luz.jpg"
+  },
   "members": [
-    { "name": "Dra. Ana Soler", "title": "Asistente (Gdo 2, 40 hs/sem, DT)", "photo": "/images/people/ana-soler.jpg" },
-    { "name": "MSc. Gabriela Burgueño Rodríguez", "title": "Asistente (Gdo 2, 40 hs/sem)", "photo": "/images/people/gabriela-burgueno-rodriguez.jpg" },
-    { "name": "Bach. Ignacio Rodríguez de Ávila", "title": "Ayudante (Gdo 1, 15 hs/sem)" }
+    {
+      "name": "Dra. Ana Soler",
+      "title": "Asistente (Gdo 2, 40 hs/sem, DT)",
+      "photo": "/images/people/ana-soler.jpg"
+    },
+    {
+      "name": "MSc. Gabriela Burgueño Rodríguez",
+      "title": "Asistente (Gdo 2, 40 hs/sem)",
+      "photo": "/images/people/gabriela-burgueno-rodriguez.jpg"
+    },
+    {
+      "name": "Bach. Ignacio Rodríguez de Ávila",
+      "title": "Ayudante (Gdo 1, 15 hs/sem)"
+    }
   ],
   "collaborators": [
     "Departamento de Antropología Biológica, Facultad de Humanidades y Ciencias de la Educación, Universidad de la República",
@@ -40,30 +58,71 @@
     "Soler AM, Schelotto M, de Oliveira Mota N, Dorta Ferreira R, Sonati MDF, da Luz JA. The–(α) 5.2 deletion detected in a Uruguayan family: first case report in the Americas. Hemoglobin. 2016;40(4):289-92. https://doi.org/10.1080/03630269.2016.1200072",
     "da Luz JA, Ávila A, Icasuriaga S, Gongóra M, Castillo L, Serrón A, et al. Frequency and spectrum of hemoglobinopathy mutations in a Uruguayan pediatric population. Genetics and molecular biology. 2013;36(3):316-22. https://doi.org/10.1590/S1415-47572013005000027"
   ],
-  "teaching": {
-    "es": [
-      "Genética General (2015-actualidad). Dictado de clases teóricas y seminarios teórico-prácticos de investigación. Coordinación desde 2015 a la fecha (Dr. Julio da Luz y Dra. Ana María Soler)",
-      "Introducción a las Ciencias Biológicas I (2015-actualidad). Dictado de clases teóricas y moderación de grupos de discusión. Coordinación desde 2016 (Dra. Ana María Soler)",
-      "Ciclo Básico Clínico Comunitario, Unidad Curricular 12: Digestivo, Renal, Endócrino, Metabolismo, Reproducción y Desarrollo (DREM) (2021-actualidad). Dictado de discusiones grupales",
-      "Ciclo de Metodología Científica II, Unidad Curricular 24 (2021-actualidad). Dictado de Proyecto de Investigación",
-      "Bases Biomoleculares I (2020-actualidad) y Bases Biomoleculares II (2019). Dictado de clases teóricas, discusiones grupales y prácticos de laboratorio",
-      "Introducción a las Ciencias Biológicas II (2014-2015). Dictado de seminarios",
-      "Bases Genéticas del Cáncer. PEDECIBA-Facultad de Ciencias y PROINBIO-Facultad de Medicina (2014-actualidad, posgrado)",
-      "Curso de Aplicación Diagnóstica de la Biología Molecular. Hospital de Clínicas - Facultad de Medicina (2017, 2023, posgrado)",
-      "Programa internacional en farmacogenómica y sus aplicaciones clínicas. Universidad de Costa Rica (2022, posgrado)"
-    ],
-    "en": [
-      "General Genetics (2015-present). Lectures and theoretical-practical research seminars. Coordinated from 2015 to date (Dr. Julio da Luz and Dra. Ana María Soler)",
-      "Introduction to Biological Sciences I (2015-present). Lectures and moderation of discussion groups. Coordinated since 2016 (Dra. Ana María Soler)",
-      "Basic Community Clinical Cycle, Curricular Unit 12: Digestive, Renal, Endocrine, Metabolism, Reproduction and Development (DREM) (2021-present). Group discussions",
-      "Scientific Methodology Cycle II, Curricular Unit 24 (2021-present). Research Project instruction",
-      "Biomolecular Foundations I (2020-present) and Biomolecular Foundations II (2019). Lectures, group discussions and laboratory practicals",
-      "Introduction to Biological Sciences II (2014-2015). Seminars",
-      "Genetic Bases of Cancer. PEDECIBA-Facultad de Ciencias and PROINBIO-Facultad de Medicina (2014-present, graduate)",
-      "Molecular Biology Diagnostic Applications Course. Hospital de Clínicas - Facultad de Medicina (2017, 2023, graduate)",
-      "International program in pharmacogenomics and its clinical applications. Universidad de Costa Rica (2022, graduate)"
-    ]
-  },
+  "teaching": [
+    {
+      "es": "Genética General (2015-actualidad). Dictado de clases teóricas y seminarios teórico-prácticos de investigación. Coordinación desde 2015 a la fecha (Dr. Julio da Luz y Dra. Ana María Soler)",
+      "en": "General Genetics (2015-present). Lectures and theoretical-practical research seminars. Coordinated from 2015 to date (Dr. Julio da Luz and Dra. Ana María Soler)",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a las Ciencias Biológicas I (2015-actualidad). Dictado de clases teóricas y moderación de grupos de discusión. Coordinación desde 2016 (Dra. Ana María Soler)",
+      "en": "Introduction to Biological Sciences I (2015-present). Lectures and moderation of discussion groups. Coordinated since 2016 (Dra. Ana María Soler)",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Ciclo Básico Clínico Comunitario, Unidad Curricular 12: Digestivo, Renal, Endócrino, Metabolismo, Reproducción y Desarrollo (DREM) (2021-actualidad). Dictado de discusiones grupales",
+      "en": "Basic Community Clinical Cycle, Curricular Unit 12: Digestive, Renal, Endocrine, Metabolism, Reproduction and Development (DREM) (2021-present). Group discussions",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Ciclo de Metodología Científica II, Unidad Curricular 24 (2021-actualidad). Dictado de Proyecto de Investigación",
+      "en": "Scientific Methodology Cycle II, Curricular Unit 24 (2021-present). Research Project instruction",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Bases Biomoleculares I (2020-actualidad) y Bases Biomoleculares II (2019). Dictado de clases teóricas, discusiones grupales y prácticos de laboratorio",
+      "en": "Biomolecular Foundations I (2020-present) and Biomolecular Foundations II (2019). Lectures, group discussions and laboratory practicals",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a las Ciencias Biológicas II (2014-2015). Dictado de seminarios",
+      "en": "Introduction to Biological Sciences II (2014-2015). Seminars",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Bases Genéticas del Cáncer. PEDECIBA-Facultad de Ciencias y PROINBIO-Facultad de Medicina (2014-actualidad, posgrado)",
+      "en": "Genetic Bases of Cancer. PEDECIBA-Facultad de Ciencias and PROINBIO-Facultad de Medicina (2014-present, graduate)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Curso de Aplicación Diagnóstica de la Biología Molecular. Hospital de Clínicas - Facultad de Medicina (2017, 2023, posgrado)",
+      "en": "Molecular Biology Diagnostic Applications Course. Hospital de Clínicas - Facultad de Medicina (2017, 2023, graduate)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Programa internacional en farmacogenómica y sus aplicaciones clínicas. Universidad de Costa Rica (2022, posgrado)",
+      "en": "International program in pharmacogenomics and its clinical applications. Universidad de Costa Rica (2022, graduate)",
+      "levels": [
+        "posgrado"
+      ]
+    }
+  ],
   "outreach": {
     "es": [
       "Tutorías de pasantía de investigación de estudiantes de cuarto año de profesorado del CERP, especialidad Ciencias Biológicas",

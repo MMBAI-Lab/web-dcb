@@ -24,18 +24,55 @@
     "imageAlt": "Research Platform, Salto campus",
     "factsTitle": "The DCB at a glance",
     "facts": [
-      { "value": "2014", "label": "Founded" },
-      { "value": "12", "label": "Research groups" },
-      { "value": "87", "label": "Members" },
-      { "value": "1", "label": "P3 biosafety lab, unique in Uruguay" }
+      {
+        "value": "2014",
+        "label": "Founded"
+      },
+      {
+        "value": "12",
+        "label": "Research groups"
+      },
+      {
+        "value": "87",
+        "label": "Members"
+      },
+      {
+        "value": "1",
+        "label": "P3 biosafety lab, unique in Uruguay"
+      }
     ],
     "sectionsTitle": "Explore the site",
     "sections": [
-      { "key": "about", "href": "/institucional", "title": "About", "description": "History, facilities, and governing committees of the Department." },
-      { "key": "research", "href": "/investigacion", "title": "Research", "description": "The DCB's 12 research groups and their principal investigators." },
-      { "key": "teaching", "href": "/ensenanza", "title": "Teaching", "description": "The Biology-Biochemistry Cycle (CBB) and the Bachelor's in Human Biology." },
-      { "key": "outreach", "href": "/extension", "title": "Outreach", "description": "Public engagement, seminars, and community outreach activities." },
-      { "key": "contact", "href": "/contacto", "title": "Contact", "description": "Addresses and phone numbers for the Salto and Paysandú campuses." }
+      {
+        "key": "about",
+        "href": "/institucional",
+        "title": "About",
+        "description": "History, facilities, and governing committees of the Department."
+      },
+      {
+        "key": "research",
+        "href": "/investigacion",
+        "title": "Research",
+        "description": "The DCB's 12 research groups and their principal investigators."
+      },
+      {
+        "key": "teaching",
+        "href": "/ensenanza",
+        "title": "Teaching",
+        "description": "The Biology-Biochemistry Cycle (CBB) and the Bachelor's in Human Biology."
+      },
+      {
+        "key": "outreach",
+        "href": "/extension",
+        "title": "Outreach",
+        "description": "Public engagement, seminars, and community outreach activities."
+      },
+      {
+        "key": "contact",
+        "href": "/contacto",
+        "title": "Contact",
+        "description": "Addresses and phone numbers for the Salto and Paysandú campuses."
+      }
     ]
   },
   "institucional": {
@@ -57,7 +94,10 @@
     "directorLabel": "Department Head",
     "director": "Dr. Julio da Luz (Human Molecular Genetics Lab)",
     "boardTitle": "Governing Board",
-    "boardTitulares": ["Dr. Ana María Soler (Human Molecular Genetics) — full member", "Dr. Matías Victoria (Molecular Virology) — full member"],
+    "boardTitulares": [
+      "Dr. Ana María Soler (Human Molecular Genetics) — full member",
+      "Dr. Matías Victoria (Molecular Virology) — full member"
+    ],
     "boardSuplentes": [
       "Dr. Ileana Corvo (R&D of Bioactive Molecules) — alternate",
       "Dr. Diego Queirolo (ECoFauna) — alternate",
@@ -65,7 +105,10 @@
       "Dr. María José Zuluaga (Biophysical Chemistry) — alternate"
     ],
     "budgetTitle": "Budget Subcommittee",
-    "budget": ["Mag. Ana Gabriela Sánchez (Biophysical Chemistry)", "Mag. Ana María Soler (Human Molecular Genetics)"],
+    "budget": [
+      "Mag. Ana Gabriela Sánchez (Biophysical Chemistry)",
+      "Mag. Ana María Soler (Human Molecular Genetics)"
+    ],
     "commsTitle": "Academic Communications Subcommittee",
     "comms": [
       "Mag. Gabriela Burgueño (Human Molecular Genetics)",
@@ -74,7 +117,10 @@
       "Lic. Ana Clara Segovia (R&D of Bioactive Molecules)"
     ],
     "supportTitle": "Laboratory Support Unit",
-    "support": ["Pablo Gómez", "Eugenia Moreira"],
+    "support": [
+      "Pablo Gómez",
+      "Eugenia Moreira"
+    ],
     "partnersTitle": "Academic partners",
     "partners": "Since 2015, the DCB has belonged to the interdisciplinary center CEINBIO (Espacio Interdisciplinario), directed by Dr. Rafael Radi, bringing together researchers from the Faculties of Medicine, Sciences, and Chemistry, and CENUR Litoral Norte at Universidad de la República, the Clemente Estable Institute, and the Pasteur Institute of Montevideo."
   },
@@ -96,11 +142,14 @@
     "publications": "Recent publications",
     "teaching": "Teaching",
     "outreach": "Outreach",
-    "contact": "Contact"
+    "contact": "Contact",
+    "level_grado": "Undergraduate",
+    "level_posgrado": "Graduate",
+    "level_otras": "Other"
   },
   "ensenanza": {
     "title": "Teaching",
-    "subtitle": "The Department of Biological Sciences runs the Biology-Biochemistry Cycle and contributes to a wide range of undergraduate, graduate, and continuing-education courses across Universidad de la República.",
+    "subtitle": "The DCB coordinates the Biology-Biochemistry Cycle (CBB) and, in the same way, the Biotechnology degree program, and teaches 51 undergraduate courses, 37 graduate courses, and 9 other instances (internships, continuing education, and network courses). Its faculty cover the Human Biology, Biochemistry, Biotechnology, and Biological Sciences degrees, the Doctor of Medicine and Doctor of Veterinary Science programs, Biological Engineering, Agricultural Engineering, Water Resources and Irrigation, and the CIO-CT and CIO-Salud entry cycles — within an academic network spanning UdelaR's Faculties of Sciences, Medicine, Veterinary Medicine, Agronomy, and Chemistry, plus PEDECIBA, ProInBio, ProMEF, ISEF, CeRP del Litoral, and international partners.",
     "cbbTitle": "Biology-Biochemistry Cycle (CBB)",
     "cbbDescription": "The Biology-Biochemistry Cycle offers foundational training in the biological sciences and biochemistry at the Paysandú and Salto campuses of CENUR Litoral Norte, taught by an outstanding faculty drawn from the Department's research groups. It is equivalent to 90 credits of first-year university study, recognized by Facultad de Ciencias toward the Bachelor's degrees in Biological Sciences and in Biochemistry in Montevideo, and regionally (Salto and Paysandú) toward the Bachelor's in Human Biology.",
     "areasTitle": "Curriculum — three training areas",
@@ -111,17 +160,51 @@
     ],
     "curriculumTitle": "Course sequence",
     "semester1Title": "First semester",
-    "semester1": ["Introduction to Biological Sciences I", "Fundamentals of Biochemistry and Biomolecular Basics", "Cell Biology", "Introduction to Scientific Methodology"],
+    "semester1": [
+      "Introduction to Biological Sciences I",
+      "Fundamentals of Biochemistry and Biomolecular Basics",
+      "Cell Biology",
+      "Introduction to Scientific Methodology"
+    ],
     "semester2Title": "Second semester",
-    "semester2": ["Introduction to Biological Sciences II", "Biophysics", "General Genetics", "Introduction to Animal Biology"],
+    "semester2": [
+      "Introduction to Biological Sciences II",
+      "Biophysics",
+      "General Genetics",
+      "Introduction to Animal Biology"
+    ],
     "coordTitle": "Coordination team",
-    "coord": ["Prof. Dr. R. Daniel Peluffo — Coordinator", "Lic. Ana Egaña — Coordination assistant", "Lic. Andrea Texo — Coordination aide", "Bach. Zoraima Artía"],
+    "coord": [
+      "Prof. Dr. R. Daniel Peluffo — Coordinator",
+      "Lic. Ana Egaña — Coordination assistant",
+      "Lic. Andrea Texo — Coordination aide",
+      "Bach. Zoraima Artía"
+    ],
     "cbbContactLabel": "CBB contact",
     "cbbContact": "ciclobiologiabioquimica@gmail.com",
     "lbhTitle": "Bachelor's in Human Biology",
     "lbh": "The Bachelor's in Human Biology (LBH) has been present at CENUR Litoral Norte since before its formal establishment in 2014, actively accompanying each stage of its creation. It is part of the Department of Biological Sciences, whose Academic Reference unit is Facultad de Ciencias. In Paysandú, the LBH works closely with teaching and research teams in the health field, and joined the working group that drafted the CIO-Salud proposal at the Paysandú University Center.",
     "lbhContactLabel": "LBH contact",
-    "lbhContact": "lbh.interior@gmail.com"
+    "lbhContact": "lbh.interior@gmail.com",
+    "docenciaTitle": "Teaching",
+    "docenciaIntro": "Courses taught by the DCB's research groups, grouped by level. Each course names the group that teaches it and links to its page.",
+    "formacionTitle": "Training",
+    "formacionIntro": "Theses and research stays currently under way within the DCB's groups. Each person links to their group's page.",
+    "level_grado": "Undergraduate",
+    "level_posgrado": "Graduate",
+    "level_otras": "Other",
+    "level_maestria": "Master's",
+    "level_doctorado": "Doctorate",
+    "level_posdoctorado": "Postdoctorate",
+    "statCoursesGrado": "Undergraduate courses",
+    "statCoursesPosgrado": "Graduate courses",
+    "statCoursesOtras": "Internships & continuing ed.",
+    "statTheses": "Theses under way",
+    "featuredLabel": "Coordinated by the DCB",
+    "biotecTitle": "Biotechnology degree program",
+    "biotec": "The DCB coordinates the Biotechnology degree program in the same way as the CBB, staffing it with faculty from its research groups. Several departmental courses — Molecular Biology and Introduction to Microbiology, among others — are taught jointly for the CBB, the Biotechnology degree, and the Human Biology degree, drawing on the research platform facilities at the Salto campus.",
+    "cioctTitle": "Optional Initial Cycle, Scientific-Technological Area (CIO-CT)",
+    "cioct": "The DCB also takes part in the CIO-CT, a one-year, 80-credit optional entry cycle taught in Salto and Paysandú that opens the way into scientific-technological degrees — Biology, Biochemistry, Biological Engineering, and Pharmaceutical Chemistry among them — and serves, alongside CIO-Salud, as the regional gateway into the Human Biology degree."
   },
   "extension": {
     "title": "Outreach",

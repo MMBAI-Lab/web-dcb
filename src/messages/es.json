@@ -24,18 +24,55 @@
     "imageAlt": "Plataforma de Investigación, sede Salto",
     "factsTitle": "El DCB en números",
     "facts": [
-      { "value": "2014", "label": "Año de creación" },
-      { "value": "12", "label": "Grupos de investigación" },
-      { "value": "87", "label": "Integrantes" },
-      { "value": "1", "label": "Laboratorio P3, único en Uruguay" }
+      {
+        "value": "2014",
+        "label": "Año de creación"
+      },
+      {
+        "value": "12",
+        "label": "Grupos de investigación"
+      },
+      {
+        "value": "87",
+        "label": "Integrantes"
+      },
+      {
+        "value": "1",
+        "label": "Laboratorio P3, único en Uruguay"
+      }
     ],
     "sectionsTitle": "Recorrer el sitio",
     "sections": [
-      { "key": "about", "href": "/institucional", "title": "Institucional", "description": "Historia, infraestructura y comisiones del Departamento." },
-      { "key": "research", "href": "/investigacion", "title": "Investigación", "description": "Los 12 grupos de investigación del DCB y sus responsables." },
-      { "key": "teaching", "href": "/ensenanza", "title": "Enseñanza", "description": "Ciclo Biología-Bioquímica (CBB) y Licenciatura en Biología Humana." },
-      { "key": "outreach", "href": "/extension", "title": "Extensión", "description": "Actividades de divulgación, seminarios y vínculo con la comunidad." },
-      { "key": "contact", "href": "/contacto", "title": "Contacto", "description": "Direcciones y teléfonos de las sedes Salto y Paysandú." }
+      {
+        "key": "about",
+        "href": "/institucional",
+        "title": "Institucional",
+        "description": "Historia, infraestructura y comisiones del Departamento."
+      },
+      {
+        "key": "research",
+        "href": "/investigacion",
+        "title": "Investigación",
+        "description": "Los 12 grupos de investigación del DCB y sus responsables."
+      },
+      {
+        "key": "teaching",
+        "href": "/ensenanza",
+        "title": "Enseñanza",
+        "description": "Ciclo Biología-Bioquímica (CBB) y Licenciatura en Biología Humana."
+      },
+      {
+        "key": "outreach",
+        "href": "/extension",
+        "title": "Extensión",
+        "description": "Actividades de divulgación, seminarios y vínculo con la comunidad."
+      },
+      {
+        "key": "contact",
+        "href": "/contacto",
+        "title": "Contacto",
+        "description": "Direcciones y teléfonos de las sedes Salto y Paysandú."
+      }
     ]
   },
   "institucional": {
@@ -57,7 +94,10 @@
     "directorLabel": "Dirección del Departamento",
     "director": "Dr. Julio da Luz (Laboratorio de Genética Molecular Humana)",
     "boardTitle": "Comisión Directiva",
-    "boardTitulares": ["Dra. Ana María Soler (Genética Molecular Humana)", "Dr. Matías Victoria (Virología Molecular)"],
+    "boardTitulares": [
+      "Dra. Ana María Soler (Genética Molecular Humana)",
+      "Dr. Matías Victoria (Virología Molecular)"
+    ],
     "boardSuplentes": [
       "Dra. Ileana Corvo (I+D de Moléculas Bioactivas)",
       "Dr. Diego Queirolo (ECoFauna)",
@@ -65,7 +105,10 @@
       "Dra. María José Zuluaga (Biofisicoquímica)"
     ],
     "budgetTitle": "Subcomisión de Presupuesto",
-    "budget": ["Mag. Ana Gabriela Sánchez (Biofisicoquímica)", "Mag. Ana María Soler (Genética Molecular Humana)"],
+    "budget": [
+      "Mag. Ana Gabriela Sánchez (Biofisicoquímica)",
+      "Mag. Ana María Soler (Genética Molecular Humana)"
+    ],
     "commsTitle": "Subcomisión de Comunicación Académica",
     "comms": [
       "Mag. Gabriela Burgueño (Genética Molecular Humana)",
@@ -74,7 +117,10 @@
       "Lic. Ana Clara Segovia (I+D de Moléculas Bioactivas)"
     ],
     "supportTitle": "Unidad de Apoyo a los Laboratorios",
-    "support": ["Pablo Gómez", "Eugenia Moreira"],
+    "support": [
+      "Pablo Gómez",
+      "Eugenia Moreira"
+    ],
     "partnersTitle": "Socios académicos",
     "partners": "El DCB pertenece desde 2015 al Centro Interdisciplinario CEINBIO (Espacio Interdisciplinario), dirigido por el Dr. Rafael Radi, integrado por investigadores de las Facultades de Medicina, Ciencias, Química y el CENUR Litoral Norte de la Universidad de la República, el Instituto Clemente Estable y el Institut Pasteur de Montevideo."
   },
@@ -96,11 +142,14 @@
     "publications": "Publicaciones recientes",
     "teaching": "Enseñanza",
     "outreach": "Extensión",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "level_grado": "Grado",
+    "level_posgrado": "Posgrado",
+    "level_otras": "Otras"
   },
   "ensenanza": {
     "title": "Enseñanza",
-    "subtitle": "El Departamento de Ciencias Biológicas es responsable del Ciclo Biología-Bioquímica y participa de una gran diversidad de cursos de grado, posgrado y de educación permanente para varias instituciones de la UdelaR.",
+    "subtitle": "El DCB coordina el Ciclo Biología-Bioquímica (CBB) y, de forma análoga, la Licenciatura en Biotecnología, y lleva adelante la docencia en 51 cursos de grado, 37 de posgrado y 9 instancias de otra naturaleza (pasantías, educación permanente y cursos de red). Sus docentes cubren la Licenciatura en Biología Humana, Bioquímica, Biotecnología, Ciencias Biológicas, las carreras de Doctor en Medicina y en Ciencias Veterinarias, Ingeniería Biológica, Ingeniería Agronómica, Recursos Hídricos y Riego, y los ciclos iniciales CIO-CT y CIO-Salud, en una red académica que integra a las Facultades de Ciencias, Medicina, Veterinaria, Agronomía y Química de la UdelaR, el PEDECIBA, ProInBio, ProMEF, el ISEF y el CeRP del Litoral, junto a socios internacionales.",
     "cbbTitle": "Ciclo Biología-Bioquímica (CBB)",
     "cbbDescription": "El Ciclo Biología Bioquímica se propone como una oferta académica que brinda formación básica de calidad en el área de las ciencias biológicas y bioquímica en las sedes Paysandú y Salto del CENUR Litoral Norte, dictada por un equipo de docentes de excelencia integrantes de los grupos de investigación del Departamento. Posee 90 créditos equivalentes a un primer año de formación terciaria universitaria, reconocidos por la Facultad de Ciencias para continuar los estudios en la Licenciatura en Ciencias Biológicas y en Bioquímica en Montevideo. A nivel regional (Salto y Paysandú), se puede continuar en la Licenciatura en Biología Humana.",
     "areasTitle": "Plan de estudios — tres áreas de formación",
@@ -111,17 +160,51 @@
     ],
     "curriculumTitle": "Currícula",
     "semester1Title": "Primer semestre",
-    "semester1": ["Introducción a las Ciencias Biológicas I", "Fundamentos de Bioquímica y Bases Biomoleculares", "Biología Celular", "Introducción a la Metodología Científica"],
+    "semester1": [
+      "Introducción a las Ciencias Biológicas I",
+      "Fundamentos de Bioquímica y Bases Biomoleculares",
+      "Biología Celular",
+      "Introducción a la Metodología Científica"
+    ],
     "semester2Title": "Segundo semestre",
-    "semester2": ["Introducción a las Ciencias Biológicas II", "Biofísica", "Genética General", "Introducción a la Biología Animal"],
+    "semester2": [
+      "Introducción a las Ciencias Biológicas II",
+      "Biofísica",
+      "Genética General",
+      "Introducción a la Biología Animal"
+    ],
     "coordTitle": "Equipo de coordinación",
-    "coord": ["Prof. Dr. R. Daniel Peluffo — Coordinador", "Lic. Ana Egaña — Asistente de coordinación", "Lic. Andrea Texo — Ayudante de coordinación", "Bach. Zoraima Artía"],
+    "coord": [
+      "Prof. Dr. R. Daniel Peluffo — Coordinador",
+      "Lic. Ana Egaña — Asistente de coordinación",
+      "Lic. Andrea Texo — Ayudante de coordinación",
+      "Bach. Zoraima Artía"
+    ],
     "cbbContactLabel": "Contacto del CBB",
     "cbbContact": "ciclobiologiabioquimica@gmail.com",
     "lbhTitle": "Licenciatura en Biología Humana",
     "lbh": "La Licenciatura en Biología Humana (LBH) está presente en el CENUR Litoral Norte desde antes de su conformación en 2014, acompañando activamente las etapas de su creación. Es parte del Departamento de Ciencias Biológicas, cuyo Servicio de Referencia Académica es la Facultad de Ciencias. En Paysandú, la LBH trabaja en estrecha relación con los equipos docentes y de investigación del área de la Salud, y se integró al grupo de trabajo que elaboró la propuesta del CIO-Salud del Centro Universitario de Paysandú.",
     "lbhContactLabel": "Contacto de la LBH",
-    "lbhContact": "lbh.interior@gmail.com"
+    "lbhContact": "lbh.interior@gmail.com",
+    "docenciaTitle": "Docencia",
+    "docenciaIntro": "Los cursos que dictan los grupos del DCB, agrupados por nivel. Cada curso indica el grupo que lo dicta y enlaza a su página.",
+    "formacionTitle": "Formación",
+    "formacionIntro": "Tesis y estancias en curso dentro de los grupos del DCB. Cada persona enlaza a la página de su grupo.",
+    "level_grado": "Grado",
+    "level_posgrado": "Posgrado",
+    "level_otras": "Otras",
+    "level_maestria": "Maestría",
+    "level_doctorado": "Doctorado",
+    "level_posdoctorado": "Posdoctorado",
+    "statCoursesGrado": "Cursos de grado",
+    "statCoursesPosgrado": "Cursos de posgrado",
+    "statCoursesOtras": "Pasantías y ed. permanente",
+    "statTheses": "Tesis en curso",
+    "featuredLabel": "Coordinado por el DCB",
+    "biotecTitle": "Licenciatura en Biotecnología",
+    "biotec": "El DCB coordina la Licenciatura en Biotecnología de forma análoga al CBB, aportando el cuerpo docente de sus grupos de investigación. Varios cursos del Departamento —Biología Molecular, Introducción a la Microbiología, entre otros— se dictan de forma conjunta para el CBB, la Licenciatura en Biotecnología y la Licenciatura en Biología Humana, aprovechando la infraestructura de la plataforma de investigación de la sede Salto.",
+    "cioctTitle": "Ciclo Inicial Optativo Científico-Tecnológico (CIO-CT)",
+    "cioct": "El DCB también participa del CIO-CT, un ciclo inicial optativo de un año y 80 créditos dictado en Salto y Paysandú, que habilita el ingreso a carreras del área científico-tecnológica —entre ellas Biología, Bioquímica, Ingeniería Biológica y Química Farmacéutica— y funciona, junto al CIO-Salud, como puerta de entrada regional a la Licenciatura en Biología Humana."
   },
   "extension": {
     "title": "Extensión",

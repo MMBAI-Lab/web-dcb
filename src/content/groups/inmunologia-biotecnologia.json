@@ -1,6 +1,9 @@
 {
   "slug": "inmunologia-biotecnologia",
-  "name": { "es": "Inmunología y Biotecnología (LIB)", "en": "Immunology and Biotechnology (LIB)" },
+  "name": {
+    "es": "Inmunología y Biotecnología (LIB)",
+    "en": "Immunology and Biotechnology (LIB)"
+  },
   "campus": "Salto",
   "email": null,
   "summary": {
@@ -17,32 +20,80 @@
     "photo": "/images/people/natalia-ruetalo.jpg"
   },
   "members": [
-    { "name": "Lic. MSc. Oscar Irabuena", "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)", "photo": "/images/people/oscar-irabuena.jpg" },
-    { "name": "Dra. María Hilda Avellanal", "title": "Asistente (Gdo 2, 30 hs/sem)", "photo": "/images/people/maria-hilda-avellanal.jpg" },
-    { "name": "Dra. Sabina Victoria", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, contratada)", "photo": "/images/people/sabina-victoria.jpg" }
+    {
+      "name": "Lic. MSc. Oscar Irabuena",
+      "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)",
+      "photo": "/images/people/oscar-irabuena.jpg"
+    },
+    {
+      "name": "Dra. María Hilda Avellanal",
+      "title": "Asistente (Gdo 2, 30 hs/sem)",
+      "photo": "/images/people/maria-hilda-avellanal.jpg"
+    },
+    {
+      "name": "Dra. Sabina Victoria",
+      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, contratada)",
+      "photo": "/images/people/sabina-victoria.jpg"
+    }
   ],
-  "teaching": {
-    "es": [
-      "Hemato-Inmunología, para Facultad de Medicina, CENUR Litoral Norte.",
-      "Inmunología, para Facultad de Veterinaria, CENUR Litoral Norte.",
-      "Biología Molecular, para Ciclo Biología Bioquímica y Licenciatura en Biotecnología, CENUR Litoral Norte.",
-      "Seminario en Introducción a la Biología II, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
-      "Introducción a la Microbiología, Ciclo Biología Bioquímica, Licenciatura en Biotecnología y Licenciatura en Biología Humana, CENUR Litoral Norte.",
-      "Introducción a la Biología Animal, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
-      "Metodología Científica, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
-      "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3) (posgrado, dic. 2025), CENUR Litoral Norte."
-    ],
-    "en": [
-      "Hemato-Immunology, for the Faculty of Medicine, CENUR Litoral Norte.",
-      "Immunology, for the Faculty of Veterinary Medicine, CENUR Litoral Norte.",
-      "Molecular Biology, for the Biology-Biochemistry track and the Biotechnology degree program, CENUR Litoral Norte.",
-      "Seminar in Introduction to Biology II, Biology-Biochemistry track, CENUR Litoral Norte.",
-      "Introduction to Microbiology, Biology-Biochemistry track, Biotechnology degree program, and Human Biology degree program, CENUR Litoral Norte.",
-      "Introduction to Animal Biology, Biology-Biochemistry track, CENUR Litoral Norte.",
-      "Scientific Methodology, Biology-Biochemistry track, CENUR Litoral Norte.",
-      "Virology: epidemiological aspects and the importance of the biosafety level 3 (BSL-3) laboratory (graduate course, Dec. 2025), CENUR Litoral Norte."
-    ]
-  },
+  "teaching": [
+    {
+      "es": "Hemato-Inmunología, para Facultad de Medicina, CENUR Litoral Norte.",
+      "en": "Hemato-Immunology, for the Faculty of Medicine, CENUR Litoral Norte.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Inmunología, para Facultad de Veterinaria, CENUR Litoral Norte.",
+      "en": "Immunology, for the Faculty of Veterinary Medicine, CENUR Litoral Norte.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biología Molecular, para Ciclo Biología Bioquímica y Licenciatura en Biotecnología, CENUR Litoral Norte.",
+      "en": "Molecular Biology, for the Biology-Biochemistry track and the Biotechnology degree program, CENUR Litoral Norte.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Seminario en Introducción a la Biología II, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
+      "en": "Seminar in Introduction to Biology II, Biology-Biochemistry track, CENUR Litoral Norte.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a la Microbiología, Ciclo Biología Bioquímica, Licenciatura en Biotecnología y Licenciatura en Biología Humana, CENUR Litoral Norte.",
+      "en": "Introduction to Microbiology, Biology-Biochemistry track, Biotechnology degree program, and Human Biology degree program, CENUR Litoral Norte.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a la Biología Animal, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
+      "en": "Introduction to Animal Biology, Biology-Biochemistry track, CENUR Litoral Norte.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Metodología Científica, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
+      "en": "Scientific Methodology, Biology-Biochemistry track, CENUR Litoral Norte.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3) (posgrado, dic. 2025), CENUR Litoral Norte.",
+      "en": "Virology: epidemiological aspects and the importance of the biosafety level 3 (BSL-3) laboratory (graduate course, Dec. 2025), CENUR Litoral Norte.",
+      "levels": [
+        "posgrado"
+      ]
+    }
+  ],
   "outreach": {
     "es": [
       "Proyecto \"Tacuabé\", en conjunto con la Unidad de Extensión sede Salto, la Facultad de Veterinaria y la dirección de la Unidad Carcelaria N.º 20 de Salto: programa de producción animal dirigido a personas privadas de libertad en la Unidad Carcelaria de Villa Constitución, Salto (2022 a la fecha).",

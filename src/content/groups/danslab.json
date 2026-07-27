@@ -1,6 +1,9 @@
 {
   "slug": "danslab",
-  "name": { "es": "Modelado Molecular, Bioinformática e IA (MMBAI)", "en": "Molecular Modeling, Bioinformatics, and AI (MMBAI)" },
+  "name": {
+    "es": "Modelado Molecular, Bioinformática e IA (MMBAI)",
+    "en": "Molecular Modeling, Bioinformatics, and AI (MMBAI)"
+  },
   "campus": "Salto",
   "email": "pdans@pasteur.edu.uy",
   "website": "https://www.danslab.xyz",
@@ -150,34 +153,86 @@
     "Traglia GM, Poudel M, Miño S, Canteros BI, Minsavage GV, Sharma A, et al. Xanthomonas citri pv. eucalyptorum strain 4866-2_S43 (formerly X. axonopodis pv. eucalyptorum): the causal agent of bacterial leaf blight on eucalypts recovered in Argentina. Access Microbiology. 2024;6(10):000827-v3. https://doi.org/10.1099/acmi.0.000827.v3",
     "Traglia GM, Pasteran F, Moheb S, Akhtar U, Gonzalez S, Maldonado C, et al. Insights into Acinetobacter baumannii AMA205's unprecedented antibiotic resistance. International Journal of Molecular Sciences. 2024;25(21):11424. https://doi.org/10.3390/ijms252111424"
   ],
-  "teaching": {
-    "es": [
-      "Escuela de Modelado de Biomoléculas (CELFI–MINCyT) — Universidad de Buenos Aires (Argentina, 2016–presente). Docente (2016–2022); docente y co-organizador (2022–presente).",
-      "Biofísica — Ciclo de Biología y Bioquímica (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2020–presente). Clases de resolución de problemas del módulo de Interacciones, Cooperatividad y Alosterismo desde 2020; clases teóricas y de resolución de problemas desde 2021.",
-      "Biofísica del ADN — CENUR Litoral Norte, Universidad de la República (Uruguay, 2021). Co-responsable; a cargo del módulo 'Aspectos estructurales y fisicoquímicos del ADN'.",
-      "Aspectos estructurales y fisicoquímicos del ADN — Universidad de Buenos Aires (Argentina, 2022). Curso de posgrado sobre las propiedades estructurales y fisicoquímicas del ADN.",
-      "Introducción a las Ciencias Biológicas, 1er semestre — Ciclo de Biología y Bioquímica (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2023–presente). Clase teórica y discusión grupal sobre 'el origen de la vida'.",
-      "Biofísica estructural de ácidos nucleicos — Universidad de Buenos Aires (Argentina, 2024). Clase teórica invitada.",
-      "Bioingeniería Molecular y Celular — Facultad de Ciencias, Universidad de la República (Uruguay, 2024–presente). Dos clases teóricas sobre estructura de ácidos nucleicos y replicación.",
-      "Biología Estructural en Medicina — CEINBIO, Facultad de Medicina, Universidad de la República (Uruguay, 2024). Clase teórica y práctico computacional sobre modelado multiescala de ácidos nucleicos.",
-      "Genómica — Ciclo de Biología y Bioquímica (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2024–presente). Dos clases teóricas y una discusión grupal sobre estructura y tamaño de los genomas.",
-      "Metodología Científica II — Facultad de Medicina, Universidad de la República (Uruguay, 2024–presente). Seguimiento anual de seis estudiantes en un trabajo de investigación, desde su concepción hasta el informe y póster final.",
-      "1er Curso Regional de Aptámeros — Red Iberoamericana de Aptámeros (REDIBA), Medellín (Colombia, 2024). Dos clases sobre biofísica de ácidos nucleicos y predicción de estructuras."
-    ],
-    "en": [
-      "Biomolecular Modeling School (CELFI–MINCyT) — University of Buenos Aires (Argentina, 2016–present). Lecturer (2016–2022); lecturer and co-organizer (2022–present).",
-      "Biophysics — Biology and Biochemistry Cycle (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2020–present). Problem-solving classes on the Interactions, Cooperativity and Allosterism module since 2020; lectures and problem-solving since 2021.",
-      "DNA Biophysics — CENUR Litoral Norte, Universidad de la República (Uruguay, 2021). Co-coordinator; in charge of the 'Structural and physicochemical aspects of DNA' module.",
-      "Structural and physicochemical aspects of DNA — University of Buenos Aires (Argentina, 2022). Postgraduate course on the structural and physicochemical properties of DNA.",
-      "Introduction to Biological Sciences, 1st semester — Biology and Biochemistry Cycle (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2023–present). Lecture and group discussion on 'the origin of life'.",
-      "Structural biophysics of nucleic acids — University of Buenos Aires (Argentina, 2024). Guest lecture.",
-      "Molecular and Cellular Bioengineering — Facultad de Ciencias, Universidad de la República (Uruguay, 2024–present). Two lectures on nucleic acid structure and replication.",
-      "Structural Biology in Medicine — CEINBIO, Facultad de Medicina, Universidad de la República (Uruguay, 2024). Lecture and computational practical on multiscale modeling of nucleic acids.",
-      "Genomics — Biology and Biochemistry Cycle (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2024–present). Two lectures and a group discussion on genome structure and size.",
-      "Scientific Methodology II — Facultad de Medicina, Universidad de la República (Uruguay, 2024–present). Year-long mentoring of six students through an original research project, from conception to final report and poster.",
-      "1st Regional Course on Aptamers — Iberoamerican Aptamer Network (REDIBA), Medellín (Colombia, 2024). Lectures on nucleic acid biophysics and structure prediction."
-    ]
-  },
+  "teaching": [
+    {
+      "es": "Escuela de Modelado de Biomoléculas (CELFI–MINCyT) — Universidad de Buenos Aires (Argentina, 2016–presente). Docente (2016–2022); docente y co-organizador (2022–presente).",
+      "en": "Biomolecular Modeling School (CELFI–MINCyT) — University of Buenos Aires (Argentina, 2016–present). Lecturer (2016–2022); lecturer and co-organizer (2022–present).",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Biofísica — Ciclo de Biología y Bioquímica (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2020–presente). Clases de resolución de problemas del módulo de Interacciones, Cooperatividad y Alosterismo desde 2020; clases teóricas y de resolución de problemas desde 2021.",
+      "en": "Biophysics — Biology and Biochemistry Cycle (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2020–present). Problem-solving classes on the Interactions, Cooperativity and Allosterism module since 2020; lectures and problem-solving since 2021.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biofísica del ADN — CENUR Litoral Norte, Universidad de la República (Uruguay, 2021). Co-responsable; a cargo del módulo 'Aspectos estructurales y fisicoquímicos del ADN'.",
+      "en": "DNA Biophysics — CENUR Litoral Norte, Universidad de la República (Uruguay, 2021). Co-coordinator; in charge of the 'Structural and physicochemical aspects of DNA' module.",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Aspectos estructurales y fisicoquímicos del ADN — Universidad de Buenos Aires (Argentina, 2022). Curso de posgrado sobre las propiedades estructurales y fisicoquímicas del ADN.",
+      "en": "Structural and physicochemical aspects of DNA — University of Buenos Aires (Argentina, 2022). Postgraduate course on the structural and physicochemical properties of DNA.",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Introducción a las Ciencias Biológicas, 1er semestre — Ciclo de Biología y Bioquímica (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2023–presente). Clase teórica y discusión grupal sobre 'el origen de la vida'.",
+      "en": "Introduction to Biological Sciences, 1st semester — Biology and Biochemistry Cycle (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2023–present). Lecture and group discussion on 'the origin of life'.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biofísica estructural de ácidos nucleicos — Universidad de Buenos Aires (Argentina, 2024). Clase teórica invitada.",
+      "en": "Structural biophysics of nucleic acids — University of Buenos Aires (Argentina, 2024). Guest lecture.",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Bioingeniería Molecular y Celular — Facultad de Ciencias, Universidad de la República (Uruguay, 2024–presente). Dos clases teóricas sobre estructura de ácidos nucleicos y replicación.",
+      "en": "Molecular and Cellular Bioengineering — Facultad de Ciencias, Universidad de la República (Uruguay, 2024–present). Two lectures on nucleic acid structure and replication.",
+      "levels": [
+        "grado",
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Biología Estructural en Medicina — CEINBIO, Facultad de Medicina, Universidad de la República (Uruguay, 2024). Clase teórica y práctico computacional sobre modelado multiescala de ácidos nucleicos.",
+      "en": "Structural Biology in Medicine — CEINBIO, Facultad de Medicina, Universidad de la República (Uruguay, 2024). Lecture and computational practical on multiscale modeling of nucleic acids.",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Genómica — Ciclo de Biología y Bioquímica (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2024–presente). Dos clases teóricas y una discusión grupal sobre estructura y tamaño de los genomas.",
+      "en": "Genomics — Biology and Biochemistry Cycle (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2024–present). Two lectures and a group discussion on genome structure and size.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Metodología Científica II — Facultad de Medicina, Universidad de la República (Uruguay, 2024–presente). Seguimiento anual de seis estudiantes en un trabajo de investigación, desde su concepción hasta el informe y póster final.",
+      "en": "Scientific Methodology II — Facultad de Medicina, Universidad de la República (Uruguay, 2024–present). Year-long mentoring of six students through an original research project, from conception to final report and poster.",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "1er Curso Regional de Aptámeros — Red Iberoamericana de Aptámeros (REDIBA), Medellín (Colombia, 2024). Dos clases sobre biofísica de ácidos nucleicos y predicción de estructuras.",
+      "en": "1st Regional Course on Aptamers — Iberoamerican Aptamer Network (REDIBA), Medellín (Colombia, 2024). Lectures on nucleic acid biophysics and structure prediction.",
+      "levels": [
+        "otras"
+      ]
+    }
+  ],
   "outreach": {
     "es": [
       "Entrevista en \"La mesa de los científicos\" (En Perspectiva, Radio Mundo): \"Los profesionales repatriados\", junto a la Dra. Luisa Berná y el Dr. Martín Reiris (setiembre 2020)",

@@ -1,6 +1,9 @@
 {
   "slug": "libiam",
-  "name": { "es": "Biomecánica y Análisis del Movimiento (LIBiAM)", "en": "Biomechanics and Movement Analysis (LIBiAM)" },
+  "name": {
+    "es": "Biomecánica y Análisis del Movimiento (LIBiAM)",
+    "en": "Biomechanics and Movement Analysis (LIBiAM)"
+  },
   "campus": "Paysandú",
   "email": null,
   "summary": {
@@ -20,21 +23,80 @@
     "photo": "/images/people/carlo-biancardi.jpg"
   },
   "members": [
-    { "name": "Dra. Renata Bona", "title": "Profesor Adjunto (Gdo 3, 40 hs/sem, DT)", "photo": "/images/people/renata-bona.jpg" },
-    { "name": "Dr. Artur Bonezi", "title": "", "photo": "/images/people/artur-bonezi.jpg" },
-    { "name": "MSc. Patricia Polero", "title": "Asistente (Gdo 2, 40 hs/sem)", "photo": "/images/people/patricia-polero.jpg" },
-    { "name": "Dr. Germán Pequera", "title": "Profesor Adjunto (Gdo 3, Ingeniería Biológica)", "photo": "/images/people/german-pequera.jpg" },
-    { "name": "MSc. Valentina Silva", "title": "Asistente (Gdo 2, 30 hs/sem, DT)", "photo": "/images/people/valentina-silva.jpg" },
-    { "name": "Josefa González", "title": "Estudiante de Posgrado, PEDECIBA", "photo": "/images/people/josefa-gonzalez.jpg" },
-    { "name": "Paula Radesca", "title": "Estudiante de Maestría Pro.In.Bio", "photo": "/images/people/paula-radesca.jpg" },
-    { "name": "Christian Schneider", "title": "", "photo": "/images/people/christian-schneider.jpg" },
-    { "name": "Mateo Rodrigues Zabala", "title": "Gdo 1, ISEF", "photo": "/images/people/mateo-rodrigues-zabala.jpg" },
-    { "name": "Vanessa Yelós", "title": "", "photo": "/images/people/vanessa-yelos.jpg" },
-    { "name": "Luis Parada", "title": "Estudiante de Doctorado", "photo": "/images/people/luis-parada.jpg" },
-    { "name": "MSc. Angelina Racedo", "title": "Ex Estudiante de Maestría Pro.In.Bio", "photo": "/images/people/angelina-racedo.jpg" },
-    { "name": "Dr. Matías De Pablo", "title": "Ex Estudiante de Doctorado Pro.In.Bio", "photo": "/images/people/matias-de-pablo.jpg" },
-    { "name": "MSc. Ramiro Chumino", "title": "Ex Estudiante de Maestría ProMEF (Gdo 2, ISEF)" },
-    { "name": "Dr. Gabriel Fábrica", "title": "G4, Unidad de Biofísica, Facultad de Medicina", "photo": "/images/people/gabriel-fabrica.jpg" }
+    {
+      "name": "Dra. Renata Bona",
+      "title": "Profesor Adjunto (Gdo 3, 40 hs/sem, DT)",
+      "photo": "/images/people/renata-bona.jpg"
+    },
+    {
+      "name": "Dr. Artur Bonezi",
+      "title": "",
+      "photo": "/images/people/artur-bonezi.jpg"
+    },
+    {
+      "name": "MSc. Patricia Polero",
+      "title": "Asistente (Gdo 2, 40 hs/sem)",
+      "photo": "/images/people/patricia-polero.jpg"
+    },
+    {
+      "name": "Dr. Germán Pequera",
+      "title": "Profesor Adjunto (Gdo 3, Ingeniería Biológica)",
+      "photo": "/images/people/german-pequera.jpg"
+    },
+    {
+      "name": "MSc. Valentina Silva",
+      "title": "Asistente (Gdo 2, 30 hs/sem, DT)",
+      "photo": "/images/people/valentina-silva.jpg"
+    },
+    {
+      "name": "Josefa González",
+      "title": "Estudiante de Posgrado, PEDECIBA",
+      "photo": "/images/people/josefa-gonzalez.jpg"
+    },
+    {
+      "name": "Paula Radesca",
+      "title": "Estudiante de Maestría Pro.In.Bio",
+      "photo": "/images/people/paula-radesca.jpg"
+    },
+    {
+      "name": "Christian Schneider",
+      "title": "",
+      "photo": "/images/people/christian-schneider.jpg"
+    },
+    {
+      "name": "Mateo Rodrigues Zabala",
+      "title": "Gdo 1, ISEF",
+      "photo": "/images/people/mateo-rodrigues-zabala.jpg"
+    },
+    {
+      "name": "Vanessa Yelós",
+      "title": "",
+      "photo": "/images/people/vanessa-yelos.jpg"
+    },
+    {
+      "name": "Luis Parada",
+      "title": "Estudiante de Doctorado",
+      "photo": "/images/people/luis-parada.jpg"
+    },
+    {
+      "name": "MSc. Angelina Racedo",
+      "title": "Ex Estudiante de Maestría Pro.In.Bio",
+      "photo": "/images/people/angelina-racedo.jpg"
+    },
+    {
+      "name": "Dr. Matías De Pablo",
+      "title": "Ex Estudiante de Doctorado Pro.In.Bio",
+      "photo": "/images/people/matias-de-pablo.jpg"
+    },
+    {
+      "name": "MSc. Ramiro Chumino",
+      "title": "Ex Estudiante de Maestría ProMEF (Gdo 2, ISEF)"
+    },
+    {
+      "name": "Dr. Gabriel Fábrica",
+      "title": "G4, Unidad de Biofísica, Facultad de Medicina",
+      "photo": "/images/people/gabriel-fabrica.jpg"
+    }
   ],
   "collaborators": [
     "Dr. Leonardo Lagos (Universidad de Concepción)",
@@ -87,44 +149,120 @@
     "Sanseverino MA, Pecchiari M, Bona RL, Berton DC, De Queiroz FB, Gruet M, et al. Limiting factors in walking performance of subjects with COPD. Respiratory Care. 2018;63(3):301-10.",
     "Bonezi A, Bona RL, Cantergi D, Loss J. Determinação da carga externa no Pilates: comparação do footwork na chair e no reformer. Ciência em Movimento. 2018;19(39):71-9."
   ],
-  "teaching": {
-    "es": [
-      "Introducción a la Biología Animal. Ciclo Biología-Bioquímica",
-      "Biofísica. Ciclo Biología-Bioquímica",
-      "Bases Histo-Anátomo-Funcionales Humanas. CIO Salud",
-      "Biomecánica. Ingeniería Biológica",
-      "Fisiología. Veterinaria",
-      "Histología general. Medicina",
-      "Biofísica del músculo y la marcha. Medicina",
-      "Seminario Tesina. Instituto Superior de Educación Física",
-      "Motricidad Deportiva. Instituto Superior de Educación Física",
-      "Fundamentos del Movimiento Humano/Cinesiología. Instituto Superior de Educación Física",
-      "Estudio del movimiento (posgrado, aprobado por PEDECIBA, 2023)",
-      "Biomecánica Aplicada a la Rehabilitación y el Deporte (posgrado). PEDECIBA, ProInBio, ProMEF",
-      "Biomecánica de la Locomoción en Mamíferos Cursoriales (posgrado). FVET",
-      "Biomecánica de la Rodilla (posgrado). ProInBio",
-      "Pasantía: Rutinas computacionales. Tecnólogo en Informática, sede Paysandú",
-      "Pasantía: Movilidad física y prevención de lesiones en adultos mayores. Instituto Superior de Educación Física"
-    ],
-    "en": [
-      "Introduction to Animal Biology. Biology-Biochemistry track",
-      "Biophysics. Biology-Biochemistry track",
-      "Human Histo-Anatomo-Functional Foundations. CIO Salud",
-      "Biomechanics. Biological Engineering",
-      "Physiology. Veterinary Medicine",
-      "General Histology. Medicine",
-      "Biophysics of Muscle and Gait. Medicine",
-      "Thesis Seminar. Instituto Superior de Educación Física (ISEF)",
-      "Sport Motor Skills. Instituto Superior de Educación Física (ISEF)",
-      "Fundamentals of Human Movement/Kinesiology. Instituto Superior de Educación Física (ISEF)",
-      "Movement Studies (graduate, PEDECIBA-approved, 2023)",
-      "Biomechanics Applied to Rehabilitation and Sport (graduate). PEDECIBA, ProInBio, ProMEF",
-      "Biomechanics of Locomotion in Cursorial Mammals (graduate). Faculty of Veterinary Medicine (FVET)",
-      "Knee Biomechanics (graduate). ProInBio",
-      "Internship: Computational routines. Information Technology degree, Paysandú campus",
-      "Internship: Physical mobility and injury prevention in older adults. Instituto Superior de Educación Física (ISEF)"
-    ]
-  },
+  "teaching": [
+    {
+      "es": "Introducción a la Biología Animal. Ciclo Biología-Bioquímica",
+      "en": "Introduction to Animal Biology. Biology-Biochemistry track",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biofísica. Ciclo Biología-Bioquímica",
+      "en": "Biophysics. Biology-Biochemistry track",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Bases Histo-Anátomo-Funcionales Humanas. CIO Salud",
+      "en": "Human Histo-Anatomo-Functional Foundations. CIO Salud",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biomecánica. Ingeniería Biológica",
+      "en": "Biomechanics. Biological Engineering",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Fisiología. Veterinaria",
+      "en": "Physiology. Veterinary Medicine",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Histología general. Medicina",
+      "en": "General Histology. Medicine",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biofísica del músculo y la marcha. Medicina",
+      "en": "Biophysics of Muscle and Gait. Medicine",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Seminario Tesina. Instituto Superior de Educación Física",
+      "en": "Thesis Seminar. Instituto Superior de Educación Física (ISEF)",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Motricidad Deportiva. Instituto Superior de Educación Física",
+      "en": "Sport Motor Skills. Instituto Superior de Educación Física (ISEF)",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Fundamentos del Movimiento Humano/Cinesiología. Instituto Superior de Educación Física",
+      "en": "Fundamentals of Human Movement/Kinesiology. Instituto Superior de Educación Física (ISEF)",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Estudio del movimiento (posgrado, aprobado por PEDECIBA, 2023)",
+      "en": "Movement Studies (graduate, PEDECIBA-approved, 2023)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Biomecánica Aplicada a la Rehabilitación y el Deporte (posgrado). PEDECIBA, ProInBio, ProMEF",
+      "en": "Biomechanics Applied to Rehabilitation and Sport (graduate). PEDECIBA, ProInBio, ProMEF",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Biomecánica de la Locomoción en Mamíferos Cursoriales (posgrado). FVET",
+      "en": "Biomechanics of Locomotion in Cursorial Mammals (graduate). Faculty of Veterinary Medicine (FVET)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Biomecánica de la Rodilla (posgrado). ProInBio",
+      "en": "Knee Biomechanics (graduate). ProInBio",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Pasantía: Rutinas computacionales. Tecnólogo en Informática, sede Paysandú",
+      "en": "Internship: Computational routines. Information Technology degree, Paysandú campus",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Pasantía: Movilidad física y prevención de lesiones en adultos mayores. Instituto Superior de Educación Física",
+      "en": "Internship: Physical mobility and injury prevention in older adults. Instituto Superior de Educación Física (ISEF)",
+      "levels": [
+        "otras"
+      ]
+    }
+  ],
   "outreach": {
     "es": [
       "¿Cómo puedo prevenir dolores durante el embarazo? (2022)",

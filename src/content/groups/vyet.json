@@ -1,6 +1,9 @@
 {
   "slug": "vyet",
-  "name": { "es": "Vectores y Enfermedades Transmitidas", "en": "Vectors and Vector-Borne Diseases" },
+  "name": {
+    "es": "Vectores y Enfermedades Transmitidas",
+    "en": "Vectors and Vector-Borne Diseases"
+  },
   "campus": "Salto",
   "email": "labvyet@gmail.com",
   "summary": {
@@ -17,10 +20,24 @@
     "photo": "/images/people/jose-manuel-venzal.jpg"
   },
   "members": [
-    { "name": "Sergio Bermúdez", "title": "Estudiante de Doctorado (PEDECIBA)" },
-    { "name": "DMTV. María Laura Félix", "title": "Asistente (Gdo 2, 40 hs/sem)", "photo": "/images/people/maria-laura-felix.jpg" },
-    { "name": "Valentín Bazzano", "title": "Estudiante de Maestría, Facultad de Veterinaria" },
-    { "name": "DCV Rodrigo Alvez", "title": "Asistente (Gdo 2, 40 hs/sem)", "photo": "/images/people/rodrigo-alvez.jpg" }
+    {
+      "name": "Sergio Bermúdez",
+      "title": "Estudiante de Doctorado (PEDECIBA)"
+    },
+    {
+      "name": "DMTV. María Laura Félix",
+      "title": "Asistente (Gdo 2, 40 hs/sem)",
+      "photo": "/images/people/maria-laura-felix.jpg"
+    },
+    {
+      "name": "Valentín Bazzano",
+      "title": "Estudiante de Maestría, Facultad de Veterinaria"
+    },
+    {
+      "name": "DCV Rodrigo Alvez",
+      "title": "Asistente (Gdo 2, 40 hs/sem)",
+      "photo": "/images/people/rodrigo-alvez.jpg"
+    }
   ],
   "publications": [
     "Félix ML, Muñoz-Leal S, Carvalho LA, Queirolo D, Remesar S, Armúa-Fernández MT, et al. Characterization of \"Candidatus Ehrlichia pampeana\" in Haemaphysalis juxtakochi ticks and gray brocket deer (Mazama gouazoubira) from Uruguay. Microorganisms. [Aceptado, en prensa].",
@@ -88,20 +105,41 @@
     "Buroni F, Armua-Fernandez MT, Nan F, Matto C, Venzal JM, Rivero R. Coenurosis bovina en Uruguay. Veterinaria (Montevideo). 2017;53(206):23-32.",
     "Carvalho L, Armua-Fernandez MT, Sosa N, Félix ML, Venzal JM. Anaplasma platys in dogs from Uruguay. Ticks and tick-born diseases. 2017;8(2):241-245."
   ],
-  "teaching": {
-    "es": [
-      "Curso curricular de Parasitología y Enfermedades Parasitarias. Carrera de Doctor en Ciencias Veterinarias, Facultad de Veterinaria, CENUR Litoral Norte - UdelaR",
-      "\"Introducción al diagnóstico molecular orientado fundamentalmente a parásitos\" (2021). Curso de posgrado, Facultad de Veterinaria, UdelaR, y del Instituto de Pesquisas Veterinárias Desidério Finamor, Programa de Pós-Graduação em Saúde Animal. Dictado online",
-      "\"Taxonomía y métodos de estudio de garrapatas y enfermedades transmitidas en el Cono Sur de América\" (2017). Curso de posgrado, Facultad de Veterinaria, UdelaR. Dictado en el CENUR Litoral Norte, Regional Norte",
-      "\"Diagnóstico molecular de enfermedades transmitidas por vectores de importancia médica y veterinaria\" (2017). Programa de posgrado de Facultad de Veterinaria, UdelaR y PEDECIBA. Dictado en el CENUR Litoral Norte, Regional Norte",
-      "Pasantía de estudiantes de profesorado de Biología del CeRP del Litoral"
-    ],
-    "en": [
-      "Curricular course in Parasitology and Parasitic Diseases. Doctor of Veterinary Science program, Facultad de Veterinaria, CENUR Litoral Norte - UdelaR",
-      "\"Introduction to Molecular Diagnostics Focused on Parasites\" (2021). Graduate course, Facultad de Veterinaria, UdelaR, and the Instituto de Pesquisas Veterinárias Desidério Finamor, Graduate Program in Animal Health. Taught online",
-      "\"Taxonomy and Study Methods for Ticks and Tick-Borne Diseases in the Southern Cone of America\" (2017). Graduate course, Facultad de Veterinaria, UdelaR. Taught at CENUR Litoral Norte, Regional Norte",
-      "\"Molecular Diagnosis of Vector-Borne Diseases of Medical and Veterinary Importance\" (2017). Graduate program, Facultad de Veterinaria, UdelaR and PEDECIBA. Taught at CENUR Litoral Norte, Regional Norte",
-      "Internship for students of the Biology Teacher Training Program, CeRP del Litoral"
-    ]
-  }
+  "teaching": [
+    {
+      "es": "Curso curricular de Parasitología y Enfermedades Parasitarias. Carrera de Doctor en Ciencias Veterinarias, Facultad de Veterinaria, CENUR Litoral Norte - UdelaR",
+      "en": "Curricular course in Parasitology and Parasitic Diseases. Doctor of Veterinary Science program, Facultad de Veterinaria, CENUR Litoral Norte - UdelaR",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "\"Introducción al diagnóstico molecular orientado fundamentalmente a parásitos\" (2021). Curso de posgrado, Facultad de Veterinaria, UdelaR, y del Instituto de Pesquisas Veterinárias Desidério Finamor, Programa de Pós-Graduação em Saúde Animal. Dictado online",
+      "en": "\"Introduction to Molecular Diagnostics Focused on Parasites\" (2021). Graduate course, Facultad de Veterinaria, UdelaR, and the Instituto de Pesquisas Veterinárias Desidério Finamor, Graduate Program in Animal Health. Taught online",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "\"Taxonomía y métodos de estudio de garrapatas y enfermedades transmitidas en el Cono Sur de América\" (2017). Curso de posgrado, Facultad de Veterinaria, UdelaR. Dictado en el CENUR Litoral Norte, Regional Norte",
+      "en": "\"Taxonomy and Study Methods for Ticks and Tick-Borne Diseases in the Southern Cone of America\" (2017). Graduate course, Facultad de Veterinaria, UdelaR. Taught at CENUR Litoral Norte, Regional Norte",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "\"Diagnóstico molecular de enfermedades transmitidas por vectores de importancia médica y veterinaria\" (2017). Programa de posgrado de Facultad de Veterinaria, UdelaR y PEDECIBA. Dictado en el CENUR Litoral Norte, Regional Norte",
+      "en": "\"Molecular Diagnosis of Vector-Borne Diseases of Medical and Veterinary Importance\" (2017). Graduate program, Facultad de Veterinaria, UdelaR and PEDECIBA. Taught at CENUR Litoral Norte, Regional Norte",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Pasantía de estudiantes de profesorado de Biología del CeRP del Litoral",
+      "en": "Internship for students of the Biology Teacher Training Program, CeRP del Litoral",
+      "levels": [
+        "otras"
+      ]
+    }
+  ]
 }

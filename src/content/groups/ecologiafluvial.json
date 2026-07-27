@@ -1,6 +1,9 @@
 {
   "slug": "ecologiafluvial",
-  "name": { "es": "Ecología Fluvial", "en": "Fluvial Ecology" },
+  "name": {
+    "es": "Ecología Fluvial",
+    "en": "Fluvial Ecology"
+  },
   "campus": "Paysandú",
   "email": null,
   "summary": {
@@ -22,14 +25,42 @@
     "Eje 4 – Análisis de la variabilidad hidrológica y climática: ANII FCE-1-2019-1-155715 (Responsable: Christine Lucas)",
     "Proyecto CSIC Grupos ID883452 2023-2027: \"Ecología de Ríos y Bosques en el Litoral Norte: La cuenca del Queguay como Modelo\" (Responsables: Christine Lucas e Iván González)"
   ],
-  "lead": { "name": "Dra. Christine Lucas", "title": "Profesora Adjunta, Responsable del grupo (Gdo 3, 40 hs/sem, DT)", "photo": "/images/people/christine-lucas.jpg" },
-  "coLead": { "name": "Dr. Iván González", "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)", "photo": "/images/people/ivan-gonzalez.jpg" },
+  "lead": {
+    "name": "Dra. Christine Lucas",
+    "title": "Profesora Adjunta, Responsable del grupo (Gdo 3, 40 hs/sem, DT)",
+    "photo": "/images/people/christine-lucas.jpg"
+  },
+  "coLead": {
+    "name": "Dr. Iván González",
+    "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)",
+    "photo": "/images/people/ivan-gonzalez.jpg"
+  },
   "members": [
-    { "name": "Lic. Ana Lucía Mary", "title": "Asistente (Gdo 2, 20 hs/sem)", "photo": "/images/people/ana-lucia-mary.jpg" },
-    { "name": "Bach. Anna Lucía Feris", "title": "Ayudante (Gdo 1, 20 hs/sem)", "photo": "/images/people/anna-lucia-feris.jpg" },
-    { "name": "MSc. Ivana Silva", "title": "Asistente (Gdo 2, 30 hs/sem), Estudiante de Doctorado PEDECIBA Biología", "photo": "/images/people/ivana-silva.jpg" },
-    { "name": "Tec. Wiston Albieni", "title": "", "photo": "/images/people/wiston-albieni.jpg" },
-    { "name": "MSc. Noelia Gobel", "title": "Gdo 2, 20 hs/sem", "photo": "/images/people/noelia-gobel.jpg" }
+    {
+      "name": "Lic. Ana Lucía Mary",
+      "title": "Asistente (Gdo 2, 20 hs/sem)",
+      "photo": "/images/people/ana-lucia-mary.jpg"
+    },
+    {
+      "name": "Bach. Anna Lucía Feris",
+      "title": "Ayudante (Gdo 1, 20 hs/sem)",
+      "photo": "/images/people/anna-lucia-feris.jpg"
+    },
+    {
+      "name": "MSc. Ivana Silva",
+      "title": "Asistente (Gdo 2, 30 hs/sem), Estudiante de Doctorado PEDECIBA Biología",
+      "photo": "/images/people/ivana-silva.jpg"
+    },
+    {
+      "name": "Tec. Wiston Albieni",
+      "title": "",
+      "photo": "/images/people/wiston-albieni.jpg"
+    },
+    {
+      "name": "MSc. Noelia Gobel",
+      "title": "Gdo 2, 20 hs/sem",
+      "photo": "/images/people/noelia-gobel.jpg"
+    }
   ],
   "students": [
     "MSc. Serrana Ambite (Estudiante de Doctorado, PEDECIBA-Biología, Beca ANII 2023-2026)",
@@ -41,7 +72,12 @@
     "Bach. Hiroyuki Kinoshita (Tesista de Grado, Licenciatura en Ciencias Biológicas)",
     "Bach. Sebastián Lucciano (Tesista de Grado, Licenciatura en Ciencias Biológicas)"
   ],
-  "collaborators": ["Dra. Anahí López", "MSc. Sofia Acosta", "MSc. Patricia Sandes", "Lic. Edgardo Bevilaqva"],
+  "collaborators": [
+    "Dra. Anahí López",
+    "MSc. Sofia Acosta",
+    "MSc. Patricia Sandes",
+    "Lic. Edgardo Bevilaqva"
+  ],
   "publications": [
     "Silva I, Brugnoli E, Mary-Lauyé AL, Cortondo Schuler FM, Feris AL, González-Bergonzoni I. Reproductive seasonality differs between contrasting morphotypes of Megaleporinus obtusidens (Teleostei: Characiformes) in lower Uruguay River. Boletín de la Sociedad Zoológica del Uruguay. 2025;34(1.3):1-13.",
     "Lucas C, Gamazo P, de los Santos L, Badagian J, Crossa M, Brum E, et al. Water thermal regime of river-floodplain systems in the Uruguay River Basin and influence of hydroclimatic factors. River Research and Applications. 2025. https://doi.org/10.1002/RRA.4440",
@@ -75,34 +111,87 @@
     "González-Bergonzoni I, D'Anatro A, Vidal N, Stebniki S, Tesitore G, Silva I, et al. Origin of fish biomass in a diverse subtropical river: An allochthonic-supported biomass increase following flood pulses. Ecosystems. 2019;22(8):1736-53.",
     "López-Rodríguez A, Silva I, de Ávila-Simas S, Stebniki S, Bastian R, Massaro MV, et al. Diets and trophic structure of fish assemblages in a large and unexplored subtropical river: The Uruguay River. Water. 2019;11(7):1374."
   ],
-  "teaching": {
-    "es": [
-      "Medioambiente y Calidad de Agua (Carrera Lic. Recursos Hídricos y Riego)",
-      "Ecología Ambiental Isotópica. Curso PEDECIBA áreas Biología y Geociencias, y de profundización de la Licenciatura en Ciencias Biológicas. Coordinación Dr. I. González y Dr. L. Bergamino.",
-      "Ecología Fluvial. Curso de posgrado de PEDECIBA área Biología, Facultad de Ciencias – UdelaR. Coord. G. Chalar. Docente Dra. Lucas (Teórico: 4 hs – Ecología de zonas ribereñas). Docente Dr. González (2 teóricos de 4 hs cada uno y sesiones prácticas de campo y laboratorio).",
-      "Métodos de Estudio en Ecología de Peces. Curso de posgrado de PEDECIBA área Biología, Facultad de Ciencias – UdelaR. Coord. A. D'Anatro. Docente Dr. González (2 teóricos de 4 hs y 1 sesión práctica de laboratorio).",
-      "Taller de Geociencias. Curso de posgrado de PEDECIBA área Geociencias, Facultad de Ciencias – UdelaR. Coord. Hugo Inda. Docente Dr. González (5 teóricos de 3 hs, 2 sesiones prácticas de laboratorio).",
-      "Teoría de la Diversidad. Curso de posgrado de PEDECIBA área Biología, Facultad de Ciencias – UdelaR. Coord. Matías Arim. Docente Dr. González (1 teórico de 2 hs).",
-      "Ecología y Conservación de Bosques. Curso semestral de posgrado (Maestría PEDECIBA área Biología, Subárea Ecología y Evolución; Maestría en Ciencias Ambientales) y de profundización (Ciencias Biológicas, Opción Ecología). Coord. Dr. Brazeiro.",
-      "Impacto del Uso de Fitosanitarios. Curso de Educación Permanente, creditizable para posgrados de PEDECIBA y Agronomía. Docentes Dr. González y MSc. Ivana Silva (Destinos ambientales de los fitosanitarios: Biota, 2019-2020; Efectos en la biota de ecosistemas acuáticos y biomonitoreos, 2020-2025).",
-      "Diversidad y Ecología de Peces - cuenca del río Uruguay (educación permanente).",
-      "Introducción a Sistemas de Información Geográfica (educación permanente).",
-      "Madera Nativa: Estudios y Aplicaciones (educación permanente)."
-    ],
-    "en": [
-      "Environment and Water Quality (Water Resources and Irrigation degree program).",
-      "Isotopic Environmental Ecology. PEDECIBA course in the Biology and Geosciences areas, and advanced elective for the Biological Sciences degree. Coordinated by Dr. I. González and Dr. L. Bergamino.",
-      "Fluvial Ecology. PEDECIBA graduate course, Biology area, Facultad de Ciencias – UdelaR. Coord. G. Chalar. Instructor Dra. Lucas (4-hour lecture on riparian zone ecology). Instructor Dr. González (two 4-hour lectures plus field and lab practical sessions).",
-      "Methods in Fish Ecology. PEDECIBA graduate course, Biology area, Facultad de Ciencias – UdelaR. Coord. A. D'Anatro. Instructor Dr. González (two 4-hour lectures and one lab practical session).",
-      "Geosciences Workshop. PEDECIBA graduate course, Geosciences area, Facultad de Ciencias – UdelaR. Coord. Hugo Inda. Instructor Dr. González (five 3-hour lectures, two lab practical sessions).",
-      "Diversity Theory. PEDECIBA graduate course, Biology area, Facultad de Ciencias – UdelaR. Coord. Matías Arim. Instructor Dr. González (one 2-hour lecture).",
-      "Forest Ecology and Conservation. Semester-long graduate course (PEDECIBA Master's in Biology, Ecology and Evolution subarea; Master's in Environmental Sciences) and advanced elective (Biological Sciences, Ecology track). Coord. Dr. Brazeiro.",
-      "Impact of Pesticide Use. Continuing-education course, creditable toward PEDECIBA and Agronomy graduate programs. Instructors Dr. González and MSc. Ivana Silva (Environmental fate of pesticides in biota, 2019-2020; Effects on aquatic ecosystem biota and biomonitoring, 2020-2025).",
-      "Diversity and Ecology of Fish - Uruguay River basin (continuing education).",
-      "Introduction to Geographic Information Systems (continuing education).",
-      "Native Wood: Studies and Applications (continuing education)."
-    ]
-  },
+  "teaching": [
+    {
+      "es": "Medioambiente y Calidad de Agua (Carrera Lic. Recursos Hídricos y Riego)",
+      "en": "Environment and Water Quality (Water Resources and Irrigation degree program).",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Ecología Ambiental Isotópica. Curso PEDECIBA áreas Biología y Geociencias, y de profundización de la Licenciatura en Ciencias Biológicas. Coordinación Dr. I. González y Dr. L. Bergamino.",
+      "en": "Isotopic Environmental Ecology. PEDECIBA course in the Biology and Geosciences areas, and advanced elective for the Biological Sciences degree. Coordinated by Dr. I. González and Dr. L. Bergamino.",
+      "levels": [
+        "grado",
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Ecología Fluvial. Curso de posgrado de PEDECIBA área Biología, Facultad de Ciencias – UdelaR. Coord. G. Chalar. Docente Dra. Lucas (Teórico: 4 hs – Ecología de zonas ribereñas). Docente Dr. González (2 teóricos de 4 hs cada uno y sesiones prácticas de campo y laboratorio).",
+      "en": "Fluvial Ecology. PEDECIBA graduate course, Biology area, Facultad de Ciencias – UdelaR. Coord. G. Chalar. Instructor Dra. Lucas (4-hour lecture on riparian zone ecology). Instructor Dr. González (two 4-hour lectures plus field and lab practical sessions).",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Métodos de Estudio en Ecología de Peces. Curso de posgrado de PEDECIBA área Biología, Facultad de Ciencias – UdelaR. Coord. A. D'Anatro. Docente Dr. González (2 teóricos de 4 hs y 1 sesión práctica de laboratorio).",
+      "en": "Methods in Fish Ecology. PEDECIBA graduate course, Biology area, Facultad de Ciencias – UdelaR. Coord. A. D'Anatro. Instructor Dr. González (two 4-hour lectures and one lab practical session).",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Taller de Geociencias. Curso de posgrado de PEDECIBA área Geociencias, Facultad de Ciencias – UdelaR. Coord. Hugo Inda. Docente Dr. González (5 teóricos de 3 hs, 2 sesiones prácticas de laboratorio).",
+      "en": "Geosciences Workshop. PEDECIBA graduate course, Geosciences area, Facultad de Ciencias – UdelaR. Coord. Hugo Inda. Instructor Dr. González (five 3-hour lectures, two lab practical sessions).",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Teoría de la Diversidad. Curso de posgrado de PEDECIBA área Biología, Facultad de Ciencias – UdelaR. Coord. Matías Arim. Docente Dr. González (1 teórico de 2 hs).",
+      "en": "Diversity Theory. PEDECIBA graduate course, Biology area, Facultad de Ciencias – UdelaR. Coord. Matías Arim. Instructor Dr. González (one 2-hour lecture).",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Ecología y Conservación de Bosques. Curso semestral de posgrado (Maestría PEDECIBA área Biología, Subárea Ecología y Evolución; Maestría en Ciencias Ambientales) y de profundización (Ciencias Biológicas, Opción Ecología). Coord. Dr. Brazeiro.",
+      "en": "Forest Ecology and Conservation. Semester-long graduate course (PEDECIBA Master's in Biology, Ecology and Evolution subarea; Master's in Environmental Sciences) and advanced elective (Biological Sciences, Ecology track). Coord. Dr. Brazeiro.",
+      "levels": [
+        "grado",
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Impacto del Uso de Fitosanitarios. Curso de Educación Permanente, creditizable para posgrados de PEDECIBA y Agronomía. Docentes Dr. González y MSc. Ivana Silva (Destinos ambientales de los fitosanitarios: Biota, 2019-2020; Efectos en la biota de ecosistemas acuáticos y biomonitoreos, 2020-2025).",
+      "en": "Impact of Pesticide Use. Continuing-education course, creditable toward PEDECIBA and Agronomy graduate programs. Instructors Dr. González and MSc. Ivana Silva (Environmental fate of pesticides in biota, 2019-2020; Effects on aquatic ecosystem biota and biomonitoring, 2020-2025).",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Diversidad y Ecología de Peces - cuenca del río Uruguay (educación permanente).",
+      "en": "Diversity and Ecology of Fish - Uruguay River basin (continuing education).",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Introducción a Sistemas de Información Geográfica (educación permanente).",
+      "en": "Introduction to Geographic Information Systems (continuing education).",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Madera Nativa: Estudios y Aplicaciones (educación permanente).",
+      "en": "Native Wood: Studies and Applications (continuing education).",
+      "levels": [
+        "otras"
+      ]
+    }
+  ],
   "outreach": {
     "es": [
       "Todo Tiene Su Ciencia, DCB (Paysandú-Salto) 2022-2025 – Semana de la Ciencia y la Tecnología",

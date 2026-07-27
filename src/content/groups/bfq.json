@@ -1,6 +1,9 @@
 {
   "slug": "bfq",
-  "name": { "es": "Biofisicoquímica", "en": "Biophysical Chemistry" },
+  "name": {
+    "es": "Biofisicoquímica",
+    "en": "Biophysical Chemistry"
+  },
   "campus": "Salto",
   "email": "polo.biofisicoquimica@gmail.com",
   "summary": {
@@ -23,16 +26,56 @@
     "photo": "/images/people/daniel-peluffo.png"
   },
   "members": [
-    { "name": "Dra. Laura Lafon-Hughes", "title": "Profesora Agregada (Gdo 4, 40 hs/sem)", "photo": "/images/people/laura-lafon-hughes.jpg" },
-    { "name": "Dra. María José Zuluaga", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)", "photo": "/images/people/maria-jose-zuluaga.jpg" },
-    { "name": "MSc. Ana G. Sánchez", "title": "Profesora Adjunta (Gdo 3, 40 hs/sem)", "photo": "/images/people/ana-sanchez.jpg" },
-    { "name": "Dra. Deborah Keszenman", "title": "Responsable del Lab. de Radiobiología Médica y Ambiental (Investigadora Honoraria)", "photo": "/images/people/deborah-keszenman.jpg" },
-    { "name": "Q.F. Adriana Gabrielli", "title": "Asistente (Gdo 2, 40 hs/sem)", "photo": "/images/people/adriana-gabrielli.jpg" },
-    { "name": "Prof. Pablo Alcoba", "title": "Estudiante de la Lic. en Biología Humana", "photo": "/images/people/pablo-alcoba.jpg" },
-    { "name": "Dra. Valentina Seballos", "title": "Ayudante (Gdo 1, 25 hs/sem)", "photo": "/images/people/valentina-seballos.jpg" },
-    { "name": "Lic. Macarena Menoni", "title": "Asistente (Gdo 2, 30 hs/sem)", "photo": "/images/people/macarena-menoni.jpg" },
-    { "name": "Lic. Natalia Ibargoyen", "title": "Técnica en instrumental de laboratorio (R12, 30 hs/sem)", "photo": "/images/people/natalia-ibargoyen.jpg" },
-    { "name": "Dra. Daniela Mejías", "title": "Estudiante de Posgrado (Maestría en Ciencias Biológicas, Gdo 1, 20 hs/sem)", "photo": "/images/people/daniela-mejias.jpg" }
+    {
+      "name": "Dra. Laura Lafon-Hughes",
+      "title": "Profesora Agregada (Gdo 4, 40 hs/sem)",
+      "photo": "/images/people/laura-lafon-hughes.jpg"
+    },
+    {
+      "name": "Dra. María José Zuluaga",
+      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)",
+      "photo": "/images/people/maria-jose-zuluaga.jpg"
+    },
+    {
+      "name": "MSc. Ana G. Sánchez",
+      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem)",
+      "photo": "/images/people/ana-sanchez.jpg"
+    },
+    {
+      "name": "Dra. Deborah Keszenman",
+      "title": "Responsable del Lab. de Radiobiología Médica y Ambiental (Investigadora Honoraria)",
+      "photo": "/images/people/deborah-keszenman.jpg"
+    },
+    {
+      "name": "Q.F. Adriana Gabrielli",
+      "title": "Asistente (Gdo 2, 40 hs/sem)",
+      "photo": "/images/people/adriana-gabrielli.jpg"
+    },
+    {
+      "name": "Prof. Pablo Alcoba",
+      "title": "Estudiante de la Lic. en Biología Humana",
+      "photo": "/images/people/pablo-alcoba.jpg"
+    },
+    {
+      "name": "Dra. Valentina Seballos",
+      "title": "Ayudante (Gdo 1, 25 hs/sem)",
+      "photo": "/images/people/valentina-seballos.jpg"
+    },
+    {
+      "name": "Lic. Macarena Menoni",
+      "title": "Asistente (Gdo 2, 30 hs/sem)",
+      "photo": "/images/people/macarena-menoni.jpg"
+    },
+    {
+      "name": "Lic. Natalia Ibargoyen",
+      "title": "Técnica en instrumental de laboratorio (R12, 30 hs/sem)",
+      "photo": "/images/people/natalia-ibargoyen.jpg"
+    },
+    {
+      "name": "Dra. Daniela Mejías",
+      "title": "Estudiante de Posgrado (Maestría en Ciencias Biológicas, Gdo 1, 20 hs/sem)",
+      "photo": "/images/people/daniela-mejias.jpg"
+    }
   ],
   "publications": [
     "Sánchez AG, Keszenman DJ, Peluffo RD. Purine, nucleoside, and DNA nitration by peroxynitrite: mechanistic considerations. Redox Biochemistry and Chemistry. 2024;8:100028. https://doi.org/10.1016/j.rbc.2024.100028",
@@ -53,34 +96,85 @@
     "Keszenman DJ, Kolodiuk L, Baulch J. DNA damage in cells exhibiting radiation-induced genomic instability. Mutagenesis. 2015;30:451-8. https://doi.org/10.1093/mutage/gev006",
     "Keszenman DJ, Germán P. Uruguay: traditional medicine usage of pitanga's leaves for medicinally valuable infusions is directing the search for potential chemotherapeutic agents against colon cancer. In: ABS is Genetic Resources for Sustainable Development. UNDP Global Environmental Finance Sustainable Development Cluster; 2018. p. 212-8."
   ],
-  "teaching": {
-    "es": [
-      "Biofísica. Ciclo Biología-Bioquímica",
-      "Bases Biomoleculares II. CIO Salud",
-      "Unidad Curricular 8: Biofísica del músculo y la locomoción. Carrera de Doctor en Medicina, CENUR Litoral Norte",
-      "Unidad Curricular 11: Cardiovascular y respiratorio. Carrera de Doctor en Medicina, CENUR Litoral Norte",
-      "Unidad Curricular 12: Digestivo, renal, endócrino, metabolismo, reproductor y desarrollo. Carrera de Doctor en Medicina, CENUR Litoral Norte",
-      "Biofísica de ADN (posgrado)",
-      "Biofísica de la radiación ultravioleta (UV) ambiental y de importancia biomédica: efectos fisicoquímicos y biológicos a nivel celular (posgrado)",
-      "Curso PEDECIBA: Daño genómico por agentes físicos. Aplicaciones y herramientas para su estudio (posgrado)",
-      "VIII Curso del Postgrado Latinoamericano en Biofísica (POSLATAM)",
-      "La transición de epitelio a mesénquima y su rol en la carcinogénesis (posgrado)",
-      "Pasantías de 4to año, Profesorado de Biología, CeRP Salto"
-    ],
-    "en": [
-      "Biophysics. Biology-Biochemistry track",
-      "Biomolecular Foundations II. CIO Salud",
-      "Curricular Unit 8: Muscle and Locomotion Biophysics. Doctor of Medicine program, CENUR Litoral Norte",
-      "Curricular Unit 11: Cardiovascular and Respiratory Systems. Doctor of Medicine program, CENUR Litoral Norte",
-      "Curricular Unit 12: Digestive, Renal, Endocrine, Metabolic, Reproductive and Developmental Systems. Doctor of Medicine program, CENUR Litoral Norte",
-      "DNA Biophysics (graduate)",
-      "Biophysics of Environmental and Biomedical Ultraviolet (UV) Radiation: physicochemical and cellular effects (graduate)",
-      "PEDECIBA course: Genomic Damage by Physical Agents — tools and applications for its study (graduate)",
-      "8th Latin American Postgraduate Course in Biophysics (POSLATAM)",
-      "Epithelial-to-mesenchymal transition and its role in carcinogenesis (graduate)",
-      "4th-year internships, Biology Teacher Training Program, CeRP Salto"
-    ]
-  },
+  "teaching": [
+    {
+      "es": "Biofísica. Ciclo Biología-Bioquímica",
+      "en": "Biophysics. Biology-Biochemistry track",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Bases Biomoleculares II. CIO Salud",
+      "en": "Biomolecular Foundations II. CIO Salud",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Unidad Curricular 8: Biofísica del músculo y la locomoción. Carrera de Doctor en Medicina, CENUR Litoral Norte",
+      "en": "Curricular Unit 8: Muscle and Locomotion Biophysics. Doctor of Medicine program, CENUR Litoral Norte",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Unidad Curricular 11: Cardiovascular y respiratorio. Carrera de Doctor en Medicina, CENUR Litoral Norte",
+      "en": "Curricular Unit 11: Cardiovascular and Respiratory Systems. Doctor of Medicine program, CENUR Litoral Norte",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Unidad Curricular 12: Digestivo, renal, endócrino, metabolismo, reproductor y desarrollo. Carrera de Doctor en Medicina, CENUR Litoral Norte",
+      "en": "Curricular Unit 12: Digestive, Renal, Endocrine, Metabolic, Reproductive and Developmental Systems. Doctor of Medicine program, CENUR Litoral Norte",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biofísica de ADN (posgrado)",
+      "en": "DNA Biophysics (graduate)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Biofísica de la radiación ultravioleta (UV) ambiental y de importancia biomédica: efectos fisicoquímicos y biológicos a nivel celular (posgrado)",
+      "en": "Biophysics of Environmental and Biomedical Ultraviolet (UV) Radiation: physicochemical and cellular effects (graduate)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Curso PEDECIBA: Daño genómico por agentes físicos. Aplicaciones y herramientas para su estudio (posgrado)",
+      "en": "PEDECIBA course: Genomic Damage by Physical Agents — tools and applications for its study (graduate)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "VIII Curso del Postgrado Latinoamericano en Biofísica (POSLATAM)",
+      "en": "8th Latin American Postgraduate Course in Biophysics (POSLATAM)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "La transición de epitelio a mesénquima y su rol en la carcinogénesis (posgrado)",
+      "en": "Epithelial-to-mesenchymal transition and its role in carcinogenesis (graduate)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Pasantías de 4to año, Profesorado de Biología, CeRP Salto",
+      "en": "4th-year internships, Biology Teacher Training Program, CeRP Salto",
+      "levels": [
+        "otras"
+      ]
+    }
+  ],
   "outreach": {
     "es": [
       "\"En qué nos metimos\": ciclo de entrevistas a investigadores del DCB en Radio La Regional",

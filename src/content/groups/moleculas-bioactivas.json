@@ -1,6 +1,9 @@
 {
   "slug": "moleculas-bioactivas",
-  "name": { "es": "Investigación y Desarrollo de Moléculas Bioactivas", "en": "R&D of Bioactive Molecules" },
+  "name": {
+    "es": "Investigación y Desarrollo de Moléculas Bioactivas",
+    "en": "R&D of Bioactive Molecules"
+  },
   "campus": "Paysandú",
   "email": null,
   "summary": {
@@ -16,13 +19,37 @@
     "title": "Profesor Agregado, Responsable del grupo (Gdo 4, 40 hs/sem, DT)",
     "photo": "/images/people/mauricio-cabrera.jpg"
   },
-  "coLead": { "name": "Dr. Guzmán Alvarez", "title": "", "photo": "/images/people/guzman-alvarez.jpg" },
+  "coLead": {
+    "name": "Dr. Guzmán Alvarez",
+    "title": "",
+    "photo": "/images/people/guzman-alvarez.jpg"
+  },
   "members": [
-    { "name": "Dra. Ileana Corvo", "title": "Profesora adjunta (Gdo 3, 40 hs/sem, DT)", "photo": "/images/people/ileana-corvo.jpg" },
-    { "name": "Dra. Lia Randall", "title": "Asistente (Gdo 2, 40 hs/sem, DT)", "photo": "/images/people/lia-randall.jpg" },
-    { "name": "MSc. Cintya Perdomo", "title": "Ayudante (Gdo 1, 30 hs/sem)", "photo": "/images/people/cintya-perdomo.jpg" },
-    { "name": "MSc. Tatiana Sapotiti", "title": "Asistente por proyecto, Estudiante de Doctorado", "photo": "/images/people/tatiana-sapotiti.jpg" },
-    { "name": "Lic. Zoraima Artía", "title": "Ayudante (Gdo 1, 35 hs/sem CIO Salud/CBB)", "photo": "/images/people/zoraima-artia.jpg" }
+    {
+      "name": "Dra. Ileana Corvo",
+      "title": "Profesora adjunta (Gdo 3, 40 hs/sem, DT)",
+      "photo": "/images/people/ileana-corvo.jpg"
+    },
+    {
+      "name": "Dra. Lia Randall",
+      "title": "Asistente (Gdo 2, 40 hs/sem, DT)",
+      "photo": "/images/people/lia-randall.jpg"
+    },
+    {
+      "name": "MSc. Cintya Perdomo",
+      "title": "Ayudante (Gdo 1, 30 hs/sem)",
+      "photo": "/images/people/cintya-perdomo.jpg"
+    },
+    {
+      "name": "MSc. Tatiana Sapotiti",
+      "title": "Asistente por proyecto, Estudiante de Doctorado",
+      "photo": "/images/people/tatiana-sapotiti.jpg"
+    },
+    {
+      "name": "Lic. Zoraima Artía",
+      "title": "Ayudante (Gdo 1, 35 hs/sem CIO Salud/CBB)",
+      "photo": "/images/people/zoraima-artia.jpg"
+    }
   ],
   "collaborators": [
     "University of Dundee, School of Life Sciences, Mark C. Field Lab (Reino Unido) — Elucidación del mecanismo de acción de compuestos con actividad tripanosomicida",
@@ -63,30 +90,71 @@
     "Ferraro F, Cabrera M, Alvarez G, Corvo I. Chapter 17: Drug targets: screening for small molecules that inhibit Fasciola hepatica enzymes. In: Fasciola hepatica Methods and Protocols. Methods Mol Biol. 2020;2137:221-31. https://doi.org/10.1007/978-1-0716-0475-5_17",
     "Alvarez G. Bioguided design of trypanosomicidal compounds: a successful strategy in drug discovery. In: Mavromoustakos T, Kellici TF, editors. Rational Drug Design: Methods and Protocols. Humana Press, Springer; 2018. https://doi.org/10.1007/978-1-4939-8630-9"
   ],
-  "teaching": {
-    "es": [
-      "Cursos de grado: Introducción a la vida universitaria, CENUR Litoral Norte",
-      "Cursos de grado: Universidad y Profesiones de la Salud, CIO Salud",
-      "Cursos de grado: Bases Biomoleculares, CIO Salud",
-      "Cursos de grado: Bases Biomoleculares II, CIO Salud",
-      "Cursos de grado: DREM-DR, 3er año Carrera de Dr. en Medicina",
-      "Cursos de grado: Metodología Científica 2, 6to año Carrera de Dr. en Medicina",
-      "Cursos de posgrado: Descubrimiento y desarrollo de medicamentos desde la academia, a desarrollarse en 2021",
-      "Cursos de posgrado: Abordaje ecotoxicológico de exposición a plaguicidas: bioensayos, herramientas bioquímicas y analíticas en organismos bioindicadores. Curso auspiciado por PEDECIBA-Química. CENUR Litoral Norte, Sede Paysandú, 2017",
-      "Cursos de posgrado: Desarrollo de terapias novedosas para la inflamación crónica. Curso internacional de posgrado teórico y práctico – CABBIO. Facultad de Ciencias, Universidad de la República, 2015"
-    ],
-    "en": [
-      "Undergraduate courses: Introduction to University Life, CENUR Litoral Norte",
-      "Undergraduate courses: University and Health Professions, CIO Salud",
-      "Undergraduate courses: Biomolecular Foundations, CIO Salud",
-      "Undergraduate courses: Biomolecular Foundations II, CIO Salud",
-      "Undergraduate courses: DREM-DR, 3rd year of the Doctor of Medicine program",
-      "Undergraduate courses: Scientific Methodology 2, 6th year of the Doctor of Medicine program",
-      "Graduate courses: Drug discovery and development from academia, to be held in 2021",
-      "Graduate courses: Ecotoxicological approach to pesticide exposure: bioassays and biochemical/analytical tools in bioindicator organisms. Course sponsored by PEDECIBA-Química. CENUR Litoral Norte, Paysandú campus, 2017",
-      "Graduate courses: Development of novel therapies for chronic inflammation. International theoretical-practical graduate course – CABBIO. Facultad de Ciencias, Universidad de la República, 2015"
-    ]
-  },
+  "teaching": [
+    {
+      "es": "Cursos de grado: Introducción a la vida universitaria, CENUR Litoral Norte",
+      "en": "Undergraduate courses: Introduction to University Life, CENUR Litoral Norte",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Cursos de grado: Universidad y Profesiones de la Salud, CIO Salud",
+      "en": "Undergraduate courses: University and Health Professions, CIO Salud",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Cursos de grado: Bases Biomoleculares, CIO Salud",
+      "en": "Undergraduate courses: Biomolecular Foundations, CIO Salud",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Cursos de grado: Bases Biomoleculares II, CIO Salud",
+      "en": "Undergraduate courses: Biomolecular Foundations II, CIO Salud",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Cursos de grado: DREM-DR, 3er año Carrera de Dr. en Medicina",
+      "en": "Undergraduate courses: DREM-DR, 3rd year of the Doctor of Medicine program",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Cursos de grado: Metodología Científica 2, 6to año Carrera de Dr. en Medicina",
+      "en": "Undergraduate courses: Scientific Methodology 2, 6th year of the Doctor of Medicine program",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Cursos de posgrado: Descubrimiento y desarrollo de medicamentos desde la academia, a desarrollarse en 2021",
+      "en": "Graduate courses: Drug discovery and development from academia, to be held in 2021",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Cursos de posgrado: Abordaje ecotoxicológico de exposición a plaguicidas: bioensayos, herramientas bioquímicas y analíticas en organismos bioindicadores. Curso auspiciado por PEDECIBA-Química. CENUR Litoral Norte, Sede Paysandú, 2017",
+      "en": "Graduate courses: Ecotoxicological approach to pesticide exposure: bioassays and biochemical/analytical tools in bioindicator organisms. Course sponsored by PEDECIBA-Química. CENUR Litoral Norte, Paysandú campus, 2017",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Cursos de posgrado: Desarrollo de terapias novedosas para la inflamación crónica. Curso internacional de posgrado teórico y práctico – CABBIO. Facultad de Ciencias, Universidad de la República, 2015",
+      "en": "Graduate courses: Development of novel therapies for chronic inflammation. International theoretical-practical graduate course – CABBIO. Facultad de Ciencias, Universidad de la República, 2015",
+      "levels": [
+        "posgrado"
+      ]
+    }
+  ],
   "outreach": {
     "es": [
       "Participación en el programa Zambullite en la Ciencia, Facultad de Ciencias UdelaR, con la actividad \"Explorando las sustancias medicinales\", donde 10 estudiantes de secundaria trabajaron en el laboratorio por 4 días en proyectos de investigación del grupo, 2020",

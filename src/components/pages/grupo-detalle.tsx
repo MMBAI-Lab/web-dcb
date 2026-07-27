@@ -5,7 +5,19 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
 import { asset } from "@/lib/asset";
-import type { ResearchGroup } from "@/content/groups";
+import type { ResearchGroup, TeachingLevel } from "@/content/groups";
+
+const teachingLevels: TeachingLevel[] = ["grado", "posgrado", "otras"];
+const levelAccent: Record<TeachingLevel, string> = {
+  grado: "text-teal",
+  posgrado: "text-gold",
+  otras: "text-crimson",
+};
+const levelDot: Record<TeachingLevel, string> = {
+  grado: "bg-teal",
+  posgrado: "bg-gold",
+  otras: "bg-crimson",
+};
 
 function PersonCard({
   name,
@@ -173,16 +185,29 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
         </Section>
       )}
 
-      {group.teaching && (
+      {group.teaching && group.teaching.length > 0 && (
         <Section title={t("teaching")}>
-          <ul className="max-w-2xl space-y-2 text-sm leading-relaxed text-foreground/75">
-            {group.teaching[locale].map((item, i) => (
-              <li key={i} className="flex gap-2">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal" />
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
+          <div className="max-w-2xl space-y-5">
+            {teachingLevels.map((level) => {
+              const entries = group.teaching!.filter((e) => e.levels.includes(level));
+              if (entries.length === 0) return null;
+              return (
+                <div key={level}>
+                  <h3 className={`text-xs font-semibold uppercase tracking-wide ${levelAccent[level]}`}>
+                    {t(`level_${level}`)}
+                  </h3>
+                  <ul className="mt-2 space-y-2 text-sm leading-relaxed text-foreground/75">
+                    {entries.map((entry, i) => (
+                      <li key={i} className="flex gap-2">
+                        <span className={`mt-2 h-1.5 w-1.5 shrink-0 rounded-full ${levelDot[level]}`} />
+                        <span>{entry[locale]}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
+          </div>
         </Section>
       )}
 

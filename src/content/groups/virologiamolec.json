@@ -1,6 +1,9 @@
 {
   "slug": "virologiamolec",
-  "name": { "es": "Virología Molecular", "en": "Molecular Virology" },
+  "name": {
+    "es": "Virología Molecular",
+    "en": "Molecular Virology"
+  },
   "campus": "Salto",
   "email": null,
   "summary": {
@@ -11,15 +14,46 @@
     "es": "El grupo de Virología Molecular, dirigido por el Prof. Titular Dr. Rodney Colina en la sede Salto, estudia virus de importancia para la salud humana, animal, vegetal y ambiental.\n\nEn salud humana se investiga el Virus del Papiloma Humano y los virus entéricos (Norovirus, Astrovirus y Rotavirus), la epidemiología y evolución de los enterovirus humanos, la variabilidad genética y evolución del virus de la Hepatitis C en Uruguay, y las virosis emergentes con impacto en la salud humana. Durante la pandemia de COVID-19 el grupo desarrolló ensayos de neutralización por reducción de placas (PRNT) para caracterizar anticuerpos neutralizantes de SARS-CoV-2 en pacientes que cursaron la enfermedad y en personas vacunadas, y aisló y tituló por Ensayo de Placas nuevos linajes y variantes (VOC Delta, Gamma, Ómicron) utilizados como virus de referencia en dichos ensayos, para lo cual cuenta con el primer Laboratorio de Bioseguridad Nivel 3 de Uruguay.\n\nEn salud animal se estudian virus que afectan la reproducción bovina, como el Virus de la Diarrea Viral Bovina (BVDV) y el Herpesvirus Bovino (BoHV); la caracterización molecular y evolutiva de virus de ganado bovino que impactan en la producción de carne y leche en Uruguay; los virus relacionados al Síndrome de Diarrea Neonatal (DNT) en terneros; y la dispersión ambiental de virus con impacto en la salud animal en establecimientos ganaderos, incluyendo Viral Discovery mediante herramientas de metagenómica a partir de muestras ambientales y clínicas asociadas al ganado bovino.\n\nEn virología ambiental se trabaja en la detección de virus gastroentéricos en aguas ambientales y en la evolución de virus emergentes con impacto en la salud humana, animal y vegetal.",
     "en": "The Molecular Virology group, led by Prof. Dr. Rodney Colina at the Salto campus, studies viruses of importance to human, animal, plant, and environmental health.\n\nIn human health, the group investigates Human Papillomavirus and enteric viruses (Norovirus, Astrovirus, and Rotavirus), the epidemiology and evolution of human enteroviruses, the genetic variability and evolution of the Hepatitis C virus in Uruguay, and emerging viral diseases with an impact on human health. During the COVID-19 pandemic the group developed plaque reduction neutralization tests (PRNT) to characterize neutralizing antibodies against SARS-CoV-2 in both convalescent and vaccinated individuals, and isolated and titrated by plaque assay new SARS-CoV-2 lineages and variants of concern (Delta, Gamma, Omicron) used as reference viruses in those assays, work carried out using Uruguay's first biosafety level 3 laboratory.\n\nIn animal health, the group studies viruses affecting bovine reproduction, such as Bovine Viral Diarrhea Virus (BVDV) and Bovine Herpesvirus (BoHV); the molecular and evolutionary characterization of cattle viruses that impact meat and milk production in Uruguay; viruses associated with Neonatal Diarrhea Syndrome in calves; and the environmental dispersion of viruses affecting animal health on Uruguayan livestock farms, including viral discovery through metagenomic tools applied to environmental and clinical samples from cattle.\n\nIn environmental virology, the group works on the detection of gastroenteric viruses in environmental waters and on the evolution of emerging viruses affecting human, animal, and plant health."
   },
-  "lead": { "name": "Dr. Rodney Colina", "title": "Responsable del grupo (Gdo 5, 40 hs/sem, DT)", "photo": "/images/people/rodney-colina.jpg" },
+  "lead": {
+    "name": "Dr. Rodney Colina",
+    "title": "Responsable del grupo (Gdo 5, 40 hs/sem, DT)",
+    "photo": "/images/people/rodney-colina.jpg"
+  },
   "members": [
-    { "name": "Dr. Matías Victoria", "title": "Profesor Agregado (Gdo 4, 40 hs/sem, DT)", "photo": "/images/people/matias-victoria.jpg" },
-    { "name": "Dr. Fernando López", "title": "Profesor Adjunto (Gdo 3, 40 hs/sem, DT)", "photo": "/images/people/fernando-lopez.jpg" },
-    { "name": "Dra. Leticia Maya", "title": "Asistente (Gdo 2, 40 hs/sem, DT)", "photo": "/images/people/leticia-maya.jpg" },
-    { "name": "Dr. Matías Castells", "title": "Asistente (Gdo 2, 40 hs/sem)", "photo": "/images/people/matias-castells.jpg" },
-    { "name": "Dr. Andrés Lizasoain", "title": "Ayudante (Gdo 1, 30 hs/sem)", "photo": "/images/people/andres-lizasoain.jpg" },
-    { "name": "MSc. Viviana Bortagaray", "title": "Estudiante de doctorado PEDECIBA", "photo": "/images/people/viviana-bortagaray.jpg" },
-    { "name": "Ing. Elec. Marcos Grilli", "title": "Ingeniero en electrónica (R12, 40 hs/sem)" }
+    {
+      "name": "Dr. Matías Victoria",
+      "title": "Profesor Agregado (Gdo 4, 40 hs/sem, DT)",
+      "photo": "/images/people/matias-victoria.jpg"
+    },
+    {
+      "name": "Dr. Fernando López",
+      "title": "Profesor Adjunto (Gdo 3, 40 hs/sem, DT)",
+      "photo": "/images/people/fernando-lopez.jpg"
+    },
+    {
+      "name": "Dra. Leticia Maya",
+      "title": "Asistente (Gdo 2, 40 hs/sem, DT)",
+      "photo": "/images/people/leticia-maya.jpg"
+    },
+    {
+      "name": "Dr. Matías Castells",
+      "title": "Asistente (Gdo 2, 40 hs/sem)",
+      "photo": "/images/people/matias-castells.jpg"
+    },
+    {
+      "name": "Dr. Andrés Lizasoain",
+      "title": "Ayudante (Gdo 1, 30 hs/sem)",
+      "photo": "/images/people/andres-lizasoain.jpg"
+    },
+    {
+      "name": "MSc. Viviana Bortagaray",
+      "title": "Estudiante de doctorado PEDECIBA",
+      "photo": "/images/people/viviana-bortagaray.jpg"
+    },
+    {
+      "name": "Ing. Elec. Marcos Grilli",
+      "title": "Ingeniero en electrónica (R12, 40 hs/sem)"
+    }
   ],
   "collaborators": [
     "Dirección de Laboratorios Veterinarios, Ministerio de Ganadería, Agricultura y Pesca (sedes Paysandú, Treinta y Tres y Montevideo)",
@@ -71,40 +105,106 @@
     "Lizasoain A, Mir D, Masachessi G, Farías A, Rodríguez-Osorio N, Victoria M, et al. Environmental surveillance through next-generation sequencing to unveil the diversity of human enteroviruses beyond the reported clinical cases. Viruses. 2021;13(1):120. https://doi.org/10.3390/v13010120",
     "Masachessi G, Prez VE, Michelena JF, Lizasoain A, Ferreyra LJ, Martínez LC, et al. Proposal of a pathway for enteric virus groups detection as indicators of faecal contamination to enhance the evaluation of microbiological quality in freshwater in Argentina. Sci Total Environ. 2021;760:143400. https://doi.org/10.1016/j.scitotenv.2020.143400"
   ],
-  "teaching": {
-    "es": [
-      "Biología Celular y Molecular (2018-actualidad). Ciclo Biología Bioquímica (CBB) y Ciclo Inicial Científico Tecnológico (CIO-CT), DCB. Curso a cargo del personal docente del Laboratorio de Virología Molecular, con clases teóricas y prácticas. Responsables: Dr. Rodney Colina y Dr. Matías Victoria",
-      "Introducción a las Ciencias Biológicas I (2011-actualidad). Clases teóricas y moderación de grupos de discusión. Coordinación en 2014: Dra. Leticia Maya",
-      "Introducción a las Ciencias Biológicas II (2012-actualidad). Clases teóricas y seminarios teórico-prácticos de investigación. Coordinación desde 2019: Dra. Leticia Maya",
-      "Bioquímica. Ingeniero Agrónomo, Facultad de Agronomía, CENUR Litoral Norte (docentes del laboratorio como invitados)",
-      "Microbiología. Doctor en Medicina Veterinaria, Facultad de Veterinaria, CENUR Litoral Norte (docentes del laboratorio como invitados)",
-      "Microbiología. Licenciatura en Laboratorio Clínico, Escuela Universitaria de Tecnología Médica, Facultad de Medicina, CENUR Litoral Norte (docentes del laboratorio como invitados)",
-      "Virología Molecular. Licenciatura en Ciencias Biológicas / Licenciatura en Bioquímica, Facultad de Ciencias (docentes del laboratorio como invitados)",
-      "Bases Biomoleculares II. Ciclo Inicial en Salud, Facultad de Medicina, CENUR Litoral Norte (docentes del laboratorio como invitados)",
-      "Virus de Interés para la Salud Humana, Animal y Vegetal. Curso PEDECIBA (2016, 2017 y desde 2018 con frecuencia cada dos años). Responsables: Dr. Matías Victoria y Dr. Rodney Colina (posgrado)",
-      "Biología Molecular de enfermedades virales. Programa de Desarrollo de las Ciencias Básicas, 2010 (posgrado, docentes del laboratorio como invitados)",
-      "Dinámica de las gastroenteritis de etiología viral. Posgraduación en Biología Molecular y Celular, Instituto Oswaldo Cruz, FIOCRUZ, Rio de Janeiro, Brasil, 2013 (posgrado, docentes del laboratorio como invitados)",
-      "Curso básico de filogenia y evolución de agentes virales. Programa de Desarrollo de las Ciencias Básicas, CENUR Litoral Norte, 2014 (posgrado, docentes del laboratorio como invitados)",
-      "Diarrea neonatal en terneros: abordajes diagnósticos. Programa de Desarrollo de las Ciencias Básicas, Instituto Nacional de Investigación Agropecuaria, La Estanzuela (2019-actualidad) (posgrado, docentes del laboratorio como invitados)",
-      "Virus en foco: Biología viral en el contexto animal, humano y ambiental. Programa de Desarrollo de las Ciencias Básicas, Facultad de Veterinaria, 2021 (posgrado, docentes del laboratorio como invitados)"
-    ],
-    "en": [
-      "Cell and Molecular Biology (2018-present). Biology-Biochemistry track (CBB) and Initial Scientific-Technological Cycle (CIO-CT), DCB. Course run by the Molecular Virology Laboratory's teaching staff, with lectures and practicals. Course leaders: Dr. Rodney Colina and Dr. Matías Victoria",
-      "Introduction to Biological Sciences I (2011-present). Lectures and moderation of discussion groups. Coordinated in 2014 by Dr. Leticia Maya",
-      "Introduction to Biological Sciences II (2012-present). Lectures and research theory-practice seminars. Coordinated since 2019 by Dr. Leticia Maya",
-      "Biochemistry. Agricultural Engineering program, Faculty of Agronomy, CENUR Litoral Norte (guest lecturers from the laboratory)",
-      "Microbiology. Doctor of Veterinary Medicine program, Faculty of Veterinary Sciences, CENUR Litoral Norte (guest lecturers from the laboratory)",
-      "Microbiology. Clinical Laboratory degree, University School of Medical Technology, Faculty of Medicine, CENUR Litoral Norte (guest lecturers from the laboratory)",
-      "Molecular Virology. Biological Sciences / Biochemistry degrees, Faculty of Sciences (guest lecturers from the laboratory)",
-      "Biomolecular Foundations II. Initial Health Cycle, Faculty of Medicine, CENUR Litoral Norte (guest lecturers from the laboratory)",
-      "Viruses of Interest to Human, Animal, and Plant Health. PEDECIBA course (2016, 2017, and every two years from 2018 on). Course leaders: Dr. Matías Victoria and Dr. Rodney Colina (graduate)",
-      "Molecular Biology of Viral Diseases. Basic Sciences Development Program, 2010 (graduate, guest lecturers from the laboratory)",
-      "Dynamics of Viral Gastroenteritis. Graduate Program in Molecular and Cell Biology, Oswaldo Cruz Institute, FIOCRUZ, Rio de Janeiro, Brazil, 2013 (graduate, guest lecturers from the laboratory)",
-      "Basic Course on Phylogeny and Evolution of Viral Agents. Basic Sciences Development Program, CENUR Litoral Norte, 2014 (graduate, guest lecturers from the laboratory)",
-      "Neonatal Diarrhea in Calves: Diagnostic Approaches. Basic Sciences Development Program, National Institute for Agricultural Research, La Estanzuela (2019-present) (graduate, guest lecturers from the laboratory)",
-      "Viruses in Focus: Viral Biology in Animal, Human, and Environmental Contexts. Basic Sciences Development Program, Faculty of Veterinary Sciences, 2021 (graduate, guest lecturers from the laboratory)"
-    ]
-  },
+  "teaching": [
+    {
+      "es": "Biología Celular y Molecular (2018-actualidad). Ciclo Biología Bioquímica (CBB) y Ciclo Inicial Científico Tecnológico (CIO-CT), DCB. Curso a cargo del personal docente del Laboratorio de Virología Molecular, con clases teóricas y prácticas. Responsables: Dr. Rodney Colina y Dr. Matías Victoria",
+      "en": "Cell and Molecular Biology (2018-present). Biology-Biochemistry track (CBB) and Initial Scientific-Technological Cycle (CIO-CT), DCB. Course run by the Molecular Virology Laboratory's teaching staff, with lectures and practicals. Course leaders: Dr. Rodney Colina and Dr. Matías Victoria",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a las Ciencias Biológicas I (2011-actualidad). Clases teóricas y moderación de grupos de discusión. Coordinación en 2014: Dra. Leticia Maya",
+      "en": "Introduction to Biological Sciences I (2011-present). Lectures and moderation of discussion groups. Coordinated in 2014 by Dr. Leticia Maya",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a las Ciencias Biológicas II (2012-actualidad). Clases teóricas y seminarios teórico-prácticos de investigación. Coordinación desde 2019: Dra. Leticia Maya",
+      "en": "Introduction to Biological Sciences II (2012-present). Lectures and research theory-practice seminars. Coordinated since 2019 by Dr. Leticia Maya",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Bioquímica. Ingeniero Agrónomo, Facultad de Agronomía, CENUR Litoral Norte (docentes del laboratorio como invitados)",
+      "en": "Biochemistry. Agricultural Engineering program, Faculty of Agronomy, CENUR Litoral Norte (guest lecturers from the laboratory)",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Microbiología. Doctor en Medicina Veterinaria, Facultad de Veterinaria, CENUR Litoral Norte (docentes del laboratorio como invitados)",
+      "en": "Microbiology. Doctor of Veterinary Medicine program, Faculty of Veterinary Sciences, CENUR Litoral Norte (guest lecturers from the laboratory)",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Microbiología. Licenciatura en Laboratorio Clínico, Escuela Universitaria de Tecnología Médica, Facultad de Medicina, CENUR Litoral Norte (docentes del laboratorio como invitados)",
+      "en": "Microbiology. Clinical Laboratory degree, University School of Medical Technology, Faculty of Medicine, CENUR Litoral Norte (guest lecturers from the laboratory)",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Virología Molecular. Licenciatura en Ciencias Biológicas / Licenciatura en Bioquímica, Facultad de Ciencias (docentes del laboratorio como invitados)",
+      "en": "Molecular Virology. Biological Sciences / Biochemistry degrees, Faculty of Sciences (guest lecturers from the laboratory)",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Bases Biomoleculares II. Ciclo Inicial en Salud, Facultad de Medicina, CENUR Litoral Norte (docentes del laboratorio como invitados)",
+      "en": "Biomolecular Foundations II. Initial Health Cycle, Faculty of Medicine, CENUR Litoral Norte (guest lecturers from the laboratory)",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Virus de Interés para la Salud Humana, Animal y Vegetal. Curso PEDECIBA (2016, 2017 y desde 2018 con frecuencia cada dos años). Responsables: Dr. Matías Victoria y Dr. Rodney Colina (posgrado)",
+      "en": "Viruses of Interest to Human, Animal, and Plant Health. PEDECIBA course (2016, 2017, and every two years from 2018 on). Course leaders: Dr. Matías Victoria and Dr. Rodney Colina (graduate)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Biología Molecular de enfermedades virales. Programa de Desarrollo de las Ciencias Básicas, 2010 (posgrado, docentes del laboratorio como invitados)",
+      "en": "Molecular Biology of Viral Diseases. Basic Sciences Development Program, 2010 (graduate, guest lecturers from the laboratory)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Dinámica de las gastroenteritis de etiología viral. Posgraduación en Biología Molecular y Celular, Instituto Oswaldo Cruz, FIOCRUZ, Rio de Janeiro, Brasil, 2013 (posgrado, docentes del laboratorio como invitados)",
+      "en": "Dynamics of Viral Gastroenteritis. Graduate Program in Molecular and Cell Biology, Oswaldo Cruz Institute, FIOCRUZ, Rio de Janeiro, Brazil, 2013 (graduate, guest lecturers from the laboratory)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Curso básico de filogenia y evolución de agentes virales. Programa de Desarrollo de las Ciencias Básicas, CENUR Litoral Norte, 2014 (posgrado, docentes del laboratorio como invitados)",
+      "en": "Basic Course on Phylogeny and Evolution of Viral Agents. Basic Sciences Development Program, CENUR Litoral Norte, 2014 (graduate, guest lecturers from the laboratory)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Diarrea neonatal en terneros: abordajes diagnósticos. Programa de Desarrollo de las Ciencias Básicas, Instituto Nacional de Investigación Agropecuaria, La Estanzuela (2019-actualidad) (posgrado, docentes del laboratorio como invitados)",
+      "en": "Neonatal Diarrhea in Calves: Diagnostic Approaches. Basic Sciences Development Program, National Institute for Agricultural Research, La Estanzuela (2019-present) (graduate, guest lecturers from the laboratory)",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Virus en foco: Biología viral en el contexto animal, humano y ambiental. Programa de Desarrollo de las Ciencias Básicas, Facultad de Veterinaria, 2021 (posgrado, docentes del laboratorio como invitados)",
+      "en": "Viruses in Focus: Viral Biology in Animal, Human, and Environmental Contexts. Basic Sciences Development Program, Faculty of Veterinary Sciences, 2021 (graduate, guest lecturers from the laboratory)",
+      "levels": [
+        "posgrado"
+      ]
+    }
+  ],
   "outreach": {
     "es": [
       "Tutorías de pasantía de investigación de estudiantes de cuarto año de profesorado del CERP, especialidad Ciencias Biológicas",

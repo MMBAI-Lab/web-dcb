@@ -13,6 +13,10 @@ import vyet from "./vyet.json";
 
 export type Member = { name: string; title: string; photo?: string | null };
 
+/** Which academic level(s) a course/teaching entry counts toward. */
+export type TeachingLevel = "grado" | "posgrado" | "otras";
+export type TeachingEntry = { es: string; en: string; levels: TeachingLevel[] };
+
 export type ResearchGroup = {
   slug: string;
   name: { es: string; en: string };
@@ -30,7 +34,8 @@ export type ResearchGroup = {
   collaborators?: string[];
   /** Recent publication citations, kept as-is (not translated). */
   publications?: string[];
-  teaching?: { es: string[]; en: string[] };
+  /** Each entry tagged with the academic level(s) it counts toward — see Enseñanza. */
+  teaching?: TeachingEntry[];
   outreach?: { es: string[]; en: string[] };
   image?: string;
   /** The group's own logo, if it has one distinct from the DCB branding. */
@@ -41,7 +46,10 @@ export type ResearchGroup = {
 };
 
 // Display order matches the original site's Investigación page.
-export const researchGroups: ResearchGroup[] = [
+// Cast because TS widens JSON string literals to `string`, so teaching
+// `levels` can't satisfy the TeachingLevel union on its own; the migration
+// script is what guarantees those values are valid.
+export const researchGroups = [
   bfq,
   danslab,
   libiam,
@@ -54,4 +62,4 @@ export const researchGroups: ResearchGroup[] = [
   rumiantes,
   virologiamolec,
   vyet,
-];
+] as ResearchGroup[];
