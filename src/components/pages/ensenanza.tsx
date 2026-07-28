@@ -4,6 +4,12 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
 import { pick } from "@/lib/i18n-content";
+import {
+  BookIcon,
+  BriefcaseIcon,
+  GraduationCapIcon,
+  ThesisIcon,
+} from "@/components/ui/fact-icons";
 import { researchGroups, type TeachingLevel } from "@/content/groups";
 import { formacionLevels, getFormacion, type FormacionLevel } from "@/lib/formacion";
 
@@ -81,10 +87,34 @@ export function Ensenanza() {
   const coord = t.raw("coord") as string[];
 
   const stats = [
-    { value: coursesByLevel.grado.length, label: t("statCoursesGrado"), accent: "text-teal" },
-    { value: coursesByLevel.posgrado.length, label: t("statCoursesPosgrado"), accent: "text-gold" },
-    { value: coursesByLevel.otras.length, label: t("statCoursesOtras"), accent: "text-crimson" },
-    { value: thesisCount, label: t("statTheses"), accent: "text-teal" },
+    {
+      value: coursesByLevel.grado.length,
+      label: t("statCoursesGrado"),
+      accent: "text-teal",
+      badge: "bg-teal/10",
+      Icon: BookIcon,
+    },
+    {
+      value: coursesByLevel.posgrado.length,
+      label: t("statCoursesPosgrado"),
+      accent: "text-gold",
+      badge: "bg-gold/10",
+      Icon: GraduationCapIcon,
+    },
+    {
+      value: coursesByLevel.otras.length,
+      label: t("statCoursesOtras"),
+      accent: "text-crimson",
+      badge: "bg-crimson/10",
+      Icon: BriefcaseIcon,
+    },
+    {
+      value: thesisCount,
+      label: t("statTheses"),
+      accent: "text-teal",
+      badge: "bg-teal/10",
+      Icon: ThesisIcon,
+    },
   ];
 
   return (
@@ -92,10 +122,15 @@ export function Ensenanza() {
       {/* Stats strip */}
       <Reveal>
         <div className="grid grid-cols-2 gap-4 rounded-2xl border border-border bg-surface p-6 sm:grid-cols-4">
-          {stats.map((stat) => (
-            <div key={stat.label} className="text-center">
-              <p className={`font-serif text-4xl font-medium ${stat.accent}`}>{stat.value}</p>
-              <p className="mt-1 text-xs uppercase tracking-wide text-foreground/55">{stat.label}</p>
+          {stats.map(({ value, label, accent, badge, Icon }) => (
+            <div key={label} className="flex flex-col items-center text-center">
+              <span
+                className={`mb-2 flex h-11 w-11 items-center justify-center rounded-full ${badge} ${accent}`}
+              >
+                <Icon className="h-6 w-6" />
+              </span>
+              <p className={`font-serif text-4xl font-medium ${accent}`}>{value}</p>
+              <p className="mt-1 text-xs uppercase tracking-wide text-foreground/55">{label}</p>
             </div>
           ))}
         </div>

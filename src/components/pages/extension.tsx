@@ -5,6 +5,12 @@ import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
 import { pick } from "@/lib/i18n-content";
+import {
+  CalendarCheckIcon,
+  CycleIcon,
+  MegaphoneIcon,
+  UsersIcon,
+} from "@/components/ui/fact-icons";
 import { asset } from "@/lib/asset";
 import { researchGroups, type OutreachKind } from "@/content/groups";
 import { covidResponse, extensionPrograms } from "@/content/extension-programs";
@@ -68,20 +74,49 @@ export function Extension() {
   const locale = useLocale() as "es" | "en";
 
   const stats = [
-    { value: totalActions, label: t("statActions"), accent: "text-crimson" },
-    { value: groupsWithOutreach, label: t("statGroups"), accent: "text-teal" },
-    { value: extensionPrograms.length, label: t("statPrograms"), accent: "text-gold" },
-    { value: totalEditions, label: t("statEditions"), accent: "text-crimson" },
+    {
+      value: totalActions,
+      label: t("statActions"),
+      accent: "text-crimson",
+      badge: "bg-crimson/10",
+      Icon: MegaphoneIcon,
+    },
+    {
+      value: groupsWithOutreach,
+      label: t("statGroups"),
+      accent: "text-teal",
+      badge: "bg-teal/10",
+      Icon: UsersIcon,
+    },
+    {
+      value: extensionPrograms.length,
+      label: t("statPrograms"),
+      accent: "text-gold",
+      badge: "bg-gold/10",
+      Icon: CycleIcon,
+    },
+    {
+      value: totalEditions,
+      label: t("statEditions"),
+      accent: "text-crimson",
+      badge: "bg-crimson/10",
+      Icon: CalendarCheckIcon,
+    },
   ];
 
   return (
     <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
       <Reveal>
         <div className="grid grid-cols-2 gap-4 rounded-2xl border border-border bg-surface p-6 sm:grid-cols-4">
-          {stats.map((stat) => (
-            <div key={stat.label} className="text-center">
-              <p className={`font-serif text-4xl font-medium ${stat.accent}`}>{stat.value}</p>
-              <p className="mt-1 text-xs uppercase tracking-wide text-foreground/55">{stat.label}</p>
+          {stats.map(({ value, label, accent, badge, Icon }) => (
+            <div key={label} className="flex flex-col items-center text-center">
+              <span
+                className={`mb-2 flex h-11 w-11 items-center justify-center rounded-full ${badge} ${accent}`}
+              >
+                <Icon className="h-6 w-6" />
+              </span>
+              <p className={`font-serif text-4xl font-medium ${accent}`}>{value}</p>
+              <p className="mt-1 text-xs uppercase tracking-wide text-foreground/55">{label}</p>
             </div>
           ))}
         </div>
