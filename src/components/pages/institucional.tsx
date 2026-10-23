@@ -58,7 +58,7 @@ export function Institucional() {
             <span className="relative aspect-[4/3] overflow-hidden rounded-lg">
               <Image
                 src={asset("/images/places/plataforma-2.jpg")}
-                alt="Laboratorio de bioseguridad nivel 3 (P3)"
+                alt="Laboratorio de bioseguridad nivel 3 (BSL-3)"
                 fill
                 sizes="(min-width: 1024px) 25vw, 50vw"
                 className="object-cover"

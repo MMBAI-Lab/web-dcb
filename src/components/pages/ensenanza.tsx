@@ -10,7 +10,8 @@ import {
   GraduationCapIcon,
   ThesisIcon,
 } from "@/components/ui/fact-icons";
-import { researchGroups, type TeachingLevel } from "@/content/groups";
+import type { TeachingLevel } from "@/content/groups";
+import { getCourses } from "@/lib/cursos";
 import { formacionLevels, getFormacion, type FormacionLevel } from "@/lib/formacion";
 
 const teachingLevels: TeachingLevel[] = ["grado", "posgrado", "otras"];
@@ -28,22 +29,11 @@ const formacionAccent: Record<FormacionLevel, string> = {
   posdoctorado: "text-teal",
 };
 
-// Courses, flattened out of the group JSONs so this page stays in sync with
-// whatever each group's page says — the groups are the source of truth.
-const coursesByLevel = teachingLevels.reduce(
-  (acc, level) => {
-    acc[level] = researchGroups.flatMap((group) =>
-      (group.teaching ?? [])
-        .filter((entry) => entry.levels.includes(level))
-        .map((entry) => ({ entry, group }))
-    );
-    return acc;
-  },
-  {} as Record<
-    TeachingLevel,
-    { entry: { es: string; en: string }; group: (typeof researchGroups)[number] }[]
-  >
-);
+// Courses come out of the group JSONs, which stay the source of truth;
+// src/content/courses.ts merges the same course listed by several groups.
+const coursesByLevel = Object.fromEntries(
+  teachingLevels.map((level) => [level, getCourses(level)])
+) as Record<TeachingLevel, ReturnType<typeof getCourses>>;
 
 const formacion = getFormacion();
 const thesisCount = formacionLevels.reduce((n, level) => n + formacion[level].length, 0);
@@ -233,18 +223,28 @@ export function Ensenanza() {
                   </span>
                 </div>
                 <ul className="mt-4 grid gap-3 md:grid-cols-2">
-                  {courses.map(({ entry, group }, j) => (
+                  {courses.map((course) => (
                     <li
-                      key={`${group.slug}-${j}`}
+                      key={course.key}
                       className={`rounded-xl border border-border ${accent.border} border-l-4 bg-surface p-3`}
                     >
-                      <p className="text-sm leading-relaxed text-foreground/80">{pick(entry, locale)}</p>
-                      <Link
-                        href={`/investigacion/${group.slug}`}
-                        className={`mt-2 inline-block text-xs font-medium ${accent.text} hover:underline`}
-                      >
-                        {pick(group.name, locale)}
-                      </Link>
+                      <p className="text-sm font-medium leading-relaxed text-foreground/85">
+                        {pick(course.name, locale)}
+                      </p>
+                      {course.program && (
+                        <p className="text-xs text-foreground/55">{pick(course.program, locale)}</p>
+                      )}
+                      <p className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-[11px] font-medium">
+                        {course.groups.map((group) => (
+                          <Link
+                            key={group.slug}
+                            href={`/investigacion/${group.slug}`}
+                            className={`${accent.text} hover:underline`}
+                          >
+                            {pick(group.name, locale)}
+                          </Link>
+                        ))}
+                      </p>
                     </li>
                   ))}
                 </ul>

@@ -3,6 +3,7 @@ import type { Locale } from "@/i18n/routing";
 import { PageBanner } from "@/components/ui/page-banner";
 import { PhyloTreeMotif } from "@/components/ui/science-motifs";
 import { Ensenanza } from "@/components/pages/ensenanza";
+import { getCourses } from "@/lib/cursos";
 
 export default async function EnsenanzaPage({
   params,
@@ -15,7 +16,11 @@ export default async function EnsenanzaPage({
 
   return (
     <div className="subpage-bg bg-background min-h-full">
-      <PageBanner title={t("title")} subtitle={t("subtitle")} motif={PhyloTreeMotif} />
+      <PageBanner title={t("title")} subtitle={t("subtitle", {
+          grado: getCourses("grado").length,
+          posgrado: getCourses("posgrado").length,
+          otras: getCourses("otras").length,
+        })} motif={PhyloTreeMotif} />
       <Ensenanza />
     </div>
   );

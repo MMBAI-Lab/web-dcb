@@ -20,7 +20,7 @@
     "ctaPrimary": "About the Department",
     "ctaSecondary": "View research groups",
     "welcomeTitle": "Welcome",
-    "welcome": "Welcome to the website of the Department of Biological Sciences (DCB). Part of the Centro Universitario Regional (CENUR) Litoral Norte, the DCB is a space where students and faculty based in Paysandú and Salto work together on problems of biomedical, biological, agro-industrial, and environmental interest from a multidisciplinary perspective. While DCB faculty in Paysandú carry out their teaching and research at the Dr. Mario A. Cassinoni Experimental Station and the Complejo Educativo, those in Salto have a recently opened research platform that includes laboratories, offices, classrooms, and a biosafety level 3 area (P3 laboratory) unique in the country.",
+    "welcome": "Welcome to the website of the Department of Biological Sciences (DCB). Part of the Centro Universitario Regional (CENUR) Litoral Norte, the DCB is a space where students and faculty based in Paysandú and Salto work together on problems of biomedical, biological, agro-industrial, and environmental interest from a multidisciplinary perspective. While DCB faculty in Paysandú carry out their teaching and research at the Dr. Mario A. Cassinoni Experimental Station and the Complejo Educativo, those in Salto have a recently opened research platform that includes laboratories, offices, classrooms, and a biosafety level 3 area (BSL-3 laboratory) unique in the country.",
     "imageAlt": "Research Platform, Salto campus",
     "factsTitle": "The DCB at a glance",
     "facts": [
@@ -34,11 +34,12 @@
       },
       {
         "value": "119",
-        "label": "Members"
+        "label": "Members",
+        "href": "/integrantes"
       },
       {
         "value": "1",
-        "label": "P3 biosafety lab, unique in Uruguay"
+        "label": "BSL-3 biosafety lab, unique in Uruguay"
       }
     ],
     "sectionsTitle": "Explore the site",
@@ -89,7 +90,7 @@
       "Since 2015, the Department has belonged to the interdisciplinary center CEINBIO (Center for Biomedical Research), which brings together researchers from the Faculties of Medicine, Sciences, and Chemistry, CENUR Litoral Norte, the Clemente Estable Institute, and the Pasteur Institute of Montevideo."
     ],
     "infrastructureTitle": "Facilities",
-    "infrastructure": "Next to the main building of the Salto campus, an 1,800 m² research platform houses 8 of the Department's 11 laboratories. 1,500 m² are devoted to labs, extraction and detection rooms, cleaning facilities, offices, meeting rooms, and classrooms. A 300 m² sector includes a biosafety level 3 (P3) facility — the only one of its kind in Uruguay — able to work with pathogens such as foot-and-mouth disease virus.",
+    "infrastructure": "Next to the main building of the Salto campus, an 1,800 m² research platform houses 8 of the Department's 11 laboratories. 1,500 m² are devoted to labs, extraction and detection rooms, cleaning facilities, offices, meeting rooms, and classrooms. A 300 m² sector includes a biosafety level 3 (BSL-3) facility — the only one of its kind in Uruguay — able to work with pathogens such as foot-and-mouth disease virus.",
     "governanceTitle": "Committees and support units",
     "directorLabel": "Department Head",
     "director": "Dr. Julio da Luz (Human Molecular Genetics Lab)",
@@ -127,14 +128,15 @@
   "investigacion": {
     "title": "Research",
     "subtitle": "The DCB's 15 research groups work across the Salto and Paysandú campuses of CENUR Litoral Norte, spanning a range from the molecular to the ecosystemic: membrane biophysics, computational modeling of nucleic acids and proteins, human genetics, immunology, molecular virology, and bioactive molecule development, alongside fluvial ecology, wildlife ecology, movement biomechanics, physiology, histology, anatomy, animal production, and vector-borne disease. What unites them is a shared spirit: generating original knowledge on health, production, and conservation problems relevant to the region and the country.",
-    "note": "Click the centered cover in the carousel to open that group's full page.",
+    "note": "Click any group to open its full page.",
     "pending": "Page in preparation.",
-    "asociadosLink": "Researchers associated with the DCB"
+    "asociadosLink": "Associated researchers"
   },
   "grupoDetalle": {
     "back": "Back to Research",
     "website": "Own website",
     "lead": "Group leader",
+    "leads": "Group leaders",
     "coLead": "Co-leader",
     "members": "Members",
     "students": "Students",
@@ -160,13 +162,23 @@
     "thesis_doctorado": "PhD",
     "thesis_posdoctorado": "Postdoc"
   },
+  "integrantes": {
+    "title": "Members",
+    "subtitle": "The people who make up the Department of Biological Sciences, across its research groups and as associated researchers.",
+    "cat_docentes": "Faculty",
+    "cat_posgrado": "Graduate students",
+    "cat_grado": "Undergraduate students and interns",
+    "cat_tecnicos": "Technical and support staff",
+    "also_posgrado": "also a graduate student",
+    "also_grado": "also an undergraduate student"
+  },
   "asociados": {
     "title": "Associated researchers",
     "subtitle": "DCB faculty and researchers who are not yet part of one of its research groups."
   },
   "ensenanza": {
     "title": "Teaching",
-    "subtitle": "The DCB coordinates the Biology-Biochemistry Cycle (CBB) and, in the same way, the Biotechnology degree program, and teaches 78 undergraduate courses, 39 graduate courses, and 27 other instances (internships, continuing education, and network courses). Its faculty cover the Human Biology, Biochemistry, Biotechnology, and Biological Sciences degrees, the Doctor of Medicine and Doctor of Veterinary Science programs, Biological Engineering, Agricultural Engineering, Water Resources and Irrigation, and the CIO-CT and CIO-Salud entry cycles — within an academic network spanning UdelaR's Faculties of Sciences, Medicine, Veterinary Medicine, Agronomy, and Chemistry, plus PEDECIBA, ProInBio, ProMEF, ISEF, CeRP del Litoral, and international partners.",
+    "subtitle": "The DCB coordinates the Biology-Biochemistry Cycle (CBB) and, in the same way, the Biotechnology degree program, and teaches {grado} undergraduate courses, {posgrado} graduate courses, and {otras} other instances (internships, continuing education, and network courses). Its faculty cover the Human Biology, Biochemistry, Biotechnology, and Biological Sciences degrees, the Doctor of Medicine and Doctor of Veterinary Science programs, Biological Engineering, Agricultural Engineering, Water Resources and Irrigation, and the CIO-CT and CIO-Salud entry cycles — within an academic network spanning UdelaR's Faculties of Sciences, Medicine, Veterinary Medicine, Agronomy, and Chemistry, plus PEDECIBA, ProInBio, ProMEF, ISEF, CeRP del Litoral, and international partners.",
     "cbbTitle": "Biology-Biochemistry Cycle (CBB)",
     "cbbDescription": "The Biology-Biochemistry Cycle offers foundational training in the biological sciences and biochemistry at the Paysandú and Salto campuses of CENUR Litoral Norte, taught by an outstanding faculty drawn from the Department's research groups. It is equivalent to 90 credits of first-year university study, recognized by Facultad de Ciencias toward the Bachelor's degrees in Biological Sciences and in Biochemistry in Montevideo, and regionally (Salto and Paysandú) toward the Bachelor's in Human Biology.",
     "areasTitle": "Curriculum — three training areas",
@@ -204,7 +216,7 @@
     "lbhContactLabel": "LBH contact",
     "lbhContact": "lbh.interior@gmail.com",
     "docenciaTitle": "Teaching",
-    "docenciaIntro": "Courses taught by the DCB's research groups, grouped by level. Each course names the group that teaches it and links to its page.",
+    "docenciaIntro": "Courses taught by the DCB's research groups, grouped by level. Each course appears once, with the groups that take part in teaching it listed underneath.",
     "formacionTitle": "Training",
     "formacionIntro": "Theses and research stays currently under way within the DCB's groups. Each person links to their group's page.",
     "level_grado": "Undergraduate",

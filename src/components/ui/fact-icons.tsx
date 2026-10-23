@@ -46,7 +46,7 @@ export function UsersIcon(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-// P3 biosafety lab
+// BSL-3 biosafety lab
 export function ShieldIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <Base {...props}>

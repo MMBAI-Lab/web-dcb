@@ -176,7 +176,7 @@ editoriales (nombres, cargos, qué foto es de quién, recortes) son tablas
 explícitas dentro del script. Quedó pendiente:
 
 - [ ] **Anatomía** no completó ningún formulario: su página dice "en
-      preparación".
+      preparación" y todavía no tiene mail de contacto.
 - [ ] **Genética Molecular Humana** y **Vectores y Enfermedades
       Transmitidas** no enviaron el formulario de grupo: conservan el
       contenido anterior (sus integrantes sí se actualizaron).
@@ -202,7 +202,18 @@ La solapa se genera a partir de los JSON de cada grupo
 (`src/content/groups/*.json`): `teaching[]` alimenta **Docencia** y la tesis
 de cada integrante (`thesis`, o en su defecto palabras clave del título)
 alimenta **Formación** vía `src/lib/formacion.ts`. Editar un grupo alcanza
-para actualizar la solapa. Queda pendiente:
+para actualizar la solapa.
+
+Un mismo curso lo cargan varios grupos con nombres distintos; Docencia lo
+muestra una sola vez gracias al catálogo de `src/content/courses.ts` (nombre
+canónico + expresión que reconoce cada variante). Si un curso aparece
+repetido, ampliar su `match` ahí.
+
+La página **Integrantes** (`/integrantes`, enlazada desde la cifra de la
+home) clasifica a cada persona con las reglas de `src/lib/integrantes.ts`;
+los casos que esas reglas resuelven mal van en su tabla `OVERRIDES`.
+
+Queda pendiente:
 
 - [ ] **Josefa González (LIBiAM)**: su título dice solo "Estudiante de
       Posgrado, PEDECIBA", sin precisar si es maestría o doctorado, por lo

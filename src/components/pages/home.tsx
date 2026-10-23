@@ -9,7 +9,8 @@ import { asset } from "@/lib/asset";
 import { CalendarIcon, FlaskIcon, UsersIcon, ShieldIcon } from "@/components/ui/fact-icons";
 import { IconMotifField, type IconName } from "@/components/ui/icon-motif-field";
 
-type Fact = { value: string; label: string };
+/** A fact with `href` links to the page that details it. */
+type Fact = { value: string; label: string; href?: string };
 type SectionCard = { key: string; href: string; title: string; description: string };
 
 const factAccents = ["text-teal", "text-crimson", "text-gold", "text-teal"];
@@ -192,8 +193,9 @@ export function Home() {
               {facts.map((fact, i) => {
                 const Icon = factIcons[i % factIcons.length];
                 const accent = factAccents[i % factAccents.length];
-                return (
-                  <div key={fact.label} className="flex items-start gap-3 sm:flex-col sm:items-start sm:gap-3">
+                const className = "flex items-start gap-3 sm:flex-col sm:items-start sm:gap-3";
+                const body = (
+                  <>
                     <span
                       className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full ${factBadgeBg[i % factBadgeBg.length]} ${accent}`}
                     >
@@ -203,8 +205,18 @@ export function Home() {
                       <p className={`font-serif text-4xl font-semibold ${accent}`}>{fact.value}</p>
                       <p className="mt-1 text-xs uppercase tracking-wide text-foreground/60">
                         {fact.label}
+                        {fact.href && " →"}
                       </p>
                     </div>
+                  </>
+                );
+                return fact.href ? (
+                  <Link key={fact.label} href={fact.href} className={`${className} rounded-lg hover:opacity-80`}>
+                    {body}
+                  </Link>
+                ) : (
+                  <div key={fact.label} className={className}>
+                    {body}
                   </div>
                 );
               })}
