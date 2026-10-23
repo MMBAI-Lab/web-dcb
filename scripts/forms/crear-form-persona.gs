@@ -87,6 +87,10 @@ const GRUPOS = [
   "Producción y Reproducción de Rumiantes",                // rumiantes
   "Virología Molecular",                                   // virologiamolec
   "Vectores y Enfermedades Transmitidas",                  // vyet
+  "Fisiología",                                            // fisiologia
+  "Histología",                                            // histologia
+  "Anatomía",                                              // anatomia
+  "Otros (grupo aún no formado, sin grupo, asociado, etc)", // -> src/content/asociados.json
 ];
 
 // Opciones del desplegable de formación en curso. El texto de cada opción es

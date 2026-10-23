@@ -1,0 +1,211 @@
+{
+  "slug": "histologia",
+  "name": {
+    "es": "Histología",
+    "en": "Histology"
+  },
+  "campus": "Paysandú",
+  "email": "apdipaolo@gmail.com",
+  "summary": {
+    "es": "Nucleamos el Grupo de Histología-Embriología y la Tecnicatura en Anatomía-Patológica del CENURLN. Realizamos docencia de grado y posgrado e investigamos desde un punto de vista molecular, histológico y nutricional diferentes tipos de cáncer. Contamos además con una plataforma de imagenología y de procesamiento de muestras de histología en construcción.",
+    "en": ""
+  },
+  "researchLines": {
+    "intro": {
+      "es": "El grupo PHIAPOS fue creado en el segundo semestre del 2025 nucleando las cátedras de Histología-Embriología (miembros plenos del DCB) y la Tecnicatura en Anatomía Patológica (miembros asociados del DCB) del CENUR Litoral Norte. Está conformado por investigadores radicados en Paysandú y Salto, formando un grupo con intereses comunes a modo de unificar esfuerzos en cuanto a reactivos, equipamiento y personal con el objetivo de desarrollar en forma eficiente tareas de investigación, docencia y extensión. Nuestra meta general es brindar un servicio integral para la preparación de muestras histológicas y la exploración de muestras relevantes para la investigación básica y la clínica. Para ello empleamos técnicas de tinción de rutina, de inmunohistoquímica, inmunofluorescencia y cualquier otro protocolo específico que deba ser ajustado a las necesidades del preparado. Además, empleamos técnicas de microscopía de fluorescencia de superresolución y otros protocolos de microscopía avanzada para responder preguntas a nivel celular y molecular en torno al desarrollo de diversos tipos de cáncer y la regulación traduccional en nervios periféricos. A mediano plazo, pretendemos la creación de un centro de imagenología avanzada de referencia en la región que nuclee diversas tecnologías de microscopía de confección propia, accesibles a la comunidad local. En paralelo a estas actividades, preparamos muestras para cursos de grado a desarrollarse en CENUR y brindamos anualmente entrenamiento en estas disciplinas a docentes y estudiantes de secundaria como parte de nuestras tareas de extensión. Actualmente estamos estudiando la posible correlación entre el desarrollo del cáncer de mama y la dieta en pacientes del Hospital de Paysandú empleando herramientas de histología, anatomía patológica, biología molecular y microscopía de fluorescencia.",
+      "en": ""
+    },
+    "lines": [
+      {
+        "title": {
+          "es": "Nutrición, Dieta y Cáncer de Mama",
+          "en": ""
+        },
+        "body": {
+          "es": "Histología del Cáncer de Mama",
+          "en": ""
+        },
+        "institutions": [
+          "DCB, Facultad de Medicina, Hospital de Paysandú"
+        ]
+      },
+      {
+        "title": {
+          "es": "Desarrollo de una Plataforma de Imagenología en óptica de alta y superresolución",
+          "en": ""
+        },
+        "body": {
+          "es": "Construcción de dispositivos de microscopía de fluorescencia a medida. Asesoramiento",
+          "en": ""
+        },
+        "institutions": [
+          "DCB, IIBCE"
+        ]
+      },
+      {
+        "title": {
+          "es": "Preparación de Muestras por Anatomía Patológica",
+          "en": ""
+        },
+        "body": {
+          "es": "Procesamos muestras para análisis anatomopatológico y armamos preparados para docencia.",
+          "en": ""
+        },
+        "institutions": [
+          "DCB, Tecnicnatura en Anatomía Patológica CENURLN, Facultad de Medicina"
+        ]
+      }
+    ]
+  },
+  "currentProjects": [
+    {
+      "title": "“Caracterización histopatológica e inmunohistoquímica de tumores de mama en pacientes de Paysandú: comparación con perfiles nacionales e internacionales”.",
+      "funder": "PAIE (CSIC)",
+      "period": "03/2026-12/2026",
+      "role": "Responsable"
+    },
+    {
+      "title": "Estudio del efecto acumulativo de las dietas ricas en carnes rojas y embutidos sobre el desarrollo del cáncer de mama en mujeres de Paysandú: un enfoque desde la nutrición y la biología molecular.",
+      "funder": "PEDECIBA y en evaluación por CSIC I+D",
+      "period": "2026-2028",
+      "role": "Responsable"
+    }
+  ],
+  "lead": {
+    "name": "Dr. Andrés Di Paolo",
+    "title": "Profesor Adjunto (Gdo 3, 40 hs/sem, DT)",
+    "photo": "/images/people/andres-di-paolo.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy/cv/?04d4d3bc07f6e86fb16abfa4e64f64e41282f22cc213d78d67b11498aa5cd389d2f38eae76cac375d729b339eb8991c66c43d42cc5b3853f1966c267329d6d47",
+      "profile": "https://orcid.org/my-orcid?orcid=0000-0001-5383-3151"
+    }
+  },
+  "members": [
+    {
+      "name": "Dr. Lucas Vignolo",
+      "title": "Asistente (Gdo 2, 30 hs/sem)",
+      "photo": "/images/people/lucas-vignolo.jpg"
+    },
+    {
+      "name": "Lic. Ana Carolina Souza Fin",
+      "title": "Ayudante (Gdo 1, 12 hs/sem)",
+      "photo": "/images/people/ana-carolina-souza-fin.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PEDECIBA Biología Celular y Molecular, Facultad de Ciencias",
+        "advisors": "Dr. Andrés Di Paolo"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?e52b4beb9f3df22930210b26a33122e3"
+      }
+    },
+    {
+      "name": "Celeste Guerrero",
+      "title": "Honoraria",
+      "photo": "/images/people/celeste-guerrero.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?a56fe29b53606fde39f86de6f03af090"
+      }
+    },
+    {
+      "name": "Tec. Candelaria Banchero",
+      "title": "Asistente (Gdo 2, 20 hs/sem)",
+      "photo": "/images/people/candelaria-banchero.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?b7d3cbeb4cbafb76047a9c0c2013e96c"
+      }
+    },
+    {
+      "name": "Bach. Ana Gerez",
+      "title": "Ayudante (Gdo 1, 20 hs/sem)",
+      "photo": "/images/people/ana-gerez.jpg"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Prof. José Sotelo Silveira",
+      "institution": "IIBCE",
+      "country": "Uruguay",
+      "topic": "Traducción en Axones Periféricos - Microscopía"
+    },
+    {
+      "name": "Markus Sauer",
+      "institution": "University of Würzburg",
+      "country": "Alemania",
+      "topic": "Super Resolution Microscopy"
+    },
+    {
+      "name": "Federico Dajas Bailador",
+      "institution": "University of Nottingham",
+      "country": "Inglaterra",
+      "topic": "Biología del Axón"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1038/s44172-026-00765-7",
+      "citation": "Garat J, Oliveira-Rizzo C, Bentancor M, Arredondo F, Sotelo-Silveira J, Masullo LA, et al. Converting a conventional fluorescence microscope into a high-performance platform for sub-10-nm single-molecule localization microscopy. Communications Engineering. 2026. https://doi.org/10.1038/s44172-026-00765-7"
+    }
+  ],
+  "teaching": [
+    {
+      "es": "Bases Histo-Anatomo-Funcionales-Humanas (BHAFH) - CIO Salud",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biología del Desarrollo y los Tejidos (UC8) - 2do año Medicina",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Profundización BHAFH (CIO-Tecnologías Medicas Psicomotricidad)",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Profundización BHAFH(CIO-Tecnologías Médicas Fisioterapia)",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "HISTOLOGÍA Y EMBRIOLOGÍA DE SISTEMAS Y APARATOS (UC9) - 2do año Medicina",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "DREM (UC12)- 3er año Medicina",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Proyecto PREXI-PEDECIBA 2025",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    }
+  ],
+  "outreach": [
+    {
+      "es": "Micropasantias ANEP-PEDECIBA: Acercamiento a la Preparación de Muestras Histológicas y técnicas de microscopía ópticas avanzadas.",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    }
+  ],
+  "image": "/images/groups/histologia.jpg"
+}

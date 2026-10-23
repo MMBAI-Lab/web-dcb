@@ -7,49 +7,256 @@
   "campus": "Salto",
   "email": "dqueirolo@cur.edu.uy",
   "summary": {
-    "es": "Estudia la distribución de especies, conservación y ecología de poblaciones y comunidades de mamíferos silvestres nativos y exóticos, con foco en predadores nativos y el manejo de especies exóticas invasoras como el jabalí.",
-    "en": "Studies species distribution, conservation, and the ecology of native and exotic wild mammal populations and communities, focusing on native predators and the management of invasive exotic species such as wild boar."
+    "es": "El grupo se dedica al estudio de la ecología y el comportamiento de animales silvestres con énfasis en mamíferos, los cuales interactúan y conviven con la producción agropecuaria en ambientes predominantes de pastizales y montes nativos de Uruguay.",
+    "en": ""
   },
   "researchLines": {
     "intro": {
-      "es": "El trabajo del grupo, liderado por el Dr. Diego Queirolo, se centra principalmente en el estudio de la distribución de especies, la conservación y la ecología de poblaciones y comunidades de mamíferos silvestres nativos y exóticos. Las líneas de investigación en ejecución tienen un carácter regional y multidisciplinar, llevadas adelante con la participación de instituciones y docentes de la región, tanto uruguayos como brasileños y también argentinos. Los problemas nacionales con especies exóticas invasoras, como el jabalí, son tratados en conjunto con otras instituciones públicas, como el MGAP y el Ministerio de Ambiente, además de otros servicios universitarios, como la Facultad de Veterinaria, la Facultad de Ciencias, el Centro Universitario de Tacuarembó y el CENUR Litoral Norte. En definitiva, lo fundamental es generar información con base científica que aporte conocimiento, para que éste colabore a la formulación de planes de manejo y/o conservación específicos o en la elaboración de políticas públicas que ayuden a hacer sustentable en el tiempo la relación hombre-naturaleza o la relación desarrollo-conservación.",
-      "en": "The group's work, led by Dr. Diego Queirolo, focuses mainly on the study of species distribution, conservation, and the ecology of populations and communities of native and exotic wild mammals. The research lines underway are regional and multidisciplinary in scope, carried out with the participation of institutions and researchers from the region — Uruguayan, Brazilian, and also Argentine. National issues involving invasive exotic species, such as wild boar, are addressed jointly with other public institutions, such as the Ministry of Livestock, Agriculture and Fisheries (MGAP) and the Ministry of Environment, as well as other university units, such as the Faculty of Veterinary Medicine, the Faculty of Sciences, the Centro Universitario de Tacuarembó, and CENUR Litoral Norte. Ultimately, the goal is to generate scientifically grounded information that contributes to knowledge, so that it can help shape specific management and/or conservation plans, or inform public policies that help make the relationship between people and nature — or between development and conservation — sustainable over time."
+      "es": "El grupo se dedica al estudio de la ecología y el comportamiento de animales silvestres con foco en los mamíferos, mediante la utilización del fototrampeo y la observación directa, con énfasis en las interacciones y la coexistencia entre la fauna silvestre y los sistemas productivos predominantes en ambientes naturales de pastizales y montes nativos en Uruguay.",
+      "en": ""
     },
     "lines": [
       {
         "title": {
-          "es": "Ecología de mamíferos predadores y de exóticos invasores",
-          "en": "Ecology of predator mammals and invasive exotics"
+          "es": "Interacción y coexistencia",
+          "en": ""
         },
         "body": {
-          "es": "Concretamente, tiene dos líneas de investigación: 1) ecología de mamíferos silvestres predadores, específicamente zorros y gatos, y 2) obtención de parámetros poblacionales de mamíferos exóticos, jabalí y ciervo axis.",
-          "en": "Specifically, it pursues two research lines: 1) the ecology of native predator mammals, particularly foxes and cats, and 2) obtaining population parameters for exotic mammals, wild boar and axis deer."
-        }
+          "es": "Interacción y coexistencia entre humanos, fauna silvestre y animales de producción: perspectiva integral desde lo comportamental, ambiental, productivo y social.",
+          "en": ""
+        },
+        "institutions": [
+          "CENUR Litoral Norte",
+          "Facultad de Veterinaria"
+        ]
+      },
+      {
+        "title": {
+          "es": "Modelado de la distribución y abundancia de jabalíes",
+          "en": ""
+        },
+        "body": {
+          "es": "Modelado de la distribución y abundancia de jabalíes: información básica para la epidemiología espacial y el manejo de la vida silvestre.",
+          "en": ""
+        },
+        "institutions": [
+          "CENUR Litoral Norte",
+          "Facultad de Veterinaria",
+          "Facultad de Ciencias"
+        ]
+      },
+      {
+        "title": {
+          "es": "Trampeo fotográfico",
+          "en": ""
+        },
+        "body": {
+          "es": "Trampeo fotográfico como método para estimar densidad y modelar ocupación y uso de hábitat de comunidades de mamíferos en el norte de Uruguay y sur del Brasil.",
+          "en": ""
+        },
+        "institutions": [
+          "DCB"
+        ]
       }
     ]
   },
   "lead": {
     "name": "Dr. Diego Queirolo",
-    "title": "Profesor Agregado, Responsable del grupo (Gdo 4, 40 hs/sem, DT)",
-    "photo": "/images/people/diego-queirolo.jpg"
+    "title": "Profesor Agregado (Gdo 4, 40 hs/sem, DT)",
+    "photo": "/images/people/diego-queirolo.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy/CvEstatico/?urlId=46c2071adc10e03b42ad02f18b6affc1165cb1f0f80754cc194f07d51560256498d58d05fb3a31ab71ae7206c91b7124b8e92e8cfba9467fc2ea6e8212ef6983&formato=pdf&convocatoria=21",
+      "profile": "https://www.researchgate.net/profile/Diego-Queirolo?ev=hdr_xprf"
+    }
   },
-  "members": [],
+  "members": [
+    {
+      "name": "Dra. Noelia Zambra",
+      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT), SNI Iniciación",
+      "photo": "/images/people/noelia-zambra.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cvsni/?urlId=26d23233bea0e724b2f2966516b14388b1c0a52cd57a6b4d5ba53977bbd99e645d27d2de2ea92d645a7ecf1f9a0049216c9897f5de6ba9f3aec99ff504ea0981&convocatoria=21&formato=html",
+        "profile": "https://www.researchgate.net/profile/Noelia_Zambra?ev=hdr_xprf"
+      }
+    },
+    {
+      "name": "Santiago Cruces",
+      "title": "Asistente (Gdo 2, 20 hs/sem)",
+      "photo": "/images/people/santiago-cruces.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?0eb1808b28a1616b864759eb9f2c0af455e54616aa4451c359480d7e4cc079a09b179739748e0c32242b3ee7746099f5b307bec8d3855032919296ab340c96de"
+      }
+    }
+  ],
   "collaborators": [
     {
-      "name": "Dras. Maria João Ramos Pereira y Flávia P. Tirelli",
-      "institution": "Universidade Federal do Rio Grande do Sul, Brasil"
+      "institution": "Unidad de FisiologÍa, Facultad de Veterinaria, Udelar",
+      "country": "Uruguay"
     },
     {
-      "name": "Dr. Javier A. Pereira",
-      "institution": "Museo Argentino de Ciencias Naturales / CONICET, Argentina"
+      "institution": "Laboratorio de Desarrollo Sustentable y Gestión Ambiental del Territorio, Facultad de Ciencias, Udelar",
+      "country": "Uruguay"
     },
     {
-      "name": "Dr. José Carlos Guerrero",
-      "institution": "Facultad de Ciencias, UdelaR"
+      "institution": "Laboratório de Evolução, Sistemática e Ecologia de Aves e Mamíferos (BiMa-Lab), Departamento de Zoología, Universidade Federal do Rio Grande do Sul",
+      "country": "Brasil"
     },
     {
-      "name": "Dr. Pelayo Acevedo",
-      "institution": "Universidad Castilla-La Mancha, España"
+      "institution": "Canid Specialist Group, SSC-UICN, Wildlife Conservation Research Unit (WildCRU), Department of Biology, University of Oxford",
+      "country": "Reino Unido"
+    },
+    {
+      "institution": "Laboratorio de Etologia Aplicada, Universidade Estadual de Santa Cruz, Bahía",
+      "country": "Brasil"
     }
-  ]
+  ],
+  "website": "https://www.instagram.com/ecofauna_udelar/",
+  "currentProjects": [
+    {
+      "title": "Activación neuronal y respuestas comportamentales y térmicas de corderos frente a señales visuales y olfativas de zorros",
+      "funder": "CSIC (Udelar), Proyectos I+D",
+      "period": "2025-2028",
+      "role": "Responsable"
+    },
+    {
+      "title": "Actividad, comportamiento y coexistencia de mamíferos asociados a conflictos con la producción ovina en Salto, Uruguay",
+      "funder": "PEDECIBA, Programa Despegue Científico",
+      "period": "2026-2027",
+      "role": "Responsable"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1186/s13071-025-07226-8",
+      "citation": "Félix ML, Santodomingo A, Thomas R, Queirolo D, Muñoz-Leal S, Venzal JM. A novel ecotype of Anaplasma phagocytophilum complex in questing Ixodes fuscipes ticks. Parasites & Vectors. 2026;19(1). https://doi.org/10.1186/s13071-025-07226-8"
+    },
+    {
+      "doi": "10.1093/biolinnean/blaf014",
+      "citation": "Queirolo D, Guerrero JC. Uruguayan and south Brazilian campos grasslands: a coexistence region between tropical and temperate land mammal faunas. Biological Journal of the Linnean Society. 2025;145(2). https://doi.org/10.1093/biolinnean/blaf014"
+    },
+    {
+      "doi": "10.1071/WR23125",
+      "citation": "Zambra N, Ungerfeld R. Factors affecting wild boar (sus scrofa) distribution in Uruguay. Wildlife Research. 2024;51(7). https://doi.org/10.1071/WR23125"
+    },
+    {
+      "doi": "10.1080/01650521.2024.2398970",
+      "citation": "Walker E, Cuyckens GAE, Martínez-Lanfranco JA, Queirolo D. Assessing puma habitat suitability in uruguay’s grasslands: exploring source-sink dynamics and conservation implications. Studies on Neotropical Fauna and Environment. 2024;60(2):154-64. https://doi.org/10.1080/01650521.2024.2398970"
+    },
+    {
+      "doi": "10.14409/favecv.2023.22.e0026",
+      "citation": "Alvez R, Felix ML, Queirolo D, Venzal JM. Parasitismo de Amblyomma aureolatum (pallas, 1772) (acari: Ixodidae) en humanos y determinación molecular de organismos rickettsiales y piroplasmas en el norte de Uruguay. FAVE Sección Ciencias Veterinarias. 2023:e0026. https://doi.org/10.14409/favecv.2023.22.e0026"
+    },
+    {
+      "doi": "10.1080/01650521.2023.2285870",
+      "citation": "Kasper CB, da Fontoura Rodrigues ML, Severo MM, Cherem JJ, Azambuja RB, Queirolo D, et al. The last and endangered maned wolves ( chrysocyon brachyurus ) from southern Brazil and Uruguay: new records and spatial distribution modeling. Studies on Neotropical Fauna and Environment. 2023;59(3):920-30. https://doi.org/10.1080/01650521.2023.2285870"
+    },
+    {
+      "doi": "10.31687/saremMN.22.29.1.05.e0569",
+      "citation": "Zambra N, Piaggio J, Ungerfeld R. Sheep farms’ characteristics and livestock practices that influence sheep predation in Uruguay. Mastozoología Neotropical. 2022;29(1):001-27. https://doi.org/10.31687/saremMN.22.29.1.05.e0569"
+    },
+    {
+      "doi": "10.1080/01650521.2021.2008146",
+      "citation": "Bolze GJ, Tirelli FP, Queirolo D, Ramos Pereira MJ. Living on the edge: density and activity patterns of the ocelot,leopardus pardalis, in the austral limit of the atlantic forest. Studies on Neotropical Fauna and Environment. 2021;58(3):599-612. https://doi.org/10.1080/01650521.2021.2008146"
+    },
+    {
+      "doi": "10.1016/j.jnc.2021.126009",
+      "citation": "Tirelli FP, Trigo TC, Queirolo D, Kasper CB, Bou N, Peters F, et al. High extinction risk and limited habitat connectivity of muñoa’s Pampas cat, an endemic felid of the Uruguayan savanna ecoregion. Journal for Nature Conservation. 2021;62:126009. https://doi.org/10.1016/j.jnc.2021.126009"
+    },
+    {
+      "doi": "10.1016/j.applanim.2021.105290",
+      "citation": "Zambra N, Lacuesta L, Orihuela A, Ungerfeld R. Ewes behavioural and physiological reactions to the odour of fox (Lycalopex gymnocercus) and wild boar (sus scrofa) faeces. Applied Animal Behaviour Science. 2021;237:105290. https://doi.org/10.1016/j.applanim.2021.105290"
+    },
+    {
+      "citation": "Queirolo, D. & R. C. Paula. Chrysocyon brachyurus. In: Handbook of the Mammals of Middle and South America, Springer. [Aceptado, en prensa]"
+    }
+  ],
+  "teaching": [
+    {
+      "es": "Introducción a las Ciencias Biológicas I y II. Ciclo Biología Bioquímica",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a la Biología Animal. Ciclo Biología Bioquímica",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Evolución Humana - Comportamiento de los primates. Licenciatura en Biología Humana",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Etología y Bienestar Animal. Doctor en Ciencias Veterinarias",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biogeografía de la Conservación. Licenciatura en Recursos Naturales",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Coexistencia, interacción y conflicto entre fauna silvestre y animales de producción. PEDECIBA y Posgrado de Facultad de Veterinaria - CENUR Litoral Norte.",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Gestación y lactación de la oveja y su relación con la supervivencia de los corderos. Posgrado Facultad de Veterinaria - Montevideo.",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Evolución Biológica: Enfoque Multidisciplinario. PEDECIBA - CENUR Litoral Norte.",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Optimización de la supervivencia del cordero: claves del servicio al destete. Posgrado de Facultad de Veterinaria - Montevideo.",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Comportamiento y bienestar en animales de producción. Posgrado de Facultad de Veterinaria - Montevideo.",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    }
+  ],
+  "outreach": [
+    {
+      "es": "Ciclo de Podcast \"Investigadoras uruguayas: Resolver problemas tejiendo redes\" - Episodio 9. Investiga Uy.",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Todo tiene su Ciencia. Semana de la Ciencia y la Tecnología (Salto)",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    }
+  ],
+  "image": "/images/groups/ecologia-vertebrados.jpg"
 }

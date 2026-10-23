@@ -5,15 +5,15 @@
     "en": "Biomechanics and Movement Analysis (LIBiAM)"
   },
   "campus": "Paysandú",
-  "email": null,
+  "email": "biomecanica@cup.edu.uy",
   "summary": {
-    "es": "Laboratorio de Investigación en Biomecánica y Análisis del Movimiento. Estudia la mecánica y energética de la locomoción, la biomecánica del movimiento humano aplicada al deporte y la rehabilitación, y la coordinación muscular.",
-    "en": "Biomechanics and Movement Analysis research lab. Studies the mechanics and energetics of locomotion, human movement biomechanics applied to sport and rehabilitation, and muscular coordination."
+    "es": "En el Laboratorio de Investigación en Biomecánica y Análisis del Movimiento (LIBiAM) estudiamos cómo y por qué nos movemos. Combinamos biomecánica, fisiología y tecnologías de análisis del movimiento para comprender la locomoción humana, desde sus mecanismos fundamentales hasta sus aplicaciones en salud, deporte, rendimiento y rehabilitación.",
+    "en": ""
   },
   "researchLines": {
     "intro": {
-      "es": "El grupo, dirigido por el Prof. Agregado Dr. Carlo Biancardi, está ubicado en la sede Paysandú, en el Complejo Educativo (Ex-Terminal), Artigas y Zorrilla de San Martín. El laboratorio cuenta para el abordaje de estas líneas con equipos de sistema de captura y análisis del movimiento (VICON – UK), electromiografía TRIGNO System (Delsys – USA), ergoespirómetro K5 (Cosmed – Italia) y plataforma dinamométrica (AMTI – USA).",
-      "en": "The group, led by Assoc. Prof. Dr. Carlo Biancardi, is based on the Paysandú campus, at the Complejo Educativo (Ex-Terminal), corner of Artigas and Zorrilla de San Martín. To address these research lines, the lab has a motion capture and analysis system (VICON – UK), a TRIGNO System electromyograph (Delsys – USA), a K5 ergospirometer (Cosmed – Italy), and a force platform (AMTI – USA)."
+      "es": "La investigación del LIBiAM se centra en comprender el movimiento de los seres vivos desde una perspectiva biomecánica, fisiológica y neuromuscular. Integramos cinemática 3D, dinámica, electromiografía, termografía infrarroja, bioimpedanciometría y mediciones metabólicas para estudiar los mecanismos que determinan la locomoción y otras tareas motora. Nuestras líneas abarcan locomoción humana y animal, trayectorias complejas, rendimiento deportivo y aplicaciones clínicas, incluyendo el estudio de poblaciones con alteraciones del movimiento. Combinamos investigación básica y aplicada, desarrollo metodológico y nuevas tecnologías, buscando generar conocimiento con impacto en ciencia, salud, deporte, rehabilitación y calidad de vida.",
+      "en": ""
     },
     "lines": [
       {
@@ -22,64 +22,124 @@
           "en": "Comparative biomechanics and physiology"
         },
         "body": {
-          "es": "Biomecánica y fisiología comparada. Se investigan aspectos de la mecánica y energética de la locomoción como los efectos de la inclinación, de los cambios de velocidad y aceleración, y de los límites fisiológicos de la locomoción. Se investigan también aspectos descriptivos de los patrones de locomoción y de movimiento, con relaciones a la ecología de las especies.",
-          "en": "Comparative biomechanics and physiology. Research covers aspects of the mechanics and energetics of locomotion, such as the effects of incline, changes in speed and acceleration, and the physiological limits of locomotion. Descriptive aspects of locomotion and movement patterns are also studied, in relation to species ecology."
-        }
+          "es": "Se investigan aspectos de la mecánica y energética de la locomoción como los efectos de la inclinación, de los cambios de trayectoria, velocidad y aceleración, y de los limites fisiológicos de la locomoción. Se investigan también aspectos descriptivos de los patrones de locomoción y de movimiento, con relaciones a la ecología de las especies.",
+          "en": ""
+        },
+        "institutions": [
+          "DCB",
+          "ANII",
+          "Dep. Ingeniería Biológica, CENUR L.N",
+          "Facultad de Ciencias, UdelaR",
+          "Physiomechanics Lab., UniMI (Italia)"
+        ]
       },
       {
         "title": {
-          "es": "Biomecánica del movimiento humano y deporte",
-          "en": "Human movement biomechanics and sport"
+          "es": "Biomecánica y Fisiología Aplicadas a la Locomoción Humana, Prevención y Rehabilitación",
+          "en": ""
         },
         "body": {
-          "es": "Estudios biomecánicos del movimiento humano, sus causas y efectos, aplicados al deporte, análisis del gesto y del rendimiento deportivo, y la prevención de lesiones en el deporte. Comprender cómo actúan las fuerzas externas, activación muscular, trabajo mecánico, estabilidad; sus características e influencias sobre las estructuras del cuerpo humano.",
-          "en": "Biomechanical studies of human movement, its causes and effects, applied to sport, movement and sport-performance analysis, and injury prevention in sport. Understanding how external forces, muscle activation, mechanical work, and stability act, and their characteristics and influence on the structures of the human body."
-        }
+          "es": "Esta línea de investigación se centra en el estudio de la biomecánica y la fisiología aplicadas a la locomoción humana, integrando el análisis de los mecanismos mecánicos y energéticos del movimiento en diferentes poblaciones. Comprende la evaluación y el desarrollo de estrategias de prevención y rehabilitación mediante intervenciones fisioterapéuticas basadas en evidencia, utilizando herramientas de análisis biomecánico y medidas fisiológicas objetivas, como la termografía infrarroja, la bioimpedanciometría y la variabilidad de la frecuencia cardíaca, entre otras. Su objetivo es comprender las adaptaciones funcionales al movimiento, optimizar el desempeño locomotor y contribuir a la prevención de lesiones y a la recuperación funcional en distintos contextos clínicos, deportivos y comunitarios.",
+          "en": ""
+        },
+        "institutions": [
+          "DCB",
+          "ANII",
+          "Facultad de Medicina, UdelaR",
+          "UFRGS (Brasil)"
+        ]
       },
       {
         "title": {
-          "es": "Prevención y rehabilitación física",
-          "en": "Physical prevention and rehabilitation"
+          "es": "Sinergias musculares y control motor",
+          "en": ""
         },
         "body": {
-          "es": "Estudios de la prevención y rehabilitación física en diferentes poblaciones en tierra y en agua. Análisis de la mecánica, energética y patrones musculares de locomociones patológicas, movimiento humano, rehabilitación general y deportiva, postura corporal, actividades físicas y deportes acuáticos.",
-          "en": "Studies of physical prevention and rehabilitation in different populations, on land and in water. Analysis of the mechanics, energetics, and muscle patterns of pathological locomotion, human movement, general and sports rehabilitation, body posture, physical activities, and water sports."
-        }
+          "es": "El control de la locomoción y el resto de los movimientos implica estrategias de reducción de la complejidad del aparato locomotor. Los patrones de sinergia nos ayudan a entender las relaciones entre el control motor y los aspectos mecánicos y energéticos de la locomoción.",
+          "en": ""
+        },
+        "institutions": [
+          "DCB",
+          "ANII",
+          "Dep. Ingeniería Biológica, CENUR L.N",
+          "GNAP, UNIPAMPA (Brasil)",
+          "Labiomec, UFSM (Brasil)"
+        ]
       },
       {
         "title": {
-          "es": "Coordinación y sinergia muscular",
-          "en": "Muscle coordination and synergy"
+          "es": "Ejercicio físico, prevención, salud y rendimiento, análisis neuromecanica, energética, fisiológica y postural de los movimientos",
+          "en": ""
         },
         "body": {
-          "es": "Coordinación y sinergia en la activación muscular durante movimientos cíclicos y acíclicos. El control de la locomoción y el resto de los movimientos implica estrategias de reducción de la complejidad del aparato locomotor. Los patrones de sinergia nos ayudan a entender las relaciones entre el control motor y los aspectos mecánicos y energéticos de la locomoción.",
-          "en": "Coordination and synergy in muscle activation during cyclic and acyclic movements. The control of locomotion and other movements involves strategies that reduce the complexity of the locomotor system. Synergy patterns help us understand the relationships between motor control and the mechanical and energetic aspects of locomotion."
-        }
+          "es": "Esta línea estudia el ejercicio físico como herramienta para la promoción de la salud, la prevención y la mejora del rendimiento. Integra el análisis neuromecánico, energético, fisiológico y postural del movimiento para comprender las adaptaciones al ejercicio y desarrollar estrategias de evaluación e intervención en diferentes poblaciones y contextos.",
+          "en": ""
+        },
+        "institutions": [
+          "DCB",
+          "ISEF, UdelaR, UFRGS (Brasil)"
+        ]
       }
     ]
   },
   "currentProjects": [
     {
-      "title": "Proyecto CAPES/AUGM (Edital n° 16/2024): \"PAMPERO – Pesquisa em Adaptações Motoras visando Performance, Inovação, Reabilitação e Otimização\" (Responsables: Prof. Felipe Carpes, GNAP-UNIPAMPA, y Prof. Carlo Biancardi, LIBiAM-UdelaR)",
-      "period": "2024",
-      "role": "Responsable: Prof"
+      "title": "Aspectos energéticos y fisiológicos de la locomoción en trayectorias circulares",
+      "funder": "ANII",
+      "period": "2026-2028",
+      "role": "Responsable"
+    },
+    {
+      "title": "Desarrollo de herramientas para un análisis clínico de la marcha de bajo costo",
+      "funder": "ANII",
+      "period": "2025-2027",
+      "role": "Integrante del equipo"
+    },
+    {
+      "title": "PAMPERO - Pesquisa em Adaptações Motoras visando Performance, Inovação, Reabilitação e Otimização",
+      "funder": "CAPES, AUGM",
+      "period": "2025-2028",
+      "role": "Responsable"
+    },
+    {
+      "title": "Alteraciones de la marcha en enfermedad de Parkinson: efectos de la estimulación del nervio vago",
+      "funder": "CSIC",
+      "period": "Desde 2025",
+      "role": "Responsable"
+    },
+    {
+      "title": "Sistema fascial y cefaleas tensionales",
+      "funder": "CSIC",
+      "period": "Desde 2024",
+      "role": "Responsable"
     }
   ],
   "lead": {
-    "name": "Dr. Carlo Biancardi",
-    "title": "Profesor Agregado, Responsable del LIBiAM (Gdo 4, 40 hs/sem, DT)",
-    "photo": "/images/people/carlo-biancardi.jpg"
+    "name": "Dr. Carlo M. Biancardi",
+    "title": "Profesor Agregado (Gdo 4, 40 hs/sem, DT)",
+    "photo": "/images/people/carlo-biancardi.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy/cv/?2110a2063c09c07c7a90fcef697e73f49d6da15c598412ab93951e7b9eec64070d59267369f9f0af3d859329a63a39e79f6f26cb44e9b98375437178911e140f",
+      "profile": "https://orcid.org/0000-0002-5566-3958"
+    }
   },
   "members": [
     {
-      "name": "Dra. Renata Bona",
-      "title": "Profesor Adjunto (Gdo 3, 40 hs/sem, DT)",
-      "photo": "/images/people/renata-bona.jpg"
+      "name": "Dra. Renata Luisa Bona",
+      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)",
+      "photo": "/images/people/renata-bona.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cvsni/?urlId=f5b9bb5a4b0cbd9c286b315ab32335db95bbfd3f90a5c625821f577f629e3fb67958630f6606b1d07173299b00628fe1eb24170abf9804f8a152ddb737982dcc&formato=html&convocatoria=21",
+        "profile": "https://orcid.org/0000-0003-4343-7336"
+      }
     },
     {
       "name": "Dr. Artur Bonezi",
-      "title": "",
-      "photo": "/images/people/artur-bonezi.jpg"
+      "title": "Profesor Adjunto (Gdo 3, 40 hs/sem, DT)",
+      "photo": "/images/people/artur-bonezi.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?aa4d74819886100abf11d5df93b2728b1d8eca4a8c3a236a0143720e945ddff430cf7c28955c720294006b184406cffe7c9b02f472f556f195c63974816cd16a"
+      }
     },
     {
       "name": "MSc. Patricia Polero",
@@ -92,9 +152,12 @@
       "photo": "/images/people/german-pequera.jpg"
     },
     {
-      "name": "MSc. Valentina Silva",
-      "title": "Asistente (Gdo 2, 30 hs/sem, DT)",
-      "photo": "/images/people/valentina-silva.jpg"
+      "name": "Dra. Valentina Silva",
+      "title": "Asistente (Gdo 2, 40 hs/sem, DT)",
+      "photo": "/images/people/valentina-silva.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?fc31d268e1c5c2a1fff8305fb9484e89a7b1df53d7c9430392846f2b7cff8a5834dc7b96a634a8bc8a5872c165a024279999a775f9f838acfe956ea0a2270a13"
+      }
     },
     {
       "name": "Josefa González",
@@ -107,9 +170,17 @@
       "photo": "/images/people/paula-radesca.jpg"
     },
     {
-      "name": "Christian Schneider",
-      "title": "",
-      "photo": "/images/people/christian-schneider.jpg"
+      "name": "Lic. Christian Schneider",
+      "title": "Ayudante (Gdo 1, 44 hs/sem)",
+      "photo": "/images/people/christian-schneider.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PROINBIO",
+        "advisors": "Dra. Renata Bona"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?52aff640ba9fd5c446d91d1ecc7f02f0"
+      }
     },
     {
       "name": "Mateo Rodrigues Zabala",
@@ -117,9 +188,18 @@
       "photo": "/images/people/mateo-rodrigues-zabala.jpg"
     },
     {
-      "name": "Vanessa Yelós",
-      "title": "",
-      "photo": "/images/people/vanessa-yelos.jpg"
+      "name": "Lic. Vanessa Yelós Tellagorry",
+      "title": "Asistente (Gdo 2, 30 hs/sem)",
+      "photo": "/images/people/vanessa-yelos.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PROINBIO, Facultad de Medicina",
+        "advisors": "Dr. Carlo M. Biancardi, Dr. Germán Pequera"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?1da411206f8fd49a4c6cdf1f8d09b838",
+        "profile": "https://orcid.org/0009-0003-2936-5492"
+      }
     },
     {
       "name": "Luis Parada",
@@ -144,173 +224,150 @@
       "name": "Dr. Gabriel Fábrica",
       "title": "G4, Unidad de Biofísica, Facultad de Medicina",
       "photo": "/images/people/gabriel-fabrica.jpg"
+    },
+    {
+      "name": "Florencia Delfino",
+      "title": "Asistente (Gdo 2, 12 hs/sem + EH 8 hs/sem)",
+      "photo": "/images/people/florencia-delfino.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PEDECIBA, Biología, Facultad de Ciencias",
+        "advisors": "Dr. Germán Pequera, Dr. Carlo Biancardi"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?ad717eb7cd1a09b8f07788387bb87eb2",
+        "profile": "https://orcid.org/0009-0001-1971-4535"
+      }
     }
   ],
   "collaborators": [
     {
-      "name": "Dr. Leonardo Lagos",
-      "institution": "Universidad de Concepción"
-    },
-    {
-      "name": "Carol Torres",
-      "institution": ""
+      "name": "Dr. Germán Pequera",
+      "institution": "Dep. de Ingeniería Biológica, CENUR L.N., UdelaR",
+      "country": "Uruguay",
+      "topic": "Varias líneas y proyectos de investigación (Locomoción, Sinergias musculares, Fisiomecánica); Tutoría de estudiantes; Cursos de posgrado"
     },
     {
       "name": "Prof. Felipe Carpes",
-      "institution": "Grupo de Neuromecânica Aplicada – GNAP, Universidade Federal do Pampa, Brasil"
+      "institution": "UNIPAMPA",
+      "country": "Brasil",
+      "topic": "Proyecto PAMPERO; Consultor en otros proyectos de investigación"
     },
     {
-      "name": "Dr. Iván Rodríguez",
-      "institution": "Universidad de Concepción, Chile"
+      "name": "Dr. Gaspare Pavei",
+      "institution": "Physiomechanics Lab., UniMI",
+      "country": "Italia",
+      "topic": "Consultor en el proyecto ANII de locomoción circular"
     },
     {
-      "name": "Dr. Flavio Antonio de Souza Castro",
-      "institution": "Universidade Federal do Rio Grande do Sul, Brasil"
+      "name": "Dra. Gabriela De Souza",
+      "institution": "Labiomec, UFSM",
+      "country": "Brasil",
+      "topic": "Sinergias musculares (Fue PosDoc en 2026)"
     },
     {
-      "name": "Prof. Alberto E. Minetti",
-      "institution": "Università degli Studi di Milano, Italia"
+      "name": "Dr. Gabriel Fábrica",
+      "institution": "Facultad de Medicina, UdelaR",
+      "country": "Uruguay",
+      "topic": "Biomecánica del Tango"
+    },
+    {
+      "name": "Dr. Leonardo Lagos",
+      "institution": "UDEC",
+      "country": "Chile",
+      "topic": "Fisiomecánica"
+    },
+    {
+      "name": "Dr. Jefferson Loss",
+      "institution": "UFRGS",
+      "country": "Brasil",
+      "topic": "Biomecánica del movimiento"
+    },
+    {
+      "name": "Flavio Castro",
+      "institution": "UFRGS",
+      "country": "Brasil",
+      "topic": "Biomecánica del deporte"
     }
   ],
   "publications": [
     {
-      "doi": "10.1111/1365-2656.14243",
-      "citation": "Rosa G, Schmidt BR, Léna JP, Monod-Broca B, Vignoli L, Tournier E, et al. Frankenstein matrices: among-population life history variation affects the reliability and predictions of demographic models. Journal of Animal Ecology. 2025;94:436-48. https://doi.org/10.1111/1365-2656.14243"
+      "doi": "10.1098/rsos.251967",
+      "citation": "Lagos-Hausheer L, Minetti AE, Pavei G, Bona RL, Biancardi CM. Energetics of human locomotion near the walk–run transition speed. Royal Society Open Science. 2026;13(6). https://doi.org/10.1098/rsos.251967"
     },
     {
-      "citation": "Chumino R, Texeira C, Gianneechini G, Biancardi CM. Potencia, velocidad y agilidad con referencia a la posición en el baloncesto. Revista Iberoamericana de Ciencias de la Actividad Física y el Deporte. 2024;13(2):141-57."
+      "doi": "10.7717/peerj.21581",
+      "citation": "Torres C, Minetti AE, Biancardi CM, Fábrica G. Energetics, kinematics, and physiologic aspects of tango walking in the leader role. PeerJ. 2026;14:e21581. https://doi.org/10.7717/peerj.21581"
     },
     {
-      "citation": "Cornejo J, Sierra JE, Gomez-Gil FJ, Gallego JA, Biancardi CM, Weitzenfeld A. Multibody system dynamics for bio-robotic design and simulation based on inching-locomotion caterpillar's gait: MBD-ILAR method. Bioinspiration & Biomimetics. 2024;20(1):016021."
+      "doi": "10.1109/ojim.2026.3723540",
+      "citation": "Yelos Tellagorry V, Stassi AE, Pequera G, Arevalo M, Biancardi CM. Analyzing calibration sensitivity in markerless tracking systems. IEEE Open Journal of Instrumentation and Measurement. 2026;5:5000507. https://doi.org/10.1109/ojim.2026.3723540"
     },
     {
-      "citation": "Gianneechini G, Bona R, Biancardi CM. Mechanics of walking in subjects with diabetes mellitus type II. In: 2024 International Symposium on 3D Analysis of Human Movement (3DAHM). IEEE; 2024. p. 1-4."
+      "doi": "10.25184/anfamed2026v13n1a1",
+      "citation": "Gianneechini G, Aguiar C, Bueno M, Caporale B, Castillo G, Chinazzo S, et al. Análisis de la marcha, equilibrio y sensibilidad periférica en adultos mayores con diabetes mellitus tipo 2: un estudio de casos y controles. Anales de la Facultad de Medicina. 2026;13(1):e201. https://doi.org/10.25184/anfamed2026v13n1a1"
     },
     {
-      "citation": "Lagos-Hausheer L, Vergara S, Munoz-Martel V, Pequera G, Bona RL, Biancardi CM. Muscle synergies during the walk-run and run-walk transitions. PeerJ. 2024;12:e18162."
+      "doi": "10.1080/14763141.2025.2511759",
+      "citation": "Silva-Pereyra V, Biancardi CM, Fábrica G. Comparative analysis of measurement systems and methods for force and velocity determinations in loaded and unloaded vertical jumps. Sports Biomechanics. 2025;24(9):2449-65. https://doi.org/10.1080/14763141.2025.2511759"
     },
     {
-      "citation": "Parada LA, Bona RL, Biancardi CM. Biomechanics of lateral movements: a review. Scientific Journal of Sport and Performance. 2024;3(4):443-56."
+      "doi": "10.1016/j.jbmt.2025.01.013",
+      "citation": "Schneider CK, Bonezi A, Alzamendi F, Silva F, Luisa Bona R. Acute effects of tissue flossing on the thigh. Journal of Bodywork and Movement Therapies. 2025;42:493-9. https://doi.org/10.1016/j.jbmt.2025.01.013"
     },
     {
-      "citation": "Parada LA, Bona RL, Biancardi CM. Parameters and mechanical description of lateral walking. In: 2024 International Symposium on 3D Analysis of Human Movement (3DAHM). IEEE; 2024. p. 1-5."
-    },
-    {
-      "citation": "Torres CM, Biancardi C, Pequera G, Fábrica G. Mecánica y energética durante la marcha en cinta caminadora en adultos uruguayos saludables: efecto del IMC y la edad. Anales de la Facultad de Medicina. 2024;11(2)."
-    },
-    {
-      "citation": "Biancardi CM, Lagos-Hausheer L, Pequera G, Castroman E, Cazot F, Martinez E, et al. Energetic cost of running in track and treadmill. In: icSPORTS; 2023. p. 173-8."
-    },
-    {
-      "citation": "Lagos-Hausheer L, Bona RL, Biancardi CM. Effectiveness of a variable-speed control based on auditory feedback: is it possible? International Journal of Sports Physiology and Performance. 2023;18(10):1161-8."
-    },
-    {
-      "citation": "Bona RL, Biancardi CM, Bonezi A, Forte P, Marinho D. Preventive shoulder exercises in child swimming athletes. Revista Motricidade. ISSN 1646-107X. [Accepted]"
+      "doi": "10.7717/peerj.18162",
+      "citation": "Lagos-Hausheer L, Vergara S, Munoz-Martel V, Pequera G, Bona RL, Biancardi CM. Muscle synergies during the walk-run and run-walk transitions. PeerJ. 2024;12:e18162. https://doi.org/10.7717/peerj.18162"
     },
     {
       "doi": "10.1007/s00421-022-05088-x",
-      "citation": "Pequera G, Yelós V, Biancardi CM. Reducing cost of transport in asymmetrical gaits: lessons from unilateral skipping. European Journal of Applied Physiology. 2023;123(3):623-31. https://doi.org/10.1007/s00421-022-05088-x"
+      "citation": "Pequera G, Yelós V, Biancardi CM. Reducing cost of transport in asymmetrical gaits: lessons from unilateral skipping. European Journal of Applied Physiology. 2022. https://doi.org/10.1007/s00421-022-05088-x"
     },
     {
-      "doi": "10.1073/pnas.2206805119",
-      "citation": "Cayuela H, Monod-Broca B, Lemaître JF, Besnard A, Gippet JM, et al. Compensatory recruitment allows amphibian population persistence in anthropogenic habitats. Proceedings of the National Academy of Sciences. 2022;119(38):e2206805119. https://doi.org/10.1073/pnas.2206805119"
+      "doi": "10.1123/ijspp.2022-0465",
+      "citation": "Lagos-Hausheer L, Bona RL, Biancardi CM. Effectiveness of a variable-speed control based on auditory feedback: is it possible? International Journal of Sports Physiology and Performance. 2023;18(10):1161-8. https://doi.org/10.1123/ijspp.2022-0465"
     },
     {
-      "doi": "10.3389/fnint.2022.826728",
-      "citation": "Mariman JJ, Lorca E, Biancardi C, Burgos P, Álvarez-Ruf J. Brain's energy after stroke: from a cellular perspective toward behavior. Frontiers in Integrative Neuroscience. 2022;16. https://doi.org/10.3389/fnint.2022.826728"
-    },
-    {
-      "doi": "10.19230/jonnpr.4794",
-      "citation": "Bonezi A, De Souza Castro FA, Bona RL. Kinematics and physiological parameters in maximal swimming tests in age-group swimmers. Journal of Negative and No Positive Results. 2022;7(4):328-41. https://doi.org/10.19230/jonnpr.4794"
-    },
-    {
-      "citation": "Coitinho LL, Parodi M, Pequera G, Biancardi CM. External work computation from motion capture and accelerometer. Revista Argentina de Bioingeniería. 2021;25(1):51-4."
-    },
-    {
-      "doi": "10.1016/j.exger.2021.111652",
-      "citation": "Fabrica G, Biancardi CM. Commentary: the sit-to-stand muscle power test: an easy, inexpensive and portable procedure to assess muscle power in older people. Experimental Gerontology. 2021;111652. https://doi.org/10.1016/j.exger.2021.111652"
-    },
-    {
-      "doi": "10.1109/URUCON53396.2021.9647231",
-      "citation": "Biancardi CM, Chumino R, Gianneechini G. Linear correlation between the fractal dimension of surface EMG signals and the peak power of vertical jumps. In: IEEE URUCON 2021. p. 223-6. https://doi.org/10.1109/URUCON53396.2021.9647231"
-    },
-    {
-      "doi": "10.1109/URUCON53396.2021.9647324",
-      "citation": "Cabral R, Morales I, Biancardi C, Mattiozzi A, Simini F. Lower limb muscles modeling with logical gates for gait analysis instruction. In: IEEE URUCON 2021. p. 282-6. https://doi.org/10.1109/URUCON53396.2021.9647324"
-    },
-    {
-      "citation": "Adsuar JC, Parraca J, Raimundo A, Garcia-Gordillo MA, Polero P, Tomas-Carus P. Test-retest reliability of isokinetic knee strength measurements in type 2 diabetes mellitus patients. Sustainability. 2021;13(3):1343."
-    },
-    {
-      "doi": "10.28997/ruefd.v14i1.4",
-      "citation": "Biancardi CM, Arias J, Irigoite S, Gianneechini G, Pequera G. Evaluación del pico de potencia máxima en deportistas: comparación de métodos. Revista Universitaria de la Educación Física y el Deporte. 2021;14(1). https://doi.org/10.28997/ruefd.v14i1.4"
-    },
-    {
-      "doi": "10.36660/ijcs.20200063",
-      "citation": "Bona RL, Bonezi A, Biancardi CM, Castro F, Clausel N. Electromyographycal and physiological correlation in patient with heart disease. International Journal of Cardiovascular Sciences. 2021. https://doi.org/10.36660/ijcs.20200063"
-    },
-    {
-      "citation": "Mendoza-Muñoz M, Adsuar JC, Mendoza-Muñoz DM, Polero P, Carlos-Vivas J. Concurrent validity and reliability of a novel visual analogue fitness perception scale for adolescents (FP VAS A). International Journal of Environmental Research and Public Health. 2021;18(7):3457."
-    },
-    {
-      "citation": "Pequera G, Ramirez I, Biancardi CM. Common motor patterns of asymmetrical and symmetrical bipedal gaits. PeerJ. [Accepted 23/07/2021]"
-    },
-    {
-      "citation": "Polero P, Rebollo-Seco C, Adsuar JC, Pérez-Gómez J, Rojo-Ramos J, Manzano-Redondo F, et al. Physical activity recommendations during COVID-19: narrative review. International Journal of Environmental Research and Public Health. 2021;18(1):65."
-    },
-    {
-      "doi": "10.19230/jonnpr.3944",
-      "citation": "Racedo AD, Bonezi A, Bona RL. Medidas angulares de la columna vertebral de adultos mayores activos y sedentarios. Journal of Negative and No Positive Results. 2021;6(1):68-83. https://doi.org/10.19230/jonnpr.3944"
-    },
-    {
-      "doi": "10.36661/2358-0399.2021v12i01",
-      "citation": "San Martín A, Americo F, Bonezi A, Bona RL. Atividade física e idosos: contribuição desde a extensão universitária. Revista Brasileira de Extensão Universitária. 2021;12(1):33-42. https://doi.org/10.36661/2358-0399.2021v12i01"
-    },
-    {
-      "citation": "Silva V, Biancardi C, Perafán C, Ortíz D, Fábrica G, Pérez-Miles F. Giant steps: adhesion and locomotion in theraphosid tarantulas. Journal of Comparative Physiology A. 2021;1-12."
-    },
-    {
-      "doi": "10.5114/biolsport.2021.102807",
-      "citation": "Storniolo J, Fischer G, Bona RL, Pinho A, Moorhead A, Finatto P, et al. Transfer of strength training to running mechanics, energetics, and efficiency. Biology of Sport. 2021;39(1):199-206. https://doi.org/10.5114/biolsport.2021.102807"
-    },
-    {
-      "citation": "Biancardi CM, Bona RL, Hausheer LL. Locomoción humana: modelos y variables biomecánicas. Pensar en Movimiento: Revista de Ciencias del Ejercicio y la Salud. 2020;18(2):e41360."
-    },
-    {
-      "citation": "Biancardi CM, Pequera G, Silva-Pereyra V. External mechanical work of locomotion from inverse dynamics. Revista Argentina de Bioingeniería. 2020;24(4):3-6."
-    },
-    {
-      "citation": "Biancardi CM, Silva-Pereyra V. Biomechanics of locomotion in tarantulas. In: New World Tarantulas. Springer, Cham; 2020. p. 365-88."
-    },
-    {
-      "citation": "Bonezi A, Biancardi C, Bona R. Electromyographic economy during running. Revista Argentina de Bioingeniería. 2020;24(5):34-7."
-    },
-    {
-      "citation": "Rojo-Ramos J, Ferrera-Granados C, Fernández-Guerrero M, Manzano-Redondo F, Garcia-Gordillo MÁ, Polero P, et al. A descriptive study on the training and attitude of future teachers towards educational inclusion. Sustainability. 2020;12(19):8028."
-    },
-    {
-      "citation": "Bona RL, Gomeñuka NA, Storniolo JL, Bonezi A, Biancardi CM. Self-selected walking speed in individuals with transfemoral amputation: recovery, economy and rehabilitation index. European Journal of Physiotherapy. 2019;1-8."
-    },
-    {
-      "citation": "Silva-Pereyra V, Fábrica CG, Biancardi CM, Pérez-Miles F. Kinematics of male Eupalaestrus weijenberghi (Araneae, Theraphosidae) locomotion on different substrates and inclines. PeerJ. 2019;7:e7748."
-    },
-    {
-      "citation": "Villafaina S, Polero P, Collado-Mateo D, Fuentes-García JP, Gusi N. Impact of adding a simultaneous cognitive task in the elbow's range of movement during arm curl test in women with fibromyalgia. Clinical Biomechanics. 2019;65:110-5."
-    },
-    {
-      "citation": "Biancardi CM, Martínez A, Mesa A, Norbis V, Carriquiry M, Pequera G. Patrones electromiográficos de la \"virada por avante\" en regatistas de clase Optimist. Revista Universitaria de la Educación Física y el Deporte. 2018;(11):27-35."
-    },
-    {
-      "citation": "Feijó F, Bonezi A, Stefen C, Polero P, Bona RL. Evaluación de adultos mayores con tests funcionales y de marcha. Educación Física y Ciencia. 2018;20."
-    },
-    {
-      "citation": "Sanseverino MA, Pecchiari M, Bona RL, Berton DC, De Queiroz FB, Gruet M, et al. Limiting factors in walking performance of subjects with COPD. Respiratory Care. 2018;63(3):301-10."
-    },
-    {
-      "citation": "Bonezi A, Bona RL, Cantergi D, Loss J. Determinação da carga externa no Pilates: comparação do footwork na chair e no reformer. Ciência em Movimento. 2018;19(39):71-9."
+      "doi": "10.1007/s00359-020-01456-0",
+      "citation": "Silva V, Biancardi C, Perafán C, Ortíz D, Fábrica G, Pérez-Miles F. Giant steps: adhesion and locomotion in theraphosid tarantulas. Journal of Comparative Physiology A. 2021;207(2):179-90. https://doi.org/10.1007/s00359-020-01456-0"
     }
   ],
   "teaching": [
+    {
+      "es": "Bases Histo-Anatomo-Funcionales Humanas. CIO-Salud",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biomecánica y Análisis del Movimiento. Ingeniería Biológica",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "UC8 - Biofísica. Medicina",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Motricidad deportiva. Educación física",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Seminario tesina. Educación física",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
     {
       "es": "Introducción a la Biología Animal. Ciclo Biología-Bioquímica",
       "en": "Introduction to Animal Biology. Biology-Biochemistry track",
@@ -326,99 +383,64 @@
       ]
     },
     {
-      "es": "Bases Histo-Anátomo-Funcionales Humanas. CIO Salud",
-      "en": "Human Histo-Anatomo-Functional Foundations. CIO Salud",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Biomecánica. Ingeniería Biológica",
-      "en": "Biomechanics. Biological Engineering",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Fisiología. Veterinaria",
-      "en": "Physiology. Veterinary Medicine",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Histología general. Medicina",
-      "en": "General Histology. Medicine",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Biofísica del músculo y la marcha. Medicina",
-      "en": "Biophysics of Muscle and Gait. Medicine",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Seminario Tesina. Instituto Superior de Educación Física",
-      "en": "Thesis Seminar. Instituto Superior de Educación Física (ISEF)",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Motricidad Deportiva. Instituto Superior de Educación Física",
-      "en": "Sport Motor Skills. Instituto Superior de Educación Física (ISEF)",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Fundamentos del Movimiento Humano/Cinesiología. Instituto Superior de Educación Física",
-      "en": "Fundamentals of Human Movement/Kinesiology. Instituto Superior de Educación Física (ISEF)",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Estudio del movimiento (posgrado, aprobado por PEDECIBA, 2023)",
-      "en": "Movement Studies (graduate, PEDECIBA-approved, 2023)",
+      "es": "Curso PEDECIBA: Biomecánica del músculo esquelético desde los mecanismos básicos hasta la función en vivo.",
+      "en": "",
       "levels": [
         "posgrado"
       ]
     },
     {
-      "es": "Biomecánica Aplicada a la Rehabilitación y el Deporte (posgrado). PEDECIBA, ProInBio, ProMEF",
-      "en": "Biomechanics Applied to Rehabilitation and Sport (graduate). PEDECIBA, ProInBio, ProMEF",
+      "es": "Curso PEDECIBA: Ciclo de Seminarios Interdisciplinarios en Cerebro, Neurotecnología y Desarrollo Humano",
+      "en": "",
       "levels": [
         "posgrado"
       ]
     },
     {
-      "es": "Biomecánica de la Locomoción en Mamíferos Cursoriales (posgrado). FVET",
-      "en": "Biomechanics of Locomotion in Cursorial Mammals (graduate). Faculty of Veterinary Medicine (FVET)",
+      "es": "Curso PEDECIBA: Fundamentos para el Procesamiento de Señales de Electromiografía de Superficie",
+      "en": "",
       "levels": [
         "posgrado"
       ]
     },
     {
-      "es": "Biomecánica de la Rodilla (posgrado). ProInBio",
-      "en": "Knee Biomechanics (graduate). ProInBio",
+      "es": "Curso PEDECIBA y ProInBio: Programación ABCD",
+      "en": "",
       "levels": [
         "posgrado"
       ]
     },
     {
-      "es": "Pasantía: Rutinas computacionales. Tecnólogo en Informática, sede Paysandú",
-      "en": "Internship: Computational routines. Information Technology degree, Paysandú campus",
+      "es": "Pasantías de 4to año, Profesorado de Biología, CeRP Salto",
+      "en": "4th-year internships, Biology Teacher Training Program, CeRP Salto",
       "levels": [
         "otras"
       ]
     },
     {
-      "es": "Pasantía: Movilidad física y prevención de lesiones en adultos mayores. Instituto Superior de Educación Física",
-      "en": "Internship: Physical mobility and injury prevention in older adults. Instituto Superior de Educación Física (ISEF)",
+      "es": "Pasantías PEDECIBA Prexi",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Micropasantías PEDECIBA",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Pasantías UTU",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Pasantías PosDoc (Proyecto PAMPERO)",
+      "en": "",
       "levels": [
         "otras"
       ]
@@ -426,31 +448,10 @@
   ],
   "outreach": [
     {
-      "es": "¿Cómo puedo prevenir dolores durante el embarazo? (2022)",
-      "en": "\"How can I prevent aches and pains during pregnancy?\" (2022)",
-      "kinds": [
-        "comunidad"
-      ]
-    },
-    {
       "es": "Educación física, prevención y salud: aportes científicos de investigadores del LIBiAM en el Liceo \"Aníbal Sampayo\" (2022/23)",
       "en": "Physical education, prevention and health: scientific contributions from LIBiAM researchers at Liceo \"Aníbal Sampayo\" (2022/23)",
       "kinds": [
         "educativo"
-      ]
-    },
-    {
-      "es": "Columna, Yoga y ejercicios para embarazada y postparto (2023)",
-      "en": "Spine, yoga and exercises for pregnancy and postpartum (2023)",
-      "kinds": [
-        "comunidad"
-      ]
-    },
-    {
-      "es": "Café Científico Sanducero",
-      "en": "Sanducero Science Café",
-      "kinds": [
-        "comunidad"
       ]
     },
     {
@@ -461,19 +462,61 @@
       ]
     },
     {
-      "es": "Actividad Física para Calidad de Vida",
-      "en": "Physical Activity for Quality of Life",
+      "es": "Investigar el dolor para ir más allá de la pastilla (Él Telégrafo)",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "La ciencia de correr en curva (Él Telégrafo)",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Entrevista en SobreCiencia - TV Ciudad https://youtu.be/VoriDAGhYSI",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Columna, Yoga y ejercicios para embarazada y postparto. (Actividad en el medio).",
+      "en": "",
       "kinds": [
         "comunidad"
       ]
     },
     {
-      "es": "Liberación miofascial en adultos mayores",
-      "en": "Myofascial release for older adults",
+      "es": "¿Cómo puedo previnir dolores durante el embarazo? (Actividad en el medio).",
+      "en": "",
       "kinds": [
         "comunidad"
       ]
+    },
+    {
+      "es": "Comité organizador y científico de: 21st edition of the IEEE International Symposium on Medical Measurements and Applications. Montevideo, 2026",
+      "en": "",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Comité organizador y científico de: 18th International Symposium of 3DAHM. Montevideo, 2024",
+      "en": "",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Milonga científica, en colaboración con la Intendencia de Paysandú",
+      "en": "",
+      "kinds": [
+        "arte"
+      ]
     }
   ],
-  "image": "/images/places/libiam-lab.jpg"
+  "image": "/images/groups/libiam.jpg"
 }

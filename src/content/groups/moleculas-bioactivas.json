@@ -5,36 +5,46 @@
     "en": "R&D of Bioactive Molecules"
   },
   "campus": "Paysandú",
-  "email": null,
+  "email": "lab.moleculas.bioactivas@litoralnorte.udelar.edu.uy",
   "summary": {
-    "es": "Grupo interdisciplinario dedicado a la identificación de nuevos blancos terapéuticos y al diseño, síntesis y desarrollo preclínico de nuevos compuestos, con líneas en enfermedades parasitarias, antivirales, y cáncer y patologías neurodegenerativas.",
-    "en": "An interdisciplinary group focused on identifying new therapeutic targets and on the design, synthesis, and preclinical development of new compounds, with lines in parasitic diseases, antivirals, and cancer and neurodegenerative disorders."
+    "es": "El Laboratorio I+D de Moléculas Bioactivas es un grupo interdisciplinario dedicado a identificar blancos terapéuticos y diseñar, sintetizar y evaluar nuevos compuestos con potencial farmacológico. Sus líneas de investigación abarcan enfermedades parasitarias humanas y veterinarias, desarrollo de antivirales, cáncer y patologías neurodegenerativas, integrando enfoques químicos, biológicos y fisicoquímicos.",
+    "en": ""
   },
   "researchLines": {
     "intro": {
-      "es": "El laboratorio I+D de Moléculas Bioactivas es un grupo de trabajo interdisciplinario que centra sus estudios en la identificación de nuevos blancos terapéuticos, su estudio molecular y fisicoquímico y el diseño, síntesis y desarrollo preclínico de nuevos compuestos como potenciales fármacos para distintas patologías. El Laboratorio cuenta con dos áreas de trabajo: un área química que trabaja en el diseño y síntesis de nuevas moléculas y un área biológica que lleva adelante el estudio de blancos moleculares plausibles de ser inhibidos o bloqueados para ejercer un efecto terapéutico, así como profundizar en los aspectos fisicoquímicos básicos de su estructura y mecanismo de acción. En este sentido se llevan adelante tres grandes líneas de trabajo que abarcan la investigación y el desarrollo de compuestos activos frente a I) Enfermedades parasitarias humanas y veterinarias, II) I+D de antivirales y III) Cáncer y Patologías neurodegenerativas. El laboratorio cuenta con un área de química orgánica con equipamiento para la síntesis de moléculas así como su extracción a partir de plantas medicinales u otras fuentes. También dispone de un área de biología molecular y bioquímica con el equipamiento necesario para la transformación, expresión y purificación de proteínas recombinantes, incluyendo una zona estéril para el trabajo con bacterias, incubador orbital termostatizado con control de temperatura y refrigeración, centrífuga refrigerada, cromatógrafo automatizado FPLC (GE AKTA Pure) con varias columnas y resinas, así como el material necesario para realizar electroforesis de ácidos nucleicos y proteínas y Western blot. Se cuenta con un espectrofotómetro Cary UV-vis con modo cinético y con un lector de placas con modo cinético (Varioskan) y detector UV-vis y de fluorescencia. En un ambiente separado, se cuenta con una zona de autolavado de material y con un cuarto de cultivo celular con cámara de flujo laminar, lupas, microscopios y estufas tanto para líneas celulares de mamíferos como para trabajo con parásitos. Se cuenta además con una estufa para el cultivo de garrapata del ganado R. microplus. Recientemente se inauguró un laboratorio para manipulación y cultivo de garrapata R. microplus en la ciudad de Artigas. Además, en el edificio se cuenta con acceso a las plataformas de RMN y espectrometría de masas del Dpto. de Química del Litoral con equipos de RMN de 400 y 500 mHz, varios espectrómetros de masa, HPLC y espectrometría IR.",
-      "en": "The R&D of Bioactive Molecules lab is an interdisciplinary working group focused on identifying new therapeutic targets, studying them at the molecular and physicochemical level, and designing, synthesizing, and preclinically developing new compounds as potential drugs for various pathologies. The lab has two working areas: a chemistry area that designs and synthesizes new molecules, and a biology area that studies molecular targets that could plausibly be inhibited or blocked to produce a therapeutic effect, as well as the basic physicochemical aspects of their structure and mechanism of action. Along these lines, three major research lines are pursued, covering the research and development of active compounds against I) human and veterinary parasitic diseases, II) antivirals, and III) cancer and neurodegenerative disorders. The lab has an organic chemistry area equipped for molecule synthesis and for extraction from medicinal plants or other sources. It also has a molecular biology and biochemistry area with the equipment needed for the transformation, expression, and purification of recombinant proteins, including a sterile area for work with bacteria, a thermostatted orbital incubator with temperature control and refrigeration, a refrigerated centrifuge, an automated FPLC chromatography system (GE AKTA Pure) with several columns and resins, and the material needed for nucleic acid and protein electrophoresis and Western blot. There is a Cary UV-vis spectrophotometer with kinetic mode and a plate reader with kinetic mode (Varioskan) and UV-vis and fluorescence detection. In a separate area, there is a glassware washing station and a cell culture room with a laminar flow hood, magnifiers, microscopes, and incubators for both mammalian cell lines and parasite work, plus an incubator for rearing the cattle tick R. microplus. A laboratory for handling and rearing R. microplus ticks recently opened in the city of Artigas. The building also provides access to the NMR and mass spectrometry platforms of the Dpto. de Química del Litoral, with 400 and 500 MHz NMR equipment, several mass spectrometers, HPLC, and IR spectrometry."
+      "es": "El Laboratorio I+D de Moléculas Bioactivas es un grupo interdisciplinario dedicado a la identificación y caracterización de nuevos blancos terapéuticos, así como al diseño, síntesis y desarrollo preclínico de compuestos con potencial farmacológico. Cuenta con un área química, orientada al diseño y síntesis de nuevas moléculas y su obtención a partir de plantas y otras fuentes naturales; y un área biológica, enfocada en evaluar su actividad sobre parásitos en cultivo y blancos moleculares aislados. Los estudios preclínicos se complementan con la caracterización de mecanismos de acción, estudios de estabilidad y metabolización, y evaluación toxicológica en diferentes modelos celulares.",
+      "en": ""
     },
     "lines": [
-      {
-        "title": {
-          "es": "Enfermedades parasitarias humanas y veterinarias",
-          "en": "Human and veterinary parasitic diseases"
-        },
-        "body": {
-          "es": "Investigación y desarrollo de compuestos activos frente a enfermedades parasitarias de interés médico y veterinario.",
-          "en": "Research and development of compounds active against parasitic diseases of medical and veterinary interest."
-        }
-      },
       {
         "title": {
           "es": "I+D de antivirales",
           "en": "Antiviral R&D"
         },
         "body": {
-          "es": "Diseño, síntesis y desarrollo preclínico de nuevos compuestos con actividad antiviral.",
-          "en": "Design, synthesis and preclinical development of new compounds with antiviral activity."
-        }
+          "es": "Diseño, síntesis y desarrollo preclínico de nuevos compuestos que interfieren con el ensamblaje de la cápside de los Virus de la Inmunodeficiencia Humana y Felina.",
+          "en": ""
+        },
+        "institutions": [
+          "Departamento de Ciencias Biológicas, Universidad de la República, CENUR Litoral Norte",
+          "Equipe Rétrovirus et Biochimie Structurale, Institut de Biologie et Chimie des Protéines, Lyon, Francia"
+        ]
+      },
+      {
+        "title": {
+          "es": "Enfermedades parasitarias humanas y veterinarias",
+          "en": "Human and veterinary parasitic diseases"
+        },
+        "body": {
+          "es": "Desarrollo de compuestos activos frente a Trypanosoma cruzi, Leishmania infantum, garrapata del ganado R. microplus y Fasciola hepatica. Estudios de mecanismos de acción frente a blancos moleculares aislados, evaluación de actividad en cultivos in vitro y eficacia in vivo.",
+          "en": ""
+        },
+        "institutions": [
+          "DCB",
+          "Policlínico Escuela de la Facultad de Veterinaria, Facultad de Ciencias",
+          "Centro de Investigaciones Nucleares",
+          "Institut Pasteur de Montevideo, MGAP, Facultad de Medicina"
+        ]
       },
       {
         "title": {
@@ -44,35 +54,61 @@
         "body": {
           "es": "Identificación de blancos terapéuticos y desarrollo de compuestos para cáncer y enfermedades neurodegenerativas.",
           "en": "Identification of therapeutic targets and development of compounds for cancer and neurodegenerative diseases."
-        }
+        },
+        "institutions": [
+          "IIBCE, Facultad de Ciencias, Centro de Investigaciones nucleares"
+        ]
       }
     ]
   },
   "lead": {
     "name": "Dr. Mauricio Cabrera",
-    "title": "Profesor Agregado, Responsable del grupo (Gdo 4, 40 hs/sem, DT)",
-    "photo": "/images/people/mauricio-cabrera.jpg"
+    "title": "Profesor Agregado (Gdo 4, 35 hs/sem, DT interrumpida por cargo de gobierno)",
+    "photo": "/images/people/mauricio-cabrera.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy/cv/?7fceb6bc67a73dde24ceae48471c2d7a6eb6d64412d143201c108863c2adcd70a2f3f9076e8607f3ca964006d83bd719778598711c7018f45b94985094abc3eb",
+      "profile": "https://orcid.org/my-orcid?orcid=0000-0002-1709-0474"
+    }
   },
   "coLead": {
-    "name": "Dr. Guzmán Alvarez",
-    "title": "",
-    "photo": "/images/people/guzman-alvarez.jpg"
+    "name": "Dr. Guzmán Álvarez",
+    "title": "Profesor Agregado (Gdo 4, 40 hs/sem, DT)",
+    "photo": "/images/people/guzman-alvarez.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy/CvEstatico/?urlId=61376e1aef955854d0fb3755c6903fac0a3228ccc78e97eed528418037c98cb9c35da56727fae4ff1eb8e0509f3c3b3ec707a1d64a8d1a8e61e836ed6e961132&formato=pdf&convocatoria=21",
+      "profile": "https://scholar.google.com.uy/citations?user=sxG5GcsAAAAJ&hl=es"
+    }
   },
   "members": [
     {
       "name": "Dra. Ileana Corvo",
-      "title": "Profesora adjunta (Gdo 3, 40 hs/sem, DT)",
-      "photo": "/images/people/ileana-corvo.jpg"
+      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)",
+      "photo": "/images/people/ileana-corvo.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?3df411cad0d2e82bfa24ace72ebd7173424ab963091eec5f35ebccff9170fbc133c1bca85cfe48fdbf45066c0758983f0c580c9e5c3f5c55f378a31e2c09d6e6",
+        "profile": "https://orcid.org/0000-0002-7527-8926"
+      }
     },
     {
-      "name": "Dra. Lia Randall",
+      "name": "Dra. Lía M. Randall Carlevaro",
       "title": "Asistente (Gdo 2, 40 hs/sem, DT)",
-      "photo": "/images/people/lia-randall.jpg"
+      "photo": "/images/people/lia-randall.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cvsni/?urlId=c045a4db6f974431f55b86e671c5ced0699a4a74f951944f3758c97bad916509f40dc1c618898df6f9829b36d310ae0a9fe8cd60d6632d7806c35791e6e66395&formato=html&convocatoria=21"
+      }
     },
     {
       "name": "MSc. Cintya Perdomo",
-      "title": "Ayudante (Gdo 1, 30 hs/sem)",
-      "photo": "/images/people/cintya-perdomo.jpg"
+      "title": "Asistente (Gdo 2, 20 hs/sem)",
+      "photo": "/images/people/cintya-perdomo.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "PEDECIBA, Doctorado en Química",
+        "advisors": "Dr. Guzmán Álvarez, Dr. Fernando Pérez-Miles"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?ae40765eb6bb33ded7a12223f1859df0575ae8fefb3dbc236932c0cdfd13cf118875fd5bdea97db49aaa8195ccdee0dffc2280c5ca3b25dd2f7804e76a6e87e2"
+      }
     },
     {
       "name": "MSc. Tatiana Sapotiti",
@@ -80,268 +116,486 @@
       "photo": "/images/people/tatiana-sapotiti.jpg"
     },
     {
-      "name": "Lic. Zoraima Artía",
-      "title": "Ayudante (Gdo 1, 35 hs/sem CIO Salud/CBB)",
-      "photo": "/images/people/zoraima-artia.jpg"
+      "name": "Lic. Zoraima Artía Blanc",
+      "title": "Asistente (Gdo 2, 30 hs/sem, efectivo)",
+      "photo": "/images/people/zoraima-artia.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "PEDECIBA Biología, Facultad de Ciencias, CENUR Litoral Norte",
+        "advisors": "Dra. Lía Randall, Dra. Ileana Corvo, Dr. Guzmán Álvarez"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?2dd0408ea1e93e1b30205385bbf2bfed"
+      }
+    },
+    {
+      "name": "MSc. Krislly R. Ramírez L.",
+      "title": "",
+      "photo": "/images/people/krislly-r-ramirez-l.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "PEDECIBA, Doctorado en Ciencias Biológicas",
+        "advisors": "Dr. Guzmán Álvarez, Dr. Kadir González (Panamá)"
+      },
+      "links": {
+        "profile": "https://orcid.org/0000-0002-7384-9334"
+      }
+    },
+    {
+      "name": "Bach. Carla Palermo",
+      "title": "Asistente (Gdo 2, 30 hs/sem)",
+      "photo": "/images/people/carla-palermo.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PEDECIBA, Biología",
+        "advisors": "Dra. Ileana Corvo, Dra. Ana Soler"
+      }
+    },
+    {
+      "name": "Rachel Ramos Granja",
+      "title": "",
+      "photo": "/images/people/rachel-ramos-granja.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "Maestría en Química, Facultad de Química",
+        "advisors": "Dr. Guzmán Álvarez, Dra. Elena Aguilera"
+      }
+    },
+    {
+      "name": "Dra. Macarena Eugui",
+      "title": "Asistente (Gdo 2, 40 hs/sem, DT, DQL); Gdo 3 libre, IIUS",
+      "photo": "/images/people/macarena-eugui.jpg",
+      "thesis": {
+        "level": "posdoctorado",
+        "program": "Instituto de Investigación Una Salud",
+        "advisors": "Dr. Mauricio Cabrera, Dr. Marcos Couto, Dra. Lucia Pareja, Dra. Manuela García"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cvsni/?urlId=58ece30a9f0e742b4482f5ccfa4c5a65&formato=html&convocatoria=21",
+        "profile": "https://orcid.org/0009-0009-6111-7097"
+      }
+    },
+    {
+      "name": "Lic. Mariana Chaves",
+      "title": "Ayudante (Gdo 1, 20 hs/sem, CSIC Iniciación)",
+      "photo": "/images/people/mariana-chaves.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PEDECIBA Biología, Facultad de Ciencias",
+        "advisors": "Dra. Ileana Corvo, Dra. Leticia Pérez, Dra. Nélida Rodríguez"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?e4934f20d0adf790ca0243ca23e1c60c"
+      }
+    },
+    {
+      "name": "Quím. Valeria Lucero",
+      "title": "Ayudante (Gdo 1, 10 hs/sem)",
+      "photo": "/images/people/valeria-lucero.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "Posgrado en Química, Facultad de Química",
+        "advisors": "Dr. Mauricio Cabrera, Dr. Guillermo Moyna"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?e8424b10c58343948bd33c44299aff32"
+      }
+    },
+    {
+      "name": "Inés Telles",
+      "title": "",
+      "photo": "/images/people/ines-telles.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "Maestría en Química, Facultad de Química",
+        "advisors": "Dr. Mauricio Cabrera, Dra. Lucía Pareja"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?05b99a2ae301c6cb7a69325876a3237c9c0f5a628d910c1eb2c6d2c877b651a1cad6b2b376e5746718be1191b8a310c6d15507b2d437f237bf9f5d1344be0061"
+      }
+    },
+    {
+      "name": "Juan Diego Llona",
+      "title": "Ayudante (Gdo 1, 30 hs/sem)",
+      "photo": "/images/people/juan-diego-llona.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?e6711ac12749773547207eb763bb034b",
+        "profile": "https://orcid.org/0009-0001-4365-6259"
+      }
+    },
+    {
+      "name": "Tec. Quím. Matías Suárez",
+      "title": "",
+      "photo": "/images/people/matias-suarez.jpg",
+      "thesis": {
+        "level": "grado",
+        "program": "Licenciatura en Biología Humana, CENUR Litoral Norte",
+        "advisors": "Dr. Guzmán Álvarez"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?dae55a316c1535a513cf277e84fa7be8"
+      }
+    },
+    {
+      "name": "Lic. Sylvia Cuchman",
+      "title": "Becaria ANII",
+      "photo": "/images/people/sylvia-cuchman.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Química, Facultad de Química",
+        "advisors": "Dra. Carolina Fontana, Dra. Ileana Corvo, Dra. Patricia Saenz-Mendez"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?d7f21b3c06111cc22b2a53f62c78c395",
+        "profile": "https://orcid.org/my-orcid?orcid=0009-0008-3241-1142"
+      }
+    },
+    {
+      "name": "Bach. Lucía Thomas",
+      "title": "Asistente (Gdo 2, 20 hs/sem)",
+      "photo": "/images/people/lucia-thomas.jpg"
     }
   ],
   "collaborators": [
     {
-      "name": "University of Dundee, School of Life Sciences, Mark C. Field Lab (Reino Unido)",
-      "institution": "University of Dundee, School of Life Sciences, Mark C. Field Lab (Reino Unido)",
+      "name": "Dr. Christophe Guillon",
+      "institution": "Microbiologie Moléculaire et Biochimie Structurale, Equipe Rétrovirus et Biochimie Structurale, Institut de Biologie et Chimie des Protéines",
+      "country": "Francia",
+      "topic": "Desarrollo de moléculas que interfieren con el ensamblaje de la cápside del Virus de la Inmunodeficiencia Humana"
+    },
+    {
+      "name": "Prof. Mark Field",
+      "institution": "University of Dundee, School of Life Sciences, Mark C. Field Lab",
+      "country": "Escocia",
       "topic": "Elucidación del mecanismo de acción de compuestos con actividad tripanosomicida"
     },
     {
-      "name": "Université Lyon – Molecular Microbiology and Structural Biochemistry, CNRS, Lyon (Francia), Guillon Lab",
-      "institution": "Université Lyon – Molecular Microbiology and Structural Biochemistry, CNRS, Lyon (Francia), Guillon Lab",
-      "topic": "Desarrollo de fármacos antivirales"
-    },
-    {
-      "name": "Queen Mary University of London, Queen Mary Pre-Clinical Drug Discovery Group, School of Biological and Chemical Sciences, Londres (Reino Unido), Wilkinson Lab",
-      "institution": ""
-    },
-    {
-      "name": "Departamento de Bioquímica Clínica, Facultad de Ciencias Químicas, Universidad Nacional de Córdoba (Argentina), Dra. Laura Cervi",
-      "institution": "Departamento de Bioquímica Clínica, Facultad de Ciencias Químicas, Universidad Nacional de Córdoba (Argentina), Dra. Laura Cervi",
-      "topic": "Rol de las catepsinas de Fasciola hepatica en la respuesta inmune contra el parásito"
-    },
-    {
-      "name": "University of Amsterdam, Department of Experimental Immunology, Amsterdam UMC, Amsterdam Infection & Immunity Institute (Países Bajos), Kootstra Lab",
-      "institution": ""
-    },
-    {
-      "name": "National Center for Scientific Research 'Demokritos', Institute of Biosciences & Applications, Atenas (Grecia), Sagnou Lab",
-      "institution": ""
-    },
-    {
-      "name": "Atomwise, Deep learning for structure-based Drug Discovery, Silicon Valley, CA",
-      "institution": "Estados Unidos"
-    },
-    {
-      "name": "Universidad Nacional Autónoma de México, Departamento de Bioquímica y Biología Estructural, Instituto de Fisiología Celular, Ciudad de México (México), Pérez-Montfort Lab",
-      "institution": ""
-    },
-    {
-      "name": "Universidad de Buenos Aires, Facultad de Farmacia y Bioquímica, Cátedra de Farmacognosia, Buenos Aires (Argentina), Sulsen Lab",
-      "institution": ""
-    },
-    {
-      "name": "Universidade Federal do Rio Grande do Sul, Faculdade de Veterinária, Porto Alegre, RS (Brasil), da Silva Vaz Jr. Lab",
-      "institution": ""
-    },
-    {
-      "name": "Universidad Nacional de Asunción, Departamento de Medicina Tropical, Instituto de Investigaciones en Ciencias de la Salud, San Lorenzo (Paraguay), Yaluff Lab",
-      "institution": "Universidad Nacional de Asunción, Departamento de Medicina Tropical, Instituto de Investigaciones en Ciencias de la Salud, San Lorenzo (Paraguay), Yaluff Lab",
+      "name": "Dra. Gloria Yaluff",
+      "institution": "Universidad Nacional de Asunción, Departamento de Medicina Tropical, Instituto de Investigaciones en Ciencias de la Salud, San Lorenzo, C.P. 2169",
+      "country": "Paraguay",
       "topic": "Ensayos preclínicos in vivo de compuestos activos"
     },
     {
-      "name": "Universidad de Santander, Bucaramanga (Colombia), Leal Lab",
-      "institution": ""
+      "name": "Dra. Laura Cervi",
+      "institution": "Departamento de Bioquímica Clínica, Facultad de Ciencias Químicas, Universidad Nacional de Córdoba",
+      "country": "Argentina",
+      "topic": "Rol de las catepsinas de Fasciola hepatica en la respuesta inmune contra el parásito"
     },
     {
-      "name": "Instituto Pedro Kourí, Departamento de Parasitología (Cuba), Monzote Lab",
-      "institution": ""
+      "name": "Dra. Manuela Garcia",
+      "institution": "Facultad de Ciencias Químicas, Universidad Nacional de Córdoba",
+      "country": "Argentina",
+      "topic": "Productos naturales, aislamiento, caracterización y derivatización"
+    },
+    {
+      "name": "Dra. Carolina Fontana",
+      "institution": "Departamento de Química del Litoral, CENUR Litoral Norte, UdelaR",
+      "country": "Uruguay",
+      "topic": "Caracterización de los O-antígenos polisacarídicos de la pared de E. coli patógenas"
+    },
+    {
+      "name": "Dr. Ruy Pérez-Montfort",
+      "institution": "Universidad Nacional Autónoma de México, Departamento de Bioquímica y Biología Estructural, Instituto de Fisiología Celular, Ciudad de México",
+      "country": "México",
+      "topic": "Inhibición de la triosafosfato isomerasa de distintos patógenos"
+    },
+    {
+      "name": "Dra. Patricia Sulsen",
+      "institution": "Universidad de Buenos Aires, Facultad de Farmacia y Bioquímica, Cátedra de Farmacognosia, Buenos Aires",
+      "country": "Argentina",
+      "topic": "Actividad biológica de productos naturales"
     }
   ],
   "publications": [
     {
-      "citation": "Elso OG, Clavin M, Catalan CAN, Aguilera E, Alvarez G, Sülsen VP. Antiprotozoal compounds from Urolepis hecatantha (Asteraceae). Evidence-Based Complementary and Alternative Medicine. 2021."
+      "doi": "10.1002/cmdc.202500896",
+      "citation": "Aguilera E, Ramos R, Davtyan A, Cabrera N, Perez‐Montfort R, Serna E, et al. A novel triose phosphate isomerase inhibitor with dual trypanosomicidal activity was identified using artificial intelligence‐based virtual screening. ChemMedChem. 2026;21(8). https://doi.org/10.1002/cmdc.202500896"
     },
     {
-      "citation": "Matiadis D, Saporiti T, Aguilera E, Robert X, Guillon C, Cabrera N, et al. Pyrazol(in)e derivatives of curcumin analogues as a new class of anti-Trypanosoma cruzi agents. Future Medicinal Chemistry. 2021."
+      "doi": "10.1016/j.bbrc.2025.151572",
+      "citation": "Artía Z, Guillon C, Robert X, Granzella M, Segovia AC, Truong HH, et al. Integrating different approaches for the identification of new disruptors of HIV-1 capsid multimerization. Biochemical and Biophysical Research Communications. 2025;763:151572. https://doi.org/10.1016/j.bbrc.2025.151572"
     },
     {
-      "citation": "Long M, Cantrelle FX, Robert X, Boll E, Sierra N, Gouet P, et al. NMR characterization of the binding site of a new Feline Immunodeficiency Virus capsid assembly inhibitor. Biochemistry. 2021. [Corresponding authors: Alvarez G, Guillon C]"
+      "doi": "10.1002/cmdc.202400305",
+      "citation": "Ferraro F, Merlino A, Gil J, Pérez‐Silanes S, Corvo I, Cabrera M. Flavonoid‐quinoxaline hybrid compounds as cathepsin inhibitors against fascioliasis. ChemMedChem. 2024;19(18). https://doi.org/10.1002/cmdc.202400305"
+    },
+    {
+      "doi": "10.1038/s41598-024-54655-z",
+      "citation": "The Atomwise AIMS Program, Wallach I, Bernard D, Nguyen K, Ho G, Morrison A, et al. AI is a viable alternative to high throughput screening: a 318-target study. Scientific Reports. 2024;14(1). https://doi.org/10.1038/s41598-024-54655-z"
+    },
+    {
+      "doi": "10.1016/j.exppara.2023.108628",
+      "citation": "Artía Z, Ferraro F, Sánchez C, Cerecetto H, Gil J, Pareja L, et al. In vitro and in vivo studies on a group of chalcones find promising results as potential drugs against fascioliasis. Experimental Parasitology. 2023;255:108628. https://doi.org/10.1016/j.exppara.2023.108628"
+    },
+    {
+      "doi": "10.1002/ardp.202200305",
+      "citation": "Eugui M, Lucero V, do Carmo H, Cabrera M, Moyna G. Synthesis and antitumoral evaluation of natural product‐like compounds based on tropolone and benzotropolone derivatives. Archiv der Pharmazie. 2022;356(3). https://doi.org/10.1002/ardp.202200305"
+    },
+    {
+      "doi": "10.1186/s40360-022-00581-7",
+      "citation": "Alvarez G, van Pul L, Robert X, Artía Z, van Nuenen AC, Long M, et al. Identification of 2-(4-N,N-dimethylaminophenyl)-5-methyl-1-phenethyl-1H-benzimidazole targeting HIV-1 CA capsid protein and inhibiting HIV-1 replication in cellulo. BMC Pharmacology and Toxicology. 2022;23(1). https://doi.org/10.1186/s40360-022-00581-7"
+    },
+    {
+      "doi": "10.1016/j.ttbdis.2022.101970",
+      "citation": "Ozelame KPC, Mattia MMC, Dedavid e Silva LA, Randall LM, Corvo I, Saporiti T, et al. Novel tick glutathione transferase inhibitors as promising acaricidal compounds. Ticks and Tick-borne Diseases. 2022;13(5):101970. https://doi.org/10.1016/j.ttbdis.2022.101970"
+    },
+    {
+      "doi": "10.3390/ph14070644",
+      "citation": "Perdomo C, Aguilera E, Corvo I, Faral-Tello P, Serna E, Robello C, et al. Preclinical studies in anti-trypanosomatidae drug development. Pharmaceuticals. 2021;14(7):644. https://doi.org/10.3390/ph14070644"
     },
     {
       "doi": "10.1038/s41598-020-59460-y",
-      "citation": "Ferraro F, Corvo I, Bergalli L, Ilarraz A, Cabrera M, Gil J, et al. Novel and selective inhibitors of triosephosphate isomerase with anti-trematode activity. Sci Rep. 2020;10:2587. https://doi.org/10.1038/s41598-020-59460-y"
+      "citation": "Ferraro F, Corvo I, Bergalli L, Ilarraz A, Cabrera M, Gil J, et al. Novel and selective inactivators of triosephosphate isomerase with anti-trematode activity. Scientific Reports. 2020;10(1). https://doi.org/10.1038/s41598-020-59460-y"
     },
     {
-      "doi": "10.3390/molecules24203800",
-      "citation": "Aguilera E, Perdomo C, Espindola A, Corvo I, Faral-Tello P, Robello C, et al. A nature-inspired design yields a new class of steroids against tripanosomatids. Molecules. 2019;24(20):E3800. https://doi.org/10.3390/molecules24203800"
-    },
-    {
-      "citation": "Ferraro F, Merlino A, Gil J, Cerecetto H, Corvo I, Cabrera M. Cathepsin L inhibitors with activity against the liver fluke identified from a focus library of quinoxaline 1,4-di-N-oxide derivatives. Molecules. 2019;24:2348."
-    },
-    {
-      "citation": "Celias DP, Corvo I, Silvane L, Tort JF, Chiapello LS, Fresno M, et al. Cathepsin L3 from Fasciola hepatica induces NLRP3 inflammasome alternative activation in murine dendritic cells. Frontiers in Immunology. 2019;10:552."
-    },
-    {
-      "citation": "Randall LM, Dalla Rizza J, Parsonage D, Santos J, Mehl RA, Lowther WT, et al. Unraveling the effects of peroxiredoxin 2 nitration; role of C-terminal tyrosine 193. Free Radical Biology and Medicine. 2019;141:492-501."
-    },
-    {
-      "citation": "Dalla Rizza J, Randall LM, Santos J, Ferrer-Sueta G, Denicola A. Differential parameters between cytosolic 2-Cys peroxiredoxins, PRDX1 and PRDX2. Protein Science. 2019;28:191-201."
-    },
-    {
-      "doi": "10.3390/vetsci6010029",
-      "citation": "Risi G, Aguilera E, Lados E, Suarez G, Carrera I, Alvarez G, et al. Caenorhabditis elegans infrared-based motility assay identified new hits for nematicide drug development. Vet Sci. 2019;6(1):E29. [Corresponding authors: Alvarez G, Salinas G] https://doi.org/10.3390/vetsci6010029"
-    },
-    {
-      "doi": "10.3390/ph11030078",
-      "citation": "Fort RS, Trinidad Barnech JM, Dourron J, Colazzo M, Aguirre-Crespo FJ, Duhagon MA, et al. Isolation and structural characterization of bioactive molecules on prostate cancer from Mayan traditional medicinal plants. Pharmaceuticals (Basel). 2018;11(3):E78. [Corresponding authors: Duhagon MA, Álvarez G] https://doi.org/10.3390/ph11030078"
-    },
-    {
-      "citation": "Corvo I, Ferraro F, Merlino A, Zuberbühler K, O'Donoghue AJ, Pastro L, et al. Substrate specificity of cysteine proteases beyond the S2 pocket: mutagenesis and molecular dynamics investigation of Fasciola hepatica cathepsins L. Frontiers in Molecular Biosciences. 2018;5:40."
-    },
-    {
-      "doi": "10.3390/ph11030067",
-      "citation": "Sierra N, Folio C, Guillon C, Álvarez G. Looking for novel capsid protein multimerization inhibitors of Feline Immunodeficiency Virus. Pharmaceuticals (Basel). 2018;11(3):E67. [Corresponding authors: Guillon C, Álvarez G] https://doi.org/10.3390/ph11030067"
-    },
-    {
-      "citation": "Portillo-Ledesma S, Randall LM, Parsonage D, Dalla Rizza J, Karplus PA, Poole LB, et al. Differential kinetics of two-cysteine peroxiredoxin disulfide formation reveal a novel model for peroxide sensing. Biochemistry. 2018;57:3416-24. [Corresponding authors: Portillo-Ledesma S, Randall LM]"
-    },
-    {
-      "doi": "10.3390/vetsci5030074",
-      "citation": "Saramago L, Gomes H, Aguilera E, Cerecetto H, González M, Cabrera M, et al. Novel and selective Rhipicephalus microplus triosephosphate isomerase inhibitors with acaricidal activity. Vet. Sci. 2018;5(3):74. [Corresponding authors: Moraes J, Alvarez G] https://doi.org/10.3390/vetsci5030074"
-    },
-    {
-      "doi": "10.2174/0929867325666180410101728",
-      "citation": "Aguilera E, Alvarez G, Cerecetto H, González M. Polypharmacology in the treatment of Chagas disease. Current Topics in Medicinal Chemistry. 2018. https://doi.org/10.2174/0929867325666180410101728"
-    },
-    {
-      "citation": "Aguilera E, Varela J, Serna E, Torres S, Yaluff G, Vera de Bilbao N, et al. Looking for combination of benznidazole and T. cruzi-triosephosphate isomerase inhibitors for Chagas disease treatment. Mem. Inst. Oswaldo Cruz, Rio de Janeiro. 2018:1-8."
-    },
-    {
-      "doi": "10.3390/v9110335",
-      "citation": "Folio C, Sierra N, Dujardin M, Alvarez G, Guillon C. Crystal structure of the full-length Feline Immunodeficiency Virus capsid protein shows an N-terminal β-hairpin in the absence of N-terminal proline. Viruses. 2017;9(11):335. https://doi.org/10.3390/v9110335"
-    },
-    {
-      "citation": "Álvarez G, Perdomo C, Coronel C, Aguilera E, Varela J, Aparicio G, et al. Multi-anti-parasitic activity of arylideneketones and thiazolidenehydrazines against Trypanosoma cruzi and Leishmania spp. Molecules. 2017;22:709. [Corresponding author: Álvarez G]"
-    },
-    {
-      "citation": "Rodríguez G, Nargoli J, López A, Moyna G, Álvarez G, Fernández M, et al. Synthesis and in vivo proof of concept of a BODIPY-based fluorescent probe as a tracer for biodistribution studies of a new anti-Chagas agent. RSC Adv. 2017;7:7983-9."
-    },
-    {
-      "doi": "10.1007/978-1-0716-0475-5_17",
-      "citation": "Ferraro F, Cabrera M, Alvarez G, Corvo I. Chapter 17: Drug targets: screening for small molecules that inhibit Fasciola hepatica enzymes. In: Fasciola hepatica Methods and Protocols. Methods Mol Biol. 2020;2137:221-31. https://doi.org/10.1007/978-1-0716-0475-5_17"
-    },
-    {
-      "doi": "10.1007/978-1-4939-8630-9",
-      "citation": "Alvarez G. Bioguided design of trypanosomicidal compounds: a successful strategy in drug discovery. In: Mavromoustakos T, Kellici TF, editors. Rational Drug Design: Methods and Protocols. Humana Press, Springer; 2018. https://doi.org/10.1007/978-1-4939-8630-9"
+      "citation": "Corvo I, Cabrera M. Drug Discovery in Fasciola hepatica: Few Steps in the Last Ten Years. Advances in the Medicinal Chemistry of Neglected Tropical Disease and Related Infectious Diseases. 2025 Aug 4;340–59."
     }
   ],
   "teaching": [
     {
-      "es": "Cursos de grado: Introducción a la vida universitaria, CENUR Litoral Norte",
-      "en": "Undergraduate courses: Introduction to University Life, CENUR Litoral Norte",
+      "es": "Bases Biomoleculares/Fundamentos de Bioquímica y Bases Biomoleculares. Ciclo Inicial Optativo del área Salud/Ciclo Biología-Bioquímica.",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Cursos de grado: Universidad y Profesiones de la Salud, CIO Salud",
-      "en": "Undergraduate courses: University and Health Professions, CIO Salud",
+      "es": "Biología Molecular. Licenciatura en Biotecnología.",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Cursos de grado: Bases Biomoleculares, CIO Salud",
-      "en": "Undergraduate courses: Biomolecular Foundations, CIO Salud",
+      "es": "DREMRD (UC12). Doctor en Medicina.",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Cursos de grado: Bases Biomoleculares II, CIO Salud",
-      "en": "Undergraduate courses: Biomolecular Foundations II, CIO Salud",
+      "es": "Biología del desarrollo y los tejidos (UC8). Doctor en Medicina.",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Cursos de grado: DREM-DR, 3er año Carrera de Dr. en Medicina",
-      "en": "Undergraduate courses: DREM-DR, 3rd year of the Doctor of Medicine program",
+      "es": "Metodología Científica II. Doctor en Medicina.",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Cursos de grado: Metodología Científica 2, 6to año Carrera de Dr. en Medicina",
-      "en": "Undergraduate courses: Scientific Methodology 2, 6th year of the Doctor of Medicine program",
+      "es": "Introducción a las Ciencias Biológicas I. Ciclo Biología-Bioquímica.",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Cursos de posgrado: Descubrimiento y desarrollo de medicamentos desde la academia, a desarrollarse en 2021",
-      "en": "Graduate courses: Drug discovery and development from academia, to be held in 2021",
+      "es": "Curso de genética humana. Doctor en Medicina.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Bases Biomoleculares II. Ciclo Inicial Optativo del área Salud.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a las Ciencias Biológicas II. Ciclo Biología-Bioquímica.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a la Biotecnología. Licenciatura en Biotecnología.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Curso PEDECIBA Química: Descubrimiento y desarrollo de medicamentos desde la academia. Coordinadores: Macarena Eugui, Mauricio Cabrera, Marcos Couto y Hugo Cerecetto",
+      "en": "",
       "levels": [
         "posgrado"
       ]
     },
     {
-      "es": "Cursos de posgrado: Abordaje ecotoxicológico de exposición a plaguicidas: bioensayos, herramientas bioquímicas y analíticas en organismos bioindicadores. Curso auspiciado por PEDECIBA-Química. CENUR Litoral Norte, Sede Paysandú, 2017",
-      "en": "Graduate courses: Ecotoxicological approach to pesticide exposure: bioassays and biochemical/analytical tools in bioindicator organisms. Course sponsored by PEDECIBA-Química. CENUR Litoral Norte, Paysandú campus, 2017",
+      "es": "Julieta Ohaco -Pasantías de 4to año, Profesorado de Ciencias Biológicas, Profesorado Semipresencial, ANEP-CFE (2026). Responsables Guzmán Álvarez y Macarena Eugui.",
+      "en": "",
       "levels": [
-        "posgrado"
+        "otras"
       ]
     },
     {
-      "es": "Cursos de posgrado: Desarrollo de terapias novedosas para la inflamación crónica. Curso internacional de posgrado teórico y práctico – CABBIO. Facultad de Ciencias, Universidad de la República, 2015",
-      "en": "Graduate courses: Development of novel therapies for chronic inflammation. International theoretical-practical graduate course – CABBIO. Facultad de Ciencias, Universidad de la República, 2015",
+      "es": "Lucas Fagúndez- Pasantía final, Tecnólogo Químico (2026). Responsable Macarena Eugui.",
+      "en": "",
       "levels": [
-        "posgrado"
+        "otras"
+      ]
+    },
+    {
+      "es": "Chiara Principe y Micaela Pérez. Pasantía de fin de grado, Tecnólogo en Biotecnología (2024). Responsable Cintya Perdomo.",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Alberto Buscio - Pasantías de 4to año, Profesorado de Ciencias Biológicas, Profesorado Semipresencial, ANEP-CFE (2024). Responsable Zoraima Artía.",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Maximiliano Granzella - Pasantía Final de Carrera Tecnólogo Químico - UTEC (2023) Responsables Dras. Lía Randall e Ileana Corvo",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Giuliana Bicco - Pasantía Final de Carrera Tecnólogo Químico - UTEC (2023) Responsables Dras. Ileana Corvo y Lía Randall",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "La revalorización del patrimonio vegetal regional: el caso de la vara de oro (Solidago chilensis). Educación permanente 2026 - Responsable Macarena Eugui.",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "PAIE 2026 - Exploración de compuestos orgánicos bioactivos en especies vegetales de la familia Asteraceae para el control de Rhipicephalus microplus (Inés, Maca-Rosina Silva responsable).",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "PAIE 2023 - Estudio molecular de Fasciola hepatica obtenida de diferentes hospederos definitivos (orientadoras Dra. Teresa Armúa y Dra. Ileana Corvo, estudiantes Lucia Caraccio, Florencia Méndez, Natalia Martínez, Facundo Arrighetti).",
+      "en": "",
+      "levels": [
+        "otras"
       ]
     }
   ],
   "outreach": [
     {
-      "es": "Participación en el programa Zambullite en la Ciencia, Facultad de Ciencias UdelaR, con la actividad \"Explorando las sustancias medicinales\", donde 10 estudiantes de secundaria trabajaron en el laboratorio por 4 días en proyectos de investigación del grupo, 2020",
-      "en": "Participation in the \"Zambullite en la Ciencia\" program (Facultad de Ciencias, UdelaR), with the activity \"Exploring Medicinal Substances\", in which 10 secondary-school students worked in the lab for 4 days on the group's research projects, 2020",
+      "es": "Nota de prensa: Estudiar e investigar en el interior: De la Licenciatura en Biología Humana a la Maestría en Ciencias Biológicas, el testimonio de Mariana Cháves. La Revista Quinto día. Diario El Telégrafo. https://www.eltelegrafo.com/ediciones-pdf/quinto-dia/page/3/",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "\"Extracción de ADN con utensilios de cocina\" taller con estudiantes de 7mo año del Liceo No 2 de Paysandú en el marco de la Semana CyT julio 2026.",
+      "en": "",
       "kinds": [
         "educativo"
       ]
     },
     {
-      "es": "Intercambio de saberes acerca de una problemática actual en el Uruguay: el control de Rhipicephalus (Boophilus) microplus (garrapata del bovino). Proyecto financiado Actividades en el medio, CSEAM, 2019",
-      "en": "Knowledge exchange on a current issue in Uruguay: control of Rhipicephalus (Boophilus) microplus (cattle tick). Project funded by Actividades en el medio, CSEAM, 2019",
-      "kinds": [
-        "comunidad"
-      ]
-    },
-    {
-      "es": "Proyecto Cooperación SUR-SUR Latinoamérica unida contra las enfermedades olvidadas: acción conjunta entre Paraguay y Uruguay para avanzar en una resolución de la enfermedad de Chagas y la leishmaniasis, 2017-2019",
-      "en": "SOUTH-SOUTH Cooperation Project \"Latin America United Against Neglected Diseases\": joint action between Paraguay and Uruguay to advance treatment of Chagas disease and leishmaniasis, 2017-2019",
-      "kinds": [
-        "comunidad"
-      ]
-    },
-    {
-      "es": "Café Científico Sanducero: Investigación y desarrollo de nuevos medicamentos. Proyecto financiado Actividades en el medio, CSEAM, 2018",
-      "en": "Café Científico Sanducero: Research and development of new medicines. Project funded by Actividades en el medio, CSEAM, 2018",
-      "kinds": [
-        "comunidad"
-      ]
-    },
-    {
-      "es": "Generación de nuevos medicamentos: aspectos científicos y socio-económicos. Proyecto financiado Actividades en el medio, CSEAM, 2016",
-      "en": "Generating new medicines: scientific and socio-economic aspects. Project funded by Actividades en el medio, CSEAM, 2016",
-      "kinds": [
-        "comunidad"
-      ]
-    },
-    {
-      "es": "Participación en Jornadas de Puertas Abiertas del Departamento de Química del Litoral, en el marco de la Semana de la Ciencia y la Tecnología: demostraciones experimentales, muestra de los laboratorios y charlas de divulgación. CENUR Litoral Norte, EEMAC, Paysandú, 2017-2019",
-      "en": "Participation in Open Days at the Dpto. de Química del Litoral, as part of Science and Technology Week: experimental demonstrations, lab tours, and outreach talks. CENUR Litoral Norte, EEMAC, Paysandú, 2017-2019",
-      "kinds": [
-        "eventos"
-      ]
-    },
-    {
-      "es": "Participación en la Feria Interactiva SanduEduca: demostraciones experimentales y difusión de carreras universitarias dictadas en CENUR Litoral Norte, Paysandú, 2016",
-      "en": "Participation in the SanduEduca Interactive Fair: experimental demonstrations and outreach on university programs offered at CENUR Litoral Norte, Paysandú, 2016",
-      "kinds": [
-        "eventos"
-      ]
-    },
-    {
-      "es": "Divulgación: \"¿Qué es la Química Medicinal?\", para estudiantes del Profesorado en Ciencias Biológicas, Centro Regional de Profesores del Litoral, Salto, 2016",
-      "en": "Outreach talk: \"What is Medicinal Chemistry?\", for students of the Biological Sciences Teacher Training Program, Centro Regional de Profesores del Litoral, Salto, 2016",
+      "es": "“Ciencia a través de las arañas”. Talleres para las escuelas, usando a las arañas como puerta de entrada para despertar la curiosidad de los niños por la ciencia - Escuela 26, 93 - 2023-2026.",
+      "en": "",
       "kinds": [
         "educativo"
+      ]
+    },
+    {
+      "es": "“Los microorganismos que nos rodean” taller con 5to y 6to año escuela Nº 117 de Young– mayo 2024.",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Investigadores del Agua - Liceo 7 - 2024-2026.",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "¿Por qué somos tan pocas? Escuela 63 y Cultura científica - mayo 2024-2026.",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "“El ADN” Taller científico con 5to y 6to año escuela Nº 1 de Fray Bentos - abril - 2023.",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Plantas que cuentan historias: saberes heredados y ciencia en el territorio - Proyecto CSEAM de Actividades en el Medio-convocatoria 2026.",
+      "en": "",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Ciencia Heroica - Semana CyT 2026.",
+      "en": "",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Primeras Jornadas de Investigación Estudiantil del Litoral + Expo PAIE Intercenures, UDELAR. (2024).",
+      "en": "",
+      "kinds": [
+        "eventos"
       ]
     }
-  ]
+  ],
+  "currentProjects": [
+    {
+      "title": "Elucidación del mecanismo de acción de compuestos con actividad anti-tripanosomatídea",
+      "funder": "ANII_FCE",
+      "period": "desde 2024",
+      "role": "Responsable"
+    },
+    {
+      "title": "Enfoque integral para la caracterización del modo de acción de un compuesto con potente actividad anti-tripanosomatidea.",
+      "funder": "CSIC_Iniciación a la investigación",
+      "period": "desde 2025",
+      "role": "Responsable"
+    },
+    {
+      "title": "La proteína de la cápside del VIH como blanco farmacológico para el descubrimiento de nuevos fármacos",
+      "funder": "ANII_FCE",
+      "period": "2023-2025",
+      "role": "Responsable"
+    },
+    {
+      "title": "Estudios preclínicos de potenciales fármacos que desestabilizan el ensamblaje de la cápside del VIH",
+      "funder": "CSIC_Iniciación a la investigación",
+      "period": "2024-2026",
+      "role": "Responsable"
+    },
+    {
+      "title": "Abordaje integrado para el control de la garrapata del ganado",
+      "funder": "CSIC Grupos de investigación a 5 años",
+      "period": "2019-2024",
+      "role": "Responsable"
+    }
+  ],
+  "image": "/images/groups/moleculas-bioactivas.jpg"
 }

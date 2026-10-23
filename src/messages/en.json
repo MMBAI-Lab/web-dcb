@@ -29,11 +29,11 @@
         "label": "Founded"
       },
       {
-        "value": "12",
+        "value": "15",
         "label": "Research groups"
       },
       {
-        "value": "87",
+        "value": "124",
         "label": "Members"
       },
       {
@@ -53,7 +53,7 @@
         "key": "research",
         "href": "/investigacion",
         "title": "Research",
-        "description": "The DCB's 12 research groups and their principal investigators."
+        "description": "The DCB's 15 research groups and their principal investigators."
       },
       {
         "key": "teaching",
@@ -126,8 +126,10 @@
   },
   "investigacion": {
     "title": "Research",
-    "subtitle": "The DCB's 12 research groups work across the Salto and Paysandú campuses of CENUR Litoral Norte, spanning a range from the molecular to the ecosystemic: membrane biophysics, computational modeling of nucleic acids and proteins, human genetics, immunology, molecular virology, and bioactive molecule development, alongside fluvial ecology, wildlife ecology, movement biomechanics, animal production, and vector-borne disease. What unites them is a shared spirit: generating original knowledge on health, production, and conservation problems relevant to the region and the country.",
-    "note": "Click the centered cover in the carousel to open that group's full page."
+    "subtitle": "The DCB's 15 research groups work across the Salto and Paysandú campuses of CENUR Litoral Norte, spanning a range from the molecular to the ecosystemic: membrane biophysics, computational modeling of nucleic acids and proteins, human genetics, immunology, molecular virology, and bioactive molecule development, alongside fluvial ecology, wildlife ecology, movement biomechanics, physiology, histology, anatomy, animal production, and vector-borne disease. What unites them is a shared spirit: generating original knowledge on health, production, and conservation problems relevant to the region and the country.",
+    "note": "Click the centered cover in the carousel to open that group's full page.",
+    "pending": "Page in preparation.",
+    "asociadosLink": "Researchers associated with the DCB"
   },
   "grupoDetalle": {
     "back": "Back to Research",
@@ -138,7 +140,7 @@
     "students": "Students",
     "collaborators": "Collaborators",
     "researchLines": "Research lines",
-    "projects": "Current projects",
+    "projects": "Projects",
     "publications": "Recent publications",
     "teaching": "Teaching",
     "outreach": "Outreach",
@@ -150,11 +152,21 @@
     "kind_educativo": "Work with schools",
     "kind_comunidad": "Community and territory",
     "kind_eventos": "Fairs, congresses and open days",
-    "kind_arte": "Art and science"
+    "kind_arte": "Art and science",
+    "pending": "This group is preparing its page. Its members, research lines, and publications will be listed here soon.",
+    "advisors": "Advisors",
+    "thesis_grado": "Undergraduate thesis",
+    "thesis_maestria": "Master's",
+    "thesis_doctorado": "PhD",
+    "thesis_posdoctorado": "Postdoc"
+  },
+  "asociados": {
+    "title": "Associated researchers",
+    "subtitle": "DCB faculty and researchers who are not yet part of one of its research groups."
   },
   "ensenanza": {
     "title": "Teaching",
-    "subtitle": "The DCB coordinates the Biology-Biochemistry Cycle (CBB) and, in the same way, the Biotechnology degree program, and teaches 51 undergraduate courses, 37 graduate courses, and 9 other instances (internships, continuing education, and network courses). Its faculty cover the Human Biology, Biochemistry, Biotechnology, and Biological Sciences degrees, the Doctor of Medicine and Doctor of Veterinary Science programs, Biological Engineering, Agricultural Engineering, Water Resources and Irrigation, and the CIO-CT and CIO-Salud entry cycles — within an academic network spanning UdelaR's Faculties of Sciences, Medicine, Veterinary Medicine, Agronomy, and Chemistry, plus PEDECIBA, ProInBio, ProMEF, ISEF, CeRP del Litoral, and international partners.",
+    "subtitle": "The DCB coordinates the Biology-Biochemistry Cycle (CBB) and, in the same way, the Biotechnology degree program, and teaches 78 undergraduate courses, 39 graduate courses, and 27 other instances (internships, continuing education, and network courses). Its faculty cover the Human Biology, Biochemistry, Biotechnology, and Biological Sciences degrees, the Doctor of Medicine and Doctor of Veterinary Science programs, Biological Engineering, Agricultural Engineering, Water Resources and Irrigation, and the CIO-CT and CIO-Salud entry cycles — within an academic network spanning UdelaR's Faculties of Sciences, Medicine, Veterinary Medicine, Agronomy, and Chemistry, plus PEDECIBA, ProInBio, ProMEF, ISEF, CeRP del Litoral, and international partners.",
     "cbbTitle": "Biology-Biochemistry Cycle (CBB)",
     "cbbDescription": "The Biology-Biochemistry Cycle offers foundational training in the biological sciences and biochemistry at the Paysandú and Salto campuses of CENUR Litoral Norte, taught by an outstanding faculty drawn from the Department's research groups. It is equivalent to 90 credits of first-year university study, recognized by Facultad de Ciencias toward the Bachelor's degrees in Biological Sciences and in Biochemistry in Montevideo, and regionally (Salto and Paysandú) toward the Bachelor's in Human Biology.",
     "areasTitle": "Curriculum — three training areas",
@@ -213,7 +225,7 @@
   },
   "extension": {
     "title": "Outreach",
-    "subtitle": "Outreach runs through the whole DCB: its 12 groups take science into secondary and technical schools and teacher-training centres, to farmers, rural communities, and people in prison, and onto the press, radio, and television — with forays into art and music along the way. Added to that are the programmes the Department runs as a whole: “Everything Has Its Science” during Uruguay's Science and Technology Week, the “What Are We Up To?” seminar series, and the International Congress on Basic Sciences Education (CIECIBA), reaching Salto, Paysandú, Artigas, and Bella Unión.",
+    "subtitle": "Outreach runs through the whole DCB: its groups take science into secondary and technical schools and teacher-training centres, to farmers, rural communities, and people in prison, and onto the press, radio, and television — with forays into art and music along the way. Added to that are the programmes the Department runs as a whole: “Everything Has Its Science” during Uruguay's Science and Technology Week, the “What Are We Up To?” seminar series, and the International Congress on Basic Sciences Education (CIECIBA), reaching Salto, Paysandú, Artigas, and Bella Unión.",
     "statActions": "Outreach actions",
     "statGroups": "Participating groups",
     "statPrograms": "Department programmes",

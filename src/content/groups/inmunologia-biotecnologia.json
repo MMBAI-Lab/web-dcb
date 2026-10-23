@@ -5,116 +5,168 @@
     "en": "Immunology and Biotechnology (LIB)"
   },
   "campus": "Salto",
-  "email": null,
+  "email": "labinmunologiabiotecnologia@gmail.com",
   "summary": {
-    "es": "Laboratorio de Inmunología-Biotecnología: búsqueda, diseño y caracterización de antivirales, desarrollo de biológicos para terapia y diagnóstico, y uso de irradiación UV para protocolos de inactivación viral.",
-    "en": "Immunology-Biotechnology Lab: discovery, design, and characterization of antivirals, development of biologics for therapy and diagnosis, and use of UV irradiation for viral inactivation protocols."
+    "es": "El LIB, laboratorio de Inmunología-Biotecnología, CENUR Litoral Norte, ubicado en la sede Salto, tiene como principales líneas de investigación la búsqueda y caracterización de moléculas con actividad antiviral contra virus emergentes y el desarrollo de biológicos para uso en terapia y diagnóstico.",
+    "en": ""
   },
   "researchLines": {
     "intro": {
-      "es": "El Laboratorio de Inmunología-Biotecnología (LIB) está ubicado en la sede Salto y es liderado por la Dra. Natalia Ruétalo.",
-      "en": "The Immunology-Biotechnology Lab (LIB) is based at the Salto campus and is led by Dra. Natalia Ruétalo."
+      "es": "El LIB, bajo su dirección actual, inició actividades a finales del 2025. Nos dedicamos al estudio de distintos virus de ARN tanto emergentes (Flavivirus, Alphavirus, Enterovirus) como no emergentes (HIV), en el contexto de tres grandes líneas de investigación, detalladas a continuación. La mayor parte de nuestro trabajo se lleva a cabo en laboratorios de bioseguridad nivel 2 y 3 (BSL2-3), utilizando distintas técnicas de biología molecular, cultivo celular, ensayos de infección y microscopía automatizada.",
+      "en": ""
     },
     "lines": [
       {
         "title": {
-          "es": "Antivirales y biológicos",
-          "en": "Antivirals and biologics"
+          "es": "Búsqueda, diseño y caracterización de antivirales",
+          "en": ""
         },
         "body": {
-          "es": "Sus principales líneas de investigación son la búsqueda, diseño y caracterización de antivirales; el desarrollo de biológicos para uso en terapia y diagnóstico; y el uso de irradiación UV para la determinación de protocolos de inactivación viral.",
-          "en": "Its main research lines are the discovery, design, and characterization of antivirals; the development of biologics for use in therapy and diagnosis; and the use of UV irradiation to determine viral inactivation protocols."
-        }
+          "es": "Identificación y caracterización de compuestos para tratar enfermedades virales de relevancia a nivel de salud Humana, Animal, o Agropecuaria, con el objetivo de establecer un flujo de trabajo que permita dar respuestas a virus emergentes de importancia regional/local.",
+          "en": ""
+        },
+        "institutions": [
+          "CENUR Litoral Norte, Udelar",
+          "Instituto Pasteur de Montevideo",
+          "Facultad de Química"
+        ]
       },
       {
         "title": {
-          "es": "Producción y sanidad animal (con Rumiantes)",
-          "en": "Animal production and health (with Rumiantes)"
+          "es": "Desarrollo de biológicos para uso en terapia y diagnóstico",
+          "en": ""
         },
         "body": {
-          "es": "En colaboración con el Laboratorio de Producción y Reproducción de Rumiantes del DCB, el grupo también participa en la caracterización y conservación del Bovino Criollo Uruguayo (incluyendo la creación de un banco nacional de germoplasma de la raza), el estudio de la mastitis ovina en explotación extensiva en Uruguay, el estudio de las posibles causas del amarillamiento de la lana, y la resincronización rápida de celo en hembras bovinas.",
-          "en": "In collaboration with the DCB's Ruminant Production and Reproduction Lab, the group also takes part in the characterization and conservation of the Uruguayan Creole cattle breed (including the creation of a national germplasm bank for the breed), the study of ovine mastitis in extensive farming systems in Uruguay, research into the possible causes of wool yellowing, and rapid estrus resynchronization in cattle."
-        }
+          "es": "",
+          "en": ""
+        },
+        "institutions": [
+          "CENUR Litoral Norte, Udelar",
+          "Instituto Pasteur de Montevideo"
+        ]
+      },
+      {
+        "title": {
+          "es": "Uso de irradiación UV para la determinación de protocolos de inactivación viral",
+          "en": ""
+        },
+        "body": {
+          "es": "",
+          "en": ""
+        },
+        "institutions": [
+          "DCB"
+        ]
       }
     ]
   },
   "lead": {
-    "name": "Dra. Natalia Ruétalo",
+    "name": "Dra. Natalia Ruetalo",
     "title": "Profesora Agregada (Gdo 4, 40 hs/sem)",
-    "photo": "/images/people/natalia-ruetalo.jpg"
+    "photo": "/images/people/natalia-ruetalo.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy//cvsni/?urlId=6736a87ea2caa739f05e308b7952f6991681b63a0b2598688849d1d11f2973a7c46b70dd1c62469d5d8bde23d8d991c5c6738526e5575f2195399728b395f15e&convocatoria=21&formato=html",
+      "profile": "https://orcid.org/0000-0001-6798-0443"
+    }
   },
   "members": [
     {
-      "name": "Lic. MSc. Oscar Irabuena",
+      "name": "MSc. Oscar Irabuena",
       "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)",
-      "photo": "/images/people/oscar-irabuena.jpg"
+      "photo": "/images/people/oscar-irabuena.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Ciencias Veterinarias, Universidad de Buenos Aires, Argentina",
+        "advisors": "Dr. Humberto Cisale, Dr. Daniel Fernández Abella"
+      }
     },
     {
       "name": "Dra. María Hilda Avellanal",
       "title": "Asistente (Gdo 2, 30 hs/sem)",
-      "photo": "/images/people/maria-hilda-avellanal.jpg"
+      "photo": "/images/people/maria-hilda-avellanal.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?c0c24859fbd3e53878fb5e885cfeb58abf4ccc6c0a0ca5c394a96c1afbc68f4fa7611e4d04374883be841a1b86bfb60e19ed22676b43a1e788b2af86d7da540a",
+        "profile": "https://orcid.org/0009-0006-0401-0195"
+      }
     },
     {
-      "name": "Dra. Sabina Victoria",
-      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, contratada)",
-      "photo": "/images/people/sabina-victoria.jpg"
+      "name": "Dra. Sabina Victoria Montero",
+      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem)",
+      "photo": "/images/people/sabina-victoria.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?99b60be49df14ae695477cef5fad5d5620e7f247e76c7587ae8e48e98250758737b0cc49ab2313b187da69f2e9849ccf922b21ead5a5c7187e0e4ee2c0e27d2d"
+      }
     }
   ],
   "teaching": [
     {
-      "es": "Hemato-Inmunología, para Facultad de Medicina, CENUR Litoral Norte.",
-      "en": "Hemato-Immunology, for the Faculty of Medicine, CENUR Litoral Norte.",
+      "es": "Hemato-inmunología, UC13, Doctor de Medicina",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Inmunología, para Facultad de Veterinaria, CENUR Litoral Norte.",
-      "en": "Immunology, for the Faculty of Veterinary Medicine, CENUR Litoral Norte.",
+      "es": "Inmunología, Médico/a Veterinario/a",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Biología Molecular, para Ciclo Biología Bioquímica y Licenciatura en Biotecnología, CENUR Litoral Norte.",
-      "en": "Molecular Biology, for the Biology-Biochemistry track and the Biotechnology degree program, CENUR Litoral Norte.",
+      "es": "Biología Molecular, Licenciatura en Biotecnología",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Seminario en Introducción a la Biología II, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
-      "en": "Seminar in Introduction to Biology II, Biology-Biochemistry track, CENUR Litoral Norte.",
+      "es": "Introducción a la Biotecnología, Licenciatura en Biotecnología",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Introducción a la Microbiología, Ciclo Biología Bioquímica, Licenciatura en Biotecnología y Licenciatura en Biología Humana, CENUR Litoral Norte.",
-      "en": "Introduction to Microbiology, Biology-Biochemistry track, Biotechnology degree program, and Human Biology degree program, CENUR Litoral Norte.",
+      "es": "Biología Celular, CBB",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Introducción a la Biología Animal, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
-      "en": "Introduction to Animal Biology, Biology-Biochemistry track, CENUR Litoral Norte.",
+      "es": "Introducción a la Biología Animal, CBB",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Metodología Científica, Ciclo Biología Bioquímica, CENUR Litoral Norte.",
-      "en": "Scientific Methodology, Biology-Biochemistry track, CENUR Litoral Norte.",
+      "es": "Seminarios de Introducción a la Biología II, CBB",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3) (posgrado, dic. 2025), CENUR Litoral Norte.",
-      "en": "Virology: epidemiological aspects and the importance of the biosafety level 3 (BSL-3) laboratory (graduate course, Dec. 2025), CENUR Litoral Norte.",
+      "es": "Metodología Científica, CBB",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3)",
+      "en": "",
       "levels": [
         "posgrado"
+      ]
+    },
+    {
+      "es": "Pasantías CeRP - Lectura y escritura académica en tutoría de pasantía - 09/2026",
+      "en": "",
+      "levels": [
+        "otras"
       ]
     }
   ],
@@ -132,6 +184,132 @@
       "kinds": [
         "comunidad"
       ]
+    },
+    {
+      "es": "Feria departamental de Clubes de Ciencia MEC-ANEP - 08/2026",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Jornadas \"Universidad de puertas abiertas\" (UPA) - 07/2026",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Semana de la Ciencia y Tecnología - Stand del LIB - 05/2026",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
     }
-  ]
+  ],
+  "website": "https://www.instagram.com/labinmunologiabiotecnologia/",
+  "currentProjects": [
+    {
+      "title": "Development of pan-serotype neutralizing nanobodies against the four dengue Virus subtypes",
+      "funder": "Baden-Württemberg Stiftung, Alemania",
+      "period": "2023-2026",
+      "role": "Responsable"
+    },
+    {
+      "title": "Identificación y validación experimental de compuestos inhibidores de la replicación del VIH-1",
+      "period": "2026 - Presente",
+      "role": "Co-responsable"
+    },
+    {
+      "title": "EV-A71: repurposing drugs against neurotropic RNA viruses",
+      "period": "2024 - Presente",
+      "role": "Co-responsable"
+    },
+    {
+      "title": "Characterization and optimization of C10 - a broadly acting flavivirus assembly inhibitor",
+      "period": "2018 - Presente",
+      "role": "Co-responsable"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Guzmán Álvarez",
+      "institution": "CENUR Litoral Norte, UdelaR",
+      "country": "Uruguay",
+      "topic": "Identificación y validación experimental de compuestos inhibidores de la replicación del VIH-1"
+    },
+    {
+      "name": "Rodney Colina",
+      "institution": "Laboratorio de virología molecular, CENUR Litoral Norte, UdelaR",
+      "country": "Uruguay",
+      "topic": "Trabajo en laboratorio BSL-2 y BSL-3"
+    },
+    {
+      "name": "Pilar Moreno",
+      "institution": "Laboratorio de Virología Molecular, Facultad de Ciencias, UdelaR",
+      "country": "Uruguay",
+      "topic": "Evaluación de drogas con actividad antiviral contra alfavirus (MAYV)"
+    },
+    {
+      "name": "Michael Schindler",
+      "institution": "Institute for Medical Virology and Epidemiology of Viral Diseases",
+      "country": "Alemania",
+      "topic": "Caracterización de antivirales"
+    },
+    {
+      "name": "Ulrich Rothbauer",
+      "institution": "Pharmaceutical Biotechnology, Eberhard Karls University Tübingen",
+      "country": "Alemania",
+      "topic": "Desarollo de nanobodies (DENV, SARS-CoV-2)"
+    },
+    {
+      "name": "Magnus Wolf",
+      "institution": "Institute for Medical Virology and Epidemiology of Viral Diseases",
+      "country": "Alemania",
+      "topic": "Casos clínicos de infección por enterovirus A71"
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1128/jvi.00182-25",
+      "citation": "Victoria S, Leyens J, Meckes LM, Vavouras Syrigos G, Turk G, Schindler M. CD4+ T cells facilitate replication of primary HIV-1 strains in macrophages and formation of macrophage internal virus-containing compartments. Journal of Virology. 2025;99(4). https://doi.org/10.1128/jvi.00182-25"
+    },
+    {
+      "doi": "10.1042/CS20241215",
+      "citation": "Liu A, Ruetalo N, Raja Xavier JP, Lankapalli AK, Admard J, Camarena-Sainz M, et al. Harnessing 2D and 3D human endometrial cell culture models to investigate SARS-CoV-2 infection in early pregnancy. Clinical Science. 2025;139(04):287-307. https://doi.org/10.1042/CS20241215"
+    },
+    {
+      "doi": "10.3389/fimmu.2023.1112505",
+      "citation": "Zekri L, Ruetalo N, Christie M, Walker C, Manz T, Rammensee HG, et al. Novel ACE2 fusion protein with adapting activity against SARS-CoV-2 variants in vitro. Frontiers in Immunology. 2023;14. https://doi.org/10.3389/fimmu.2023.1112505"
+    },
+    {
+      "doi": "10.1111/ina.13115",
+      "citation": "Ruetalo N, Berger S, Niessner J, Schindler M. Inactivation of aerosolized SARS‐CoV ‐2 by 254 nm UV‐C irradiation. Indoor Air. 2022;32(9). https://doi.org/10.1111/ina.13115"
+    },
+    {
+      "doi": "10.3390/v13122336",
+      "citation": "Ruetalo N, Flehmig B, Schindler M, Pridzun L, Haage A, Reichenbächer M, et al. Long-term humoral immune response against SARS-CoV-2 after natural infection and subsequent vaccination according to WHO international binding antibody units (BAU/mL). Viruses. 2021;13(12):2336. https://doi.org/10.3390/v13122336"
+    },
+    {
+      "doi": "10.15252/embr.202153865",
+      "citation": "Wagner TR, Schnepf D, Beer J, Ruetalo N, Klingel K, Kaiser PD, et al. Biparatopic nanobodies protect mice from lethal challenge with SARS‐CoV‐2 variants of concern. The EMBO Reports. 2021;23(2). https://doi.org/10.15252/embr.202153865"
+    },
+    {
+      "doi": "10.2807/1560-7917.ES.2021.26.42.2001718",
+      "citation": "Ruetalo N, Businger R, Schindler M. Rapid, dose-dependent and efficient inactivation of surface dried SARS-CoV-2 by 254 nm UV-C irradiation. Eurosurveillance. 2021;26(42). https://doi.org/10.2807/1560-7917.ES.2021.26.42.2001718"
+    },
+    {
+      "doi": "10.3390/v13040647",
+      "citation": "Große M, Ruetalo N, Layer M, Hu D, Businger R, Rheber S, et al. Quinine inhibits infection of human cell lines with SARS-CoV-2. Viruses. 2021;13(4):647. https://doi.org/10.3390/v13040647"
+    },
+    {
+      "doi": "10.1128/mSphere.01145-20",
+      "citation": "Ruetalo N, Businger R, Althaus K, Fink S, Ruoff F, Pogoda M, et al. Antibody response against SARS-CoV-2 and seasonal coronaviruses in nonhospitalized COVID-19 patients. mSphere. 2021;6(1). https://doi.org/10.1128/mSphere.01145-20"
+    },
+    {
+      "doi": "10.1126/science.abe6230",
+      "citation": "Koenig PA, Das H, Liu H, Kümmerer BM, Gohr FN, Jenster LM, et al. Structure-guided multivalent nanobodies block SARS-CoV-2 infection and suppress mutational escape. Science. 2021;371(6530). https://doi.org/10.1126/science.abe6230"
+    }
+  ],
+  "image": "/images/groups/inmunologia-biotecnologia.jpg"
 }

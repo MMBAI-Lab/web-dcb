@@ -1,0 +1,138 @@
+{
+  "slug": "fisiologia",
+  "name": {
+    "es": "Fisiología",
+    "en": "Physiology"
+  },
+  "campus": "Salto",
+  "email": "rcalejo@gmail.com",
+  "summary": {
+    "es": "Integrado por Elis Villalba, Mauro Méndez y Alejo Rodriguez-Cattáneo el grupo estudia la fisiología del sueño y la vigilia. Su principal línea de trabajo es en colaboración con el Laboratorio de Neurobiología del Sueño de Montevideo, mediante el análisis de registros de EEG.",
+    "en": ""
+  },
+  "researchLines": {
+    "intro": {
+      "es": "El grupo estudia la actividad eléctrica del sistema nervioso mediante el registro y análisis de señales electrofisiológicas, abordando los estados de sueño y vigilia en colaboración con laboratorios de neurobiología del sueño de Montevideo. Combina técnicas de adquisición electrofisiológica (EEG, registros intracelulares) con herramientas computacionales para el procesamiento de datos. El enfoque apunta a comprender los mecanismos neurofisiológicos de estos estados y comportamientos. Además, se mantiene una colaboración con el IIBCE, donde ARC realizó su doctorado en peces eléctricos.",
+      "en": ""
+    },
+    "lines": [
+      {
+        "title": {
+          "es": "Análisis de EEG en sueño y vigilia",
+          "en": ""
+        },
+        "body": {
+          "es": "Colaboración con el Laboratorio de Neurobiología del Sueño de Montevideo para el análisis de registros electroencefalográficos (EEG) durante el sueño y la vigilia, orientada a caracterizar los distintos estados de conciencia y sus correlatos electrofisiológicos.",
+          "en": ""
+        },
+        "institutions": [
+          "CENUR Litoral Norte, Facultad de Medicina, Udelar",
+          "Laboratorio de Neurobiología del Sueño, Facultad de Medicina, Udelar"
+        ]
+      },
+      {
+        "title": {
+          "es": "Electrogénesis y comunicación en peces eléctricos débiles",
+          "en": ""
+        },
+        "body": {
+          "es": "Estudio de los mecanismos de electrogénesis y de la multiplexación de señales en la comunicación de peces eléctricos débiles (Gymnotus carapo), en colaboración con el Laboratorio de Integración Sensorial del IIBCE.",
+          "en": ""
+        },
+        "institutions": [
+          "Instituto de Investigaciones Biológicas Clemente Estable (IIBCE)",
+          "CENUR Litoral Norte, Facultad de Medicina, Udelar"
+        ]
+      }
+    ]
+  },
+  "currentProjects": [
+    {
+      "title": "Estudio de la actividad cerebral durante la vigilia, sueño y estados alterados de consciencia",
+      "funder": "Grupo I+ D de CSIC",
+      "period": "2022-2026",
+      "role": "Integrante del equipo"
+    }
+  ],
+  "lead": {
+    "name": "Dr. Alejo Rodríguez-Cattáneo",
+    "title": "Profesor Adjunto (Gdo 3, 35 hs/sem)",
+    "photo": "/images/people/alejo-rodriguez-cattaneo.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy//cv/?5d2a705e89c1bda2f1e3f28efa20e3912016e6e29a384d1f7250ce3ae0f25489bea21d5d8e161aa41ac69ba32073c6480dd5ebee565ed5bda287f722f1704899"
+    }
+  },
+  "members": [
+    {
+      "name": "Bach. Mauro Méndez",
+      "title": "Ayudante (Gdo 1, 15 hs/sem)",
+      "photo": "/images/people/mauro-mendez.jpg"
+    },
+    {
+      "name": "Bach. Elis Villalba",
+      "title": "Ayudante (Gdo 1, 15 hs/sem)",
+      "photo": "/images/people/elis-villalba.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?057f51ead97db5379cb6242526e00c21"
+      }
+    }
+  ],
+  "publications": [
+    {
+      "doi": "10.1371/journal.pcbi.1012111",
+      "citation": "Pascovich C, Serantes D, Rodriguez A, Mateos D, González J, Gallo D, et al. Dorsal and median raphe neuronal firing dynamics characterized by nonlinear measures. PLOS Computational Biology. 2024;20(5):e1012111. https://doi.org/10.1371/journal.pcbi.1012111"
+    },
+    {
+      "doi": "10.64898/2026.08.06.743264",
+      "citation": "Pascovich C, Äijälä J, Castro-Zaballa S, Costa A, Rodriguez-Cattáneo A, Torterolo P, et al. Thalamic and cortical signals synergistically represent auditory prediction errors. 2026. https://doi.org/10.64898/2026.08.06.743264"
+    },
+    {
+      "doi": "10.1371/journal.pone.0308146",
+      "citation": "Rodríguez-Cattáneo A, Pereira AC, Aguilera PA, Caputi ÁA. Packet information encoding in a cerebellum-like circuit. PLOS ONE. 2024;19(9):e0308146. https://doi.org/10.1371/journal.pone.0308146"
+    },
+    {
+      "doi": "10.1016/j.biosystems.2022.104803",
+      "citation": "Caputi AA, Rodríguez-Cattáneo A, Waddell JC, Pereira AC, Aguilera PA. Getting the news in milliseconds: the role of early novelty detection in active electrosensory exploration. Biosystems. 2023;223:104803. https://doi.org/10.1016/j.biosystems.2022.104803"
+    },
+    {
+      "doi": "10.1017/exp.2020.20",
+      "citation": "Rodríguez-Cattáneo A, Pereira AC, Aguilera PA, Caputi ÁA. Tethered unitary recordings suggest a spike-timing electrosensory code in the electrosensory lobe of gymnotus omarorum. Experimental Results. 2020;1. https://doi.org/10.1017/exp.2020.20"
+    },
+    {
+      "doi": "10.1242/jeb.153379",
+      "citation": "Rodríguez-Cattaneo A, Aguilera PA, Caputi AA. Waveform sensitivity of electroreceptors in the pulse weakly electric fish gymnotus omarorum. Journal of Experimental Biology. 2017. https://doi.org/10.1242/jeb.153379"
+    },
+    {
+      "doi": "10.1016/j.jphysparis.2016.10.004",
+      "citation": "Waddell JC, Rodríguez-Cattáneo A, Caputi AA, Crampton WGR. Electric organ discharges and near-field spatiotemporal patterns of the electromotive force in a sympatric assemblage of Neotropical electric knifefish. Journal of Physiology-Paris. 2016;110(3):164-81. https://doi.org/10.1016/j.jphysparis.2016.10.004"
+    },
+    {
+      "doi": "10.1242/jeb.083261",
+      "citation": "Crampton WGR, Rodríguez-Cattáneo A, Lovejoy NR, Caputi AA. Proximate and ultimate causes of signal diversity in the electric fish gymnotus. Journal of Experimental Biology. 2013;216(13):2523-41. https://doi.org/10.1242/jeb.083261"
+    }
+  ],
+  "teaching": [
+    {
+      "es": "Neurociencias. Medicina",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Cardiovascular y Respiratorio. Medicina",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "DREMDR. Medicina",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    }
+  ],
+  "image": "/images/groups/fisiologia.jpg"
+}

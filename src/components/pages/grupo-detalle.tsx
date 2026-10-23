@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/ui/reveal";
+import { PersonCard } from "@/components/ui/person-card";
 import { asset } from "@/lib/asset";
 import { pick } from "@/lib/i18n-content";
 import type { OutreachKind, ResearchGroup, TeachingLevel } from "@/content/groups";
@@ -20,37 +21,6 @@ const levelDot: Record<TeachingLevel, string> = {
   posgrado: "bg-gold",
   otras: "bg-crimson",
 };
-
-function PersonCard({
-  name,
-  title,
-  photo,
-}: {
-  name: string;
-  title: string;
-  photo?: string | null;
-}) {
-  return (
-    <div className="flex items-center gap-3 rounded-xl border border-border bg-surface p-3">
-      <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full bg-border/40">
-        {photo ? (
-          <Image src={asset(photo)} alt="" fill sizes="56px" className="object-cover" />
-        ) : (
-          <span className="flex h-full w-full items-center justify-center font-serif text-lg text-foreground/40">
-            {name
-              .replace(/^(Dr\.|Dra\.|Prof\.|Lic\.|MSc\.|Q\.F\.|Bach\.)\s*/g, "")
-              .trim()
-              .charAt(0)}
-          </span>
-        )}
-      </span>
-      <div>
-        <p className="text-sm font-medium leading-snug">{name}</p>
-        <p className="text-xs text-foreground/60">{title}</p>
-      </div>
-    </div>
-  );
-}
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
@@ -90,7 +60,7 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
             {group.campus}
             {group.email && (
               <>
-                {" · "}
+                {group.campus && " · "}
                 <a href={`mailto:${group.email}`} className="normal-case tracking-normal hover:underline">
                   {group.email}
                 </a>
@@ -127,14 +97,22 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
         </Reveal>
       )}
 
-      <Section title={t("lead")}>
-        <div className="grid gap-3 sm:grid-cols-2">
-          <PersonCard name={group.lead.name} title={group.lead.title} photo={group.lead.photo} />
-          {group.coLead && (
-            <PersonCard name={group.coLead.name} title={group.coLead.title} photo={group.coLead.photo} />
-          )}
-        </div>
-      </Section>
+      {group.pending && (
+        <Reveal>
+          <p className="mt-8 max-w-2xl rounded-xl border border-dashed border-border p-6 text-center text-sm text-foreground/60">
+            {t("pending")}
+          </p>
+        </Reveal>
+      )}
+
+      {group.lead && (
+        <Section title={t("lead")}>
+          <div className="grid gap-3 sm:grid-cols-2">
+            <PersonCard person={group.lead} />
+            {group.coLead && <PersonCard person={group.coLead} />}
+          </div>
+        </Section>
+      )}
 
       {group.researchLines && (
         <Section title={t("researchLines")}>
@@ -150,9 +128,11 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
                   <li key={i} className="relative">
                     <span className="absolute -left-[1.6rem] top-1.5 h-2.5 w-2.5 rounded-full bg-teal" />
                     <h3 className="text-sm font-semibold">{pick(line.title, locale)}</h3>
-                    <p className="mt-1 text-sm leading-relaxed text-foreground/75">
-                      {pick(line.body, locale)}
-                    </p>
+                    {pick(line.body, locale) && (
+                      <p className="mt-1 text-sm leading-relaxed text-foreground/75">
+                        {pick(line.body, locale)}
+                      </p>
+                    )}
                     {line.institutions && line.institutions.length > 0 && (
                       <p className="mt-1 text-xs text-foreground/55">
                         {line.institutions.join(" · ")}
@@ -186,22 +166,30 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
         </Section>
       )}
 
-      <Section title={t("members")}>
-        <div className="grid gap-3 sm:grid-cols-2">
-          {group.members.map((member) => (
-            <PersonCard key={member.name} name={member.name} title={member.title} photo={member.photo} />
-          ))}
-        </div>
-      </Section>
+      {group.members.length > 0 && (
+        <Section title={t("members")}>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {group.members.map((member) => (
+              <PersonCard key={member.name} person={member} />
+            ))}
+          </div>
+        </Section>
+      )}
 
       {group.collaborators && group.collaborators.length > 0 && (
         <Section title={t("collaborators")}>
           <ul className="max-w-2xl space-y-2 text-sm text-foreground/75">
             {group.collaborators.map((collaborator, i) => (
               <li key={i}>
-                <span className="font-medium">{collaborator.name}</span>
-                {collaborator.institution && (
-                  <span className="text-foreground/60"> · {collaborator.institution}</span>
+                {collaborator.name ? (
+                  <>
+                    <span className="font-medium">{collaborator.name}</span>
+                    {collaborator.institution && (
+                      <span className="text-foreground/60"> · {collaborator.institution}</span>
+                    )}
+                  </>
+                ) : (
+                  <span className="font-medium">{collaborator.institution}</span>
                 )}
                 {collaborator.country && (
                   <span className="text-foreground/50"> ({collaborator.country})</span>

@@ -1,0 +1,26 @@
+{
+  "members": [
+    {
+      "name": "Sebastián Fernández Barrios",
+      "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)",
+      "photo": "/images/people/sebastian-fernandez-barrios.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "Programa de Posgrado Facultad de Veterinaria",
+        "advisors": "Dr. Mauricio Cabrera"
+      },
+      "links": {
+        "profile": "https://orcid.org/my-orcid?orcid=0009-0000-8786-0254"
+      }
+    },
+    {
+      "name": "Dra. María Eugenia Lorenzo",
+      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)",
+      "photo": "/images/people/maria-eugenia-lorenzo.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?e2cc26214a6623d9c1c3d44f83785e587afe09162ab699f94575f2c8861fa23960f747813df31b486c002cdf5d3ceb3c8b463e90707fddcd8d190a6b77c93140",
+        "profile": "https://orcid.org/0000-0001-5200-7165"
+      }
+    }
+  ]
+}

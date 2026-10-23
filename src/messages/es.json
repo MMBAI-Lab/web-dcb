@@ -29,11 +29,11 @@
         "label": "Año de creación"
       },
       {
-        "value": "12",
+        "value": "15",
         "label": "Grupos de investigación"
       },
       {
-        "value": "87",
+        "value": "124",
         "label": "Integrantes"
       },
       {
@@ -53,7 +53,7 @@
         "key": "research",
         "href": "/investigacion",
         "title": "Investigación",
-        "description": "Los 12 grupos de investigación del DCB y sus responsables."
+        "description": "Los 15 grupos de investigación del DCB y sus responsables."
       },
       {
         "key": "teaching",
@@ -126,8 +126,10 @@
   },
   "investigacion": {
     "title": "Investigación",
-    "subtitle": "Los 12 grupos de investigación del DCB trabajan en las sedes Salto y Paysandú del CENUR Litoral Norte, cubriendo un espectro que va de lo molecular a lo ecosistémico: biofísica de membranas, modelado computacional de ácidos nucleicos y proteínas, genética humana, inmunología, virología molecular y desarrollo de moléculas bioactivas, junto con ecología fluvial, fauna silvestre, biomecánica del movimiento, producción animal y enfermedades transmitidas por vectores. Los une un mismo espíritu: generar conocimiento original sobre problemas de salud, producción y conservación relevantes para la región y el país.",
-    "note": "Hacé clic en la ficha central del carrusel para abrir la página completa de cada grupo."
+    "subtitle": "Los 15 grupos de investigación del DCB trabajan en las sedes Salto y Paysandú del CENUR Litoral Norte, cubriendo un espectro que va de lo molecular a lo ecosistémico: biofísica de membranas, modelado computacional de ácidos nucleicos y proteínas, genética humana, inmunología, virología molecular y desarrollo de moléculas bioactivas, junto con ecología fluvial, fauna silvestre, biomecánica del movimiento, fisiología, histología, anatomía, producción animal y enfermedades transmitidas por vectores. Los une un mismo espíritu: generar conocimiento original sobre problemas de salud, producción y conservación relevantes para la región y el país.",
+    "note": "Hacé clic en la ficha central del carrusel para abrir la página completa de cada grupo.",
+    "pending": "Página en preparación.",
+    "asociadosLink": "Investigadores asociados al DCB"
   },
   "grupoDetalle": {
     "back": "Volver a Investigación",
@@ -138,7 +140,7 @@
     "students": "Estudiantes",
     "collaborators": "Colaboradores",
     "researchLines": "Líneas de investigación",
-    "projects": "Proyectos en curso",
+    "projects": "Proyectos",
     "publications": "Publicaciones recientes",
     "teaching": "Enseñanza",
     "outreach": "Extensión",
@@ -150,11 +152,21 @@
     "kind_educativo": "Trabajo con centros educativos",
     "kind_comunidad": "Comunidad y territorio",
     "kind_eventos": "Ferias, congresos y jornadas",
-    "kind_arte": "Arte y ciencia"
+    "kind_arte": "Arte y ciencia",
+    "pending": "Este grupo está preparando su página. Pronto vas a encontrar acá sus integrantes, líneas de investigación y publicaciones.",
+    "advisors": "Orientación",
+    "thesis_grado": "Tesis de grado",
+    "thesis_maestria": "Maestría",
+    "thesis_doctorado": "Doctorado",
+    "thesis_posdoctorado": "Posdoctorado"
+  },
+  "asociados": {
+    "title": "Investigadores asociados",
+    "subtitle": "Docentes e investigadores del DCB que todavía no integran uno de sus grupos de investigación."
   },
   "ensenanza": {
     "title": "Enseñanza",
-    "subtitle": "El DCB coordina el Ciclo Biología-Bioquímica (CBB) y, de forma análoga, la Licenciatura en Biotecnología, y lleva adelante la docencia en 51 cursos de grado, 37 de posgrado y 9 instancias de otra naturaleza (pasantías, educación permanente y cursos de red). Sus docentes cubren la Licenciatura en Biología Humana, Bioquímica, Biotecnología, Ciencias Biológicas, las carreras de Doctor en Medicina y en Ciencias Veterinarias, Ingeniería Biológica, Ingeniería Agronómica, Recursos Hídricos y Riego, y los ciclos iniciales CIO-CT y CIO-Salud, en una red académica que integra a las Facultades de Ciencias, Medicina, Veterinaria, Agronomía y Química de la UdelaR, el PEDECIBA, ProInBio, ProMEF, el ISEF y el CeRP del Litoral, junto a socios internacionales.",
+    "subtitle": "El DCB coordina el Ciclo Biología-Bioquímica (CBB) y, de forma análoga, la Licenciatura en Biotecnología, y lleva adelante la docencia en 78 cursos de grado, 39 de posgrado y 27 instancias de otra naturaleza (pasantías, educación permanente y cursos de red). Sus docentes cubren la Licenciatura en Biología Humana, Bioquímica, Biotecnología, Ciencias Biológicas, las carreras de Doctor en Medicina y en Ciencias Veterinarias, Ingeniería Biológica, Ingeniería Agronómica, Recursos Hídricos y Riego, y los ciclos iniciales CIO-CT y CIO-Salud, en una red académica que integra a las Facultades de Ciencias, Medicina, Veterinaria, Agronomía y Química de la UdelaR, el PEDECIBA, ProInBio, ProMEF, el ISEF y el CeRP del Litoral, junto a socios internacionales.",
     "cbbTitle": "Ciclo Biología-Bioquímica (CBB)",
     "cbbDescription": "El Ciclo Biología Bioquímica se propone como una oferta académica que brinda formación básica de calidad en el área de las ciencias biológicas y bioquímica en las sedes Paysandú y Salto del CENUR Litoral Norte, dictada por un equipo de docentes de excelencia integrantes de los grupos de investigación del Departamento. Posee 90 créditos equivalentes a un primer año de formación terciaria universitaria, reconocidos por la Facultad de Ciencias para continuar los estudios en la Licenciatura en Ciencias Biológicas y en Bioquímica en Montevideo. A nivel regional (Salto y Paysandú), se puede continuar en la Licenciatura en Biología Humana.",
     "areasTitle": "Plan de estudios — tres áreas de formación",
@@ -213,7 +225,7 @@
   },
   "extension": {
     "title": "Extensión",
-    "subtitle": "La extensión atraviesa al DCB de punta a punta: sus 12 grupos llevan la ciencia a liceos, UTU y centros de formación docente, a productores, comunidades rurales y personas privadas de libertad, y a la prensa, la radio y la televisión — con incursiones en el arte y la música. A eso se suman los ciclos que el Departamento organiza como tal: «Todo tiene su ciencia» en el marco de la Semana de la Ciencia y la Tecnología, el ciclo de seminarios «¿En qué andamos?» y el Congreso Internacional de Enseñanza de las Ciencias Básicas (CIECIBA), que llegan a Salto, Paysandú, Artigas y Bella Unión.",
+    "subtitle": "La extensión atraviesa al DCB de punta a punta: sus grupos llevan la ciencia a liceos, UTU y centros de formación docente, a productores, comunidades rurales y personas privadas de libertad, y a la prensa, la radio y la televisión — con incursiones en el arte y la música. A eso se suman los ciclos que el Departamento organiza como tal: «Todo tiene su ciencia» en el marco de la Semana de la Ciencia y la Tecnología, el ciclo de seminarios «¿En qué andamos?» y el Congreso Internacional de Enseñanza de las Ciencias Básicas (CIECIBA), que llegan a Salto, Paysandú, Artigas y Bella Unión.",
     "statActions": "Acciones de extensión",
     "statGroups": "Grupos participantes",
     "statPrograms": "Ciclos del Departamento",

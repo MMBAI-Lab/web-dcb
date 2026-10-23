@@ -80,6 +80,7 @@ function SectionHeading({ title, intro }: { title: string; intro: string }) {
 
 export function Ensenanza() {
   const t = useTranslations("ensenanza");
+  const tg = useTranslations("grupoDetalle");
   const locale = useLocale() as "es" | "en";
   const areas = t.raw("areas") as string[];
   const semester1 = t.raw("semester1") as string[];
@@ -277,9 +278,20 @@ export function Ensenanza() {
                       className="rounded-xl border border-border bg-surface p-4"
                     >
                       <p className="text-sm font-medium leading-snug">{person.name}</p>
-                      <p className="mt-1 text-xs leading-relaxed text-foreground/60">
-                        {person.title}
-                      </p>
+                      {person.thesis ? (
+                        <p className="mt-1 text-xs leading-relaxed text-foreground/60">
+                          {person.thesis.program}
+                          {person.thesis.advisors && (
+                            <span className="block">
+                              {tg("advisors")}: {person.thesis.advisors}
+                            </span>
+                          )}
+                        </p>
+                      ) : (
+                        <p className="mt-1 text-xs leading-relaxed text-foreground/60">
+                          {person.title}
+                        </p>
+                      )}
                       <Link
                         href={`/investigacion/${person.groupSlug}`}
                         className={`mt-3 inline-block text-xs font-medium ${formacionAccent[level]} hover:underline`}

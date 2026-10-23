@@ -70,23 +70,85 @@
   },
   "lead": {
     "name": "Dr. Julio da Luz",
-    "title": "Profesor Agregado, Responsable del Grupo de Genética Molecular Humana (Gdo 4, 40 hs/sem, DT)",
-    "photo": "/images/people/julio-da-luz.jpg"
+    "title": "Profesor Agregado (Gdo 4, 40 hs/sem, DT)",
+    "photo": "/images/people/julio-da-luz.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy/CvEstatico/?urlId=94c0c592d0a9811d394edd0f10084d7c2f5692359b30543a317a9eb9e417bcf7becdd681c2068e2b508e471a0e1415aaf2e7f00c161e11184512cb83f5c3cc0a&formato=pdf&convocatoria=21",
+      "profile": "https://orcid.org/0000-0003-3866-3830"
+    }
   },
   "members": [
     {
-      "name": "Dra. Ana Soler",
+      "name": "Dra. Ana María Soler",
       "title": "Asistente (Gdo 2, 40 hs/sem, DT)",
-      "photo": "/images/people/ana-soler.jpg"
+      "photo": "/images/people/ana-soler.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cvsni/?urlId=d8822ed958ec03081a959cb768f09610&convocatoria=21&formato=html",
+        "profile": "https://orcid.org/0009-0002-2111-2549"
+      }
     },
     {
       "name": "MSc. Gabriela Burgueño Rodríguez",
-      "title": "Asistente (Gdo 2, 40 hs/sem)",
-      "photo": "/images/people/gabriela-burgueno-rodriguez.jpg"
+      "title": "Asistente (Gdo 2, 30 hs/sem), Becaria CAP",
+      "photo": "/images/people/gabriela-burgueno-rodriguez.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "PEDECIBA Biología",
+        "advisors": "Dr. Julio da Luz"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?ae4e62dddef4193095979c4a633b5a724deccc1c798f5e4bab403cd43442e3d1774a05c4961e929fe7402bb875d84e0ae24a2a9d5632a4368a82b81543496b73",
+        "profile": "https://orcid.org/0009-0002-0575-7603"
+      }
     },
     {
-      "name": "Bach. Ignacio Rodríguez de Ávila",
-      "title": "Ayudante (Gdo 1, 15 hs/sem)"
+      "name": "Bach. Ignacio Rodríguez de Ávila Soto",
+      "title": "Ayudante contratado (Gdo 1, 15 hs/sem)",
+      "photo": "/images/people/ignacio-rodriguez-de-avila-soto.jpg",
+      "thesis": {
+        "level": "grado",
+        "program": "Licenciatura en Biología Humana, CENUR Litoral Norte",
+        "advisors": "Dra. Ana Soler, Dr. Julio da Luz"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?74e99924042f1b38cbd30850a4b8daa9"
+      }
+    },
+    {
+      "name": "Pierina Umpierre",
+      "title": "Ayudante contratado (Gdo 1, 30 hs/sem)",
+      "photo": "/images/people/pierina-umpierre.jpg",
+      "thesis": {
+        "level": "grado",
+        "program": "Licenciatura en Biotecnología, CENUR Litoral Norte",
+        "advisors": "Dra. Ana María Soler"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?6d85a1f62741a81363d5fc9d827db6d1"
+      }
+    },
+    {
+      "name": "Camila Suárez",
+      "title": "",
+      "photo": "/images/people/camila-suarez.jpg",
+      "thesis": {
+        "level": "grado",
+        "program": "Licenciatura en Biología Humana, CENUR Litoral Norte",
+        "advisors": "Dra. Ana María Soler, Dr. Julio da Luz"
+      }
+    },
+    {
+      "name": "MSc. Sebastian Rivera",
+      "title": "Becario ANII",
+      "photo": "/images/people/sebastian-rivera.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "PEDECIBA Biología",
+        "advisors": "Dr. Julio da Luz, Dra. Ana María Soler, Dra. Susan Jorge"
+      },
+      "links": {
+        "profile": "https://exportcvuy.anii.org.uy//cv/?0341c0738cb73d513a19d8491c7259a4"
+      }
     }
   ],
   "collaborators": [
@@ -142,30 +204,30 @@
   "publications": [
     {
       "doi": "10.3389/fphar.2023.1278769",
-      "citation": "Burgueño-Rodríguez G, Méndez Y, Olano N, Schelotto M, Castillo L, Soler AM, et al. Pharmacogenetics of pediatric acute lymphoblastic leukemia in Uruguay: adverse events related to induction phase drugs. Front. Pharmacol. 2023;14:1278769. https://doi.org/10.3389/fphar.2023.1278769"
+      "citation": "Burgueño-Rodríguez G, Méndez Y, Olano N, Schelotto M, Castillo L, Soler AM, et al. Pharmacogenetics of pediatric acute lymphoblastic leukemia in Uruguay: adverse events related to induction phase drugs. Frontiers in Pharmacology. 2023;14. https://doi.org/10.3389/fphar.2023.1278769"
     },
     {
       "citation": "Salas-Hernández A, Galleguillos M, Carrasco M, López-Cortés A, Redal MA, Fonseca-Mendoza D, et al. An updated examination of the perception of barriers for pharmacogenomics implementation and the usefulness of drug/gene pairs in Latin America and the Caribbean. Frontiers in Pharmacology. 2023;14:1196."
     },
     {
       "doi": "10.1590/1678-4685-GMB-2020-0399",
-      "citation": "Soler AM, Piellusch BF, Silveira LD, Pedroso GA, López P, Savio E, et al. Alpha thalassemia and alpha-MRE haplotypes in Uruguayan patients with microcytosis and hypochromia without anemia. Genetics and molecular biology. 2021;44. https://doi.org/10.1590/1678-4685-GMB-2020-0399"
+      "citation": "Soler AM, Piellusch BF, Silveira LD, Pedroso GA, López P, Savio E, et al. Alpha thalassemia and alpha-MRE haplotypes in Uruguayan patients with microcytosis and hypochromia without anemia. Genetics and Molecular Biology. 2021;44(2). https://doi.org/10.1590/1678-4685-GMB-2020-0399"
     },
     {
       "doi": "10.3389/fphar.2020.594262",
-      "citation": "Burgueño-Rodríguez G, Méndez Y, Olano N, Dabezies A, Bertoni B, Souto J, et al. Ancestry and TPMT-VNTR polymorphism: relationship with hematological toxicity in Uruguayan patients with acute lymphoblastic leukemia. Frontiers in pharmacology. 2020;11. https://doi.org/10.3389/fphar.2020.594262"
+      "citation": "Burgueño-Rodríguez G, Méndez Y, Olano N, Dabezies A, Bertoni B, Souto J, et al. Ancestry and TPMT-VNTR polymorphism: relationship with hematological toxicity in Uruguayan patients with acute lymphoblastic leukemia. Frontiers in Pharmacology. 2020;11. https://doi.org/10.3389/fphar.2020.594262"
     },
     {
       "doi": "10.1111/bjh.14532",
-      "citation": "Soler AM, Olano N, Méndez Y, Lopes A, Silveira A, Dabezies A, et al. TPMT and NUDT 15 genes are both related to mercaptopurine intolerance in acute lymphoblastic leukaemia patients from Uruguay. British journal of haematology. 2018;181(2):252-5. https://doi.org/10.1111/bjh.14532"
+      "citation": "Soler AM, Olano N, Méndez Y, Lopes A, Silveira A, Dabezies A, et al. TPMT and NUDT15 genes are both related to mercaptopurine intolerance in acute lymphoblastic leukaemia patients from Uruguay. British Journal of Haematology. 2017;181(2):252-5. https://doi.org/10.1111/bjh.14532"
     },
     {
       "doi": "10.1080/03630269.2016.1200072",
-      "citation": "Soler AM, Schelotto M, de Oliveira Mota N, Dorta Ferreira R, Sonati MDF, da Luz JA. The–(α) 5.2 deletion detected in a Uruguayan family: first case report in the Americas. Hemoglobin. 2016;40(4):289-92. https://doi.org/10.1080/03630269.2016.1200072"
+      "citation": "Soler AM, Schelotto M, de Oliveira Mota N, Dorta Ferreira R, Sonati MDF, da Luz JA. The –(α)5.2Deletion detected in a Uruguayan family: first case report in the Americas. Hemoglobin. 2016;40(4):289-92. https://doi.org/10.1080/03630269.2016.1200072"
     },
     {
       "doi": "10.1590/S1415-47572013005000027",
-      "citation": "da Luz JA, Ávila A, Icasuriaga S, Gongóra M, Castillo L, Serrón A, et al. Frequency and spectrum of hemoglobinopathy mutations in a Uruguayan pediatric population. Genetics and molecular biology. 2013;36(3):316-22. https://doi.org/10.1590/S1415-47572013005000027"
+      "citation": "Luz JD, Ávila A, Icasuriaga S, Gongóra M, Castillo L, Serrón A, et al. Frequency and spectrum of hemoglobinopathy mutations in a Uruguayan pediatric population. Genetics and Molecular Biology. 2013;36(3):316-22. https://doi.org/10.1590/S1415-47572013005000027"
     }
   ],
   "teaching": [
@@ -263,5 +325,6 @@
       ]
     }
   ],
-  "logo": "/images/logos/lgmh-logo.png"
+  "logo": "/images/logos/lgmh-logo.png",
+  "image": "/images/groups/lgmh.jpg"
 }

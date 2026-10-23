@@ -40,6 +40,8 @@ src/
       page.tsx              # Home (hero + cifras + tarjetas de navegación)
       institucional/page.tsx
       investigacion/page.tsx
+      investigacion/[slug]/page.tsx   # Una página por grupo (las "pending" dicen "en preparación")
+      investigacion/asociados/page.tsx # Integrantes del DCB sin grupo
       ensenanza/page.tsx
       extension/page.tsx
       reconocimientos/page.tsx
@@ -67,6 +69,8 @@ data/
     images/                   # Imágenes (logos, fotos) descargadas
     content/                  # Texto extraído por página, en Markdown
     SUMMARY.md                # Qué se pudo rescatar y qué falta revisar a mano
+  censo_oct26/               # Respuestas de los formularios de octubre 2026 + fotos de Drive
+                              # NO está en git (emails y CVs personales)
 
 public/
   images/
@@ -143,11 +147,8 @@ Pasos para habilitar Pages en el repo (una sola vez, en GitHub):
 - [ ] Revisar `data/old/SUMMARY.md` y resolver los puntos marcados como
       "needs manual review" (páginas `copy-of-*` duplicadas, formulario de
       contacto, formato de las páginas por grupo).
-- [ ] Publicar, por grupo de investigación, la nómina completa de
-      integrantes con fotos (material ya disponible en `data/old/`).
-      Faltan 9 fotos: Fernández Abella (responsable), Realini, Gil Laureiro
-      y Minutti (Rumiantes); Bermúdez y Bazzano (VyET); Chumino (LIBiAM);
-      Rodríguez de Ávila (LGMH); Grilli (Virología Molecular).
+- [x] Publicar, por grupo de investigación, la nómina completa de
+      integrantes con fotos (censo de octubre 2026, ver abajo).
 - [ ] Reemplazar el email de contacto de ejemplo (`dcb@cenur.edu.uy`) por
       uno real, y decidir cómo reemplazar el formulario de contacto de Wix
       (mailto, Formspree, u otro).
@@ -156,16 +157,57 @@ Pasos para habilitar Pages en el repo (una sola vez, en GitHub):
 - [x] Crear el repositorio `MMBAI-Lab/web-dcb` en GitHub y hacer el primer
       push (el remote `origin` ya está configurado localmente).
 
+### Censo de octubre 2026
+
+Los grupos y sus integrantes completaron dos formularios de Google
+(generados con `scripts/forms/`). Las respuestas y las fotos subidas viven en
+`data/censo_oct26/` (fuera de git) y se vuelcan al sitio con:
+
+```bash
+node scripts/import-censo-oct26.js --dry-run   # reporte, sin escribir
+node scripts/import-censo-oct26.js             # JSONs + fotos
+node scripts/resolve-dois.js                   # citas Vancouver de los DOI nuevos
+```
+
+El formulario manda en todo campo que el grupo respondió; un campo vacío o
+con relleno ("x", "NNN", "FALTA DESCRIPCION") conserva lo que había. Quienes
+no completaron su ficha siguen en la nómina tal como estaban. Las decisiones
+editoriales (nombres, cargos, qué foto es de quién, recortes) son tablas
+explícitas dentro del script. Quedó pendiente:
+
+- [ ] **Anatomía** no completó ningún formulario: su página dice "en
+      preparación".
+- [ ] **Genética Molecular Humana** y **Vectores y Enfermedades
+      Transmitidas** no enviaron el formulario de grupo: conservan el
+      contenido anterior (sus integrantes sí se actualizaron).
+- [ ] **Biofisicoquímica** envió el formulario a medio completar: tres
+      líneas sin descripción y proyectos, colaboradores y cursos con texto de
+      relleno (se conservaron los anteriores).
+- [ ] Líneas sin descripción también en **Rumiantes** (3) e **Inmunología y
+      Biotecnología** (2).
+- [ ] **Ecología Fluvial** cargó dos veces el DOI del libro *Rivers of South
+      America* (10.1016/C2020-0-00035-6); probablemente eran dos capítulos
+      con DOI propio.
+- [ ] Superan el tope de palabras: resumen de **Virología Molecular** (58/50),
+      panorama de **Virología Molecular** (105/100) e **Histología** (266/100).
+- [ ] Siguen sin foto quienes no completaron la ficha, entre ellos
+      Fernández Abella, Realini, Gil Laureiro y Minutti (Rumiantes),
+      Bermúdez y Bazzano (VyET) y Chumino (LIBiAM).
+- [ ] Todo el texto nuevo está solo en español: correr
+      `node scripts/report-missing-translations.js` para la pasada de inglés.
+
 ### Pendiente en la solapa Enseñanza
 
 La solapa se genera a partir de los JSON de cada grupo
-(`src/content/groups/*.json`): `teaching[]` alimenta **Docencia** y los
-títulos de `members[]` alimentan **Formación** vía `src/lib/formacion.ts`.
-Editar un grupo alcanza para actualizar la solapa. Queda pendiente:
+(`src/content/groups/*.json`): `teaching[]` alimenta **Docencia** y la tesis
+de cada integrante (`thesis`, o en su defecto palabras clave del título)
+alimenta **Formación** vía `src/lib/formacion.ts`. Editar un grupo alcanza
+para actualizar la solapa. Queda pendiente:
 
 - [ ] **Josefa González (LIBiAM)**: su título dice solo "Estudiante de
       Posgrado, PEDECIBA", sin precisar si es maestría o doctorado, por lo
-      que no aparece en Formación. Precisar el nivel en `libiam.json`.
+      que no aparece en Formación; tampoco completó la ficha del censo.
+      Precisar el nivel en `libiam.json`.
 - [ ] **Licenciatura en Biotecnología**: su tarjeta es más liviana que la
       del CBB porque falta su currícula, créditos y equipo de coordinación.
       Sumarlos a `ensenanza.biotec*` en `src/messages/{es,en}.json` para

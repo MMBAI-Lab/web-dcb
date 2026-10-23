@@ -80,7 +80,10 @@ function crearFormularioGrupo() {
     'Investigación y Desarrollo de Moléculas Bioactivas', // moleculas-bioactivas.json
     'Producción y Reproducción de Rumiantes',             // rumiantes.json
     'Virología Molecular',                                // virologiamolec.json
-    'Vectores y Enfermedades Transmitidas'                // vyet.json
+    'Vectores y Enfermedades Transmitidas',               // vyet.json
+    'Fisiología',                                         // fisiologia.json
+    'Histología',                                         // histologia.json
+    'Anatomía'                                            // anatomia.json
   ];
 
   var SEDES = ['Salto', 'Paysandú'];

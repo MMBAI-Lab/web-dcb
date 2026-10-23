@@ -5,157 +5,151 @@
     "en": "Molecular Modeling, Bioinformatics, and AI (MMBAI)"
   },
   "campus": "Salto",
-  "email": "pdans@pasteur.edu.uy",
+  "email": "pablo.dans@unorte.edu.uy",
   "website": "https://www.danslab.xyz",
   "logo": "/images/logos/danslab-logo.png",
   "summary": {
-    "es": "Modelado molecular, simulaciones in silico, bioinformática estructural e IA para comprender los roles complejos y dinámicos de los ácidos nucleicos y las proteínas dentro de la célula. Dos líneas centrales: estructura y dinámica de ácidos nucleicos con miras a terapias basadas en oligonucleótidos, y genómica bacteriana y resistencia antimicrobiana, del descubrimiento básico a los tratamientos.",
-    "en": "Molecular modeling, in silico simulations, structural bioinformatics, and AI to understand the complex, dynamic roles of nucleic acids and proteins inside the cell. Two central lines: nucleic acid structure and dynamics toward oligo-based therapeutics, and bacterial genomics and antimicrobial resistance, from basic discovery to treatments."
+    "es": "En MMBAI usamos modelado molecular, simulaciones in silico, bioinformática estructural e IA para comprender los roles complejos y dinámicos de los ácidos nucleicos y las proteínas dentro de la célula — desde los átomos a los complejos macromoleculares, con énfasis en terapéuticos de oligonucleótidos y resistencia bacteriana.",
+    "en": ""
   },
   "researchLines": {
     "intro": {
-      "es": "El Dans Lab se enfoca principalmente en el estudio de la estructura y la dinámica de los ácidos nucleicos y sus interacciones con proteínas, ligandos pequeños y el solvente, desde una perspectiva molecular.",
-      "en": "The Dans Lab is mainly focused on the study of the structure and dynamics of nucleic acids and their interactions with proteins, small ligands and the solvent atmosphere, from a molecular point of view."
+      "es": "El DansLab estudia los ácidos nucleicos en su contexto dinámico, desde los electrones hasta los cromosomas, integrando simulaciones multiescala, modelos all-atom y coarse-grained, bioinformática y Deep Learning para investigar su estructura, dinámica e interacciones con proteínas, ligandos y solvente. Una segunda línea aborda la genómica y biología molecular de la resistencia antimicrobiana, especialmente en patógenos ESKAPE, combinando genómica, transcriptómica y modelado estructural. Buscamos comprender los mecanismos moleculares de resistencia y traducir este conocimiento en herramientas de vigilancia y en nuevas estrategias terapéuticas basadas en ASO, siRNA, aptámeros y otros oligoterapéuticos.",
+      "en": ""
     },
     "lines": [
       {
         "title": {
-          "es": "Estructura y dinámica de ácidos nucleicos",
-          "en": "Nucleic acid structure and dynamics"
+          "es": "Espacio conformacional de aptámeros de ADN",
+          "en": ""
         },
         "body": {
-          "es": "Usamos y desarrollamos campos de fuerzas all-atom y modelos coarse-grained para simulaciones atomísticas, nanoscópicas y mesoscópicas. También usamos y desarrollamos enfoques de Deep Learning para la predicción de estructuras 3D y herramientas bioinformáticas para la minería de datos en bases de datos estructurales especializadas. Abordamos todos nuestros proyectos desde una perspectiva multiescala que busca conectar el mundo cuántico con el nivel macroscópico — desde los electrones hasta los cromosomas.",
-          "en": "We use and develop all-atom force fields and coarse-grained models for atomistic, nanoscopic and mesoscopic simulations. We also use and develop Deep Learning approaches for 3D prediction and bioinformatic tools for the data mining of specialized databases containing structural information. All our projects are tackled from a multiscale perspective trying to connect the quantum world with the macroscopic level — from electrons up to chromosomes."
-        }
+          "es": "Predicción estructural y dinámica de motivos inusuales de ADN — espacio conformacional de aptámeros. Esto incluye dos pipelines integrativos que permiten plegar secuencias de G4 (GeeMELD) o aptámeros con motivos no-G4.",
+          "en": ""
+        },
+        "institutions": [
+          "CENUR Litoral Norte (Salto)",
+          "Facultad de Ciencias",
+          "Institut Pasteur de Montevideo",
+          "Facultad de Medicina",
+          "University of Florida"
+        ]
       },
       {
         "title": {
-          "es": "Genómica bacteriana y resistencia antimicrobiana",
-          "en": "Bacterial genomics and antimicrobial resistance"
+          "es": "ModXNA — Parámetros de ácidos nucleicos modificados para simulaciones de ADN/ARN con AMBER",
+          "en": ""
         },
         "body": {
-          "es": "Una segunda línea principal del grupo aborda la genómica bacteriana y la resistencia antimicrobiana, con foco en patógenos ESKAPE. Seguimos cómo evolucionan los aislamientos clínicos bajo antibióticos de último recurso y caracterizamos los determinantes genéticos y metabólicos detrás de la resistencia, el hetero-antagonismo y la aparición de variantes de colonia pequeña.",
-          "en": "A second main research line of the group tackles the genomics and molecular biology of antimicrobial resistance, with a particular focus on ESKAPE pathogens. We follow how clinical isolates evolve under last-resort antibiotics, characterising the genetic and metabolic determinants behind resistance, hetero-antagonism and the emergence of small-colony variants."
-        }
+          "es": "Base de datos generada a partir de cálculos cuánticos, con miles de parámetros de bases modificadas de ADN/ARN para el campo de fuerzas AMBER. ModXNA permite correr simulaciones atomísticas de moléculas de acidos nucleicos con sus modificaciones químicas (naturales y sintéticas).",
+          "en": ""
+        },
+        "institutions": [
+          "University of Utah",
+          "University of Maryland",
+          "IONIS Pharmaceuticals",
+          "CENUR Litoral Norte"
+        ]
       },
       {
         "title": {
-          "es": "De la vigilancia clínica a los oligoterapéuticos",
-          "en": "From clinical surveillance to oligotherapeutics"
+          "es": "Estudio de la estructura y dinámica del ADN: Modelos atomísticos y de grano grueso",
+          "en": ""
         },
         "body": {
-          "es": "Combinando secuenciación completa de genoma, genómica comparativa, transcriptómica y modelado estructural, mapeamos la diseminación de carbapenemasas (NDM, KPC, OXA) en brotes hospitalarios de América Latina, diseccionamos mecanismos de resistencia espontánea in vitro y exploramos factores no canónicos. El objetivo es traducir esa información mecanística en herramientas concretas para la vigilancia clínica y en el diseño de terapias de próxima generación basadas en ASO, siRNA, aptámeros y oligoterapéuticos en general.",
-          "en": "Combining whole-genome sequencing, comparative genomics, transcriptomics and structural modelling, we map the spread of carbapenemases (NDM, KPC, OXA-type) across hospital outbreaks in Latin America, dissect mechanisms of spontaneous resistance in vitro, and probe non-canonical drivers. The goal is to translate that mechanistic insight into actionable knowledge for clinical surveillance and into the design of next-generation therapies built on ASOs, siRNAs, aptamers and oligotherapeutics in general."
-        }
+          "es": "Desarrollo de campos de fuerza y modelos para la simulación de ADN, producción de protocolos y estándars. Estudio sistemático de las propiedades físicas/mecánicas del ADN con un enfoque multi-escala, desde los átomos a los cromosomas.",
+          "en": ""
+        },
+        "institutions": [
+          "CENUR Litoral Norte",
+          "IRB Barcelona",
+          "University of Utah",
+          "Ascona B-DNA Consortium",
+          "University of York",
+          "University Paris-Saclay"
+        ]
+      },
+      {
+        "title": {
+          "es": "Bionformática y evolución de la resistencia antimicrobiana",
+          "en": ""
+        },
+        "body": {
+          "es": "Integración de datos ómicos y fenotípicos para el estudio de la evolución de la resistencia antimicrobiana.",
+          "en": ""
+        },
+        "institutions": [
+          "CENUR Litoral Norte",
+          "California State University Fullerton (CSUF)",
+          "Hospital de Clinicas “Jose de San Martin\" (Argentina)"
+        ]
+      },
+      {
+        "title": {
+          "es": "Herramientas basadas en AI de aplicación en salud humana y animal",
+          "en": ""
+        },
+        "body": {
+          "es": "Desarrollo de herramientas bioinformaticas de aplicación en salud animal y humana basada en algoritmos clásicos y modelos de inteligencia artificial.",
+          "en": ""
+        },
+        "institutions": [
+          "CENUR Litoral Norte",
+          "Universidad Católica del Uruguay"
+        ]
       }
     ]
   },
   "currentProjects": [
     {
-      "title": "CEIBOS — Centro de Estudios Interdisciplinarios de Biodiversidad Orientado a aplicaciones en Salud (Centro Interdisciplinario (EI), 2021–2025; rol: Co-coordinador). Centro interdisciplinario de la UdelaR de 5 años. Coordinadora: Dra. Sonia Rodríguez Giordano (DEPBIO, Facultad de Química, UdelaR). Co-coordinadores: Dr. Pablo Dans (CENUR Litoral Norte, Salto, UdelaR) y Dr. Carlos Testuri (INCO, Facultad de Ingeniería, UdelaR).",
-      "period": "2021–2025"
-    },
-    {
-      "title": "HexABC — Ascona B-DNA Consortium. El esfuerzo más reciente del consorcio ABC: caracterización sistemática de las propiedades físicas de los 2080 hexanucleótidos únicos a partir de 950 simulaciones MD all-atom de 10 μs.",
-      "funder": "Consorcio internacional",
-      "period": "2021–2026",
-      "role": "Miembro del consorcio"
-    },
-    {
-      "title": "ABSarbo — Estrategias basadas en aptámeros contra arbovirus. Herramientas biotecnológicas basadas en aptámeros contra arbovirus. Responsable: Dra. Calzada (Facultad de Ciencias, UdelaR). Consorcio de 6 países.",
-      "funder": "Proyecto EULAC-ANII",
-      "period": "2023–2025",
-      "role": "Co-coordinador"
-    },
-    {
-      "title": "Espacio conformacional de aptámeros de ADN. Predicción estructural y dinámica de motivos inusuales de ADN — espacio conformacional de aptámeros. Socios: CENUR Litoral Norte (Salto), Facultad de Ciencias, Institut Pasteur de Montevideo, Facultad de Medicina, University of Florida.",
-      "funder": "Proyecto CSIC I+D",
-      "period": "2023–2025",
-      "role": "Responsable principal"
-    },
-    {
-      "title": "ProAgricultura — Acumulación de prolina en plantas. Estudio multidisciplinario de los beneficios de la acumulación de prolina en plantas. Responsable: Dr. Santiago Signorelli, Facultad de Agronomía, UdelaR.",
-      "funder": "Proyecto CSIC I+D",
-      "period": "2022–2024",
+      "title": "¿Sueñan las IA con fluorinasas? — Enzimas diseñadas por IA",
+      "funder": "Fondo Clemente Estable; CAP",
+      "period": "desde 2024",
       "role": "Integrante del equipo"
     },
     {
-      "title": "¿Sueñan las IA con fluorinasas? — Enzimas diseñadas por IA. Inteligencia artificial como fuente de nuevas enzimas para la síntesis biocatalítica de compuestos fluorados. Responsable: Dra. Paola Panizza, Facultad de Química, UdelaR.",
-      "funder": "Proyecto FCE",
-      "period": "2024–2026",
-      "role": "Integrante del grupo"
+      "title": "Espacio conformacional de aptámeros de ADN/ARN",
+      "funder": "Proyecto CSIC I+D; l'Oreal; EULAC-ANII; CAP",
+      "period": "desde 2023",
+      "role": "Co-responsable"
     },
     {
-      "title": "Modelo coarse-grained de ADN para MD de cromatina. Tesis doctoral de MSc Gabriela da Rosa: un nuevo modelo coarse-grained de ADN para simulaciones de dinámica molecular de cromatina. Co-directora: Dra. Gianna Cecchetto (Facultad de Química). Beca CAP.",
-      "funder": "Proyecto de doctorado",
-      "period": "PEDECIBA Química / UdelaR, en curso",
-      "role": "Co-director"
+      "title": "Modelo de grano grueso de ADN para simulaciones de dinámica mocular",
+      "funder": "Proyecto I+D; CAP",
+      "period": "desde 2023",
+      "role": "Responsable"
     },
     {
-      "title": "Ingeniería in silico de aminasas reductivas. Tesis de Maestría en Biotecnología de Lic. Gonzalo Lopez: ingeniería in silico y experimental de aminasas reductivas, aplicada a la obtención de radiotrazadores para diagnóstico PET de enfermedades neurodegenerativas. Co-directoras: Dra. Paola Panizza, Dra. Sonia Rodriguez (Facultad de Química).",
-      "funder": "Proyecto de maestría",
-      "period": "UdelaR / ANII, 2020–2023",
-      "role": "Co-director"
+      "title": "Plegamiento in silico de G-cuádruplex de ADN integrando datos experimentales, simulaciones e IA",
+      "funder": "CSIC Iniciación; PEDECIBA Química",
+      "period": "2026-2027",
+      "role": "Responsable"
     },
     {
-      "title": "ATPasa × peroxinitrito. Efecto del peroxinitrito sobre la actividad y estructura de ATPasas. Coordinador: Prof. Daniel Peluffo (UBA / CENUR Litoral Norte).",
-      "funder": "Proyecto CENUR–UBA",
-      "period": "2023–2024",
-      "role": "Integrante del grupo"
-    },
-    {
-      "title": "Organización y dinámica 3D del genoma de Trypanosoma cruzi. Responsable: Dra. Florencia Viraqué (Institut Pasteur de Montevideo) con el CENUR Litoral Norte.",
-      "funder": "Proyecto FCE",
-      "period": "2023–2024",
-      "role": "Integrante del grupo"
-    },
-    {
-      "title": "Receptores de células T y homing tisular. Rol de los receptores de células T (TCR) en la asociación celular con sus tejidos blanco. Responsable: Dra. Leticia Monin (Crick Institute) con el CENUR Litoral Norte.",
-      "funder": "Proyecto Crick Institute",
-      "period": "2023–2025",
-      "role": "Integrante del grupo"
-    },
-    {
-      "title": "MODxNA — Parámetros de ácidos nucleicos modificados para AMBER. Base de datos con miles de parámetros de bases modificadas de ADN/ARN para el campo de fuerzas AMBER. Socios: University of Utah, University of Maryland, IONIS Pharmaceuticals y CENUR Litoral Norte.",
-      "funder": "Colaboración internacional",
-      "period": "2023–2024",
-      "role": "Integrante del grupo"
-    },
-    {
-      "title": "Aptámeros contra Trypanosoma cruzi. Desarrollo de aptámeros contra T. cruzi. Responsable: Dr. Pohl Milón (Universidad Peruana de Ciencias Aplicadas) con el CENUR Litoral Norte.",
-      "funder": "Colaboración REDIBA",
-      "period": "2023–2024",
-      "role": "Integrante del grupo"
-    },
-    {
-      "title": "Aptámeros contra Her2, cáncer de mama. Desarrollo de aptámeros contra el receptor Her2 en cáncer de mama, co-financiado por L'Oréal Uruguay. Responsable: Dra. Calzada (Facultad de Ciencias, UdelaR) con el CENUR Litoral Norte.",
-      "funder": "REDIBA / L'Oréal Uruguay",
-      "period": "2022–2024",
-      "role": "Integrante del grupo"
-    },
-    {
-      "title": "Música desde la molécula de la vida. Proyecto a 5 años sobre música a partir de simulaciones MD de duplexes de ADN, en colaboración con Nicolás Molla (productor y compositor) y el CENUR Litoral Norte.",
-      "funder": "Proyecto de divulgación",
-      "period": "2022–2026",
-      "role": "Coordinador"
-    },
-    {
-      "title": "ARN de transferencia y arte plástico — ARN for Export. Exposición itinerante de arte plástico sobre la estructura de los ARN de transferencia (tRNAs) liberados al espacio intercelular, en colaboración con Mariana Barraco (pintora, docente y creadora) y el CENUR Litoral Norte.",
-      "funder": "Proyecto de divulgación",
-      "period": "2022–2024",
-      "role": "Coordinador"
+      "title": "Desarrollo de una plataforma multidimensional para el estudio, predicción y mitigación de la resistencia antimicrobiana en bacilos Gram negativos",
+      "funder": "ANII Ida-Holtz",
+      "period": "2026-2031",
+      "role": "Integrante del equipo"
     }
   ],
   "lead": {
-    "name": "Prof. Dr. Pablo D. Dans",
-    "title": "Responsable del grupo (Gdo 4, 40 hs/sem, DT) · Investigador asociado, Institut Pasteur de Montevideo",
-    "photo": "/images/people/pablo-dans.jpg"
+    "name": "Dr. Pablo D. Dans",
+    "title": "Profesor Agregado (Gdo 4, 35 hs/sem, DT)",
+    "photo": "/images/people/pablo-dans.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy//cv/?b6cd9924670ad95a49b2c20d50e711e57bacffc5bbf22ebff476674fa37a8f04ebddc177946bd2bcff6fb78f5c14a7e7c822c6ddbff194f46f288b486028891a",
+      "profile": "https://scholar.google.es/citations?hl=es&user=7gFOImQAAAAJ&view_op=list_works"
+    }
   },
   "members": [
     {
-      "name": "Dr. Germán Traglia",
-      "title": "Investigador asistente, tenure track (MMBAI, desde 2026) — supervisado por Pablo Dans",
-      "photo": "/images/people/german-traglia.jpg"
+      "name": "Dr. Germán Matías Traglia",
+      "title": "Asistente (Gdo 2, 40 hs/sem, DT)",
+      "photo": "/images/people/german-traglia.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?7b54f780b81d9d5b9d9c99f08b549686",
+        "profile": "https://scholar.google.com/citations?user=jwEl_RAAAAAJ&hl=es"
+      }
     },
     {
       "name": "Dr. Leandro Grille",
@@ -164,8 +158,17 @@
     },
     {
       "name": "MSc. Gabriela da Rosa",
-      "title": "Doctoranda en Facultad de Química (MMBAI, desde 2019) — co-dirigida por Pablo Dans y la Prof. Gianna Cecchetto; Beca CAP",
-      "photo": "/images/people/gabriela-da-rosa.jpg"
+      "title": "Becaria CAP",
+      "photo": "/images/people/gabriela-da-rosa.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Química, Facultad de Química / PEDECIBA Química",
+        "advisors": "Dr. Pablo Dans"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?cbab60a6dd58052267eb23801e5c6d8d223af7368a74866677db71f5307c3afe1082f31c72d52328dba3f4ad187052c4aff3f7a60f5804a6fe0046e6dadd7685",
+        "profile": "https://scholar.google.com/citations?user=pFnVy8wAAAAJ&hl=es"
+      }
     },
     {
       "name": "Lic. Gonzalo Lopez",
@@ -173,9 +176,13 @@
       "photo": "/images/people/gonzalo-lopez.jpg"
     },
     {
-      "name": "Lic (candidate). Santiago Pintos",
-      "title": "Estudiante de Licenciatura en Bioquímica, Facultad de Ciencias (MMBAI, desde 2023) — co-dirigido por Pablo Dans y la Dra. Victoria Calzada",
-      "photo": "/images/people/santiago-pintos.jpg"
+      "name": "Santiago P. Alvariza",
+      "title": "Ayudante (Gdo 1, 22 hs/sem)",
+      "photo": "/images/people/santiago-pintos.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?f80909ac08daf28ddf57a115f05b0eea",
+        "profile": "https://orcid.org/my-orcid?orcid=0009-0008-2378-8140"
+      }
     },
     {
       "name": "Lic. Mage Teliz",
@@ -184,8 +191,16 @@
     },
     {
       "name": "MSc. Rafael Sauto",
-      "title": "Investigador en MMBAI (desde 2024) · Doctorando en Facultad de Agronomía — dirigido por Omar Borsani",
-      "photo": "/images/people/rafael-sauto.jpg"
+      "title": "Preparador de área biológica (D7, 30 hs/sem)",
+      "photo": "/images/people/rafael-sauto.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Ciencias Agrarias, Facultad de Agronomía, Udelar",
+        "advisors": "Dr. Omar Borsani, Dra. Sabina Vidal"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?581ec42a1b43220a347e7c086d4190f1576a3fe4bb53bd69ac47ea7e86e8ee71e33ba225159ad5eae559bb93082999c35451cc8dbb37b5e399610f009c0ab774"
+      }
     },
     {
       "name": "MSc. Denisse Mavis Sánchez",
@@ -193,9 +208,14 @@
       "photo": "/images/people/denisse-mavis-sanchez.jpg"
     },
     {
-      "name": "Lic (candidate). Paulina Boiani",
-      "title": "Estudiante de Licenciatura en Biología Humana, CENUR Litoral Norte (MMBAI, desde 2026) — dirigida por Germán Traglia",
-      "photo": "/images/people/paulina-boiani.jpg"
+      "name": "Bach. Paulina Boiani",
+      "title": "",
+      "photo": "/images/people/paulina-boiani.jpg",
+      "thesis": {
+        "level": "grado",
+        "program": "Licenciatura en Biología Humana, CENUR Litoral Norte",
+        "advisors": "Dr. Germán Traglia"
+      }
     },
     {
       "name": "Lic (candidate). Sofía Almirón",
@@ -203,9 +223,12 @@
       "photo": "/images/people/sofia-almiron.jpg"
     },
     {
-      "name": "Dr. Victor Miguel Garcia Velasquez",
+      "name": "Dr. Víctor Miguel García Velásquez",
       "title": "Investigador en MMBAI (desde 2024) · Investigador asistente, Facultad de Medicina y Nutrición, UABC Mexicali — dirigido por Pablo Dans",
-      "photo": "/images/people/victor-garcia.jpg"
+      "photo": "/images/people/victor-garcia.jpg",
+      "links": {
+        "profile": "https://orcid.org/0000-0002-4921-5817"
+      }
     },
     {
       "name": "Lic (candidate). Gastón Leal",
@@ -215,377 +238,183 @@
   ],
   "collaborators": [
     {
-      "name": "Dra. Paola Panizza",
-      "institution": "Profesor Asistente, Biocatálisis e ingeniería de enzimas, Facultad de Química, Universidad de la República",
+      "name": "Dra. Paola Panizza, Dra Sonia Rodríguez Giordano",
+      "institution": "Facultad de Química, Universidad de la República",
       "country": "Uruguay",
-      "topic": "Diseño in silico de transaminasas y fluorinasas"
+      "topic": "Diseño in silico de Transaminasas para la síntesis de aminas quirales y Fluorinasas para la síntesis de compuestos fluorados"
     },
     {
-      "name": "Dr. Santiago Signorelli",
-      "institution": "Profesor Agregado, Bioquímica vegetal, Facultad de Agronomía, Universidad de la República",
-      "country": "Uruguay",
-      "topic": "Respuesta de las plantas a estrés abiótico y osmolitos"
-    },
-    {
-      "name": "Dra. Victoria Calzada",
-      "institution": "Profesor Adjunto, Imagenología molecular y aptámeros, Centro de Investigaciones Nucleares, Universidad de la República",
-      "country": "Uruguay",
-      "topic": "Diseño de aptámeros contra arbovirus, cáncer y toxinas"
-    },
-    {
-      "name": "Dra. Susana Rodríguez",
-      "institution": "Profesor Adjunto, Fisiología vegetal, Facultad de Agronomía, Universidad de la República",
-      "country": "Uruguay",
-      "topic": "Péptidos antimicrobianos de leguminosas nativas"
-    },
-    {
-      "name": "Dra. Sonia Rodríguez Giordano",
-      "institution": "Profesor Agregado, Biocatálisis, Facultad de Química, Universidad de la República",
-      "country": "Uruguay",
-      "topic": "Diseño in silico de transaminasas"
-    },
-    {
-      "name": "Dr. Daniel Peluffo",
-      "institution": "Profesor Titular, Biofisicoquímica de membranas, Departamento de Ciencias Biológicas, CENUR Litoral Norte, Universidad de la República",
-      "country": "Uruguay",
-      "topic": "Modelado y simulaciones de transportadores de membrana"
+      "name": "Dr. Alberto Perez",
+      "institution": "Department of Chemistry, University of Florida",
+      "country": "EEUU",
+      "topic": "Desarrollo de modelos computacionales para el plegamiento de motivos inusuales de ADN y ARN"
     },
     {
       "name": "Dra. Agnes Noy",
-      "institution": "Científico Principal, Biofísica teórica y computacional del ADN, University of York",
+      "institution": "Department of Physics, University of York",
       "country": "Reino Unido",
-      "topic": "Superenrollamiento de minicírculos de ADN"
-    },
-    {
-      "name": "Dr. Oliver Henrich",
-      "institution": "Profesor Agregado, Materia blanda y biofísica, University of Strathclyde",
-      "country": "Reino Unido",
-      "topic": "Modelado y simulación de ácidos nucleicos"
-    },
-    {
-      "name": "Dr. Alberto Pérez",
-      "institution": "Profesor Agregado, Campos de fuerza y plegamiento de biomoléculas, University of Florida",
-      "country": "Estados Unidos",
-      "topic": "Plegamiento de motivos inusuales de ADN y ARN"
-    },
-    {
-      "name": "Dr. Marco Pasi",
-      "institution": "Profesor Agregado, Biología estructural del ADN, CNRS / ENS Paris-Saclay",
-      "country": "Francia",
-      "topic": "Superenrollamiento de minicírculos de ADN"
-    },
-    {
-      "name": "Dr. Modesto Orozco",
-      "institution": "Profesor Titular, Modelado Molecular y Bioinformática, IRB Barcelona / Universitat de Barcelona",
-      "country": "España",
-      "topic": "HexABC y el Ascona B-DNA Consortium"
+      "topic": "Efectos del superenrollamiento en la estructura y dinámica de minicírculos de ADN"
     },
     {
       "name": "Dr. Thomas E. Cheatham III",
-      "institution": "Profesor Titular, campos de fuerza AMBER, University of Utah",
-      "country": "Estados Unidos",
-      "topic": "ModXNA"
-    },
-    {
-      "name": "Dr. Rodrigo Galindo-Murillo",
-      "institution": "Científico Principal, Ionis Pharmaceuticals",
-      "country": "Estados Unidos",
-      "topic": "Terapias basadas en ácidos nucleicos modificados y ModXNA"
-    },
-    {
-      "name": "Dra. Christina Bergonzo",
-      "institution": "Research Chemist, NIST",
-      "country": "Estados Unidos",
-      "topic": "ModXNA"
-    },
-    {
-      "name": "Dr. Daniel R. Roe",
-      "institution": "Jefe, Sección HPC, Laboratory of Computational Biology, NIH",
-      "country": "Estados Unidos",
-      "topic": "ModXNA"
-    },
-    {
-      "name": "Dr. Víctor M. González",
-      "institution": "Subdirector Científico, IRYCIS",
-      "country": "España",
-      "topic": "Aptámeros contra virus (Chikungunya, VRS) y cáncer de páncreas"
-    },
-    {
-      "name": "Dr. Juan David Ospina-Villa",
-      "institution": "Profesor Asistente, Instituto Colombiano de Medicina Tropical",
-      "country": "Colombia",
-      "topic": "Aptámeros contra malaria"
+      "institution": "College of Pharmacy, University of UTAH",
+      "country": "EEUU",
+      "topic": "ModXNA: Desarrollo de un campo de fuerza para ácidos nucleicos modificados y no naturales"
     },
     {
       "name": "Dr. Leandro Bugnon",
-      "institution": "Profesor Adjunto, IA aplicada a biología estructural, Universidad Nacional del Litoral / Universidad Austral",
+      "institution": "Universidad Nacional del Litoral / Universidad Austral",
       "country": "Argentina",
-      "topic": "Métodos de IA para estructura 3D de ADN y ARN"
+      "topic": "Desarrollo de métodos de IA para la determinación de la estructura 3D de motivos inusuales de ADN y ARN"
     },
     {
-      "name": "Dr. Pohl Milón",
-      "institution": "Investigador Principal, Universidad Peruana de Ciencias Aplicadas",
-      "country": "Perú",
-      "topic": "Biología estructural del ribosoma y traducción bacteriana"
+      "name": "Dr. Marcelo Tolmasky",
+      "institution": "Departamento de Ciencias Biológicas, California State University Fullerton",
+      "country": "EEUU",
+      "topic": "Resistencia antimicrobiana en bacterias: mecanismos moleculares y nuevas estrategias terapéuticas"
     },
     {
-      "name": "Franco Goytia",
-      "institution": "CEO, The Cell Company",
-      "country": "Argentina / Estados Unidos",
-      "topic": "Modalidades terapéuticas de ARN (siRNA y ASO)"
+      "name": "Dr. Santiago Lattar",
+      "institution": "Departamento de Microbiología, Universidad Federal de Minas Gerais",
+      "country": "Brasil",
+      "topic": "Resistencia antimicrobiana en patógenos ovinos y bovinos: mecanismos moleculares y nuevas estrategias terapéuticas"
+    },
+    {
+      "name": "Dr. Samuel Miño",
+      "institution": "INTA Cerro Azul",
+      "country": "Argentina",
+      "topic": "Resistencia antimicrobiana en bacterias: mecanismos moleculares y nuevas estrategias terapéuticas"
     }
   ],
   "publications": [
     {
       "doi": "10.1038/s41467-026-74390-5",
-      "citation": "Battistini F, Wieczór M, Hospital A, Pasi M, Arcón JP, Serrano-Chacón I, et al. hexABC seeking the physical code of DNA. Nature Communications. 2026. https://doi.org/10.1038/s41467-026-74390-5"
-    },
-    {
-      "doi": "10.1093/infdis/jiaf567",
-      "citation": "Arun B, Liu E, Vallé Q, Sharma R, Bui NM, Mezcord V, et al. Ampicillin/sulbactam in combination with ceftazidime/avibactam against metallo-β-lactamase-producing carbapenem-resistant Acinetobacter baumannii: a genomics-informed mechanism-based model. The Journal of Infectious Diseases. 2026;233(2):e521-e533. https://doi.org/10.1093/infdis/jiaf567"
-    },
-    {
-      "doi": "10.1128/mbio.03760-25",
-      "citation": "Mezcord V, Luu I, Akhar U, Traglia GM, Rodríguez C, Moheb S, et al. Vitamin B12 promotes cefiderocol resistance and small-colony variants in carbapenem-resistant Acinetobacter baumannii. mBio. 2026;e03760-25. https://doi.org/10.1128/mbio.03760-25"
-    },
-    {
-      "doi": "10.1016/j.ijantimicag.2026.107781",
-      "citation": "Varnado A, Moheb S, Sanchez SD, Rodriguez C, Hamza M, Escalante J, et al. Human serum albumin and biological fluids reduce cefiderocol activity in carbapenem-resistant Gram-negative bacteria. International Journal of Antimicrobial Agents. 2026;107781. https://doi.org/10.1016/j.ijantimicag.2026.107781"
-    },
-    {
-      "doi": "10.3201/eid3203.251714",
-      "citation": "Barberis C, Haim MS, Zomero P, Traglia GM, Ellis A, Cittadini R, et al. Two cases of posttraumatic Kosakonia infection, Argentina, 2023. Emerging Infectious Diseases. 2026;32(3):459. https://doi.org/10.3201/eid3203.251714"
-    },
-    {
-      "doi": "10.33011/livecoms.6.1.4545",
-      "citation": "Galindo-Murillo R, Manghrani A, Roe DR, Love O, Dans PD, Cheatham TE 3rd, et al. Parameterizing modified nucleic acids for molecular simulations in the AMBER MD software environment. Living Journal of Computational Molecular Science. 2025;6(1):4545. https://doi.org/10.33011/livecoms.6.1.4545"
-    },
-    {
-      "doi": "10.1002/wcms.70050",
-      "citation": "da Rosa G, de Castro M, García Velásquez VM, Pintos S, Benedetto J, Grille L, et al. Aptamers meet structural bioinformatics, computational chemistry and artificial intelligence. WIREs Computational Molecular Science. 2025. [Corresponding author] https://doi.org/10.1002/wcms.70050"
-    },
-    {
-      "doi": "10.1016/j.jgar.2025.07.011",
-      "citation": "Hamza M, Traglia GM, Maccari L, Gomez S, Sanz MB, Akhtar U, et al. Emerging resistance to novel β-lactam β-lactamase inhibitor combinations in Klebsiella pneumoniae bearing KPC variants. Journal of Global Antimicrobial Resistance. 2025. https://doi.org/10.1016/j.jgar.2025.07.011"
-    },
-    {
-      "doi": "10.3390/antibiotics14060620",
-      "citation": "Cordeiro NF, Papa-Ezdra R, Traglia GM, Bado I, García-Fulgueiras V, Cortinas MN, et al. First report in the Americas of S. enterica var. Enteritidis carrying bla NDM-1 in a putatively new sub-lineage of IncC2 plasmids. Antibiotics. 2025;14(6):620. https://doi.org/10.3390/antibiotics14060620"
-    },
-    {
-      "doi": "10.2139/ssrn.5311748",
-      "citation": "Akhtar U, Moheb S, Davies-Sala C, Gutierrez J, Pasteran F, Tuttobene MR, et al. Genomic insights of two Acinetobacter non-baumannii strains with uncommon mechanisms of resistance leading to cefiderocol resistance. Infection, Genetics and Evolution. 2025. https://doi.org/10.2139/ssrn.5311748"
-    },
-    {
-      "doi": "10.3390/antibiotics14080832",
-      "citation": "Luu I, Mezcord V, Escalante J, Traglia GM, Tuttobene MR, Rodriguez C, et al. Spontaneous emergence of cefiderocol resistance in Klebsiella pneumoniae KPC-163: genomic and transcriptomic insights. Antibiotics. 2025;14(8):832. https://doi.org/10.3390/antibiotics14080832"
-    },
-    {
-      "doi": "10.1016/j.ram.2024.11.001",
-      "citation": "Montalvo E, Veiga F, Rodríguez H, Traglia GM, Vay C, Almuzara M. Identificación y sensibilidad antibiótica de aislamientos de Aeromonas spp. en un hospital universitario de la ciudad de Buenos Aires. Revista Argentina de Microbiología. 2025;57(2):105-13. https://doi.org/10.1016/j.ram.2024.11.001"
+      "citation": "Battistini F, Wieczór M, Hospital A, Pasi M, Arcón JP, Serrano-Chacón I, et al. hexABC seeking the physical code of DNA. Nature Communications. 2026;17(1). https://doi.org/10.1038/s41467-026-74390-5"
     },
     {
       "doi": "10.1021/acs.jctc.4c01164",
-      "citation": "Love O, Galindo-Murillo R, Roe DR, Dans PD, Cheatham TE 3rd, Bergonzo C. modXNA: a modular approach to parametrization of modified nucleic acids for use with Amber force fields. Journal of Chemical Theory and Computation. 2024;20:9354-63. https://doi.org/10.1021/acs.jctc.4c01164"
+      "citation": "Love O, Galindo-Murillo R, Roe DR, Dans PD, Cheatham III TE, Bergonzo C. modXNA: a modular approach to parametrization of modified nucleic acids for use with amber force fields. Journal of Chemical Theory and Computation. 2024;20(21):9354-63. https://doi.org/10.1021/acs.jctc.4c01164"
+    },
+    {
+      "doi": "10.1002/wcms.70050",
+      "citation": "da Rosa G, de Castro M, García Velásquez VM, Pintos S, Benedetto J, Grille L, et al. Aptamers meet structural bioinformatics, computational chemistry, and artificial intelligence. WIREs Computational Molecular Science. 2025;15(5). [Corresponding author] https://doi.org/10.1002/wcms.70050"
     },
     {
       "doi": "10.1021/acs.jcim.4c01294",
-      "citation": "da Rosa G, Grille L, Dans PD. Ramachandran-like conformational space for DNA. Journal of Chemical Information and Modeling. 2024;64:8339-48. [Corresponding author] https://doi.org/10.1021/acs.jcim.4c01294"
+      "citation": "da Rosa G, Grille L, Dans PD. Ramachandran-like conformational space for DNA. Journal of Chemical Information and Modeling. 2024;64(21):8339-48. [Corresponding author] https://doi.org/10.1021/acs.jcim.4c01294"
     },
     {
       "doi": "10.1007/s12551-024-01204-7",
-      "citation": "Maddocks JH, Dans PD, Cheatham TH 3rd, Harris S, Laughton C, Orozco M, et al. Multiscale simulations of DNA from electrons to nucleosomes. Biophysical Reviews. 2024. https://doi.org/10.1007/s12551-024-01204-7"
+      "citation": "Maddocks JH, Dans PD, Cheatham TH III, Harris S, Laughton C, Orozco M, et al. Special issue: multiscale simulations of DNA from electrons to nucleosomes. Biophysical Reviews. 2024;16(3):259-62. https://doi.org/10.1007/s12551-024-01204-7"
     },
     {
-      "doi": "10.1007/s12551-024-01194-6",
-      "citation": "Dans PD. Multiscale simulations of DNA from electrons to nucleosomes: 22 years of the Ascona B-DNA Consortium. Biophysical Reviews. 2024. https://doi.org/10.1007/s12551-024-01194-6"
+      "doi": "10.1101/2022.06.24.497007",
+      "citation": "Grille L, Gallego D, Darré L, Rosa GD, Battistini F, Orozco M, et al. The pseudo-torsional space of RNA. 2022. https://doi.org/10.1101/2022.06.24.497007"
     },
     {
-      "doi": "10.1128/mra.00892-23",
-      "citation": "Traglia GM, Rodriguez C, Leal C, Gasca B, Aziz A, Lopez C, et al. Draft genome sequence of Lacticaseibacillus rhamnosus CRL 2244, a strain with strong killing effect on carbapenem-resistant Acinetobacter baumannii. Microbiology Resource Announcements. 2024;13(1):e00892-23. https://doi.org/10.1128/mra.00892-23"
-    },
-    {
-      "doi": "10.3389/fanim.2023.1336816",
-      "citation": "Diana L, Traglia GM, Diana V, Calvinho L, Laporta J, Iriarte A, et al. Duplex droplet digital PCR detection of Streptococcus uberis and Streptococcus dysgalactiae, major etiological agents of bovine mastitis. Frontiers in Animal Science. 2024;4:1336816. https://doi.org/10.3389/fanim.2023.1336816"
-    },
-    {
-      "doi": "10.1016/j.ijantimicag.2024.107131",
-      "citation": "Mezcord V, Traglia GM, Pasteran F, Escalante J, Lopez C, Wong O, et al. Characterization of cefiderocol-resistant spontaneous mutant variants of Klebsiella pneumoniae producing NDM-5 with a single mutation in cirA. International journal of antimicrobial agents. 2024;63(5):107131. https://doi.org/10.1016/j.ijantimicag.2024.107131"
-    },
-    {
-      "doi": "10.1128/spectrum.00930-24",
-      "citation": "Wong O, Mezcord V, Lopez C, Traglia GM, Pasteran F, Tuttobene MR, et al. Hetero-antagonism of avibactam and sulbactam with cefiderocol in carbapenem-resistant Acinetobacter spp. Microbiology Spectrum. 2024;12(10):e00930-24. https://doi.org/10.1128/spectrum.00930-24"
-    },
-    {
-      "doi": "10.3389/fmicb.2024.1357881",
-      "citation": "Traglia GM, Betancor L, Yim L, Iriarte A, Chabalgoity JA. Genotypic and phenotypic analysis of Salmonella enterica serovar Derby, looking for clues explaining the impairment of egg isolates to cause human disease. Frontiers in Microbiology. 2024;15:1357881. https://doi.org/10.3389/fmicb.2024.1357881"
-    },
-    {
-      "doi": "10.1016/j.ijantimicag.2024.107218",
-      "citation": "Traglia GM, Furtado N, Escalante J, Almuzara M, Cittadini RM, Tuttobene MR, et al. Dynamic evolution of Achromobacter xylosoxydans in a patient with leukemia receiving antibiotic treatment. International journal of antimicrobial agents. 2024;64(2):107218. https://doi.org/10.1016/j.ijantimicag.2024.107218"
-    },
-    {
-      "doi": "10.21203/rs.3.rs-4415275/v1",
-      "citation": "Escalante J, Hamza M, Nishimura B, Melecio M, Davies-Sala C, Tuttobene MR, et al. Carbapenem-resistant Acinetobacter baumannii (CRAB): metabolic adaptation and transcriptional response to human urine (HU). Scientific Reports. 2024;14(1):19145. https://doi.org/10.21203/rs.3.rs-4415275/v1"
-    },
-    {
-      "doi": "10.1016/j.infpip.2024.100379",
-      "citation": "Almuzara M, Cittadini R, Traglia GM, Haim MS, De Belder D, Alvarez C, et al. Phytobacter spp: the emergence of a new genus of healthcare-associated Enterobacterales encoding carbapenemases in Argentina: a case series. Infection Prevention in Practice. 2024;6(3):100379. https://doi.org/10.1016/j.infpip.2024.100379"
-    },
-    {
-      "doi": "10.1016/j.diagmicrobio.2024.116476",
-      "citation": "Barberis C, Traglia GM, Haim MS, Poklepovich T, De Belder D, Arrieta R, et al. First report of abdominal sepsis caused by a recently described species: Chimaeribacter arupi. Diagnostic Microbiology and Infectious Disease. 2024;110(2):116476. https://doi.org/10.1016/j.diagmicrobio.2024.116476"
-    },
-    {
-      "doi": "10.1038/s41588-024-01835-2",
-      "citation": "Kalbfleisch TS, McKay SD, Murdoch BM, Adelson DL, Almansa-Villa D, Becker G, et al. The ruminant telomere-to-telomere (RT2T) consortium. Nature genetics. 2024;56(8):1566-73. https://doi.org/10.1038/s41588-024-01835-2"
-    },
-    {
-      "doi": "10.1099/acmi.0.000827.v3",
-      "citation": "Traglia GM, Poudel M, Miño S, Canteros BI, Minsavage GV, Sharma A, et al. Xanthomonas citri pv. eucalyptorum strain 4866-2_S43 (formerly X. axonopodis pv. eucalyptorum): the causal agent of bacterial leaf blight on eucalypts recovered in Argentina. Access Microbiology. 2024;6(10):000827-v3. https://doi.org/10.1099/acmi.0.000827.v3"
+      "doi": "10.1016/j.ijantimicag.2026.107844",
+      "citation": "Traglia GM, Moheb S, Akhar U, Quiroga C, Tuttobene MR, Hamza M, et al. Impact of cefiderocol on Klebsiella pneumoniae: a population-based longitudinal analysis of phenotypic and genotypic responses at subinhibitory and inhibitory concentrations. International Journal of Antimicrobial Agents. 2026;67(8):107844. https://doi.org/10.1016/j.ijantimicag.2026.107844"
     },
     {
       "doi": "10.3390/ijms252111424",
-      "citation": "Traglia GM, Pasteran F, Moheb S, Akhtar U, Gonzalez S, Maldonado C, et al. Insights into Acinetobacter baumannii AMA205's unprecedented antibiotic resistance. International Journal of Molecular Sciences. 2024;25(21):11424. https://doi.org/10.3390/ijms252111424"
+      "citation": "Traglia GM, Pasteran F, Moheb S, Akhtar U, Gonzalez S, Maldonado C, et al. Insights into Acinetobacter baumannii AMA205’s unprecedented antibiotic resistance. International Journal of Molecular Sciences. 2024;25(21):11424. https://doi.org/10.3390/ijms252111424"
+    },
+    {
+      "doi": "10.1038/s41588-024-01835-2",
+      "citation": "Kalbfleisch TS, McKay SD, Murdoch BM, Adelson DL, Almansa-Villa D, Becker G, et al. The ruminant telomere-to-telomere (RT2T) consortium. Nature Genetics. 2024;56(8):1566-73. https://doi.org/10.1038/s41588-024-01835-2"
+    },
+    {
+      "doi": "10.3390/biology12030358",
+      "citation": "Traglia GM, Pasteran F, Escalante J, Nishimura B, Tuttobene MR, Subils T, et al. Genomic comparative analysis of two multi-drug resistance (MDR) Acinetobacter baumannii clinical strains assigned to international clonal lineage II recovered pre- and post-COVID-19 pandemic. Biology. 2023;12(3):358. https://doi.org/10.3390/biology12030358"
     }
   ],
   "teaching": [
-    {
-      "es": "Escuela de Modelado de Biomoléculas (CELFI–MINCyT) — Universidad de Buenos Aires (Argentina, 2016–presente). Docente (2016–2022); docente y co-organizador (2022–presente).",
-      "en": "Biomolecular Modeling School (CELFI–MINCyT) — University of Buenos Aires (Argentina, 2016–present). Lecturer (2016–2022); lecturer and co-organizer (2022–present).",
-      "levels": [
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Biofísica — Ciclo de Biología y Bioquímica (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2020–presente). Clases de resolución de problemas del módulo de Interacciones, Cooperatividad y Alosterismo desde 2020; clases teóricas y de resolución de problemas desde 2021.",
-      "en": "Biophysics — Biology and Biochemistry Cycle (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2020–present). Problem-solving classes on the Interactions, Cooperativity and Allosterism module since 2020; lectures and problem-solving since 2021.",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Biofísica del ADN — CENUR Litoral Norte, Universidad de la República (Uruguay, 2021). Co-responsable; a cargo del módulo 'Aspectos estructurales y fisicoquímicos del ADN'.",
-      "en": "DNA Biophysics — CENUR Litoral Norte, Universidad de la República (Uruguay, 2021). Co-coordinator; in charge of the 'Structural and physicochemical aspects of DNA' module.",
-      "levels": [
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Aspectos estructurales y fisicoquímicos del ADN — Universidad de Buenos Aires (Argentina, 2022). Curso de posgrado sobre las propiedades estructurales y fisicoquímicas del ADN.",
-      "en": "Structural and physicochemical aspects of DNA — University of Buenos Aires (Argentina, 2022). Postgraduate course on the structural and physicochemical properties of DNA.",
-      "levels": [
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Introducción a las Ciencias Biológicas, 1er semestre — Ciclo de Biología y Bioquímica (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2023–presente). Clase teórica y discusión grupal sobre 'el origen de la vida'.",
-      "en": "Introduction to Biological Sciences, 1st semester — Biology and Biochemistry Cycle (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2023–present). Lecture and group discussion on 'the origin of life'.",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Biofísica estructural de ácidos nucleicos — Universidad de Buenos Aires (Argentina, 2024). Clase teórica invitada.",
-      "en": "Structural biophysics of nucleic acids — University of Buenos Aires (Argentina, 2024). Guest lecture.",
-      "levels": [
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Bioingeniería Molecular y Celular — Facultad de Ciencias, Universidad de la República (Uruguay, 2024–presente). Dos clases teóricas sobre estructura de ácidos nucleicos y replicación.",
-      "en": "Molecular and Cellular Bioengineering — Facultad de Ciencias, Universidad de la República (Uruguay, 2024–present). Two lectures on nucleic acid structure and replication.",
-      "levels": [
-        "grado",
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Biología Estructural en Medicina — CEINBIO, Facultad de Medicina, Universidad de la República (Uruguay, 2024). Clase teórica y práctico computacional sobre modelado multiescala de ácidos nucleicos.",
-      "en": "Structural Biology in Medicine — CEINBIO, Facultad de Medicina, Universidad de la República (Uruguay, 2024). Lecture and computational practical on multiscale modeling of nucleic acids.",
-      "levels": [
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Genómica — Ciclo de Biología y Bioquímica (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2024–presente). Dos clases teóricas y una discusión grupal sobre estructura y tamaño de los genomas.",
-      "en": "Genomics — Biology and Biochemistry Cycle (CBB), CENUR Litoral Norte, Universidad de la República (Uruguay, 2024–present). Two lectures and a group discussion on genome structure and size.",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Metodología Científica II — Facultad de Medicina, Universidad de la República (Uruguay, 2024–presente). Seguimiento anual de seis estudiantes en un trabajo de investigación, desde su concepción hasta el informe y póster final.",
-      "en": "Scientific Methodology II — Facultad de Medicina, Universidad de la República (Uruguay, 2024–present). Year-long mentoring of six students through an original research project, from conception to final report and poster.",
-      "levels": [
-        "grado"
-      ]
-    },
     {
       "es": "1er Curso Regional de Aptámeros — Red Iberoamericana de Aptámeros (REDIBA), Medellín (Colombia, 2024). Dos clases sobre biofísica de ácidos nucleicos y predicción de estructuras.",
       "en": "1st Regional Course on Aptamers — Iberoamerican Aptamer Network (REDIBA), Medellín (Colombia, 2024). Lectures on nucleic acid biophysics and structure prediction.",
       "levels": [
         "otras"
       ]
+    },
+    {
+      "es": "Biofísica. Licenciatura en Biología Humana, Ciclo Inicial de Biología y Bioquímica, Ciclo Inicial Optativo del Área Científico-Tecnológica (CIO-CyT) y opcional de la carrera de Doctor en Medicina. CENUR Litoral Norte.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a las Ciencias Biológicas. Licenciatura en Biología Humana, Licenciatura en Biotecnología, Ciclo Inicial de Biología y Bioquímica, Ciclo Inicial Optativo del Área Científico-Tecnológica (CIO-CyT). CENUR Litoral Norte.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a la Microbiología. Licenciatura en Biotecnología, Ciclo Inicial de Biología y Bioquímica, Ciclo Inicial Optativo del Área Científico-Tecnológica (CIO-CyT) y opcional de la carrera de Químico Agrícola y Medioambiental.CENUR Litoral Norte.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Bioingeniería Molecular y Celular. Licenciatura en Ciencias Biológicas, Licenciatura en Bioquímica. Facultad de Ciencias.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Genómica. Licenciatura en Biotecnología, Licenciatura en Biología Humana, Ciclo Inicial de Biología y Bioquímica. CENUR Litoral Norte.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Metodología Científica II. Carrera de Doctor en Medicina. CENUR Litoral Norte.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción al pensamiento evolutivo aplicado a la medicina. Carrera de Doctor en Medicina. Facultad de Medicina.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Patogenicidad bacteriana. Licenciatura en Ciencias Biológicas. Facultad de Ciencias.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Virología aplicada. Licenciatura en Genética, Licenciatura en Bioquímica. Facultad de Ciencias Exactas, Químicas y Naturales, Universidad Nacional de Misiones.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Curso Regional: Escuela de Modelado de Biomoléculas. Universidad de Buenos Aires y Universidad de la República.",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Curso Regional: Filogenia molecular y modelado de proteínas. Universidad de la República y INTA Cerro Azul (Argentina).",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
     }
   ],
   "outreach": [
-    {
-      "es": "Entrevista en \"La mesa de los científicos\" (En Perspectiva, Radio Mundo): \"Los profesionales repatriados\", junto a la Dra. Luisa Berná y el Dr. Martín Reiris (setiembre 2020)",
-      "en": "Interview on \"La mesa de los científicos\" (En Perspectiva, Radio Mundo): \"Repatriated professionals,\" with Dr. Luisa Berná and Dr. Martín Reiris (September 2020)",
-      "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Charla de divulgación sobre ADN, epigenética y nutrición para el colectivo La Nutrición y sus Demonios (marzo 2021)",
-      "en": "Outreach talk on DNA, epigenetics, and nutrition for the collective La Nutrición y sus Demonios (March 2021)",
-      "kinds": [
-        "comunidad"
-      ]
-    },
-    {
-      "es": "Gira de divulgación \"Luz, Cámara, Epigenética y Nutrición\" sobre epigenética y nutrición, junto a la Lic. María Gabriela Acosta, con charlas en la Universidad de Buenos Aires, el Instituto Clemente Estable, el CENUR Litoral Norte y la Universidad Autónoma de Asunción (2022)",
-      "en": "\"Light, Camera, Epigenetics and Nutrition\" outreach tour on epigenetics and nutrition, with Lic. María Gabriela Acosta, with talks at the University of Buenos Aires, the Clemente Estable Institute, CENUR Litoral Norte, and the Universidad Autónoma de Asunción (2022)",
-      "kinds": [
-        "comunidad"
-      ]
-    },
-    {
-      "es": "Entrevista en el programa de radio Efecto Mariposa sobre epigenética y nutrición (mayo 2022)",
-      "en": "Interview on the Efecto Mariposa radio program about epigenetics and nutrition (May 2022)",
-      "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Entrevistas en el programa de radio \"En qué nos metimos\": sobre el grupo (octubre 2021) y sobre el trabajo publicado en Nature Structural and Molecular Biology (noviembre 2022)",
-      "en": "Interviews on the radio program \"En qué nos metimos\": about the group (October 2021) and about the paper published in Nature Structural and Molecular Biology (November 2022)",
-      "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Nota en el Portal de la Udelar sobre el modelado 3D/4D del genoma humano a resolución sin precedentes (octubre 2022)",
-      "en": "Feature on the Udelar Portal about the 3D/4D modeling of the human genome at unprecedented resolution (October 2022)",
-      "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Entrevista en el programa de TV Ciudad SobreCiencia sobre modelado teórico-experimental de genes, cromosomas y núcleos enteros (julio 2022)",
-      "en": "Interview on the TV program Ciudad SobreCiencia about theoretical-experimental modeling of genes, chromosomes, and whole nuclei (July 2022)",
-      "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Entrevista y nota en El Observador sobre el trabajo publicado en Nature Structural and Molecular Biology (octubre 2022)",
-      "en": "Interview and feature in El Observador about the paper published in Nature Structural and Molecular Biology (October 2022)",
-      "kinds": [
-        "medios"
-      ]
-    },
     {
       "es": "ABC 2023 — Workshop internacional del Ascona B-DNA Consortium sobre propiedades físicas del ADN dependientes de secuencia, métodos multiescala, campos de fuerzas e interacciones proteína–ADN (más información en danslab.xyz/outreach/abc-2023)",
       "en": "ABC 2023 — International workshop of the Ascona B-DNA Consortium on sequence-dependent physical properties of DNA, multiscale methods, force fields and protein–DNA interactions (more at danslab.xyz/outreach/abc-2023)",
@@ -594,15 +423,57 @@
       ]
     },
     {
-      "es": "ARN for Export — Instalación interdisciplinaria de arte y ciencia que visualiza el ARN extracelular, en colaboración con escultores, artistas audiovisuales y biólogos de varias instituciones uruguayas (más información en danslab.xyz/outreach/arn-for-export)",
-      "en": "ARN for Export — Interdisciplinary art-and-science installation visualizing extracellular RNA, a collaboration with sculptors, audiovisual artists and biologists across Uruguayan institutions (more at danslab.xyz/outreach/arn-for-export)",
+      "es": "Programa SobreCiencia de TV Ciudad, entrevistado por Gustavo Villa, para hablar sobre un trabajo liderado por mi grupo sobre modelado teórico-experimental de genes, cromosomas y núcleos enteros. Julio 2022. https://www.youtube.com/watch?v=VB4a6_RqBWo",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Entrevista en radio El Espectador 810 en el programa Humana Curioso, sobre epignética, 14 de octubre de 2023: https://espectador.com/humanocurioso/aprendizajecontinuo/entrevista-a-pablo-dans-investigador-de-la-udelar-en-cenur-litoral-norte-salto",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Invitado por las profesoras Virginia Pellegrino y Sandra Alonso del Instituto de Profesores Artigas (IPA) a dar una charla de divulgación sobre epigenética y nutrición. 21 de octubre de 2024. Título de la charla: “Luz, Cámara, Epigenética y Nutrición”. Salón de seminarios, IPA, Montevideo.",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Invitado por el artista visual y docente Nito Cilintano al Laboratorio de Creatividad de la Universidad Católica del Uruguay. 6 de noviembre de 2025, vía Zoom. Título de la charla: “Bioinformática, simulaciones, creatividad y arte”.",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Invitado por la docente Guidahí Calleros al ciclo de charlas de especialistas del Instituto de Formación Docente de Salto, para dar una charla de divulgación sobre el origen de la vida. 2025-2026.",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Invitado por el Ministerio de Educación y Cultura, en calidad de ganador del Fondo Regional para la Cultura, a exponer sobre la experiencia del proyecto “ARN for Export” en el evento Diálogos transdisciplinarios: ciencia y creación artística. Museo Nacional de Historia Natural, Montevideo, 11 de noviembre de 2025.",
+      "en": "",
+      "kinds": [
+        "comunidad"
+      ]
+    },
+    {
+      "es": "Sonificación molecular: Traducción de la dinámica molecular del ADN en música, en colaboración con el compositor Nicolás Molla. https://danslab.xyz/es/outreach/sonification/",
+      "en": "",
       "kinds": [
         "arte"
       ]
     },
     {
-      "es": "Sonificación molecular — Traducción de la dinámica molecular del ADN en música, mapeando interacciones ADN–iones a notas de piano y violín, en colaboración con el compositor Nicolás Molla (más información en danslab.xyz/outreach/sonification)",
-      "en": "Sonification — Translating the molecular dynamics of DNA into music, mapping DNA–ion interactions to piano and violin notes, in collaboration with composer Nicolás Molla (more at danslab.xyz/outreach/sonification)",
+      "es": "ARN for Export: Muestra de arte y ciencia interdisciplinaria sobre ARN extracelular, en colaboración con escultores, artistas audiovisuales y biólogos. https://danslab.xyz/es/outreach/arn-for-export/",
+      "en": "",
       "kinds": [
         "arte"
       ]
@@ -611,5 +482,6 @@
   "note": {
     "es": "Contenido actualizado a partir del sitio propio del grupo, danslab.xyz (repositorio github.com/MMBAI-Lab/web-danslab). Las publicaciones mostradas corresponden a los últimos 3 años (2024–2026); el historial completo desde 2008 está disponible en el sitio propio.",
     "en": "Content updated from the group's own site, danslab.xyz (repository github.com/MMBAI-Lab/web-danslab). Publications shown cover the last 3 years (2024–2026); the full history since 2008 is available on the group's own site."
-  }
+  },
+  "image": "/images/groups/danslab.jpg"
 }

@@ -70,8 +70,12 @@
   },
   "lead": {
     "name": "Dr. José Manuel Venzal",
-    "title": "Profesor Agregado, Responsable del grupo (Gdo 4, 40 hs/sem, DT)",
-    "photo": "/images/people/jose-manuel-venzal.jpg"
+    "title": "Profesor Agregado (Gdo 4, 40 hs/sem, DT)",
+    "photo": "/images/people/jose-manuel-venzal.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy/cvsni/?urlId=f79a77d83939f34ff42c39f42b80b069f50e635f70f48393b69d566f6d49b562d8df4529b4ef8eb5abe1c5b09a1135e9860e6489e9239dff0f23a25f336bc106&formato=html&convocatoria=21",
+      "profile": "https://scholar.google.com/citations?user=_4a4ImoAAAAJ&hl=es"
+    }
   },
   "members": [
     {
@@ -88,9 +92,17 @@
       "title": "Estudiante de Maestría, Facultad de Veterinaria"
     },
     {
-      "name": "DCV Rodrigo Alvez",
-      "title": "Asistente (Gdo 2, 40 hs/sem)",
-      "photo": "/images/people/rodrigo-alvez.jpg"
+      "name": "DCV Rodrigo Alvez Decesari",
+      "title": "Asistente (Gdo 2, 35 hs/sem)",
+      "photo": "/images/people/rodrigo-alvez.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Salud Animal, Facultad de Veterinaria",
+        "advisors": "Dr. José M. Venzal, Dr. Pablo Parodi"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?2a5b9528940d9eafd337195471705191"
+      }
     }
   ],
   "publications": [
@@ -323,5 +335,6 @@
         "otras"
       ]
     }
-  ]
+  ],
+  "image": "/images/groups/vyet.jpg"
 }

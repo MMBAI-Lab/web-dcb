@@ -7,59 +7,88 @@
   "campus": "Salto",
   "email": "polo.biofisicoquimica@gmail.com",
   "summary": {
-    "es": "Integrado por el Laboratorio de Biomembranas y el Laboratorio de Radiobiología Médica y Ambiental. Estudia el transporte de sustancias a través de membranas biológicas y las respuestas biológicas al daño genómico inducido por agentes físicos y químicos.",
-    "en": "Comprises the Biomembranes Lab and the Medical and Environmental Radiobiology Lab. Studies the transport of substances across biological membranes and biological responses to genomic damage induced by physical and chemical agents."
+    "es": "Estudiamos in vitro cinética de reacciones nitro-oxidativas, y en cultivos celulares: transporte de aminoácidos catiónicos; toxicidad ambiental (UV, plaguicidas); daño y reparación del ADN; formación/composición de sinapsis neuronales; transición de epitelio a mesénquima en un modelo de cáncer colorrectal. En varios de estos modelos estudiamos roles de la poli-ADP-ribosilación.",
+    "en": ""
   },
   "researchLines": {
     "intro": {
-      "es": "El grupo de Biofisicoquímica, a cargo del Prof. Dr. R. Daniel Peluffo, está integrado por el Laboratorio de Biomembranas y el Laboratorio de Radiobiología Médica y Ambiental.",
-      "en": "The Biophysical Chemistry group, led by Prof. Dr. R. Daniel Peluffo, comprises the Biomembranes Lab and the Medical and Environmental Radiobiology Lab."
+      "es": "El Grupo de BIofisicoquímica comprende un laboratorio de Biomembranas y uno de Radiobiología. Se han ido entrelanzando temas que vinculan membranas biológicas, transportadores, daño oxidativo del ADN, y más recientemente la poli-ADP-ribosilación.",
+      "en": ""
     },
     "lines": [
       {
         "title": {
-          "es": "Transporte a través de biomembranas",
-          "en": "Transport across biomembranes"
+          "es": "Transporte de L-arginina y producción de especies reactivas de oxígeno y nitrógeno",
+          "en": ""
         },
         "body": {
-          "es": "En el Laboratorio de Biomembranas se estudian la cinética, termodinámica y modulación de los fenómenos de transporte (activo primario, activo secundario y pasivo) y permeación de sustancias a través de membranas biológicas, en particular: los mecanismos moleculares de los transportadores de aminoácidos catiónicos (CATs); el transporte de L-arginina y su regulación por especies reactivas de oxígeno y nitrógeno; el impacto de dicho transporte sobre el daño genómico; y el estudio cinético-termodinámico de ácidos nucleicos con especies reactivas del nitrógeno.",
-          "en": "The Biomembranes Lab studies the kinetics, thermodynamics, and modulation of transport phenomena (primary active, secondary active, and passive) and the permeation of substances across biological membranes — in particular: the molecular mechanisms of cationic amino acid transporters (CATs); L-arginine transport and its regulation by reactive oxygen and nitrogen species; the impact of that transport on genomic damage; and the kinetic-thermodynamic study of nucleic acids with reactive nitrogen species."
-        }
+          "es": "",
+          "en": ""
+        },
+        "institutions": [
+          "DCB",
+          "CEINBIO, Facultad de Medicina, Udelar"
+        ]
       },
       {
         "title": {
-          "es": "Radiobiología médica y ambiental",
-          "en": "Medical and environmental radiobiology"
+          "es": "Cinética y termodinámica de reacciones nitro-oxidativas",
+          "en": ""
         },
         "body": {
-          "es": "En el Laboratorio de Radiobiología Médica y Ambiental se estudian las respuestas biológicas al daño genómico endógeno e inducido por agentes físicos y químicos, incluyendo las respuestas producidas por productos naturales y el impacto de plaguicidas en la salud humana al norte del Río Negro.",
-          "en": "The Medical and Environmental Radiobiology Lab studies biological responses to genomic damage, both endogenous and induced by physical and chemical agents, including responses to natural products and the impact of pesticides on human health north of the Río Negro."
-        }
+          "es": "",
+          "en": ""
+        },
+        "institutions": [
+          "DCB",
+          "CEINBIO, Facultad de Medicina, Udelar",
+          "IQUIFIB, Facultad de Farmacia y BIoquímica, Universidad de Buenos Aires"
+        ]
       },
       {
         "title": {
-          "es": "Poli-ADP-ribosilación y daño genómico",
-          "en": "Poly-ADP-ribosylation and genomic damage"
+          "es": "Toxicidad ambiental (UV, plaguicidas, metales, etc)",
+          "en": ""
         },
         "body": {
-          "es": "Con la incorporación de la Dra. Laura Lafon-Hughes se está desarrollando una nueva línea que combina su experticia en poli-ADP-ribosilación con la experiencia del grupo en transporte de arginina, especies reactivas de oxígeno y nitrógeno, estrés oxidativo y daño genómico.",
-          "en": "With the incorporation of Dr. Laura Lafon-Hughes, the group is developing a new research line combining her expertise in poly-ADP-ribosylation with its own experience in arginine transport, reactive oxygen and nitrogen species, oxidative stress, and genomic damage."
-        }
+          "es": "",
+          "en": ""
+        },
+        "institutions": [
+          "DCB",
+          "Departamento de Aguas de CENUR LN",
+          "Ward College"
+        ]
+      },
+      {
+        "title": {
+          "es": "Poli-ADP-ribosilación nuclear y citoplásmica en salud y enfermedad",
+          "en": ""
+        },
+        "body": {
+          "es": "Transición de epitelio a mesénquima en un modelo de cáncer colorrectal; sinaptogénesis y neuritogénesis; daño y reparación del ADN.",
+          "en": ""
+        },
+        "institutions": [
+          "DCB",
+          "Hospital Regional de Salto (HRS)",
+          "IIBCE-MEC",
+          "Universidad de North Dakota (UND), Estados Unidos",
+          "INGEBI, Argentina",
+          "Facultad de Veterinaria, UdelaR"
+        ]
       }
     ]
   },
   "currentProjects": [
     {
-      "title": "Proyecto I+D CSIC: \"Sintasas de óxido nítrico, caveolinas y nitración vs. poli(ADP-ribosilación) de vinculina en cáncer de colon de pacientes del Hospital de Salto y en la línea celular Caco-2: posible rol en la transición de epitelio a mesénquima\" (Responsables: Dr. Peluffo y Dra. Lafon-Hughes)",
-      "role": "Responsable: Dr"
+      "title": "Proyecto I+D CSIC: \"Sintasas de óxido nítrico, caveolinas y nitración vs. poli(ADP-ribosilación) de vinculina en cáncer de colon de pacientes del Hospital de Salto y en la línea celular Caco-2: posible rol en la transición de epitelio a mesénquima\" (Responsables: Dr. Peluffo y Dra. Lafon-Hughes)"
     },
     {
-      "title": "Proyecto de Doctorado PEDECIBA: \"Nitración de purinas del ADN en distintos niveles de organización nucleotídica y su procesamiento por mecanismos no enzimáticos y/o enzimáticos\" (Responsable: Mag. Sánchez. Orientadores: Dr. Peluffo y Dra. Keszenman)",
-      "role": "Responsable: Mag"
+      "title": "Proyecto de Doctorado PEDECIBA: \"Nitración de purinas del ADN en distintos niveles de organización nucleotídica y su procesamiento por mecanismos no enzimáticos y/o enzimáticos\" (Responsable: Mag. Sánchez. Orientadores: Dr. Peluffo y Dra. Keszenman)"
     },
     {
-      "title": "Proyecto de Maestría PEDECIBA: \"Estudio de las respuestas celulares a la exposición combinada de radiación ultravioleta, glifosato y arsénico\" (Responsable: Q.F. Gabrielli. Orientadores: Dr. Peluffo y Dra. Keszenman)",
-      "role": "Responsable: Q"
+      "title": "Proyecto de Maestría PEDECIBA: \"Estudio de las respuestas celulares a la exposición combinada de radiación ultravioleta, glifosato y arsénico\" (Responsable: Q.F. Gabrielli. Orientadores: Dr. Peluffo y Dra. Keszenman)"
     },
     {
       "title": "Proyecto PAIE CSIC: \"Modulación de la sinaptogénesis in vitro por la actividad de Poli-ADP-ribosil-polimerasas (PARPs)\" (Estudiante referente: Emanuel Arce. Tutoras académicas: Dra. Lafon-Hughes y Dra. Zuluaga)"
@@ -79,12 +108,25 @@
     {
       "name": "Dra. María José Zuluaga",
       "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)",
-      "photo": "/images/people/maria-jose-zuluaga.jpg"
+      "photo": "/images/people/maria-jose-zuluaga.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?735d543febdade29fc83cec68d3edad9fd2f58461dc4a7b1504cd16fb3120b7b8189de94dfa8d9d2bae0f80d97a775bacb35ac4db6e87eb268c60e7b471b8db0",
+        "profile": "https://scholar.google.com/citations?user=rK6UOLAAAAAJ&hl=es&oi=ao"
+      }
     },
     {
-      "name": "MSc. Ana G. Sánchez",
-      "title": "Profesora Adjunta (Gdo 3, 40 hs/sem)",
-      "photo": "/images/people/ana-sanchez.jpg"
+      "name": "MSc. Ana Gabriela Sánchez Reolon",
+      "title": "Profesora Adjunta (Gdo 3, 48 hs/sem)",
+      "photo": "/images/people/ana-sanchez.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "PEDECIBA Biología, Facultad de Ciencias",
+        "advisors": "Dr. R. Daniel Peluffo, Dra. Deborah J. Keszenman"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?54650839e69bd218dff767f4988d2cb69d7466f5264111c35fc15de61a4a2611dd0413002ee60e7e208d45623fd0ae13bdc3e77e5a0910b40400ca881b595c22",
+        "profile": "https://scholar.google.com/citations?hl=es&user=NOipPlkAAAAJ&sortby=pubdate&view_op=list_works&gmla=AKCpqFwm5ppxWvsBmGU3df_gBQ0bTy4bCn2kZlWjPZ8VVl2HkU9wXZbjLgVJmpflyD5cmvmBXZKPBw5LX_dx7tWZChYi8qqPs3TA2m7B"
+      }
     },
     {
       "name": "Dra. Deborah Keszenman",
@@ -92,14 +134,23 @@
       "photo": "/images/people/deborah-keszenman.jpg"
     },
     {
-      "name": "Q.F. Adriana Gabrielli",
-      "title": "Asistente (Gdo 2, 40 hs/sem)",
-      "photo": "/images/people/adriana-gabrielli.jpg"
+      "name": "MSc. Q.F. Adriana Gabrielli",
+      "title": "Asistente",
+      "photo": "/images/people/adriana-gabrielli.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?0f85e48e3d7b644665676f59501be5e0",
+        "profile": "https://www.researchgate.net/profile/Adriana-Gabrielli-3"
+      }
     },
     {
       "name": "Prof. Pablo Alcoba",
-      "title": "Estudiante de la Lic. en Biología Humana",
-      "photo": "/images/people/pablo-alcoba.jpg"
+      "title": "Ayudante (Gdo 1, 24 hs/sem)",
+      "photo": "/images/people/pablo-alcoba.jpg",
+      "thesis": {
+        "level": "grado",
+        "program": "Licenciatura en Biología Humana, CENUR Litoral Norte",
+        "advisors": "Dr. R. Daniel Peluffo, Dra. María José Zuluaga"
+      }
     },
     {
       "name": "Dra. Valentina Seballos",
@@ -109,56 +160,40 @@
     {
       "name": "Lic. Macarena Menoni",
       "title": "Asistente (Gdo 2, 30 hs/sem)",
-      "photo": "/images/people/macarena-menoni.jpg"
+      "photo": "/images/people/macarena-menoni.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PEDECIBA Biología, Facultad de Ciencias",
+        "advisors": "Dr. R. Daniel Peluffo, Dra. Laura Lafon-Hughes"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?04c62fc9f5b8288bf59d69aeb74cf9ab",
+        "profile": "https://orcid.org/0009-0004-2890-9301"
+      }
     },
     {
       "name": "Lic. Natalia Ibargoyen",
-      "title": "Técnica en instrumental de laboratorio (R12, 30 hs/sem)",
-      "photo": "/images/people/natalia-ibargoyen.jpg"
+      "title": "Técnica en instrumentación de laboratorio (R12, 30 hs/sem, con extensión a 40 hs y dedicación compensada)",
+      "photo": "/images/people/natalia-ibargoyen.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?14e2596d3667f7f5dc505fe9dccf07ad"
+      }
     },
     {
-      "name": "Dra. Daniela Mejías",
-      "title": "Estudiante de Posgrado (Maestría en Ciencias Biológicas, Gdo 1, 20 hs/sem)",
-      "photo": "/images/people/daniela-mejias.jpg"
+      "name": "Dra. Daniela Mejías De Nobrega",
+      "title": "Ayudante (Gdo 1, 20 hs/sem)",
+      "photo": "/images/people/daniela-mejias.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PEDECIBA Biología, Facultad de Ciencias",
+        "advisors": "Dra. Laura Lafon-Hughes, Dr. Daniel Peluffo"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?d48d13f0be7946eb8096687603d74a30"
+      }
     }
   ],
   "publications": [
-    {
-      "doi": "10.1016/j.rbc.2024.100028",
-      "citation": "Sánchez AG, Keszenman DJ, Peluffo RD. Purine, nucleoside, and DNA nitration by peroxynitrite: mechanistic considerations. Redox Biochemistry and Chemistry. 2024;8:100028. https://doi.org/10.1016/j.rbc.2024.100028"
-    },
-    {
-      "doi": "10.3390/pathogens12060806",
-      "citation": "Lafon-Hughes L. Towards understanding long COVID: SARS-CoV-2 strikes the host cell nucleus. Pathogens. 2023;12(6):806. https://doi.org/10.3390/pathogens12060806"
-    },
-    {
-      "doi": "10.32604/biocell.2022.022713",
-      "citation": "Lafon-Hughes L. Poly(ADP-ribose), adherens junctions, vinculin and the actin cytoskeleton: current evidence, future perspectives and implications. BIOCELL. 2022;46(12):2531-5. https://doi.org/10.32604/biocell.2022.022713"
-    },
-    {
-      "doi": "10.1016/j.freeradbiomed.2022.10.317",
-      "citation": "Sánchez AG, Ibargoyen MN, Mastrogiovanni M, Radi R, Keszenman DJ, Peluffo RD. Fast and biphasic 8-nitroguanine production from guanine and peroxynitrite. Free Radical Biology & Medicine. 2022;193(Pt 1):474-84. https://doi.org/10.1016/j.freeradbiomed.2022.10.317"
-    },
-    {
-      "doi": "10.1667/RADE-21-00138.1",
-      "citation": "Bennett PV, Johnson AM, Ackerman SE, Chaudhary P, Keszenman DJ, Wilson PF. Dose-rate effects of protons and light ions for DNA damage induction, survival and transformation in apparently normal primary human fibroblasts. Radiation Research. 2022;197(3):298-313. https://doi.org/10.1667/RADE-21-00138.1"
-    },
-    {
-      "doi": "10.1007/s12551-021-00870-1",
-      "citation": "Peluffo RD. Cationic amino acid transporters and their modulation by nitric oxide in cardiac muscle cells. Biophysical Reviews. 2021;13:1071-9. https://doi.org/10.1007/s12551-021-00870-1"
-    },
-    {
-      "doi": "10.7717/peerj.11442",
-      "citation": "Vilchez Larrea S, Valsecchi WM, Fernández Villamil SH, Lafon-Hughes LI. First body of evidence suggesting a role of a tankyrase binding motif (TBM) of vinculin (VCL) in epithelial cells. PeerJ. 2021;9:e11442. https://doi.org/10.7717/peerj.11442"
-    },
-    {
-      "doi": "10.3389/fonc.2021.735940",
-      "citation": "Johnson AM, Bennett PV, Sanidad KZ, Hoang A, Jardine JH, Keszenman DJ, et al. Evaluation of histone deacetylase inhibitors as radiosensitizers for proton and light ion radiotherapy. Frontiers in Oncology. 2021;11:735940. https://doi.org/10.3389/fonc.2021.735940"
-    },
-    {
-      "doi": "10.1017/S0031182021001402",
-      "citation": "Lafon-Hughes L, Fernández Villamil S, Vilchez Larrea S. Tankyrase inhibitors hinder Trypanosoma cruzi infection by altering host-cell signalling pathways. Parasitology. 2021;148(13):1680-90. https://doi.org/10.1017/S0031182021001402"
-    },
     {
       "doi": "10.1021/acs.biochem.0c00729",
       "citation": "Zheng R, da Rosa G, Dans PD, Peluffo RD. Molecular determinants for nitric oxide regulation of the murine cationic amino acid transporter CAT-2A. Biochemistry. 2020;59(44):4225-37. https://doi.org/10.1021/acs.biochem.0c00729"
@@ -168,24 +203,36 @@
       "citation": "Perini V, Schacke M, Liddle P, Vilchez-Larrea S, Keszenman DJ, Lafon-Hughes L. PARP inhibitor olaparib causes no potentiation of the bleomycin effect in VERO cells, even in the presence of pooled ATM, DNA-PK, and LigIV inhibitors. International Journal of Molecular Sciences. 2020;21(21):8288. https://doi.org/10.3390/ijms21218288"
     },
     {
-      "citation": "Ferragut G, Sánchez AG, Lombardo P, Cedano J, Vignale B, Vázquez A, et al. Essential oil of Eugenia uniflora as a potential immunomodulatory in tumoral response. In: Frontiers in Immunology Mexico 2018. Frontiers Media SA; 2018. p. 264-7."
+      "doi": "10.7717/peerj.11442",
+      "citation": "Vilchez Larrea S, Valsecchi WM, Fernández Villamil SH, Lafon Hughes LI. First body of evidence suggesting a role of a tankyrase-binding motif (TBM) of vinculin (VCL) in epithelial cells. PeerJ. 2021;9:e11442. https://doi.org/10.7717/peerj.11442"
     },
     {
-      "citation": "Ferragut G, Huerta M, Severi MA, Keszenman DJ, Cedano J. Is the classic signaling pathway of IL-6 associated with the coordination of structure- and tissue-dependent regeneration in the intestine? In: Frontiers in Immunology Mexico 2018. Frontiers Media SA; 2018. p. 332-4."
+      "doi": "10.1016/j.freeradbiomed.2022.10.317",
+      "citation": "Sánchez AG, Ibargoyen MN, Mastrogiovanni M, Radi R, Keszenman DJ, Peluffo RD. Fast and biphasic 8-nitroguanine production from guanine and peroxynitrite. Free Radical Biology and Medicine. 2022;193:474-84. https://doi.org/10.1016/j.freeradbiomed.2022.10.317"
     },
     {
-      "citation": "Ferragut G, Keszenman DJ, Cedano J. Delimitation of colon cancer using modified Nidogen-1: development of an immuno-tool for tumor therapy. In: Frontiers in Immunology Mexico 2018. Frontiers Media SA; 2018. p. 1088-9."
+      "doi": "10.32604/biocell.2022.022713",
+      "citation": "LAFON-HUGHES L. Poly(ADP-ribose), adherens junctions, vinculin and the actin cytoskeleton: current evidence, future perspectives and implications. BIOCELL. 2022;46(12):2531-5. https://doi.org/10.32604/biocell.2022.022713"
     },
     {
-      "doi": "10.1152/ajpcell.00150.2016",
-      "citation": "Ramachandran J, Peluffo RD. Threshold levels of extracellular L-arginine that trigger NOS-mediated ROS/RNS production in cardiac ventricular myocytes. American Journal of Physiology - Cell Physiology. 2017;312(2):C144-54. https://doi.org/10.1152/ajpcell.00150.2016"
+      "doi": "10.1016/j.rbc.2024.100028",
+      "citation": "Sánchez AG, Keszenman DJ, Peluffo RD. Purine, nucleoside, and DNA nitration by peroxynitrite: mechanistic considerations. Redox Biochemistry and Chemistry. 2024;8:100028. https://doi.org/10.1016/j.rbc.2024.100028"
     },
     {
-      "doi": "10.1093/mutage/gev006",
-      "citation": "Keszenman DJ, Kolodiuk L, Baulch J. DNA damage in cells exhibiting radiation-induced genomic instability. Mutagenesis. 2015;30:451-8. https://doi.org/10.1093/mutage/gev006"
+      "doi": "10.1007/s12551-025-01275-0",
+      "citation": "Sánchez AG, Gabrielli A, Keszenman DJ. Impact of ecological UV radiation on the photochemistry of nuclear DNA. Biophysical Reviews. 2025;17(2):537-45. https://doi.org/10.1007/s12551-025-01275-0"
     },
     {
-      "citation": "Keszenman DJ, Germán P. Uruguay: traditional medicine usage of pitanga's leaves for medicinally valuable infusions is directing the search for potential chemotherapeutic agents against colon cancer. In: ABS is Genetic Resources for Sustainable Development. UNDP Global Environmental Finance Sustainable Development Cluster; 2018. p. 212-8."
+      "doi": "10.1007/s12551-025-01298-7",
+      "citation": "Menoni M, Alcoba P, Zuluaga MJ, Peluffo RD. Generation of cellular reactive oxygen and nitrogen species by exposure to ultraviolet radiation. Biophysical Reviews. 2025;17(2):547-60. https://doi.org/10.1007/s12551-025-01298-7"
+    },
+    {
+      "doi": "10.1007/s12551-025-01294-x",
+      "citation": "Mejías D, Seballos V, Lafon-Hughes L. Liquid‒liquid phase separation and poly(ADP‒ribosyl)ation in the context of ultraviolet radiation-induced stress in mammalian cells. Biophysical Reviews. 2025;17(2):499-510. https://doi.org/10.1007/s12551-025-01294-x"
+    },
+    {
+      "doi": "10.1016/j.mrgentox.2026.503921",
+      "citation": "Rojas E, Brito L, Da Silva J, Espinosa-Reyes G, Flores-Márquez AR, Franco D, et al. The Latin America comet (LA-COMET) group: a bibliometric study and quantitative analysis of the technical implementation of the alkaline comet assay. Mutation Research - Genetic Toxicology and Environmental Mutagenesis. 2026;910:503921. https://doi.org/10.1016/j.mrgentox.2026.503921"
     }
   ],
   "teaching": [
@@ -345,5 +392,6 @@
         "comunidad"
       ]
     }
-  ]
+  ],
+  "image": "/images/groups/bfq.jpg"
 }

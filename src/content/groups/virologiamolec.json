@@ -5,79 +5,149 @@
     "en": "Molecular Virology"
   },
   "campus": "Salto",
-  "email": null,
+  "email": "rodneycolina1@gmail.com",
   "summary": {
-    "es": "Estudia virus de salud humana (VPH, virus entéricos, SARS-CoV-2), animal (BVDV, BoHV, rotavirus) y ambiental, incluyendo el primer Laboratorio de Bioseguridad Nivel 3 de Uruguay para el aislamiento de variantes virales.",
-    "en": "Studies viruses relevant to human health (HPV, enteric viruses, SARS-CoV-2), animal health (BVDV, BoHV, rotavirus), and the environment, including operating Uruguay's first biosafety level 3 laboratory for isolating viral variants."
+    "es": "Junto a INIA, DILAVE-MGAP, el sector productivo ganadero y lechero del país, estudiamos patógenos virales que afectan la producción y reproducción bovina. A su vez junto con Instituto Osvaldo Cruz-RJ-Brasil, FCIEN-UdelaR, desarrollamos la subdisciplina \"Virología Ambiental\" con el fin de estudiar la epidemiología molecular y otros aspectos de distintos agentes virales que afectan la salud humana y animal.",
+    "en": ""
   },
   "researchLines": {
     "intro": {
-      "es": "El grupo de Virología Molecular, dirigido por el Prof. Titular Dr. Rodney Colina en la sede Salto, estudia virus de importancia para la salud humana, animal, vegetal y ambiental.",
-      "en": "The Molecular Virology group, led by Prof. Dr. Rodney Colina at the Salto campus, studies viruses of importance to human, animal, plant, and environmental health."
+      "es": "Estudiamos conjuntamente junto a INIA, DILAVE-MGAP y el sector productivo ganadero y lechero del país, patógenos virales que afectan la producción y reproducción bovina. En particular el objetivo principal es conocer en profundidad cuales, y cómo son los patógenos virales que generan pérdidas en el sector, con el fin de generar conocimiento básico fundamental para la generación de soluciones biotecnológicas que mitiguen o eliminen el problema. En el marco de Una Sola Salud, desarrollamos la herramienta denominada Virología Ambiental con el fin de identificar, cuantificar, calcular el riesgo, estudiar la epidemiología molecular de distintos agentes virales en distintas matrices ambientales, que afectan las distintas poblaciones.",
+      "en": ""
     },
     "lines": [
       {
         "title": {
-          "es": "Virus de importancia en salud humana",
-          "en": "Viruses of human health importance"
+          "es": "Virus bovinos del complejo diarreico neonatal",
+          "en": ""
         },
         "body": {
-          "es": "En salud humana se investiga el Virus del Papiloma Humano y los virus entéricos (Norovirus, Astrovirus y Rotavirus), la epidemiología y evolución de los enterovirus humanos, la variabilidad genética y evolución del virus de la Hepatitis C en Uruguay, y las virosis emergentes con impacto en la salud humana. Durante la pandemia de COVID-19 el grupo desarrolló ensayos de neutralización por reducción de placas (PRNT) para caracterizar anticuerpos neutralizantes de SARS-CoV-2 en pacientes que cursaron la enfermedad y en personas vacunadas, y aisló y tituló por Ensayo de Placas nuevos linajes y variantes (VOC Delta, Gamma, Ómicron) utilizados como virus de referencia en dichos ensayos, para lo cual cuenta con el primer Laboratorio de Bioseguridad Nivel 3 de Uruguay.",
-          "en": "In human health, the group investigates Human Papillomavirus and enteric viruses (Norovirus, Astrovirus, and Rotavirus), the epidemiology and evolution of human enteroviruses, the genetic variability and evolution of the Hepatitis C virus in Uruguay, and emerging viral diseases with an impact on human health. During the COVID-19 pandemic the group developed plaque reduction neutralization tests (PRNT) to characterize neutralizing antibodies against SARS-CoV-2 in both convalescent and vaccinated individuals, and isolated and titrated by plaque assay new SARS-CoV-2 lineages and variants of concern (Delta, Gamma, Omicron) used as reference viruses in those assays, work carried out using Uruguay's first biosafety level 3 laboratory."
-        }
+          "es": "Estudio de Norovirus, Rotavirus, Coronavirus y otros, en casos de diarrea en terneros.",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Virología, Depto Ciencias Biológicas, Cenur Litoral Norte-UdelaR",
+          "Instituto Nacional de Investigación Agropecuaria (INIA)",
+          "Dirección de Laboratorios Veterinarios del Ministerio de Ganadería Agricultura y Pesca (DILAVE-MGAP)",
+          "INTA Castelar-Buenos Aires-Argentina"
+        ]
       },
       {
         "title": {
-          "es": "Virus de importancia en salud animal",
-          "en": "Viruses of animal health importance"
+          "es": "Virus del complejo respiratorio bovino",
+          "en": ""
         },
         "body": {
-          "es": "En salud animal se estudian virus que afectan la reproducción bovina, como el Virus de la Diarrea Viral Bovina (BVDV) y el Herpesvirus Bovino (BoHV); la caracterización molecular y evolutiva de virus de ganado bovino que impactan en la producción de carne y leche en Uruguay; los virus relacionados al Síndrome de Diarrea Neonatal (DNT) en terneros; y la dispersión ambiental de virus con impacto en la salud animal en establecimientos ganaderos, incluyendo Viral Discovery mediante herramientas de metagenómica a partir de muestras ambientales y clínicas asociadas al ganado bovino.",
-          "en": "In animal health, the group studies viruses affecting bovine reproduction, such as Bovine Viral Diarrhea Virus (BVDV) and Bovine Herpesvirus (BoHV); the molecular and evolutionary characterization of cattle viruses that impact meat and milk production in Uruguay; viruses associated with Neonatal Diarrhea Syndrome in calves; and the environmental dispersion of viruses affecting animal health on Uruguayan livestock farms, including viral discovery through metagenomic tools applied to environmental and clinical samples from cattle."
-        }
+          "es": "Estudio de patógenos virales y bacterianos en infecciones respiratorias en tambos del Uruguay.",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Virología, Depto Ciencias Biológicas, Cenur Litoral Norte-UdelaR",
+          "Instituto Nacional de Investigación Agropecuaria (INIA)",
+          "Dirección de Laboratorios Veterinarios del Ministerio de Ganadería Agricultura y Pesca (DILAVE-MGAP)",
+          "INTA Castelar-Buenos Aires-Argentina"
+        ]
       },
       {
         "title": {
-          "es": "Virología ambiental",
-          "en": "Environmental virology"
+          "es": "Virus que afectan la reproducción bovina",
+          "en": ""
         },
         "body": {
-          "es": "En virología ambiental se trabaja en la detección de virus gastroentéricos en aguas ambientales y en la evolución de virus emergentes con impacto en la salud humana, animal y vegetal.",
-          "en": "In environmental virology, the group works on the detection of gastroenteric viruses in environmental waters and on the evolution of emerging viruses affecting human, animal, and plant health."
-        }
+          "es": "Estudio de la Diarrea Viral Bovina en casos de aborto en rodeos de carne y leche, con el fin de conocer la diversidad viral y desarrollar una vacuna.",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Virología, Depto Ciencias Biológicas, Cenur Litoral Norte-UdelaR",
+          "Instituto Nacional de Investigación Agropecuaria (INIA)",
+          "Dirección de Laboratorios Veterinarios del Ministerio de Ganadería Agricultura y Pesca (DILAVE-MGAP)",
+          "INTA Castelar-Buenos Aires-Argentina"
+        ]
+      },
+      {
+        "title": {
+          "es": "Estudio de virus gastroentéricos humanos en el ambiente",
+          "en": ""
+        },
+        "body": {
+          "es": "Estudio de Norovirus, Rotavirus, y Enterovirus humanos en casos de diarrea y enfermedad de manos pies y boca; así como en muestras ambientales.",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Virología, Depto Ciencias Biológicas, Cenur Litoral Norte-UdelaR",
+          "Instituto de Virología Dr. J. M. Vanella, Facultad de Ciencias Médicas, Universidad Nacional de Córdoba"
+        ]
+      },
+      {
+        "title": {
+          "es": "Estudio de cianófagos en floraciones algales",
+          "en": ""
+        },
+        "body": {
+          "es": "Detección y aislamiento de cianófagos, con potencial de biorremediación en floraciones algales en el lago de Salto Grande en el Río Uruguay.",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Virología, Depto Ciencias Biológicas, Cenur Litoral Norte-UdelaR",
+          "Facultad de Ciencias-UdelaR"
+        ]
       }
     ]
   },
   "lead": {
     "name": "Dr. Rodney Colina",
-    "title": "Responsable del grupo (Gdo 5, 40 hs/sem, DT)",
-    "photo": "/images/people/rodney-colina.jpg"
+    "title": "Profesor Titular (Gdo 5, 40 hs/sem, DT)",
+    "photo": "/images/people/rodney-colina.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy/CvEstatico/?urlId=23348ec00855df77450f26a2271fbfe2c13c92b18f1c984d7f498ada4cad1892a18187876e4adc9d959f42af1459c83da8842a74b7dddb1e47cbbba2a994c2f9&formato=pdf&convocatoria=21",
+      "profile": "https://orcid.org/0000-0003-3731-5383"
+    }
   },
   "members": [
     {
       "name": "Dr. Matías Victoria",
       "title": "Profesor Agregado (Gdo 4, 40 hs/sem, DT)",
-      "photo": "/images/people/matias-victoria.jpg"
+      "photo": "/images/people/matias-victoria.jpg",
+      "links": {
+        "cvuy": "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://exportcvuy.anii.org.uy/CvEstatico/?urlId=9712d94c6dcfcd702192f41c8d844d1c74bfa9e2f8a1dc5e5d9ec6a7ff2783fba29a7209b6fdaf01fdb49d6b8aa5d8dd495dd5b8a10109b5833b0e8470c2a6da&formato=pdf&convocatoria=21",
+        "profile": "https://orcid.org/0000-0001-6101-6936"
+      }
     },
     {
-      "name": "Dr. Fernando López",
+      "name": "Dr. Fernando López Tort",
       "title": "Profesor Adjunto (Gdo 3, 40 hs/sem, DT)",
-      "photo": "/images/people/fernando-lopez.jpg"
+      "photo": "/images/people/fernando-lopez.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?57ae82ad356b788e08fcc41d5d80763e41ddc8dc275f124026b81fbf3cf453392378480022cf7a641b138dbf7e31b6b6c6008be74a4872d5dd8a760466b51ffd",
+        "profile": "https://orcid.org/0000-0001-9252-5135"
+      }
     },
     {
-      "name": "Dra. Leticia Maya",
+      "name": "Dra. Leticia Maya Soto",
       "title": "Asistente (Gdo 2, 40 hs/sem, DT)",
-      "photo": "/images/people/leticia-maya.jpg"
+      "photo": "/images/people/leticia-maya.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?7327a17fedc7235e355125038e833b0b2e365cd9b9060ba9a9ffe9af96ac75fb70cb63b6283c69e52488e654992f066888c663def6181dc0b13296baf2d4e272",
+        "profile": "https://orcid.org/0000-0002-9015-629X"
+      }
     },
     {
       "name": "Dr. Matías Castells",
-      "title": "Asistente (Gdo 2, 40 hs/sem)",
-      "photo": "/images/people/matias-castells.jpg"
+      "title": "Asistente (Gdo 2, 40 hs/sem, DT)",
+      "photo": "/images/people/matias-castells.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cvsni/?urlId=8da0bc47129cba1fb7ac8a0f0ac8552e4f45050f532a3db2b0c78a4bebffe3b93e3f7ba00f7a9eeac9f048ef0e619c283ce8f210fa0027584aa273ef425f315f&formato=html&convocatoria=21",
+        "profile": "https://orcid.org/0000-0001-7533-218X , https://www.scopus.com/authid/detail.uri?authorId=35228674100"
+      }
     },
     {
       "name": "Dr. Andrés Lizasoain",
-      "title": "Ayudante (Gdo 1, 30 hs/sem)",
-      "photo": "/images/people/andres-lizasoain.jpg"
+      "title": "Asistente (Gdo 2, 30 hs/sem, DT)",
+      "photo": "/images/people/andres-lizasoain.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/CvEstatico/?urlId=1d4168494d265629b56c4109cb5db30f0585f285038575f5b67c29bc278ad6603cf7445ef2633eafa02229490e6675fa2f48bacb2fabaf4a7c61a6b1261f65e4&formato=pdf&convocatoria=21",
+        "profile": "https://www.scopus.com/authid/detail.uri?authorId=56178413600"
+      }
     },
     {
       "name": "MSc. Viviana Bortagaray",
@@ -85,327 +155,144 @@
       "photo": "/images/people/viviana-bortagaray.jpg"
     },
     {
-      "name": "Ing. Elec. Marcos Grilli",
-      "title": "Ingeniero en electrónica (R12, 40 hs/sem)"
+      "name": "Ing. Tec. Marcos Grilli",
+      "title": "Ingeniero en Electrónica (R16, 40 hs/sem)",
+      "photo": "/images/people/marcos-grilli.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?7b42696b7391dc450cc403784d24e7c5"
+      }
     }
   ],
   "collaborators": [
     {
-      "name": "Dirección de Laboratorios Veterinarios, Ministerio de Ganadería, Agricultura y Pesca",
-      "institution": "sedes Paysandú, Treinta y Tres y Montevideo"
+      "name": "Dra. Marize Miagostovich Dr. Tulio Fumian",
+      "institution": "Instituto Oswaldo Cruz-Rio de Janerio-Brasil",
+      "country": "Brasil",
+      "topic": "Virología Ambiental"
     },
     {
-      "name": "Instituto Nacional de Investigaciones Agropecuarias",
-      "institution": "Estación La Estanzuela y Estación Salto Grande"
+      "name": "Dra. Silvia Nates",
+      "institution": "Universidad de Córdoba",
+      "country": "Argentina",
+      "topic": "Enterovirus"
     },
     {
-      "name": "Facultad de Veterinaria, Universidad de la República",
-      "institution": ""
+      "name": "Dr. Alejo Menchaca Dra. María Barrandeguy",
+      "institution": "INIA",
+      "country": "Uruguay",
+      "topic": "Salud Animal"
     },
     {
-      "name": "Facultad de Ciencias, Universidad de la República",
-      "institution": ""
+      "name": "Mag. Analía Burgeño",
+      "institution": "MSP",
+      "country": "Uruguay",
+      "topic": "Dengue"
     },
     {
-      "name": "Facultad de Química, Universidad de la República",
-      "institution": ""
+      "name": "Mag. Noelia Morel",
+      "institution": "MSP",
+      "country": "Uruguay",
+      "topic": "Hantavirus"
     },
     {
-      "name": "Instituto Pasteur de Montevideo",
-      "institution": ""
+      "name": "Dra. Carolina Matto",
+      "institution": "DILAVE-MGAP",
+      "country": "Uruguay",
+      "topic": "Salud animal"
     },
     {
-      "name": "Instituto de Investigaciones Biológicas Clemente Estable, Ministerio de Educación y Cultura",
-      "institution": ""
+      "name": "Dr Luis Aubriot",
+      "institution": "FCIEN-UdelaR",
+      "country": "Uruguay",
+      "topic": "Cianófagos"
     },
     {
-      "name": "Asociación Española",
-      "institution": ""
-    },
-    {
-      "name": "Corporación Médica de Paysandú",
-      "institution": "COMEPA"
-    },
-    {
-      "name": "Cátedra de Pediatría, Facultad de Medicina, Hospital Escuela del Litoral, Administración de Servicios de Salud del Estado",
-      "institution": ""
-    },
-    {
-      "name": "Direcciones Departamentales de Salud de Paysandú y Salto, Ministerio de Salud Pública",
-      "institution": ""
-    },
-    {
-      "name": "Gerencia de Gestión Ambiental, Obras Sanitarias del Estado",
-      "institution": ""
-    },
-    {
-      "name": "Centros para el Control y Prevención de Enfermedades (CDC), Atlanta, Estados Unidos",
-      "institution": ""
-    },
-    {
-      "name": "Universidad de California, Estados Unidos",
-      "institution": ""
-    },
-    {
-      "name": "Instituto de Virología J.M. Vanella, Facultad de Ciencias Médicas, Universidad Nacional de Córdoba, Argentina",
-      "institution": ""
-    },
-    {
-      "name": "Cátedra de Virología, Facultad de Farmacia y Bioquímica, Universidad de Buenos Aires, Argentina",
-      "institution": ""
-    },
-    {
-      "name": "Administración Nacional de Laboratorios e Institutos de Salud \"Dr. Carlos Malbrán\", Ministerio de Salud de la Nación, Argentina",
-      "institution": ""
-    },
-    {
-      "name": "Instituto Nacional de Tecnología Agropecuaria (INTA Castelar, INTA Cerro Azul), Argentina",
-      "institution": ""
-    },
-    {
-      "name": "Laboratorio de Enterovirus, Instituto Oswaldo Cruz, Fundación Oswaldo Cruz, Ministerio de Salud, Brasil",
-      "institution": ""
-    },
-    {
-      "name": "Laboratorio de Virología Comparada y Ambiental, Instituto Oswaldo Cruz, Fundación Oswaldo Cruz, Ministerio de Salud, Brasil",
-      "institution": ""
-    },
-    {
-      "name": "Laboratorio de Virus Respiratorios, Exantemáticos, Enterovirus y Emergencias Virales, Instituto Oswaldo Cruz, Fundación Oswaldo Cruz, Ministerio de Salud, Brasil",
-      "institution": ""
+      "name": "Dra. Viviana Parreño",
+      "institution": "INTA Castelar",
+      "country": "Argentina",
+      "topic": "Salud animal"
     }
   ],
   "publications": [
     {
+      "doi": "10.3390/v17101374",
+      "citation": "Maya L, Castells M, Silveira C, Giannitti F, Merchioratto I, Barrandeguy M, et al. Epidemiology and evolution of bovine viral diarrhea virus (BVDV) in Uruguay: a 10-year study. Viruses. 2025;17(10):1374. https://doi.org/10.3390/v17101374"
+    },
+    {
       "doi": "10.1007/s12560-025-09642-6",
-      "citation": "Fernandez-Sabatella C, Corrales G, Monzon L, Andrade E, Sica N, Cardozo E, et al. Wastewater-based epidemiology for analysis of Human Papillomavirus infections in a Uruguayan urban area. Food Environ Virol. 2025;17:27. https://doi.org/10.1007/s12560-025-09642-6"
-    },
-    {
-      "doi": "10.1038/s41598-023-33443-1",
-      "citation": "Naveca FG, Nascimento VA, Nascimento F, Ogrzewalska M, Pauvolid-Corrêa A, Araújo MF, et al. SARS-CoV-2 intra-host diversity, antibody response, and disease severity after reinfection by the variant of concern Gamma in Brazil. Sci Rep. 2023;13(1):7306. https://doi.org/10.1038/s41598-023-33443-1"
-    },
-    {
-      "doi": "10.1038/s41598-023-34035-9",
-      "citation": "Espíndola OM, Fuller TL, de Araújo MF, Tort LFL, Guaraldo L, Calvet G, et al. Reduced ability to neutralize the Omicron variant among adults after infection and complete vaccination with BNT162b2, ChAdOx1, or CoronaVac and heterologous boosting. Sci Rep. 2023;13(1):7437. https://doi.org/10.1038/s41598-023-34035-9"
-    },
-    {
-      "doi": "10.3390/v15051152",
-      "citation": "Ribeiro IP, Nascimento LGD, Tort LFL, Pereira EC, Menezes LSR, Malta FC, et al. Infectious SARS-CoV-2 particles from rectal swab samples from COVID-19 patients in Brazil. Viruses. 2023;15(5):1152. https://doi.org/10.3390/v15051152"
-    },
-    {
-      "doi": "10.1016/j.ijfoodmicro.2022.109553",
-      "citation": "Mozgovoj M, Miño S, Barbieri ES, Tort FL, Victoria-Montero M, Frydman C, et al. GII.4 human norovirus and G8P[1] bovine-like rotavirus in oysters (Crassostrea gigas) from Argentina. Int J Food Microbiol. 2022;365:109553. https://doi.org/10.1016/j.ijfoodmicro.2022.109553"
+      "citation": "Fernandez-Sabatella C, Corrales G, Monzon L, Andrade E, Sica N, Cardozo E, et al. Wastewater-based epidemiology for analysis of human papillomavirus infections in a Uruguayan urban area. Food and Environmental Virology. 2025;17(2). https://doi.org/10.1007/s12560-025-09642-6"
     },
     {
       "doi": "10.1590/0074-02760210166",
-      "citation": "Tort LFL, Ribeiro IP, Menezes LSR, Dos Santos AAC, Santos MP, Damasceno L, et al. SARS-CoV-2 variant N.9 identified in Rio de Janeiro, Brazil. Mem Inst Oswaldo Cruz. 2021;116:e210166. https://doi.org/10.1590/0074-02760210166"
+      "citation": "Tort LFL, Ribeiro IP, Menezes LSR, dos Santos AAC, Santos MP, Damasceno L, et al. SARS-CoV-2 variant N.9 identified in rio de janeiro, Brazil. Memórias do Instituto Oswaldo Cruz. 2021;116. https://doi.org/10.1590/0074-02760210166"
     },
     {
-      "doi": "10.1016/j.jviromet.2020.114035",
-      "citation": "Pereira-Gómez M, Fajardo Á, Echeverría N, López-Tort F, Perbolianachis P, Costábile A, et al. Evaluation of SYBR Green real time PCR for detecting SARS-CoV-2 from clinical samples. J Virol Methods. 2021;289:114035. https://doi.org/10.1016/j.jviromet.2020.114035"
+      "doi": "10.1002/jmv.24123",
+      "citation": "Tort LFL, Victoria M, Lizasoain A A, Castells M, Maya L, Gómez MM, et al. Molecular epidemiology of group a rotavirus among children admitted to hospital in salto, Uruguay, 2011-2012: first detection of the emerging genotype G12. Journal of Medical Virology. 2015;87(5):754-63. https://doi.org/10.1002/jmv.24123"
     },
     {
-      "doi": "10.3390/v13091801",
-      "citation": "Rego N, Salazar C, Paz M, Costábile A, Fajardo A, Ferrés I, et al. Emergence and spread of a B.1.1.28-derived P.6 lineage with Q675H and Q677H spike mutations in Uruguay. Viruses. 2021;13(9):1801. https://doi.org/10.3390/v13091801"
+      "doi": "10.3389/fmicb.2019.01240",
+      "citation": "Giannitti F, Caffarena RD, Pesavento P, Uzal FA, Maya L, Fraga M, et al. The first case of bovine astrovirus-associated encephalitis in the southern hemisphere (Uruguay), uncovers evidence of viral introduction to the Americas from Europe. Frontiers in Microbiology. 2019;10. https://doi.org/10.3389/fmicb.2019.01240"
     },
     {
-      "doi": "10.3201/eid2711.211198",
-      "citation": "Rego N, Costábile A, Paz M, Salazar C, Perbolianachis P, Spangenberg L, et al. Real-time genomic surveillance for SARS-CoV-2 variants of concern, Uruguay. Emerg Infect Dis. 2021;27(11):2957-60. https://doi.org/10.3201/eid2711.211198"
-    },
-    {
-      "doi": "10.3389/fmicb.2021.653986",
-      "citation": "Mir D, Rego N, Resende PC, Tort F, Fernández-Calero T, Noya V, et al. Recurrent dissemination of SARS-CoV-2 through the Uruguayan-Brazilian border. Front Microbiol. 2021;12:653986. https://doi.org/10.3389/fmicb.2021.653986"
-    },
-    {
-      "doi": "10.3390/v15030708",
-      "citation": "Bok M, Vega CG, Castells M, Colina R, Wigdorovitz A, Parreño V. Development of an IgY-based treatment to control bovine coronavirus diarrhea in dairy calves. Viruses. 2023;15(3):708. https://doi.org/10.3390/v15030708"
-    },
-    {
-      "doi": "10.3390/v14092042",
-      "citation": "Giannitti F, da Silva Silveira C, Bullock H, Berón M, Fernández-Ciganda S, Benítez-Galeano MJ, et al. Bovine Polyomavirus-1 (Epsilonpolyomavirus bovis): an emerging fetal pathogen of cattle that causes renal lesions resembling polyomavirus-associated nephropathy of humans. Viruses. 2022;14(9):2042. https://doi.org/10.3390/v14092042"
-    },
-    {
-      "doi": "10.3389/fvets.2022.952197",
-      "citation": "Caffarena RD, Castells M, Schild CO, Casaux ML, Armendano JI, Colina R, et al. Determination of an RT-qPCR viral load cutoff point for the etiologic diagnosis of rotavirus A diarrhea in neonate dairy calves. Front Vet Sci. 2022;9:952197. https://doi.org/10.3389/fvets.2022.952197"
-    },
-    {
-      "doi": "10.1016/j.ram.2021.01.006",
-      "citation": "Doncel Díaz B, Castells M, Maya L, Fraga M, Uzal FA, Colina R, et al. Neurotropic bovine astrovirus-associated encephalitis: an underdiagnosed disease in South America? Rev Argent Microbiol. 2022;54(2):100-5. https://doi.org/10.1016/j.ram.2021.01.006"
-    },
-    {
-      "doi": "10.1111/tbed.14168",
-      "citation": "Castells M, Cristina J, Colina R. Evolutionary history and spatiotemporal dynamic of GIII norovirus: from emergence to classification in four genotypes. Transbound Emerg Dis. 2022;69(4):1872-9. https://doi.org/10.1111/tbed.14168"
-    },
-    {
-      "doi": "10.3389/fvets.2022.904786",
-      "citation": "Dorsch MA, Francia ME, Tana LR, González FC, Cabrera A, Calleros L, et al. Diagnostic investigation of 100 cases of abortion in sheep in Uruguay: 2015-2021. Front Vet Sci. 2022;9:904786. https://doi.org/10.3389/fvets.2022.904786"
-    },
-    {
-      "doi": "10.1007/s42770-021-00440-3",
-      "citation": "Caffarena RD, Casaux ML, Schild CO, Fraga M, Castells M, Colina R, et al. Causes of neonatal calf diarrhea and mortality in pasture-based dairy herds in Uruguay: a farm-matched case-control study. Braz J Microbiol. 2021;52(2):977-88. https://doi.org/10.1007/s42770-021-00440-3"
-    },
-    {
-      "doi": "10.1007/s00705-023-05749-y",
-      "citation": "Rubio L, Arruabarrena A, Salvo M, Castells M, Bertalmío A, Hernández-Rodríguez L, et al. Biological and molecular characterization of a resistance-breaking isolate of citrus tristeza virus from Uruguay and its effects on Poncirus trifoliata growth performance. Arch Virol. 2023;168(4):123. https://doi.org/10.1007/s00705-023-05749-y"
-    },
-    {
-      "doi": "10.2166/wh.2022.330",
-      "citation": "Victoria M, Moller A, Salvo M, Baccardatz N, Colina R. High abundance of high-risk Human Papillomavirus genotypes in wastewater in Uruguay. J Water Health. 2022;20(12):1748-54. https://doi.org/10.2166/wh.2022.330"
-    },
-    {
-      "doi": "10.1007/s12560-022-09537-w",
-      "citation": "Salvo M, Azambuya J, Baccardatz N, Moriondo A, Blanco R, Martinez M, et al. One-year surveillance of SARS-CoV-2 and rotavirus in water matrices from a hot spring area. Food Environ Virol. 2022;14(4):401-9. https://doi.org/10.1007/s12560-022-09537-w"
+      "doi": "10.1007/s00705-019-04384-w",
+      "citation": "Castells M, Giannitti F, Caffarena RD, Casaux ML, Schild C, Castells D, et al. Bovine coronavirus in Uruguay: genetic diversity, risk factors and transboundary introductions from neighboring countries. Archives of Virology. 2019;164(11):2715-24. https://doi.org/10.1007/s00705-019-04384-w"
     },
     {
       "doi": "10.1371/journal.pone.0255846",
-      "citation": "Lizasoain A, Mir D, Salvo M, Bortagaray V, Masachessi G, Farías A, et al. First evidence of enterovirus A71 and echovirus 30 in Uruguay and genetic relationship with strains circulating in the South American region. PLoS One. 2021;16(8):e0255846. https://doi.org/10.1371/journal.pone.0255846"
+      "citation": "Lizasoain A, Mir D, Salvo M, Bortagaray V, Masachessi G, Farías A, et al. First evidence of enterovirus A71 and echovirus 30 in Uruguay and genetic relationship with strains circulating in the south American region. PLOS ONE. 2021;16(8):e0255846. https://doi.org/10.1371/journal.pone.0255846"
     },
     {
-      "doi": "10.1016/j.jviromet.2021.114249",
-      "citation": "Salvo M, Moller A, Alvareda E, Gamazo P, Colina R, Victoria M. Evaluation of low-cost viral concentration methods in wastewaters: implications for SARS-CoV-2 pandemic surveillances. J Virol Methods. 2021;297:114249. https://doi.org/10.1016/j.jviromet.2021.114249"
+      "doi": "10.3390/v16111752",
+      "citation": "Lizasoain A, Martínez N, de Mora C, Rodríguez E, Ledezma N, Colina R. Identification of the emerging C1-like lineage of enterovirus A71 in two Uruguayan children with hand-foot-and-mouth disease and neurological complications. Viruses. 2024;16(11):1752. https://doi.org/10.3390/v16111752"
     },
     {
-      "doi": "10.1007/s12560-021-09468-y",
-      "citation": "Lizasoain A, Mir D, Victoria M, Barrios ME, Blanco-Fernández MD, Rodríguez-Osorio N, et al. Human enterovirus diversity by next-generation sequencing analysis in urban sewage samples from Buenos Aires metropolitan area, Argentina: a retrospective study. Food Environ Virol. 2021;13(2):259-69. https://doi.org/10.1007/s12560-021-09468-y"
+      "doi": "10.1007/s12560-014-9143-7",
+      "citation": "Victoria M, Tort LFL, García M, Lizasoain A, Maya L, Leite JPG, et al. Assessment of gastroenteric viruses from wastewater directly discharged into Uruguay river, Uruguay. Food and Environmental Virology. 2014;6(2):116-24. https://doi.org/10.1007/s12560-014-9143-7"
     },
     {
-      "doi": "10.3390/v13010120",
-      "citation": "Lizasoain A, Mir D, Masachessi G, Farías A, Rodríguez-Osorio N, Victoria M, et al. Environmental surveillance through next-generation sequencing to unveil the diversity of human enteroviruses beyond the reported clinical cases. Viruses. 2021;13(1):120. https://doi.org/10.3390/v13010120"
-    },
-    {
-      "doi": "10.1016/j.scitotenv.2020.143400",
-      "citation": "Masachessi G, Prez VE, Michelena JF, Lizasoain A, Ferreyra LJ, Martínez LC, et al. Proposal of a pathway for enteric virus groups detection as indicators of faecal contamination to enhance the evaluation of microbiological quality in freshwater in Argentina. Sci Total Environ. 2021;760:143400. https://doi.org/10.1016/j.scitotenv.2020.143400"
+      "doi": "10.1007/s00705-026-06748-5",
+      "citation": "Castells M, Benítez-Galeano MJ, Maya L, Casaux ML, Slimovich L, Saravia A, et al. Shotgun metagenomic sequencing and genetic characterization of four enteric viruses in a dairy farm suffering a diarrhea outbreak of undetermined cause in adult cattle. Archives of Virology. 2026;171(10). https://doi.org/10.1007/s00705-026-06748-5"
     }
   ],
   "teaching": [
     {
-      "es": "Biología Celular y Molecular (2018-actualidad). Ciclo Biología Bioquímica (CBB) y Ciclo Inicial Científico Tecnológico (CIO-CT), DCB. Curso a cargo del personal docente del Laboratorio de Virología Molecular, con clases teóricas y prácticas. Responsables: Dr. Rodney Colina y Dr. Matías Victoria",
-      "en": "Cell and Molecular Biology (2018-present). Biology-Biochemistry track (CBB) and Initial Scientific-Technological Cycle (CIO-CT), DCB. Course run by the Molecular Virology Laboratory's teaching staff, with lectures and practicals. Course leaders: Dr. Rodney Colina and Dr. Matías Victoria",
+      "es": "Biología Celular. Ciclo Biología-Bioquímica (anual)",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Introducción a las Ciencias Biológicas I (2011-actualidad). Clases teóricas y moderación de grupos de discusión. Coordinación en 2014: Dra. Leticia Maya",
-      "en": "Introduction to Biological Sciences I (2011-present). Lectures and moderation of discussion groups. Coordinated in 2014 by Dr. Leticia Maya",
+      "es": "Microbiología. Facultad de Veterinaria (anual)",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Introducción a las Ciencias Biológicas II (2012-actualidad). Clases teóricas y seminarios teórico-prácticos de investigación. Coordinación desde 2019: Dra. Leticia Maya",
-      "en": "Introduction to Biological Sciences II (2012-present). Lectures and research theory-practice seminars. Coordinated since 2019 by Dr. Leticia Maya",
+      "es": "Microbiología. EUTM (anual)",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "Bioquímica. Ingeniero Agrónomo, Facultad de Agronomía, CENUR Litoral Norte (docentes del laboratorio como invitados)",
-      "en": "Biochemistry. Agricultural Engineering program, Faculty of Agronomy, CENUR Litoral Norte (guest lecturers from the laboratory)",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Microbiología. Doctor en Medicina Veterinaria, Facultad de Veterinaria, CENUR Litoral Norte (docentes del laboratorio como invitados)",
-      "en": "Microbiology. Doctor of Veterinary Medicine program, Faculty of Veterinary Sciences, CENUR Litoral Norte (guest lecturers from the laboratory)",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Microbiología. Licenciatura en Laboratorio Clínico, Escuela Universitaria de Tecnología Médica, Facultad de Medicina, CENUR Litoral Norte (docentes del laboratorio como invitados)",
-      "en": "Microbiology. Clinical Laboratory degree, University School of Medical Technology, Faculty of Medicine, CENUR Litoral Norte (guest lecturers from the laboratory)",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Virología Molecular. Licenciatura en Ciencias Biológicas / Licenciatura en Bioquímica, Facultad de Ciencias (docentes del laboratorio como invitados)",
-      "en": "Molecular Virology. Biological Sciences / Biochemistry degrees, Faculty of Sciences (guest lecturers from the laboratory)",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Bases Biomoleculares II. Ciclo Inicial en Salud, Facultad de Medicina, CENUR Litoral Norte (docentes del laboratorio como invitados)",
-      "en": "Biomolecular Foundations II. Initial Health Cycle, Faculty of Medicine, CENUR Litoral Norte (guest lecturers from the laboratory)",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Virus de Interés para la Salud Humana, Animal y Vegetal. Curso PEDECIBA (2016, 2017 y desde 2018 con frecuencia cada dos años). Responsables: Dr. Matías Victoria y Dr. Rodney Colina (posgrado)",
-      "en": "Viruses of Interest to Human, Animal, and Plant Health. PEDECIBA course (2016, 2017, and every two years from 2018 on). Course leaders: Dr. Matías Victoria and Dr. Rodney Colina (graduate)",
+      "es": "PEDECIBA Curso de Bioseguridad y virología (cada dos años).",
+      "en": "",
       "levels": [
         "posgrado"
       ]
     },
     {
-      "es": "Biología Molecular de enfermedades virales. Programa de Desarrollo de las Ciencias Básicas, 2010 (posgrado, docentes del laboratorio como invitados)",
-      "en": "Molecular Biology of Viral Diseases. Basic Sciences Development Program, 2010 (graduate, guest lecturers from the laboratory)",
+      "es": "Pasantías anuales 4to año CERP Litoral en el laboratorio de Virología.",
+      "en": "",
       "levels": [
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Dinámica de las gastroenteritis de etiología viral. Posgraduación en Biología Molecular y Celular, Instituto Oswaldo Cruz, FIOCRUZ, Rio de Janeiro, Brasil, 2013 (posgrado, docentes del laboratorio como invitados)",
-      "en": "Dynamics of Viral Gastroenteritis. Graduate Program in Molecular and Cell Biology, Oswaldo Cruz Institute, FIOCRUZ, Rio de Janeiro, Brazil, 2013 (graduate, guest lecturers from the laboratory)",
-      "levels": [
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Curso básico de filogenia y evolución de agentes virales. Programa de Desarrollo de las Ciencias Básicas, CENUR Litoral Norte, 2014 (posgrado, docentes del laboratorio como invitados)",
-      "en": "Basic Course on Phylogeny and Evolution of Viral Agents. Basic Sciences Development Program, CENUR Litoral Norte, 2014 (graduate, guest lecturers from the laboratory)",
-      "levels": [
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Diarrea neonatal en terneros: abordajes diagnósticos. Programa de Desarrollo de las Ciencias Básicas, Instituto Nacional de Investigación Agropecuaria, La Estanzuela (2019-actualidad) (posgrado, docentes del laboratorio como invitados)",
-      "en": "Neonatal Diarrhea in Calves: Diagnostic Approaches. Basic Sciences Development Program, National Institute for Agricultural Research, La Estanzuela (2019-present) (graduate, guest lecturers from the laboratory)",
-      "levels": [
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Virus en foco: Biología viral en el contexto animal, humano y ambiental. Programa de Desarrollo de las Ciencias Básicas, Facultad de Veterinaria, 2021 (posgrado, docentes del laboratorio como invitados)",
-      "en": "Viruses in Focus: Viral Biology in Animal, Human, and Environmental Contexts. Basic Sciences Development Program, Faculty of Veterinary Sciences, 2021 (graduate, guest lecturers from the laboratory)",
-      "levels": [
-        "posgrado"
+        "otras"
       ]
     }
   ],
   "outreach": [
-    {
-      "es": "Tutorías de pasantía de investigación de estudiantes de cuarto año de profesorado del CERP, especialidad Ciencias Biológicas",
-      "en": "Research internship mentoring for fourth-year Biological Sciences teacher-training students from CERP",
-      "kinds": [
-        "educativo"
-      ]
-    },
-    {
-      "es": "Programa Acortando Distancias: becas de PEDECIBA para que docentes de enseñanza media realicen pasantías en centros de investigación científica y tecnológica; el laboratorio recibió alumnos durante 2014-2015",
-      "en": "\"Acortando Distancias\" program: PEDECIBA scholarships for secondary-school teachers to intern at scientific and technological research centers; the laboratory hosted students during 2014-2015",
-      "kinds": [
-        "educativo"
-      ]
-    },
-    {
-      "es": "Charlas a diferentes públicos en el marco de la Semana de la Ciencia y Tecnología",
-      "en": "Talks for varied audiences as part of Science and Technology Week",
-      "kinds": [
-        "eventos"
-      ]
-    },
-    {
-      "es": "Charlas y talleres en centros educativos sobre temas de virología",
-      "en": "Talks and workshops on virology topics at schools",
-      "kinds": [
-        "educativo"
-      ]
-    },
     {
       "es": "Exposiciones en seminarios y jornadas técnicas dirigidas a público especializado en temas productivos y de salud animal",
       "en": "Presentations at seminars and technical conferences for audiences specialized in production and animal-health topics",
@@ -414,60 +301,57 @@
       ]
     },
     {
-      "es": "Evaluación de trabajos en Ferias de Clubes de Ciencia del Ministerio de Educación y Cultura y la Administración Nacional de Educación Pública",
-      "en": "Judging of student projects at Science Club fairs organized by the Ministry of Education and Culture and the National Public Education Administration",
+      "es": "Clases de divulgación escuelas primaria",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Clases de divulgación colegios, liceos y CERP.",
+      "en": "",
       "kinds": [
         "educativo"
       ]
     },
     {
-      "es": "Participación en entrevistas y ciclos de divulgación en medios de prensa locales y nacionales sobre virología",
-      "en": "Interviews and outreach coverage in local and national press on virology topics",
+      "es": "Semana de la Ciencia y Tecnología",
+      "en": "",
       "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Programa Sobre Ciencia (TV Ciudad): el Dr. Rodney Colina, responsable del primer Laboratorio de Bioseguridad Nivel 3 de Uruguay, explica la importancia de contar con un laboratorio de estas características en el interior del país",
-      "en": "\"Sobre Ciencia\" (TV Ciudad): Dr. Rodney Colina, in charge of Uruguay's first biosafety level 3 laboratory, explains why it matters to have such a facility outside the capital",
-      "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Programa Sobre Ciencia (TV Ciudad): el Dr. Matías Victoria comenta la investigación sobre la circulación de genotipos del virus del papiloma humano relacionados a un alto riesgo de cáncer",
-      "en": "\"Sobre Ciencia\" (TV Ciudad): Dr. Matías Victoria discusses research on the circulation of high-risk Human Papillomavirus genotypes linked to cancer",
-      "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Programa Sobre Ciencia (TV Ciudad): la Dra. Leticia Maya y el Dr. Matías Castells relatan qué virus que afectan la reproducción del ganado bovino y ovino se estudian en el laboratorio para mejorar la productividad",
-      "en": "\"Sobre Ciencia\" (TV Ciudad): Dr. Leticia Maya and Dr. Matías Castells describe the viruses affecting cattle and sheep reproduction studied at the laboratory to improve productivity",
-      "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Programa Sobre Ciencia (TV Ciudad): el Dr. Andrés Lizasoain explica la importancia de estudiar los enterovirus en muestras ambientales y clínicas en el país",
-      "en": "\"Sobre Ciencia\" (TV Ciudad): Dr. Andrés Lizasoain explains the importance of studying enteroviruses in environmental and clinical samples in Uruguay",
-      "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Semanario La Diaria: artículo sobre un proyecto liderado por el Dr. Matías Victoria que demostró contaminación fecal de origen humano y de ganado vacuno en las aguas del Río Uruguay y del Río Santa Lucía, pionero en el país por su abordaje virológico de Microbial Source Tracking",
-      "en": "La Diaria: article on a project led by Dr. Matías Victoria showing fecal contamination from both human and cattle sources in the Río Uruguay and Río Santa Lucía, a pioneering virological approach to microbial source tracking in Uruguay",
-      "kinds": [
-        "medios"
-      ]
-    },
-    {
-      "es": "Teledoce (teledoce.com): cobertura de la divulgación de las primeras fotografías de un SARS-CoV-2 en Uruguay, obtenidas con un microscopio electrónico de la sede Rocha del CURE (Álvaro Olivera) en colaboración con la investigadora Viviana Bortagaray del laboratorio",
-      "en": "Teledoce (teledoce.com): coverage of the first published photographs of SARS-CoV-2 in Uruguay, obtained with an electron microscope at CURE's Rocha campus (Álvaro Olivera) in collaboration with laboratory researcher Viviana Bortagaray",
-      "kinds": [
-        "medios"
+        "eventos"
       ]
     }
-  ]
+  ],
+  "currentProjects": [
+    {
+      "title": "INNOVAGRO-ANII FSA_1_2013_1_12915; cuyo título es “Estudio de la epidemiología molecular y prevalencia serológica del virus de la Diarrea Viral Bovina en rodeos de carne y leche en el Uruguay con el fin de seleccionar cepas para una vacuna protectora de alcance masivo",
+      "funder": "ANII",
+      "period": "2015-2018",
+      "role": "Responsable"
+    },
+    {
+      "title": "Estudio de la circulación del virus del papiloma humano en la población y en aguas residuales de Salto, Uruguay (04/2023 - a la fecha)",
+      "funder": "CSIC-UdelaR 22520220100021UD",
+      "period": "04/2022 - 2025",
+      "role": "Responsable"
+    },
+    {
+      "title": "Diversidad genética de los virus gastroentéricos en aguas residuales y superficiales en la cuenca del Río Uruguay (01/2018 - 07/2021 )",
+      "funder": "ANII",
+      "period": "01/2018 - 07/2021",
+      "role": "Responsable"
+    },
+    {
+      "title": "Epidemias del síndrome de la enfermedad manos-piesboca en instituciones educativas y de cuidado de la primera infancia. Una problemática emergente en Uruguay que necesitamos monitorear, conocer y mitigar",
+      "funder": "ANII",
+      "period": "2024-2026",
+      "role": "Responsable"
+    },
+    {
+      "title": "PROYECTO CLEMENTE ESTABLE MODALIDAD II: El viroma en tambos con un enfoque de una sola salud",
+      "funder": "ANII",
+      "role": "Responsable"
+    }
+  ],
+  "image": "/images/groups/virologiamolec.jpg"
 }

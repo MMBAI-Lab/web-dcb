@@ -10,8 +10,27 @@ import moleculasBioactivas from "./moleculas-bioactivas.json";
 import rumiantes from "./rumiantes.json";
 import virologiamolec from "./virologiamolec.json";
 import vyet from "./vyet.json";
+import fisiologia from "./fisiologia.json";
+import histologia from "./histologia.json";
+import anatomia from "./anatomia.json";
+import asociadosData from "../asociados.json";
 
-export type Member = { name: string; title: string; photo?: string | null };
+/** In-progress thesis or postdoc, as reported in the person form. */
+export type Thesis = {
+  level: "grado" | "maestria" | "doctorado" | "posdoctorado";
+  program?: string;
+  advisors?: string;
+};
+
+export type Member = {
+  name: string;
+  /** Position and dedication; empty for students with no paid position. */
+  title: string;
+  photo?: string | null;
+  thesis?: Thesis;
+  /** `profile` is whichever of ORCID / Google Scholar / ResearchGate / Scopus the person chose. */
+  links?: { cvuy?: string; profile?: string };
+};
 
 /**
  * Bilingual text. `en` may be empty while the DCB's own translation pass is
@@ -53,8 +72,9 @@ export type Project = {
   role?: string;
 };
 
+/** Some groups list partner institutions without naming a person. */
 export type Collaborator = {
-  name: string;
+  name?: string;
   institution: string;
   country?: string;
   topic?: string;
@@ -69,10 +89,11 @@ export type ResearchGroup = {
   summary: Bilingual;
   /** A ≤100-word overview plus up to 5 specific lines. */
   researchLines?: { intro: Bilingual; lines: ResearchLine[] };
-  /** Up to 5 active projects. */
+  /** Up to 5 projects. */
   currentProjects?: Project[];
-  lead: { name: string; title: string; photo: string | null };
-  coLead?: { name: string; title: string; photo?: string | null };
+  /** Absent only on a `pending` group. */
+  lead?: Member;
+  coLead?: Member;
   members: Member[];
   /** Up to 8 collaborators. */
   collaborators?: Collaborator[];
@@ -82,15 +103,19 @@ export type ResearchGroup = {
   teaching?: TeachingEntry[];
   /** Each entry tagged with the kind(s) of action it is — see Extensión. */
   outreach?: OutreachEntry[];
+  /** Representative image chosen by the group: carousel cover and detail-page header. */
   image?: string;
   /** The group's own logo, if it has one distinct from the DCB branding. */
   logo?: string;
   /** URL of the group's own external website, if it has one. */
   website?: string;
   note?: Bilingual;
+  /** Group exists but hasn't sent its content yet: its page says "in preparation". */
+  pending?: boolean;
 };
 
-// Display order matches the original site's Investigación page.
+// Display order matches the original site's Investigación page; groups that
+// joined with the October 2026 census follow, with the pending one last.
 // Cast because TS widens JSON string literals to `string`, so teaching
 // `levels` can't satisfy the TeachingLevel union on its own; the migration
 // script is what guarantees those values are valid.
@@ -107,4 +132,10 @@ export const researchGroups = [
   rumiantes,
   virologiamolec,
   vyet,
+  fisiologia,
+  histologia,
+  anatomia,
 ] as ResearchGroup[];
+
+/** DCB members not (yet) in a research group — see /investigacion/asociados. */
+export const asociados = asociadosData.members as Member[];

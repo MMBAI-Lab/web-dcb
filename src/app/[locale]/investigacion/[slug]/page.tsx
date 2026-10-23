@@ -6,16 +6,15 @@ import { PageBanner } from "@/components/ui/page-banner";
 import { MoleculeMotif } from "@/components/ui/science-motifs";
 import { GrupoDetalle } from "@/components/pages/grupo-detalle";
 import { researchGroups } from "@/content/groups";
+import { pick } from "@/lib/i18n-content";
 
-// Only groups with a fully-built detail page (i.e. with researchLines
-// populated) get a static route — the rest are added one at a time.
-const detailedGroups = researchGroups.filter((g) => g.researchLines);
+// Every group gets a page; a `pending` one shows an "in preparation" notice.
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
-    detailedGroups.map((group) => ({ locale, slug: group.slug }))
+    researchGroups.map((group) => ({ locale, slug: group.slug }))
   );
 }
 
@@ -27,7 +26,7 @@ export default async function GrupoPage({
   const { locale, slug } = await params;
   setRequestLocale(locale as Locale);
 
-  const group = detailedGroups.find((g) => g.slug === slug);
+  const group = researchGroups.find((g) => g.slug === slug);
   if (!group) notFound();
 
   const t = await getTranslations("investigacion");
@@ -37,7 +36,7 @@ export default async function GrupoPage({
       <PageBanner
         eyebrow={t("title")}
         title={group.name[locale as "es" | "en"]}
-        subtitle={group.summary[locale as "es" | "en"]}
+        subtitle={pick(group.summary, locale as "es" | "en")}
         motif={MoleculeMotif}
       />
       <GrupoDetalle group={group} />

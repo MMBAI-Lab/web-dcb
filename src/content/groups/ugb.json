@@ -5,175 +5,382 @@
     "en": "Genomics and Bioinformatics"
   },
   "campus": "Salto",
-  "email": null,
+  "email": "nelida.rodriguez@unorte.edu.uy",
   "summary": {
-    "es": "Unidad que trabaja en embriogenómica (transcriptómica y epigenómica del desarrollo embrionario en mamíferos), agrogenómica, y virómica aplicada al análisis filodinámico de procesos epidémicos.",
-    "en": "A unit working on embryogenomics (transcriptomics and epigenomics of mammalian embryonic development), agrigenomics, and viromics applied to the phylodynamic analysis of epidemic processes."
+    "es": "En la Unidad de Genómica y Bioinformática estudiamos la información genética de virus, animales y plantas para comprender su evolución, desarrollo y adaptación. Integramos técnicas de laboratorio, secuenciación y análisis bioinformático con aplicaciones en salud, producción animal y conservación de la biodiversidad.",
+    "en": ""
   },
   "researchLines": {
     "intro": {
-      "es": "",
+      "es": "Abordamos diversas preguntas de las ciencias de la vida y la salud mediante cuatro líneas de investigación: Virómica, evolución y vigilancia viral; EmbrioGenómica, desarrollo embrionario y gametogénesis; AgroGenómica, aplicaciones genómicas para el agro; y BioGenómica, generación de recursos genómicos para la conservación de la biodiversidad eucariota.",
       "en": ""
     },
     "lines": [
-      {
-        "title": {
-          "es": "Embriogenómica",
-          "en": "Embryogenomics"
-        },
-        "body": {
-          "es": "Transcriptómica y epigenómica de la gametogénesis y el desarrollo embrionario en mamíferos.",
-          "en": "Transcriptomics and epigenomics of gametogenesis and embryonic development in mammals."
-        }
-      },
-      {
-        "title": {
-          "es": "Agrogenómica",
-          "en": "Agrigenomics"
-        },
-        "body": {
-          "es": "Aplicaciones de la genómica en especies de interés agropecuario.",
-          "en": "Applications of genomics in species of agricultural interest."
-        }
-      },
       {
         "title": {
           "es": "Virómica",
           "en": "Viromics"
         },
         "body": {
-          "es": "Filodinámica viral para el análisis de procesos epidémicos.",
-          "en": "Viral phylodynamics for the analysis of epidemic processes."
-        }
+          "es": "Exploramos la evolución y la filodinámica viral para optimizar la vigilancia epidemiológica en humanos y animales",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Virología Molecular DCB, Laboratorio de Genética Molecular Humana DCB, Departamento de laboratorios de salud publica del Ministerio de Salud Publica DLSP-MSP, Instituto Oswaldo Cruz -Fiocruz Rio de Janeiro Brasil, Universidade Federal do Espirito Santo, Universidad de Córdoba Argentina"
+        ]
+      },
+      {
+        "title": {
+          "es": "EmbrioGenómica",
+          "en": ""
+        },
+        "body": {
+          "es": "Estudiamos la regulación y activación genómica durante la maduración del ovocito, la fecundación y el desarrollo embrionario preimplantatorio en mamíferos",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Producción in vitro de embriones CENUR Noreste, Facultad de Veterinaria UdelaR, Universidad CES Medellín Colombia"
+        ]
+      },
+      {
+        "title": {
+          "es": "AgroGenómica",
+          "en": ""
+        },
+        "body": {
+          "es": "Aplicamos herramientas genómicas para la toma de decisiones relevantes para el sector agropecuario.",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Vectores y Enfermedades transmitidas DCB, Investigación y Desarrollo de Moléculas Bioactivas DCB, Instituto Nacional de Investigación Agropecuaria INIA, Universidad Nacional de Colombia"
+        ]
+      },
+      {
+        "title": {
+          "es": "BioGenómica",
+          "en": ""
+        },
+        "body": {
+          "es": "Generamos recursos genómicos para conservar la biodiversidad neotropical",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Ecología Fluvial DCB, Laboratorio Biogeografía y Evolución CENUR Noreste, Universidad de Antioquia Medellín Colombia, Red de Genomas Neotropicales Biogenomas, Key Lab of Marine Genomics Shenzhen China"
+        ]
       }
     ]
   },
   "lead": {
     "name": "Dra. Nélida Rodríguez Osorio",
-    "title": "Profesora Agregada, Responsable de la Unidad de Genómica y Bioinformática (Gdo 4, 40 hs/sem, DT)",
-    "photo": "/images/people/nelida-rodriguez.jpg"
+    "title": "Profesora Agregada (Gdo 4, 40 hs/sem, DT)",
+    "photo": "/images/people/nelida-rodriguez.jpg",
+    "links": {
+      "profile": "https://scholar.google.com/citations?user=ykZhexYAAAAJ&hl=en&oi=ao"
+    }
   },
   "members": [
     {
       "name": "Dra. Daiana Mir",
       "title": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT)",
-      "photo": "/images/people/daiana-mir.jpg"
+      "photo": "/images/people/daiana-mir.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cvsni/?urlId=decd18b54be790db5f8c6193084f89821cfc153e753abad3748f2738ef99a8d98b47aaecb0e67db2277178ec8b654f2aa58db8ba05088e2b68579fac052b8f1f&convocatoria=21&formato=html#9",
+        "profile": "https://orcid.org/0000-0002-3172-4867"
+      }
     },
     {
-      "name": "Dr. M.V. Diego Almansa-Villa",
-      "title": "Estudiante de Posgrado, Maestría en Bioinformática (Gdo 1, 30 hs/sem)",
-      "photo": "/images/people/diego-almansa-villa.jpg"
+      "name": "Mag. M.V. Diego Almansa",
+      "title": "Asistente contratado (Gdo 2, 24 hs/sem)",
+      "photo": "/images/people/diego-almansa-villa.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?d5fe16ceb9e725fee52b3b6f64b8e8a9",
+        "profile": "https://orcid.org/0000-0002-7716-8480"
+      }
     },
     {
       "name": "Dra. María José Benítez-Galeano",
       "title": "Ayudante (Gdo 1, 40 hs/sem)",
-      "photo": "/images/people/maria-jose-benitez-galeano.jpg"
+      "photo": "/images/people/maria-jose-benitez-galeano.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/pdfsni/?urlId=8ce22592efbd8fb130bd116dc24e67c92ce317876b409fbf258313b1d8429229f008bc0fa22b7de7a954f732a4d3ab994b1849e9c2100f692ba812bbc660a825&formato=pdf&convocatoria=21",
+        "profile": "https://orcid.org/0000-0002-6332-1632"
+      }
     },
     {
-      "name": "Lic. Agustina Añasco",
-      "title": "Maestría en Bioinformática, Becaria ANII",
-      "photo": "/images/people/agustina-anasco.jpg"
+      "name": "Lic. Agustina Añasco Podchibiakin",
+      "title": "Ayudante (Gdo 1, 30 hs/sem)",
+      "photo": "/images/people/agustina-anasco.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Ciencias Biológicas",
+        "advisors": "Dra. Daiana Mir, Dr. Gonzalo Bello"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?a2e08ddb672578ea02b810a15f4e2c84",
+        "profile": "https://orcid.org/0009-0000-5086-9239"
+      }
     }
   ],
   "collaborators": [
     {
-      "name": "Laboratorio de Virología Molecular, DCB",
-      "institution": ""
+      "name": "Dra. Rosa Flieller",
+      "institution": "Departamento de laboratorios de salud publica del Ministerio de Salud Publica DLSP-MSP",
+      "country": "Uruguay",
+      "topic": "Vigilancia epidemiológica de VIH-1"
     },
     {
-      "name": "Laboratorio de Genética Molecular Humana, DCB",
-      "institution": ""
+      "name": "Dr. Gonzalo Bello",
+      "institution": "Instituto Oswaldo Cruz -Fiocruz",
+      "country": "Brasil",
+      "topic": "Filodinámica viral"
     },
     {
-      "name": "Laboratorio de Vectores y Enfermedades transmitidas, DCB",
-      "institution": ""
+      "name": "Dr. Edson Oliveira de la Torre",
+      "institution": "Universidade Federal do Espirito Santo",
+      "country": "Brasil",
+      "topic": "Filodinámica viral"
     },
     {
-      "name": "Laboratorio de Producción in vitro de embriones, Tacuarembó - CENUR Litoral Noreste",
-      "institution": ""
+      "name": "Dr. Rodney Colina",
+      "institution": "CENUR Litoral Norte UdelaR",
+      "country": "Uruguay",
+      "topic": "Virología molecular"
     },
     {
-      "name": "Facultad de Veterinaria, UdelaR, Uruguay",
-      "institution": ""
+      "name": "Dr. Julio da Luz",
+      "institution": "CENUR Litoral Norte UdelaR",
+      "country": "Uruguay",
+      "topic": "Identificación de variante en exomas humanos"
     },
     {
-      "name": "Instituto de Higiene, UdelaR, Uruguay",
-      "institution": ""
+      "name": "Dr. Francisco Báez",
+      "institution": "CENUR Noreste UdelaR",
+      "country": "Uruguay",
+      "topic": "Expresión génica en el desarrollo embrionario"
     },
     {
-      "name": "Instituto Nacional de Investigación Agropecuaria (INIA), Uruguay",
-      "institution": ""
+      "name": "Dr. Iván González",
+      "institution": "CENUR Litoral Norte UdelaR",
+      "country": "Uruguay",
+      "topic": "Identifiación molecular de peces"
     },
     {
-      "name": "Institut Pasteur, Montevideo, Uruguay",
-      "institution": ""
-    },
-    {
-      "name": "Universidad de Buenos Aires, Argentina",
-      "institution": ""
-    },
-    {
-      "name": "INTA Cerro Azul, Argentina",
-      "institution": ""
-    },
-    {
-      "name": "Instituto Oswaldo Cruz (Fiocruz), Rio de Janeiro, Brasil",
-      "institution": ""
-    },
-    {
-      "name": "Universidad Nacional sedes Medellín y Bogotá, Colombia",
-      "institution": ""
-    },
-    {
-      "name": "Universidad de Antioquia, Medellín, Colombia",
-      "institution": ""
-    },
-    {
-      "name": "Universidad CES, Medellín, Colombia",
-      "institution": ""
-    },
-    {
-      "name": "Universidad Estatal de Mississippi, Starkville, Estados Unidos",
-      "institution": ""
-    },
-    {
-      "name": "Universidad Estatal de California, Fullerton, Estados Unidos",
-      "institution": ""
-    },
-    {
-      "name": "Key Lab of Marine Genomics, Shenzhen, China",
-      "institution": ""
+      "name": "Dr. Jonny Yepes Blandón",
+      "institution": "Universidad de Antioquia",
+      "country": "Colombia",
+      "topic": "Generación de recursos genómicos de peces"
     }
   ],
   "publications": [
     {
+      "doi": "10.1016/j.theriogenology.2026.118146",
+      "citation": "Reyes-Ábalos AL, Barcelona B, Rodríguez-Osorio N, Báez F. Stage-dependent ultrastructural remodeling of the zona pellucida of in vitro-produced bovine embryos. Theriogenology. 2026;266:118146. https://doi.org/10.1016/j.theriogenology.2026.118146"
+    },
+    {
+      "doi": "10.3389/fgene.2025.1661527",
+      "citation": "Yepes-Blandón J, Almansa-Villa D, Benítez-Galeano MJ, Mir D, Hernández-Rangel J, Atencio-García V, et al. Clarifying species boundaries between bocachico (prochilodus magdalenae) and bocachico de maracaibo (prochilodus reticulatus) (Characiformes: prochilodontidae) using complete mitochondrial genomes. Frontiers in Genetics. 2025;16. https://doi.org/10.3389/fgene.2025.1661527"
+    },
+    {
+      "doi": "10.1016/j.orcp.2025.09.003",
+      "citation": "Alfaro JM, Vasquez EM, Rodriguez-Osorio N, Urrego R. Identification of new DNA methylation markers associated with obesity in children. Obesity Research & Clinical Practice. 2025;19(5):448-50. https://doi.org/10.1016/j.orcp.2025.09.003"
+    },
+    {
+      "doi": "10.1038/s41588-024-01835-2",
+      "citation": "Kalbfleisch TS, McKay SD, Murdoch BM, Adelson DL, Almansa-Villa D, Becker G, et al. The ruminant telomere-to-telomere (RT2T) consortium. Nature Genetics. 2024;56(8):1566-73. https://doi.org/10.1038/s41588-024-01835-2"
+    },
+    {
+      "doi": "10.1111/asj.13941",
+      "citation": "Báez F, de Brun V, Rodríguez‐Osorio N, Viñoles C. Low oxygen tension during in vitro embryo production improves the yield, quality, and cryotolerance of bovine blastocysts. Animal Science Journal. 2024;95(1). https://doi.org/10.1111/asj.13941"
+    },
+    {
       "doi": "10.3389/fgene.2022.989788",
-      "citation": "Yepes-Blandón JA, Bian C, Benítez-Galeano MJ, Aristizabal-Regino JL, Estrada-Posada AL, Mir D, et al. Draft genome assembly for the Colombian freshwater bocachico fish, Prochilodus magdalenae. Frontiers in Genetics. 2022. https://doi.org/10.3389/fgene.2022.989788"
-    },
-    {
-      "doi": "10.3390/v14092042",
-      "citation": "Giannitti F, da Silva Silveira C, Bullock H, Berón M, Fernández-Ciganda S, Benítez-Galeano MJ, et al. Bovine polyomavirus-1 (Epsilonpolyomavirus bovis): an emerging fetal pathogen of cattle that causes renal lesions resembling polyomavirus-associated nephropathy of humans. Viruses. 2022. https://doi.org/10.3390/v14092042"
-    },
-    {
-      "doi": "10.1016/j.jtherbio.2021.103171",
-      "citation": "Báez F, López Darriulat R, Rodríguez-Osorio N, Viñoles C. Effect of season on germinal vesicle stage, quality, and subsequent in vitro developmental competence in bovine cumulus-oocyte complexes. J Thermal Biology. 2022. https://doi.org/10.1016/j.jtherbio.2021.103171"
+      "citation": "Yepes-Blandón JA, Bian C, Benítez-Galeano MJ, Aristizabal-Regino JL, Estrada-Posada AL, Mir D, et al. Draft genome assembly for the Colombian freshwater bocachico fish, prochilodus magdalenae. Frontiers in Genetics. 2023;13. https://doi.org/10.3389/fgene.2022.989788"
     },
     {
       "doi": "10.3390/v14112562",
-      "citation": "Ramirez-Nieto G, Mir D, Almansa-Villa D, Córdoba-Argotti G, Beltran-Leon M, Rodriguez-Osorio N, et al. New insights into avian infectious bronchitis virus in Colombia from whole-genome analysis. Viruses. 2022. https://doi.org/10.3390/v14112562"
+      "citation": "Ramirez-Nieto G, Mir D, Almansa-Villa D, Cordoba-Argotti G, Beltran-Leon M, Rodriguez-Osorio N, et al. New insights into avian infectious bronchitis virus in Colombia from whole-genome analysis. Viruses. 2022;14(11):2562. https://doi.org/10.3390/v14112562"
     },
     {
-      "doi": "10.3389/fvets.2022.990228",
-      "citation": "Parodi P, Armúa-Fernández MT, Schanzembach M, Mir D, Benítez-Galeano MJ, Rodríguez-Osorio N, et al. Characterization of strains of Anaplasma marginale from clinical cases in bovine using major surface protein 1a in Uruguay. Front. Vet. Sci. 2022. https://doi.org/10.3389/fvets.2022.990228"
+      "doi": "10.1016/j.jtherbio.2021.103171",
+      "citation": "Báez F, López Darriulat R, Rodríguez-Osorio N, Viñoles C. Effect of season on germinal vesicle stage, quality, and subsequent in vitro developmental competence in bovine cumulus-oocyte complexes. Journal of Thermal Biology. 2022;103:103171. https://doi.org/10.1016/j.jtherbio.2021.103171"
     },
     {
-      "citation": "Mir D, Rego N, Resende PC, López-tort F, et al. Recurrent dissemination of SARS-CoV-2 through the Uruguayan-Brazilian border. Front. Microbiol. 2021;12:653986."
+      "doi": "10.3389/fmicb.2021.653986",
+      "citation": "Mir D, Rego N, Resende PC, Tort F, Fernández-Calero T, Noya V, et al. Recurrent dissemination of SARS-CoV-2 through the Uruguayan–Brazilian border. Frontiers in Microbiology. 2021;12. https://doi.org/10.3389/fmicb.2021.653986"
     },
     {
-      "citation": "Mir D, Gräf T, Esteves de Matos Almeida S, Pinto AR, Delatorre E, Bello G. Inferring population dynamics of HIV-1 subtype C epidemics in Eastern Africa and Southern Brazil applying different Bayesian phylodynamics approaches. Sci Rep. 2018;8(1):8778."
-    },
-    {
-      "citation": "Urrego R, Bernal-Ulloa SM, Chavarria NA, Herrera-Puerta E, Lucas-Hahn A, Herrman D, et al. Satellite DNA methylation status and expression of selected genes in Bos indicus blastocysts produced in vivo and in vitro. Zygote. 2017;25(2):131-140."
+      "doi": "10.1590/0074-02760200183",
+      "citation": "Delatorre E, Mir D, Gräf T, Bello G. Tracking the onset date of the community spread of SARS-CoV-2 in western countries. Memórias do Instituto Oswaldo Cruz. 2020;115. https://doi.org/10.1590/0074-02760200183"
     }
-  ]
+  ],
+  "currentProjects": [
+    {
+      "title": "Biodiversidad, ictioplancton y procesos ecológicos de áreas protegidas fluviales del Uruguay: bases para manejo y conservación",
+      "funder": "ANII, Fondo Ida Holz",
+      "period": "2026-2030",
+      "role": "Integrante del equipo"
+    },
+    {
+      "title": "Construcción de recursos genómicos de referencia de alta calidad para peces del género Pseudoplatystoma del río Uruguay",
+      "funder": "CSIC Iniciación",
+      "period": "2026-2027",
+      "role": "Responsable"
+    },
+    {
+      "title": "secuenciar, ensamblar y anotar los genomas de la choca (Chaetostoma brevilabiatum, Loricariidae) y el blanquillo (Sorubim cuspicaudus, Pimelodidae) del Magdalena",
+      "funder": "ISAGEN, Colombia",
+      "period": "2026-2028",
+      "role": "Responsable"
+    },
+    {
+      "title": "Explorando RNAs pequeños en embriones bovinos producidos in vitro como mediadores de respuesta de desarrollo ante los cambios estacionales",
+      "funder": "CSIC I+D",
+      "period": "2025-2027",
+      "role": "Co-responsable"
+    },
+    {
+      "title": "Caracterización molecular de formas recombinantes del Virus de la Inmunodeficiencia Humana Tipo 1 (VIH-1) circulantes en Uruguay.",
+      "funder": "Fondo vaz Ferreira",
+      "period": "2024-2026",
+      "role": "Responsable"
+    }
+  ],
+  "teaching": [
+    {
+      "es": "Genómica. Ciclo en Biología-Bioquímica",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biología de la Reproducción. Ciclo en Biología-Bioquímica",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a las Ciencias Biológicas I. Ciclo en Biología-Bioquímica,",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Biología Molecular. Licenciatura en Biotecnología",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a la Biotecnología. Licenciatura en Biotecnología",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Herramientas Básicas de Genómica y Bioinformática. PEDECIBA",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Evolución Biológica: Enfoque Multidisciplinario. PEDECIBA",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Bioinformática aplicada a análisis celulares y moleculares. Posgrado en Salud Animal",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Biotecnología aplicada: manejo, clasificación y preservación de gametos. Posgrado en Salud Animal",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Estrés calórico en bovinos. Posgrado en Salud Animal",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Pasantías de 4to año, Profesorado de Biología, CeRP Salto",
+      "en": "4th-year internships, Biology Teacher Training Program, CeRP Salto",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Pasantías de último semestre, Tecnologó en Biotecnología de la UTU",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    }
+  ],
+  "outreach": [
+    {
+      "es": "En qué nos metimos: ciclo de entrevistas a investigadores del DCB en Radio La Regional",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Podcast Tejiendo Redes, InvestigaUY",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Charlas en la Semana de la Ciencia y la Tecnología",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Científica invitada Colegio Salesiano, para certamen del Ministerio de Educación y Cultura (MEC) y la Dirección Nacional de Innovación, Ciencia y Tecnología (DICYT).",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Científica invitada Liceo N.º 6 de Salto, para certamen del Ministerio de Educación y Cultura (MEC) y la Dirección Nacional de Innovación, Ciencia y Tecnología (DICYT).",
+      "en": "",
+      "kinds": [
+        "educativo"
+      ]
+    },
+    {
+      "es": "Jornada Universidad de Puertas abiertas",
+      "en": "",
+      "kinds": [
+        "eventos"
+      ]
+    },
+    {
+      "es": "Comité organizador del encuentro de Agrogenómica",
+      "en": "",
+      "kinds": [
+        "eventos"
+      ]
+    }
+  ],
+  "image": "/images/groups/ugb.jpg"
 }

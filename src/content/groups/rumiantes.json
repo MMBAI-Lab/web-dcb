@@ -5,26 +5,93 @@
     "en": "Ruminant Production and Reproduction"
   },
   "campus": "Salto",
-  "email": null,
+  "email": "rinuol@gmail.com",
   "summary": {
-    "es": "Investigación en aspectos reproductivos de ovinos y bovinos, crecimiento de la lana y estructura de la piel ovina, orientada a resolver problemas productivos de la región en colaboración con productores e instituciones del sector.",
-    "en": "Research on reproductive aspects of sheep and cattle, wool growth, and ovine skin structure, aimed at solving regional production problems in collaboration with producers and sector institutions."
+    "es": "Enfocados en la reproducción de rumiantes, integramos investigación básica y aplicada con el desarrollo de biotecnologías para optimizar la producción ganadera. Generamos conocimientos y herramientas para el control reproductivo, orientados a resolver problemas productivos nacionales y regionales en colaboración con productores, empresas e instituciones del sector.",
+    "en": ""
   },
   "researchLines": {
     "intro": {
-      "es": "Gran parte de la producción científica se ha desarrollado para solucionar problemas productivos de índole nacional, apoyada en trabajos de tesis de grado y con la colaboración de productores u otros (Sociedades de Productores, Cooperativas, Sociedades de Fomento Rural). Desde el año 2013, en el CENUR LN, en forma conjunta con las sedes de Salto y Paysandú, fui designado director del Polo (PDU) en Producción y Reproducción de Rumiantes. El objetivo general de la creación del PDU de Rumiantes en la Región Litoral Noroeste del país es la generación de conocimiento científico que contribuya al desarrollo académico de una masa crítica regional, y a la optimización de la enseñanza.",
-      "en": "Much of this scientific output has been developed to solve production problems of national relevance, supported by undergraduate thesis work and in collaboration with producers and other stakeholders (producer associations, cooperatives, rural development societies). Since 2013, at CENUR Litoral Norte, jointly with the Salto and Paysandú campuses, I was appointed director of the University Development Pole (PDU) in Ruminant Production and Reproduction. The general objective in creating the Ruminant PDU in the country's Northwest Littoral Region is to generate scientific knowledge that contributes to the regional academic development of a critical mass, and to the optimization of teaching."
+      "es": "Nuestras propuestas se enfocan a que Uruguay disponga de alternativas farmacológicas que permitan continuar utilizando la inseminación artificial a tiempo fijo (IATF), cumpliendo las exigencias de inocuidad alimentaria y uso de fármacos. La Unión Europea (UE) prohíbe las sales de estradiol, generando impactos económicos adversos para Uruguay. Nuestro equipo desarrolla y prueba estrategias para sustituir el estradiol en programas de reproducción bovina, con resultados preliminares auspiciosos. Trabajamos para obtener al menos un protocolo estandarizado, libre de estradiol, práctico y fácil de aplicar en campo, constituyendo una innovación nacional disponible para Uruguay y la región.",
+      "en": ""
     },
     "lines": [
       {
         "title": {
-          "es": "Reproducción ovina y bovina, lana y piel",
-          "en": "Sheep and cattle reproduction, wool and skin"
+          "es": "Estandarización de protocolos para inseminación artificial a tiempo fijo (IATF) sin el uso de estrógenos en rodeos de carne",
+          "en": ""
         },
         "body": {
-          "es": "Mi trabajo se ha basado en la docencia universitaria en la Facultad de Agronomía, específicamente en los cursos de Ovinos y Lanas, Técnicas Reproductivas en Bovinos y Ovinos y en el curso de Anatomía y Fisiología Animal. De este modo la investigación que he desarrollado ha estado en relación a dichas asignaturas en aspectos reproductivos, especialmente en la especie ovina, y crecimiento de la lana y estructura de la piel ovina. Igualmente, desde 2002 al 2015 en el Secretariado Uruguayo de la Lana, fui responsable de la investigación en el área Reproductiva.",
-          "en": "My work has been grounded in university teaching at the Faculty of Agronomy, specifically in the courses on Sheep and Wool, Reproductive Techniques in Cattle and Sheep, and Animal Anatomy and Physiology. Accordingly, the research I have developed has related to those subjects in reproductive aspects — especially in sheep — and in wool growth and ovine skin structure. Likewise, from 2002 to 2015, at the Uruguayan Wool Secretariat (Secretariado Uruguayo de la Lana), I was responsible for research in the Reproductive area."
-        }
+          "es": "Elaboración de protocolos para IATF en rodeos de carne.",
+          "en": ""
+        },
+        "institutions": [
+          "Instituto de Reproducción Animal Uruguay - Fundación IRAUy",
+          "Laboratorio de Producción y Reproducción de Rumiantes (DCB - CENUR Litoral Norte Salto)"
+        ]
+      },
+      {
+        "title": {
+          "es": "Programa de resincronización rápida (ReBreed21) en vaquillonas Bos taurus de 15 meses",
+          "en": ""
+        },
+        "body": {
+          "es": "Evaluación de diferentes estrategias de un protocolo de resincronización rápida (ReBreed21) para vaquillonas de 15 meses.",
+          "en": ""
+        },
+        "institutions": [
+          "Instituto de Reproducción Animal Uruguay - Fundación IRAUy",
+          "PSA INIA La Estanzuela",
+          "Department of Animal and Dairy Sciences - University of Wisconsin - Madison",
+          "Laboratorio de Producción y Reproducción de Rumiantes (DCB - CENUR Litoral Norte Salto)"
+        ]
+      },
+      {
+        "title": {
+          "es": "Caracterización reproductiva de Bovino Criollo Uruguayo y creación de un banco nacional de germoplasma de la raza",
+          "en": ""
+        },
+        "body": {
+          "es": "",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Producción y Reproducción de Rumiantes (DCB - CENUR Litoral Norte Salto)",
+          "Facultad de Veterinaria (UdelaR)",
+          "Facultad de Ciencias Veterinarias (UBA)",
+          "Asociación de criadores de ganado bovino criollo uruguayo"
+        ]
+      },
+      {
+        "title": {
+          "es": "Asociación entre la presencia de elementos inorgánicos en la fibra de lana, en otras matrices biológicas y en pasturas con el amarillamiento y otras características del vellón en Merino Australiano",
+          "en": ""
+        },
+        "body": {
+          "es": "",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Producción y Reproducción de Rumiantes (DCB - CENUR Litoral Norte Salto)",
+          "Facultad de Veterinaria (UdelaR)",
+          "Facultad de Veterinaria (Universidad de Leon, España)",
+          "Asociación de criadores de Merino Australiano del Uruguay"
+        ]
+      },
+      {
+        "title": {
+          "es": "Efecto de los nematodos gastrointestinales sobre la fertilidad de carneros Merino Australiano en la región norte del Uruguay",
+          "en": ""
+        },
+        "body": {
+          "es": "",
+          "en": ""
+        },
+        "institutions": [
+          "Laboratorio de Producción y Reproducción de Rumiantes (DCB - CENUR Litoral Norte Salto)",
+          "Facultad de Veterinaria (UdelaR)",
+          "Asociación de criadores de Merino Australiano del Uruguay"
+        ]
       }
     ]
   },
@@ -48,8 +115,13 @@
     },
     {
       "name": "MSc. Oscar Irabuena",
-      "title": "Estudiante de doctorado (Gdo 3, 40 hs/sem)",
-      "photo": "/images/people/oscar-irabuena.jpg"
+      "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)",
+      "photo": "/images/people/oscar-irabuena.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Ciencias Veterinarias, Universidad de Buenos Aires",
+        "advisors": "Dr. Humberto Cisale, Dr. Daniel Fernández Abella"
+      }
     },
     {
       "name": "Quim. Far. Silvia Sterla",
@@ -64,23 +136,211 @@
       "name": "MSc. Zully Hernández Russo",
       "title": "Profesora adjunta de Fac. de Veterinaria (Gdo 3, 40 hs/sem)",
       "photo": "/images/people/zully-hernandez-russo.jpg"
+    },
+    {
+      "name": "Dr. Richard Núñez Olivera",
+      "title": "Profesor Agregado (Gdo 4, 40 hs/sem)",
+      "photo": "/images/people/richard-nunez-olivera.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cvsni/?urlId=1015b74a114167c049cb8feb5a44a5c228d1b861e153284d730d45c3826c708aa02b5ae96a28a22ad3ac9d573f7fd5230a78ffea3ebb29a663dc25816fe1c42d&formato=html&convocatoria=21#12",
+        "profile": "https://orcid.org/0000-0002-9312-5069"
+      }
     }
   ],
   "publications": [
     {
-      "citation": "Fernández Abella D, Lago I, Rodríguez M, Irabuena O, Sterla S. Effect of the administration of one FSH single dose in multiovulation treatment in Corriedale Booroola ewe's embryos. Journal of Veterinary Science & Medical Diagnosis. 2017;6(5)."
+      "doi": "10.1016/j.theriogenology.2021.12.028",
+      "citation": "Núñez–Olivera R, Bó GA, Menchaca A. Association between length of proestrus, follicular size, estrus behavior, and pregnancy rate in beef heifers subjected to fixed–time artificial insemination. Theriogenology. 2022;181:1-7. https://doi.org/10.1016/j.theriogenology.2021.12.028"
     },
     {
-      "citation": "Fernández Abella D, Da Costa M, Guerin Y, Dacheux JL. Fertility of undiluted ram epididymal spermatozoa stored for several days at 4°C. Animal. 2015;9(2):313-9."
+      "doi": "10.1016/j.theriogenology.2020.03.031",
+      "citation": "Núñez-Olivera R, Cuadro F, Bosolasco D, de Brun V, de la Mata J, Brochado C, et al. Effect of equine chorionic gonadotropin (eCG) administration and proestrus length on ovarian response, uterine functionality and pregnancy rate in beef heifers inseminated at a fixed-time. Theriogenology. 2020;151:16-27. https://doi.org/10.1016/j.theriogenology.2020.03.031"
     },
     {
-      "citation": "Fernández Abella D. Biotecnologías reproductivas bovinas y ovinas. 2015. (Libro publicado, Texto integral)"
+      "doi": "10.1016/j.anireprosci.2019.106201",
+      "citation": "Núñez-Olivera R, Cuadro F, Menchaca A. Is prostaglandin F2α administration at the beginning of a progesterone and estradiol-based treatment for FTAI an effective strategy in bos taurus heifers? Animal Reproduction Science. 2019;210:106201. https://doi.org/10.1016/j.anireprosci.2019.106201"
     },
     {
-      "citation": "Fernández Abella D, Preve MO, Villegas N. Insemination time and dilution rate of cooled and chilled ram semen affects fertility. Theriogenology. 2003;60:21-6."
+      "doi": "10.1016/j.domaniend.2017.08.003",
+      "citation": "Núñez-Olivera R, de Castro T, Bó GA, Piaggio J, Menchaca A. Equine chorionic gonadotropin administration after insemination affects luteal function and pregnancy establishment in postpartum anestrous beef cows. Domestic Animal Endocrinology. 2018;62:24-31. https://doi.org/10.1016/j.domaniend.2017.08.003"
     },
     {
-      "citation": "Romano J, Fernández Abella D, Villegas N. Continuous presence of rams on estrus onset, estrus duration and ovulation time in ewe's estrus synchronized. Applied Animal Behaviour Science. 2001;73:193-8."
+      "doi": "10.1016/j.anireprosci.2014.02.017",
+      "citation": "Núñez-Olivera R, de Castro T, García-Pintos C, Bó G, Piaggio J, Menchaca A. Ovulatory response and luteal function after eCG administration at the end of a progesterone and estradiol’ based treatment in postpartum anestrous beef cattle. Animal Reproduction Science. 2014;146(3-4):111-6. https://doi.org/10.1016/j.anireprosci.2014.02.017"
+    },
+    {
+      "doi": "10.1186/s44356-026-00058-3",
+      "citation": "Balemian N, Pedrana G, Fernández-Calero T, Irabuena O, Armstrong E. Transcriptome analysis of bovine ocular squamous cell carcinoma (BOSCC) in hereford cattle. Veterinary Oncology. 2026;3(1). https://doi.org/10.1186/s44356-026-00058-3"
+    },
+    {
+      "doi": "10.21071/az.v70i271.5508",
+      "citation": "Irabuena JEGN, Sterla CB, Fernández Abella N. Suplemento de selenio y zinc en la cubrición y preparto en ovejas merino australiano. Archivos de Zootecnia. 2021;70(271):270-5. https://doi.org/10.21071/az.v70i271.5508"
     }
-  ]
+  ],
+  "currentProjects": [
+    {
+      "title": "Estandarización de protocolos para inseminación artificial (IATF) sin el uso de estradiol en rodeos de carne.",
+      "funder": "ANII, Fundación IRAUy, Proyectos I+D",
+      "period": "desde 2024",
+      "role": "Co-responsable"
+    },
+    {
+      "title": "Programa de resincronización rápida (ReBreed21) en vaquillonas Bos taurus de 15 meses.",
+      "funder": "ANII, Fundación IRAUy, Proyectos I+D",
+      "period": "desde 2025",
+      "role": "Co-responsable"
+    },
+    {
+      "title": "Caracterización, utilización y conservación del bovino Criollo Uruguayo como recurso ganadero nacional.",
+      "funder": "CSIC (Udelar), Proyectos I+D",
+      "period": "desde 2023",
+      "role": "Integrante del equipo"
+    },
+    {
+      "title": "Asociación entre la presencia de elementos inorgánicos en la fibra de lana, en otras matrices biológicas y en pasturas con el amarillamiento y otras características del vellón en Merino Australiano.",
+      "funder": "CSIC (Udelar), Proyectos I+D",
+      "period": "desde 2024",
+      "role": "Co-responsable"
+    },
+    {
+      "title": "Efecto de los nematodos gastrointestinales sobre la fertilidad de carneros Merino Australiano en un establecimiento de la región norte del Uruguay.",
+      "period": "desde 2024",
+      "role": "Co-responsable"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Dr. Federico Cuadro",
+      "institution": "Fundación IRAUy",
+      "country": "Uruguay"
+    },
+    {
+      "name": "Camila García Pintos",
+      "institution": "Fundación IRAUy",
+      "country": "Uruguay"
+    },
+    {
+      "name": "Alejo Menchaca",
+      "institution": "Plataforma de Investigación en Salud Animal, INIA La Estanzuela",
+      "country": "Uruguay"
+    },
+    {
+      "name": "Gabriel Bó",
+      "institution": "Instituto de Reproducción Animal Córdoba",
+      "country": "Argentina"
+    },
+    {
+      "name": "Milo C. Wiltbank",
+      "institution": "Department of Animal and Dairy Sciences. University of Wisconsin – Madison, Wisconsin",
+      "country": "Estados Unidos"
+    },
+    {
+      "institution": "Facultad de Veterinaria (UdelaR)",
+      "country": "Uruguay"
+    },
+    {
+      "institution": "Asociación de criadores de Merino Australiano del Uruguay",
+      "country": "Uruguay"
+    },
+    {
+      "institution": "Asociación de criadores de ganado Criollo del Uruguay",
+      "country": "Uruguay"
+    }
+  ],
+  "teaching": [
+    {
+      "es": "Reproducción",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Teriogenología",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Inmunología básica",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Vacunas",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a la Microbiología",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Curso Fundación IRAUy-IRAC: Biotecnologías Reproductivas en Rumiantes.",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Gestación y lactación de la oveja y su relación con la supervivencia de los corderos.",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Optimización de la supervivencia del cordero: Claves del servicio al destete.",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Patologías reproductivas del carnero.",
+      "en": "",
+      "levels": [
+        "posgrado"
+      ]
+    },
+    {
+      "es": "Promoción del enfoque de Una Salud aplicado en las zoonosis parasitarias. Actividad coordinada con la Casa Universitaria de Artigas, la Escuela Rural Número 29 de Pintado Grande y el agrupamiento “Nuevos Rumbos”, del departamento de Artigas.",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Espacio de Formación Integral (EFI) titulada: \"DERRIBANDO MITOS\" Acercamiento entre estudiantes orientados a las ciencias biológicas y estudiantes de educación media.",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    },
+    {
+      "es": "Jornadas de extensión “Biotecnología hoy”, en el Polo Educativo Tecnológico Salto de UTU. En el marco de la Semana de la Ciencia y la Tecnología (CyT). Cultura Científica de la Dirección Nacional de Educación del Ministerio de Educación y Cultura.",
+      "en": "",
+      "levels": [
+        "otras"
+      ]
+    }
+  ],
+  "outreach": [
+    {
+      "es": "Comité organizador de las Jornadas de Actualización en Biotecnologías de la Reproducción en Bovinos",
+      "en": "",
+      "kinds": [
+        "eventos"
+      ]
+    }
+  ],
+  "image": "/images/groups/rumiantes.jpg"
 }
