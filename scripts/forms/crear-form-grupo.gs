@@ -79,7 +79,7 @@ function crearFormularioGrupo() {
     'Inmunología y Biotecnología (LIB)',                  // inmunologia-biotecnologia.json
     'Investigación y Desarrollo de Moléculas Bioactivas', // moleculas-bioactivas.json
     'Producción y Reproducción de Rumiantes',             // rumiantes.json
-    'Virología Molecular',                                // virologiamolec.json
+    'Virología',                                          // virologiamolec.json
     'Vectores y Enfermedades Transmitidas',               // vyet.json
     'Fisiología',                                         // fisiologia.json
     'Histología',                                         // histologia.json

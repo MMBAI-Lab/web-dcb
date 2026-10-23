@@ -188,8 +188,8 @@ explícitas dentro del script. Quedó pendiente:
 - [ ] **Ecología Fluvial** cargó dos veces el DOI del libro *Rivers of South
       America* (10.1016/C2020-0-00035-6); probablemente eran dos capítulos
       con DOI propio.
-- [ ] Superan el tope de palabras: resumen de **Virología Molecular** (58/50),
-      panorama de **Virología Molecular** (105/100) e **Histología** (266/100).
+- [ ] Superan el tope de palabras: resumen de **Virología** (58/50),
+      panorama de **Virología** (105/100) e **Histología** (266/100).
 - [ ] Siguen sin foto quienes no completaron la ficha, entre ellos
       Minutti (Rumiantes) y Bermúdez y Bazzano (VyET).
 - [ ] Todo el texto nuevo está solo en español: correr

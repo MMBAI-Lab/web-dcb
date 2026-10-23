@@ -85,7 +85,7 @@ const GRUPOS = [
   "Inmunología y Biotecnología (LIB)",                     // inmunologia-biotecnologia
   "Investigación y Desarrollo de Moléculas Bioactivas",    // moleculas-bioactivas
   "Producción y Reproducción de Rumiantes",                // rumiantes
-  "Virología Molecular",                                   // virologiamolec
+  "Virología",                                             // virologiamolec
   "Vectores y Enfermedades Transmitidas",                  // vyet
   "Fisiología",                                            // fisiologia
   "Histología",                                            // histologia

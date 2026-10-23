@@ -119,7 +119,8 @@ const GROUP_SLUGS = {
   "Inmunología y Biotecnología (LIB)": "inmunologia-biotecnologia",
   "Investigación y Desarrollo de Moléculas Bioactivas": "moleculas-bioactivas",
   "Producción y Reproducción de Rumiantes": "rumiantes",
-  "Virología Molecular": "virologiamolec",
+  "Virología Molecular": "virologiamolec", // name in the October 2026 forms
+  "Virología": "virologiamolec", // renamed afterwards
   "Vectores y Enfermedades Transmitidas": "vyet",
   "Fisiología": "fisiologia",
   "Histología": "histologia",

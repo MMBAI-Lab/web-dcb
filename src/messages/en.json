@@ -97,7 +97,7 @@
     "boardTitle": "Governing Board",
     "boardTitulares": [
       "Dr. Ana María Soler (Human Molecular Genetics) — full member",
-      "Dr. Matías Victoria (Molecular Virology) — full member"
+      "Dr. Matías Victoria (Virology) — full member"
     ],
     "boardSuplentes": [
       "Dr. Ileana Corvo (R&D of Bioactive Molecules) — alternate",
@@ -127,7 +127,7 @@
   },
   "investigacion": {
     "title": "Research",
-    "subtitle": "The DCB's 15 research groups work across the Salto and Paysandú campuses of CENUR Litoral Norte, spanning a range from the molecular to the ecosystemic: membrane biophysics, computational modeling of nucleic acids and proteins, human genetics, immunology, molecular virology, and bioactive molecule development, alongside fluvial ecology, wildlife ecology, movement biomechanics, physiology, histology, anatomy, animal production, and vector-borne disease. What unites them is a shared spirit: generating original knowledge on health, production, and conservation problems relevant to the region and the country.",
+    "subtitle": "The DCB's 15 research groups work across the Salto and Paysandú campuses of CENUR Litoral Norte, spanning a range from the molecular to the ecosystemic: membrane biophysics, computational modeling of nucleic acids and proteins, human genetics, immunology, virology, and bioactive molecule development, alongside fluvial ecology, wildlife ecology, movement biomechanics, physiology, histology, anatomy, animal production, and vector-borne disease. What unites them is a shared spirit: generating original knowledge on health, production, and conservation problems relevant to the region and the country.",
     "note": "Click any group to open its full page.",
     "pending": "Page in preparation.",
     "asociadosLink": "Associated researchers"

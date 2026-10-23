@@ -65,15 +65,15 @@ export const covidResponse: {
     {
       title: { es: "Diagnóstico por PCR en el litoral norte", en: "PCR diagnostics in the northern littoral" },
       body: {
-        es: "A partir del 31 de marzo de 2020, el Laboratorio de Virología Molecular de la sede Salto, dirigido por el Dr. Rodney Colina, reorientó su trabajo al diagnóstico de SARS-CoV-2, poniendo a punto la técnica y procesando muestras de la región.",
-        en: "From 31 March 2020, the Molecular Virology Laboratory at the Salto campus, led by Dr. Rodney Colina, redirected its work to SARS-CoV-2 diagnosis, setting up the technique and processing samples from the region.",
+        es: "A partir del 31 de marzo de 2020, el Laboratorio de Virología de la sede Salto, dirigido por el Dr. Rodney Colina, reorientó su trabajo al diagnóstico de SARS-CoV-2, poniendo a punto la técnica y procesando muestras de la región.",
+        en: "From 31 March 2020, the Virology Laboratory at the Salto campus, led by Dr. Rodney Colina, redirected its work to SARS-CoV-2 diagnosis, setting up the technique and processing samples from the region.",
       },
     },
     {
       title: { es: "Proyecto Frontera", en: "The Frontera project" },
       body: {
-        es: "Aprobado el 9 de julio de 2020 para su financiación por la Fundación Manuel Pérez, «Vigilancia epidemiológica del COVID-19 en las fronteras uruguayas y análisis de su transmisión en el interior del país» reunió a la Unidad de Genómica y Bioinformática y al Laboratorio de Virología Molecular del DCB con el CENUR Este (sede Rocha), el Campus de Tacuarembó (INIA–UdelaR–MGAP), el Institut Pasteur de Montevideo, el Instituto Clemente Estable, el Instituto Oswaldo Cruz (Fiocruz, Brasil) y el Sanatorio Americano. Buscó secuenciar los genomas virales de muestras positivas del interior, inferir el probable origen de las variantes y caracterizar las redes de transmisión local y su dinámica evolutiva. Cinco informes del proyecto fueron elevados al Ministerio de Salud Pública y al GACH.",
-        en: "Approved for funding by the Fundación Manuel Pérez on 9 July 2020, “Epidemiological surveillance of COVID-19 on Uruguay's borders and analysis of its transmission in the country's interior” brought together the DCB's Genomics and Bioinformatics Unit and Molecular Virology Laboratory with CENUR Este (Rocha), the Tacuarembó Campus (INIA–UdelaR–MGAP), the Institut Pasteur de Montevideo, the Clemente Estable Institute, the Oswaldo Cruz Institute (Fiocruz, Brazil), and Sanatorio Americano. It set out to sequence viral genomes from positive samples in the country's interior, infer the likely origin of variants, and characterise local transmission networks and their evolutionary dynamics. Five project reports were submitted to the Ministry of Public Health and the GACH.",
+        es: "Aprobado el 9 de julio de 2020 para su financiación por la Fundación Manuel Pérez, «Vigilancia epidemiológica del COVID-19 en las fronteras uruguayas y análisis de su transmisión en el interior del país» reunió a la Unidad de Genómica y Bioinformática y al Laboratorio de Virología del DCB con el CENUR Este (sede Rocha), el Campus de Tacuarembó (INIA–UdelaR–MGAP), el Institut Pasteur de Montevideo, el Instituto Clemente Estable, el Instituto Oswaldo Cruz (Fiocruz, Brasil) y el Sanatorio Americano. Buscó secuenciar los genomas virales de muestras positivas del interior, inferir el probable origen de las variantes y caracterizar las redes de transmisión local y su dinámica evolutiva. Cinco informes del proyecto fueron elevados al Ministerio de Salud Pública y al GACH.",
+        en: "Approved for funding by the Fundación Manuel Pérez on 9 July 2020, “Epidemiological surveillance of COVID-19 on Uruguay's borders and analysis of its transmission in the country's interior” brought together the DCB's Genomics and Bioinformatics Unit and Virology Laboratory with CENUR Este (Rocha), the Tacuarembó Campus (INIA–UdelaR–MGAP), the Institut Pasteur de Montevideo, the Clemente Estable Institute, the Oswaldo Cruz Institute (Fiocruz, Brazil), and Sanatorio Americano. It set out to sequence viral genomes from positive samples in the country's interior, infer the likely origin of variants, and characterise local transmission networks and their evolutionary dynamics. Five project reports were submitted to the Ministry of Public Health and the GACH.",
       },
     },
     {
@@ -86,8 +86,8 @@ export const covidResponse: {
     {
       title: { es: "Vigilancia genómica de variantes (GTI)", en: "Genomic surveillance of variants (GTI)" },
       body: {
-        es: "El Laboratorio de Virología Molecular del DCB integra el Grupo de Trabajo Interinstitucional (GTI) en Vigilancia de SARS-CoV-2, cuyo objetivo es el seguimiento en tiempo real de la información genómica de las variantes del virus que circulan en Uruguay.",
-        en: "The DCB's Molecular Virology Laboratory is part of the Inter-institutional Working Group (GTI) on SARS-CoV-2 Surveillance, which tracks in real time the genomic data of the virus variants circulating in Uruguay.",
+        es: "El Laboratorio de Virología del DCB integra el Grupo de Trabajo Interinstitucional (GTI) en Vigilancia de SARS-CoV-2, cuyo objetivo es el seguimiento en tiempo real de la información genómica de las variantes del virus que circulan en Uruguay.",
+        en: "The DCB's Virology Laboratory is part of the Inter-institutional Working Group (GTI) on SARS-CoV-2 Surveillance, which tracks in real time the genomic data of the virus variants circulating in Uruguay.",
       },
     },
     {
@@ -133,7 +133,7 @@ export const extensionPrograms: Program[] = [
           { name: "Dr. Julio da Luz", group: "Genética Molecular Humana", talk: "Ancestralidad, fármacos y genes" },
           { name: "Dra. Nélida Rodríguez", group: "Genómica y Bioinformática", talk: "El genoma de la cumbia" },
           { name: "Dr. Daniel Peluffo", group: "Biofisicoquímica", talk: "De canales iónicos, TTX, sushi y peces globo" },
-          { name: "Dr. Matías Victoria", group: "Virología Molecular", talk: "Virus del Papiloma humano en Salto" },
+          { name: "Dr. Matías Victoria", group: "Virología", talk: "Virus del Papiloma humano en Salto" },
         ],
       },
       {
@@ -144,7 +144,7 @@ export const extensionPrograms: Program[] = [
         poster: "/images/extension/tts-2023-bella-union.jpg",
         speakers: [
           { name: "Mag. Ana G. Sánchez", group: "Biofisicoquímica", talk: "Mitos y verdades de la radiación ultravioleta" },
-          { name: "Dra. Leticia Maya", group: "Virología Molecular", talk: "Momentos que inspiran y abren caminos" },
+          { name: "Dra. Leticia Maya", group: "Virología", talk: "Momentos que inspiran y abren caminos" },
           { name: "Dr. Germán Traglia", group: "Genómica y Bioinformática", talk: "Resistencia a antibióticos, nos quedamos sin armas para defendernos" },
           { name: "Mag. María José Zuluaga", group: "Biofisicoquímica", talk: "Estrés: una aventura en varios niveles" },
         ],
@@ -160,7 +160,7 @@ export const extensionPrograms: Program[] = [
           { name: "Dra. Daiana Mir", group: "Genómica y Bioinformática", talk: "Mujeres con-ciencia" },
           { name: "Dr. Daniel Peluffo", group: "Biofisicoquímica", talk: "Entre las membranas biológicas y Galileo Galilei: «Y sin embargo se mueve»" },
           { name: "Dr. Pablo Dans", group: "MMBAI", talk: "No siempre puedes culpar a tus padres" },
-          { name: "Dr. Matías Victoria", group: "Virología Molecular", talk: "Circulación del virus del papiloma humano en Salto" },
+          { name: "Dr. Matías Victoria", group: "Virología", talk: "Circulación del virus del papiloma humano en Salto" },
           { name: "Dra. Laura Lafón-Hughes", group: "Biofisicoquímica", talk: "Cuando la cercanía invita al desarrollo: actores locales en torno al cáncer de colon" },
           { name: "Lic. Ana Egaña y Lic. Andrea Texo", group: "Coordinación CBB", talk: "Ciclo Biología Bioquímica: un ingreso a las Ciencias Biológicas" },
         ],
