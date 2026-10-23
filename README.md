@@ -191,8 +191,7 @@ explícitas dentro del script. Quedó pendiente:
 - [ ] Superan el tope de palabras: resumen de **Virología Molecular** (58/50),
       panorama de **Virología Molecular** (105/100) e **Histología** (266/100).
 - [ ] Siguen sin foto quienes no completaron la ficha, entre ellos
-      Fernández Abella, Realini, Gil Laureiro y Minutti (Rumiantes)
-      y Bermúdez y Bazzano (VyET).
+      Minutti (Rumiantes) y Bermúdez y Bazzano (VyET).
 - [ ] Todo el texto nuevo está solo en español: correr
       `node scripts/report-missing-translations.js` para la pasada de inglés.
 

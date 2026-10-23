@@ -95,24 +95,16 @@
       }
     ]
   },
-  "note": {
-    "es": "La página de investigación general del DCB (investigacion.md) indicaba este cargo como \"llamado en proceso\", pero se localizó la página propia y detallada del grupo (archivada erróneamente en el scraping del sitio Wix bajo el nombre de otro grupo, \"copy-of-moléculas-bioactivas\"), que incluye una reseña en primera persona del Dr. Daniel Fernández Abella junto con sus publicaciones representativas, confirmando que él es el responsable activo del grupo. Es probable que la mención de \"llamado en proceso\" en la página general esté desactualizada.",
-    "en": "The DCB's general research listing (investigacion.md) marked this lead position as a pending search (\"llamado en proceso\"), but a dedicated, detailed page for the group was located (misfiled during the Wix site scrape under a different group's name, \"copy-of-moléculas-bioactivas\"), including a first-person account by Dr. Daniel Fernández Abella together with his representative publications, confirming he is the group's active lead. The \"pending search\" note on the general listing is likely outdated."
-  },
   "lead": {
-    "name": "Prof. Dr. Daniel Fernández Abella",
-    "title": "Responsable del grupo (Gdo 5, 10 hs/sem)",
-    "photo": null
+    "name": "Dr. Richard Núñez Olivera",
+    "title": "Profesor Agregado (Gdo 4, 40 hs/sem)",
+    "photo": "/images/people/richard-nunez-olivera.jpg",
+    "links": {
+      "cvuy": "https://exportcvuy.anii.org.uy/cvsni/?urlId=1015b74a114167c049cb8feb5a44a5c228d1b861e153284d730d45c3826c708aa02b5ae96a28a22ad3ac9d573f7fd5230a78ffea3ebb29a663dc25816fe1c42d&formato=html&convocatoria=21#12",
+      "profile": "https://orcid.org/0000-0002-9312-5069"
+    }
   },
   "members": [
-    {
-      "name": "Prof. Dra. Carolina Realini",
-      "title": "Profesora agregada (Gdo 4, 40 hs/sem, DT)"
-    },
-    {
-      "name": "Dr. Jorge Gil Laureiro",
-      "title": "Profesor adjunto (Gdo 3, 40 hs/sem, DT)"
-    },
     {
       "name": "MSc. Oscar Irabuena",
       "title": "Profesor Adjunto (Gdo 3, 40 hs/sem)",
@@ -124,11 +116,6 @@
       }
     },
     {
-      "name": "Quim. Far. Silvia Sterla",
-      "title": "Cursos de perfeccionamiento (Gdo 3, 30 hs/sem)",
-      "photo": "/images/people/silvia-sterla.jpg"
-    },
-    {
       "name": "Ing. Agr. Alfredo Minutti",
       "title": "Contratado (Gdo 2, 30 hs/sem)"
     },
@@ -136,15 +123,6 @@
       "name": "MSc. Zully Hernández Russo",
       "title": "Profesora adjunta de Fac. de Veterinaria (Gdo 3, 40 hs/sem)",
       "photo": "/images/people/zully-hernandez-russo.jpg"
-    },
-    {
-      "name": "Dr. Richard Núñez Olivera",
-      "title": "Profesor Agregado (Gdo 4, 40 hs/sem)",
-      "photo": "/images/people/richard-nunez-olivera.jpg",
-      "links": {
-        "cvuy": "https://exportcvuy.anii.org.uy/cvsni/?urlId=1015b74a114167c049cb8feb5a44a5c228d1b861e153284d730d45c3826c708aa02b5ae96a28a22ad3ac9d573f7fd5230a78ffea3ebb29a663dc25816fe1c42d&formato=html&convocatoria=21#12",
-        "profile": "https://orcid.org/0000-0002-9312-5069"
-      }
     }
   ],
   "publications": [
