@@ -77,10 +77,7 @@ export function Investigacion() {
   const tg = useTranslations("grupoDetalle");
   const locale = useLocale() as "es" | "en";
 
-  // Alphabetical by the Spanish name, in both locales, so the grid reads the
-  // same on the English site.
-  const sorted = [...researchGroups].sort((a, b) => a.name.es.localeCompare(b.name.es, "es"));
-  const tiles: Tile[] = sorted.map((group) => {
+  const tiles: Tile[] = researchGroups.map((group) => {
     const people = [group.lead, group.coLead].filter(Boolean).map((p) => p!.name);
     return {
       key: group.slug,

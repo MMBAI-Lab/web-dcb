@@ -114,12 +114,12 @@ export type ResearchGroup = {
   pending?: boolean;
 };
 
-// Display order matches the original site's Investigación page; groups that
-// joined with the October 2026 census follow, with the pending one last.
+// Every page lists groups alphabetically by their Spanish name, and the
+// English site keeps that same order.
 // Cast because TS widens JSON string literals to `string`, so teaching
 // `levels` can't satisfy the TeachingLevel union on its own; the migration
 // script is what guarantees those values are valid.
-export const researchGroups = [
+const groups = [
   bfq,
   danslab,
   libiam,
@@ -136,6 +136,8 @@ export const researchGroups = [
   histologia,
   anatomia,
 ] as ResearchGroup[];
+
+export const researchGroups = groups.sort((a, b) => a.name.es.localeCompare(b.name.es, "es"));
 
 /** DCB members not (yet) in a research group — see /investigacion/asociados. */
 export const asociados = asociadosData.members as Member[];
