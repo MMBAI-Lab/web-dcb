@@ -5,65 +5,58 @@
     "en": "Vectors and Vector-Borne Diseases"
   },
   "campus": "Salto",
-  "email": "labvyet@gmail.com",
+  "email": "lvet.cenurln@gmail.com",
   "summary": {
-    "es": "Estudia enfermedades transmitidas por garrapatas a animales domésticos, silvestres y humanos, su sistemática y ecología, así como caracoles hospederos intermediarios de trematodes y helmintos de importancia médica y veterinaria.",
-    "en": "Studies tick-borne diseases affecting domestic and wild animals and humans, tick systematics and ecology, as well as snail intermediate hosts of trematodes and helminths of medical and veterinary importance."
+    "es": "El Laboratorio de Vectores y Enfermedades Transmitidas se dedica al estudio en campo y laboratorio, de agentes patógenos transmitidos por vectores. Sus actividades abarcan la investigación de estas enfermedades en diversas especies de animales domésticos y silvestres, como en humanos, con el objetivo de contribuir al conocimiento y vigilancia de estos agentes.",
+    "en": ""
   },
   "researchLines": {
     "intro": {
-      "es": "",
+      "es": "El Laboratorio de Vectores y Enfermedades Transmitidas se dedica al estudio, tanto en campo como en laboratorio, de los agentes patógenos transmitidos por vectores. Sus actividades abarcan la investigación de estas enfermedades en diversas especies de animales domésticos y silvestres, así como en humanos, con el objetivo de contribuir al conocimiento y vigilancia de estos agentes.",
       "en": ""
     },
     "lines": [
       {
         "title": {
-          "es": "Enfermedades transmitidas por garrapatas",
-          "en": "Tick-borne diseases"
+          "es": "Enfermedades transmitidas por garrapatas a animales domésticos y silvestres y a humanos",
+          "en": ""
         },
         "body": {
-          "es": "Enfermedades transmitidas por garrapatas a animales domésticos y silvestres y a humanos.",
-          "en": "Tick-borne diseases affecting domestic and wild animals and humans."
+          "es": "Investigación de los agentes patógenos transmitidos por garrapatas, su epidemiología, ecología y dinámica de transmisión entre animales domésticos, fauna silvestre y seres humanos, con énfasis en su impacto sanitario y en el enfoque de Una Salud.",
+          "en": ""
+        },
+        "institutions": [
+          "DCB"
+        ]
+      },
+      {
+        "title": {
+          "es": "Sistemática y ecología de garrapatas",
+          "en": ""
+        },
+        "body": {
+          "es": "Estudio de la diversidad, taxonomía, distribución y relaciones evolutivas de las garrapatas, así como de sus interacciones con el ambiente y los hospedadores",
+          "en": ""
         }
       },
       {
         "title": {
-          "es": "Sistemática y ecología de vectores",
-          "en": "Vector systematics and ecology"
+          "es": "Sistemática, ecología y enfermedades transmitidas por vectores (no garrapatas)",
+          "en": ""
         },
         "body": {
-          "es": "Sistemática y ecología de garrapatas. Sistemática, ecología y enfermedades transmitidas por vectores (no garrapatas).",
-          "en": "Tick systematics and ecology. Systematics, ecology, and diseases transmitted by vectors other than ticks."
+          "es": "Investigación de las enfermedades transmitidas por vectores distintos de las garrapatas, abordando la identificación y caracterización de los agentes patógenos, su epidemiología, los ciclos de transmisión",
+          "en": ""
         }
       },
       {
         "title": {
-          "es": "Caracoles hospederos intermediarios",
-          "en": "Intermediate host snails"
+          "es": "Caracterización morfológica y molecular de helmintos de interés en animales domésticos y silvestres",
+          "en": ""
         },
         "body": {
-          "es": "Caracterización molecular y estudios filogenéticos de las distintas especies de caracoles (familias Lymnaeidae y Planorbidae) hospederos intermediarios de trematodes de importancia médica y veterinaria en el Uruguay.",
-          "en": "Molecular characterization and phylogenetic studies of snail species (families Lymnaeidae and Planorbidae) that serve as intermediate hosts for trematodes of medical and veterinary importance in Uruguay."
-        }
-      },
-      {
-        "title": {
-          "es": "Helmintos de animales domésticos y silvestres",
-          "en": "Helminths of domestic and wild animals"
-        },
-        "body": {
-          "es": "Caracterización morfológica y molecular de helmintos de interés en animales domésticos y silvestres.",
-          "en": "Morphological and molecular characterization of helminths of interest in domestic and wild animals."
-        }
-      },
-      {
-        "title": {
-          "es": "Parasitosis y zoonosis en peces",
-          "en": "Fish parasitoses and zoonoses"
-        },
-        "body": {
-          "es": "Parasitosis y zoonosis parasitarias en peces de interés comercial y deportivo.",
-          "en": "Parasitic diseases and zoonoses in fish of commercial and recreational importance."
+          "es": "Caracterización e identificación de helmintos de interés veterinario mediante herramientas morfológicas y moleculares, con énfasis en su diversidad, taxonomía, relaciones filogenéticas y relevancia sanitaria en animales domésticos y silvestres",
+          "en": ""
         }
       }
     ]
@@ -79,17 +72,18 @@
   },
   "members": [
     {
-      "name": "Sergio Bermúdez",
-      "title": "Estudiante de Doctorado (PEDECIBA)"
-    },
-    {
       "name": "DMTV. María Laura Félix",
       "title": "Asistente (Gdo 2, 40 hs/sem)",
-      "photo": "/images/people/maria-laura-felix.jpg"
-    },
-    {
-      "name": "Valentín Bazzano",
-      "title": "Estudiante de Maestría, Facultad de Veterinaria"
+      "photo": "/images/people/maria-laura-felix.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Sanidad Animal, Facultad de Veterinaria",
+        "advisors": "Dra. Teresa Armúa"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?856fcdfe87abbe670c09b3dfb2a076e7bcbaf7fda6429f480185d806bdb17cccb3a177f6e6c3557e8e97db114dfdae66769fdf069d5f5ada38c9b7e9b62f65ff",
+        "profile": "https://orcid.org/0000-0003-4902-4620"
+      }
     },
     {
       "name": "DCV Rodrigo Alvez Decesari",
@@ -107,234 +101,225 @@
   ],
   "publications": [
     {
-      "citation": "Félix ML, Muñoz-Leal S, Carvalho LA, Queirolo D, Remesar S, Armúa-Fernández MT, et al. Characterization of \"Candidatus Ehrlichia pampeana\" in Haemaphysalis juxtakochi ticks and gray brocket deer (Mazama gouazoubira) from Uruguay. Microorganisms. [Aceptado, en prensa]."
+      "doi": "10.1177/1040638720975742",
+      "citation": "Parodi P, Corbellini LG, Leotti VB, Rivero R, Miraballes C, Riet-Correa F, et al. Validation of a multiplex PCR assay to detect Babesia spp. and Anaplasma marginale in cattle in Uruguay in the absence of a gold standard test. Journal of Veterinary Diagnostic Investigation. 2020;33(1):73-9. https://doi.org/10.1177/1040638720975742"
     },
     {
-      "citation": "Cuervo PF, Flores FS, Venzal JM, Nava S. Niche divergence among closely related taxa provides insight on evolutionary patterns of ticks. Journal of Biogeography. 2021."
+      "doi": "10.1016/j.crpvbd.2021.100022",
+      "citation": "Félix ML, Muñoz-Leal S, Carvalho LA, Queirolo D, Remesar Alonso S, Nava S, et al. Molecular characterization of novel Ehrlichia genotypes in Ixodes auritulus from Uruguay. Current Research in Parasitology & Vector-Borne Diseases. 2021;1:100022. https://doi.org/10.1016/j.crpvbd.2021.100022"
     },
     {
-      "citation": "Quintero JC, Félix ML, Venzal JM, Nava S. Ixodes tropicalis (Acari: Ixodidae) infesting a human and molecular detection of Rickettsia belli, Colombia. Biomédica. 2021;41(2)."
+      "doi": "10.1007/s00436-021-07305-6",
+      "citation": "Carvalho L, Félix ML, Bazzano V, da Costa A, Armúa-Fernández MT, Muñoz-Leal S, et al. An Hepatozoon americanum-like protozoan in crab-eating (Cerdocyon thous) and grey Pampean (Lycalopex gymnocercus) foxes from Uruguay. Parasitology Research. 2021;120(10):3587-93. https://doi.org/10.1007/s00436-021-07305-6"
     },
     {
-      "citation": "Domínguez AL, Félix ML, Kadoch N, Muñoz-Leal S, Venzal JM. Molecular screening for tick-borne bacteria and hematozoa in Ixodes cf. boliviensis and Ixodes tapirus (Ixodida: Ixodidae) from western highlands of Panama. Current Research in Parasitology & Vector-Borne Diseases. 2021;100034."
+      "doi": "10.3390/microorganisms9102165",
+      "citation": "Félix ML, Muñoz-Leal S, Carvalho LA, Queirolo D, Remesar S, Armúa-Fernández MT, et al. Characterization of “candidatus Ehrlichia pampeana” in Haemaphysalis juxtakochi ticks and gray brocket deer (Mazama gouazoubira) from Uruguay. Microorganisms. 2021;9(10):2165. https://doi.org/10.3390/microorganisms9102165"
     },
     {
-      "citation": "Labruna MB, Nava S, Rebollo-Hernández A, Guzmán-Cornejo C, Hernández LV, Domínguez L, et al. Morphological descriptions of the nymph and adults of Ornithodoros clarki, the larva and nymph of Ornithodoros rondoniensis, with notes on their phylogenetic relationships. Systematic Parasitology. 2021;98(3):231-246."
+      "doi": "10.1016/j.vprsr.2022.100700",
+      "citation": "Parodi P, Armúa-Fernández MT, Corbellini LG, Rivero R, Miraballes C, Riet-Correa F, et al. Description of bovine babesiosis and anaplasmosis outbreaks in northern Uruguay between 2016 and 2018. Veterinary Parasitology: Regional Studies and Reports. 2022;29:100700. https://doi.org/10.1016/j.vprsr.2022.100700"
     },
     {
-      "citation": "Armúa-Fernández MT, Burutarán M, Bazzano V, Félix ML, Castro F, Venzal JM. Molecular characterization of plerocerdoids and adults of genus Spirometra (Eucestoda: Diphyllobothriidae) from Uruguay. Taxonomy. 2021;1(3):270-277."
+      "doi": "10.3389/fvets.2022.990228",
+      "citation": "Parodi P, Armúa-Fernández MT, Schanzembach M, Mir D, Benítez-Galeano MJ, Rodríguez-Osorio N, et al. Characterization of strains of Anaplasma marginale from clinical cases in bovine using major surface protein 1a in Uruguay. Frontiers in Veterinary Science. 2022;9. https://doi.org/10.3389/fvets.2022.990228"
     },
     {
-      "citation": "Muñoz-Leal S, Venzal JM, Jorge FR, Teixeira BM, Labruna MB. A new species of soft tick from dry tropical forests of Brazilian Caatinga. Ticks and Tick-borne Diseases. 2021;12(5):101748."
+      "doi": "10.1016/j.vprsr.2024.101027",
+      "citation": "Parodi P, Bazzano V, Armúa-Fernández MT, Félix ML, Carvalho LA, Freire J, et al. Molecular survey of piroplasmida, Hepatozoon spp. and anaplasmataceae in anemic and thrombocytopenic dogs from Uruguay. Veterinary Parasitology: Regional Studies and Reports. 2024;51:101027. https://doi.org/10.1016/j.vprsr.2024.101027"
     },
     {
-      "citation": "Carvalho L, Félix ML, Bazzano V, da Costa A, Armúa-Fernández MT, Muñoz-Leal S, et al. An Hepatozoon americanum-like protozoan in crab-eating (Cerdocyon thous) and grey pampean (Lycalopex gymnocercus) foxes from Uruguay. Parasitology Research. 2021:1-7."
+      "doi": "10.1007/s11230-025-10230-2",
+      "citation": "Venzal JM, Tarragona EL, Flores FS, Félix ML, Cicuttin GL, Sebastian PS, et al. The Ixodes auritulus complex (acari: parasitiformes: Ixodidae) in the southern cone of America. Systematic Parasitology. 2025;102(3). https://doi.org/10.1007/s11230-025-10230-2"
     },
     {
-      "citation": "Bazzano V, Freire J, Armúa-Fernández MT, Félix ML, Carvalho LA, Venzal JM. Detección molecular de Hepatozoon felis en gatos con anemia en Uruguay. Veterinaria (Montevideo). 2021;57(215)."
+      "doi": "10.1186/s13071-025-06866-0",
+      "citation": "Alvez R, Félix ML, Santodomingo A, Parodi P, Thomas R, Muñoz-Leal S, et al. A survey for piroplasmids in questing Ixodes fuscipes ticks reveals undescribed Babesia lineages in Uruguay. Parasites & Vectors. 2025;18(1). https://doi.org/10.1186/s13071-025-06866-0"
     },
     {
-      "citation": "De Lorenzo C, Boabaid FM, de Oliveira LGS, Bianchi MV, Félix ML, Armúa-Fernández MT, et al. Rangelia vitalii in free-living crab-eating foxes (Cerdocyon thous) in Uruguay. Ticks and Tick-borne Diseases. 2021;101765."
-    },
-    {
-      "citation": "Félix ML, Muñoz-Leal S, Carvalho LA, Queirolo D, Alonso SR, Nava S, et al. Molecular characterization of novel Ehrlichia genotypes in Ixodes auritulus from Uruguay. Current Research in Parasitology & Vector-Borne Diseases. 2021;1:100022."
-    },
-    {
-      "citation": "Bottero MNS, Beati L, Venzal JM, Guardia L, Thompson CS, Mangold AJ, et al. Ixodes silvanus n. sp. (Acari: Ixodidae), a new member of the subgenus Trichotoixodes Reznik, 1961 from northwestern Argentina. Ticks and Tick-borne Diseases. 2021;12(1):101572."
-    },
-    {
-      "citation": "Parodi P, Corbellini LG, Leotti VB, Rivero R, Miraballes C, Riet-Correa F, et al. Validation of a multiplex PCR assay to detect Babesia spp. and Anaplasma marginale in cattle in Uruguay in the absence of a gold standard test. Journal of Veterinary Diagnostic Investigation. 2021;33(1):73-79."
-    },
-    {
-      "citation": "Félix ML, Armúa-Fernández MT, Parodi P, Bazzano V, Mangold AJ, Venzal JM. Detection of a putative novel genotype of Anaplasma in gray-brocket deer (Mazama gouazoubira) from Uruguay. Experimental and Applied Acarology. 2020;81(4):575-583."
-    },
-    {
-      "citation": "Gomez-Puerta LA, Muñoz-Leal S, Labruna MB, Venzal JM. Confirmation of Argas neghmei (Ixodida: Argasidae) in Peru and report of the Andean flicker (Colaptes rupicola) as a new host."
-    },
-    {
-      "citation": "Flores FS, Saracho-Bottero MN, Sebastian PS, Venzal JM, Mangold AJ, Nava S. Borrelia genospecies in Ixodes sp. cf. Ixodes affinis (Acari: Ixodidae) from Argentina. Ticks and Tick-borne Diseases. 2020;11(6):101546."
-    },
-    {
-      "citation": "Cicuttin GL, De Salvo MN, Pérez PD, Silva D, Félix ML, Venzal JM, et al. A novel Ehrlichia strain (Rickettsiales: Anaplasmataceae) detected in Amblyomma triste (Acari: Ixodidae), a tick species of public health importance in the Southern Cone of America. Pathogens and Global Health. 2020;114(6):318-322."
-    },
-    {
-      "citation": "Sánchez RO, Bazzano V, Félix ML, Armúa-Fernández MT, Venzal JM. Ehrlichiosis monocítica canina en la provincia de Entre Ríos, Argentina: confirmación molecular de casos en la ciudad de Concordia. FAVE Sección Ciencias Veterinarias. 2020;19(1):16-22."
-    },
-    {
-      "citation": "Bazzano V, Félix ML, Parodi P, Carvalho LA, Nava S, Armúa-Fernández MT, et al. Phylogenetic analysis of Hepatozoon spp. (Apicomplexa: Hepatozoidae) infecting Philodryas patagoniensis (Serpentes: Dipsadidae) in Uruguay. Parasitology Research. 2020:1-8."
-    },
-    {
-      "citation": "Colombo VC, Montani ME, Pavé R, Antoniazzi LR, Gamboa MD, Fasano AA, et al. First detection of \"Candidatus Rickettsia wissemanii\" in Ornithodoros hasei (Schulze, 1935) (Acari: Argasidae) from Argentina. Ticks and tick-borne diseases. 2020;11(4):101442."
-    },
-    {
-      "citation": "Carvalho LA, Maya L, Armua-Fernandez MT, Félix ML, Bazzano V, Barbieri AM, et al. Borrelia burgdorferi sensu lato infecting Ixodes auritulus ticks in Uruguay. Experimental and Applied Acarology. 2020;80(1):109-125."
-    },
-    {
-      "citation": "Sebastian PS, Flores FS, Saracho-Bottero MN, Tarragona EL, Venzal JM, Nava S. Molecular detection of rickettsial bacteria in ticks of the genus Ixodes from the Southern Cone of America. Acta tropica. 2020;210:105588."
-    },
-    {
-      "citation": "Guzmán-Cornejo C, Rebollo-Hernández A, Troyo A, Moreira-Soto RD, Hernández LV, Muñoz-Leal S, et al. New records and phylogenetic position of Ornithodoros knoxjonesi (Ixodida: Argasidae). Ticks and Tick-borne Diseases. 2020;11(5):101473."
-    },
-    {
-      "citation": "Muñoz-Leal S, González-Acuña D, Labruna MB, Venzal JM. Redescription of the larva, and description of the nymphal and adult stages of Ornithodoros peruvianus Kohls, Clifford & Jones, 1969 (Acari: Argasidae). Systematic parasitology. 2020;97(2):201-215."
-    },
-    {
-      "citation": "Muñoz-Leal S, Venzal JM, Nava S, Marcili A, González-Acuña D, Martins TF, et al. Description of a new soft tick species (Acari: Argasidae: Ornithodoros) parasite of Octodon degus (Rodentia: Octodontidae) in northern Chile. Ticks and tick-borne diseases. 2020;11(3):101385."
-    },
-    {
-      "citation": "Saracho-Bottero MN, Venzal JM, Tarragona EL, Thompson CS, Mangold AJ, Beati L, et al. The Ixodes ricinus complex (Acari: Ixodidae) in the Southern Cone of America: Ixodes pararicinus, Ixodes aragaoi, and Ixodes sp. cf. I. affinis. Parasitology research. 2020;119(1):43-54."
-    },
-    {
-      "citation": "Estrada-Peña A, Szabó M, Labruna M, Mosqueda J, Merino O, Tarragona E, et al. Towards an effective, rational and sustainable approach for the control of cattle ticks in the Neotropics. 2020."
-    },
-    {
-      "citation": "Armúa-Fernández MT, Venzal JM. Leishmaniosis: breve puesta al día. Veterinaria (Montevideo). 2019;55(211):29-36."
-    },
-    {
-      "citation": "Estrada-Peña A, Nava S, Tarragona E, Bermúdez S, de la Fuente J, Domingos A, et al. Species occurrence of ticks in South America, and interactions with biotic and abiotic traits. Scientific data. 2019;6(1):1-5."
-    },
-    {
-      "citation": "Muñoz-Leal S, Nava S, González-Acuña D, Gomez-Puerta LA, Labruna MB, Venzal JM. On the presence of Ornithodoros microlophi (Argasidae) in Peru. Systematic and Applied Acarology. 2019;24(11):2278-2284."
-    },
-    {
-      "citation": "Labruna MB, Onofrio VC, Barros-Battesti DM, Gianizella SL, Venzal JM, Guglielmone AA. Synonymy of Ixodes aragaoi with Ixodes fuscipes, and reinstatement of Ixodes spinosus (Acari: Ixodidae). Ticks and tick-borne diseases. 2020;11(2):101349."
-    },
-    {
-      "citation": "Remesar S, Diaz P, Venzal JM, Prieto A, Estrada-Peña A, López CM, et al. Longitudinal study of infection with Borrelia spp. in questing ticks from north-western Spain. Vector-Borne and Zoonotic Diseases. 2019;19(11):785-792."
-    },
-    {
-      "citation": "Cicuttin GL, De Salvo MN, Venzal JM, Nava S. Borrelia spp. in ticks and birds from a protected urban area in Buenos Aires city, Argentina. Ticks and tick-borne diseases. 2019;10(6):101282."
-    },
-    {
-      "citation": "Félix ML, Venzal JM. Primer reporte de Haemaphysalis juxtakochi Cooley, 1946 (Acari: Ixodidae) parasitando equinos en Uruguay. Revista FAVE–Sección Ciencias Veterinarias. 2019;18:9-11."
-    },
-    {
-      "citation": "Venzal JM, Castillo GN, Gonzalez-Rivas CJ, Mangold AJ, Nava S. Description of Ornithodoros montensis n. sp. (Acari, Ixodida: Argasidae), a parasite of the toad Rhinella arenarum (Amphibia, Anura: Bufonidae) in the Monte Desert of Argentina. Experimental and Applied Acarology. 2019;78(1):133-147."
-    },
-    {
-      "citation": "Díaz P, Remesar S, Venzal JM, Vázquez-López ME, Fernández G, López C, et al. Occurrence of Borrelia and Borreliella species in Ixodes ricinus collected from roe deer in northwestern Spain. Medical and veterinary entomology. 2019;33(3):427-430."
-    },
-    {
-      "citation": "Remesar S, Fernández PD, Venzal JM, Pérez-Creo A, Prieto A, Estrada-Peña A, et al. Tick species diversity and population dynamics of Ixodes ricinus in Galicia (north-western Spain). Ticks and tick-borne diseases. 2019;10(1):132-137."
-    },
-    {
-      "citation": "Lado P, Nava S, Mendoza-Uribe L, Caceres AG, Delgado-De La Mora J, Licona-Enriquez JD, et al. The Amblyomma maculatum Koch, 1844 (Acari: Ixodidae) group of ticks: phenotypic plasticity or incipient speciation? Parasites & vectors. 2018;11(1):1-22."
-    },
-    {
-      "citation": "Venzal JM, Nava S, Hernández LV, Miranda J, Marcili A, Labruna MB. A morphological and phylogenetic analysis of Ornithodoros marinkellei (Acari: Argasidae), with additional notes on habitat and host usage. Experimental and Applied Acarology. 2018;76(2):249-261."
-    },
-    {
-      "citation": "Thompson CS, Mangold AJ, Félix ML, Carvalho L, Armúa-Fernández MT, Venzal JM. Molecular evidence of Babesia species in Procyon cancrivorus (Carnivora, Procyonidae) in Uruguay. Veterinary Parasitology: Regional Studies and Reports. 2018;13:230-233."
-    },
-    {
-      "citation": "Nava S, Beati L, Venzal JM, Labruna MB, Szabó MP, Petney TT, et al. Rhipicephalus sanguineus (Latreille, 1806): neotype designation, morphological re-description of all parasitic stages and molecular characterization. Ticks and tick-borne diseases. 2018;9(6):1573-1585."
-    },
-    {
-      "citation": "Parodi P, Freire J, Armúa-Fernández MT, Félix ML, Guerisoli D, Bazzano V, et al. Diagnóstico parasitológico y molecular de tripanosomiasis canina por Trypanosoma evansi en perros asociados a la caza en dos localidades del Departamento de Artigas, Uruguay. Veterinaria (Montevideo). 2018;54(210):15-21."
-    },
-    {
-      "citation": "Faccini-Martínez ÁA, Félix ML, Armua-Fernandez MT, Venzal JM. An autochthonous confirmed case of Rickettsia parkeri rickettsiosis in Uruguay. Ticks and tick-borne diseases. 2018;9(3):718-719."
-    },
-    {
-      "citation": "Venzal JM, Nava S, Hernández LV, Miranda J, Marcili A, Labruna MB. A morphological and phylogenetic analysis of Ornithodoros marinkellei (Acari: Argasidae), with additional notes on habitat and host usage. Experimental and Applied Acarology. 2018;76:249-261."
-    },
-    {
-      "citation": "Lamattina D, Costa SA, Arrabal JP, Venzal JM, Guglielmone AA, Nava S. Factors associated with hard tick (Acari: Ixodidae) parasitism in medium-sized mammals in the Atlantic Rainforest region of Argentina. Ticks and tick-borne diseases. 2018;9(6):1451-1458."
-    },
-    {
-      "citation": "Castro O, Félix ML, Venzal JM. Procaudotestis cordiformis sp. nov. (Digenea: Apocreadiidae), parasite of Rhinelepis strigosa (Osteichthyes: Loricariidae) from Uruguay River basin, Uruguay. Boletín de la Sociedad Zoológica del Uruguay (2ª época). 2018;27(2):41-45."
-    },
-    {
-      "citation": "Vogt CM, Armúa-Fernández MT, Tobler K, Hilbe M, Aguilar C, Ackermann M, et al. Oral application of recombinant Bacillus subtilis spores to dogs results in a humoral response against specific Echinococcus granulosus paramyosin and tropomyosin antigens. Infection and immunity. 2018;86(3):e00495-17."
-    },
-    {
-      "citation": "Lamattina D, Venzal JM, Tarragona EL, Mangold AJ, Nava S. Amblyomma yucumense Krawczak, Martins & Labruna, 2015 (Acari: Ixodidae) in Argentina. Systematic and Applied Acarology. 2018;23(5):799-802."
-    },
-    {
-      "citation": "Lima PH, Vidigal PM, Barcelos RM, Klein RC, Montandon CE, Fabres-Klein MH, et al. The Nothoaspis amazoniensis complete mitogenome: a comparative and phylogenetic analysis. Veterinary sciences. 2018;5(2):37."
-    },
-    {
-      "citation": "Estrada-Pena A, Venzal JM, Nava S. Redescription, molecular features, and neotype deposition of Rhipicephalus pusillus Gil Collado and Ixodes ventalloi Gil Collado (Acari, Ixodidae). Zootaxa. 2018;4442(2):262-276."
-    },
-    {
-      "citation": "Lareschi M, Venzal JM, Nava S, Mangold AJ, Portillo A, Palomar-Urbina AM, et al. La pulga humana Pulex irritans (Siphonaptera: Pulicidae) en el noroeste argentino, una investigación de Bartonella y Rickettsia spp. Revista mexicana de biodiversidad. 2018;89(2):375-381."
-    },
-    {
-      "citation": "Lamattina D, Venzal JM, Costa SA, Arrabal JP, Flores S, Berrozpe PE, et al. Ecological characterization of a tick community across a landscape gradient exhibiting differential anthropogenic disturbance in the Atlantic Forest ecoregion in Argentina. Medical and veterinary entomology. 2018;32(3):271-281."
-    },
-    {
-      "citation": "Saracho-Bottero MN, Tarragona EL, Sebastian PS, Venzal JM, Mangold AJ, Guglielmone AA, et al. Ticks infesting cattle and humans in the Yungas Biogeographic Province of Argentina, with notes on the presence of tick-borne bacteria. Experimental and Applied Acarology. 2018;74(1):107-116."
-    },
-    {
-      "citation": "Díaz P, Arnal JL, Remesar S, Pérez-Creo A, Venzal JM, Vázquez-López ME, et al. Molecular identification of Borrelia spirochetes in questing Ixodes ricinus from northwestern Spain. Parasites & vectors. 2017;10(1):1-7."
-    },
-    {
-      "citation": "Michel T, Souza U, Dall'Agnol B, Webster A, Peters F, Christoff A, et al. Ixodes spp. (Acari: Ixodidae) ticks in Rio Grande do sul state, Brazil. Systematic and Applied Acarology. 2017;22(12):2057-2067."
-    },
-    {
-      "citation": "Thapa NK, Armua-Fernandez MT, Kinzang D, Gurung RB, Wangdi P, Deplazes P. Detection of Echinococcus granulosus and Echinococcus ortleppi in Bhutan. Parasitology international. 2017;66(2):139-141."
-    },
-    {
-      "citation": "Muñoz-Leal S, Venzal JM, Nava S, Reyes M, Martins TF, Leite RC, et al. The geographic distribution of Argas (Persicargas) miniatus and Argas (Persicargas) persicus (Acari: Argasidae) in America, with morphological and molecular diagnoses from Brazil, Chile and Cuba. Ticks and tick-borne diseases. 2018;9(1):44-56."
-    },
-    {
-      "citation": "Dall'Agnol B, Michel T, Weck B, Souza UA, Webster A, Leal BF, et al. Borrelia burgdorferi sensu lato in Ixodes longiscutatus ticks from Brazilian Pampa. Ticks and tick-borne diseases. 2017;8(6):928-932."
-    },
-    {
-      "citation": "Guzmán-Cornejo C, García-Prieto L, Rebollo-Hernández A, Venzal JM, Nava S, Sánchez-Montes S. Molecular evidence and additional morphological characters to distinguish Ornithodoros brodyi and Ornithodoros yumatensis (Ixodida: Argasidae) in their different developmental stages. Acta parasitologica. 2017;62(2):432-448."
-    },
-    {
-      "citation": "Alishani M, Sherifi K, Rexhepi A, Hamidi A, Armua-Fernandez MT, Grimm F, et al. The impact of socio-cultural factors on transmission of Taenia spp. and Echinococcus granulosus in Kosovo. Parasitology. 2017;144(13):1736-1742."
-    },
-    {
-      "citation": "Rivero R, Minoli P, Parodi P, Matto C, Armúa-Fernández MT, Gianneechini E, et al. Description of an outbreak of canine rangeliosis in the northwest littoral of Uruguay. Veterinaria (Montevideo). 2017;53(208):21-37."
-    },
-    {
-      "citation": "Otero-Abad B, Armua-Fernandez MT, Deplazes P, Torgerson PR, Hartnack S. Latent class models for Echinococcus multilocularis diagnosis in foxes in Switzerland in the absence of a gold standard. Parasites & vectors. 2017;10(1):612."
-    },
-    {
-      "citation": "Buroni F, Armua-Fernandez MT, Nan F, Matto C, Venzal JM, Rivero R. Coenurosis bovina en Uruguay. Veterinaria (Montevideo). 2017;53(206):23-32."
-    },
-    {
-      "citation": "Carvalho L, Armua-Fernandez MT, Sosa N, Félix ML, Venzal JM. Anaplasma platys in dogs from Uruguay. Ticks and tick-born diseases. 2017;8(2):241-245."
+      "doi": "10.1186/s13071-025-07226-8",
+      "citation": "Félix ML, Santodomingo A, Thomas R, Queirolo D, Muñoz-Leal S, Venzal JM. A novel ecotype of Anaplasma phagocytophilum complex in questing Ixodes fuscipes ticks. Parasites & Vectors. 2026;19(1). https://doi.org/10.1186/s13071-025-07226-8"
     }
   ],
   "teaching": [
     {
-      "es": "Curso curricular de Parasitología y Enfermedades Parasitarias. Carrera de Doctor en Ciencias Veterinarias, Facultad de Veterinaria, CENUR Litoral Norte - UdelaR",
-      "en": "Curricular course in Parasitology and Parasitic Diseases. Doctor of Veterinary Science program, Facultad de Veterinaria, CENUR Litoral Norte - UdelaR",
+      "es": "Curso Parasitología, Plan de Estudios 2021, Facultad de Veterinaria, CENUR Litoral Norte.",
+      "en": "",
       "levels": [
         "grado"
       ]
     },
     {
-      "es": "\"Introducción al diagnóstico molecular orientado fundamentalmente a parásitos\" (2021). Curso de posgrado, Facultad de Veterinaria, UdelaR, y del Instituto de Pesquisas Veterinárias Desidério Finamor, Programa de Pós-Graduação em Saúde Animal. Dictado online",
-      "en": "\"Introduction to Molecular Diagnostics Focused on Parasites\" (2021). Graduate course, Facultad de Veterinaria, UdelaR, and the Instituto de Pesquisas Veterinárias Desidério Finamor, Graduate Program in Animal Health. Taught online",
+      "es": "Curso Enfermedades Parasitarias, Plan de Estudios 2021, Facultad de Veterinaria, CENUR Litoral Norte.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Curso de INTRODUCCIÓN A LA BIOLOGÍA ANIMAL Ciclo Inicial en Biología y Bioquímica del CENUR Litoral Norte.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Curso de BIOLOGÍA PARASITARIA de la Unidad Académica Laboratorio de Biología Parasitaria, Instituto de Higiene.",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "CURSO AIM OPTATIVA MEDICINA: Artrópodos de interés médico. Unidad Académica de Parasitología y Micología. Instituto de Higiene",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Enfermedades transmitidas por artrópodos: actualización y herramientas de cultivo para su diagnóstico. Centro de Posgrados y Educación Permanente, Facultad de Veterinaria, Universidad de la República",
+      "en": "",
       "levels": [
         "posgrado"
       ]
     },
     {
-      "es": "\"Taxonomía y métodos de estudio de garrapatas y enfermedades transmitidas en el Cono Sur de América\" (2017). Curso de posgrado, Facultad de Veterinaria, UdelaR. Dictado en el CENUR Litoral Norte, Regional Norte",
-      "en": "\"Taxonomy and Study Methods for Ticks and Tick-Borne Diseases in the Southern Cone of America\" (2017). Graduate course, Facultad de Veterinaria, UdelaR. Taught at CENUR Litoral Norte, Regional Norte",
+      "es": "Vínculo entre enfermedades de los animales silvestres, domésticos y humanos. Facultad de Veterinaria. Universidad de la República. Montevideo, Uruguay.",
+      "en": "",
       "levels": [
-        "posgrado"
+        "otras"
       ]
     },
     {
-      "es": "\"Diagnóstico molecular de enfermedades transmitidas por vectores de importancia médica y veterinaria\" (2017). Programa de posgrado de Facultad de Veterinaria, UdelaR y PEDECIBA. Dictado en el CENUR Litoral Norte, Regional Norte",
-      "en": "\"Molecular Diagnosis of Vector-Borne Diseases of Medical and Veterinary Importance\" (2017). Graduate program, Facultad de Veterinaria, UdelaR and PEDECIBA. Taught at CENUR Litoral Norte, Regional Norte",
-      "levels": [
-        "posgrado"
-      ]
-    },
-    {
-      "es": "Pasantía de estudiantes de profesorado de Biología del CeRP del Litoral",
-      "en": "Internship for students of the Biology Teacher Training Program, CeRP del Litoral",
+      "es": "Pasantías estudiantes de cuarto año de la carrera de Profesorado, especialidad Ciencias Biológicas, Dirección del Centro Regional de Profesores del litoral - Sede Salto. Consejo de Formación en Educación, Administración Nacional de Educación Pública (ANEP), Uruguay.",
+      "en": "",
       "levels": [
         "otras"
       ]
     }
   ],
-  "image": "/images/groups/vyet.jpg"
+  "image": "/images/groups/vyet.jpg",
+  "currentProjects": [
+    {
+      "title": "Diagnóstico de hemoparásitos de transmisión vectorial en bovinos y caracterización genética de poblaciones de Rhipicephalus microplus en Uruguay.",
+      "funder": "FONDO DE PROMOCIÓN DE TECNOLOGÍA AGROPECUARIA (FPTA)",
+      "period": "2024-2027",
+      "role": "Responsable"
+    },
+    {
+      "title": "Miasis por Cochliomyia hominivorax en fauna silvestre en Uruguay: aportes para el control de una problemática nacional.",
+      "funder": "CSIC",
+      "period": "2025-2027",
+      "role": "Responsable"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Pablo Parodi",
+      "institution": "Instituto Nacional de Investigación Agropecuaria (INIA)",
+      "country": "Uruguay",
+      "topic": "Vectores y enfermedades de transmisión vecotrial"
+    },
+    {
+      "name": "Santiago Nava",
+      "institution": "Instituto Nacional de Tecnología Agropecuaria (INTA)",
+      "country": "Argentina",
+      "topic": "Vectores y enfermedades de transmisión vecotrial"
+    },
+    {
+      "name": "Marcelo Labruna",
+      "institution": "Departamento de Medicina Veterinária Preventiva e Saúde animal, Faculdade de Medicina Veterinária e Zootecnia, Universidade de São Paulo, Brazil",
+      "country": "Brasil",
+      "topic": "Vectores y enfermedades de transmisión vecotrial"
+    },
+    {
+      "name": "Sebastián Muñoz-Leal",
+      "institution": "Departamento de Ciencia Animal, Facultad de Ciencias Veterinarias, Universidad de Concepción, Chile",
+      "country": "Chile",
+      "topic": "Vectores y enfermedades de transmisión vecotrial"
+    },
+    {
+      "name": "Sergio Bermúdez",
+      "institution": "Departamento de Investigación en Entomología Médica, Instituto Conmemorativo Gorgas de Estudios de la Salud, Panama",
+      "country": "Panama",
+      "topic": "Vectores y enfermedades de transmisión vecotrial"
+    },
+    {
+      "name": "Sandra Enríquez",
+      "institution": "Instituto de Investigación en Zoonosis (CIZ), Universidad Central del Ecuador, Quito, Ecuador",
+      "country": "Ecuador",
+      "topic": "Vectores y enfermedades de transmisión vecotrial"
+    },
+    {
+      "name": "Adriana Santodomingo",
+      "institution": "Centro de Investigación de Estudios Avanzados del Maule, Universidad Católica del Maule, Talca, Chile",
+      "country": "Chile",
+      "topic": "Vectores y enfermedades de transmisión vecotrial"
+    },
+    {
+      "name": "Richard Thomas",
+      "institution": "Departamento de Ciencia Animal, Facultad de Ciencias Veterinarias, Universidad de Concepcion, Chillan, Chile",
+      "country": "Chile",
+      "topic": "Vectores y enfermedades de transmisión vecotrial"
+    }
+  ],
+  "outreach": [
+    {
+      "es": "Entrevistas radiales",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Programa de Radio La Regional, CENUR Litoral Norte.",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Ciclo La Regional TV, Unidad de Comunicación, CENUR Litoral Norte",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Podcast",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "\"Referentes sin Cassette\", un podcast de la Sociedad de Medicina Veterinaria del Uruguay",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Universidad de Puertas Abiertas. Sede Salto - Cenur Litoral Norte - Universidad de la República, Uruguay.",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "Charla sobre: Patógenos, vectores y globalización: actualización de la situación de los hemoparásitos en perros en Uruguay, a miembros del Centro Médico Veterinario Paysandú, en la Sede de dicho Centro, calle Uruguay 1189, ciudad de Paysandú, Uruguay.",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    },
+    {
+      "es": "TODO TIENE SU CIENCIA, Semana de la Ciencia y la Tecnología, Salto, Uruguay.",
+      "en": "",
+      "kinds": [
+        "medios"
+      ]
+    }
+  ]
 }

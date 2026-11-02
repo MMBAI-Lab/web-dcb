@@ -21,12 +21,10 @@ const FACULTY =
 const POSGRADO = /doctorand|estudiante de doctorado|estudiante de maestr|estudiante de posgrado|maestrand/i;
 const GRADO = /estudiante de licenciatura|tesista de grado|estudiante de la lic|pasant|ciclo de biología/i;
 
-// People the rules above would misfile. Doctoral students whose title also
-// mentions a research post elsewhere are students here.
+// People the rules above would misfile. A doctoral student whose teaching
+// post is at another university is a student here.
 const OVERRIDES: Record<string, Categoria> = {
-  "Lic. Gonzalo Lopez": "posgrado",
-  "MSc. Denisse Mavis Sánchez": "posgrado",
-  "Tec. Wiston Albieni": "tecnicos",
+  "Lic. Denisse Mavis Sánchez": "posgrado",
 };
 
 function studentLevel(person: Member): "posgrado" | "grado" | undefined {

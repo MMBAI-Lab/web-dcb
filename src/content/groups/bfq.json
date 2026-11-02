@@ -102,8 +102,12 @@
   "members": [
     {
       "name": "Dra. Laura Lafon-Hughes",
-      "title": "Profesora Agregada (Gdo 4, 40 hs/sem)",
-      "photo": "/images/people/laura-lafon-hughes.jpg"
+      "title": "Profesora Agregada (Gdo 4, 40 hs/sem, DT)",
+      "photo": "/images/people/laura-lafon-hughes.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?fbbff4e0055f35da254b60a3e2664d30c4aec9722211804bcb034b14f3f7a762486572b4bfccd2f854bb2d4455d08283f723c4f895faf2fe5eb74f366b095014",
+        "profile": "https://orcid.org/0000-0002-4239-2802"
+      }
     },
     {
       "name": "Dra. María José Zuluaga",

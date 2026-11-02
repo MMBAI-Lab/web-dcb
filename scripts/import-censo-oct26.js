@@ -4,10 +4,13 @@
 //
 //   node scripts/import-censo-oct26.js            # write everything
 //   node scripts/import-censo-oct26.js --dry-run  # report only, write nothing
+//   node scripts/import-censo-oct26.js --dir=data/censo_oct26   # another export
 //
-// Inputs live in data/censo_oct26/ and are NOT in git (they carry personal
+// Inputs live in data/censo_oct26*/ and are NOT in git (they carry personal
 // emails and CV links): the two .xlsx response sheets exported from Forms,
-// plus the Drive upload folders FotosIndividuales/ and CaratulaWeb/.
+// plus the Drive upload folders FotosIndividuales/ and CaratulaWeb/. Each
+// later export is a superset of the earlier ones (the forms stayed open), so
+// the default is the latest: censo_oct26_extension_1 (November 2026).
 //
 // The form is the source of truth for every field a group actually answered.
 // A field left empty, or filled with a placeholder ("x", "NNN", "FALTA
@@ -23,7 +26,10 @@ const path = require("path");
 const zlib = require("zlib");
 
 const ROOT = path.join(__dirname, "..");
-const CENSO = path.join(ROOT, "data", "censo_oct26");
+const DIR_ARG = process.argv.find((a) => a.startsWith("--dir="));
+const CENSO = DIR_ARG
+  ? path.resolve(DIR_ARG.slice("--dir=".length))
+  : path.join(ROOT, "data", "censo_oct26_extension_1");
 const GROUPS_DIR = path.join(ROOT, "src", "content", "groups");
 const ASOCIADOS_FILE = path.join(ROOT, "src", "content", "asociados.json");
 const PEOPLE_OUT = path.join(ROOT, "public", "images", "people");
@@ -145,6 +151,30 @@ const MATCH_OVERRIDES = {
   "danslab|Santiago P. Alvariza": "Lic (candidate). Santiago Pintos",
 };
 
+// Rows filed under a different group than the one picked in the form.
+// Sofía Almirón chose "Otros", but her thesis is supervised in MMBAI, whose
+// roster already lists her.
+const GROUP_OVERRIDES = {
+  "Sofía Almirón": "danslab",
+};
+
+// People who left: removed from the roster on every run, so a re-import can
+// never bring them back. Matched by name (see samePerson).
+const DEPARTED = {
+  bfq: ["Valentina Seballos"],
+  libiam: ["Angelina Racedo", "Matías De Pablo", "Ramiro Chumino", "Germán Pequera", "Gabriel Fábrica"],
+  rumiantes: ["Daniel Fernández Abella", "Carolina Realini", "Jorge Gil Laureiro", "Silvia Sterla"],
+  "moleculas-bioactivas": ["Tatiana Sapotiti"],
+  vyet: ["Sergio Bermúdez", "Valentín Bazzano"],
+};
+
+// Exact strings the forms still use for the group renamed after the census
+// (Virología Molecular -> Virología), fixed wherever they land.
+const TEXT_FIXES = [
+  ["Laboratorio de virología molecular, CENUR Litoral Norte, UdelaR", "Laboratorio de Virología, CENUR Litoral Norte, UdelaR"],
+  ["Laboratorio de Virología Molecular DCB", "Laboratorio de Virología DCB"],
+];
+
 // How each name is published. People typed their own name; this adds the
 // academic prefix the site already showed when they left it out, and fixes
 // casing and accents. Anything not listed is published as typed.
@@ -191,6 +221,14 @@ const NAMES = {
   "Ing. Agr. (Dra) Maria Eugenia Lorenzo": "Dra. María Eugenia Lorenzo",
   "Iván González": "Dr. Iván González",
   "Rodney Colina": "Dr. Rodney Colina",
+  // November 2026 export
+  "PhD. MSc. Laura Lafon Hughes": "Dra. Laura Lafon-Hughes",
+  "DMTV María Laura Félix": "DMTV. María Laura Félix",
+  "Elsa Josefa Gonzalez Heit": "Elsa Josefa González Heit",
+  "Lic. Gonzalo Lopez": "Lic. Gonzalo López",
+  "Serrana Ambite": "MSc. Serrana Ambite",
+  "Noelia Gobel": "Dra. Noelia Gobel",
+  "Wiston Albieni": "Tec. Wiston Albieni",
 };
 
 // Positions whose wording the generic normalizer below can't fix.
@@ -224,6 +262,18 @@ const TITLES = {
   "Estudiante de Doctorado con Beca ANII": "Becario ANII",
   "Estudiante de Doctorado beca CAP": "Becaria CAP",
   "Profesora Adjunta (Gdo 3, 40 hs/sem, DT) - SNI Iniciación": "Profesora Adjunta (Gdo 3, 40 hs/sem, DT), SNI Iniciación",
+  // November 2026 export
+  "Asistente, Gdo 2, 40 hs/sem": "Asistente (Gdo 2, 40 hs/sem)",
+  "Asistente (G2 30hs/sem); Financiación CSIC": "Asistente (Gdo 2, 30 hs/sem), financiación CSIC",
+  "G1 6 hs": "Ayudante (Gdo 1, 6 hs/sem)",
+  "Ayudante, G1, 20h": "Ayudante (Gdo 1, 20 hs/sem)",
+  "Becaria ANII, 30 horas": "Becaria ANII (30 hs/sem)",
+  "Estudiante de doctorado. Beca CAP.": "Becaria CAP",
+  "Becaria doctorado CAP": "Becaria CAP",
+  "Estudiante de maestría (sin remuneración hasta el momento)": "",
+  "Pasante de grado, sin cargo": "",
+  "Profesora Adjunta simple en Anatomía e Histologia, Profesora Adjunta Simple en Biología Humana y Anatomofisiologia; y Jefe de Trabajos Prácticos Semiexclusiva en Histologia General y Biología Celular.":
+    "Profesora Adjunta y Jefa de Trabajos Prácticos, Universidad Nacional de Misiones (Argentina)",
 };
 
 // Positions that mean "no paid position": the card then shows the thesis
@@ -251,11 +301,18 @@ function normalizeTitle(raw) {
 // Thesis program/advisor fixes (typos, a missing program).
 const PROGRAMS = {
   "pablo alcoba": "Licenciatura en Biología Humana, CENUR Litoral Norte",
+  "Elsa Josefa Gonzalez Heit": "Maestría en Ciencias Biológicas, PEDECIBA Biología, Facultad de Ciencias",
+  "MSc. Nadia Kacevas": "PEDECIBA Biología",
+  "Noelia Gobel": "PEDECIBA",
+  "Mathias Toledo": "PEDECIBA Biología, Facultad de Ciencias y CENUR Litoral Norte (Paysandú)",
 };
 const ADVISORS = {
   "Dr. R. Daniel Peluffo - Dra. Laura Lafón": "Dr. R. Daniel Peluffo, Dra. Laura Lafon-Hughes",
   "Dr. Danien. R Peluffo, Dra Maria.J. Zuluaga": "Dr. R. Daniel Peluffo, Dra. María José Zuluaga",
   "Mauricio Cabrera": "Dr. Mauricio Cabrera",
+  "Dr. Artur Bonzi, Dra. Renata Bona": "Dr. Artur Bonezi, Dra. Renata Bona",
+  "DMTV, PhD Teresa Armúa": "Dra. Teresa Armúa",
+  "Tutora: Dra.Noelia Gobel , Cotutor: Dr. Iván Gonzalez Bergonzoni": "Dra. Noelia Gobel, Dr. Iván González Bergonzoni",
 };
 const cleanAdvisors = (s) =>
   (ADVISORS[s] ?? s)
@@ -273,6 +330,9 @@ const THESIS_LEVELS = {
   "Sí — doctorado": "doctorado",
   "Sí — estancia posdoctoral": "posdoctorado",
 };
+// An internship is not a thesis: it goes into the title ("Pasante, …"),
+// which is how Integrantes files the person under students and interns.
+const INTERNSHIP = "Sí — pasantía";
 
 // Uploaded portrait for each person-form row (Drive names files
 // "<original> - <uploader>", and some people uploaded for others).
@@ -358,6 +418,27 @@ const PHOTOS = {
   "Tec. Candelaria Banchero": "WhatsApp Image 2026-10-09 at 23.01.54 - María Banchero.jpeg",
   "Br. Ana Gerez": "AnaGerez - Ana Gerez.jpeg",
   "Dra. Lía M. Randall Carlevaro": "Lia Randall.jpg - Lía Randall.jpg",
+  // November 2026 export
+  "Luz Furco": "LuzFurco - Luz Furco.jpeg",
+  "Lic. Denisse Mavis Sánchez": "DenisseMavisSanchez - Denisse Sanchez.jpg",
+  "Sofía Almirón": "Imagen de WhatsApp 2024-03-06 a las 20.01.19_1e2da5f4 - Sofia Almirón.jpg",
+  "DMTV María Laura Félix": "FOTO MARÍA LAURA LFÉLIX VECTORES - María Laura Félix.jpeg",
+  "Lic. Paula Radesca Vener": "PaulaRadesca - Paula Radesca.jpg",
+  "Elsa Josefa Gonzalez Heit": "IMG-20261023-WA0016 - Elsa Josefa Gonzalez Heit.jpg",
+  "Lic. Gonzalo Lopez": "IMG_4522 - Gonzalo Lopez.jpeg",
+  "Lic. Mateo Rodrigues": "Mateo Rodrigues - Mateo Rodrigues.jpg",
+  "Lic. Paris Mage Teliz": "MageTeliz - Mage Teliz.png",
+  "Lic. Manuel Urteaga": "ManuelUrteaga - Manuel Urteaga.jpeg",
+  "MSc. Pilar Ojeda": "Pilar Ojeda - Pilar Ojeda.JPG",
+  "MSc. Andrea Somma": "AndreaSomma - Andrea Somma.jpg",
+  "Serrana Ambite": "WhatsApp Image 2026-10-20 at 12.04.48 - Serrana Ambite.jpeg",
+  "Noelia Gobel": "NoeliaGobel - Noelia Gobel.jpeg",
+  "MSc. Nadia Kacevas": "NadiaKacevas - Nadia Kacevas.jpg",
+  "Elías José Brum Vega": "IMG_2359 - Elias Brum.jpeg",
+  "Mathias Toledo": "WhatsApp Image 2026-10-27 at 6.00.22 PM - Mathias Toledo.jpeg",
+  "Wiston Albieni": "4 - Wiston Albieni.jpeg",
+  "Dra. Franca Stábile": "FrancaStábile - Franca Stábile.jpeg",
+  "PhD. MSc. Laura Lafon Hughes": "Clipboard - Laura Lafon-Hughes.tif",
 };
 
 // Portraits where the person is small in the frame (full-body or scenery
@@ -371,6 +452,8 @@ const CROPS = {
   "SylviaCuchman - Sylvia Cuchman.jpg": { cx: 0.48, cy: 0.24, s: 0.7 },
   "WhatsApp Image 2026-10-09 at 23.01.54 - María Banchero.jpeg": { cx: 0.5, cy: 0.35, s: 0.5 },
   "Leticia Maya - Leticia Maya.jpg": { cx: 0.48, cy: 0.55, s: 0.9 },
+  "Mateo Rodrigues - Mateo Rodrigues.jpg": { cx: 0.53, cy: 0.28, s: 0.7 },
+  "AndreaSomma - Andrea Somma.jpg": { cx: 0.4, cy: 0.3, s: 0.6 },
 };
 
 // Group cover image uploaded with the group form.
@@ -378,6 +461,7 @@ const COVERS = {
   fisiologia: "Captura de pantalla 2026-09-10 155417 - Alejo Rodriguez.png",
   histologia: "Caratula_Histologia_DCB - Andrés Di Paolo.tif",
   ecologiafluvial: "EcologiaFluvial_lancha - Christine Lucas.jpg",
+  vyet: "resumen imagen - José M. ́Venzal.jpg",
   "inmunologia-biotecnologia": "Imagen LIB para página WEB - Natalia Ruetalo.png",
   rumiantes: "Imagen_portada_DCB - Richard Núñez Olivera.jpg",
   ugb: "Imagen_UGB - Nelida Rodriguez Osorio.png",
@@ -639,9 +723,16 @@ function personFromRow(row, existing) {
 
   const rawTitle = row["Cargo y dedicación"] ?? "";
   const thesisLevel = THESIS_LEVELS[row["¿Está cursando una tesis o estancia posdoctoral?"]];
+  const internship = row["¿Está cursando una tesis o estancia posdoctoral?"] === INTERNSHIP;
   if (rawTitle && !NO_POSITION.test(rawTitle)) person.title = normalizeTitle(rawTitle);
-  else if (!thesisLevel && existing?.title) person.title = existing.title;
+  else if (!thesisLevel && !internship && existing?.title) person.title = existing.title;
   else person.title = "";
+  if (internship) {
+    const program = clean(row["Programa de posgrado e institución"] ?? "");
+    const advisors = cleanAdvisors(row["Orientador/es"] ?? "");
+    person.title = [person.title, `Pasante${program ? `, ${program}` : ""}`].filter(Boolean).join("; ");
+    if (advisors) person.title += ` (orientación: ${advisors})`;
+  }
 
   const photoFile = PHOTOS[typed];
   person.photo = photoFile
@@ -718,14 +809,25 @@ async function main() {
   }
   const asociados = { members: [] };
 
+  for (const [slug, names] of Object.entries(DEPARTED)) {
+    const g = groups[slug];
+    const gone = (p) => p && names.some((n) => samePerson(p.name, n));
+    if (gone(g.lead)) {
+      report.push(`${slug}: baja del responsable ${g.lead.name}`);
+      delete g.lead;
+    }
+    for (const p of g.members.filter(gone)) report.push(`${slug}: baja de ${p.name}`);
+    g.members = g.members.filter((p) => !gone(p));
+  }
+
   // People first, so a group's own members are known when collaborators
   // are filtered.
   const photoJobs = [];
   const seen = new Set();
   const respondents = new Map();
   for (const row of personRows) {
-    const slug = GROUP_SLUGS[row.Grupo];
     const typed = row["Nombre completo"].trim();
+    const slug = GROUP_OVERRIDES[typed] ?? GROUP_SLUGS[row.Grupo];
     if (!slug) throw new Error(`Unknown group "${row.Grupo}"`);
     const rowKey = `${slug}|${typed}`;
     if (DUPLICATE_ROWS.has(rowKey)) continue;
@@ -742,9 +844,10 @@ async function main() {
     const group = groups[slug];
     const roster = [group.lead, group.coLead, ...group.members].filter(Boolean);
     const matchName = MATCH_OVERRIDES[rowKey];
-    const existing = matchName
-      ? roster.find((p) => p.name === matchName)
-      : roster.find((p) => samePerson(p.name, typed));
+    // The override only matters until the first import renames the entry.
+    const existing =
+      (matchName && roster.find((p) => p.name === matchName)) ||
+      roster.find((p) => samePerson(p.name, typed) || samePerson(p.name, NAMES[typed] ?? typed));
     const { person, photoFile } = personFromRow(row, existing);
     respondents.set(slug, [...(respondents.get(slug) ?? []), person]);
     if (photoFile) photoJobs.push({ src: censoFile("FotosIndividuales", photoFile), out: person.photo });
@@ -779,6 +882,12 @@ async function main() {
   for (const slug of Object.keys(groups).filter((s) => !answeredGroups.has(s))) {
     report.push(`${slug}: no envió el formulario de grupo`);
   }
+  for (const g of Object.values(groups)) {
+    const answered = new Set((respondents.get(g.slug) ?? []).map((p) => p.name));
+    for (const p of [g.lead, g.coLead, ...g.members]) {
+      if (p && !answered.has(p.name)) report.push(`${g.slug}: ${p.name} sin ficha de integrante`);
+    }
+  }
   const words = (s) => (s ?? "").split(/\s+/).filter(Boolean).length;
   for (const g of Object.values(groups)) {
     if (words(g.summary?.es) > 50) report.push(`${g.slug}: resumen de ${words(g.summary.es)} palabras (tope 50)`);
@@ -793,6 +902,12 @@ async function main() {
   console.log(report.map((l) => `  - ${l}`).join("\n"));
 
   if (DRY_RUN) return;
+
+  for (const [slug, g] of Object.entries(groups)) {
+    let json = JSON.stringify(g);
+    for (const [from, to] of TEXT_FIXES) json = json.split(from).join(to);
+    groups[slug] = JSON.parse(json);
+  }
 
   for (const g of Object.values(groups)) {
     fs.writeFileSync(path.join(GROUPS_DIR, `${g.slug}.json`), JSON.stringify(g, null, 2) + "\n");

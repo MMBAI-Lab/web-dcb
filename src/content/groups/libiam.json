@@ -155,14 +155,30 @@
       }
     },
     {
-      "name": "Josefa González",
-      "title": "Estudiante de Posgrado, PEDECIBA",
-      "photo": "/images/people/josefa-gonzalez.jpg"
+      "name": "Elsa Josefa González Heit",
+      "title": "Becaria ANII (30 hs/sem)",
+      "photo": "/images/people/josefa-gonzalez.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "Maestría en Ciencias Biológicas, PEDECIBA Biología, Facultad de Ciencias",
+        "advisors": "Dr. Carlo Biancardi, Dr. Germán Pequera"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?7c798050b19d8380f2e2cc330e619542"
+      }
     },
     {
-      "name": "Paula Radesca",
-      "title": "Estudiante de Maestría Pro.In.Bio",
-      "photo": "/images/people/paula-radesca.jpg"
+      "name": "Lic. Paula Radesca Vener",
+      "title": "Asistente (Gdo 2, 30 hs/sem), financiación CSIC",
+      "photo": "/images/people/paula-radesca.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "Maestría en Ciencias Médicas - PROINBIO",
+        "advisors": "Dra. Renata Bona"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?56b59be230119e853040d0fd51ec3f02"
+      }
     },
     {
       "name": "Lic. Christian Schneider",
@@ -178,9 +194,18 @@
       }
     },
     {
-      "name": "Mateo Rodrigues Zabala",
-      "title": "Gdo 1, ISEF",
-      "photo": "/images/people/mateo-rodrigues-zabala.jpg"
+      "name": "Lic. Mateo Rodrigues",
+      "title": "Profesor Asistente (Gdo 2, 30 hs/sem)",
+      "photo": "/images/people/mateo-rodrigues-zabala.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "Maestría en Ciencias Médicas, ProInBio",
+        "advisors": "Dr. Artur Bonezi, Dra. Renata Bona"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?96195cef45b98dc0a0ee074272a0163d",
+        "profile": "https://scholar.google.com/citations?hl=es&view_op=list_works&gmla=AERr9JErDrRQLi30Bb2Mv7VR6rM6ygY9S5cWGt5J9c8BGEDy5-lY2YwkvoqFrxsdo3T9lYfW-7mfG9JnnTqX0ADdRKfHcXlx-A&user=V8lXm54AAAAJ"
+      }
     },
     {
       "name": "Lic. Vanessa Yelós Tellagorry",
@@ -213,6 +238,16 @@
       "links": {
         "cvuy": "https://exportcvuy.anii.org.uy//cv/?ad717eb7cd1a09b8f07788387bb87eb2",
         "profile": "https://orcid.org/0009-0001-1971-4535"
+      }
+    },
+    {
+      "name": "Lic. Manuel Urteaga",
+      "title": "",
+      "photo": "/images/people/manuel-urteaga.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PROINBIO, Facultad de Medicina",
+        "advisors": "Dr. Artur Bonezi, Dra. Renata Bona"
       }
     }
   ],

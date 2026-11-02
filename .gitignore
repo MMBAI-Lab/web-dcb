@@ -49,4 +49,4 @@ next-env.d.ts
 
 # October 2026 census: form responses (personal emails, CV links) and the
 # raw Drive uploads — imported by scripts/import-censo-oct26.js
-/data/censo_oct26/
+/data/censo_oct26*/

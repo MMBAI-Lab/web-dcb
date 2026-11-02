@@ -136,29 +136,73 @@
     },
     {
       "name": "Tec. Wiston Albieni",
-      "title": "",
+      "title": "Ayudante (Gdo 1, 20 hs/sem)",
       "photo": "/images/people/wiston-albieni.jpg"
     },
     {
-      "name": "MSc. Noelia Gobel",
-      "title": "Gdo 2, 20 hs/sem",
-      "photo": "/images/people/noelia-gobel.jpg"
+      "name": "Dra. Noelia Gobel",
+      "title": "Asistente (Gdo 2, 30 hs/sem)",
+      "photo": "/images/people/noelia-gobel.jpg",
+      "thesis": {
+        "level": "posdoctorado",
+        "program": "PEDECIBA",
+        "advisors": "Dra. Valentina Franco-Trecu"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cvsni/?urlId=f770fb1eb251b9514170e7ed4b55fa3f59705083aecb0d898492484e24e7228d6ac55692b6e36cbf64e28e9d81d9962e39e5fccb8d5306d692476744f2c68b25&convocatoria=21&formato=html",
+        "profile": "https://www.researchgate.net/profile/Noelia-Gobel"
+      }
     },
     {
       "name": "MSc. Serrana Ambite",
-      "title": "Estudiante de Doctorado, PEDECIBA-Biología, Beca ANII 2023-2026"
+      "title": "Becaria CAP",
+      "photo": "/images/people/serrana-ambite.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Ciencias Biológicas, PEDECIBA",
+        "advisors": "Dra. Christine Lucas"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?fd570fdfdebd5057fbe3205acea63d04",
+        "profile": "https://orcid.org/0009-0001-6677-4231"
+      }
     },
     {
       "name": "MSc. Andrea Somma",
-      "title": "Estudiante de Doctorado en Ciencias Ambientales, Beca ANII 2023-2026"
+      "title": "Becaria CAP",
+      "photo": "/images/people/andrea-somma.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Ciencias Ambientales",
+        "advisors": "Dr. Iván González, Dra. Christine Lucas"
+      },
+      "links": {
+        "profile": "https://www.researchgate.net/profile/Andrea-Somma?ev=hdr_xprf"
+      }
     },
     {
       "name": "MSc. Nadia Kacevas",
-      "title": "Estudiante de Doctorado, PEDECIBA-Biología, Beca ANII 2024-2027"
+      "title": "Becaria ANII",
+      "photo": "/images/people/nadia-kacevas.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "PEDECIBA Biología",
+        "advisors": "Dr. Gabriel Laufer, Dra. Leticia Bidergaray-Batista, Dr. Iván González-Bergonzoni"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?01f9e837bb7903705d745c34847e608b",
+        "profile": "https://www.researchgate.net/profile/Nadia-Kacevas?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19"
+      }
     },
     {
       "name": "MSc. Pilar Ojeda",
-      "title": "Estudiante de Doctorado, PEDECIBA-Biología"
+      "title": "",
+      "photo": "/images/people/pilar-ojeda.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Biología, PEDECIBA",
+        "advisors": "Dr. Iván Gonzalez Bergonzoni"
+      }
     },
     {
       "name": "Lic. Joaquín Pais",
@@ -175,6 +219,41 @@
     {
       "name": "Bach. Sebastián Lucciano",
       "title": "Tesista de Grado, Licenciatura en Ciencias Biológicas"
+    },
+    {
+      "name": "Elías José Brum Vega",
+      "title": "Ayudante (Gdo 1, 10 hs/sem)",
+      "photo": "/images/people/elias-jose-brum-vega.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?aebab0f1c3b363cb946d9ad0588dcf38"
+      }
+    },
+    {
+      "name": "Mathias Toledo",
+      "title": "Estudiante de maestría (sin remuneración hasta el momento)",
+      "photo": "/images/people/mathias-toledo.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PEDECIBA Biología, Facultad de Ciencias y CENUR Litoral Norte (Paysandú)",
+        "advisors": "Dra. Noelia Gobel, Dr. Iván González Bergonzoni"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/pdf/?631b10fa8cafcbba69d63878fed9f857"
+      }
+    },
+    {
+      "name": "Dra. Franca Stábile",
+      "title": "Investigadora asociada y posdoc",
+      "photo": "/images/people/franca-stabile.jpg",
+      "thesis": {
+        "level": "posdoctorado",
+        "program": "CENUR Litoral Norte sede Paysandú",
+        "advisors": "Dr. Iván González Bergonzoni y Dra. Laura Rodríguez Graña"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/CvEstatico/?urlId=1787310d45b1df65c0352b0d61346fb9686b98793b4ba103f77494f42170f642d4dbd149edeaca1dc8c74dafd7e33596d0fc3b0c82c054f3dba8fe034f9dfe65&formato=pdf&convocatoria=21",
+        "profile": "https://www.researchgate.net/profile/Franca-Stabile-4/research"
+      }
     }
   ],
   "collaborators": [

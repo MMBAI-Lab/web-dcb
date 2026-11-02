@@ -161,7 +161,9 @@ Pasos para habilitar Pages en el repo (una sola vez, en GitHub):
 
 Los grupos y sus integrantes completaron dos formularios de Google
 (generados con `scripts/forms/`). Las respuestas y las fotos subidas viven en
-`data/censo_oct26/` (fuera de git) y se vuelcan al sitio con:
+`data/censo_oct26*/` (fuera de git); cada exportación es un superconjunto de
+la anterior y el script usa la más reciente (`censo_oct26_extension_1`, de
+noviembre). Se vuelcan al sitio con:
 
 ```bash
 node scripts/import-censo-oct26.js --dry-run   # reporte, sin escribir
@@ -173,13 +175,13 @@ El formulario manda en todo campo que el grupo respondió; un campo vacío o
 con relleno ("x", "NNN", "FALTA DESCRIPCION") conserva lo que había. Quienes
 no completaron su ficha siguen en la nómina tal como estaban. Las decisiones
 editoriales (nombres, cargos, qué foto es de quién, recortes) son tablas
-explícitas dentro del script. Quedó pendiente:
+explícitas dentro del script, igual que las bajas (`DEPARTED`), para que
+reimportar nunca devuelva a nadie que se fue. Quedó pendiente:
 
 - [ ] **Anatomía** no completó ningún formulario: su página dice "en
       preparación" y todavía no tiene mail de contacto.
-- [ ] **Genética Molecular Humana** y **Vectores y Enfermedades
-      Transmitidas** no enviaron el formulario de grupo: conservan el
-      contenido anterior (sus integrantes sí se actualizaron).
+- [ ] **Genética Molecular Humana** no envió el formulario de grupo:
+      conserva el contenido anterior (sus integrantes sí se actualizaron).
 - [ ] **Biofisicoquímica** envió el formulario a medio completar: tres
       líneas sin descripción y proyectos, colaboradores y cursos con texto de
       relleno (se conservaron los anteriores).
@@ -188,10 +190,12 @@ explícitas dentro del script. Quedó pendiente:
 - [ ] **Ecología Fluvial** cargó dos veces el DOI del libro *Rivers of South
       America* (10.1016/C2020-0-00035-6); probablemente eran dos capítulos
       con DOI propio.
-- [ ] Superan el tope de palabras: resumen de **Virología** (58/50),
-      panorama de **Virología** (105/100) e **Histología** (266/100).
-- [ ] Siguen sin foto quienes no completaron la ficha, entre ellos
-      Minutti (Rumiantes) y Bermúdez y Bazzano (VyET).
+- [ ] Superan el tope de palabras: resumen de **Virología** (58/50) y de
+      **Vectores y Enfermedades Transmitidas** (52/50), panorama de
+      **Virología** (105/100) e **Histología** (266/100).
+- [ ] 15 integrantes no completaron la ficha (el `--dry-run` los lista con
+      "sin ficha de integrante"), entre ellos Peluffo y Keszenman
+      (Biofisicoquímica) y Minutti y Hernández Russo (Rumiantes).
 - [ ] Todo el texto nuevo está solo en español: correr
       `node scripts/report-missing-translations.js` para la pasada de inglés.
 
@@ -214,10 +218,6 @@ los casos que esas reglas resuelven mal van en su tabla `OVERRIDES`.
 
 Queda pendiente:
 
-- [ ] **Josefa González (LIBiAM)**: su título dice solo "Estudiante de
-      Posgrado, PEDECIBA", sin precisar si es maestría o doctorado, por lo
-      que no aparece en Formación; tampoco completó la ficha del censo.
-      Precisar el nivel en `libiam.json`.
 - [ ] **Licenciatura en Biotecnología**: su tarjeta es más liviana que la
       del CBB porque falta su currícula, créditos y equipo de coordinación.
       Sumarlos a `ensenanza.biotec*` en `src/messages/{es,en}.json` para

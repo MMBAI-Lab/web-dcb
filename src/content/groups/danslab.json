@@ -171,9 +171,14 @@
       }
     },
     {
-      "name": "Lic. Gonzalo Lopez",
-      "title": "Doctorando en Biotecnología, Facultad de Ciencias (MMBAI, desde 2021) · Investigador asistente, Facultad de Química — co-dirigido por Pablo Dans, la Prof. Sonia Rodriguez y la Prof. Paola Panizza; Beca ANII",
-      "photo": "/images/people/gonzalo-lopez.jpg"
+      "name": "Lic. Gonzalo López",
+      "title": "Ayudante (Gdo 1, 6 hs/sem)",
+      "photo": "/images/people/gonzalo-lopez.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Biotecnología",
+        "advisors": "Dr. Pablo Dans, Dra. Sonia Rodriguez Giordano, Dra. Paola Panizza Scasso"
+      }
     },
     {
       "name": "Santiago P. Alvariza",
@@ -185,9 +190,17 @@
       }
     },
     {
-      "name": "Lic. Mage Teliz",
-      "title": "Estudiante de Maestría en Bioinformática, PEDECIBA (MMBAI, desde 2024) — co-dirigida por Pablo Dans y la Prof. Paola Panizza; Beca CAP",
-      "photo": "/images/people/mage-teliz.jpg"
+      "name": "Lic. Paris Mage Teliz",
+      "title": "Ayudante (Gdo 1, 20 hs/sem)",
+      "photo": "/images/people/mage-teliz.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "Maestría en Bioinformática, PEDECIBA",
+        "advisors": "Dra. Paola Panizza, Dr. Pablo Dans"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?51d01634274fc242b4bb60cbff4925b3"
+      }
     },
     {
       "name": "MSc. Rafael Sauto",
@@ -203,9 +216,17 @@
       }
     },
     {
-      "name": "MSc. Denisse Mavis Sánchez",
-      "title": "Doctoranda en Ciencias Aplicadas, Universidad Nacional de Misiones (Argentina) · Investigadora en MMBAI (desde 2026) — dirigida por Germán Traglia",
-      "photo": "/images/people/denisse-mavis-sanchez.jpg"
+      "name": "Lic. Denisse Mavis Sánchez",
+      "title": "Profesora Adjunta y Jefa de Trabajos Prácticos, Universidad Nacional de Misiones (Argentina)",
+      "photo": "/images/people/denisse-mavis-sanchez.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Ciencias Aplicadas UNaM",
+        "advisors": "Dr. Germán Traglia"
+      },
+      "links": {
+        "profile": "https://www.researchgate.net/profile/Denisse-Sanchez?ev=hdr_xprf"
+      }
     },
     {
       "name": "Bach. Paulina Boiani",
@@ -218,9 +239,17 @@
       }
     },
     {
-      "name": "Lic (candidate). Sofía Almirón",
-      "title": "Estudiante de Licenciatura en Biología Humana, CENUR Litoral Norte (MMBAI, desde 2026) — dirigida por Germán Traglia",
-      "photo": "/images/people/sofia-almiron.jpg"
+      "name": "Sofía Almirón",
+      "title": "Pasante de grado, sin cargo",
+      "photo": "/images/people/sofia-almiron.jpg",
+      "thesis": {
+        "level": "grado",
+        "program": "Licenciatura en Biología Humana, CENUR Litoral Norte",
+        "advisors": "Dr. Germán Traglia"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?1357e11d3b8772aae05521d58a6f9812"
+      }
     },
     {
       "name": "Dr. Víctor Miguel García Velásquez",
@@ -234,6 +263,14 @@
       "name": "Lic (candidate). Gastón Leal",
       "title": "Ciclo de Biología y Bioquímica (CBB), CENUR Litoral Norte · Pasantía en MMBAI (2026) — dirigido por Pablo Dans",
       "photo": "/images/people/gaston-leal.jpg"
+    },
+    {
+      "name": "Luz Furco",
+      "title": "Pasante, Licenciatura en Biotecnología, CENUR Litoral Norte (orientación: Dr. Pablo Dans)",
+      "photo": "/images/people/luz-furco.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy//cv/?31562b08d8054259237dc8c16a20af83"
+      }
     }
   ],
   "collaborators": [
