@@ -33,7 +33,7 @@
         "label": "Research groups"
       },
       {
-        "value": "116",
+        "value": "115",
         "label": "Members",
         "href": "/integrantes"
       },
@@ -158,8 +158,8 @@
     "pending": "This group is preparing its page. Its members, research lines, and publications will be listed here soon.",
     "advisors": "Advisors",
     "thesis_grado": "Undergraduate thesis",
-    "thesis_maestria": "Master's",
-    "thesis_doctorado": "PhD",
+    "thesis_maestria": "Master's in progress",
+    "thesis_doctorado": "PhD in progress",
     "thesis_posdoctorado": "Postdoc"
   },
   "integrantes": {

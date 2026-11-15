@@ -197,9 +197,9 @@ Quedó pendiente:
 - [ ] Superan el tope de palabras: resumen de **Virología** (58/50) y de
       **Vectores y Enfermedades Transmitidas** (52/50), panorama de
       **Virología** (105/100) e **Histología** (266/100).
-- [ ] 8 integrantes no completaron la ficha (el `--dry-run` los lista con
+- [ ] 7 integrantes no completaron la ficha (el `--dry-run` los lista con
       "sin ficha de integrante"), entre ellos Peluffo y Keszenman
-      (Biofisicoquímica) y Minutti y Hernández Russo (Rumiantes).
+      (Biofisicoquímica) y Hernández Russo (Rumiantes).
 - [ ] Todo el texto nuevo está solo en español: correr
       `node scripts/report-missing-translations.js` para la pasada de inglés.
 

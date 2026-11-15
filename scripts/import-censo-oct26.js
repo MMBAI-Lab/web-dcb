@@ -181,7 +181,7 @@ const GROUP_OVERRIDES = {
 const DEPARTED = {
   bfq: ["Valentina Seballos"],
   libiam: ["Angelina Racedo", "Matías De Pablo", "Ramiro Chumino", "Germán Pequera", "Gabriel Fábrica"],
-  rumiantes: ["Daniel Fernández Abella", "Carolina Realini", "Jorge Gil Laureiro", "Silvia Sterla"],
+  rumiantes: ["Daniel Fernández Abella", "Carolina Realini", "Jorge Gil Laureiro", "Silvia Sterla", "Alfredo Minutti"],
   "moleculas-bioactivas": ["Tatiana Sapotiti"],
   vyet: ["Sergio Bermúdez", "Valentín Bazzano"],
   ecologiafluvial: ["Laura Lima", "Hiroyuki Kinoshita", "Sebastián Lucciano", "Ana Lucía Mary"],
@@ -200,6 +200,29 @@ const ACCEPTED_WITHOUT_FORM = {
 
 const AMENDMENTS = {
   // Listed as a doctoral student only, not under his staff position.
+  rumiantes: {
+    memberTitles: {
+      "Zully Hernández Russo": "Docente asociada al equipo (Profesora Adjunta de Facultad de Veterinaria, Gdo 3, 40 hs/sem)",
+    },
+  },
+  bfq: {
+    memberTitles: {
+      "Deborah Keszenman": "Docente Libre Honoraria (Responsable del Lab. de Radiobiología Médica y Ambiental)",
+    },
+  },
+  // Professional degrees as the group publishes them.
+  "moleculas-bioactivas": {
+    memberNames: {
+      "Carla Palermo": "BQ. Carla Palermo",
+      "Lucía Thomas": "BQ. Lucía Thomas",
+      "Juan Diego Llona": "Bach. Juan Diego Llona",
+      "Inés Telles": "Quím. Inés Telles",
+      "Rachel Ramos Granja": "Lic. Rachel Ramos Granja",
+    },
+  },
+  // ECoFauna has two areas (Ecología, Comportamiento); both funded projects
+  // are Comportamiento's, and a bare "Responsable" read as the lead's.
+  "ecologia-vertebrados": { projectRoles: "Área Comportamiento" },
   danslab: { memberTitles: { "MSc. Rafael Sauto": "Estudiante de Doctorado en Ciencias Agrarias" } },
   ecologiafluvial: {
     dropCollaborators: ["Edgardo Bevilaqva", "Patricia Sandes"],
@@ -284,6 +307,12 @@ function applyAmendments(group, { citations, report }) {
     .filter((doi) => !(group.publications ?? []).some((p) => p.doi?.toLowerCase() === doi.toLowerCase()))
     .map((doi) => ({ doi, citation: citations.get(doi.toLowerCase()) ?? `doi:${doi}` }));
   if (newPubs.length) group.publications = [...newPubs, ...(group.publications ?? [])];
+  if (a.projectRoles) for (const p of group.currentProjects ?? []) p.role = a.projectRoles;
+  for (const [name, to] of Object.entries(a.memberNames ?? {})) {
+    const p = [group.lead, group.coLead, ...group.members].find((m) => m && samePerson(m.name, name));
+    if (p) p.name = to;
+    else report.push(`${group.slug}: enmienda para ${name}, que no está en el grupo`);
+  }
   for (const [name, title] of Object.entries(a.memberTitles ?? {})) {
     const p = [group.lead, group.coLead, ...group.members].find((m) => m && samePerson(m.name, name));
     if (p) p.title = title;
@@ -304,6 +333,8 @@ function applyAmendments(group, { citations, report }) {
 // Exact strings the forms still use for the group renamed after the census
 // (Virología Molecular -> Virología), fixed wherever they land.
 const TEXT_FIXES = [
+  ["Ward College", "Bard College"],
+  ["Rhipicephalus microplus (Inés, Maca-Rosina Silva responsable).", "Rhipicephalus microplus (Responsables: Inés Telles, Macarena Eugui, Rosina Silva)."],
   ["Laboratorio de virología molecular, CENUR Litoral Norte, UdelaR", "Laboratorio de Virología, CENUR Litoral Norte, UdelaR"],
   ["Laboratorio de Virología Molecular DCB", "Laboratorio de Virología DCB"],
 ];
@@ -832,7 +863,7 @@ function applyGroupForm(group, row, ctx) {
 // ---------------------------------------------------------------------------
 // People
 // ---------------------------------------------------------------------------
-const PREFIX = /^((?:Prof\.|Dr\.|Dra\.|Lic\.|MSc\.|Mag\.|M\.V\.|Q\.F\.|Quím\.|Bach\.|Br\.|Tec\.|Ing\.|Elec\.|DCV|DMTV\.|PhD\.|Lic \(candidate\)\.)\s*)+/;
+const PREFIX = /^((?:Prof\.|Dr\.|Dra\.|Lic\.|MSc\.|Mag\.|M\.V\.|Q\.F\.|Quím\.|BQ\.|Bach\.|Br\.|Tec\.|Ing\.|Elec\.|DCV|DMTV\.|PhD\.|Lic \(candidate\)\.)\s*)+/;
 const fold = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 function personKey(name) {
   return fold(name.replace(PREFIX, ""))

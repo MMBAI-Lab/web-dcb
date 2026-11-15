@@ -59,7 +59,7 @@ function classify(person: Member): Pick<Integrante, "category" | "alsoStudent"> 
 }
 
 const sortKey = (name: string) =>
-  name.replace(/^((Prof\.|Dr\.|Dra\.|Lic\.|MSc\.|Mag\.|M\.V\.|Q\.F\.|Quím\.|Quim\.|Far\.|Bach\.|Tec\.|Ing\.|Agr\.|Elec\.|DCV|DMTV\.|Lic \(candidate\)\.)\s*)+/, "");
+  name.replace(/^((Prof\.|Dr\.|Dra\.|Lic\.|MSc\.|Mag\.|M\.V\.|Q\.F\.|Quím\.|Quim\.|BQ\.|Far\.|Bach\.|Tec\.|Ing\.|Agr\.|Elec\.|DCV|DMTV\.|Lic \(candidate\)\.)\s*)+/, "");
 
 /**
  * Everyone on a group page or the associates page, once (people in two

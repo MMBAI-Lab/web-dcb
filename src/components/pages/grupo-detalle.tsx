@@ -114,6 +114,18 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
         </Section>
       )}
 
+      {/* People first: the lines, projects and teaching below belong to the
+          group as a whole, not to its lead. */}
+      {group.members.length > 0 && (
+        <Section title={t("members")}>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {group.members.map((member) => (
+              <PersonCard key={member.name} person={member} />
+            ))}
+          </div>
+        </Section>
+      )}
+
       {group.researchLines && (
         <Section title={t("researchLines")}>
           <div className="max-w-2xl space-y-5">
@@ -163,16 +175,6 @@ export function GrupoDetalle({ group }: { group: ResearchGroup }) {
               </li>
             ))}
           </ul>
-        </Section>
-      )}
-
-      {group.members.length > 0 && (
-        <Section title={t("members")}>
-          <div className="grid gap-3 sm:grid-cols-2">
-            {group.members.map((member) => (
-              <PersonCard key={member.name} person={member} />
-            ))}
-          </div>
         </Section>
       )}
 

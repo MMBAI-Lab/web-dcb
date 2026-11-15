@@ -33,7 +33,7 @@
         "label": "Grupos de investigación"
       },
       {
-        "value": "116",
+        "value": "115",
         "label": "Integrantes",
         "href": "/integrantes"
       },
@@ -158,8 +158,8 @@
     "pending": "Este grupo está preparando su página. Pronto vas a encontrar acá sus integrantes, líneas de investigación y publicaciones.",
     "advisors": "Orientación",
     "thesis_grado": "Tesis de grado",
-    "thesis_maestria": "Maestría",
-    "thesis_doctorado": "Doctorado",
+    "thesis_maestria": "Maestría en curso",
+    "thesis_doctorado": "Doctorado en curso",
     "thesis_posdoctorado": "Posdoctorado"
   },
   "integrantes": {
