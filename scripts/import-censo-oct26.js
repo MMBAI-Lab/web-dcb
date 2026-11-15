@@ -201,6 +201,16 @@ const ACCEPTED_WITHOUT_FORM = {
 const AMENDMENTS = {
   // Listed as a doctoral student only, not under his staff position.
   rumiantes: {
+    // Oscar Irabuena teaches it as part of the LIB, where it is listed as
+    // "Inmunología, Médico/a Veterinario/a" (no longer "Inmunología básica").
+    dropTeaching: ["Inmunología básica"],
+    // All of them hold a doctorate; the form only gave Cuadro's.
+    collaboratorNames: {
+      "Camila García Pintos": "Dra. Camila García Pintos",
+      "Alejo Menchaca": "Dr. Alejo Menchaca",
+      "Gabriel Bó": "Dr. Gabriel Bó",
+      "Milo C. Wiltbank": "Dr. Milo C. Wiltbank",
+    },
     memberTitles: {
       "Zully Hernández Russo": "Docente asociada al equipo (Profesora Adjunta de Facultad de Veterinaria, Gdo 3, 40 hs/sem)",
     },
@@ -237,6 +247,8 @@ const AMENDMENTS = {
     ],
   },
   "inmunologia-biotecnologia": {
+    // The LIB asked to drop its "Comunidad y territorio" outreach.
+    dropOutreachKinds: ["comunidad"],
     renameTeaching: {
       "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3)": VIROLOGIA_BSL3,
     },
@@ -307,6 +319,16 @@ function applyAmendments(group, { citations, report }) {
     .filter((doi) => !(group.publications ?? []).some((p) => p.doi?.toLowerCase() === doi.toLowerCase()))
     .map((doi) => ({ doi, citation: citations.get(doi.toLowerCase()) ?? `doi:${doi}` }));
   if (newPubs.length) group.publications = [...newPubs, ...(group.publications ?? [])];
+  for (const c of group.collaborators ?? []) {
+    const to = c.name && a.collaboratorNames?.[c.name];
+    if (to) c.name = to;
+  }
+  if (a.dropOutreachKinds && group.outreach) {
+    group.outreach = group.outreach.filter((o) => !o.kinds.some((k) => a.dropOutreachKinds.includes(k)));
+  }
+  if (a.dropTeaching && group.teaching) {
+    group.teaching = group.teaching.filter((e) => !a.dropTeaching.includes(e.es));
+  }
   if (a.projectRoles) for (const p of group.currentProjects ?? []) p.role = a.projectRoles;
   for (const [name, to] of Object.entries(a.memberNames ?? {})) {
     const p = [group.lead, group.coLead, ...group.members].find((m) => m && samePerson(m.name, name));

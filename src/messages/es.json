@@ -206,12 +206,17 @@
       "Prof. Dr. R. Daniel Peluffo — Coordinador",
       "Lic. Ana Egaña — Asistente de coordinación",
       "Lic. Andrea Texo — Ayudante de coordinación",
-      "Bach. Zoraima Artía"
+      "Bach. Zoraima Artía",
+      "Lic. Agustina Añasco Podchibiakin"
     ],
     "cbbContactLabel": "Contacto del CBB",
     "cbbContact": "ciclobiologiabioquimica@gmail.com",
     "lbhTitle": "Licenciatura en Biología Humana",
     "lbh": "La Licenciatura en Biología Humana (LBH) está presente en el CENUR Litoral Norte desde antes de su conformación en 2014, acompañando activamente las etapas de su creación. Es parte del Departamento de Ciencias Biológicas, cuyo Servicio de Referencia Académica es la Facultad de Ciencias. En Paysandú, la LBH trabaja en estrecha relación con los equipos docentes y de investigación del área de la Salud, y se integró al grupo de trabajo que elaboró la propuesta del CIO-Salud del Centro Universitario de Paysandú.",
+    "lbhCoord": [
+      "Dra. Nélida Rodríguez Osorio",
+      "Dra. Ileana Corvo"
+    ],
     "lbhContactLabel": "Contacto de la LBH",
     "lbhContact": "lbh.interior@gmail.com",
     "docenciaTitle": "Docencia",

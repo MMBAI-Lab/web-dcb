@@ -206,12 +206,17 @@
       "Prof. Dr. R. Daniel Peluffo — Coordinator",
       "Lic. Ana Egaña — Coordination assistant",
       "Lic. Andrea Texo — Coordination aide",
-      "Bach. Zoraima Artía"
+      "Bach. Zoraima Artía",
+      "Lic. Agustina Añasco Podchibiakin"
     ],
     "cbbContactLabel": "CBB contact",
     "cbbContact": "ciclobiologiabioquimica@gmail.com",
     "lbhTitle": "Bachelor's in Human Biology",
     "lbh": "The Bachelor's in Human Biology (LBH) has been present at CENUR Litoral Norte since before its formal establishment in 2014, actively accompanying each stage of its creation. It is part of the Department of Biological Sciences, whose Academic Reference unit is Facultad de Ciencias. In Paysandú, the LBH works closely with teaching and research teams in the health field, and joined the working group that drafted the CIO-Salud proposal at the Paysandú University Center.",
+    "lbhCoord": [
+      "Dr. Nélida Rodríguez Osorio",
+      "Dr. Ileana Corvo"
+    ],
     "lbhContactLabel": "LBH contact",
     "lbhContact": "lbh.interior@gmail.com",
     "docenciaTitle": "Teaching",

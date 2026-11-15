@@ -187,6 +187,10 @@ export function Ensenanza() {
           <div className="mt-6 rounded-2xl border border-border bg-surface p-6">
             <h3 className="font-serif text-xl font-medium">{t("lbhTitle")}</h3>
             <p className="mt-3 text-sm leading-relaxed text-foreground/75">{t("lbh")}</p>
+            <h4 className="mt-5 text-sm font-semibold uppercase tracking-wide text-teal">
+              {t("coordTitle")}
+            </h4>
+            <List items={t.raw("lbhCoord") as string[]} />
             <p className="mt-4 text-xs uppercase tracking-wide text-foreground/50">
               {t("lbhContactLabel")}
             </p>

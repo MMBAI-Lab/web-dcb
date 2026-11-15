@@ -189,22 +189,22 @@
       "country": "Uruguay"
     },
     {
-      "name": "Camila García Pintos",
+      "name": "Dra. Camila García Pintos",
       "institution": "Fundación IRAUy",
       "country": "Uruguay"
     },
     {
-      "name": "Alejo Menchaca",
+      "name": "Dr. Alejo Menchaca",
       "institution": "Plataforma de Investigación en Salud Animal, INIA La Estanzuela",
       "country": "Uruguay"
     },
     {
-      "name": "Gabriel Bó",
+      "name": "Dr. Gabriel Bó",
       "institution": "Instituto de Reproducción Animal Córdoba",
       "country": "Argentina"
     },
     {
-      "name": "Milo C. Wiltbank",
+      "name": "Dr. Milo C. Wiltbank",
       "institution": "Department of Animal and Dairy Sciences. University of Wisconsin – Madison, Wisconsin",
       "country": "Estados Unidos"
     },
@@ -231,13 +231,6 @@
     },
     {
       "es": "Teriogenología",
-      "en": "",
-      "levels": [
-        "grado"
-      ]
-    },
-    {
-      "es": "Inmunología básica",
       "en": "",
       "levels": [
         "grado"
