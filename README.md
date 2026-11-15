@@ -162,8 +162,9 @@ Pasos para habilitar Pages en el repo (una sola vez, en GitHub):
 Los grupos y sus integrantes completaron dos formularios de Google
 (generados con `scripts/forms/`). Las respuestas y las fotos subidas viven en
 `data/censo_oct26*/` (fuera de git); cada exportación es un superconjunto de
-la anterior y el script usa la más reciente (`censo_oct26_extension_1`, de
-noviembre). Se vuelcan al sitio con:
+la anterior y el script usa la más reciente (`censo_oct26_extension_2`, de
+noviembre). Si una exportación trae un solo formulario o le faltan fotos, lo
+que falta se toma de la exportación anterior más nueva. Se vuelcan al sitio con:
 
 ```bash
 node scripts/import-censo-oct26.js --dry-run   # reporte, sin escribir
@@ -176,7 +177,10 @@ con relleno ("x", "NNN", "FALTA DESCRIPCION") conserva lo que había. Quienes
 no completaron su ficha siguen en la nómina tal como estaban. Las decisiones
 editoriales (nombres, cargos, qué foto es de quién, recortes) son tablas
 explícitas dentro del script, igual que las bajas (`DEPARTED`), para que
-reimportar nunca devuelva a nadie que se fue. Quedó pendiente:
+reimportar nunca devuelva a nadie que se fue, y las correcciones que los
+grupos mandan después por mail (`AMENDMENTS`: altas, cursos, proyectos,
+publicaciones), que se aplican sobre los formularios en cada corrida.
+Quedó pendiente:
 
 - [ ] **Anatomía** no completó ningún formulario: su página dice "en
       preparación" y todavía no tiene mail de contacto.
@@ -193,7 +197,7 @@ reimportar nunca devuelva a nadie que se fue. Quedó pendiente:
 - [ ] Superan el tope de palabras: resumen de **Virología** (58/50) y de
       **Vectores y Enfermedades Transmitidas** (52/50), panorama de
       **Virología** (105/100) e **Histología** (266/100).
-- [ ] 15 integrantes no completaron la ficha (el `--dry-run` los lista con
+- [ ] 8 integrantes no completaron la ficha (el `--dry-run` los lista con
       "sin ficha de integrante"), entre ellos Peluffo y Keszenman
       (Biofisicoquímica) y Minutti y Hernández Russo (Rumiantes).
 - [ ] Todo el texto nuevo está solo en español: correr

@@ -278,7 +278,7 @@
       ]
     },
     {
-      "es": "PEDECIBA Curso de Bioseguridad y virología (cada dos años).",
+      "es": "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3) (cada dos años)",
       "en": "",
       "levels": [
         "posgrado"
@@ -289,6 +289,27 @@
       "en": "",
       "levels": [
         "otras"
+      ]
+    },
+    {
+      "es": "Biología Molecular. Licenciatura en Biotecnología",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Introducción a las Ciencias Biológicas I y II. Ciclo Biología-Bioquímica",
+      "en": "",
+      "levels": [
+        "grado"
+      ]
+    },
+    {
+      "es": "Seminarios de Introducción a la Biología II, CBB",
+      "en": "",
+      "levels": [
+        "grado"
       ]
     }
   ],

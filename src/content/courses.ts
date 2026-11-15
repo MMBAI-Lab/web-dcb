@@ -105,6 +105,13 @@ export const courseCatalog: CatalogCourse[] = [
     match: /^Introducción a las Ciencias Biológicas/,
   },
   {
+    id: "seminarios-intro-biologia-ii",
+    level: "grado",
+    name: { es: "Seminarios de Introducción a la Biología II", en: "Introduction to Biology II Seminars" },
+    program: CBB,
+    match: /^Seminarios de Introducción a la Biología II/,
+  },
+  {
     id: "intro-microbiologia",
     level: "grado",
     name: { es: "Introducción a la Microbiología", en: "Introduction to Microbiology" },
@@ -176,6 +183,16 @@ export const courseCatalog: CatalogCourse[] = [
     },
     program: { es: "PEDECIBA", en: "PEDECIBA" },
     match: /^Evolución Biológica: Enfoque Multidisciplinario/,
+  },
+  {
+    id: "virologia-bsl3",
+    level: "posgrado",
+    name: {
+      es: "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3)",
+      en: "Virology: epidemiological aspects and the importance of the biosafety level 3 (BSL-3) laboratory",
+    },
+    program: { es: "PEDECIBA · cada dos años", en: "PEDECIBA · every two years" },
+    match: /^Virología: aspectos epidemiológicos/,
   },
   {
     id: "gestacion-oveja",

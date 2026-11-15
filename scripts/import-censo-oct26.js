@@ -10,7 +10,9 @@
 // emails and CV links): the two .xlsx response sheets exported from Forms,
 // plus the Drive upload folders FotosIndividuales/ and CaratulaWeb/. Each
 // later export is a superset of the earlier ones (the forms stayed open), so
-// the default is the latest: censo_oct26_extension_1 (November 2026).
+// the default is the latest: censo_oct26_extension_2 (November 2026). An
+// export may carry only one of the forms: whatever it lacks (a sheet, a photo)
+// is taken from the newest earlier data/censo_oct26*/ that has it.
 //
 // The form is the source of truth for every field a group actually answered.
 // A field left empty, or filled with a placeholder ("x", "NNN", "FALTA
@@ -29,7 +31,18 @@ const ROOT = path.join(__dirname, "..");
 const DIR_ARG = process.argv.find((a) => a.startsWith("--dir="));
 const CENSO = DIR_ARG
   ? path.resolve(DIR_ARG.slice("--dir=".length))
-  : path.join(ROOT, "data", "censo_oct26_extension_1");
+  : path.join(ROOT, "data", "censo_oct26_extension_2");
+// The chosen export first, then every earlier one, newest first.
+const SOURCES = [
+  CENSO,
+  ...fs
+    .readdirSync(path.join(ROOT, "data"))
+    .filter((d) => d.startsWith("censo_oct26"))
+    .map((d) => path.join(ROOT, "data", d))
+    .filter((d) => d !== CENSO && d < CENSO)
+    .sort()
+    .reverse(),
+];
 const GROUPS_DIR = path.join(ROOT, "src", "content", "groups");
 const ASOCIADOS_FILE = path.join(ROOT, "src", "content", "asociados.json");
 const PEOPLE_OUT = path.join(ROOT, "public", "images", "people");
@@ -100,15 +113,20 @@ function readSheet(file) {
 function censoFile(dir, name) {
   const key = (s) => s.normalize("NFC").replace(/[\s  ]+/g, " ");
   const want = key(name);
-  const found = fs.readdirSync(path.join(CENSO, dir)).find((f) => key(f) === want);
-  if (!found) throw new Error(`Missing ${dir}/${name}`);
-  return path.join(CENSO, dir, found);
+  for (const src of SOURCES) {
+    if (!fs.existsSync(path.join(src, dir))) continue;
+    const found = fs.readdirSync(path.join(src, dir)).find((f) => key(f) === want);
+    if (found) return path.join(src, dir, found);
+  }
+  throw new Error(`Missing ${dir}/${name}`);
 }
 
 const sheetPath = (prefix) => {
-  const name = fs.readdirSync(CENSO).find((f) => f.startsWith(prefix) && f.endsWith(".xlsx"));
-  if (!name) throw new Error(`No "${prefix}*.xlsx" in ${CENSO}`);
-  return path.join(CENSO, name);
+  for (const src of SOURCES) {
+    const name = fs.readdirSync(src).find((f) => f.startsWith(prefix) && f.endsWith(".xlsx"));
+    if (name) return path.join(src, name);
+  }
+  throw new Error(`No "${prefix}*.xlsx" in ${SOURCES.join(", ")}`);
 };
 
 // ---------------------------------------------------------------------------
@@ -166,7 +184,122 @@ const DEPARTED = {
   rumiantes: ["Daniel Fernández Abella", "Carolina Realini", "Jorge Gil Laureiro", "Silvia Sterla"],
   "moleculas-bioactivas": ["Tatiana Sapotiti"],
   vyet: ["Sergio Bermúdez", "Valentín Bazzano"],
+  ecologiafluvial: ["Laura Lima", "Hiroyuki Kinoshita", "Sebastián Lucciano", "Ana Lucía Mary"],
 };
+
+// Corrections the groups sent after the forms closed (by email, November
+// 2026). Applied after the forms on every run, and only when not already
+// present, so they survive a re-import of a newer export.
+const VIROLOGIA_BSL3 =
+  "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3) (cada dos años)";
+// People who never sent the person form but whose entry is already current
+// (taken from the group's own website): not reported as missing.
+const ACCEPTED_WITHOUT_FORM = {
+  danslab: ["Leandro Grille", "Gastón Leal"], // from danslab.xyz/members
+};
+
+const AMENDMENTS = {
+  // Listed as a doctoral student only, not under his staff position.
+  danslab: { memberTitles: { "MSc. Rafael Sauto": "Estudiante de Doctorado en Ciencias Agrarias" } },
+  ecologiafluvial: {
+    dropCollaborators: ["Edgardo Bevilaqva", "Patricia Sandes"],
+  },
+  virologiamolec: {
+    // Its short name for the BSL-3 course LIB lists in full.
+    renameTeaching: { "PEDECIBA Curso de Bioseguridad y virología (cada dos años).": VIROLOGIA_BSL3 },
+    addTeaching: [
+      { es: "Biología Molecular. Licenciatura en Biotecnología", levels: ["grado"] },
+      { es: "Introducción a las Ciencias Biológicas I y II. Ciclo Biología-Bioquímica", levels: ["grado"] },
+      { es: "Seminarios de Introducción a la Biología II, CBB", levels: ["grado"] },
+    ],
+  },
+  "inmunologia-biotecnologia": {
+    renameTeaching: {
+      "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3)": VIROLOGIA_BSL3,
+    },
+  },
+  ugb: {
+    addTeaching: [{ es: VIROLOGIA_BSL3, levels: ["posgrado"] }],
+    addProjects: [
+      {
+        title:
+          "Susceptibilidad de las variantes del VIH circulantes en América Latina a anticuerpos ampliamente neutralizantes: implicaciones para la prevención y el tratamiento",
+        funder: "CNPq, Programa PROSUL Pepe Mujica",
+        period: "2026–2030",
+        role: "Integrante del equipo; Daiana Mir, responsable del nodo uruguayo",
+      },
+    ],
+    // Newest first, ahead of the ten chosen in the form.
+    addPublications: ["10.1002/jia2.70157", "10.1016/j.meegid.2026.106047"],
+    // The group's own data for these two wins over their person forms
+    // (full names, co-advisors); the forms still supply photo and links.
+    addMembers: [
+      {
+        name: "Bach. Josefina Peralta Fasana",
+        title: "Estudiante de Licenciatura en Biología Humana",
+        photo: null,
+        thesis: {
+          level: "grado",
+          program: "Licenciatura en Biología Humana, UdelaR",
+          advisors: "Dra. Daiana Mir, Dr. Julio da Luz",
+        },
+      },
+      {
+        name: "Lic. Ricardo Sebastián Chacón Leiva",
+        title: "Estudiante de Maestría en Bioinformática",
+        photo: null,
+        thesis: {
+          level: "maestria",
+          program: "PEDECIBA Bioinformática",
+          advisors: "Dra. Daiana Mir, Dra. Ana María Soler, Dra. Rosa Flieller",
+        },
+      },
+    ],
+  },
+};
+
+function applyAmendments(group, { citations, report }) {
+  const a = AMENDMENTS[group.slug];
+  if (!a) return;
+  if (a.dropCollaborators && group.collaborators) {
+    group.collaborators = group.collaborators.filter(
+      (c) => !c.name || !a.dropCollaborators.some((n) => samePerson(c.name, n))
+    );
+  }
+  if (a.renameTeaching && group.teaching) {
+    for (const e of group.teaching) {
+      const to = a.renameTeaching[e.es];
+      if (to) Object.assign(e, { es: to, en: "" });
+    }
+  }
+  for (const entry of a.addTeaching ?? []) {
+    group.teaching ??= [];
+    if (!group.teaching.some((e) => e.es === entry.es)) group.teaching.push({ es: entry.es, en: "", levels: entry.levels });
+  }
+  for (const project of a.addProjects ?? []) {
+    group.currentProjects ??= [];
+    if (!group.currentProjects.some((p) => p.title === project.title)) group.currentProjects.push(project);
+  }
+  const newPubs = (a.addPublications ?? [])
+    .filter((doi) => !(group.publications ?? []).some((p) => p.doi?.toLowerCase() === doi.toLowerCase()))
+    .map((doi) => ({ doi, citation: citations.get(doi.toLowerCase()) ?? `doi:${doi}` }));
+  if (newPubs.length) group.publications = [...newPubs, ...(group.publications ?? [])];
+  for (const [name, title] of Object.entries(a.memberTitles ?? {})) {
+    const p = [group.lead, group.coLead, ...group.members].find((m) => m && samePerson(m.name, name));
+    if (p) p.title = title;
+    else report.push(`${group.slug}: enmienda para ${name}, que no está en el grupo`);
+  }
+  for (const person of a.addMembers ?? []) {
+    const roster = [group.lead, group.coLead, ...group.members].filter(Boolean);
+    const found = roster.find((p) => samePerson(p.name, person.name));
+    if (found) {
+      Object.assign(found, { name: person.name, title: person.title, thesis: person.thesis });
+      continue;
+    }
+    group.members.push(structuredClone(person));
+    report.push(`${group.slug}: nuevo integrante ${person.name} (enmienda)`);
+  }
+}
 
 // Exact strings the forms still use for the group renamed after the census
 // (Virología Molecular -> Virología), fixed wherever they land.
@@ -179,6 +312,8 @@ const TEXT_FIXES = [
 // academic prefix the site already showed when they left it out, and fixes
 // casing and accents. Anything not listed is published as typed.
 const NAMES = {
+  "Tec. Anna Lucia Feris": "Tec. Anna Lucía Feris",
+  "Lucia Uruzula": "Lucía Uruzula",
   "Renata Luisa Bona": "Dra. Renata Luisa Bona",
   "Ivana Silva Fripp": "MSc. Ivana Silva Fripp",
   "Macarena Menoni": "Lic. Macarena Menoni",
@@ -233,6 +368,7 @@ const NAMES = {
 
 // Positions whose wording the generic normalizer below can't fix.
 const TITLES = {
+  "Asistente Gdo 2,30 hs/sem": "Asistente (Gdo 2, 30 hs/sem)",
   "Grado 5, 40 horas semanales, DT": "Profesor Titular (Gdo 5, 40 hs/sem, DT)",
   "Gdo 2, 40hs/sem, DT": "Asistente (Gdo 2, 40 hs/sem, DT)",
   "Gdo 2, 40 hs/sem, DT": "Asistente (Gdo 2, 40 hs/sem, DT)",
@@ -300,6 +436,7 @@ function normalizeTitle(raw) {
 
 // Thesis program/advisor fixes (typos, a missing program).
 const PROGRAMS = {
+  "Pamela Gutiérrez Sena": "Doctorado en Ciencias Agrarias, EEMAC, Facultad de Agronomía",
   "pablo alcoba": "Licenciatura en Biología Humana, CENUR Litoral Norte",
   "Elsa Josefa Gonzalez Heit": "Maestría en Ciencias Biológicas, PEDECIBA Biología, Facultad de Ciencias",
   "MSc. Nadia Kacevas": "PEDECIBA Biología",
@@ -337,6 +474,11 @@ const INTERNSHIP = "Sí — pasantía";
 // Uploaded portrait for each person-form row (Drive names files
 // "<original> - <uploader>", and some people uploaded for others).
 const PHOTOS = {
+  "Tec. Anna Lucia Feris": "AnnaLuciaFeris - Anna Feris.jpg",
+  "Lucia Uruzula": "Lucia Uruzula - Lucia Uruzula.jpeg",
+  "Pamela Gutiérrez Sena": "foto carnet Pame - Pamela Gutiérrez Sena.jpg",
+  "Bioq. Ricardo Chacón": "RicardoChacon - Sebastian Chacon.jpeg",
+  "Bach. Josefina Peralta": "cvuy - Josefina Peralta Fasana.jpg",
   "Renata Luisa Bona": "RenataBona - Renata Bona.jpeg",
   "Ivana Silva Fripp": "Ivana Silva - Ivana Silva.png",
   "Ing. Tec. Marcos Grilli": "MarcosGrilli - Marcos Grilli.jpg",
@@ -873,6 +1015,8 @@ async function main() {
       photoJobs.push({ src: censoFile("CaratulaWeb", COVERS[slug]), out: groups[slug].image, cover: true });
     }
   }
+  for (const g of Object.values(groups)) applyAmendments(g, { citations, report });
+
   // Groups that didn't send the group form keep their old Wix cover.
   for (const g of Object.values(groups)) {
     if (!g.image && fs.existsSync(path.join(COVERS_OUT, `${g.slug}.jpg`))) g.image = `/images/groups/${g.slug}.jpg`;
@@ -883,9 +1027,10 @@ async function main() {
     report.push(`${slug}: no envió el formulario de grupo`);
   }
   for (const g of Object.values(groups)) {
-    const answered = new Set((respondents.get(g.slug) ?? []).map((p) => p.name));
+    // By person, not exact name: an amendment may have renamed a respondent.
+    const answered = [...(respondents.get(g.slug) ?? []).map((p) => p.name), ...(ACCEPTED_WITHOUT_FORM[g.slug] ?? [])];
     for (const p of [g.lead, g.coLead, ...g.members]) {
-      if (p && !answered.has(p.name)) report.push(`${g.slug}: ${p.name} sin ficha de integrante`);
+      if (p && !answered.some((n) => samePerson(n, p.name))) report.push(`${g.slug}: ${p.name} sin ficha de integrante`);
     }
   }
   const words = (s) => (s ?? "").split(/\s+/).filter(Boolean).length;

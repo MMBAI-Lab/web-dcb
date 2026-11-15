@@ -116,14 +116,18 @@
   },
   "members": [
     {
-      "name": "Lic. Ana Lucía Mary",
-      "title": "Asistente (Gdo 2, 20 hs/sem)",
-      "photo": "/images/people/ana-lucia-mary.jpg"
-    },
-    {
-      "name": "Bach. Anna Lucía Feris",
+      "name": "Tec. Anna Lucía Feris",
       "title": "Ayudante (Gdo 1, 20 hs/sem)",
-      "photo": "/images/people/anna-lucia-feris.jpg"
+      "photo": "/images/people/anna-lucia-feris.jpg",
+      "thesis": {
+        "level": "grado",
+        "program": "Licenciatura en Análisis Alimentario, UTEC",
+        "advisors": "Dr. Iván Gonzalez-Bergonzoni, Lic. Valentina Bartaburu, Ing. Silvina Salgado"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?d868769df42e946b7af5af7a53658838",
+        "profile": "https://www.researchgate.net/profile/Anna-Feris?ev=hdr_xprf"
+      }
     },
     {
       "name": "MSc. Ivana Silva Fripp",
@@ -209,18 +213,6 @@
       "title": "Estudiante de Posgrado, PEDECIBA-Biología"
     },
     {
-      "name": "Lic. Laura Lima",
-      "title": "Estudiante de Maestría, PEDECIBA-Biología"
-    },
-    {
-      "name": "Bach. Hiroyuki Kinoshita",
-      "title": "Tesista de Grado, Licenciatura en Ciencias Biológicas"
-    },
-    {
-      "name": "Bach. Sebastián Lucciano",
-      "title": "Tesista de Grado, Licenciatura en Ciencias Biológicas"
-    },
-    {
       "name": "Elías José Brum Vega",
       "title": "Ayudante (Gdo 1, 10 hs/sem)",
       "photo": "/images/people/elias-jose-brum-vega.jpg",
@@ -254,6 +246,27 @@
         "cvuy": "https://exportcvuy.anii.org.uy/CvEstatico/?urlId=1787310d45b1df65c0352b0d61346fb9686b98793b4ba103f77494f42170f642d4dbd149edeaca1dc8c74dafd7e33596d0fc3b0c82c054f3dba8fe034f9dfe65&formato=pdf&convocatoria=21",
         "profile": "https://www.researchgate.net/profile/Franca-Stabile-4/research"
       }
+    },
+    {
+      "name": "Lucía Uruzula",
+      "title": "Ayudante (Gdo 1, 20 hs/sem)",
+      "photo": "/images/people/lucia-uruzula.jpg",
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?a72d550afd3f83fe264cc74c1d614ef6"
+      }
+    },
+    {
+      "name": "Pamela Gutiérrez Sena",
+      "title": "Asistente (Gdo 2, 30 hs/sem)",
+      "photo": "/images/people/pamela-gutierrez-sena.jpg",
+      "thesis": {
+        "level": "doctorado",
+        "program": "Doctorado en Ciencias Agrarias, EEMAC, Facultad de Agronomía",
+        "advisors": "Dr. Sebastián Mazzilli, Dr. Iván González Bergonzoni"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?3cd5df634af76bd218f8155c97f5e9ca82d0e37a97ce7047a79e3949bce442c02ac25a6133d50d8c10f1dd7b16da99943fbead5492e88cea3b1a5ef89d87f584"
+      }
     }
   ],
   "collaborators": [
@@ -263,14 +276,6 @@
     },
     {
       "name": "MSc. Sofia Acosta",
-      "institution": ""
-    },
-    {
-      "name": "MSc. Patricia Sandes",
-      "institution": ""
-    },
-    {
-      "name": "Lic. Edgardo Bevilaqva",
       "institution": ""
     }
   ],

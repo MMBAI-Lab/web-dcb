@@ -119,6 +119,29 @@
         "cvuy": "https://exportcvuy.anii.org.uy//cv/?a2e08ddb672578ea02b810a15f4e2c84",
         "profile": "https://orcid.org/0009-0000-5086-9239"
       }
+    },
+    {
+      "name": "Bach. Josefina Peralta Fasana",
+      "title": "Estudiante de Licenciatura en Biología Humana",
+      "photo": "/images/people/josefina-peralta.jpg",
+      "thesis": {
+        "level": "grado",
+        "program": "Licenciatura en Biología Humana, UdelaR",
+        "advisors": "Dra. Daiana Mir, Dr. Julio da Luz"
+      },
+      "links": {
+        "cvuy": "https://exportcvuy.anii.org.uy/cv/?bf516fa2ccfdf5ad3f35d75b7c54dab5"
+      }
+    },
+    {
+      "name": "Lic. Ricardo Sebastián Chacón Leiva",
+      "title": "Estudiante de Maestría en Bioinformática",
+      "photo": "/images/people/bioq-ricardo-chacon.jpg",
+      "thesis": {
+        "level": "maestria",
+        "program": "PEDECIBA Bioinformática",
+        "advisors": "Dra. Daiana Mir, Dra. Ana María Soler, Dra. Rosa Flieller"
+      }
     }
   ],
   "collaborators": [
@@ -172,6 +195,14 @@
     }
   ],
   "publications": [
+    {
+      "doi": "10.1002/jia2.70157",
+      "citation": "Podchibiakin AA, Flieller R, Ruchansky D, Brasesco M, Cortinas MN, Lizasoain A, et al. Nationwide molecular epidemiology of HIV‐1 in Uruguay (2007–2021): lineage diversity, BF1 recombinant complexity and epidemiological patterns. Journal of the International AIDS Society. 2026;29(S3). https://doi.org/10.1002/jia2.70157"
+    },
+    {
+      "doi": "10.1016/j.meegid.2026.106047",
+      "citation": "Podchibiakin AA, Arantes I, Flieller R, Ruchansky D, Brasesco M, Chiparelli H, et al. Spatiotemporal analysis of HIV-1 subtype B transmission networks in Uruguay. Infection, Genetics and Evolution. 2026;145:106047. https://doi.org/10.1016/j.meegid.2026.106047"
+    },
     {
       "doi": "10.1016/j.theriogenology.2026.118146",
       "citation": "Reyes-Ábalos AL, Barcelona B, Rodríguez-Osorio N, Báez F. Stage-dependent ultrastructural remodeling of the zona pellucida of in vitro-produced bovine embryos. Theriogenology. 2026;266:118146. https://doi.org/10.1016/j.theriogenology.2026.118146"
@@ -243,6 +274,12 @@
       "funder": "Fondo vaz Ferreira",
       "period": "2024-2026",
       "role": "Responsable"
+    },
+    {
+      "title": "Susceptibilidad de las variantes del VIH circulantes en América Latina a anticuerpos ampliamente neutralizantes: implicaciones para la prevención y el tratamiento",
+      "funder": "CNPq, Programa PROSUL Pepe Mujica",
+      "period": "2026–2030",
+      "role": "Integrante del equipo; Daiana Mir, responsable del nodo uruguayo"
     }
   ],
   "teaching": [
@@ -328,6 +365,13 @@
       "en": "",
       "levels": [
         "otras"
+      ]
+    },
+    {
+      "es": "Virología: aspectos epidemiológicos y la importancia del laboratorio de bioseguridad de nivel 3 (BSL-3) (cada dos años)",
+      "en": "",
+      "levels": [
+        "posgrado"
       ]
     }
   ],
