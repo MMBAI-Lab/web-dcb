@@ -136,6 +136,120 @@ Pasos para habilitar Pages en el repo (una sola vez, en GitHub):
 1. Settings → Pages → Source: **GitHub Actions**.
 2. Hacer push a `main` (o disparar el workflow manualmente).
 
+## Migración al servidor del CENUR (planificada)
+
+El sitio deja GitHub Pages y pasa a un servidor Linux del CENUR Litoral
+Norte, con su dominio propio: **https://dcb.litoralnorte.udelar.edu.uy**.
+GitHub sigue siendo la fuente del código; el servidor solo sirve los
+archivos estáticos de `out/` (no necesita Node para eso).
+
+### 0. Espejo en el GitLab del Interior
+
+El repo también vive en el GitLab de la Red de Unidades Informáticas del
+Interior: `git@git.interior.edu.uy:pdans/web-dcb.git` (web:
+https://git.interior.edu.uy; ojo, *no* `git.interior.udelar.edu.uy`, que no
+existe). Ambos repos se mantienen iguales con un `origin` de push doble,
+configurado una vez en cada máquina desde la que se hace push:
+
+```bash
+git remote set-url --add --push origin https://github.com/MMBAI-Lab/web-dcb.git
+git remote set-url --add --push origin git@git.interior.edu.uy:pdans/web-dcb.git
+git remote add cenur git@git.interior.edu.uy:pdans/web-dcb.git   # para consultarlo aparte
+```
+
+Así `git push` sube a los dos; `git pull` sigue bajando de GitHub. Requiere
+la clave SSH de la máquina cargada en GitLab (Preferences → SSH Keys). El
+servidor del CENUR puede tomar el código de este GitLab en el paso 3.
+
+### 1. Relevar el servidor
+
+Antes de tocar nada, averiguar en el servidor:
+
+```bash
+cat /etc/os-release                      # distribución y versión
+nginx -v; apache2 -v; httpd -v           # qué servidor web hay (alguno fallará)
+ls /etc/nginx/sites-enabled /etc/apache2/sites-enabled 2>/dev/null
+node -v; git --version                   # opcionales
+curl -sI https://graph.instagram.com | head -1     # ¿sale a internet?
+curl -sI https://www.youtube.com | head -1
+ls /etc/letsencrypt/live 2>/dev/null     # ¿certificado HTTPS existente?
+```
+
+Y con el área de informática del CENUR: si GitHub Actions puede entrar por
+SSH al servidor desde afuera (define el paso 3), en qué carpeta se publica
+el sitio y con qué usuario.
+
+### 2. Cambios en el repositorio
+
+- [ ] Quitar `NEXT_PUBLIC_BASE_PATH: /web-dcb` de
+      `.github/workflows/deploy.yml`: en el dominio propio el sitio vive en
+      la raíz.
+- [ ] Reemplazar los pasos de GitHub Pages del workflow por el deploy al
+      servidor (paso 3) y desactivar Pages en Settings → Pages.
+- [ ] Actualizar en este README las menciones a GitHub Pages y a
+      `MMBAI-Lab.github.io/web-dcb`.
+
+### 3. Cómo llega el sitio al servidor
+
+Según lo que permita la red del CENUR:
+
+- **Si GitHub puede entrar por SSH (preferido):** el workflow compila y
+  copia `out/` con `rsync` en cada push a `main`. Requiere una clave
+  SSH de deploy (solo para ese usuario y esa carpeta) guardada como secreto
+  del repositorio.
+- **Si no se puede entrar desde afuera:** el workflow publica `out/`
+  compilado en una rama (p. ej. `deploy`) y un `cron` del servidor hace
+  `git pull` de esa rama cada pocos minutos. Tampoco requiere Node en el
+  servidor.
+
+### 4. Configuración del servidor web
+
+- [ ] Raíz del sitio apuntando a la carpeta donde queda `out/`.
+- [ ] Redirección `/` → `/es/` en el servidor (hoy la hace el navegador
+      en `src/app/page.tsx`, porque Pages no permite redirecciones).
+- [ ] URLs con barra final (`trailingSlash: true` en `next.config.ts`):
+      `/es/contacto` debe redirigir a `/es/contacto/`.
+- [ ] Página de error: `out/404.html`.
+- [ ] HTTPS (Let's Encrypt si no hay certificado) y redirección de HTTP a
+      HTTPS.
+- [ ] Cache largo para `/_next/static/` (los nombres de archivo cambian en
+      cada build) y corto para el HTML.
+- [ ] Redirigir las URLs conocidas del sitio de Wix a sus equivalentes
+      nuevas, si había enlaces externos a ellas.
+
+Ejemplo para nginx (ajustar rutas):
+
+```nginx
+server {
+    server_name dcb.litoralnorte.udelar.edu.uy;
+    root /var/www/dcb;               # contenido de out/
+    error_page 404 /404.html;
+
+    location = / { return 302 /es/; }
+    location /_next/static/ { expires 1y; add_header Cache-Control "public, immutable"; }
+    location / { try_files $uri $uri/ $uri.html =404; }
+}
+```
+
+### 5. Después de la migración: Noticias (Instagram) y Videos (YouTube)
+
+Con el servidor propio, ambas se resuelven sin recompilar el sitio: un
+`cron` del servidor baja los datos a una carpeta pública
+(`/datos/noticias.json`, `/datos/videos.json` e imágenes) y las páginas
+Noticias y Videos los leen al abrirse.
+
+- **Videos:** el canal de YouTube publica la lista de sus últimos 15 videos
+  sin clave; el cron va acumulando los nuevos. Para traer el historial
+  completo una vez, usar una clave gratuita de la YouTube Data API.
+  Necesario: el link del canal.
+- **Noticias:** la cuenta de Instagram del DCB tiene que ser *profesional*
+  (Empresa o Creador) y hace falta una app en developers.facebook.com con
+  "Instagram API con inicio de sesión de Instagram" y su token. El token
+  vence a los 60 días: el cron lo renueva y lo guarda en un archivo del
+  servidor, fuera de la carpeta pública. Las imágenes se descargan porque
+  los links de Instagram vencen.
+- Ambas requieren que el servidor pueda salir a internet (paso 1).
+
 ## Próximos pasos
 
 - [x] Completar `about`, `research`, `teaching`, `staff`, `contact` en
@@ -202,6 +316,21 @@ Quedó pendiente:
       (Biofisicoquímica) y Hernández Russo (Rumiantes).
 - [ ] Todo el texto nuevo está solo en español: correr
       `node scripts/report-missing-translations.js` para la pasada de inglés.
+
+### Presentación del censo
+
+`scripts/presentacion/` arma una presentación (.pptx) con las cifras del
+censo, con los colores y el logo del DCB. Lee el mismo contenido que publica
+el sitio, más una lista de género revisada a mano (el formulario no lo
+preguntaba), que vive fuera de git:
+
+```bash
+cd scripts/presentacion && npm install && cd ../..   # pptxgenjs, solo para esto
+node scripts/presentacion/proponer-genero.js         # propone data/presentacion/genero.csv
+# revisar y corregir el CSV (columna genero: F, M o ?)
+npm run build                                        # los totales de cursos salen de out/
+node scripts/presentacion/generar.js                 # data/presentacion/DCB-censo-2026.pptx
+```
 
 ### Pendiente en la solapa Enseñanza
 
